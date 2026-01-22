@@ -40,7 +40,7 @@ export default function YoutubeCarousel({ videos = [] }) {
           }}
           loop={true}
           autoplay={{
-            delay: 400000,
+            delay: 5000,
             disableOnInteraction: false,
           }}
           className="w-full h-50 md:h-62.5"

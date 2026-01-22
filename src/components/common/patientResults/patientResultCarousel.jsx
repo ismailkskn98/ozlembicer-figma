@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -57,12 +57,17 @@ export default function PatientResultCarousel() {
     return (
         <div className='w-full flex flex-col items-center justify-center'>
             <Swiper
-                modules={[Navigation]}
+                modules={[Navigation, Autoplay]}
                 spaceBetween={50}
                 slidesPerView={3}
                 centeredSlides={true}
                 centeredSlidesBounds={true}
                 navigation={{ prevEl: '#patient-prev', nextEl: '#patient-next' }}
+                loop={true}
+                autoplay={{
+                    delay: 5000,
+                    disableOnInteraction: false,
+                }}
                 className='w-full'
             >
                 {carouselItems.map((item, index) => (
