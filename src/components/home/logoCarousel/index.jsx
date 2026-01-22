@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroCards from './heroCards'
 import LogoCarousel from '@/components/ui/logo-carousel'
+import MotionScrollInView from '@/components/common/motionScrollInView'
 
 const logoImages = [
     { src: '/images/logoCarousel/logo-1.png', alt: 'Logo 1' },
@@ -35,9 +36,11 @@ export default function HeroLogoCarousel() {
     return (
         <section className='fluid gridContainer relative w-full pt-32.5 pb-15 px-30 bg-linear-to-t from-ivory-soft to-stone-beige'>
             <HeroCards />
-            <div className='w-full max-w-300 mx-auto flex flex-col items-center gap-7.5'>
-                <p className='text-center text-[20px] text-coffee-dark'><span className='font-bold'>Trusted by Leading Associations</span> Worldwide</p>
-                <LogoCarousel logos={logoImages} columnCount={4} />
+            <div className='w-full max-w-300 mx-auto'>
+                <MotionScrollInView className="w-full flex flex-col items-center gap-7.5">
+                    <p className='text-center text-[20px] text-coffee-dark'><span className='font-bold'>Trusted by Leading Associations</span> Worldwide</p>
+                    <LogoCarousel logos={logoImages} columnCount={4} />
+                </MotionScrollInView>
             </div>
         </section>
     )
