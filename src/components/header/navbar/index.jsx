@@ -19,45 +19,45 @@ export default function Navbar() {
             item: 'Transplantation',
             links: [
                 {
-                    href: '/about-us',
+                    href: '#',
                     label: 'Hair Transplant',
                     submenu: [
-                        { href: '/hair-transplant', label: 'FUT technique' },
-                        { href: '/hair-transplant', label: 'FUE Micromotor technique' },
-                        { href: '/hair-transplant', label: 'FUE Manuel technique' },
+                        { href: '#', label: 'FUT technique' },
+                        { href: '#', label: 'FUE Micromotor technique' },
+                        { href: '#', label: 'FUE Manuel technique' },
                     ],
                 },
-                { href: '/clinic-and-team', label: 'Hair Transplantat' },
-                { href: '/clinic-and-team', label: 'Beard Transplantation' },
-                { href: '/who-is-ozlem-bicer', label: 'Eyebrow Transplant' },
-                { href: '/clinic-and-team', label: 'Long Hair Unshaven' },
-                { href: '/clinic-and-team', label: 'Eyebrow Transplant' },
-                { href: '/clinic-and-team', label: 'Women Transplant' },
-                { href: '/price', label: 'Price' },
+                { href: '#', label: 'Hair Transplantat' },
+                { href: '#', label: 'Beard Transplantation' },
+                { href: '#', label: 'Eyebrow Transplant' },
+                { href: '#', label: 'Long Hair Unshaven' },
+                { href: '#', label: 'Eyebrow Transplant' },
+                { href: '#', label: 'Women Transplant' },
+                { href: '#', label: 'Price' },
             ],
         },
         {
             item: 'Guides',
             links: [
-                { href: '/who-is-ozlem-bicer', label: 'Hair Loss' },
-                { href: '/clinic-and-team', label: 'Hair Loss In Women' },
-                { href: '/clinic-and-team', label: 'Hair Mesotherapy' },
-                { href: '/clinic-and-team', label: 'PRP' },
-                { href: '/clinic-and-team', label: 'Norwood scale' },
-                { href: '/clinic-and-team', label: 'Reconstruction Hair Transplantation' },
-                { href: '/price', label: 'Shock Loss' },
+                { href: '#', label: 'Hair Loss' },
+                { href: '#', label: 'Hair Loss In Women' },
+                { href: '#', label: 'Hair Mesotherapy' },
+                { href: '#', label: 'PRP' },
+                { href: '#', label: 'Norwood scale' },
+                { href: '#', label: 'Reconstruction Hair Transplantation' },
+                { href: '#', label: 'Shock Loss' },
             ],
         },
         {
             item: 'Gallery',
             links: [
-                { href: '/who-is-ozlem-bicer', label: 'Before & After' },
-                { href: '/clinic-and-team', label: 'Patient Results' },
-                { href: '/clinic-and-team', label: 'Patient Reviews' },
-                { href: '/clinic-and-team', label: 'Interview' },
+                { href: '#', label: 'Before & After' },
+                { href: '#', label: 'Patient Results' },
+                { href: '#', label: 'Patient Reviews' },
+                { href: '#', label: 'Interview' },
             ],
         },
-        { item: 'Contact Us', href: '#' }
+        { item: 'Contact Us', href: '/contact-us' }
     ];
     return (
         <nav className='w-full flex items-center text-nowrap bg-transparent text-ivory-soft text-sm capitalize'>
