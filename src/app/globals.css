@@ -12,6 +12,14 @@
   --color-ivory-soft: #eee6db;
 }
 
+:root {
+  --color-coffee-dark: #261212;
+  --color-stone-beige: #b2a99d;
+  --color-gold: #b99f6c;
+  --color-wine-brown: #3d1d1d;
+  --color-ivory-soft: #eee6db;
+}
+
 html {
   scroll-behavior: smooth;
   scrollbar-gutter: stable;
@@ -57,12 +65,12 @@ html.lenis body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--logo-light-blue);
+  background: var(--color-coffee-dark);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--logo-dark-blue);
+  background: var(--color-wine-brown);
 }
 
 @utility gridContainer {

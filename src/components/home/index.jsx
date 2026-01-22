@@ -4,6 +4,7 @@ import HeroLogoCarousel from './logoCarousel'
 import VideosTutorials from '../videosTutorials'
 import TitleImages from './titleImages'
 import PatientResults from '../patientResults'
+import AestheticAndArt from './aestheticAndArt'
 
 export default function HomeMain({ videos }) {
     return (
@@ -14,6 +15,7 @@ export default function HomeMain({ videos }) {
                 <VideosTutorials videos={videos} />
                 <TitleImages />
                 <PatientResults />
+                <AestheticAndArt />
             </div>
         </main>
     )
