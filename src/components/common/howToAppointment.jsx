@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import MotionScrollInView from '../common/motionScrollInView'
-import MotionScrollInViewVariant from '../common/motionScrollInViewVariant'
+import MotionScrollInView from './motionScrollInView'
+import MotionScrollInViewVariant from './motionScrollInViewVariant'
 
 export default function HowToAppointment() {
     return (

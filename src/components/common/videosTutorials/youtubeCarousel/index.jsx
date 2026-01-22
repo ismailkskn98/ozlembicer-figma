@@ -17,7 +17,7 @@ export default function YoutubeCarousel({ videos = [] }) {
 
   return (
     <main className="relative fluid gridContainer">
-      <section className="w-full max-w-262 flex flex-col items-center justify-center gap-7">
+      <section className="w-full max-w-262 mx-auto flex flex-col items-center justify-center gap-7">
         <Swiper
           modules={[Autoplay, Navigation]}
           spaceBetween={75}

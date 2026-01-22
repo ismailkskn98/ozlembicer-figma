@@ -5,7 +5,7 @@ import VideosTutorials from '../common/videosTutorials'
 import TitleImages from './titleImages'
 import PatientResults from '../common/patientResults'
 import AestheticAndArt from './aestheticAndArt'
-import HowToAppointment from './howToAppointment'
+import HowToAppointment from '../common/howToAppointment'
 
 export default function HomeMain({ videos }) {
     return (

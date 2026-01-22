@@ -5,7 +5,8 @@ import React from 'react'
 
 export default function OzlemBicerHero() {
     return (
-        <main className='fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-50'>
+        <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-50'>
+            <div className='bg-[url("/images/footer-bg-pattern.png")] bg-center bg-repeat absolute inset-0 w-full h-full fluid z-10 pointer-events-none select-none opacity-[0.02]' />
             <section className='w-full max-w-6xl mx-auto flex items-center justify-between gap-6'>
                 <MotionLeftView className="w-full max-w-140.5">
                     <article className='w-full max-w-140.5 flex flex-col items-start gap-7.5 text-ivory-soft'>
