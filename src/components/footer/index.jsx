@@ -10,7 +10,7 @@ export default function Footer() {
     return (
         <footer className='fluid gridContainer w-full'>
             <section className='fluid gridContainer w-full bg-coffee-dark py-5.25 border-y border-gold min-h-75'>
-                <main className='w-full flex items-start justify-between my-auto'>
+                <main className='w-full max-w-6xl mx-auto flex items-start justify-between my-auto'>
                     <article className='w-full max-w-sm flex flex-col items-start'>
                         <Image src='/images/logo.jpg' alt='Dr.Bicer Logo' width={250} height={70} className='object-contain object-center w-fit h-14.75' />
                         <div className='w-full flex flex-col gap-4 mt-5'>

@@ -5,6 +5,7 @@ import VideosTutorials from '../videosTutorials'
 import TitleImages from './titleImages'
 import PatientResults from '../patientResults'
 import AestheticAndArt from './aestheticAndArt'
+import HowToAppointment from './howToAppointment'
 
 export default function HomeMain({ videos }) {
     return (
@@ -16,6 +17,7 @@ export default function HomeMain({ videos }) {
                 <TitleImages />
                 <PatientResults />
                 <AestheticAndArt />
+                <HowToAppointment />
             </div>
         </main>
     )
