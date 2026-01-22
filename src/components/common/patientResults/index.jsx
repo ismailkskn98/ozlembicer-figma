@@ -1,6 +1,6 @@
 import React from 'react'
 import PatientResultCarousel from './patientResultCarousel'
-import MotionScrollInView from '../common/motionScrollInView'
+import MotionScrollInView from '../motionScrollInView'
 
 export default function PatientResults() {
     return (

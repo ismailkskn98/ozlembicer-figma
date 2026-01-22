@@ -1,6 +1,6 @@
 import React from 'react'
 import YoutubeCarousel from './youtubeCarousel'
-import MotionScrollInView from '../common/motionScrollInView'
+import MotionScrollInView from '../motionScrollInView'
 
 export default function VideosTutorials({ videos }) {
     return (

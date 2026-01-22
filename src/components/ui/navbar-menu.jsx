@@ -110,7 +110,7 @@ export const Menu = ({
       <article
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="relative rounded-full border border-transparent shadow-input flex justify-center gap-6 py-6">
+        className="relative rounded-full border border-transparent shadow-input flex justify-center py-6">
         {children}
       </article>
     </MenuHoverContext.Provider>

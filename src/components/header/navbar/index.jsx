@@ -9,7 +9,7 @@ export default function Navbar() {
         {
             item: 'About Us',
             links: [
-                { href: '#', label: 'Dr. Ozlem Bicer' },
+                { href: '/about-us/dr-ozlem-bicer', label: 'Dr. Ozlem Bicer' },
                 { href: '#', label: 'Clinic & Team' },
                 { href: '#', label: 'Pricing' },
             ],

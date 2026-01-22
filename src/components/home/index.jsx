@@ -1,9 +1,9 @@
 import React from 'react'
 import Hero from './hero'
-import HeroLogoCarousel from './logoCarousel'
-import VideosTutorials from '../videosTutorials'
+import HeroLogoCarousel from '../common/logoCarousel'
+import VideosTutorials from '../common/videosTutorials'
 import TitleImages from './titleImages'
-import PatientResults from '../patientResults'
+import PatientResults from '../common/patientResults'
 import AestheticAndArt from './aestheticAndArt'
 import HowToAppointment from './howToAppointment'
 
@@ -11,7 +11,9 @@ export default function HomeMain({ videos }) {
     return (
         <main className='w-full gridContainer'>
             <Hero />
-            <HeroLogoCarousel />
+            <div className='fluid gridContainer w-full bg-linear-to-t from-ivory-soft to-stone-beige'>
+                <HeroLogoCarousel />
+            </div>
             <div className='fluid gridContainer bg-linear-to-b from-stone-beige to-ivory-soft'>
                 <VideosTutorials videos={videos} />
                 <TitleImages />

@@ -34,7 +34,7 @@ const logoImages = [
 
 export default function HeroLogoCarousel() {
     return (
-        <section className='fluid gridContainer relative w-full pt-32.5 pb-15 px-30 bg-linear-to-t from-ivory-soft to-stone-beige'>
+        <section className='fluid gridContainer relative w-full pt-32.5 pb-15 px-30'>
             <HeroCards />
             <div className='w-full max-w-300 mx-auto'>
                 <MotionScrollInView className="w-full flex flex-col items-center gap-7.5">
