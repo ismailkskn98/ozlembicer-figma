@@ -51,7 +51,7 @@ const LogoColumn = React.memo(({ logos, index, currentTime }) => {
   return (
     // Framer Motion component for the column container
     <motion.div
-      className="w-[250px] h-24 overflow-hidden relative"
+      className="w-62.5 h-24 overflow-hidden relative"
       // Start invisible and below final position
       initial={{ opacity: 0, y: 50 }}
       // Animate to full opacity and final position
