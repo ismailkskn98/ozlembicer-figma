@@ -1,7 +1,10 @@
 import React from 'react'
+import ContactCards from './contactCards'
 
 export default function ContactMain() {
     return (
-        <div>ContactMain</div>
+        <>
+            <ContactCards />
+        </>
     )
 }

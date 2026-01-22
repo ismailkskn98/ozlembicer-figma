@@ -10,8 +10,8 @@ export default function Navbar() {
             item: 'About Us',
             links: [
                 { href: '/about-us/dr-ozlem-bicer', label: 'Dr. Ozlem Bicer' },
-                { href: '#', label: 'Clinic & Team' },
-                { href: '#', label: 'Pricing' },
+                { href: '/about-us/clinic-team', label: 'Clinic & Team' },
+                { href: '/about-us/pricing', label: 'Pricing' },
             ],
         },
         { item: 'Hair Loss', href: '#' },
@@ -63,7 +63,7 @@ export default function Navbar() {
         <nav className='w-full flex items-center text-nowrap bg-transparent text-ivory-soft text-sm capitalize'>
             <Menu setActive={setActive}>
                 {menu.map((item) => (
-                    <MenuItem key={item.item} setActive={setActive} active={active} item={item.item} className={'cursor-pointer relative hover:bg-wine-brown px-3.75 py-2.5 rounded-[10px] transition-all duration-200'}>
+                    <MenuItem key={item.item} setActive={setActive} active={active} item={item.item} isLinks={item.links} href={item.href} className={'cursor-pointer relative hover:bg-wine-brown px-3.75 py-2.5 rounded-[10px] transition-all duration-200'}>
                         <div className="flex flex-col text-sm bg-transparent rounded-[10px] capitalize">
                             {item.links && item.links.length > 0 && item.links.map((link, idx) => link.submenu ? (
                                 <NestedHoveredLink
@@ -92,9 +92,6 @@ export default function Navbar() {
                     </MenuItem>
                 ))}
             </Menu>
-            {/* <Link href="/contact-us" className='relative hover:bg-wine-brown px-3.75 py-2.5 rounded-[10px] transition-all duration-200'>
-                Contact Us
-            </Link> */}
         </nav>
     )
 }

@@ -27,17 +27,31 @@ export const MenuItem = ({
   active,
   item,
   className,
+  isLinks,
+  href,
   children
 }) => {
   const hoverCtx = React.useContext(MenuHoverContext);
   return (
     <div className="relative">
-      <motion.p
-        onMouseEnter={() => setActive(item)}
-        transition={{ duration: 0.3 }}
-        className={cn('', className)}>
-        {item}
-      </motion.p>
+      {isLinks ? (
+        <motion.p
+          onMouseEnter={() => setActive(item)}
+          transition={{ duration: 0.3 }}
+          className={cn('', className)}>
+          {item}
+        </motion.p>
+      ) : (
+        <Link
+          href={href || '#'}
+          className={cn('block', className)}
+          onMouseEnter={(e) => {
+            setActive(item);
+            e.preventDefault();
+          }}>
+          {item}
+        </Link>
+      )}
       {active !== null && (
         <motion.div
           initial={{ opacity: 0, y: 10 }}
