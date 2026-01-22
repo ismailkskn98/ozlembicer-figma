@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import PhotoGallery from './clinicGallery'
+import MotionRightView from '@/components/common/motionRightView'
+import MotionLeftView from '@/components/common/motionLeftView'
 
 export default function Clinic() {
     return (
@@ -8,10 +10,12 @@ export default function Clinic() {
             <main className='w-full max-w-6xl mx-auto flex flex-col items-start gap-4'>
                 <h2 className='text-ivory-soft text-[32px]'>Clinic</h2>
                 <div className='w-full flex flex-col lg:flex-row items-start gap-12 lg:gap-32'>
-                    <div className='flex-1 w-full lg:max-w-120'>
+                    <MotionLeftView className='flex-1 w-full lg:max-w-120'>
                         <PhotoGallery />
-                    </div>
-                    <Image src='/images/about/clinic-gallery-right.png' alt='Clinic Gallery' width={500} height={700} className='flex-1 object-contain object-center h-full max-h-157.5 w-fit' />
+                    </MotionLeftView>
+                    <MotionRightView>
+                        <Image src='/images/about/clinic-gallery-right.png' alt='Clinic Gallery' width={500} height={700} className='flex-1 object-contain object-center h-full max-h-157.5 w-fit' />
+                    </MotionRightView>
                 </div>
             </main>
         </section>

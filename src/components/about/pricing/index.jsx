@@ -2,26 +2,25 @@ import CustomBreadCrumb from '@/components/common/customBreadCrumb'
 import HowToAppointment from '@/components/common/howToAppointment'
 import HeroLogoCarousel from '@/components/common/logoCarousel'
 import React from 'react'
-import ClinicTeamHero from './clinicTeamHero'
-import Clinic from './clinic'
 import PatientResults from '@/components/common/patientResults'
-import SpeaksLanguage from './speaksLanguage'
+import PricingHero from './pricingHero'
+import TitleImages from '@/components/common/titleImages'
 
 const linksItems = [
     { label: 'About Dr. Ozlem Bicer', href: '/about-us/dr-ozlem-bicer' },
-    { label: 'Clinic & Team', href: '#' },
-    { label: 'Pricing', href: '/about-us/pricing' },
+    { label: 'Clinic & Team', href: '/about-us/clinic-team' },
+    { label: 'Pricing', href: '#' },
 ]
 
-export default function ClinicAndTeamMain() {
+export default function PricingMain({ children }) {
     return (
         <>
             <CustomBreadCrumb links={linksItems} />
             <div className='fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft'>
-                <ClinicTeamHero />
+                <PricingHero />
                 <HeroLogoCarousel />
-                <Clinic />
-                <SpeaksLanguage />
+                {children}
+                <TitleImages />
                 <PatientResults />
                 <HowToAppointment />
             </div>
