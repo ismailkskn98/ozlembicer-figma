@@ -7,7 +7,7 @@ import LanguageChange from './languageChange'
 export default function Header() {
     return (
         <header className='relative z-50 gridContainer bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark h-30 p-2.5 border-b border-gold'>
-            <section className='w-full flex items-center justify-between '>
+            <section className='w-full max-w-6xl mx-auto flex items-center justify-between'>
                 <Link href={"/"} className='h-fit w-fit'>
                     <Image src="/images/logo.jpg" alt='ozlembicer logo' width={150} height={100} className='object-contain object-center w-47 h-15' />
                 </Link>

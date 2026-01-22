@@ -33,7 +33,7 @@ export default function HeroCards() {
                     <Image src="/images/heroCard-line.png" alt="hero card gap line" width={120} height={10} className='absolute top-1/2 -translate-y-1/2 left-full -translate-x-1/2 -rotate-90 object-contain object-center w-30 h-4 z-10' />
                 </article>
                 <article className='flex flex-col items-center justify-center gap-3.75 py-8.5 px-11.25'>
-                    <Image src="/images/heroCard-4.png" alt="hero card 4" width={50} height={50} className='object-contain object-center w-10 h-10' />
+                    <Image src="/images/heroCard-4.png" alt="hero card 4" width={150} height={50} className='object-contain object-center w-26.75 h-9.25' />
                     <Image src="/images/heroCard-line.png" alt="hero card line" width={150} height={10} className='object-contain object-center w-30 h-2' />
                     <div className='flex flex-col items-center justify-center text-[20px] text-transparent bg-linear-to-t from-gold to-ivory-soft bg-clip-text'>
                         <span>Member Of</span>
