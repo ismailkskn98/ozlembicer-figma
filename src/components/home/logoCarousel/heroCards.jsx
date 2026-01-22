@@ -4,7 +4,7 @@ import React from 'react'
 export default function HeroCards() {
     return (
         <main className='fluid gridContainer w-full h-50 absolute left-1/2 bottom-full translate-y-1/2 -translate-x-1/2 '>
-            <section className='grid grid-cols-4 place-content-stretch justify-items-stretch rounded-[10px] bg-coffee-dark'>
+            <section className='w-full max-w-6xl mx-auto grid grid-cols-4 place-content-stretch justify-items-stretch rounded-[10px] bg-coffee-dark'>
                 <article className='relative flex flex-col items-center justify-center gap-3.75 py-8.5 px-11.25'>
                     <Image src="/images/heroCard-1.png" alt="hero card 1" width={50} height={50} className='object-contain object-center w-10 h-10' />
                     <Image src="/images/heroCard-line.png" alt="hero card line" width={150} height={10} className='object-contain object-center w-30 h-2' />

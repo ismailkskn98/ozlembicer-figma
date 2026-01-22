@@ -5,7 +5,7 @@ export default function HowToAppointment() {
     return (
         <section className='w-full fluid gridContainer py-15'>
             <main className='w-full flex flex-col items-center justify-center gap-6'>
-                <h2 className='w-full text-[30px] text-center h-15 text-coffee-dark border-b border-coffee-dark'>How To Make An Appointment</h2>
+                <h2 className='w-full max-w-308 mx-auto text-[30px] text-center h-15 text-coffee-dark border-b border-coffee-dark'>How To Make An Appointment</h2>
                 <section className='w-full max-w-6xl mx-auto grid grid-cols-3 gap-6'>
                     <article className='flex flex-col items-center justify-center bg-coffee-dark rounded-4xl pt-8 px-2.5 pb-14.75 max-h-95'>
                         <div className='flex items-center text-ivory-soft'>

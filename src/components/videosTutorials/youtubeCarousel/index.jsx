@@ -46,16 +46,16 @@ export default function YoutubeCarousel({ videos = [] }) {
           className="w-full h-50 md:h-62.5"
         >
           {videos.map((item, i) => (
-            <SwiperSlide key={i} className="relative group h-full bg-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-center! gap-5 cursor-pointer overflow-hidden">
+            <SwiperSlide key={i} className="relative group h-full bg-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-5 cursor-pointer overflow-hidden">
               <Image
                 src={item.snippet.thumbnails.medium.url}
                 alt={item.snippet.title}
                 width={item.snippet.thumbnails.medium.width}
                 height={item.snippet.thumbnails.medium.height}
-                className="relative z-10 object-cover object-center w-full rounded-[5px]"
+                className="relative z-10 object-cover object-center w-full rounded-[5px] min-h-37.5"
               />
               <ModalVideo title={item.snippet.title} description={item.snippet.description} videoSrc={`https://www.youtube.com/embed/${item.id.videoId}?si=oTPj5Q6sfN3Vuxav`} />
-              <div className="w-full bg-wine-brown p-2.5 rounded-[5px]">
+              <div className="w-full bg-wine-brown p-2.5 rounded-[5px] min-h-15 flex items-center justify-center">
                 <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[8px]">
                   <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
                   {item.snippet.description.length > 0 && <p className="sm:block hidden  lowercase line-clamp-2">{item.snippet.description}</p>}

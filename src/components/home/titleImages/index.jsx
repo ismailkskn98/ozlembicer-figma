@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function TitleImages() {
     return (
-        <section className='w-full flex flex-col items-start gap-5 bg-linear-to-l from-wine-brown to-coffee-dark min-h-175 rounded-4xl p-10 my-10'>
+        <section className='w-full max-w-282 mx-auto flex flex-col items-start gap-5 bg-linear-to-l from-wine-brown to-coffee-dark min-h-175 rounded-4xl p-10 my-10'>
             <article className='w-full flex items-center justify-between gap-2.5'>
                 <div className='w-full text-[20px] text-ivory-soft py-8.5 px-15.25'>Hair Transplantat</div>
                 <Image src="/images/title-1.png" alt="title image 1" width={700} height={200} className='object-contain object-center w-fit h-37.5' />
