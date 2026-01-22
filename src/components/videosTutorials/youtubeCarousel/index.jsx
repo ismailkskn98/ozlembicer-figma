@@ -55,7 +55,7 @@ export default function YoutubeCarousel({ videos = [] }) {
                 className="relative z-10 object-cover object-center w-full rounded-[5px]"
               />
               <ModalVideo title={item.snippet.title} description={item.snippet.description} videoSrc={`https://www.youtube.com/embed/${item.id.videoId}?si=oTPj5Q6sfN3Vuxav`} />
-              <div className="w-full bg-coffee-dark p-2.5 rounded-[5px]">
+              <div className="w-full bg-wine-brown p-2.5 rounded-[5px]">
                 <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[8px]">
                   <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
                   {item.snippet.description.length > 0 && <p className="sm:block hidden  lowercase line-clamp-2">{item.snippet.description}</p>}
