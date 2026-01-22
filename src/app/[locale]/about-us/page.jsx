@@ -1,4 +1,5 @@
-import { redirect } from 'next/dist/server/api-utils'
+import { redirect } from "next/navigation";
+
 export default function AboutUsPage() {
     return redirect('/about-us/dr-ozlem-bicer');
 }
