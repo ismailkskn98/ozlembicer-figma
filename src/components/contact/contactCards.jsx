@@ -16,7 +16,7 @@ export default function ContactCards() {
                             <p className='text-[32px] leading-9'>Schedule an<br />Appointment</p>
                         </div>
                         <div className='flex flex-col items-start text-[15px] max-w-70 mx-auto'>
-                            <p>Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices. </p>
+                            <p>Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices.</p>
                             <p className='mt-3'>Ozlem Bicer, M.D.</p>
                         </div>
                     </article>
@@ -26,7 +26,7 @@ export default function ContactCards() {
                             <p className='text-[32px] leading-9'>Get Online<br />Consultation</p>
                         </div>
                         <div className='flex flex-col items-start text-[15px] max-w-70 mx-auto'>
-                            <p>Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices. </p>
+                            <p>Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices.</p>
                             <p className='mt-3'>Ozlem Bicer, M.D.</p>
                         </div>
                     </article>
@@ -36,7 +36,7 @@ export default function ContactCards() {
                             <p className='text-[32px] leading-9'>Complete Your<br />Appointment</p>
                         </div>
                         <div className='flex flex-col items-start text-[15px] max-w-70 mx-auto'>
-                            <p>Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices. </p>
+                            <p>Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices.</p>
                             <p className='mt-3'>Ozlem Bicer, M.D.</p>
                         </div>
                     </article>
