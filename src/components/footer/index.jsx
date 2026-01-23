@@ -73,7 +73,7 @@ export default function Footer() {
             </section>
             <section className='fluid gridContainer w-full bg-linear-to-t from-stone-beige  to-ivory-soft text-coffee-dark h-15 text-center text-sm'>
                 <div className='w-full h-full flex items-center justify-center'>
-                    <p className=''>Dr.Bicer 2026 - All Rights Reserved.  | This Website Is Designed by DB Design.</p>
+                    <p className=''>Dr.Bicer 2026 - All Rights Reserved.</p>
                 </div>
             </section>
         </footer>
