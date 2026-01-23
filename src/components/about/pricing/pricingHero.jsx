@@ -53,6 +53,14 @@ export default function PricingHero() {
                             <p>In person: 100€<br />Online: Free</p>
                         </article>
                         <article className='flex flex-col items-start'>
+                            <h3 className='font-bold'>Combine Sessions</h3>
+                            <p className='font-medium'>For extraction from 2 different areas:</p>
+                            <p>First area will be accepted as a main donor. Main donor transplant (Up to 2000 grafts) is 6000€. Second area will be accepted as touch up session which is 2000€</p>
+                            <p className='font-medium mt-2'>For extraction from 3 different areas:</p>
+                            <p>If the first extraction area is scalp, it is 6000€ + second extraction area chest, it is 6000€ and the third extraction area is beard, it is touch up price which is 2000€.</p>
+                            <p className='font-medium mt-2'>These prices are valid for combine sessions which are done by one sitting.</p>
+                        </article>
+                        <article className='flex flex-col items-start'>
                             <h3 className='font-bold'>Touch-Up Terms and Conditions</h3>
                             <p>Sessions are planned by approval of Dr.Bicer. They are planned 1-2 times in a year. More than 2 sessions can be planned on the same day. Free touch up for 50-200 grafts (Sessions are planned to eliminate problems caused by improper washing, head traumas…) Up to 1000 grafts: 2000€</p>
                         </article>
