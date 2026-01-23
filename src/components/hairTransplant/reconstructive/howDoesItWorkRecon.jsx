@@ -10,8 +10,6 @@ export default function HowDoesItWorkRecon() {
                 <Image src="/images/hair-transplant/howwork.png" alt="how does it work" width={600} height={800} className='object-contain h-70 w-full sticky top-0' />
                 <Image src="/images/hair-transplant/howwork.png" alt="how does it work" width={600} height={800} className='object-contain h-70 w-full sticky top-0' />
                 <Image src="/images/hair-transplant/howwork.png" alt="how does it work" width={600} height={800} className='object-contain h-70 w-full sticky top-0' />
-                <Image src="/images/hair-transplant/howwork.png" alt="how does it work" width={600} height={800} className='object-contain h-70 w-full sticky top-0' />
-                <Image src="/images/hair-transplant/howwork.png" alt="how does it work" width={600} height={800} className='object-contain h-70 w-full sticky top-0' />
             </section>
             <section className='col-span-2 w-full flex flex-col items-start gap-6'>
                 <article className='w-full flex flex-col items-start gap-9'>
@@ -59,48 +57,42 @@ export default function HowDoesItWorkRecon() {
                     </article>
 
                     <article className='border-r border-b border-coffee-dark flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>Scar Revision &
-                            Hair Transplant into Scars</h4>
+                        <h4 className='font-bold text-[20px]'>Scar Revision & Hair Transplant into Scars</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
-                            <p>Body hair transplantation is usually performed using the FUE technique, which avoids linear scarring.</p>
-                            <p>The process includes:</p>
+                            <p>Hair transplantation can be performed into:</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
-                                <li>Careful selection of suitable body donor areas</li>
-                                <li>Extraction of follicular units using micro punches</li>
-                                <li>Proper hydration and storage of grafts</li>
-                                <li>Strategic implantation into the scalp to ensure natural blending</li>
+                                <li>FUT linear scars</li>
+                                <li>FUE dot scars</li>
+                                <li>Scars caused by burns, trauma, or surgery</li>
                             </ul>
-                            <p>If all physiological and medical requirements are met, body hair follicles can be successfully transferred to the scalp.</p>
+                            <p>Hair growth in scar tissue may be less predictable due to reduced blood supply, and careful evaluation is essential before treatment.</p>
                         </div>
                     </article>
                     <article className='border-b border-coffee-dark flex flex-col gap-9 py-5 pl-4'>
-                        <h4 className='font-bold text-[20px]'>Important Considerations About BHT</h4>
+                        <h4 className='font-bold text-[20px]'>Body Hair Transplantationin Reconstructive Cases</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
-                            <p>Body Hair Transplantation requires high surgical expertise due to the unique characteristics of body hair.</p>
-                            <p>Key factors for success include:</p>
+                            <p>In patients with limited scalp donor hair, Body Hair Transplantation (BHT) may be used as a supportive technique.</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
-                                <li>Surgeon experience, as body hair differs significantly from scalp hair</li>
-                                <li>Team expertise, especially in handling varying hair directions and textures</li>
-                                <li>Proper extraction, storage, and hydration of body hair grafts</li>
-                                <li>Precise creation of recipient sites to control angle and direction</li>
-                                <li>Minimal follicle transection rate (FTR) to protect graft survival</li>
-                                <li>Careful mixing of body hair with scalp hair for a natural appearance</li>
+                                <li>Beard hair is commonly preferred</li>
+                                <li>Chest hair may be used selectively</li>
+                                <li>Body hair behaves differently from scalp hair and must be mixed carefully</li>
                             </ul>
-                            <p>Because body hair behaves differently from scalp hair, BHT should always be performed conservatively and selectively.</p>
                         </div>
                     </article>
 
                     <article className='border-r border-coffee-dark flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>Is Body Hair Transplant Permanent?</h4>
+                        <h4 className='font-bold text-[20px]'>How Is Reconstructive Hair Transplantation Performed?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
-                            <p>Body hair follicles retain many of their original growth characteristics after transplantation.</p>
-                            <p>This means:</p>
+                            <p>Reconstructive hair transplantation is usually performed using advanced FUE techniques.</p>
+                            <p>Key steps include:</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
-                                <li>Growth cycles may differ from scalp hair</li>
-                                <li>Hair length and texture may not fully match scalp hair</li>
-                                <li>Results can be permanent, but growth behavior may vary between patients</li>
+                                <li>Detailed analysis of facial proportions and existing hair patterns</li>
+                                <li>Conservative hairline planning</li>
+                                <li>Careful donor area assessment</li>
+                                <li>Precision extraction and implantation</li>
+                                <li>Attention to angle, direction, and density</li>
                             </ul>
-                            <p>For this reason, BHT is most effective when used as a complementary technique rather than a standalone solution</p>
+                            <p>Multiple sessions may be required, depending on the complexity of the case.</p>
                         </div>
                     </article>
                 </main>
