@@ -50,7 +50,7 @@ export default function HeroLogoCarousel() {
                         slidesPerGroup={4}
                         speed={1500}
                         autoplay={{
-                            delay: 3000,
+                            delay: 2000,
                             disableOnInteraction: false
                         }}
                         loop={false}
