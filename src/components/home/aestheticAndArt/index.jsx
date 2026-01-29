@@ -6,8 +6,9 @@ import React from 'react'
 
 export default function AestheticAndArt() {
     return (
-        <section className='relative fluid gridContainer w-full py-25 bg-radial from-coffee-dark to-wine-brown border-y border-gold'>
-            <div className='bg-[url("/images/footer-bg-pattern.png")] bg-center bg-repeat absolute inset-0 w-full h-full fluid z-10 pointer-events-none select-none opacity-[0.02]' />
+        <section className='relative fluid gridContainer w-full py-25 bg-radial from-coffee-dark to-wine-brown'>
+            <div className='w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0' />
+            <div className='w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0' />
             <main className='relative z-20 w-full max-w-6xl mx-auto grid grid-cols-2 gap-6'>
                 <MotionLeftView>
                     <article className='flex flex-col item-start gap-7.5 text-ivory-soft'>

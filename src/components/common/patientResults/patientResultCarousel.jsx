@@ -55,7 +55,7 @@ const carouselItems = [
 
 export default function PatientResultCarousel() {
     return (
-        <div className='w-full flex flex-col items-center justify-center'>
+        <div className='w-full flex flex-col items-center justify-center gap-8'>
             <Swiper
                 modules={[Navigation, Autoplay]}
                 spaceBetween={50}
@@ -65,7 +65,7 @@ export default function PatientResultCarousel() {
                 navigation={{ prevEl: '#patient-prev', nextEl: '#patient-next' }}
                 loop={true}
                 autoplay={{
-                    delay: 5000,
+                    delay: 4000,
                     disableOnInteraction: false,
                 }}
                 className='w-full'

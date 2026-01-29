@@ -1,4 +1,6 @@
 import HairTransplantMain from '@/components/hairTransplant'
+import FueMicroMotorMain from '@/components/hairTransplant/fueMicroMotor'
+import HowDoesItWork from '@/components/hairTransplant/fueMicroMotor/howDoesItWork'
 import React from 'react'
 
 export default function FutPage() {

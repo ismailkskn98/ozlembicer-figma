@@ -17,8 +17,8 @@ export default function HairTransplantMain({ children }) {
         <>
             <CustomBreadCrumb links={linksItems} />
             <HairTransplantHero />
+            <HeroLogoCarousel />
             <div className='fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft py-25'>
-                <HeroLogoCarousel />
                 {children}
             </div>
         </>

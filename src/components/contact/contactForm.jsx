@@ -23,7 +23,7 @@ export default function ContactForm() {
 
     return (
         <section className='w-full fluid gridContainer my-25'>
-            <h2 className='text-[32px] text-coffee-dark mb-5'>Hair Transplantation Application Form</h2>
+            {/* <h2 className='text-[32px] text-coffee-dark mb-5'>Hair Transplantation Application Form</h2>
             <main className='w-full max-w-308 mx-auto flex items-start gap-5'>
                 <FormProvider {...methods}>
                     <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className='w-full grid grid-cols-1 md:grid-cols-2 gap-5'>
@@ -52,8 +52,8 @@ export default function ContactForm() {
                 className='w-full max-w-308 mx-auto bg-coffee-dark text-ivory-soft py-10.25 px-130.75 rounded-4xl text-[48px] uppercase mt-25 cursor-pointer hover:bg-wine-brown transition-all duration-200'
             >
                 Submit
-            </button>
-            <main className='w-full max-w-6xl mx-auto flex items-center gap-24.5 mt-25'>
+            </button> */}
+            <main className='w-full max-w-6xl mx-auto flex items-center gap-24.5'>
                 <article className=''>
                     <iframe className='border-0 rounded-[10px] max-h-115' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.4323097541787!2d29.098207486293994!3d40.993910097487245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac62895079e5d%3A0xa2428f53ed319008!2zRHIuIMOWemxlbSBCacOnZXIgfCBNRA!5e0!3m2!1str!2str!4v1769150651118!5m2!1str!2str" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </article>

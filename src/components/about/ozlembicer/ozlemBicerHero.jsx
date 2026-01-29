@@ -6,14 +6,13 @@ import React from 'react'
 export default function OzlemBicerHero() {
     return (
         <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-50'>
-            <div className='bg-[url("/images/footer-bg-pattern.png")] bg-center bg-repeat absolute inset-0 w-full h-full fluid z-10 pointer-events-none select-none opacity-[0.02]' />
             <section className='w-full max-w-6xl mx-auto flex items-center justify-between gap-6'>
                 <MotionLeftView className="w-full max-w-140.5">
                     <article className='w-full max-w-140.5 flex flex-col items-start gap-7.5 text-ivory-soft'>
                         <h1 className='text-[64px] leading-16 flex flex-col items-start'>Who Is <span className='font-bold'>Dr. Ozlem Bicer</span></h1>
-                        <p>Dr. Özlem Biçer was born in 1973 in İstanbul. She completed her secondary education at Anakent College in 1991 and graduated from the Faculty of Medicine at Trakya University in 1998. Following her medical degree, she completed a certified training program in hair surgery organized by the Ministry of Health of the Republic of Turkey and received official authorization to perform hair transplantation procedures.</p>
+                        <p>Dr. Özlem Biçer was born in 1973 in Istanbul. She completed her secondary education at Anakent College in 1991 and graduated from the Faculty of Medicine at Trakya University in 1998. Following her medical degree, she completed a certified training program in hair surgery organized by the Ministry of Health of the Republic of Turkey and received official authorization to perform hair transplantation procedures.</p>
                         <p>In 2002, Dr. Biçer further expanded her expertise through advanced training in France, focusing on hair loss treatments, mesotherapy, and medical aesthetics.</p>
-                        <p>Dr. Biçer is a hair transplant surgeon with over 25 years of medical experience. She has been performing both FUE (Follicular Unit Extraction) and FUT (Follicular Unit Transplantation) procedures throughout her career. Between 1999 and 2002, she worked in several private clinics in İstanbul, specializing in aesthetic medicine and hair surgery. Since 2002, she has been performing hair transplantation procedures at her own licensed and authorized clinic.</p>
+                        <p>Dr. Biçer is a hair transplant surgeon with over 25 years of medical experience. She has been performing both FUE (Follicular Unit Extraction) and FUT (Follicular Unit Transplantation) procedures throughout her career. Between 1999 and 2002, she worked in several private clinics in Istanbul, specializing in aesthetic medicine and hair surgery. Since 2002, she has been performing hair transplantation procedures at her own licensed and authorized clinic.</p>
                     </article>
                 </MotionLeftView>
                 <MotionRightView className="w-full max-w-140.5">

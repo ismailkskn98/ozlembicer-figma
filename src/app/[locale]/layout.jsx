@@ -33,7 +33,7 @@ export default async function RootLayout({ children, params }) {
   }
   return (
     <html lang={locale}>
-      <body className={`${inter.variable} font-inter antialiased w-full bg-ivory-soft`}>
+      <body className={`${inter.variable} font-inter antialiased w-full bg-stone-beige`}>
         <NextIntlClientProvider>
           <Header />
           {children}

@@ -30,8 +30,8 @@ export default function HowDoesItWorkBodyHair() {
                         <p>Beard hair is generally preferred over chest hair due to its stronger structure and more consistent growth characteristics.</p>
                     </div>
                 </article>
-                <main className='grid grid-cols-2 w-full border-t border-coffee-dark place-content-stretch place-items-stretch text-coffee-dark'>
-                    <article className='border-r border-b border-coffee-dark flex flex-col gap-9 py-5 pr-4'>
+                <main className='grid grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
+                    <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
                         <h4 className='font-bold text-[20px]'>Who Is a Suitable Candidate for BHT?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Body Hair Transplantation is usually considered for patients who:</p>
@@ -43,7 +43,7 @@ export default function HowDoesItWorkBodyHair() {
                             <p>However, it is important to understand that if both scalp and body donor hair quality is weak, the final outcome may be limited.Patients with insufficient donor hair overall may not be suitable candidates for any form of hair transplantation.</p>
                         </div>
                     </article>
-                    <article className='border-b border-coffee-dark flex flex-col gap-9 py-5 pl-4'>
+                    <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
                         <h4 className='font-bold text-[20px]'>Differences Between BHT-FUE and Conventional FUE</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Both conventional FUE and BHT use the Follicular Unit Extraction (FUE) technique, meaning hair follicles are harvested one by one, without removing a strip of skin.</p>
@@ -69,7 +69,7 @@ export default function HowDoesItWorkBodyHair() {
                         </div>
                     </article>
 
-                    <article className='border-r border-b border-coffee-dark flex flex-col gap-9 py-5 pr-4'>
+                    <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
                         <h4 className='font-bold text-[20px]'>How Is Body Hair
                             Transplantation Performed?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
@@ -84,7 +84,7 @@ export default function HowDoesItWorkBodyHair() {
                             <p>If all physiological and medical requirements are met, body hair follicles can be successfully transferred to the scalp.</p>
                         </div>
                     </article>
-                    <article className='border-b border-coffee-dark flex flex-col gap-9 py-5 pl-4'>
+                    <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
                         <h4 className='font-bold text-[20px]'>Important Considerations About BHT</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Body Hair Transplantation requires high surgical expertise due to the unique characteristics of body hair.</p>
@@ -101,7 +101,7 @@ export default function HowDoesItWorkBodyHair() {
                         </div>
                     </article>
 
-                    <article className='border-r border-coffee-dark flex flex-col gap-9 py-5 pr-4'>
+                    <article className='border-r border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
                         <h4 className='font-bold text-[20px]'>Is Body Hair Transplant Permanent?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Body hair follicles retain many of their original growth characteristics after transplantation.</p>

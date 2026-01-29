@@ -5,7 +5,6 @@ import MotionScrollInViewVariant from '../common/motionScrollInViewVariant'
 export default function HairTransplantHero() {
     return (
         <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-50'>
-            <div className='bg-[url("/images/footer-bg-pattern.png")] bg-center bg-repeat absolute inset-0 w-full h-full fluid z-10 pointer-events-none select-none opacity-[0.02]' />
             <section className='w-full max-w-6xl mx-auto flex flex-col items-start gap-16.25'>
                 <article className='w-full max-w-140.5 text-ivory-soft'>
                     <h1 className='text-[64px] leading-16 flex flex-col items-start'>Hair <span className='font-bold'>Transplant</span></h1>

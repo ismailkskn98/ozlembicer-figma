@@ -15,9 +15,9 @@ const linksItems = [
 
 export default function ClinicAndTeamMain() {
     return (
-        <>
+        <main className='w-full fluid gridContainer bg-ivory-soft'>
             <CustomBreadCrumb links={linksItems} />
-            <div className='fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft'>
+            <div className='fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50'>
                 <ClinicTeamHero />
                 <HeroLogoCarousel />
                 <Clinic />
@@ -25,6 +25,6 @@ export default function ClinicAndTeamMain() {
                 <PatientResults />
                 <HowToAppointment />
             </div>
-        </>
+        </main>
     )
 }

@@ -16,10 +16,10 @@ const linksItems = [
 
 export default function OzlemBicerMain({ children }) {
     return (
-        <>
+        <main className='w-full fluid gridContainer bg-ivory-soft'>
             <CustomBreadCrumb links={linksItems} />
             <OzlemBicerHero />
-            <div className='fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft'>
+            <div className='fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50'>
                 <HeroLogoCarousel />
                 <DoctorProfile />
                 <ProfessionalAffiliations />
@@ -28,6 +28,6 @@ export default function OzlemBicerMain({ children }) {
                 {children}
                 <HowToAppointment />
             </div>
-        </>
+        </main>
     )
 }

@@ -9,12 +9,10 @@ import HowToAppointment from '../common/howToAppointment'
 
 export default function HomeMain({ videos }) {
     return (
-        <main className='w-full gridContainer'>
+        <main className='w-full gridContainer bg-ivory-soft'>
             <Hero />
-            <div className='fluid gridContainer w-full bg-linear-to-t from-ivory-soft to-stone-beige'>
-                <HeroLogoCarousel />
-            </div>
-            <div className='fluid gridContainer bg-linear-to-b from-stone-beige to-ivory-soft'>
+            <HeroLogoCarousel />
+            <div className='fluid gridContainer bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50'>
                 <VideosTutorials videos={videos} />
                 <TitleImages />
                 <PatientResults />
