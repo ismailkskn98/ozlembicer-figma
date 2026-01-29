@@ -56,8 +56,12 @@ export default function HowToAppointment() {
                         <h3 className='text-[32px]'>Hair Transplantation in<br /> Istanbul, Turkey</h3>
                         <p className='max-w-141'>Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.</p>
                     </article>
-                    <article className='flex-1 min-h-74.25 flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5'>
-                        <span className='uppercase text-[32px]'>Contact US</span>
+                    <article className='group relative flex-1 min-h-74.25 flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5'>
+                        <span className='group-hover:opacity-0 transition-opacity duration-300 uppercase text-[32px]'>Contact US</span>
+                        <div className='w-fit flex flex-col items-center justify-center text-[32px] absolute left-1/2 top-1/2 -translate-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                            <a href="mailto:info@ozlembicer.com">info@ozlembicer.com</a>
+                            <a href="tel:+905334141313">+90 (533) 414 13 13</a>
+                        </div>
                     </article>
                 </MotionScrollInView>
             </main>
