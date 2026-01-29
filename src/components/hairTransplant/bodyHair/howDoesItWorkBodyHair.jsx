@@ -15,7 +15,7 @@ export default function HowDoesItWorkBodyHair() {
             </section>
             <section className='col-span-2 w-full flex flex-col items-start gap-6'>
                 <article className='w-full flex flex-col items-start gap-9'>
-                    <h3 className='text-[20px] font-bold text-coffee-dark'>When Is Body Hair <br /> Transplantation Recommended?</h3>
+                    <h3 className='text-[20px] font-bold text-coffee-dark max-w-90'>When Is Body Hair Transplantation Recommended?</h3>
                     <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                         <p>
                             BHT may be considered in the following situations:
@@ -32,7 +32,7 @@ export default function HowDoesItWorkBodyHair() {
                 </article>
                 <main className='grid grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
                     <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>Who Is a Suitable Candidate for BHT?</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Who Is a Suitable Candidate for BHT?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Body Hair Transplantation is usually considered for patients who:</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
@@ -44,7 +44,7 @@ export default function HowDoesItWorkBodyHair() {
                         </div>
                     </article>
                     <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                        <h4 className='font-bold text-[20px]'>Differences Between BHT-FUE and Conventional FUE</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Differences Between BHT-FUE and Conventional FUE</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Both conventional FUE and BHT use the Follicular Unit Extraction (FUE) technique, meaning hair follicles are harvested one by one, without removing a strip of skin.</p>
                             <p>Key differences include:</p>
@@ -70,8 +70,7 @@ export default function HowDoesItWorkBodyHair() {
                     </article>
 
                     <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>How Is Body Hair
-                            Transplantation Performed?</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>How Is Body Hair Transplantation Performed?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Body hair transplantation is usually performed using the FUE technique, which avoids linear scarring.</p>
                             <p>The process includes:</p>
@@ -85,7 +84,7 @@ export default function HowDoesItWorkBodyHair() {
                         </div>
                     </article>
                     <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                        <h4 className='font-bold text-[20px]'>Important Considerations About BHT</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Important Considerations About BHT</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Body Hair Transplantation requires high surgical expertise due to the unique characteristics of body hair.</p>
                             <p>Key factors for success include:</p>
@@ -102,7 +101,7 @@ export default function HowDoesItWorkBodyHair() {
                     </article>
 
                     <article className='border-r border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>Is Body Hair Transplant Permanent?</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Is Body Hair Transplant Permanent?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Body hair follicles retain many of their original growth characteristics after transplantation.</p>
                             <p>This means:</p>
@@ -118,4 +117,4 @@ export default function HowDoesItWorkBodyHair() {
             </section>
         </main>
     )
-}   
+}

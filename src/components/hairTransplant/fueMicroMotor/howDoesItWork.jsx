@@ -15,7 +15,7 @@ export default function HowDoesItWork() {
             </section>
             <section className='col-span-2 w-full flex flex-col items-start gap-6'>
                 <article className='w-full flex flex-col items-start gap-9'>
-                    <h3 className='text-[20px] font-bold text-coffee-dark'>How Does <br /> FUE Hair Transplant Work?</h3>
+                    <h3 className='text-[20px] font-bold text-coffee-dark max-w-80 line-clamp-2'>How Does FUE Hair Transplant Work?</h3>
                     <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                         <p>
                             At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation.
@@ -35,7 +35,7 @@ export default function HowDoesItWork() {
                 </article>
                 <main className='grid grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
                     <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>Is FUE Hair Transplant Permanent?</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Is FUE Hair Transplant Permanent?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>FUE differs from the traditional strip {"(FUT)"} technique by transplanting individual follicular units rather than removing a strip of scalp.</p>
                             <p>The donor hairs are taken from areas that are genetically more resistant to hair loss.For this reason, transplanted hair follicles usually continue to grow permanently in their new location.</p>
@@ -43,7 +43,7 @@ export default function HowDoesItWork() {
                         </div>
                     </article>
                     <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                        <h4 className='font-bold text-[20px]'>Will There Be Scarring After FUE ?</h4>
+                        <h4 className='font-bold text-[20px] max-w-75 line-clamp-2'>Will There Be Scarring After FUE ?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>FUE involves creating tiny incisions in both the donor and recipient areas.</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
@@ -55,7 +55,7 @@ export default function HowDoesItWork() {
                     </article>
 
                     <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>How Long Does an FUE Hair Transplant Take?</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>How Long Does an FUE Hair Transplant Take?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>An FUE hair transplant procedure typically lasts between 3 and 8 hours, depending on:</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
@@ -74,7 +74,7 @@ export default function HowDoesItWork() {
                         </div>
                     </article>
                     <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                        <h4 className='font-bold text-[20px]'>Graft Preservation & Implantation</h4>
+                        <h4 className='font-bold text-[20px] max-w-70 line-clamp-2'>Graft Preservation & Implantation</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>After extraction, the hair follicles are carefully stored in sterile containers. In some cases, grafts may be preserved in a solution enriched with the patient’s own Platelet-Rich Plasma (PRP), which may help support graft survival.</p>
                             <p>Once the extraction phase is completed, microscopic channels are created in the recipient area. Each follicular unit is then implanted individually.</p>
@@ -83,7 +83,7 @@ export default function HowDoesItWork() {
                     </article>
 
                     <article className='border-r border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>Is FUE Hair Transplant Painful?</h4>
+                        <h4 className='font-bold text-[20px] max-w-70 line-clamp-2'>Is FUE Hair Transplant Painful?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>FUE hair transplantation is generally well tolerated and minimally painful.</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
@@ -101,7 +101,7 @@ export default function HowDoesItWork() {
                         </div>
                     </article>
                     <article className='flex flex-col gap-9 py-5 pl-4'>
-                        <h4 className='font-bold text-[20px]'>Why Choose FUE Hair Transplant?</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Why Choose FUE Hair Transplant?</h4>
                         <div className='w-full flex flex-col items-start gap-0.5 text-coffee-dark'>
                             <p>Minimally invasive technique</p>
                             <p>No linear scar</p>

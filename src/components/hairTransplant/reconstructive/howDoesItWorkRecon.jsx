@@ -13,7 +13,7 @@ export default function HowDoesItWorkRecon() {
             </section>
             <section className='col-span-2 w-full flex flex-col items-start gap-6'>
                 <article className='w-full flex flex-col items-start gap-9'>
-                    <h3 className='text-[20px] font-bold text-coffee-dark'>Who Needs <br /> Reconstructive Hair Transplantation?</h3>
+                    <h3 className='text-[20px] font-bold text-coffee-dark max-w-80 line-clamp-2'>Who Needs Reconstructive Hair Transplantation?</h3>
                     <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                         <p>
                             Reconstructive hair transplantation may be recommended for patients who experience:
@@ -32,7 +32,7 @@ export default function HowDoesItWorkRecon() {
                 </article>
                 <main className='grid grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
                     <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>Hairline Reconstruction</h4>
+                        <h4 className='font-bold text-[20px] max-w-50 line-clamp-2'>Hairline Reconstruction</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Hairline reconstruction focuses on correcting:</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
@@ -44,7 +44,7 @@ export default function HowDoesItWorkRecon() {
                         </div>
                     </article>
                     <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                        <h4 className='font-bold text-[20px]'>Hair Transplant Repair (Corrective Hair Transplant)</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Hair Transplant Repair (Corrective Hair Transplant)</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Corrective hair transplantation may include:</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
@@ -57,7 +57,7 @@ export default function HowDoesItWorkRecon() {
                     </article>
 
                     <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>Scar Revision & Hair Transplant into Scars</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Scar Revision & Hair Transplant into Scars</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Hair transplantation can be performed into:</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
@@ -69,7 +69,7 @@ export default function HowDoesItWorkRecon() {
                         </div>
                     </article>
                     <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                        <h4 className='font-bold text-[20px]'>Body Hair Transplantationin Reconstructive Cases</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>Body Hair Transplantationin Reconstructive Cases</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>In patients with limited scalp donor hair, Body Hair Transplantation (BHT) may be used as a supportive technique.</p>
                             <ul className='leading-relaxed list-disc list-outside pl-5'>
@@ -81,7 +81,7 @@ export default function HowDoesItWorkRecon() {
                     </article>
 
                     <article className='border-r border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                        <h4 className='font-bold text-[20px]'>How Is Reconstructive Hair Transplantation Performed?</h4>
+                        <h4 className='font-bold text-[20px] max-w-80 line-clamp-2'>How Is Reconstructive Hair Transplantation Performed?</h4>
                         <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
                             <p>Reconstructive hair transplantation is usually performed using advanced FUE techniques.</p>
                             <p>Key steps include:</p>
