@@ -10,6 +10,7 @@ import MotionScrollInViewOpacity from './motionScrollInViewOpacity';
 import { Link as ScrollLink } from 'react-scroll';
 
 export default function CustomBreadCrumb({ links, isButton = false }) {
+
     return (
         <Breadcrumb className="fluid bg-coffee-dark h-15 flex items-center justify-center border-b border-coffee-dark">
             <MotionScrollInViewOpacity className="w-full bg-coffee-dark flex items-center justify-center">
@@ -19,11 +20,12 @@ export default function CustomBreadCrumb({ links, isButton = false }) {
                             {isButton ? (
                                 <ScrollLink
                                     to={link.href.split('#')[1]}
-                                    duration={2500}
+                                    duration={100}
                                     offset={0}
                                     spy={true}
                                     hashSpy={true}
-                                    smoothing="easeInOutCubic"
+                                    smooth={true}
+                                    smoothing="linear"
                                     className="hover:bg-wine-brown rounded-[10px] py-2.5 px-3.75 transition-colors cursor-pointer"
                                 >
                                     {link.label}

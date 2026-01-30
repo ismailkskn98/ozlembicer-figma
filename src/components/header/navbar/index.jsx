@@ -1,6 +1,5 @@
 'use client';
 import { HoveredLink, Menu, MenuItem, NestedHoveredLink } from '@/components/ui/navbar-menu'
-import { Link } from '@/i18n/navigation'
 import React, { useState } from 'react'
 
 export default function Navbar() {

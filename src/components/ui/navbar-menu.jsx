@@ -44,6 +44,7 @@ export const MenuItem = ({
       ) : (
         <Link
           href={href || '#'}
+          prefetch={true}
           className={cn('block', className)}
           onMouseEnter={(e) => {
             setActive(item);
@@ -138,7 +139,7 @@ export const ProductItem = ({
   src
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="flex space-x-2" prefetch={true}>
       <Image
         src={src}
         width={140}
@@ -164,6 +165,7 @@ export const HoveredLink = ({
 }) => {
   return (
     <Link
+      prefetch={true}
       {...rest}
       className={cn("px-4 py-2.5", className)}>
       {children}
@@ -199,6 +201,7 @@ export const NestedHoveredLink = ({
       }}
     >
       <Link
+        prefetch={true}
         {...rest}
         onMouseEnter={() => {
           if (registerHover) registerHover();
