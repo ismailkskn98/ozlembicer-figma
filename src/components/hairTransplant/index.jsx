@@ -1,3 +1,4 @@
+
 import React from 'react'
 import HairTransplantHero from './hairTransplantHero'
 import CustomBreadCrumb from '../common/customBreadCrumb'
@@ -18,6 +19,7 @@ const linksItems = [
 ]
 
 export default function HairTransplantMain() {
+
     return (
         <>
             <CustomBreadCrumb links={linksItems} isButton={true} />

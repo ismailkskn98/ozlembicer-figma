@@ -11,6 +11,24 @@ import { Link as ScrollLink } from 'react-scroll';
 
 export default function CustomBreadCrumb({ links, isButton = false }) {
 
+    useEffect(() => {
+        const hash = window.location.hash
+        if (!hash) return
+
+        const id = hash.replace('#', '')
+
+        // render + images + layout otursun diye
+        setTimeout(() => {
+            const el = document.getElementById(id)
+            if (el) {
+                el.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start',
+                })
+            }
+        }, 300)
+    }, [])
+
     return (
         <Breadcrumb className="fluid bg-coffee-dark h-15 flex items-center justify-center border-b border-coffee-dark">
             <MotionScrollInViewOpacity className="w-full bg-coffee-dark flex items-center justify-center">
