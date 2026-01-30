@@ -5,15 +5,19 @@ import GeneralInfo from '../common/generalInfo';
 const SectionWrapper = ({ linksItems, id, title, subtitle, imageUrl, generalInfoProps, children }) => {
     return (
         <section className='relative w-full fluid gridContainer'>
-            <SubHeader
-                linksItems={linksItems}
-                id={id}
-                title={title}
-                subtitle={subtitle}
-                imageUrl={imageUrl}
-            />
+            {linksItems && (
+                <SubHeader
+                    linksItems={linksItems}
+                    id={id}
+                    title={title}
+                    subtitle={subtitle}
+                    imageUrl={imageUrl}
+                />
+            )}
             <main className='w-full max-w-6xl mx-auto flex flex-col items-start gap-25 py-25'>
-                <GeneralInfo {...generalInfoProps} />
+                {generalInfoProps && (
+                    <GeneralInfo {...generalInfoProps} />
+                )}
                 {children}
             </main>
         </section>

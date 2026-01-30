@@ -5,7 +5,7 @@ import MotionRightView from '../common/motionRightView'
 
 export default function BeardHero() {
     return (
-        <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-50'>
+        <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-40'>
             <div className='w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0' />
             <section className='w-full max-w-6xl mx-auto flex flex-col items-start gap-15'>
                 <h1 className='flex-1 text-[64px] leading-20 flex flex-col items-start text-ivory-soft'>Beard <span className='font-bold'>Transplant</span></h1>
