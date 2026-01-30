@@ -78,7 +78,29 @@ export default function HairTransplantMain() {
                         imageUrl: "/images/hair-transplant/fue-micro-motor.png"
                     }}
                 >
-                    <HowDoesItWork />
+                    <HowDoesItWork
+                        images={[
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 1" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 2" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 3" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 4" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                        ]}
+                        title="How Does FUE Hair Transplant Work?"
+                        content={[
+                            { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
+                            { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
+                            { type: "paragraph", value: "The extraction can be performed:" },
+                            { type: "list", value: ["Manually", "With a micromotor"] },
+                            { type: "paragraph", value: "Depending on the patient’s hair structure, scalp condition, and treatment plan." },
+                            { type: "paragraph", value: "Micromotor-assisted FUE may allow a higher number of grafts to be harvested per hour, while manual FUE may be preferred in certain cases for enhanced control and precision." },
+                            { type: "paragraph", value: "In both techniques, punches with a diameter of approximately 0.5–0.9 mm are used. FUE does not create linear scars; instead, tiny dot-like marks may appear in the donor area and typically heal quickly." },
+                        ]}
+                    >
+                        <FueDoesItWorkFAQs />
+                    </HowDoesItWork>
                 </SectionWrapper>
 
                 <SectionWrapper
@@ -95,7 +117,25 @@ export default function HairTransplantMain() {
                         imageUrl: "/images/hair-transplant/body-hair.png"
                     }}
                 >
-                    <HowDoesItWorkBodyHair />
+                    <HowDoesItWork
+                        images={[
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 1" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 2" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 3" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 4" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                        ]}
+                        title="When Is Body Hair Transplantation Recommended?"
+                        content={[
+                            { type: "paragraph", value: "BHT may be considered in the following situations:" },
+                            { type: "list", value: ["Severely limited scalp donor area, such as advanced hair loss (Norwood Grade VI–VII)", "Patients who have undergone previous hair transplant procedures and have depleted donor reserves", "Cases where higher graft numbers are required but scalp donor capacity is insufficient", "Scarring alopecia, burns, or trauma-related hair loss", "To increase overall density, particularly in combination with scalp hair grafts"] },
+                            { type: "paragraph", value: "DBeard hair is generally preferred over chest hair due to its stronger structure and more consistent growth characteristics." },
+                        ]}
+                    >
+                        <HowDoesItWorkBodyHair />
+                    </HowDoesItWork>
                 </SectionWrapper>
 
                 <SectionWrapper
@@ -112,7 +152,25 @@ export default function HairTransplantMain() {
                         imageUrl: "/images/hair-transplant/reconstructive.png"
                     }}
                 >
-                    <HowDoesItWorkRecon />
+                    <HowDoesItWork
+                        images={[
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 1" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 2" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 3" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 4" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                        ]}
+                        title="Who Needs Reconstructive Hair Transplantation?"
+                        content={[
+                            { type: "paragraph", value: "Reconstructive hair transplantation may be recommended for patients who experience:" },
+                            { type: "list", value: ["Unnatural or poorly designed hairlines", "Visible scarring from previous hair transplant procedures (FUE or FUT)", "Asymmetry or incorrect hair direction", "Low or uneven hair density", "Hair loss due to burns, accidents, surgery, or trauma", "Scarring alopecia or certain medical conditions", "Failed or unsatisfactory results from previous hair transplants"] },
+                            { type: "paragraph", value: "Each reconstructive case is unique and requires an individualized treatment plan." },
+                        ]}
+                    >
+                        <HowDoesItWorkRecon />
+                    </HowDoesItWork>
                 </SectionWrapper>
 
                 <SectionWrapper
@@ -129,7 +187,29 @@ export default function HairTransplantMain() {
                         imageUrl: "/images/hair-transplant/reconstructive.png"
                     }}
                 >
-                    <HowDoesItWork />
+                    <HowDoesItWork
+                        images={[
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 1" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 2" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 3" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 4" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                        ]}
+                        title="How Does FUE Hair Transplant Work?"
+                        content={[
+                            { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
+                            { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
+                            { type: "paragraph", value: "The extraction can be performed:" },
+                            { type: "list", value: ["Manually", "With a micromotor"] },
+                            { type: "paragraph", value: "Depending on the patient’s hair structure, scalp condition, and treatment plan." },
+                            { type: "paragraph", value: "Micromotor-assisted FUE may allow a higher number of grafts to be harvested per hour, while manual FUE may be preferred in certain cases for enhanced control and precision." },
+                            { type: "paragraph", value: "In both techniques, punches with a diameter of approximately 0.5–0.9 mm are used. FUE does not create linear scars; instead, tiny dot-like marks may appear in the donor area and typically heal quickly." },
+                        ]}
+                    >
+                        <FueDoesItWorkFAQs />
+                    </HowDoesItWork>
                 </SectionWrapper>
 
                 <SectionWrapper
@@ -146,7 +226,29 @@ export default function HairTransplantMain() {
                         imageUrl: "/images/hair-transplant/body-hair.png"
                     }}
                 >
-                    <HowDoesItWork />
+                    <HowDoesItWork
+                        images={[
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 1" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 2" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 3" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 4" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                        ]}
+                        title="How Does FUE Hair Transplant Work?"
+                        content={[
+                            { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
+                            { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
+                            { type: "paragraph", value: "The extraction can be performed:" },
+                            { type: "list", value: ["Manually", "With a micromotor"] },
+                            { type: "paragraph", value: "Depending on the patient’s hair structure, scalp condition, and treatment plan." },
+                            { type: "paragraph", value: "Micromotor-assisted FUE may allow a higher number of grafts to be harvested per hour, while manual FUE may be preferred in certain cases for enhanced control and precision." },
+                            { type: "paragraph", value: "In both techniques, punches with a diameter of approximately 0.5–0.9 mm are used. FUE does not create linear scars; instead, tiny dot-like marks may appear in the donor area and typically heal quickly." },
+                        ]}
+                    >
+                        <FueDoesItWorkFAQs />
+                    </HowDoesItWork>
                 </SectionWrapper>
             </main>
         </>
