@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
-export default function FueMicroMotorMain({ title, boldTitle, description1, description2, imageUrl }) {
+const GeneralInfo = ({ title, boldTitle, description1, description2, imageUrl }) => {
     return (
         <section className='w-full max-w-6xl mx-auto flex items-center gap-6'>
             <article className='w-full max-w-92 flex flex-col items-start gap-9'>
@@ -11,5 +11,7 @@ export default function FueMicroMotorMain({ title, boldTitle, description1, desc
             </article>
             <Image src={imageUrl} alt={boldTitle} width={800} height={600} className='object-cover object-center w-full h-full max-h-146.25' />
         </section>
-    )
-}
+    );
+};
+
+export default GeneralInfo;
