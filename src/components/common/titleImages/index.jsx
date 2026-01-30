@@ -14,7 +14,7 @@ export default function TitleImages() {
                     <AccordionTrigger isShowIcon={false}>
                         <div className="group relative w-full flex items-center justify-between gap-2.5 transition-all duration-200 before:absolute before:content-[''] before:h-px before:w-[30%] before:bottom-0 before:left-[-15%] before:bg-linear-to-r before:from-ivory-soft/40 before:to-transparent cursor-pointer">
                             <div className="absolute inset-y-0 -left-[15%] h-full w-1/2 z-10 bg-linear-to-r from-[#8C4242] to-transparent opacity-0 group-hover:opacity-100 transition-all duration-200" />
-                            <div className="relative w-full text-[20px] text-ivory-soft py-8.5 z-20">Hair Transplantat</div>
+                            <div className="relative w-full text-[20px] text-ivory-soft py-6 sm:py-8.5 z-20">Hair Transplantat</div>
                             <Image
                                 src="/images/title-1.png"
                                 alt="title image 1"
@@ -38,7 +38,7 @@ export default function TitleImages() {
                     <AccordionTrigger isShowIcon={false}>
                         <div className="group relative w-full flex items-center justify-between gap-2.5 transition-all duration-200 before:absolute before:content-[''] before:h-px before:w-[30%] before:bottom-0 before:left-[-15%] before:bg-linear-to-r before:from-ivory-soft/40 before:to-transparent cursor-pointer">
                             <div className="absolute inset-y-0 -left-[15%] h-full w-1/2 z-10 bg-linear-to-r from-[#8C4242] to-transparent opacity-0 group-hover:opacity-100 transition-all duration-200" />
-                            <div className="relative w-full text-[20px] text-ivory-soft py-8.5 z-20">Beard Transplantat</div>
+                            <div className="relative w-full text-[20px] text-ivory-soft py-6 sm:py-8.5 z-20">Beard Transplantat</div>
                             <Image
                                 src="/images/title-2.png"
                                 alt="title image 2"
@@ -62,7 +62,7 @@ export default function TitleImages() {
                     <AccordionTrigger isShowIcon={false}>
                         <div className="group relative w-full flex items-center justify-between gap-2.5 transition-all duration-200 before:absolute before:content-[''] before:h-px before:w-[30%] before:bottom-0 before:left-[-15%] before:bg-linear-to-r before:from-ivory-soft/40 before:to-transparent cursor-pointer">
                             <div className="absolute inset-y-0 -left-[15%] h-full w-1/2 z-10 bg-linear-to-r from-[#8C4242] to-transparent opacity-0 group-hover:opacity-100 transition-all duration-200" />
-                            <div className="relative w-full text-[20px] text-ivory-soft py-8.5 z-20">Eyebrow Transplantat</div>
+                            <div className="relative w-full text-[20px] text-ivory-soft py-6 sm:py-8.5 z-20">Eyebrow Transplantat</div>
                             <Image
                                 src="/images/title-3.png"
                                 alt="title image 3"
@@ -86,7 +86,7 @@ export default function TitleImages() {
                     <AccordionTrigger isShowIcon={false}>
                         <div className="group relative w-full flex items-center justify-between gap-2.5 transition-all duration-200 cursor-pointer">
                             <div className="absolute inset-y-0 -left-[15%] h-full w-1/2 z-10 bg-linear-to-r from-[#8C4242] to-transparent opacity-0 group-hover:opacity-100 transition-all duration-200" />
-                            <div className="relative w-full text-[20px] text-ivory-soft py-8.5 z-20">Femail Hair Transplant</div>
+                            <div className="relative w-full text-[20px] text-ivory-soft py-6 sm:py-8.5 z-20">Femail Hair Transplant</div>
                             <Image
                                 src="/images/title-4.png"
                                 alt="title image 4"

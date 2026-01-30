@@ -12,22 +12,22 @@ export default function Footer() {
             <section className='relative fluid gridContainer w-full bg-coffee-dark py-5.25 border-y border-gold min-h-75 2xl:min-h-90'>
                 <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
                 <div className='w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0' />
-                <main className='w-full max-w-6xl mx-auto flex items-start justify-between my-auto'>
-                    <article className='w-full max-w-sm flex flex-col items-start'>
+                <main className='w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center lg:items-start  justify-start lg:justify-between my-auto'>
+                    <article className='w-full max-w-sm flex flex-col items-center lg:items-start'>
                         <Image src='/images/logo.jpg' alt='Dr.Bicer Logo' width={250} height={70} className='object-contain object-center w-fit h-14.75 2xl:h-18' />
-                        <div className='w-full flex flex-col gap-4 mt-5'>
+                        <div className='w-full flex flex-col items-center lg:items-start gap-4 mt-5'>
                             <div className='w-full max-w-sm grid grid-cols-1 gap-x-5 text-ivory-soft text-sm 2xl:text-lg'>
-                                <div className='w-full flex items-center justify-between'>
+                                <div className='w-full flex items-center justify-center md:justify-between'>
                                     <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>Adress:</div>
-                                    <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>Istanbul/Turkey</div>
+                                    <div className='flex-1 w-full text-end md:text-start text-nowrap 2xl:text-lg'>Istanbul/Turkey</div>
                                 </div>
-                                <div className='w-full flex items-center justify-between'>
+                                <div className='w-full flex items-center justify-center md:justify-between'>
                                     <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>Mobile & Whats App:</div>
-                                    <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>+90 530 414 13 13</div>
+                                    <div className='flex-1 w-full text-end md:text-start text-nowrap 2xl:text-lg'>+90 530 414 13 13</div>
                                 </div>
-                                <div className='w-full flex items-center justify-between'>
+                                <div className='w-full flex items-center justify-center md:justify-between'>
                                     <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>E-Mail:</div>
-                                    <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>info@ozlembicer.com</div>
+                                    <div className='flex-1 w-full text-end md:text-start text-nowrap 2xl:text-lg'>info@ozlembicer.com</div>
                                 </div>
                             </div>
                             <div className='flex items-center gap-5'>

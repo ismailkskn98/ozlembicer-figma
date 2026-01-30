@@ -60,7 +60,7 @@ export default function Navbar() {
         <nav className='w-full flex items-center text-nowrap bg-transparent text-ivory-soft text-sm capitalize'>
             <Menu setActive={setActive}>
                 {menu.map((item) => (
-                    <MenuItem key={item.item} setActive={setActive} active={active} item={item.item} isLinks={item.links} href={item.href} className={'cursor-pointer relative hover:bg-wine-brown px-3.75 py-2.5 rounded-[10px] transition-all duration-200'}>
+                    <MenuItem key={item.item} setActive={setActive} active={active} item={item.item} isLinks={item.links} href={item.href} className={'cursor-pointer relative hover:bg-wine-brown px-3.75 py-0.5 xl:py-2.5 rounded-[10px] transition-all duration-200'}>
                         <div className="flex flex-col text-sm bg-transparent rounded-[10px] capitalize">
                             {item.links && item.links.length > 0 && item.links.map((link, idx) => link.submenu ? (
                                 <NestedHoveredLink

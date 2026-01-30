@@ -60,6 +60,17 @@ export default function PatientResultCarousel() {
                 modules={[Navigation, Autoplay]}
                 spaceBetween={50}
                 slidesPerView={3}
+                breakpoints={{
+                    900: {
+                        slidesPerView: 3,
+                    },
+                    500: {
+                        slidesPerView: 2,
+                    },
+                    100: {
+                        slidesPerView: 1,
+                    },
+                }}
                 centeredSlides={true}
                 centeredSlidesBounds={true}
                 navigation={{ prevEl: '#patient-prev', nextEl: '#patient-next' }}
@@ -68,7 +79,7 @@ export default function PatientResultCarousel() {
                     delay: 4000,
                     disableOnInteraction: false,
                 }}
-                className='w-full'
+                className='w-10/12 mx-auto'
             >
                 {carouselItems.map((item, index) => (
                     <SwiperSlide className='bg-linear-to-b from-stone-beige to-ivory-soft p-2.5 rounded-[10px]'>

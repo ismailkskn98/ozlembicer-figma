@@ -38,9 +38,9 @@ const logoImages = [
 
 export default function HeroLogoCarousel() {
     return (
-        <section className='fluid gridContainer relative w-full pt-32.5 pb-15 px-30 bg-linear-to-t from-ivory-soft to-stone-beige'>
+        <section className='fluid gridContainer relative w-full pt-57 sm:pt-65 md:pt-32.5 pb-15 bg-linear-to-t from-ivory-soft to-stone-beige'>
             <HeroCards />
-            <div className='w-full max-w-300 mx-auto'>
+            <div className='w-full max-w-full lg:max-w-300 mx-auto'>
                 <MotionScrollInView className="w-full flex flex-col items-center gap-7.5">
                     <p className='text-center text-[20px] text-coffee-dark'><span className='font-bold'>Trusted by Leading Associations</span> Worldwide</p>
                     <Swiper
@@ -55,6 +55,16 @@ export default function HeroLogoCarousel() {
                         }}
                         loop={false}
                         className='w-full'
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 2,
+                                slidesPerGroup: 2,
+                            },
+                            640: {
+                                slidesPerView: 4,
+                                slidesPerGroup: 4,
+                            }
+                        }}
                     >
                         {logoImages.map((logo, index) => (
                             <SwiperSlide key={index}>

@@ -61,9 +61,9 @@ const heroSlideItems = [
 
 export default function Hero() {
     return (
-        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-25 pb-50'>
+        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-25 pb-40 sm:pb-35 lg:pb-50'>
             <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
-            <main className='w-full max-w-6xl mx-auto'>
+            <main className='w-full max-w-full xl:max-w-6xl mx-auto'>
                 <Swiper
                     modules={[EffectFade, Autoplay]}
                     effect="fade"
@@ -78,16 +78,16 @@ export default function Hero() {
                     {heroSlideItems.map((item, index) => (
                         <SwiperSlide key={index} className='w-full'>
                             {({ isActive }) => (
-                                <div className={`w-full flex items-center justify-between gap-10`}>
-                                    <article className='flex flex-col items-start gap-7.5 text-ivory-soft'>
-                                        <h2 className={`min-h-60 flex flex-col items-start justify-end font-bold text-[50px] leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
+                                <div className={`w-full flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-10`}>
+                                    <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft'>
+                                        <h2 className={`min-h-auto lg:min-h-50 xl:min-h-60 flex flex-col items-center lg:items-start justify-start lg:justify-end font-bold text-[50px] lg:text-[40px] xl:text-[50px] leading-12 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
                                             {item.title.map((line, lineIndex) => (
                                                 <span key={lineIndex} className="block">
                                                     {line}
                                                 </span>
                                             ))}
                                         </h2>
-                                        <p className={`text-base w-full max-w-87.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>{item.description}</p>
+                                        <p className={`line-clamp-4 lg:line-clamp-none text-center lg:text-start text-base w-full max-w-full lg:max-w-87.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>{item.description}</p>
                                         <div className={`flex items-center gap-6 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
                                             {item.links.map((link, linkIndex) => (
                                                 <Link
@@ -103,7 +103,7 @@ export default function Hero() {
                                             ))}
                                         </div>
                                     </article>
-                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-contain object-center w-full max-w-165.5 h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
+                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-contain object-center w-full max-w-165.5 h-full max-h-100 xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
                                 </div>
                             )}
                         </SwiperSlide>

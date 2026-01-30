@@ -17,22 +17,24 @@ export default function YoutubeCarousel({ videos = [] }) {
 
   return (
     <main className="relative fluid gridContainer">
-      <section className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center gap-7">
+      <section className="w-full max-w-full lg:max-w-7xl mx-auto flex flex-col items-center justify-center gap-y-7">
         <Swiper
           modules={[Autoplay, Navigation]}
-          spaceBetween={60}
+          spaceBetween={50}
           slidesPerView={3}
           breakpoints={{
             900: {
               slidesPerView: 3,
             },
             500: {
-              slidesPerView: 3,
-            },
-            100: {
               slidesPerView: 2,
             },
+            100: {
+              slidesPerView: 1.5,
+            },
           }}
+          centeredSlides={true}
+          centeredSlidesBounds={true}
           scrollbar={{ draggable: true }}
           navigation={{
             prevEl: '#youtube-prev',
@@ -43,22 +45,24 @@ export default function YoutubeCarousel({ videos = [] }) {
             delay: 3000,
             disableOnInteraction: false,
           }}
-          className="w-full h-60 md:h-80"
+          className="w-full"
         >
           {videos.map((item, i) => (
-            <SwiperSlide key={i} className="relative group h-full bg-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-5 cursor-pointer overflow-hidden">
-              <Image
-                src={item.snippet.thumbnails.medium.url}
-                alt={item.snippet.title}
-                width={item.snippet.thumbnails.medium.width}
-                height={item.snippet.thumbnails.medium.height}
-                className="relative z-10 object-cover object-center w-full rounded-[5px] min-h-52"
-              />
-              <ModalVideo title={item.snippet.title} description={item.snippet.description} videoSrc={`https://www.youtube.com/embed/${item.id.videoId}?si=oTPj5Q6sfN3Vuxav`} />
-              <div className="w-full bg-wine-brown p-2.5 rounded-[5px] min-h-19 flex items-center justify-center">
-                <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[12px]">
-                  <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
-                  {item.snippet.description.length > 0 && <p className="sm:block hidden  lowercase line-clamp-2">{item.snippet.description}</p>}
+            <SwiperSlide key={i} className="w-full">
+              <div className="relative group h-full bg-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-5 cursor-pointer overflow-hidden">
+                <Image
+                  src={item.snippet.thumbnails.medium.url}
+                  alt={item.snippet.title}
+                  width={item.snippet.thumbnails.medium.width}
+                  height={item.snippet.thumbnails.medium.height}
+                  className="relative z-10 object-cover object-center w-full rounded-[5px] h-40 sm:h-52"
+                />
+                <ModalVideo title={item.snippet.title} description={item.snippet.description} videoSrc={`https://www.youtube.com/embed/${item.id.videoId}?si=oTPj5Q6sfN3Vuxav`} />
+                <div className="w-full bg-wine-brown p-2.5 rounded-[5px] min-h-19 flex items-center justify-center">
+                  <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[12px]">
+                    <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
+                    {item.snippet.description.length > 0 && <p className="sm:block hidden  lowercase line-clamp-2">{item.snippet.description}</p>}
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
