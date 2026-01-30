@@ -17,7 +17,6 @@ export default function CustomBreadCrumb({ links, isButton = false }) {
 
         const id = hash.replace('#', '')
 
-        // render + images + layout otursun diye
         setTimeout(() => {
             const el = document.getElementById(id)
             if (el) {
