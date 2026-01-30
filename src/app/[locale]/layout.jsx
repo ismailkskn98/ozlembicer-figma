@@ -5,6 +5,8 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import ReactLenis from 'lenis/react';
+import Lenis from '@/lib/lenis';
 
 const inter = localFont({
   src: [
@@ -35,9 +37,11 @@ export default async function RootLayout({ children, params }) {
     <html lang={locale}>
       <body className={`${inter.variable} font-inter antialiased w-full bg-stone-beige`}>
         <NextIntlClientProvider>
-          <Header />
-          {children}
-          <Footer />
+          <Lenis root>
+            <Header />
+            {children}
+            <Footer />
+          </Lenis>
         </NextIntlClientProvider>
       </body>
     </html>

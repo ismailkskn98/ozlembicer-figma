@@ -20,20 +20,18 @@ export default function Navbar() {
             links: [
                 {
                     href: '#',
-                    label: 'Hair Transplant',
+                    label: 'Hair Transplantat',
                     submenu: [
-                        { href: '/hair-transplant/fue-micro-motor', label: 'FUE (Micro Motor)' },
-                        { href: '/hair-transplant/fue-manuel', label: 'FUE (Manuel)' },
-                        { href: '/hair-transplant/body-hair-transplant', label: 'BHT (Body Hair Transplant)' },
-                        { href: '/hair-transplant/reconstructive-hair-transplant', label: 'Reconstructive Hair Transplant' },
-                        { href: '/hair-transplant/long-hair', label: 'Long Hair (Unshaven)' },
-                        { href: '/hair-transplant/fut', label: 'FUT' },
+                        { href: '/hair-transplant#fue-micro-motor', label: 'FUE (Micro Motor)' },
+                        { href: '/hair-transplant#fue-manuel', label: 'FUE (Manuel)' },
+                        { href: '/hair-transplant#body-hair-transplant', label: 'BHT (Body Hair Transplant)' },
+                        { href: '/hair-transplant#reconstructive-hair-transplant', label: 'Reconstructive Hair Transplant' },
+                        { href: '/hair-transplant#long-hair', label: 'Long Hair (Unshaven)' },
+                        { href: '/hair-transplant#fut', label: 'FUT' },
                     ],
                 },
-                { href: '#', label: 'Hair Transplantat' },
                 { href: '#', label: 'Beard Transplantation' },
                 { href: '#', label: 'Eyebrow Transplant' },
-                { href: '#', label: 'Women Transplant' },
             ],
         },
         {

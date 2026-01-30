@@ -1,6 +1,6 @@
-import { redirect } from 'next/navigation'
+import HairTransplantMain from '@/components/hairTransplant'
 import React from 'react'
 
 export default function page() {
-    return redirect('/hair-transplant/fue-micro-motor');
+    return <HairTransplantMain />
 }
