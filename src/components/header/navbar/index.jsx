@@ -29,7 +29,7 @@ export default function Navbar() {
                         { href: '/hair-transplant#fut', label: 'FUT' },
                     ],
                 },
-                { href: '#', label: 'Beard Transplantation' },
+                { href: '/beard-transplantation', label: 'Beard Transplantation' },
                 { href: '#', label: 'Eyebrow Transplant' },
             ],
         },

@@ -1,11 +1,12 @@
-import CustomBreadCrumb from '@/components/common/customBreadCrumb'
-import HowToAppointment from '@/components/common/howToAppointment'
-import HeroLogoCarousel from '@/components/common/logoCarousel'
 import React from 'react'
+import SpeaksLanguage from './speaksLanguage'
+import CustomBreadCrumb from '@/components/common/customBreadCrumb'
 import ClinicTeamHero from './clinicTeamHero'
 import Clinic from './clinic'
 import PatientResults from '@/components/common/patientResults'
-import SpeaksLanguage from './speaksLanguage'
+import HowToAppointment from '@/components/common/howToAppointment'
+import HeroLogoCarousel from '@/components/common/logoCarousel'
+
 
 const linksItems = [
     { label: 'About Dr. Ozlem Bicer', href: '/about-us/dr-ozlem-bicer' },
