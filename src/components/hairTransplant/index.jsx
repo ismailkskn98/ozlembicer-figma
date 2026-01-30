@@ -4,9 +4,10 @@ import HairTransplantHero from './hairTransplantHero'
 import CustomBreadCrumb from '../common/customBreadCrumb'
 import HeroLogoCarousel from '../common/logoCarousel'
 import SectionWrapper from './common/sectionWrapper';
-import HowDoesItWork from './fueMicroMotor/howDoesItWork'
 import HowDoesItWorkBodyHair from './bodyHair/howDoesItWorkBodyHair'
 import HowDoesItWorkRecon from './reconstructive/howDoesItWorkRecon'
+import FueDoesItWorkFAQs from './fueMicroMotor/fueDoesItWorkFAQs';
+import HowDoesItWork from './common/howDoesItWork';
 
 const linksItems = [
     { label: 'FUE (Micro Motor)', href: '/hair-transplant#fue-micro-motor' },
@@ -38,7 +39,29 @@ export default function HairTransplantMain() {
                         imageUrl: "/images/hair-transplant/fue-micro-motor.png"
                     }}
                 >
-                    <HowDoesItWork />
+                    <HowDoesItWork
+                        images={[
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 1" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 2" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 3" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 4" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
+                        ]}
+                        title="How Does FUE Hair Transplant Work?"
+                        content={[
+                            { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
+                            { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
+                            { type: "paragraph", value: "The extraction can be performed:" },
+                            { type: "list", value: ["Manually", "With a micromotor"] },
+                            { type: "paragraph", value: "Depending on the patient’s hair structure, scalp condition, and treatment plan." },
+                            { type: "paragraph", value: "Micromotor-assisted FUE may allow a higher number of grafts to be harvested per hour, while manual FUE may be preferred in certain cases for enhanced control and precision." },
+                            { type: "paragraph", value: "In both techniques, punches with a diameter of approximately 0.5–0.9 mm are used. FUE does not create linear scars; instead, tiny dot-like marks may appear in the donor area and typically heal quickly." },
+                        ]}
+                    >
+                        <FueDoesItWorkFAQs />
+                    </HowDoesItWork>
                 </SectionWrapper>
 
                 <SectionWrapper
