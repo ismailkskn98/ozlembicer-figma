@@ -80,7 +80,7 @@ export default function Hero() {
                             {({ isActive }) => (
                                 <div className={`w-full flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-10`}>
                                     <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft'>
-                                        <h2 className={`min-h-auto lg:min-h-50 xl:min-h-60 flex flex-col items-center lg:items-start justify-start lg:justify-end font-bold text-[50px] lg:text-[40px] xl:text-[50px] leading-12 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
+                                        <h2 className={`min-h-auto lg:min-h-50 xl:min-h-60 flex flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[45px] sm:text-[50px] lg:text-[40px] xl:text-[50px] leading-12 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
                                             {item.title.map((line, lineIndex) => (
                                                 <span key={lineIndex} className="block">
                                                     {line}
@@ -88,7 +88,7 @@ export default function Hero() {
                                             ))}
                                         </h2>
                                         <p className={`line-clamp-4 lg:line-clamp-none text-center lg:text-start text-base w-full max-w-full lg:max-w-87.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>{item.description}</p>
-                                        <div className={`flex items-center gap-6 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
+                                        <div className={`flex sm:flex-row flex-col items-center gap-3 sm:gap-6 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
                                             {item.links.map((link, linkIndex) => (
                                                 <Link
                                                     key={linkIndex}
