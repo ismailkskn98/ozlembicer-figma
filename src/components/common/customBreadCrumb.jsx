@@ -38,7 +38,7 @@ export default function CustomBreadCrumb({ links, isButton = false }) {
                             {isButton ? (
                                 <ScrollLink
                                     to={link.href.split('#')[1]}
-                                    duration={100}
+                                    duration={1000}
                                     offset={0}
                                     spy={true}
                                     hashSpy={true}
