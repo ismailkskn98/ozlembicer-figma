@@ -2,6 +2,7 @@ import OzlemBicerMain from '@/components/about/ozlembicer'
 import VideosTutorials from '@/components/common/videosTutorials';
 import React from 'react'
 
+
 const getYoutubeVideos = async () => {
     try {
         const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/youtube`, {
