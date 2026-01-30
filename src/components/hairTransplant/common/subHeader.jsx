@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+import CustomBreadCrumb from '@/components/common/customBreadCrumb';
 
-export default function SubHeader({ id, title, subtitle, imageUrl }) {
+export default function SubHeader({ linksItems, id, title, subtitle, imageUrl }) {
     return (
         <header className='w-full fluid gridContainer'>
             <main id={id} className='w-full fluid gridContainer bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark h-37.5 border-y border-gold py-2.5 text-ivory-soft'>
@@ -12,6 +13,7 @@ export default function SubHeader({ id, title, subtitle, imageUrl }) {
                     <Image src={imageUrl} alt={id} width={120} height={120} className="object-contain w-22.5 h-22.5" />
                 </section>
             </main>
+            <CustomBreadCrumb links={linksItems} isButton={true} />
         </header>
     );
 }

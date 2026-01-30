@@ -20,12 +20,12 @@ const linksItems = [
 export default function HairTransplantMain() {
     return (
         <>
-
             <CustomBreadCrumb links={linksItems} isButton={true} />
             <HairTransplantHero />
             <HeroLogoCarousel />
             <main className='fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft'>
                 <SectionWrapper
+                    linksItems={linksItems}
                     id='fue-micro-motor'
                     title='FUE'
                     subtitle='(Micro Motor)'
@@ -42,6 +42,7 @@ export default function HairTransplantMain() {
                 </SectionWrapper>
 
                 <SectionWrapper
+                    linksItems={linksItems}
                     id='fue-manuel'
                     title='FUE'
                     subtitle='(Manual)'
@@ -58,6 +59,7 @@ export default function HairTransplantMain() {
                 </SectionWrapper>
 
                 <SectionWrapper
+                    linksItems={linksItems}
                     id='body-hair-transplant'
                     title='BHT'
                     subtitle='(Body Hair Transplant)'
@@ -74,6 +76,7 @@ export default function HairTransplantMain() {
                 </SectionWrapper>
 
                 <SectionWrapper
+                    linksItems={linksItems}
                     id='reconstructive-hair-transplant'
                     title='Reconstructive Hair Transplantation'
                     subtitle=''
@@ -90,6 +93,7 @@ export default function HairTransplantMain() {
                 </SectionWrapper>
 
                 <SectionWrapper
+                    linksItems={linksItems}
                     id='long-hair'
                     title='Long Hair'
                     subtitle='(Unshaven)'
@@ -106,6 +110,7 @@ export default function HairTransplantMain() {
                 </SectionWrapper>
 
                 <SectionWrapper
+                    linksItems={linksItems}
                     id='fut'
                     title='FUT'
                     subtitle='(Follicular Unit Transplantation)'

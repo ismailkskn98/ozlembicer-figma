@@ -2,10 +2,11 @@ import React from 'react';
 import SubHeader from '../common/subHeader';
 import GeneralInfo from '../common/generalInfo';
 
-const SectionWrapper = ({ id, title, subtitle, imageUrl, generalInfoProps, children }) => {
+const SectionWrapper = ({ linksItems, id, title, subtitle, imageUrl, generalInfoProps, children }) => {
     return (
         <section className='w-full fluid gridContainer'>
             <SubHeader
+                linksItems={linksItems}
                 id={id}
                 title={title}
                 subtitle={subtitle}
