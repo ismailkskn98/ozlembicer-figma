@@ -25,7 +25,7 @@ export default function HairTransplantMain() {
             <CustomBreadCrumb links={linksItems} isButton={true} />
             <HairTransplantHero />
             <HeroLogoCarousel />
-            <main className='fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft'>
+            <main className='relative fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft'>
                 <SectionWrapper
                     linksItems={linksItems}
                     id='fue-micro-motor'

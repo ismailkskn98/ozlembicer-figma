@@ -4,7 +4,7 @@ import GeneralInfo from '../common/generalInfo';
 
 const SectionWrapper = ({ linksItems, id, title, subtitle, imageUrl, generalInfoProps, children }) => {
     return (
-        <section className='w-full fluid gridContainer'>
+        <section className='relative w-full fluid gridContainer'>
             <SubHeader
                 linksItems={linksItems}
                 id={id}
