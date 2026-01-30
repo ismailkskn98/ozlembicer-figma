@@ -5,7 +5,6 @@ import HeroLogoCarousel from '../common/logoCarousel'
 import HowToAppointment from '../common/howToAppointment'
 import SectionWrapper from '../hairTransplant/common/sectionWrapper'
 import HowDoesItWork from '../hairTransplant/common/howDoesItWork'
-import FueDoesItWorkFAQs from '../hairTransplant/fueMicroMotor/fueDoesItWorkFAQs'
 
 const linksItems = [
     { label: 'Hair Transplantation', href: '#' },

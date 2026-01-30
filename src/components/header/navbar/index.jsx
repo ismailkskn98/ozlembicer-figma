@@ -30,29 +30,29 @@ export default function Navbar() {
                     ],
                 },
                 { href: '/beard-transplantation', label: 'Beard Transplantation' },
-                { href: '#', label: 'Eyebrow Transplant' },
+                { href: '/eyebrown-transplant', label: 'Eyebrow Transplant' },
             ],
         },
         {
             item: 'Guides',
-            links: [
-                { href: '#', label: 'Hair Loss' },
-                { href: '#', label: 'Hair Loss In Women' },
-                { href: '#', label: 'Hair Mesotherapy' },
-                { href: '#', label: 'PRP' },
-                { href: '#', label: 'Norwood scale' },
-                { href: '#', label: 'Reconstruction Hair Transplantation' },
-                { href: '#', label: 'Shock Loss' },
-            ],
+            // links: [
+            //     { href: '#', label: 'Hair Loss' },
+            //     { href: '#', label: 'Hair Loss In Women' },
+            //     { href: '#', label: 'Hair Mesotherapy' },
+            //     { href: '#', label: 'PRP' },
+            //     { href: '#', label: 'Norwood scale' },
+            //     { href: '#', label: 'Reconstruction Hair Transplantation' },
+            //     { href: '#', label: 'Shock Loss' },
+            // ],
         },
         {
             item: 'Gallery',
-            links: [
-                { href: '#', label: 'Before & After' },
-                { href: '#', label: 'Patient Results' },
-                { href: '#', label: 'Patient Reviews' },
-                { href: '#', label: 'Interview' },
-            ],
+            // links: [
+            //     { href: '#', label: 'Before & After' },
+            //     { href: '#', label: 'Patient Results' },
+            //     { href: '#', label: 'Patient Reviews' },
+            //     { href: '#', label: 'Interview' },
+            // ],
         },
         { item: 'Contact Us', href: '/contact-us' }
     ];

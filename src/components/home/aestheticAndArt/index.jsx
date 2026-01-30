@@ -7,7 +7,7 @@ import React from 'react'
 export default function AestheticAndArt() {
     return (
         <section className='relative fluid gridContainer w-full py-25 bg-radial from-coffee-dark to-wine-brown'>
-            <div className='w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0' />
+            <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
             <div className='w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0' />
             <main className='relative z-20 w-full max-w-6xl mx-auto grid grid-cols-2 gap-6'>
                 <MotionLeftView>

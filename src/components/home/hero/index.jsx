@@ -62,7 +62,7 @@ const heroSlideItems = [
 export default function Hero() {
     return (
         <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-25 pb-50'>
-            <div className='w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0' />
+            <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
             <main className='w-full max-w-6xl mx-auto'>
                 <Swiper
                     modules={[EffectFade, Autoplay]}
