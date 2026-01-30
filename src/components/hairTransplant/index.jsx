@@ -1,4 +1,3 @@
-'use client';
 import React from 'react'
 import HairTransplantHero from './hairTransplantHero'
 import CustomBreadCrumb from '../common/customBreadCrumb'

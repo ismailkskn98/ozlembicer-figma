@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
     Breadcrumb,
     BreadcrumbItem,
@@ -21,6 +21,8 @@ export default function CustomBreadCrumb({ links, isButton = false }) {
                                     to={link.href.split('#')[1]}
                                     duration={2500}
                                     offset={0}
+                                    spy={true}
+                                    hashSpy={true}
                                     smoothing="easeInOutCubic"
                                     className="hover:bg-wine-brown rounded-[10px] py-2.5 px-3.75 transition-colors cursor-pointer"
                                 >
