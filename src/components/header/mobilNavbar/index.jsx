@@ -47,61 +47,68 @@ export default function MobilNavbar({ children }) {
                                                 {item.item}
                                                 <MdExpandMore
                                                     size={20}
-                                                    className={`transition-transform duration-300 ${expandedMenu === item.item ? 'rotate-180' : ''}`}
+                                                    className={`transition-transform duration-300 ${(expandedMenu === item.item || expandedMenu?.startsWith(`${item.item}-`)) ? 'rotate-180' : ''}`}
                                                 />
                                             </button>
                                             {(expandedMenu === item.item || expandedMenu?.startsWith(`${item.item}-`)) && (
                                                 <ul className='bg-wine-brown/30 rounded-lg mt-1 overflow-hidden'>
-                                                    {item.links.map((link) => (
-                                                        <li key={link.label}>
-                                                            {link.submenu ? (
-                                                                <>
-                                                                    <button
-                                                                        onClick={() => {
-                                                                            const fullPath = `${item.item}-${link.label}`;
-                                                                            if (expandedMenu === fullPath) {
-                                                                                setExpandedMenu(item.item);
-                                                                            } else {
-                                                                                setExpandedMenu(fullPath);
-                                                                            }
-                                                                        }}
-                                                                        className='w-full flex items-center justify-between py-2.5 px-4 pl-6 text-ivory-soft/90 hover:text-ivory-soft hover:bg-wine-brown/50 transition-colors duration-200 text-xs capitalize'
-                                                                    >
-                                                                        {link.label}
-                                                                        <MdExpandMore
-                                                                            size={16}
-                                                                            className={`transition-transform duration-300 ${expandedMenu === `${item.item}-${link.label}` ? 'rotate-180' : ''}`}
-                                                                        />
-                                                                    </button>
-                                                                    {expandedMenu === `${item.item}-${link.label}` && (
-                                                                        <ul className='bg-wine-brown rounded-b-lg overflow-hidden'>
-                                                                            {link.submenu.map((sub) => (
-                                                                                <li key={sub.label}>
-                                                                                    <SheetClose asChild>
-                                                                                        <Link
-                                                                                            href={sub.href}
-                                                                                            className='block py-2 px-4 pl-6 text-ivory-soft/80 hover:text-ivory-soft hover:bg-wine-brown/60 transition-colors duration-200 text-xs capitalize'
-                                                                                        >
-                                                                                            {sub.label}
-                                                                                        </Link>
-                                                                                    </SheetClose>
-                                                                                </li>
-                                                                            ))}
-                                                                        </ul>
-                                                                    )}
-                                                                </>
-                                                            ) : (
-                                                                <SheetClose asChild>
-                                                                    <Link
-                                                                        href={link.href}
-                                                                        className='block py-2.5 px-4 pl-6 text-ivory-soft/90 hover:text-ivory-soft hover:bg-wine-brown/50 transition-colors duration-200 text-xs capitalize'
-                                                                    >
-                                                                        {link.label}
-                                                                    </Link>
-                                                                </SheetClose>
-                                                            )}
-                                                        </li>
-                                                    ))}
+                                                    {item.links.map((link) => {
+                                                        console.log("link: ", link);
+                                                        return (
+                                                            <li key={link.label}>
+                                                                {link.submenu ? (
+                                                                    <>
+                                                                        <button
+                                                                            onClick={() => {
+                                                                                const fullPath = `${item.item}-${link.label}`;
+                                                                                if (expandedMenu === fullPath) {
+                                                                                    setExpandedMenu(item.item);
+                                                                                } else {
+                                                                                    setExpandedMenu(fullPath);
+                                                                                }
+                                                                            }}
+                                                                            className='w-full flex items-center justify-between py-2.5 px-4 pl-6 text-ivory-soft/90 hover:text-ivory-soft hover:bg-wine-brown/50 transition-colors duration-200 text-xs capitalize'
+                                                                        >
+                                                                            {link.label}
+                                                                            <SheetClose asChild>
+                                                                                <Link href={link.href} className='p-0.5'>
+                                                                                    <MdExpandMore
+                                                                                        size={16}
+                                                                                        className={`transition-transform duration-300 ${expandedMenu === `${item.item}-${link.label}` ? 'rotate-180' : ''}`}
+                                                                                    />
+                                                                                </Link>
+                                                                            </SheetClose>
+                                                                        </button>
+                                                                        {expandedMenu === `${item.item}-${link.label}` && (
+                                                                            <ul className='bg-wine-brown rounded-b-lg overflow-hidden'>
+                                                                                {link.submenu.map((sub) => (
+                                                                                    <li key={sub.label}>
+                                                                                        <SheetClose asChild>
+                                                                                            <Link
+                                                                                                href={sub.href}
+                                                                                                className='block py-2 px-4 pl-6 text-ivory-soft/80 hover:text-ivory-soft hover:bg-wine-brown/60 transition-colors duration-200 text-xs capitalize'
+                                                                                            >
+                                                                                                {sub.label}
+                                                                                            </Link>
+                                                                                        </SheetClose>
+                                                                                    </li>
+                                                                                ))}
+                                                                            </ul>
+                                                                        )}
+                                                                    </>
+                                                                ) : (
+                                                                    <SheetClose asChild>
+                                                                        <Link
+                                                                            href={link.href}
+                                                                            className='block py-2.5 px-4 pl-6 text-ivory-soft/90 hover:text-ivory-soft hover:bg-wine-brown/50 transition-colors duration-200 text-xs capitalize'
+                                                                        >
+                                                                            {link.label}
+                                                                        </Link>
+                                                                    </SheetClose>
+                                                                )}
+                                                            </li>
+                                                        );
+                                                    })}
                                                 </ul>
                                             )}
                                         </>

@@ -78,9 +78,9 @@ export default function Hero() {
                     {heroSlideItems.map((item, index) => (
                         <SwiperSlide key={index} className='w-full'>
                             {({ isActive }) => (
-                                <div className={`w-full flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-10`}>
+                                <div className={`w-full flex flex-col lg:flex-row items-start justify-center lg:justify-between gap-10`}>
                                     <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft'>
-                                        <h2 className={`min-h-auto lg:min-h-50 xl:min-h-60 flex flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[45px] sm:text-[50px] lg:text-[40px] xl:text-[50px] leading-12 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
+                                        <h2 className={`flex flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[45px] sm:text-[50px] lg:text-[40px] xl:text-[50px] leading-12 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
                                             {item.title.map((line, lineIndex) => (
                                                 <span key={lineIndex} className="block">
                                                     {line}
@@ -103,7 +103,7 @@ export default function Hero() {
                                             ))}
                                         </div>
                                     </article>
-                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-contain object-center w-full max-w-165.5 h-full max-h-100 xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
+                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-size object-center w-full xl:w-165.5 h-full xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
                                 </div>
                             )}
                         </SwiperSlide>

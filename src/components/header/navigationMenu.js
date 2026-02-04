@@ -12,7 +12,7 @@ export const navigationMenu = [
     item: 'Transplantation',
     links: [
       {
-        href: '#',
+        href: '/hair-transplant',
         label: 'Hair Transplant',
         submenu: [
           { href: '/hair-transplant#fue-micro-motor', label: 'FUE (Micro Motor)' },
