@@ -40,9 +40,9 @@ export default function LanguageChange() {
                 }}
             >
                 <SelectTrigger
-                    className="border-none ring-0 focus-visible:ring-0 focus-visible:border-0 focus-visible:outline-0 justify-start cursor-pointer transition-all duration-200 w-fit h-fit pr-0 lg:px-3.75 py-2.5 shadow-none gap-1 text-white uppercase"
+                    className="border-none ring-0 focus-visible:ring-0 focus-visible:border-0 focus-visible:outline-0 justify-start cursor-pointer transition-all duration-200 w-fit h-fit pr-0 lg:px-3.75 py-2.5 shadow-none gap-0.5 md:gap-1 text-white uppercase"
                 >
-                    <span>{languageMap[locale]?.short}</span>
+                    <span className='text-xs lg:text-sm'>{languageMap[locale]?.short}</span>
                 </SelectTrigger>
 
                 <SelectContent className="bg-white dark:bg-site-dark">

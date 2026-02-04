@@ -38,7 +38,8 @@ export default async function RootLayout({ children, params }) {
         <NextIntlClientProvider>
           <ReactLenis root options={{ smoothWheel: true }}>
             <Header />
-            {children}
+            <div className='pt-20 sm:pt-25 lg:pt-30'>{children}</div>
+            {/* {children} */}
             <Footer />
           </ReactLenis>
         </NextIntlClientProvider>

@@ -22,7 +22,7 @@ export default function Footer() {
                                     <div className='flex-1 w-full text-end md:text-start text-nowrap 2xl:text-lg'>Istanbul/Turkey</div>
                                 </div>
                                 <div className='w-full flex items-center justify-center md:justify-between'>
-                                    <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>Mobile & Whats App:</div>
+                                    <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>Mobile & WhatsApp:</div>
                                     <div className='flex-1 w-full text-end md:text-start text-nowrap 2xl:text-lg'>+90 530 414 13 13</div>
                                 </div>
                                 <div className='w-full flex items-center justify-center md:justify-between'>
