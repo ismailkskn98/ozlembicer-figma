@@ -38,7 +38,7 @@ const logoImages = [
 
 export default function HeroLogoCarousel() {
     return (
-        <section className='fluid gridContainer relative w-full pt-57 sm:pt-65 md:pt-32.5 pb-15 bg-linear-to-t from-ivory-soft to-stone-beige'>
+        <section className='fluid gridContainer relative w-full pt-50 md:pt-32.5 pb-12 sm:pb-15 bg-linear-to-t from-ivory-soft to-stone-beige'>
             <HeroCards />
             <main className='w-full max-w-full xl:max-w-6xl mx-auto'>
                 <MotionScrollInView className="w-full flex flex-col items-center gap-7.5">
@@ -68,7 +68,7 @@ export default function HeroLogoCarousel() {
                     >
                         {logoImages.map((logo, index) => (
                             <SwiperSlide key={index}>
-                                <Image src={logo.src} alt={logo.alt} width={300} height={128} className="w-fit h-20 object-contain mx-auto" />
+                                <Image src={logo.src} alt={logo.alt} width={300} height={128} className="w-fit h-14 sm:h-20 object-contain mx-auto" />
                             </SwiperSlide>
                         ))}
                     </Swiper>

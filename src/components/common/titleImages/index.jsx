@@ -6,7 +6,7 @@ import React from "react";
 export default function TitleImages() {
     return (
         <MotionScrollInViewVariant
-            className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-y-5 bg-linear-to-r from-wine-brown to-coffee-dark min-h-175 rounded-4xl p-10 my-10 overflow-hidden"
+            className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-y-5 bg-linear-to-r from-wine-brown to-coffee-dark min-h-175 rounded-4xl p-10 lg:mb-10 mt-0 lg:mt-10 overflow-hidden"
             childClassname="w-full flex items-center justify-between gap-2.5"
         >
             <Accordion type="single" collapsible className="w-full">

@@ -11,6 +11,7 @@ import 'swiper/css/effect-fade';
 const heroSlideItems = [
     {
         title: ["Your", "Expectations Are", "Our Priority"],
+        mobileTitle: ["Your", "Expectations Are", "Our Priority"],
         description: "Dr. Özlem Bicer brings over 27 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.",
         imageSrc: "/images/hero-carousel/hero-1.png",
         imageAlt: "hero ozlem bicer",
@@ -27,6 +28,7 @@ const heroSlideItems = [
     },
     {
         title: ["An", "Experienced", "Doctor And", "Medical Team"],
+        mobileTitle: ["An Experienced", "Doctor And", "Medical Team"],
         description: "Dr. Özlem Bicer brings over 27 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.",
         imageSrc: "/images/hero-carousel/hero-2.png",
         imageAlt: "hero ozlem bicer team",
@@ -43,6 +45,7 @@ const heroSlideItems = [
     },
     {
         title: ["Internationally", "Acclaimed", "Faculty Member"],
+        mobileTitle: ["Internationally", "Acclaimed", "Faculty Member"],
         description: "Dr. Özlem Bicer brings over 27 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.",
         imageSrc: "/images/hero-carousel/hero-3.png",
         imageAlt: "hero ozlem bicer 2",
@@ -61,7 +64,7 @@ const heroSlideItems = [
 
 export default function Hero() {
     return (
-        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-20 sm:pt-25 pb-40 sm:pb-35 lg:pb-50'>
+        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-20 sm:pt-25 pb-52 lg:pb-50'>
             <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
             <main className='w-full max-w-full xl:max-w-6xl mx-auto'>
                 <Swiper
@@ -80,15 +83,24 @@ export default function Hero() {
                             {({ isActive }) => (
                                 <div className={`w-full flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-between gap-10 md:gap-15`}>
                                     <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft'>
-                                        <h2 className={`flex flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
+                                        {/* Desktop */}
+                                        <h2 className={`hidden lg:flex flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
                                             {item.title.map((line, lineIndex) => (
                                                 <span key={lineIndex} className="block text-nowrap">
                                                     {line}
                                                 </span>
                                             ))}
                                         </h2>
+                                        {/* Mobile */}
+                                        <h2 className={`flex lg:hidden flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
+                                            {item.mobileTitle.map((line, lineIndex) => (
+                                                <span key={lineIndex} className="block text-nowrap">
+                                                    {line}
+                                                </span>
+                                            ))}
+                                        </h2>
                                         <p className={`line-clamp-6 lg:line-clamp-none text-center lg:text-start text-sm sm:text-base w-full max-w-full sm:max-w-150 lg:max-w-100 xl:max-w-87.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>{item.description}</p>
-                                        <div className={`flex sm:flex-row flex-col items-center gap-3 sm:gap-6 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
+                                        <div className={`flex flex-row items-center gap-3 sm:gap-6 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
                                             {item.links.map((link, linkIndex) => (
                                                 <Link
                                                     key={linkIndex}
@@ -103,7 +115,7 @@ export default function Hero() {
                                             ))}
                                         </div>
                                     </article>
-                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-size object-center w-145 xl:w-165.5 h-full xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
+                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-size object-center w-145 xl:w-165.5 h-80 md:h-90 lg:h-110 xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
                                 </div>
                             )}
                         </SwiperSlide>
