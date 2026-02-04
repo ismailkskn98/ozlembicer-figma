@@ -12,7 +12,7 @@ export default function Footer() {
             <section className='relative fluid gridContainer w-full bg-coffee-dark py-5.25 border-y border-gold min-h-75 2xl:min-h-90'>
                 <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
                 <div className='w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0' />
-                <main className='w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center lg:items-start  justify-start lg:justify-between my-auto'>
+                <main className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col md:flex-row items-center lg:items-start  justify-start lg:justify-between my-auto'>
                     <article className='w-full max-w-sm flex flex-col items-center lg:items-start'>
                         <Image src='/images/logo.jpg' alt='Dr.Bicer Logo' width={250} height={70} className='object-contain object-center w-fit h-14.75 2xl:h-18' />
                         <div className='w-full flex flex-col items-center lg:items-start gap-4 mt-5'>

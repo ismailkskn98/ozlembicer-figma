@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function DoctorProfile() {
     return (
-        <section className='w-full mx-auto max-w-286.5 flex flex-col items-start gap-12.5 pt-12.5 pb-25'>
+        <section className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-12.5 pt-12.5 pb-25'>
             <article className='flex flex-col items-start gap-5 text-coffee-dark'>
                 <h2 className='text-[32px]'>Medical Philosophy</h2>
                 <p className='leading-relaxed'>Throughout her medical career, patient care has always been Dr. Biçer’s highest priority. She believes that ethical practice, professional responsibility, and continuous education are essential to achieving successful and sustainable outcomes.</p>

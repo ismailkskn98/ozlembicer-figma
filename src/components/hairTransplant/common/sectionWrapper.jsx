@@ -14,7 +14,7 @@ const SectionWrapper = ({ linksItems, id, title, subtitle, imageUrl, generalInfo
                     imageUrl={imageUrl}
                 />
             )}
-            <main className='w-full max-w-6xl mx-auto flex flex-col items-start gap-25 py-25'>
+            <main className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-25 py-25'>
                 {generalInfoProps && (
                     <GeneralInfo {...generalInfoProps} />
                 )}

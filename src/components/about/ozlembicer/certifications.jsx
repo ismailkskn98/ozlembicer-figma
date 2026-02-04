@@ -218,12 +218,12 @@ const certificationsItems = [
 export default function Certifications() {
   return (
     <section className='fluid gridContainer gap-y-6 w-full py-25'>
-      <MotionScrollInView className="w-full max-w-289.5 mx-auto rounded-[10px]">
-        <article className='w-full max-w-289.5 mx-auto rounded-[10px] h-20 bg-coffee-dark flex items-center justify-center text-ivory-soft'>
+      <MotionScrollInView className="w-full max-w-full xl:max-w-6xl mx-auto rounded-[10px]">
+        <article className='w-full max-w-full xl:max-w-6xl mx-auto rounded-[10px] h-20 bg-coffee-dark flex items-center justify-center text-ivory-soft'>
           <h2 className='text-[32px]'>Other Education & Training Programs</h2>
         </article>
       </MotionScrollInView>
-      <MotionScrollInView className='w-full max-w-289.5 mx-auto grid grid-cols-1 gap-y-6 text-[14px] text-coffee-dark'>
+      <MotionScrollInView className='w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-1 gap-y-6 text-[14px] text-coffee-dark'>
         {certificationsItems.map((item, index) => (
           <article key={index} className='w-full grid grid-cols-5'>
             <p className='col-span-4'>{item.title}, {item.location}</p>

@@ -79,7 +79,7 @@ export default function PatientResultCarousel() {
                     delay: 4000,
                     disableOnInteraction: false,
                 }}
-                className='w-10/12 mx-auto'
+                className='w-full'
             >
                 {carouselItems.map((item, index) => (
                     <SwiperSlide className='bg-linear-to-b from-stone-beige to-ivory-soft p-2.5 rounded-[10px]'>

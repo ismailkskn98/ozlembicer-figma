@@ -7,7 +7,7 @@ import MotionLeftView from '@/components/common/motionLeftView'
 export default function Clinic() {
     return (
         <section className='fluid gridContainer w-full bg-coffee-dark pt-18.25 pb-36'>
-            <main className='w-full max-w-6xl mx-auto flex flex-col items-start gap-4'>
+            <main className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-4'>
                 <h2 className='text-ivory-soft text-[32px]'>Clinic</h2>
                 <div className='w-full flex flex-col lg:flex-row items-start gap-12 lg:gap-32'>
                     <MotionLeftView className='flex-1 w-full lg:max-w-120'>

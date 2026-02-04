@@ -8,9 +8,9 @@ export default function HowToAppointment() {
         <section className='w-full fluid gridContainer py-15'>
             <main className='w-full flex flex-col items-center justify-center gap-6'>
                 <MotionScrollInView className="w-full">
-                    <h2 className='w-full max-w-308 mx-auto text-[25px] lg:text-[30px] text-center h-auto lg:h-15 text-coffee-dark border-b border-coffee-dark'>How To Make An Appointment</h2>
+                    <h2 className='w-full max-w-full xl:max-w-6xl mx-auto text-[25px] lg:text-[30px] text-center h-auto lg:h-15 text-coffee-dark border-b border-coffee-dark'>How To Make An Appointment</h2>
                 </MotionScrollInView>
-                <MotionScrollInViewVariant className='w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6'>
+                <MotionScrollInViewVariant className='w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6'>
                     <article className='group flex flex-col items-center justify-center bg-coffee-dark rounded-4xl pt-8 px-2.5 pb-14.75 h-full max-h-95'>
                         <div className='flex items-center text-ivory-soft'>
                             <span className='text-[80px] lg:text-[96px]'>1</span>
@@ -51,7 +51,7 @@ export default function HowToAppointment() {
                         </div>
                     </article>
                 </MotionScrollInViewVariant>
-                <MotionScrollInView className='w-full max-w-6xl flex flex-col lg:flex-row items-center gap-6'>
+                <MotionScrollInView className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-6'>
                     <article className='group flex flex-col items-start gap-3.75 text-coffee-dark'>
                         <h3 className='text-[32px]'>Hair Transplantation in<br /> Istanbul, Turkey</h3>
                         <p className='max-w-141'>Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.</p>
