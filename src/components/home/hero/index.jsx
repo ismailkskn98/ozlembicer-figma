@@ -64,7 +64,7 @@ const heroSlideItems = [
 
 export default function Hero() {
     return (
-        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-20 sm:pt-25 pb-52 lg:pb-50'>
+        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-20 sm:pt-25 pb-52 md:pb-40 xl:pb-50'>
             <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
             <main className='w-full max-w-full xl:max-w-6xl mx-auto'>
                 <Swiper
@@ -105,7 +105,7 @@ export default function Hero() {
                                                 <Link
                                                     key={linkIndex}
                                                     href={link.href}
-                                                    className={`rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm ${linkIndex === 0
+                                                    className={`rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm text-nowrap ${linkIndex === 0
                                                         ? 'border border-ivory-soft text-ivory-soft'
                                                         : 'bg-ivory-soft text-coffee-dark'
                                                         }`}
