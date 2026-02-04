@@ -78,7 +78,7 @@ export default function PatientResultCarousel() {
                     },
                     100: {
                         slidesPerView: 1.5,
-                        spaceBetween: 20
+                        spaceBetween: 10
                     },
                 }}
                 centeredSlides={true}
