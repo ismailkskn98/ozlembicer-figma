@@ -61,7 +61,7 @@ const heroSlideItems = [
 
 export default function Hero() {
     return (
-        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-25 pb-40 sm:pb-35 lg:pb-50'>
+        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-20 sm:pt-25 pb-40 sm:pb-35 lg:pb-50'>
             <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
             <main className='w-full max-w-full xl:max-w-6xl mx-auto'>
                 <Swiper
@@ -78,22 +78,22 @@ export default function Hero() {
                     {heroSlideItems.map((item, index) => (
                         <SwiperSlide key={index} className='w-full'>
                             {({ isActive }) => (
-                                <div className={`w-full flex flex-col lg:flex-row items-start justify-center lg:justify-between gap-10`}>
+                                <div className={`w-full flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-between gap-10 md:gap-15`}>
                                     <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft'>
-                                        <h2 className={`flex flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[45px] sm:text-[50px] lg:text-[40px] xl:text-[50px] leading-12 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
+                                        <h2 className={`flex flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
                                             {item.title.map((line, lineIndex) => (
-                                                <span key={lineIndex} className="block">
+                                                <span key={lineIndex} className="block text-nowrap">
                                                     {line}
                                                 </span>
                                             ))}
                                         </h2>
-                                        <p className={`line-clamp-4 lg:line-clamp-none text-center lg:text-start text-base w-full max-w-full lg:max-w-87.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>{item.description}</p>
-                                        <div className={`flex sm:flex-row flex-col items-center gap-3 sm:gap-6 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : (index === 1 ? 'opacity-0' : 'opacity-0 translate-y-15'))}`}>
+                                        <p className={`line-clamp-6 lg:line-clamp-none text-center lg:text-start text-sm sm:text-base w-full max-w-full sm:max-w-150 lg:max-w-100 xl:max-w-87.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>{item.description}</p>
+                                        <div className={`flex sm:flex-row flex-col items-center gap-3 sm:gap-6 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
                                             {item.links.map((link, linkIndex) => (
                                                 <Link
                                                     key={linkIndex}
                                                     href={link.href}
-                                                    className={`rounded-[10px] py-2.5 px-3.75 text-sm ${linkIndex === 0
+                                                    className={`rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm ${linkIndex === 0
                                                         ? 'border border-ivory-soft text-ivory-soft'
                                                         : 'bg-ivory-soft text-coffee-dark'
                                                         }`}
@@ -103,7 +103,7 @@ export default function Hero() {
                                             ))}
                                         </div>
                                     </article>
-                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-size object-center w-full xl:w-165.5 h-full xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
+                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-size object-center w-145 xl:w-165.5 h-full xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
                                 </div>
                             )}
                         </SwiperSlide>
