@@ -225,7 +225,7 @@ export default function Certifications() {
       </MotionScrollInView>
       <MotionScrollInView className='w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-1 gap-y-4 lg:gap-y-6 text-sm sm:text-[14px] text-coffee-dark'>
         {certificationsItems.map((item, index) => (
-          <article key={index} className='w-full grid grid-cols-4 lg:grid-cols-5 gap-x-5 border lg:border-0 border-coffee-dark px-4 lg:px-0 py-2 lg:py-0 rounded-sm'>
+          <article key={index} className='w-full grid grid-cols-4 lg:grid-cols-5 gap-x-5 border lg:border-0 border-coffee-dark/10 items-center px-2.5 lg:px-0 py-2 lg:py-0 rounded-sm'>
             <p className='col-span-3 lg:col-span-4'>{item.title}, {item.location}</p>
             <p className='col-span-1 lg:col-span-1'>{item.date}</p>
           </article>
