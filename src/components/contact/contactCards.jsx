@@ -4,7 +4,7 @@ import MotionScrollInViewVariant from '../common/motionScrollInViewVariant'
 
 export default function ContactCards() {
     return (
-        <section className='w-full fluid gridContainer py-15'>
+        <section className='fluid gridContainer py-15'>
             <main className='w-full flex flex-col items-center justify-center gap-6'>
                 <MotionScrollInView className="w-full">
                     <h2 className='w-full max-w-full xl:max-w-6xl mx-auto text-[30px] text-center text-coffee-dark border-b-4 border-coffee-dark'>How To Make An Appointment</h2>

@@ -41,7 +41,7 @@ const appointmentSteps = [
 
 export default function HowToAppointment() {
     return (
-        <section className='w-full fluid gridContainer py-15'>
+        <section className='w-full py-15'>
             <main className='w-full flex flex-col items-start lg:items-center justify-start lg:justify-center gap-6'>
                 <MotionScrollInView className="w-full">
                     <h2 className='w-full max-w-sm lg:max-w-6xl lg:mx-auto text-[20px] lg:text-[30px] text-start lg:text-center h-auto lg:h-15 text-coffee-dark border-b border-coffee-dark'>How To Make An Appointment</h2>

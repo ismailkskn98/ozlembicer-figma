@@ -73,6 +73,25 @@ html.lenis body {
   background: var(--color-wine-brown);
 }
 
+/* Breadcrumb custom scrollbar */
+.breadcrumb-scroll::-webkit-scrollbar {
+  height: 2px;
+}
+
+.breadcrumb-scroll::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.breadcrumb-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 10px;
+}
+
+.breadcrumb-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--color-stone-beige);
+}
+
 @utility gridContainer {
   display: grid;
   grid-template-columns: 1fr min(94%, 90rem) 1fr;

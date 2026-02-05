@@ -4,17 +4,17 @@ import MotionScrollInViewVariant from '../common/motionScrollInViewVariant'
 
 export default function HairTransplantHero() {
     return (
-        <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-50'>
+        <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-12 lg:pt-25 pb-50'>
             <div className='w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0' />
-            <section className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-16.25'>
+            <section className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-8 sm:gap-12 xl:gap-16.25'>
                 <article className='w-full max-w-140.5 text-ivory-soft'>
-                    <h1 className='text-[64px] leading-16 flex flex-col items-start'>Hair <span className='font-bold'>Transplant</span></h1>
+                    <h1 className='text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-16 flex flex-col items-start'>Hair <span className='font-bold'>Transplant</span></h1>
                 </article>
-                <MotionScrollInViewVariant className="w-full grid grid-cols-4 gap-2.5 rounded-4xl h-full max-h-157.5">
-                    <Image src="/images/hair-transplant/hero-item-1.png" alt="hair-transplant hero item 1" width={580} height={780} className='object-contain object-center w-full h-full rounded-l-4xl' />
-                    <Image src="/images/hair-transplant/hero-item-2.png" alt="hair-transplant hero item 2" width={580} height={780} className='object-contain object-center w-full h-full' />
-                    <Image src="/images/hair-transplant/hero-item-3.png" alt="hair-transplant hero item 3" width={580} height={780} className='object-contain object-center w-full h-full' />
-                    <Image src="/images/hair-transplant/hero-item-3.png" alt="hair-transplant hero item 4" width={580} height={780} className='object-contain object-center w-full h-full rounded-r-4xl' />
+                <MotionScrollInViewVariant className="w-full grid grid-cols-2 min-[500px]:grid-cols-4 gap-1.5 min-[500px]:gap-2.5 rounded-xl min-[500px]:rounded-4xl h-full max-h-full min-[500px]:max-h-157.5">
+                    <Image src="/images/hair-transplant/hero-item-1.png" alt="hair-transplant hero item 1" width={580} height={780} className='object-cover min-[500px]:object-contain object-center w-full h-75 min-[500px]:h-full rounded-tl-xl min-[500px]:rounded-l-4xl' />
+                    <Image src="/images/hair-transplant/hero-item-2.png" alt="hair-transplant hero item 2" width={580} height={780} className='object-cover min-[500px]:object-contain object-center w-full h-75 min-[500px]:h-full rounded-tr-xl min-[500px]:rounded-none' />
+                    <Image src="/images/hair-transplant/hero-item-3.png" alt="hair-transplant hero item 3" width={580} height={780} className='object-cover min-[500px]:object-contain object-center w-full h-75 min-[500px]:h-full rounded-bl-xl min-[500px]:rounded-none' />
+                    <Image src="/images/hair-transplant/hero-item-3.png" alt="hair-transplant hero item 4" width={580} height={780} className='object-cover min-[500px]:object-contain object-center w-full h-75 min-[500px]:h-full rounded-br-xl sm:rounded-r-4xl' />
                 </MotionScrollInViewVariant>
                 <article className='w-full flex flex-col items-start gap-4 text-ivory-soft text-[14px]'>
                     <p>
