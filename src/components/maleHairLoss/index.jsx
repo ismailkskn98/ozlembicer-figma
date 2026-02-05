@@ -11,7 +11,7 @@ import HowToAppointment from '../common/howToAppointment'
 
 const linksItems = [
     { label: 'Male Hair Loss', href: '#' },
-    { label: 'Female Hair Loss', href: '/hair-lost/female-hair-loss' },
+    { label: 'Female Hair Loss', href: '/hair-loss/female-hair-loss' },
 ]
 
 export default function MaleHairLossMain({ children }) {

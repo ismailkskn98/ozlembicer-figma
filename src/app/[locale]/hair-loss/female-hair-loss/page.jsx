@@ -1,8 +1,31 @@
+import VideosTutorials from '@/components/common/videosTutorials';
 import FemaleHairLossMain from '@/components/femaleHairLoss'
 import React from 'react'
 
-export default function FemaleHairLossPage() {
+const getYoutubeVideos = async () => {
+    try {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/youtube`, {
+            cache: "force-cache",
+            next: { revalidate: 86400 },
+        });
+
+        if (!res.ok) {
+            console.error("yotube video isteği başarısız", res.status);
+            return [];
+        }
+
+        return res.json();
+    } catch (error) {
+        console.error("yotube video isteği başarısız error:", error);
+        return [];
+    }
+};
+
+export default async function FemaleHairLossPage() {
+    const videos = await getYoutubeVideos();
     return (
-        <FemaleHairLossMain />
+        <FemaleHairLossMain>
+            <VideosTutorials videos={videos} />
+        </FemaleHairLossMain>
     )
 }
