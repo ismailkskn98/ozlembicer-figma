@@ -10,8 +10,8 @@ export const navigationMenu = [
   {
     item: 'Hair Loss',
     links: [
-      { href: '/male-hair-loss', label: 'Male Hair Loss' },
-      { href: '/female-hair-loss', label: 'Female Hair Loss' },
+      { href: '/hair-loss/male-hair-loss', label: 'Male Hair Loss' },
+      { href: '/hair-loss/female-hair-loss', label: 'Female Hair Loss' },
     ],
   },
   {

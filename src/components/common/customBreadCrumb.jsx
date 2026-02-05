@@ -15,7 +15,7 @@ export default function CustomBreadCrumb({ links, isButton = false }) {
     return (
         <Breadcrumb className="breadcrumb-scroll fluid gridContainer bg-coffee-dark border-b border-coffee-dark overflow-x-auto lg:overflow-hidden">
             <MotionScrollInViewOpacity className="w-full h-auto lg:h-15 flex items-center justify-center py-2 lg:pb-0 lg:pt-0">
-                <BreadcrumbList className="w-full flex items-center flex-nowrap gap-0 xl:gap-5 text-ivory-soft text-xs sm:text-sm xl:text-base">
+                <BreadcrumbList className="w-full flex items-center justify-center flex-nowrap gap-0 xl:gap-5 text-ivory-soft text-xs sm:text-sm xl:text-base">
                     {links.map((link, index) => (
                         <BreadcrumbItem key={index}>
                             {isButton ? (
