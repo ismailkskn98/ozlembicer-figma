@@ -24,7 +24,9 @@ export default function ClinicAndTeamMain() {
                 <Clinic />
                 <SpeaksLanguage />
                 <PatientResults />
-                <HowToAppointment />
+                <div className='-mt-10 lg:mt-0'>
+                    <HowToAppointment />
+                </div>
             </div>
         </main>
     )

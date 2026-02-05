@@ -22,7 +22,9 @@ export default function PricingMain({ children }) {
                 {children}
                 <TitleImages />
                 <PatientResults />
-                <HowToAppointment />
+                <div className='-mt-10 lg:mt-0'>
+                    <HowToAppointment />
+                </div>
             </div>
         </main>
     )
