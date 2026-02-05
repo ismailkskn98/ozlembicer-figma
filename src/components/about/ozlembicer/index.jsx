@@ -26,7 +26,9 @@ export default function OzlemBicerMain({ children }) {
                 <Certifications />
                 <Awards />
                 {children}
-                <HowToAppointment />
+                <div className='-mt-10 lg:mt-0'>
+                    <HowToAppointment />
+                </div>
             </div>
         </main>
     )
