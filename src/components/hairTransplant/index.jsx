@@ -280,7 +280,7 @@ export default function HairTransplantMain() {
                         <FueDoesItWorkFAQs />
                     </HowDoesItWork>
                 </SectionWrapper>
-                <div className='-mt-10'>
+                <div className='-mt-16 sm:-mt-10'>
                     <HowToAppointment />
                 </div>
             </main>

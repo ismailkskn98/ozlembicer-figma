@@ -1,9 +1,10 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function HowDoesItWorkRecon() {
     return (
-        <main className='grid grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+        <main className='grid grid-cols-1 sm:grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
+            <article className='sm:border-r border-b border-coffee-dark/15 w-full flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Hairline", "Reconstruction"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -18,8 +19,9 @@ export default function HowDoesItWorkRecon() {
                     </ul>
                     <p>Natural hairlines require irregularity, proper angulation, and the exclusive use of single-hair grafts in the frontal zone.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+            <article className='border-b border-coffee-dark/15 w-full flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Hair Transplant Repair", "(Corrective Hair Transplant)"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -34,9 +36,10 @@ export default function HowDoesItWorkRecon() {
                     </ul>
                     <p>In some cases, previously transplanted grafts can be safely removed and reused.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
 
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+            <article className='sm:border-r border-b border-coffee-dark/15 w-full flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Scar Revision &", "Hair Transplant into Scars"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -51,8 +54,9 @@ export default function HowDoesItWorkRecon() {
                     </ul>
                     <p>Hair growth in scar tissue may be less predictable due to reduced blood supply, and careful evaluation is essential before treatment.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+            <article className='border-b border-coffee-dark/15 w-full flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Body Hair Transplantationin", "Reconstructive Cases"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -66,9 +70,10 @@ export default function HowDoesItWorkRecon() {
                         <li>Body hair behaves differently from scalp hair and must be mixed carefully</li>
                     </ul>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
 
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+            <article className='sm:border-r border-b border-coffee-dark/15 w-full flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["How Is Reconstructive Hair", "Transplantation Performed?"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -86,8 +91,9 @@ export default function HowDoesItWorkRecon() {
                     </ul>
                     <p>Multiple sessions may be required, depending on the complexity of the case.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+            <article className='border-b border-coffee-dark/15 w-full flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Is Reconstructive Hair", "Transplant Permanent?"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -102,9 +108,10 @@ export default function HowDoesItWorkRecon() {
                     </ul>
                     <p>However, expectations must be realistic, especially in cases involving scarring or multiple previous surgeries.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
 
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+            <article className='sm:border-r border-b border-coffee-dark/15 w-full flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Recovery", "& Results"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -119,8 +126,9 @@ export default function HowDoesItWorkRecon() {
                     </ul>
                     <p>Healing time may vary depending on scar tissue and previous procedures.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+            <article className='border-b border-coffee-dark/15 w-full flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Why Choose Reconstructive", "Hair Transplantation?"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -136,10 +144,11 @@ export default function HowDoesItWorkRecon() {
                     </ul>
                     <p>Reconstructive hair transplantation requires significantly more expertise than standard hair transplantation.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
-            <article className='w-full col-span-2 flex flex-col items-start gap-3.5 mt-5'>
-                <h4 className='font-bold text-[20px]'>Important Note for Patients</h4>
-                <p className='w-full max-w-190'>Not every case can be fully corrected, especially when donor hair is limited or scar tissue is extensive. A detailed consultation is essential to determine realistic outcomes and the best treatment approach.</p>
+            <article className='w-full col-span-1 sm:col-span-2 flex flex-col items-start gap-2.5 sm:gap-3.5 mt-5'>
+                <h4 className='font-bold text-base lg:text-[20px]'>Important Note for Patients</h4>
+                <p className='w-full max-w-190 text-sm lg:text-base'>Not every case can be fully corrected, especially when donor hair is limited or scar tissue is extensive. A detailed consultation is essential to determine realistic outcomes and the best treatment approach.</p>
             </article>
         </main>
     )

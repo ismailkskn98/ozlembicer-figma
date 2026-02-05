@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function FueDoesItWorkFAQs() {
@@ -14,6 +15,7 @@ export default function FueDoesItWorkFAQs() {
                     <p>The donor hairs are taken from areas that are genetically more resistant to hair loss.For this reason, transplanted hair follicles usually continue to grow permanently in their new location.</p>
                     <p>However, non-transplanted native hair may continue to thin over time, depending on genetic factors and the progression of hair loss.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
             <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
@@ -29,6 +31,7 @@ export default function FueDoesItWorkFAQs() {
                         <li>If the hair is shaved very short, small dot scars may become visible, which is a known and normal characteristic of the FUE technique</li>
                     </ul>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
 
             <article className='border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
@@ -54,6 +57,7 @@ export default function FueDoesItWorkFAQs() {
                     </ul>
                     <p>Not all transplanted follicles grow at the same time, as some remain temporarily in the resting (telogen) phase. Overall graft survival rates of up to 90–95% are commonly reported under optimal conditions.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
             <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
@@ -66,6 +70,7 @@ export default function FueDoesItWorkFAQs() {
                     <p>Once the extraction phase is completed, microscopic channels are created in the recipient area. Each follicular unit is then implanted individually.</p>
                     <p>The angle, direction, and depth of each graft are carefully planned to match natural hair growth, especially in the hairline area, to achieve a natural and aesthetically pleasing result.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
 
             <article className='border-r-0 sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 lg:pr-4'>
@@ -89,6 +94,7 @@ export default function FueDoesItWorkFAQs() {
                     </ul>
                     <p>After the operation, mild pain, tightness, or sensitivity may occur, which is usually manageable with standard painkillers for a few days.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
             <article className='flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4 text-sm lg:text-base'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
@@ -103,6 +109,7 @@ export default function FueDoesItWorkFAQs() {
                     <p>Short recovery time</p>
                     <p>Suitable for men and women</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
         </main>
     )

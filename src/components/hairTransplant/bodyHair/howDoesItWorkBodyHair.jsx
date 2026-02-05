@@ -1,10 +1,11 @@
 
+import Image from 'next/image'
 import React from 'react'
 
 export default function HowDoesItWorkBodyHair() {
     return (
-        <main className='grid grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+        <main className='grid grid-cols-1 sm:grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
+            <article className='sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["How Is Body Hair", "Transplantation Performed?"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -21,8 +22,9 @@ export default function HowDoesItWorkBodyHair() {
                     </ul>
                     <p>If all physiological and medical requirements are met, body hair follicles can be successfully transferred to the scalp.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Who Is a Suitable", "Candidate for BHT?"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -37,9 +39,10 @@ export default function HowDoesItWorkBodyHair() {
                     </ul>
                     <p>However, it is important to understand that if both scalp and body donor hair quality is weak, the final outcome may be limited.Patients with insufficient donor hair overall may not be suitable candidates for any form of hair transplantation.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
 
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+            <article className='sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Differences Between", "BHT-FUE and Conventional FUE"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -67,8 +70,9 @@ export default function HowDoesItWorkBodyHair() {
                     </ul>
                     <p>BHT grafts may grow at different rates and may not achieve the same length as scalp hair, which is why they are often used strategically—for example, to increase density rather than create the hairline.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Important Considerations", "About BHT"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -87,9 +91,10 @@ export default function HowDoesItWorkBodyHair() {
                     </ul>
                     <p>Because body hair behaves differently from scalp hair, BHT should always be performed conservatively and selectively.</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
 
-            <article className='border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+            <article className='sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Is Body Hair", "Transplant Permanent?"].map((text, index) => (
                         <span key={index}>{text}</span>
@@ -105,6 +110,7 @@ export default function HowDoesItWorkBodyHair() {
                     </ul>
                     <p>For this reason, BHT is most effective when used as a complementary technique rather than a standalone solution</p>
                 </div>
+                <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
         </main>
     )
