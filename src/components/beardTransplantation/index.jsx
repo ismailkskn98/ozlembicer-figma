@@ -46,7 +46,7 @@ export default function BeardTransplantationMain() {
                                     <h4 className='font-bold text-[20px] max-w-40 line-clamp-2'>Causes of Beard Hair Loss</h4>
                                     <div className='w-full flex flex-col items-start gap-4 text-ivory-soft'>
                                         <p>Beard hair loss or absence may result from:</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>Genetic factors</li>
                                             <li>Burns, scars, or skin injuries</li>
                                             <li>Previous surgical procedures</li>
@@ -62,7 +62,7 @@ export default function BeardTransplantationMain() {
                                     <div className='w-full flex flex-col items-start gap-4 text-ivory-soft'>
                                         <p>Beard and mustache hairs naturally grow as single-hair follicular units, which is critical for achieving a natural appearance.</p>
                                         <p>Each follicle must be implanted individually, with precise attention to:</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>Direction</li>
                                             <li>Angle</li>
                                             <li>Depth</li>
@@ -70,7 +70,7 @@ export default function BeardTransplantationMain() {
                                         </ul>
                                         <p>This meticulous approach ensures that the transplanted beard blends seamlessly with existing facial hair.</p>
                                         <p>Approximate Graft Requirements</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>1,200–1,500 grafts for a goatee</li>
                                             <li>2,500–3,000 grafts for a full beard</li>
                                         </ul>
@@ -88,7 +88,7 @@ export default function BeardTransplantationMain() {
                                     <h4 className='font-bold text-[20px] max-w-40 line-clamp-2'>FUE & FUT Techniques</h4>
                                     <div className='w-full flex flex-col items-start gap-4 text-ivory-soft'>
                                         <p>Beard transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on the patient’s donor area, graft requirements, and surgical plan.</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>FUE involves the individual extraction of hair follicles using micro punches</li>
                                             <li>FUT involves removing a thin strip of scalp, followed by microscopic graft preparation</li>
                                         </ul>
@@ -100,7 +100,7 @@ export default function BeardTransplantationMain() {
                                     <h4 className='font-bold text-[20px] max-w-40 line-clamp-2'>Results & Permanence</h4>
                                     <div className='w-full flex flex-col items-start gap-4 text-ivory-soft'>
                                         <p>A beard transplant provides long-lasting and permanent results, as transplanted scalp hair follicles continue to grow in their new location.</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>Initial healing occurs within days</li>
                                             <li>Temporary shedding may occur within the first few weeks</li>
                                             <li>New growth typically begins after 3–4 months</li>
@@ -113,7 +113,7 @@ export default function BeardTransplantationMain() {
                                     <h4 className='font-bold text-[20px] max-w-40 line-clamp-2'>Beard Transplant Cost</h4>
                                     <div className='w-full flex flex-col items-start gap-0.5 text-ivory-soft'>
                                         <p>The cost of a beard transplant varies depending on:</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>The size of the treatment area</li>
                                             <li>The number of grafts required</li>
                                             <li>The technique used</li>

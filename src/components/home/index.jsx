@@ -12,7 +12,7 @@ export default function HomeMain({ videos }) {
         <main className='w-full gridContainer bg-ivory-soft'>
             <Hero />
             <HeroLogoCarousel />
-            <div className='fluid gridContainer bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50'>
+            <div className='fluid gridContainer bg-linear-to-b from-stone-beige via-ivory-soft via-80% to-stone-beige'>
                 <VideosTutorials videos={videos} />
                 <TitleImages />
                 <PatientResults />

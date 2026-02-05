@@ -9,6 +9,7 @@ import HowDoesItWorkRecon from './reconstructive/howDoesItWorkRecon'
 import FueDoesItWorkFAQs from './fueMicroMotor/fueDoesItWorkFAQs';
 import HowDoesItWork from './common/howDoesItWork';
 import DomLoaded from '../common/domLoaded';
+import HowToAppointment from '../common/howToAppointment';
 
 const linksItems = [
     { label: 'FUE (Micro Motor)', href: '/hair-transplant#fue-micro-motor' },
@@ -26,7 +27,7 @@ export default function HairTransplantMain() {
             <CustomBreadCrumb links={linksItems} isButton={true} />
             <HairTransplantHero />
             <HeroLogoCarousel />
-            <main className='relative fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft'>
+            <main className='relative fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft via-90% to-stone-beige'>
                 <SectionWrapper
                     linksItems={linksItems}
                     id='fue-micro-motor'
@@ -51,7 +52,7 @@ export default function HairTransplantMain() {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
-                        title="How Does FUE Hair Transplant Work?"
+                        title={["How Does", "FUE Hair Transplant Work?"]}
                         content={[
                             { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
                             { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
@@ -90,7 +91,7 @@ export default function HairTransplantMain() {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
-                        title="How Does FUE Hair Transplant Work?"
+                        title={["How Does", "FUE Hair Transplant Work?"]}
                         content={[
                             { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
                             { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
@@ -103,6 +104,33 @@ export default function HairTransplantMain() {
                     >
                         <FueDoesItWorkFAQs />
                     </HowDoesItWork>
+                    <section className='w-full max-w-6xl mx-auto h-24 flex items-center justify-center gap-6'>
+                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                            {["Minimally", "Invasive", "Technique"].map((text, index) => (
+                                <span key={index}>{text}</span>
+                            ))}
+                        </article>
+                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                            {["No", "Linear", "Scar"].map((text, index) => (
+                                <span key={index}>{text}</span>
+                            ))}
+                        </article>
+                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                            {["Natural", "Looking", "Results"].map((text, index) => (
+                                <span key={index}>{text}</span>
+                            ))}
+                        </article>
+                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                            {["Short", "Recovery", "Time"].map((text, index) => (
+                                <span key={index}>{text}</span>
+                            ))}
+                        </article>
+                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                            {["Suitable", "For", "Man&Woman"].map((text, index) => (
+                                <span key={index}>{text}</span>
+                            ))}
+                        </article>
+                    </section>
                 </SectionWrapper>
 
                 <SectionWrapper
@@ -129,11 +157,11 @@ export default function HairTransplantMain() {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
-                        title="When Is Body Hair Transplantation Recommended?"
+                        title={["When Is Body Hair", "Transplantation Recommended?"]}
                         content={[
                             { type: "paragraph", value: "BHT may be considered in the following situations:" },
                             { type: "list", value: ["Severely limited scalp donor area, such as advanced hair loss (Norwood Grade VI–VII)", "Patients who have undergone previous hair transplant procedures and have depleted donor reserves", "Cases where higher graft numbers are required but scalp donor capacity is insufficient", "Scarring alopecia, burns, or trauma-related hair loss", "To increase overall density, particularly in combination with scalp hair grafts"] },
-                            { type: "paragraph", value: "DBeard hair is generally preferred over chest hair due to its stronger structure and more consistent growth characteristics." },
+                            { type: "paragraph", value: "Beard hair is generally preferred over chest hair due to its stronger structure and more consistent growth characteristics." },
                         ]}
                     >
                         <HowDoesItWorkBodyHair />
@@ -164,7 +192,7 @@ export default function HairTransplantMain() {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
-                        title="Who Needs Reconstructive Hair Transplantation?"
+                        title={["Who Needs", "Reconstructive Hair Transplantation?"]}
                         content={[
                             { type: "paragraph", value: "Reconstructive hair transplantation may be recommended for patients who experience:" },
                             { type: "list", value: ["Unnatural or poorly designed hairlines", "Visible scarring from previous hair transplant procedures (FUE or FUT)", "Asymmetry or incorrect hair direction", "Low or uneven hair density", "Hair loss due to burns, accidents, surgery, or trauma", "Scarring alopecia or certain medical conditions", "Failed or unsatisfactory results from previous hair transplants"] },
@@ -199,7 +227,7 @@ export default function HairTransplantMain() {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
-                        title="How Does FUE Hair Transplant Work?"
+                        title={["When Is Body Hair", "Transplantation Recommended?"]}
                         content={[
                             { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
                             { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
@@ -238,7 +266,7 @@ export default function HairTransplantMain() {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
-                        title="How Does FUE Hair Transplant Work?"
+                        title={["Hair Transplantation", "Using FUT"]}
                         content={[
                             { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
                             { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
@@ -252,6 +280,9 @@ export default function HairTransplantMain() {
                         <FueDoesItWorkFAQs />
                     </HowDoesItWork>
                 </SectionWrapper>
+                <div className='-mt-10'>
+                    <HowToAppointment />
+                </div>
             </main>
             <DomLoaded />
         </>

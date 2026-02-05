@@ -46,7 +46,7 @@ export default function EyebrownTransplant() {
                                     <h4 className='font-bold text-[20px] max-w-50 line-clamp-2'>Causes of Eyebrow Hair Loss</h4>
                                     <div className='w-full flex flex-col items-start gap-4 text-ivory-soft'>
                                         <p>Eyebrow hair loss or thinning may be caused by:</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>Genetic factors</li>
                                             <li>Trichotillomania (a compulsive hair-pulling disorder)</li>
                                             <li>Systemic or autoimmune diseases</li>
@@ -63,7 +63,7 @@ export default function EyebrownTransplant() {
                                         <p>Donor hair is typically harvested from the scalp, as scalp hair follicles are genetically programmed for lifelong growth.</p>
                                         <p>Once transplanted, eyebrow hairs will continue to grow and usually require trimming approximately once per month, which is normal and expected.</p>
                                         <p>To achieve a natural appearance:</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>Hair is implanted one by one</li>
                                             <li>In some areas, hairs may be placed in one or two rows, mimicking natural eyebrow growth</li>
                                             <li>Extremely fine incisions are used to allow precise placement</li>
@@ -75,7 +75,7 @@ export default function EyebrownTransplant() {
                                     <h4 className='font-bold text-[20px] max-w-60 line-clamp-2'>Eyebrow Transplant Techniques: FUE & FUT</h4>
                                     <div className='w-full flex flex-col items-start gap-4 text-ivory-soft'>
                                         <p>Eyebrow transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on patient preferences, donor area characteristics, and surgical planning.</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>FUE involves individual follicle extraction and is often preferred by patients who wish to avoid a linear scar</li>
                                             <li>FUT involves harvesting a small donor strip and is more commonly used in women, as the scar is easily concealed by longer hair</li>
                                         </ul>
@@ -87,7 +87,7 @@ export default function EyebrownTransplant() {
                                     <div className='w-full flex flex-col items-start gap-4 text-ivory-soft'>
                                         <p>The eyebrow transplant procedure typically lasts 3 to 5 hours, depending on the number of grafts required and the desired eyebrow shape and density.</p>
                                         <p>Step-by-Step Overview:</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>Healthy hair follicles are harvested from the donor area at the back of the scalp</li>
                                             <li>Local anesthesia is used to ensure a painless procedure</li>
                                             <li>Grafts are carefully prepared under magnification</li>
@@ -103,7 +103,7 @@ export default function EyebrownTransplant() {
                                     <div className='w-full flex flex-col items-start gap-4 text-ivory-soft'>
                                         <p>At the Dr. Özlem Biçer Clinic:</p>
                                         <p>Approximately 250 to 750 hairs are transplanted per eyebrow, depending on:</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>Existing eyebrow hair</li>
                                             <li>Desired fullness</li>
                                             <li>Facial anatomy</li>
@@ -116,7 +116,7 @@ export default function EyebrownTransplant() {
                                     <h4 className='font-bold text-[20px] max-w-40 line-clamp-2'>Results & Permanence</h4>
                                     <div className='w-full flex flex-col items-start gap-0.5 text-ivory-soft'>
                                         <p>Eyebrow transplantation provides long-lasting and permanent results.</p>
-                                        <ul className='leading-relaxed list-disc list-outside pl-5'>
+                                        <ul className='list-disc list-outside pl-5'>
                                             <li>Mild redness and swelling usually resolve within a few days</li>
                                             <li>Transplanted hairs may shed temporarily in the first weeks</li>
                                             <li>New growth typically begins after 3–4 months</li>

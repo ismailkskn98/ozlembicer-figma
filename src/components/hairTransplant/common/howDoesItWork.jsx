@@ -2,10 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
-export default function HowDoesItWork({ images = [], title, content = [], children, className }) {
+export default function HowDoesItWork({ images = [], title = [], content = [], children, className }) {
+    console.log("title: ", title);
     const RecursiveList = ({ items }) => {
         return (
-            <ul className="leading-relaxed list-disc list-outside pl-5">
+            <ul className="list-disc list-outside pl-5">
                 {items.map((item, index) => (
                     <li key={index}>
                         {item.text || item}
@@ -24,7 +25,11 @@ export default function HowDoesItWork({ images = [], title, content = [], childr
             </section>
             <section className='col-span-2 w-full flex flex-col items-start gap-6'>
                 <article className='w-full flex flex-col items-start gap-9'>
-                    <h3 className='text-[20px] font-bold max-w-80 line-clamp-2'>{title}</h3>
+                    <h3 className='text-[20px] font-bold flex flex-col items-start'>
+                        {title.map((text, index) => (
+                            <span key={index}>{text}</span>
+                        ))}
+                    </h3>
                     <div className='w-full flex flex-col items-start gap-4'>
                         {content.map((item, index) => {
                             if (item.type === "paragraph") {
