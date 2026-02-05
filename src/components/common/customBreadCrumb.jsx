@@ -32,7 +32,7 @@ export default function CustomBreadCrumb({ links, isButton = false }) {
                                     {link.label}
                                 </ScrollLink>
                             ) : (
-                                <BreadcrumbLink href={link.href}>
+                                <BreadcrumbLink href={link.href} className="hover:bg-wine-brown rounded-[10px] py-1 lg:py-2.5 px-3.5 lg:px-3.75 transition-colors cursor-pointer whitespace-nowrap">
                                     {link.label}
                                 </BreadcrumbLink>
                             )}
