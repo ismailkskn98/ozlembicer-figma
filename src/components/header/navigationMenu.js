@@ -7,7 +7,13 @@ export const navigationMenu = [
       { href: '/about-us/pricing', label: 'Pricing' },
     ],
   },
-  { item: 'Hair Loss', href: '#' },
+  {
+    item: 'Hair Loss',
+    links: [
+      { href: '/male-hair-loss', label: 'Male Hair Loss' },
+      { href: '/female-hair-loss', label: 'Female Hair Loss' },
+    ],
+  },
   {
     item: 'Transplantation',
     links: [
