@@ -115,7 +115,7 @@ export default function Hero() {
                                             ))}
                                         </div>
                                     </article>
-                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-size object-center w-145 xl:w-165.5 h-80 md:h-90 lg:h-110 xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
+                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-size object-center w-145 xl:w-165.5 h-70 sm:h-80 md:h-90 lg:h-110 xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
                                 </div>
                             )}
                         </SwiperSlide>
