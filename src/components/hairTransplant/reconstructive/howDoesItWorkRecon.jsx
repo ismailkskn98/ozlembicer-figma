@@ -3,13 +3,13 @@ import React from 'react'
 export default function HowDoesItWorkRecon() {
     return (
         <main className='grid grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                <h4 className='font-bold text-[20px] flex flex-col items-start'>
+            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+                <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Hairline", "Reconstruction"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
-                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
+                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <p>Hairline reconstruction focuses on correcting:</p>
                     <ul className='list-disc list-outside pl-5'>
                         <li>Hairlines placed too low or too high</li>
@@ -19,13 +19,13 @@ export default function HowDoesItWorkRecon() {
                     <p>Natural hairlines require irregularity, proper angulation, and the exclusive use of single-hair grafts in the frontal zone.</p>
                 </div>
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                <h4 className='font-bold text-[20px] flex flex-col items-start'>
+            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+                <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Hair Transplant Repair", "(Corrective Hair Transplant)"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
-                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
+                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <p>Corrective hair transplantation may include:</p>
                     <ul className='list-disc list-outside pl-5'>
                         <li>Removal of poorly placed grafts</li>
@@ -36,13 +36,13 @@ export default function HowDoesItWorkRecon() {
                 </div>
             </article>
 
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                <h4 className='font-bold text-[20px] flex flex-col items-start'>
+            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+                <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Scar Revision &", "Hair Transplant into Scars"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
-                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
+                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <p>Hair transplantation can be performed into:</p>
                     <ul className='list-disc list-outside pl-5'>
                         <li>FUT linear scars</li>
@@ -52,13 +52,13 @@ export default function HowDoesItWorkRecon() {
                     <p>Hair growth in scar tissue may be less predictable due to reduced blood supply, and careful evaluation is essential before treatment.</p>
                 </div>
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                <h4 className='font-bold text-[20px] flex flex-col items-start'>
+            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+                <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Body Hair Transplantationin", "Reconstructive Cases"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
-                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
+                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <p>In patients with limited scalp donor hair, Body Hair Transplantation (BHT) may be used as a supportive technique.</p>
                     <ul className='list-disc list-outside pl-5'>
                         <li>Beard hair is commonly preferred</li>
@@ -68,13 +68,13 @@ export default function HowDoesItWorkRecon() {
                 </div>
             </article>
 
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                <h4 className='font-bold text-[20px] flex flex-col items-start'>
+            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+                <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["How Is Reconstructive Hair", "Transplantation Performed?"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
-                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
+                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <p>Reconstructive hair transplantation is usually performed using advanced FUE techniques.</p>
                     <p>Key steps include:</p>
                     <ul className='list-disc list-outside pl-5'>
@@ -87,13 +87,13 @@ export default function HowDoesItWorkRecon() {
                     <p>Multiple sessions may be required, depending on the complexity of the case.</p>
                 </div>
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                <h4 className='font-bold text-[20px] flex flex-col items-start'>
+            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+                <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Is Reconstructive Hair", "Transplant Permanent?"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
-                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
+                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <p>Reconstructive hair transplant results can be long-lasting and permanent when:</p>
                     <ul className='list-disc list-outside pl-5'>
                         <li>Donor hair quality is adequate</li>
@@ -104,13 +104,13 @@ export default function HowDoesItWorkRecon() {
                 </div>
             </article>
 
-            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pr-4'>
-                <h4 className='font-bold text-[20px] flex flex-col items-start'>
+            <article className='border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pr-4'>
+                <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Recovery", "& Results"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
-                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
+                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <ul className='list-disc list-outside pl-5'>
                         <li>Mild redness and swelling are common for a few days</li>
                         <li>Temporary shedding of transplanted hair may occur</li>
@@ -120,13 +120,13 @@ export default function HowDoesItWorkRecon() {
                     <p>Healing time may vary depending on scar tissue and previous procedures.</p>
                 </div>
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-9 py-5 pl-4'>
-                <h4 className='font-bold text-[20px] flex flex-col items-start'>
+            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 pl-4'>
+                <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Why Choose Reconstructive", "Hair Transplantation?"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
-                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark'>
+                <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <ul className='list-disc list-outside pl-5'>
                         <li>Personalized surgical planning</li>
                         <li>Correction of unnatural results</li>

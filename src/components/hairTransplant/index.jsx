@@ -104,28 +104,28 @@ export default function HairTransplantMain() {
                     >
                         <FueDoesItWorkFAQs />
                     </HowDoesItWork>
-                    <section className='w-full max-w-6xl mx-auto h-24 flex items-center justify-center gap-6'>
-                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                    <section className='w-full max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 justify-items-center gap-3 md:gap-6'>
+                        <article className='w-full md:w-36 lg:w-43 h-36 lg:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-sm md:rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base'>
                             {["Minimally", "Invasive", "Technique"].map((text, index) => (
                                 <span key={index}>{text}</span>
                             ))}
                         </article>
-                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                        <article className='w-full md:w-36 lg:w-43 h-36 lg:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-sm md:rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base'>
                             {["No", "Linear", "Scar"].map((text, index) => (
                                 <span key={index}>{text}</span>
                             ))}
                         </article>
-                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                        <article className='w-full md:w-36 lg:w-43 h-36 lg:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-sm md:rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base'>
                             {["Natural", "Looking", "Results"].map((text, index) => (
                                 <span key={index}>{text}</span>
                             ))}
                         </article>
-                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                        <article className='w-full md:w-36 lg:w-43 h-36 lg:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-sm md:rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base'>
                             {["Short", "Recovery", "Time"].map((text, index) => (
                                 <span key={index}>{text}</span>
                             ))}
                         </article>
-                        <article className='w-43 h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft'>
+                        <article className='col-span-1 sm:col-span-2 md:col-span-1 w-full md:w-36 lg:w-43 h-36 lg:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-sm md:rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base'>
                             {["Suitable", "For", "Man&Woman"].map((text, index) => (
                                 <span key={index}>{text}</span>
                             ))}
