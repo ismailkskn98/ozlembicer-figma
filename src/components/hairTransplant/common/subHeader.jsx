@@ -7,6 +7,7 @@ export default function SubHeader({ linksItems, id, title, subtitle, imageUrl })
         <>
             <header className='w-full fluid gridContainer'>
                 <main id={id} name={id} className='w-full fluid gridContainer bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark h-37.5 border-y border-gold py-2.5 text-ivory-soft'>
+                    <div className='w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0' />
                     <section className='w-full max-w-full xl:max-w-6xl mx-auto flex items-center justify-between'>
                         <h2 className={`flex items-center gap-6 ${id === 'reconstructive-hair-transplant' ? 'text-[52px]' : 'text-[64px]'}`}>
                             {title} <span className='text-[32px]'>{subtitle}</span>

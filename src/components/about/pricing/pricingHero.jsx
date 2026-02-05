@@ -5,7 +5,7 @@ import React from 'react'
 export default function PricingHero() {
     return (
         <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-50'>
-            <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
+            <div className='w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0' />
             <section className='w-full max-w-full xl:max-w-6xl mx-auto'>
                 <article className='w-full flex flex-col items-start gap-4.25 text-ivory-soft'>
                     <MotionScrollInView>

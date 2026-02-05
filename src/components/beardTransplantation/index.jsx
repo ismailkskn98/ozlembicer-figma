@@ -21,7 +21,7 @@ export default function BeardTransplantationMain() {
             <div className='fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50'>
                 <BeardHero />
                 <HeroLogoCarousel />
-                <main className='w-full fluid gridContainer border-y border-gold bg-radial from-coffee-dark to-wine-brown'>
+                <main className='w-full fluid gridContainer border-y-2 border-gold bg-radial from-coffee-dark to-wine-brown'>
                     <SectionWrapper>
                         <HowDoesItWork
                             className="text-ivory-soft"

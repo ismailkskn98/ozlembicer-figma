@@ -2,7 +2,9 @@ import React from 'react'
 
 export default function ProfessionalAffiliations() {
     return (
-        <section className='fluid gridContainer w-full bg-coffee-dark text-ivory-soft py-18.75 border-y border-gold'>
+        <section className='relative fluid gridContainer w-full bg-coffee-dark text-ivory-soft py-18.75 border-y border-gold'>
+            <div className='w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0' />
+            <div className='w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0' />
             <main className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-6.25'>
                 <h2 className='text-[32px]'>Professional Affiliations</h2>
                 <article className='flex flex-col items-start'>

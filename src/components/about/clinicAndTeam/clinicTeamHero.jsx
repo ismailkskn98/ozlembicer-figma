@@ -6,7 +6,7 @@ import React from 'react'
 export default function ClinicTeamHero() {
     return (
         <main className='relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-25 pb-50'>
-            <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
+            <div className='w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0' />
             <section className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-center gap-15'>
                 <MotionLeftView className="w-full">
                     <Image src="/images/about/clinic-hero.png" alt="Dr. Özlem Bicer" width={1200} height={700} className='object-contain object-center w-full h-full max-h-157.5 rounded-4xl' />

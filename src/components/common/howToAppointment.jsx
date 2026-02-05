@@ -46,7 +46,7 @@ export default function HowToAppointment() {
                 <MotionScrollInView className="w-full">
                     <h2 className='w-full max-w-sm lg:max-w-6xl lg:mx-auto text-[25px] lg:text-[30px] text-start lg:text-center h-auto lg:h-15 text-coffee-dark border-b border-coffee-dark'>How To Make An Appointment</h2>
                 </MotionScrollInView>
-                <MotionScrollInViewVariant className='w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6'>
+                <MotionScrollInViewVariant className='w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6' childClassname={"group w-full max-w-sm lg:max-w-full flex flex-col items-center justify-center bg-coffee-dark rounded-4xl pt-6 lg:pt-8 px-2.5 pb-8 lg:pb-14.75 h-full max-h-95"}>
                     {appointmentSteps.map((step) => (
                         <article key={step.id} className='group w-full max-w-sm lg:max-w-full flex flex-col items-center justify-center bg-coffee-dark rounded-4xl pt-6 lg:pt-8 px-2.5 pb-8 lg:pb-14.75 h-full max-h-95'>
                             <div className='w-xs lg:w-auto flex items-center gap-4 lg:gap-0 text-ivory-soft'>
