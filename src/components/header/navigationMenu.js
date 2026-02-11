@@ -10,8 +10,25 @@ export const navigationMenu = [
   {
     item: 'Hair Loss',
     links: [
-      { href: '/hair-loss/male-hair-loss', label: 'Male Hair Loss' },
-      { href: '/hair-loss/female-hair-loss', label: 'Female Hair Loss' },
+      {
+        href: '/#',
+        label: 'Couses of Hair Loss',
+        submenu: [
+          { href: '/male-hair-loss', label: 'Hair Loss in Male' },
+          { href: '/female-hair-loss', label: 'Female Hair in Female' },
+        ],
+      },
+      {
+        href: '/#',
+        label: 'Treatments of Hair Loss',
+        submenu: [
+          { href: '/treatments-of-hair-loss/hair-mesotherapy', label: 'Hair Mesotherapy' },
+          { href: '/#', label: 'PRP Hair Treatment' },
+          { href: '/#', label: 'BHT (Body Hair)' },
+          { href: '/#', label: 'Stamp Cell Tratment' },
+          { href: '/#', label: 'Trichopat Treatment' },
+        ],
+      },
     ],
   },
   {
@@ -35,5 +52,5 @@ export const navigationMenu = [
   },
   { item: 'Guides', links: [] },
   { item: 'Gallery', links: [] },
-  { item: 'Contact Us', href: '/contact-us' },
+  // { item: 'Contact Us', href: '/contact-us' },
 ];

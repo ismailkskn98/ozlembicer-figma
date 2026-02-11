@@ -4,7 +4,8 @@ import { Sheet, SheetClose, SheetContent, SheetTitle, SheetTrigger } from "@/com
 import { Link } from '@/i18n/navigation'
 import { MdExpandMore } from "react-icons/md"
 import { navigationMenu } from '../navigationMenu';
-import LanguageChange from '../languageChange';
+// import LanguageChange from '../languageChange';
+import TemporaryLanguageChange from '../temporaryLanguageChange';
 import Image from 'next/image';
 import { IoCloseOutline } from "react-icons/io5";
 
@@ -137,7 +138,8 @@ export default function MobilNavbar({ children }) {
                                 +90 (414) 13 13
                             </a>
                         </article>
-                        <LanguageChange />
+                        {/* <LanguageChange /> */}
+                        <TemporaryLanguageChange />
                     </footer>
                 </main>
             </SheetContent>

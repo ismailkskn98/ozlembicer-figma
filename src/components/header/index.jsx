@@ -2,7 +2,8 @@ import { Link } from '@/i18n/navigation'
 import Image from 'next/image'
 import React from 'react'
 import Navbar from './navbar'
-import LanguageChange from './languageChange'
+// import LanguageChange from './languageChange'
+import TemporaryLanguageChange from './temporaryLanguageChange'
 import MotionScrollInViewOpacity from '../common/motionScrollInViewOpacity'
 import { SlMenu } from "react-icons/sl";
 import MobilNavbar from './mobilNavbar'
@@ -19,7 +20,8 @@ export default function Header() {
                         <main className='hidden md:flex items-center'>
                             <Navbar />
                             <div className='w-fit h-fit md:inline-block hidden'>
-                                <LanguageChange />
+                                {/* <LanguageChange /> */}
+                                <TemporaryLanguageChange />
                             </div>
                             <article className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm'>
                                 <a href='mailto:info@ozlembicer.com'>info@ozlembicer.com</a>
@@ -41,7 +43,8 @@ export default function Header() {
                         <span>-</span>
                         <a href='tel:+904141313'>+90 (414) 13 13</a>
                     </article>
-                    <LanguageChange />
+                    {/* <LanguageChange /> */}
+                    <TemporaryLanguageChange />
                 </main>
             </section>
         </main>
