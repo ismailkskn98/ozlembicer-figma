@@ -23,7 +23,9 @@ export default function Header() {
                                 {/* <LanguageChange /> */}
                                 <TemporaryLanguageChange />
                             </div>
-                            <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm'>
+                            <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-ivory-soft text-coffee-dark border border-gold text-sm'>
+                                {/* <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm 
+                            drop-shadow-[0px_0px_6px_#eee6db]'> */}
                                 <span>info@ozlembicer.com</span>
                                 <span>+90 (414) 13 13</span>
                             </Link>
@@ -36,9 +38,9 @@ export default function Header() {
                     </section>
                 </MotionScrollInViewOpacity>
             </header>
-            <section className='lg:hidden fluid gridContainer w-full max-w-full lg:max-w-6xl mx-auto pt-1.5 bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark'>
+            <section className='lg:hidden fluid gridContainer w-full max-w-full lg:max-w-6xl mx-auto py-1 bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark'>
                 <main className='w-full flex items-center justify-between'>
-                    <Link href="/contact-us" className='flex items-center justify-center gap-1 text-ivory-soft text-xs sm:text-sm'>
+                    <Link href="/contact-us" className='flex items-center justify-center gap-1 bg-ivory-soft text-coffee-dark border border-gold px-2.5 py-0.5 rounded-sm text-xs sm:text-sm'>
                         <span>info@ozlembicer.com</span>
                         <span>-</span>
                         <span>+90 (414) 13 13</span>
