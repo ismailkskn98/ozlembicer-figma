@@ -74,33 +74,48 @@ export default function Hero() {
                     slidesPerView={3}
                     loop={true}
                     autoplay={{
-                        delay: 5000,
+                        delay: 50000,
                         disableOnInteraction: false,
                     }}
                 >
                     {heroSlideItems.map((item, index) => (
                         <SwiperSlide key={index} className='w-full'>
                             {({ isActive }) => (
-                                <div className={`w-full flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-between gap-10 md:gap-15`}>
-                                    <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft'>
-                                        {/* Desktop */}
-                                        <h2 className={`hidden lg:flex flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
-                                            {item.title.map((line, lineIndex) => (
-                                                <span key={lineIndex} className="block text-nowrap">
-                                                    {line}
-                                                </span>
-                                            ))}
-                                        </h2>
-                                        {/* Mobile */}
-                                        <h2 className={`flex lg:hidden flex-col items-center text-center lg:text-start lg:items-start justify-start lg:justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
-                                            {item.mobileTitle.map((line, lineIndex) => (
-                                                <span key={lineIndex} className="block text-nowrap">
-                                                    {line}
-                                                </span>
-                                            ))}
-                                        </h2>
-                                        <p className={`line-clamp-6 lg:line-clamp-none text-center lg:text-start text-sm sm:text-base w-full max-w-full sm:max-w-150 lg:max-w-100 xl:max-w-87.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>{item.description}</p>
-                                        <div className={`flex flex-row items-center gap-3 sm:gap-6 transition-all duration-500 ${isActive ? 'opacity-100' : (index === 0 ? 'opacity-0 -translate-y-15' : 'opacity-0 translate-y-15')}`}>
+                                <div className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 md:gap-15`}>
+                                    <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft min-w-[410px]'>
+                                        {/* Title box (fixed height) */}
+                                        <div
+                                            className={`w-full flex items-end justify-start h-[150px] lg:h-[220px] xl:h-[240px] transition-all duration-500 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-15'}`}
+                                        >
+                                            {/* Desktop */}
+                                            <h2 className='hidden lg:flex flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15'>
+                                                {item.title.map((line, lineIndex) => (
+                                                    <span key={lineIndex} className="block text-nowrap">
+                                                        {line}
+                                                    </span>
+                                                ))}
+                                            </h2>
+                                            {/* Mobile */}
+                                            <h2 className='flex lg:hidden flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15'>
+                                                {item.mobileTitle.map((line, lineIndex) => (
+                                                    <span key={lineIndex} className="block text-nowrap">
+                                                        {line}
+                                                    </span>
+                                                ))}
+                                            </h2>
+                                        </div>
+
+                                        {/* Paragraph box (fixed height) */}
+                                        <div
+                                            className={`w-full flex items-start justify-start h-[130px] sm:h-[150px] lg:h-[170px] transition-all duration-500 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-15'}`}
+                                        >
+                                            <p className='line-clamp-6 text-start text-sm sm:text-base w-full max-w-full sm:max-w-150 lg:max-w-100 xl:max-w-87.5'>
+                                                {item.description}
+                                            </p>
+                                        </div>
+
+                                        {/* Buttons box (fixed height) */}
+                                        <div className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-[44px] transition-all duration-500 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-15'}`}>
                                             {item.links.map((link, linkIndex) => (
                                                 <Link
                                                     key={linkIndex}
@@ -115,7 +130,7 @@ export default function Hero() {
                                             ))}
                                         </div>
                                     </article>
-                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-size object-center w-145 xl:w-165.5 h-70 sm:h-80 md:h-90 lg:h-110 xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
+                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-cover lg:object-size object-top w-145 xl:w-165.5 h-70 sm:h-80 md:h-90 lg:h-110 xl:h-[496.5px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
                                 </div>
                             )}
                         </SwiperSlide>
