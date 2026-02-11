@@ -53,16 +53,10 @@ export default function PricingHero() {
                             <p>In person: 100€<br />Online: Free</p>
                         </article>
                         <article className='flex flex-col items-start'>
-                            <h3 className='font-bold'>Combine Sessions</h3>
-                            <p className='font-medium'>For extraction from 2 different areas:</p>
-                            <p>First area will be accepted as a main donor. Main donor transplant (Up to 2000 grafts) is 6000€. Second area will be accepted as touch up session which is 2000€</p>
-                            <p className='font-medium mt-2'>For extraction from 3 different areas:</p>
-                            <p>If the first extraction area is scalp, it is 6000€ + second extraction area chest, it is 6000€ and the third extraction area is beard, it is touch up price which is 2000€.</p>
-                            <p className='font-medium mt-2'>These prices are valid for combine sessions which are done by one sitting.</p>
-                        </article>
-                        <article className='flex flex-col items-start'>
                             <h3 className='font-bold'>Touch-Up Terms and Conditions</h3>
-                            <p>Sessions are planned by approval of Dr.Bicer. They are planned 1-2 times in a year. More than 2 sessions can be planned on the same day. Free touch up for 50-200 grafts (Sessions are planned to eliminate problems caused by improper washing, head traumas…) Up to 1000 grafts: 2000€</p>
+                            <p>Sessions are planned by approval of Dr.Bicer. They are planned 1-2 times in a year. More than 2 sessions can be planned on the same day.</p>
+                            <p>Free touch up for 50-200 grafts (Sessions are planned to eliminate problems caused by improper washing, head traumas…)</p>
+                            <p>Up to 1000 grafts: 2000€</p>
                         </article>
                         <article className='flex flex-col items-start'>
                             <h3 className='font-bold'>Discount Terms and Conditions</h3>
@@ -73,6 +67,7 @@ export default function PricingHero() {
                             <p>Advertisement: %5 (Before/After photos/videos without face)</p>
                             <p>Advertisement: %10 (Before/After photos/videos with face)</p>
                             <p>Last minute appointments:1000€ (For appointments for a specific day which is less than ten days away. To be able to tolerate expensive flight prices at last minute)</p>
+                            <p>Last minute appointments:500€ (for 10-15 days)</p>
                             <p>For publication of media (photos & videos) in scientific studies, presentations, congress and articles: 20% (Dr.Bicer makes her own decision for this discount type in consultation if the patient is suitable for this case Ex: Burn Reconstruction)</p>
                             <p>Only one type discount type is applied and total discount cannot be more than %20</p>
                             <p>In case of cancelation the deposit of the cancelling patient will be detucted from the last minute patient for the additional travel and accommodation costs difference.</p>

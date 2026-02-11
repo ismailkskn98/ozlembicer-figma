@@ -15,7 +15,7 @@ export default function SubHeader({ linksItems, id, title, subtitle, imageUrl })
                         <Image src={imageUrl} alt={id} width={120} height={120} className="object-contain w-12 min-[330px]:w-14 sm:w-18 lg:w-22.5 h-12 min-[330px]:h-14 sm:h-18 lg:h-22.5" />
                     </section>
                 </main>
-                <CustomBreadCrumb links={linksItems} isButton={true} />
+                {/* <CustomBreadCrumb links={linksItems} isButton={true} /> */}
             </header>
         </>
     );

@@ -71,10 +71,10 @@ export default function YoutubeCarousel({ videos = [] }) {
       </Swiper>
       <div className="flex items-center justify-center gap-6">
         <div id="youtube-prev">
-          <IoIosArrowDropleft className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/30 p-2 transition duration-200 rounded-full" />
+          <IoIosArrowDropleft className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/50 p-1.5 transition duration-200 rounded-full" />
         </div>
         <div id="youtube-next">
-          <IoIosArrowDropright className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/30 p-2 transition duration-200 rounded-full" />
+          <IoIosArrowDropright className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/50 p-1.5 transition duration-200 rounded-full" />
         </div>
       </div>
     </section>
