@@ -33,6 +33,9 @@ export default function HowDoesItWork({ images = [], title = [], content = [], c
                         </h3>
                         <div className='w-full flex flex-col items-start gap-4'>
                             {content.map((item, index) => {
+                                if (item.type === "heading") {
+                                    return <h4 key={index} className='text-sm lg:text-base font-bold -mb-3'>{item.value}</h4>;
+                                }
                                 if (item.type === "paragraph") {
                                     return <p key={index} className='text-sm lg:text-base'>{item.value}</p>;
                                 }

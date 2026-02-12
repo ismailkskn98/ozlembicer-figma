@@ -18,28 +18,32 @@ export default function HairTransplantHero() {
                 </MotionScrollInViewVariant>
                 <article className='w-full flex flex-col items-start gap-4 text-ivory-soft text-[14px]'>
                     <p>
-                        Hair replacement surgery can change your appearance dramatically and boost your self-confidence. And FUE (Follicular Unit Extraction) is the least invasive technique with the shortest recovery time.
+                        At Dr. Biçer’s clinic, all hair restoration techniques are personally performed by Dr. Biçer. This allows her to objectively evaluate each patient and select the most appropriate technique based solely on medical needs, hair characteristics, and long-term expectations.
                     </p>
                     <p>
-                        Most people can undergo surgery with little or no problems. That being said, not everyone is a good candidate for hair replacement surgery.
-                        Before you actually undergo an operation, you will need to discuss your expectations and have yourself carefully evaluated by your surgeon. In order to be realistic about your expectations, your surgeon will consider the following factors to see if you’re actually a good candidate for a hair replacement procedure:
+                        It is also important to understand that hair transplantation is not a cure for hair loss. It is a highly effective camouflage technique for patients suffering from alopecia, designed to restore a natural appearance and improve self-confidence.
+                    </p>
+                    <p>
+                        Hair replacement surgery can change your appearance dramatically and boost your self-confidence. Among available methods, FUE (Follicular Unit Extraction) is considered the least invasive technique and offers the shortest recovery time.
+                    </p>
+                    <p>
+                        Most people can undergo surgery with little or no complications. However, not everyone is a suitable candidate for hair replacement surgery. Before undergoing any procedure, it is essential to discuss your expectations and undergo a thorough medical evaluation by your surgeon. To determine whether you are a good candidate, the following factors are carefully considered:
                     </p>
                     <div className='w-full flex flex-col items-start'>
-                        <h3 className='font-bold'>OVERALL HEALTH CONDITIONS:</h3>
-                        <p>Are you generally in good health with no contradictions to the treatment? Cardiac patients, patients with congenital bleeding and/or clotting risks, as well as patients with certain skin problems such as psoriasis are usually advised against the operation.</p>
+                        <h3 className='font-bold'>OVERALL HEALTH CONDITIONS</h3>
+                        <p>Are you generally in good health with no contraindications to treatment? Patients with cardiac conditions, congenital bleeding or clotting disorders, or certain skin diseases such as psoriasis are usually advised against surgery.</p>
                     </div>
                     <div className='w-full flex flex-col items-start'>
-                        <h3 className='font-bold'>HAIR LOSS PATTERN:</h3>
-                        <p>If you have significant thinning or balding, a hair transplant operation will help you achieve dramatic, yet natural results. Yet you will need to have healthy hair at the back and sides your head to serve as donor areas. Those with male pattern baldness (androgenic alopecia) will be ideal candidates for a treatment.
-                            Same with women, if you have an overall thinning in your hair, a hair replacement surgery may not be the best option for you.</p>
+                        <h3 className='font-bold'>HAIR LOSS PATTERN</h3>
+                        <p>Hair transplantation can provide dramatic yet natural results in cases of significant thinning or balding, provided that healthy donor hair is present at the back and sides of the scalp. Patients with male pattern baldness (androgenetic alopecia) are often ideal candidates. For women, however, if hair loss presents as diffuse overall thinning, hair transplantation may not be the most suitable option.</p>
                     </div>
                     <div className='w-full flex flex-col items-start'>
-                        <h3 className='font-bold'>AGE:</h3>
-                        <p>In order to determine the hair loss pattern, you will need to have your hair loss stabilized. If you’re too young (in your early 20s) you may wish to wait before you consider to have a hair transplant and try medication instead.</p>
+                        <h3 className='font-bold'>AGE</h3>
+                        <p>Hair loss should be relatively stabilized before surgery. Very young patients (early 20s) are often advised to wait and consider medical treatments before undergoing a hair transplant.</p>
                     </div>
                     <div className='w-full flex flex-col items-start'>
-                        <h3 className='font-bold'>COSMETIC CONCERNS:</h3>
-                        <p>If you do not want linear scarring, a FUE operation might be the right choice for you. If you already have scarring at the transplant site, either due to a previous operation or an accident, FUE can be used to ‘fill in’ or camouflage those old scars by transplanting new follicles into the area.</p>
+                        <h3 className='font-bold'>COSMETIC CONCERNS</h3>
+                        <p>If avoiding linear scarring is important to you, FUE may be the preferred technique. FUE can also be used to camouflage existing scars from previous surgeries or injuries by transplanting new follicles into those areas.</p>
                     </div>
                 </article>
             </section>

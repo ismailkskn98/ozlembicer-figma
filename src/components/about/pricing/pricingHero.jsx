@@ -69,8 +69,8 @@ export default function PricingHero() {
                             <p>Last minute appointments:1000€ (For appointments for a specific day which is less than ten days away. To be able to tolerate expensive flight prices at last minute)</p>
                             <p>Last minute appointments:500€ (for 10-15 days)</p>
                             <p>For publication of media (photos & videos) in scientific studies, presentations, congress and articles: 20% (Dr.Bicer makes her own decision for this discount type in consultation if the patient is suitable for this case Ex: Burn Reconstruction)</p>
-                            <p>Only one type discount type is applied and total discount cannot be more than %20</p>
-                            <p>In case of cancelation the deposit of the cancelling patient will be detucted from the last minute patient for the additional travel and accommodation costs difference.</p>
+                            <p className='mt-2'>Only one type discount type is applied and total discount cannot be more than %20</p>
+                            <p className='mt-2'>In case of cancelation the deposit of the cancelling patient will be detucted from the last minute patient for the additional travel and accommodation costs difference.</p>
                         </article>
                     </MotionScrollInViewVariant>
                 </article>
