@@ -62,7 +62,7 @@ export const navigationMenu = [
   {
     item: 'Gallery',
     links: [
-      { href: '#', label: 'Before & After Images' },
+      { href: '/gallery/before-after-images', label: 'Before & After Images' },
       {
         href: '#',
         label: 'Video Gallery',
