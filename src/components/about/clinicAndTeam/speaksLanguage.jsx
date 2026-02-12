@@ -13,8 +13,9 @@ export default function SpeaksLanguage() {
 
     return (
         <section className='fluid gridContainer w-full pb-2 sm:pb-10 pt-10'>
-            <main className='w-full max-w-full xl:max-w-6xl mx-auto bg-linear-to-br from-coffee-dark via-wine-brown to-coffee-dark py-12 sm:py-16 px-6 sm:px-12 rounded-4xl shadow-2xl'>
-                <MotionScrollInView className='text-center mb-8'>
+            <main className='relative w-full max-w-full xl:max-w-6xl mx-auto bg-linear-to-br from-coffee-dark via-wine-brown to-coffee-dark py-12 sm:py-16 px-6 sm:px-12 rounded-4xl shadow-xl'>
+                <div className='absolute z-0 inset-0 w-full h-full rounded-4xl bg-[url("/images/world.svg")] bg-center bg-cover bg-fixed bg-no-repeat opacity-20' />
+                <MotionScrollInView className='relative z-20 text-center mb-8'>
                     <h2 className='text-ivory-soft text-2xl sm:text-4xl font-semibold mb-3 sm:mb-4'>
                         Multilingual Support
                     </h2>
@@ -24,7 +25,7 @@ export default function SpeaksLanguage() {
                 </MotionScrollInView>
 
                 <MotionScrollInViewVariant
-                    className='grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 max-w-4xl mx-auto'
+                    className='relative z-20 grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 max-w-4xl mx-auto'
                     childClassname='group'
                 >
                     {languages.map((lang, index) => (
