@@ -55,7 +55,7 @@ const carouselItems = [
 
 export default function PatientResultCarousel() {
     return (
-        <div className='w-full flex flex-col items-center justify-center gap-y-6 sm:gap-y-7'>
+        <div className='w-full xl:max-w-262 mx-auto flex flex-col items-center justify-center gap-y-6 sm:gap-y-7'>
             <Swiper
                 modules={[Navigation, Autoplay]}
                 slidesPerView={3}
@@ -92,9 +92,9 @@ export default function PatientResultCarousel() {
                 className='w-full'
             >
                 {carouselItems.map((item, index) => (
-                    <SwiperSlide className='' key={index}>
+                    <SwiperSlide className='py-3' key={index}>
                         {({ isActive }) => (
-                            <section className='bg-linear-to-b from-stone-beige to-ivory-soft p-2.5 rounded-[10px]'>
+                            <section className='bg-linear-to-b from-stone-beige to-ivory-soft p-2.5 rounded-[10px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]'>
                                 <div className={`w-full flex flex-col items-center justify-center gap-2.5 rounded-[10px] ${!isActive && 'blur-[2px]'}`}>
                                     <div className='w-full flex items-center gap-1.25'>
                                         <div className='relative w-full h-70 rounded-[5px] overflow-hidden'>
@@ -131,10 +131,10 @@ export default function PatientResultCarousel() {
             </Swiper>
             <article className='flex items-center justify-center gap-6'>
                 <div id="patient-prev">
-                    <IoIosArrowDropleft className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/50 p-1.5 transition duration-200 rounded-full" />
+                    <IoIosArrowDropleft className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold p-1.5 transition duration-200 rounded-full" />
                 </div>
                 <div id="patient-next">
-                    <IoIosArrowDropright className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/50 p-1.5 transition duration-200 rounded-full" />
+                    <IoIosArrowDropright className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold p-1.5 transition duration-200 rounded-full" />
                 </div>
             </article>
         </div>

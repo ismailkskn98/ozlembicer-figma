@@ -40,7 +40,7 @@ export default function HeroLogoCarousel() {
     return (
         <section className='fluid gridContainer relative w-full pt-50 md:pt-32.5 pb-12 sm:pb-15 bg-linear-to-t from-ivory-soft to-stone-beige'>
             <HeroCards />
-            <main className='w-full max-w-full xl:max-w-6xl mx-auto'>
+            <main className='w-full max-w-full xl:max-w-312.5 mx-auto'>
                 <MotionScrollInView className="w-full flex flex-col items-center gap-7.5">
                     <p className='text-center text-[20px] text-coffee-dark'><span className='font-bold'>Trusted by Leading Associations</span> Worldwide</p>
                     <Swiper

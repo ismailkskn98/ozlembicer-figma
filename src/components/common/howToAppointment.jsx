@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import MotionScrollInView from './motionScrollInView'
 import MotionScrollInViewVariant from './motionScrollInViewVariant'
+import { BsTelephone } from "react-icons/bs";
 
 const appointmentSteps = [
     {
@@ -10,7 +11,8 @@ const appointmentSteps = [
         titleBr: 'WhatsApp',
         hoverTitle: 'Fill Application',
         hoverTitleBr: 'Form',
-        image: '/images/appointment-icon-1-new.png',
+        image: null,
+        icon: BsTelephone,
         alt: 'whatsapp',
         imageWidth: 'w-14 sm:w-16 lg:w-69.25',
         description: 'Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients\' dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology.'
@@ -50,7 +52,11 @@ export default function HowToAppointment() {
                     {appointmentSteps.map((step) => (
                         <article key={step.id} className='group w-full max-w-sm lg:max-w-full flex flex-col items-center justify-center bg-coffee-dark rounded-4xl pt-4 sm:pt-6 lg:pt-8 px-2.5 pb-5 sm:pb-8 lg:pb-14.75 h-full max-h-95'>
                             <div className='w-xs lg:w-auto flex items-center gap-3 sm:gap-4 lg:gap-0 text-ivory-soft px-3 sm:px-0'>
-                                <Image src={step.image} alt={step.alt} width={300} height={200} className={`lg:hidden object-contain object-center ${step.imageWidth} h-full`} />
+                                {step.image ? (
+                                    <Image src={step.image} alt={step.alt} width={300} height={200} className={`lg:hidden object-contain object-center ${step.imageWidth} h-full`} />
+                                ) : (
+                                    <step.icon className='lg:hidden w-15 sm:w-16 lg:w-69.25 h-auto text-ivory-soft' />
+                                )}
                                 <span className='text-[70px] sm:text-[80px] 2xl:text-[96px]'>{step.id}</span>
                                 <div className='relative w-full'>
                                     <p className='text-[23px] sm:text-[28px] 2xl:text-[32px] leading-8 2xl:leading-9 opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300'>{step.title}<br />{step.titleBr}</p>
@@ -58,8 +64,12 @@ export default function HowToAppointment() {
                                 </div>
                             </div>
                             <div className='relative h-38.25 w-full lg:w-auto'>
-                                <Image src={step.image} alt={step.alt} width={300} height={200} className={`opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 object-contain object-center ${step.imageWidth} h-full`} />
-                                <p className='w-xs lg:w-full px-2 sm:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200'>{step.description}</p>
+                                {step.image ? (
+                                    <Image src={step.image} alt={step.alt} width={300} height={200} className={`opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 object-contain object-center ${step.imageWidth} h-full`} />
+                                ) : (
+                                    <step.icon className='opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 w-14 sm:w-16 lg:w-38.25 h-auto text-ivory-soft' />
+                                )}
+                                <p className='w-xs lg:w-xs px-2 sm:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200'>{step.description}</p>
                             </div>
                         </article>
                     ))}

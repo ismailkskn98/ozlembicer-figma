@@ -16,7 +16,7 @@ export default function YoutubeCarousel({ videos = [] }) {
   }
 
   return (
-    <section className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-center justify-center gap-y-6 sm:gap-y-7">
+    <section className="w-full max-w-full xl:max-w-262 mx-auto flex flex-col items-center justify-center gap-y-6 sm:gap-y-7">
       <Swiper
         modules={[Autoplay, Navigation]}
         slidesPerView={3}
@@ -49,8 +49,8 @@ export default function YoutubeCarousel({ videos = [] }) {
         className="w-full"
       >
         {videos.map((item, i) => (
-          <SwiperSlide key={i} className="w-full">
-            <div className="relative group h-full bg-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-2.5 cursor-pointer overflow-hidden">
+          <SwiperSlide key={i} className="w-full py-3">
+            <div className="relative group h-full bg-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-2.5 cursor-pointer overflow-hidden shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
               <Image
                 src={item.snippet.thumbnails.medium.url}
                 alt={item.snippet.title}
@@ -71,10 +71,10 @@ export default function YoutubeCarousel({ videos = [] }) {
       </Swiper>
       <div className="flex items-center justify-center gap-6">
         <div id="youtube-prev">
-          <IoIosArrowDropleft className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/50 p-1.5 transition duration-200 rounded-full" />
+          <IoIosArrowDropleft className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold p-1.5 transition duration-200 rounded-full" />
         </div>
         <div id="youtube-next">
-          <IoIosArrowDropright className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/50 p-1.5 transition duration-200 rounded-full" />
+          <IoIosArrowDropright className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold p-1.5 transition duration-200 rounded-full" />
         </div>
       </div>
     </section>
