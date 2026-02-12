@@ -64,7 +64,7 @@ const heroSlideItems = [
 
 export default function Hero() {
     return (
-        <section className='relative fluid gridContainer bg-radial from-wine-brown to-coffee-dark pt-20 sm:pt-25 pb-52 md:pb-40 xl:pb-50'>
+        <section className='relative fluid gridContainer bg-radial to-wine-brown from-20% from-coffee-dark pt-20 sm:pt-25 pb-52 md:pb-40 xl:pb-50'>
             <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
             <main className='w-full max-w-full xl:max-w-6xl mx-auto'>
                 <Swiper
@@ -74,7 +74,7 @@ export default function Hero() {
                     slidesPerView={3}
                     loop={true}
                     autoplay={{
-                        delay: 50000,
+                        delay: 5000,
                         disableOnInteraction: false,
                     }}
                 >
@@ -121,8 +121,8 @@ export default function Hero() {
                                                     key={linkIndex}
                                                     href={link.href}
                                                     className={`rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm text-nowrap ${linkIndex === 0
-                                                        ? 'border border-ivory-soft text-ivory-soft'
-                                                        : 'bg-ivory-soft text-coffee-dark'
+                                                        ? 'border border-ivory-soft text-ivory-soft hover:bg-ivory-soft/70 hover:text-coffee-dark hover:border-transparent transition-colors duration-200'
+                                                        : 'bg-ivory-soft text-coffee-dark hover:bg-ivory-soft/70 transition-colors duration-200'
                                                         }`}
                                                 >
                                                     {link.text}

@@ -11,7 +11,7 @@ import MobilNavbar from './mobilNavbar'
 export default function Header() {
     return (
         <main className='fixed inset-x-0 top-0 z-50 w-full gridContainer'>
-            <header className='w-full fluid gridContainer bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 py-2.5 border-b border-gold'>
+            <header className='w-full fluid gridContainer bg-linear-to-r from-coffee-dark via-wine-brown via-22% from-10% to-45% to-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 py-2.5 border-b border-gold'>
                 <MotionScrollInViewOpacity className="w-full flex items-center">
                     <section className='w-full max-w-full lg:max-w-6xl mx-auto flex items-center justify-between'>
                         <Link href={"/"} className='h-fit w-fit'>
@@ -23,9 +23,10 @@ export default function Header() {
                                 {/* <LanguageChange /> */}
                                 <TemporaryLanguageChange />
                             </div>
-                            <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-ivory-soft text-coffee-dark border border-gold text-sm'>
-                                {/* <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm 
+                            {/* <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-ivory-soft text-coffee-dark border border-gold text-sm'> */}
+                            {/* <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm 
                             drop-shadow-[0px_0px_6px_#eee6db]'> */}
+                            <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm hover:to-ivory-soft/20 transition-all duration-300'>
                                 <span>info@ozlembicer.com</span>
                                 <span>+90 (414) 13 13</span>
                             </Link>

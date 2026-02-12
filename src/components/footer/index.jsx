@@ -16,7 +16,7 @@ export default function Footer() {
                     <article className='w-full max-w-sm flex flex-col items-center md:items-start'>
                         <Image src='/images/logo.jpg' alt='Dr.Bicer Logo' width={250} height={70} className='object-contain object-center w-fit h-14.75 2xl:h-18' />
                         <div className='w-full flex flex-col items-center md:items-start gap-4 mt-5'>
-                            <div className='w-full max-w-xs md:max-w-sm grid grid-cols-1 gap-y-1 text-ivory-soft text-sm 2xl:text-lg'>
+                            <div className='w-full max-w-xs md:max-w-sm grid grid-cols-1 gap-y-0 text-ivory-soft text-sm 2xl:text-lg'>
                                 <div className='w-full flex items-center justify-center md:justify-between'>
                                     <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>Adress:</div>
                                     <div className='flex-1 w-full text-end md:text-start text-nowrap 2xl:text-lg'>Istanbul/Turkey</div>
@@ -39,7 +39,7 @@ export default function Footer() {
                         </div>
                     </article>
                     <article className='flex flex-col items-start gap-2.5 text-ivory-soft'>
-                        <h4 className='text-[32px]'>Working Hours</h4>
+                        <h4 className='text-[25px]'>Working Hours</h4>
                         <div className='w-full max-w-sm grid grid-cols-1 gap-y-0.5 text-ivory-soft text-sm 2xl:text-base'>
                             <div className='w-full flex items-center justify-between'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Monday</div>
@@ -61,7 +61,7 @@ export default function Footer() {
                                 <div className='flex-1 w-full text-start text-nowrap'>Friday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>09:00 - 18:00</div>
                             </div>
-                            <div className='w-full h-px bg-gold/20 my-1' />
+                            <div className='w-full h-px bg-transparent my-1' />
                             <div className='w-full flex items-center justify-between'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Saturday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>09:00 - 18:00</div>
