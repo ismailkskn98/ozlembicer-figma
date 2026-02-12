@@ -2,12 +2,12 @@ import React from 'react'
 import CustomBreadCrumb from '../common/customBreadCrumb'
 import HairMesotherapyHero from './hairMesotherapyHero'
 import HeroLogoCarousel from '../common/logoCarousel'
-import ProfessionalAffiliations from '../about/ozlembicer/professionalAffiliations'
-import Certifications from '../about/ozlembicer/certifications'
-import Awards from '../about/ozlembicer/awards'
-import SpeaksLanguage from '../about/clinicAndTeam/speaksLanguage'
+import TitleImages from '../common/titleImages'
 import PatientResults from '../common/patientResults'
 import HowToAppointment from '../common/howToAppointment'
+import SectionWrapper from '../hairTransplant/common/sectionWrapper'
+import HowDoesItWork from '../hairTransplant/common/howDoesItWork'
+import HairMesotherapyDoesItWork from './hairMesotherapyDoesItWork'
 
 const linksItems = [
     { label: 'Hair Mesotherapy', href: '#' },
@@ -24,11 +24,17 @@ export default function HairMesotherapyMain({ children }) {
             <HairMesotherapyHero />
             <div className='fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50'>
                 <HeroLogoCarousel />
-                <ProfessionalAffiliations />
-                <Certifications />
-                <Awards />
+                <SectionWrapper>
+                    <HowDoesItWork
+                        images={[
+                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 1" },
+                        ]}
+                    >
+                        <HairMesotherapyDoesItWork />
+                    </HowDoesItWork>
+                </SectionWrapper>
                 {children}
-                <SpeaksLanguage />
+                <TitleImages />
                 <PatientResults />
                 <div className='-mt-10 lg:mt-0'>
                     <HowToAppointment />

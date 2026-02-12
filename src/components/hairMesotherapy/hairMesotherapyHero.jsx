@@ -11,16 +11,13 @@ export default function HairMesotherapyHero() {
                 <MotionLeftView className="w-full max-w-10/12 lg:max-w-141">
                     <article className='w-full flex flex-col items-start gap-6 lg:gap-7.5 text-ivory-soft'>
                         <h1 className='text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-16 flex flex-col items-start'>Hair  <span className='font-bold'>Mesotherapy</span></h1>
-                        <div className='w-full flex flex-col items-start gap-3'>
-                            <p className='text-sm'>Mesotherapy is a technique in which microscopic amounts of drugs, vitamins, minerals and amino acids are administered to the upper and middle layers of the scalp skin to treat hair loss and increase the quality of existing hair by stimulating hair regeneration.</p>
+                        <div className='w-full flex flex-col items-start gap-4'>
+                            <p className='text-sm'>Mesotherapy is a technique in which microscopic amounts of drugs, vitamins, minerals and amino acids (Vasodilator and DHT Blockers) are administered to the upper and middle layers of the scalp skin to treat hair loss and increase the quality of existing hair by stimulating hair regeneration.</p>
                             <p className='text-sm'>This method has obtained special recognition in the field of aesthetic medicine as it is one of the most effective non-surgical techniques for treating the scalp. In fact, no cream or serum can deliver the biological active ingredients into the cells of the scalp and activate the hair metabolism as effectively as mesotherapy.</p>
                             <p className='text-sm'>The technique of micro injections with mesotherapy This technique consists in the administration of a mesotherapy cocktail by means of intra-dermal micro injections, placing the nutrients directly in the dermal tissues.</p>
                             <p className='text-sm'>The needle also creates micro perforations that induce the tissues involved in a healing process, which stimulates the scalp to produce collagen and elastin, two of the main building blocks of the skin.</p>
-                            <p className='text-sm'>The procedure takes about 10 sessions of 15 minutes each to achieve the desired effects. The patient will not feel any pain thanks to the use of a special needle designed for mesotherapy. What are the recovery times after the treatment? The treatment does not require any recovery time.</p>
-                            <p className='text-sm'>Most people undergoing this treatment in fact immediately return to their normal activities after the procedure.</p>
-                            <p className='text-sm'><span className='font-bold'>Will the results last?</span><br />The results last, however we recommend regular maintenance treatments.</p>
-                            <p className='text-sm'><span className='font-bold'>What are the results of capillary mesotherapy?</span><br />Capillary mesotherapy stops hair loss The quality of the hair will improve dramatically</p>
-                            <p className='text-sm'><span className='font-bold'>Capillary mesotherapy accelerates hair regrowth Why choose capillary mesotherapy?</span><br />It gives progressive results and is very effective It is safe, with no side effects. It requires little or no post-treatment recovery time (redness caused by micro injections can last for up to a day).</p>
+                            <p className='text-sm'>The procedure takes about 10 sessions of 15 minutes each to achieve the desired effects. What are the recovery times after the treatment? The treatment does not require any recovery time.</p>
+                            <p className='text-sm'>Most people undergoing this treatment in fact immediately return to their normal activities after the procedure without any side effects.</p>
                         </div>
 
                     </article>

@@ -24,24 +24,26 @@ export default function HowDoesItWork({ images = [], title = [], content = [], c
                 ))}
             </section>
             <section className='col-span-2 w-full flex flex-col items-start gap-6'>
-                <article className='w-full flex flex-col items-start gap-4 lg:gap-9'>
-                    <h3 className='text-base lg:text-[20px] font-bold flex flex-col items-start'>
-                        {title.map((text, index) => (
-                            <span key={index}>{text}</span>
-                        ))}
-                    </h3>
-                    <div className='w-full flex flex-col items-start gap-4'>
-                        {content.map((item, index) => {
-                            if (item.type === "paragraph") {
-                                return <p key={index} className='text-sm lg:text-base'>{item.value}</p>;
-                            }
-                            if (item.type === "list") {
-                                return <RecursiveList key={index} items={item.value} />;
-                            }
-                            return null;
-                        })}
-                    </div>
-                </article>
+                {title.length > 0 && content.length > 0 && (
+                    <article className='w-full flex flex-col items-start gap-4 lg:gap-9'>
+                        <h3 className='text-base lg:text-[20px] font-bold flex flex-col items-start'>
+                            {title.map((text, index) => (
+                                <span key={index}>{text}</span>
+                            ))}
+                        </h3>
+                        <div className='w-full flex flex-col items-start gap-4'>
+                            {content.map((item, index) => {
+                                if (item.type === "paragraph") {
+                                    return <p key={index} className='text-sm lg:text-base'>{item.value}</p>;
+                                }
+                                if (item.type === "list") {
+                                    return <RecursiveList key={index} items={item.value} />;
+                                }
+                                return null;
+                            })}
+                        </div>
+                    </article>
+                )}
                 {children}
             </section>
         </main>
