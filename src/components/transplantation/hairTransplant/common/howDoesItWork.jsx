@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 export default function HowDoesItWork({ images = [], title = [], content = [], children, className }) {
-    console.log("title: ", title);
+
     const RecursiveList = ({ items }) => {
         return (
             <ul className="list-disc list-outside pl-5 text-sm lg:text-base">
