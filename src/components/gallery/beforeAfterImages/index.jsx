@@ -17,7 +17,7 @@ export default function BeforeAfterImagesMain({ children }) {
                             <h2 className={`flex flex-col text-[32px]`}>
                                 <span>Hair Transplant</span> <span className='font-bold'>Before & After</span>
                             </h2>
-                            <span className="object-contain bg-linear-to-l from-gold to-ivory-soft w-12 min-[330px]:w-14 sm:w-18 lg:w-22.5 h-12 min-[330px]:h-14 sm:h-18 lg:h-22.5 rounded-full" />
+                            <Image src={"/images/before-after-icon.svg"} alt='before after icon' width={100} height={100} className="object-contain bg-linear-to-l from-gold to-ivory-soft w-12 min-[330px]:w-14 sm:w-18 lg:w-22.5 h-12 min-[330px]:h-14 sm:h-18 lg:h-22.5 rounded-full" />
                         </section>
                     </main>
                 </header>
