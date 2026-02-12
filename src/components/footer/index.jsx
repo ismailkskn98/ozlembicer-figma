@@ -41,32 +41,32 @@ export default function Footer() {
                     <article className='flex flex-col items-start gap-2.5 text-ivory-soft'>
                         <h4 className='text-[25px]'>Working Hours</h4>
                         <div className='w-full max-w-sm grid grid-cols-1 gap-y-0.5 text-ivory-soft text-sm 2xl:text-base'>
-                            <div className='w-full flex items-center justify-between'>
+                            <div className='w-full flex items-center justify-between gap-2.5'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Monday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>09:00 - 18:00</div>
                             </div>
-                            <div className='w-full flex items-center justify-between'>
+                            <div className='w-full flex items-center justify-between gap-2.5'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Tuesday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>09:00 - 18:00</div>
                             </div>
-                            <div className='w-full flex items-center justify-between'>
+                            <div className='w-full flex items-center justify-between gap-2.5'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Wednesday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>09:00 - 18:00</div>
                             </div>
-                            <div className='w-full flex items-center justify-between'>
+                            <div className='w-full flex items-center justify-between gap-2.5'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Thursday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>09:00 - 18:00</div>
                             </div>
-                            <div className='w-full flex items-center justify-between'>
+                            <div className='w-full flex items-center justify-between gap-2.5'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Friday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>09:00 - 18:00</div>
                             </div>
                             <div className='w-full h-px bg-transparent my-1' />
-                            <div className='w-full flex items-center justify-between'>
+                            <div className='w-full flex items-center justify-between gap-2.5'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Saturday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>09:00 - 18:00</div>
                             </div>
-                            <div className='w-full flex items-center justify-between'>
+                            <div className='w-full flex items-center justify-between gap-2.5'>
                                 <div className='flex-1 w-full text-start text-nowrap'>Sunday</div>
                                 <div className='flex-1 w-full text-start text-nowrap'>Closed</div>
                             </div>
