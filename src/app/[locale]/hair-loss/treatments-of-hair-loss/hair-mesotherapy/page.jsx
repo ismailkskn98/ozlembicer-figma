@@ -1,5 +1,5 @@
 import VideosTutorials from '@/components/common/videosTutorials';
-import HairMesotherapyMain from '@/components/hairMesotherapy';
+import HairMesotherapyMain from '@/components/hairLoss/treatmentsOfHairLoss/hairMesotherapy';
 import React from 'react'
 
 const getYoutubeVideos = async () => {

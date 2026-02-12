@@ -1,13 +1,13 @@
 import React from 'react'
-import CustomBreadCrumb from '../common/customBreadCrumb'
+import CustomBreadCrumb from '../../../common/customBreadCrumb'
 import MaleHairLossHero from './maleHairLossHero'
-import HeroLogoCarousel from '../common/logoCarousel'
-import TitleImages from '../common/titleImages'
-import PatientResults from '../common/patientResults'
-import SectionWrapper from '../hairTransplant/common/sectionWrapper'
-import HowDoesItWork from '../hairTransplant/common/howDoesItWork'
+import HeroLogoCarousel from '../../../common/logoCarousel'
+import TitleImages from '../../../common/titleImages'
+import PatientResults from '../../../common/patientResults'
+import SectionWrapper from '../../../transplantation/hairTransplant/common/sectionWrapper'
+import HowDoesItWork from '../../../transplantation/hairTransplant/common/howDoesItWork'
 import MaleHairDoesItWork from './maleHairDoesItWork'
-import HowToAppointment from '../common/howToAppointment'
+import HowToAppointment from '../../../common/howToAppointment'
 
 const linksItems = [
     { label: 'Male Hair Loss', href: '#' },

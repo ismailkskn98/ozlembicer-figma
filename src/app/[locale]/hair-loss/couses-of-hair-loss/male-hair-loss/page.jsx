@@ -1,5 +1,5 @@
 import VideosTutorials from '@/components/common/videosTutorials';
-import MaleHairLossMain from '@/components/maleHairLoss'
+import MaleHairLossMain from '@/components/hairLoss/cousesOfHairLoss/maleHairLoss'
 import React from 'react'
 
 const getYoutubeVideos = async () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import MotionScrollInViewVariant from '../common/motionScrollInViewVariant'
+import MotionScrollInViewVariant from '../../common/motionScrollInViewVariant'
 
 export default function HairTransplantHero() {
     return (

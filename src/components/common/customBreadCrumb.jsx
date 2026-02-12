@@ -22,7 +22,7 @@ export default function CustomBreadCrumb({ links, isButton = false }) {
                                 <ScrollLink
                                     to={link.href.split('#')[1]}
                                     duration={200}
-                                    offset={-118}
+                                    offset={-180}
                                     spy={true}
                                     hashSpy={true}
                                     smooth={true}

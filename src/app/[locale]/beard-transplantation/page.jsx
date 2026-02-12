@@ -1,5 +1,5 @@
 
-import BeardTransplantationMain from '@/components/beardTransplantation'
+import BeardTransplantationMain from '@/components/transplantation/beardTransplantation'
 import React from 'react'
 
 export default function BeardTransplantationPage() {

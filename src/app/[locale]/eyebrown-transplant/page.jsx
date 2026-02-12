@@ -1,5 +1,5 @@
 
-import EyebrownTransplant from '@/components/eyebrownTransplant'
+import EyebrownTransplant from '@/components/transplantation/eyebrownTransplant'
 import React from 'react'
 
 export default function EyebrownTransplantPage() {

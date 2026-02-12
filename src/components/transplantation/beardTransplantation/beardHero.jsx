@@ -1,7 +1,7 @@
 import React from 'react'
-import MotionLeftView from '../common/motionLeftView'
+import MotionLeftView from '../../common/motionLeftView'
 import Image from 'next/image'
-import MotionRightView from '../common/motionRightView'
+import MotionRightView from '../../common/motionRightView'
 
 export default function BeardHero() {
     return (

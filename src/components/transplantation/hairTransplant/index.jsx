@@ -1,15 +1,15 @@
 
 import React from 'react'
 import HairTransplantHero from './hairTransplantHero'
-import CustomBreadCrumb from '../common/customBreadCrumb'
-import HeroLogoCarousel from '../common/logoCarousel'
+import CustomBreadCrumb from '../../common/customBreadCrumb'
+import HeroLogoCarousel from '../../common/logoCarousel'
 import SectionWrapper from './common/sectionWrapper';
 import HowDoesItWorkBodyHair from './bodyHair/howDoesItWorkBodyHair'
 import HowDoesItWorkRecon from './reconstructive/howDoesItWorkRecon'
 import FueDoesItWorkFAQs from './fueMicroMotor/fueDoesItWorkFAQs';
 import HowDoesItWork from './common/howDoesItWork';
-import DomLoaded from '../common/domLoaded';
-import HowToAppointment from '../common/howToAppointment';
+import DomLoaded from '../../common/domLoaded';
+import HowToAppointment from '../../common/howToAppointment';
 
 const linksItems = [
     { label: 'FUE (Micro Motor)', href: '/hair-transplant#fue-micro-motor' },

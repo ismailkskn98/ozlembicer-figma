@@ -1,10 +1,10 @@
 import React from 'react'
-import CustomBreadCrumb from '../common/customBreadCrumb'
+import CustomBreadCrumb from '../../../common/customBreadCrumb'
 import FemaleHairLossHero from './femaleHairLossHero'
-import HeroLogoCarousel from '../common/logoCarousel'
-import TitleImages from '../common/titleImages'
-import PatientResults from '../common/patientResults'
-import HowToAppointment from '../common/howToAppointment'
+import HeroLogoCarousel from '../../../common/logoCarousel'
+import TitleImages from '../../../common/titleImages'
+import PatientResults from '../../../common/patientResults'
+import HowToAppointment from '../../../common/howToAppointment'
 import FemaleContent from './femaleContent'
 
 const linksItems = [

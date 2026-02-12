@@ -1,6 +1,6 @@
 import React from 'react';
-import SubHeader from '../common/subHeader';
-import GeneralInfo from '../common/generalInfo';
+import SubHeader from './subHeader';
+import GeneralInfo from './generalInfo';
 
 const SectionWrapper = ({ linksItems, id, title, subtitle, imageUrl, generalInfoProps, children }) => {
     return (
