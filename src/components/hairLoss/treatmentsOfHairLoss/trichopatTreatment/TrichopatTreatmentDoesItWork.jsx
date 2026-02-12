@@ -37,19 +37,19 @@ export default function TrichopatTreatmentDoesItWork() {
                     <p>TRICOPAT® combines several advanced technologies in a single device:</p>
                     <ul className='list-decimal list-outside pl-5'>
                         <li>
-                            <span className='font-bold'>Controlled micro-dermal incision (Skin Patting®)</span>
+                            <span>Controlled micro-dermal incision (Skin Patting®)</span>
                             <p>Creates very superficial microchannels (0.25 mm) that activate the skin without causing scarring or trauma to surrounding mechanisms without causing scarring.</p>
                         </li>
                         <li>
-                            <span className='font-bold'>Pressure waves</span>
+                            <span>Pressure waves</span>
                             <p>Trigger scalp microcirculation, tissue oxygenation, and cellular metabolism.</p>
                         </li>
                         <li>
-                            <span className='font-bold'>Iontophoresis</span>
+                            <span>Iontophoresis</span>
                             <p>Uses a mild electrical current to deliver preformed growth factors deep into the hair follicles, increasing their effectiveness.</p>
                         </li>
                         <li>
-                            <span className='font-bold'>Electrostimulation and LED photo stimulation</span>
+                            <span>Electrostimulation and LED photo stimulation</span>
                             <p>Support fibroblast activation, collagen and elastin synthesis, and provide an anti-inflammatory effect.</p>
                         </li>
                     </ul>
