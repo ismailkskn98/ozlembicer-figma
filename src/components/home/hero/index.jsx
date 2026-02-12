@@ -85,7 +85,7 @@ export default function Hero() {
                                     <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft min-w-[410px]'>
                                         {/* Title box (fixed height) */}
                                         <div
-                                            className={`w-full flex items-end justify-start h-[150px] lg:h-[220px] xl:h-[240px] transition-all duration-500 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-15'}`}
+                                            className={`w-full flex items-end justify-start h-[150px] lg:h-[220px] xl:h-[240px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                                         >
                                             {/* Desktop */}
                                             <h2 className='hidden lg:flex flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15'>
@@ -107,7 +107,7 @@ export default function Hero() {
 
                                         {/* Paragraph box (fixed height) */}
                                         <div
-                                            className={`w-full flex items-start justify-start h-[130px] sm:h-[150px] lg:h-[170px] transition-all duration-500 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-15'}`}
+                                            className={`w-full flex items-start justify-start h-[130px] sm:h-[150px] lg:h-[170px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                                         >
                                             <p className='line-clamp-6 text-start text-sm sm:text-base w-full max-w-full sm:max-w-150 lg:max-w-100 xl:max-w-87.5'>
                                                 {item.description}
@@ -115,7 +115,7 @@ export default function Hero() {
                                         </div>
 
                                         {/* Buttons box (fixed height) */}
-                                        <div className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-[44px] transition-all duration-500 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-15'}`}>
+                                        <div className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-[44px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
                                             {item.links.map((link, linkIndex) => (
                                                 <Link
                                                     key={linkIndex}
