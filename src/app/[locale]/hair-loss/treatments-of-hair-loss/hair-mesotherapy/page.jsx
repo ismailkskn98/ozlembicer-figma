@@ -1,7 +1,31 @@
+import VideosTutorials from '@/components/common/videosTutorials';
+import HairMesotherapyMain from '@/components/hairMesotherapy';
 import React from 'react'
 
-export default function HairMesotherapyPage() {
+const getYoutubeVideos = async () => {
+    try {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/youtube`, {
+            cache: "force-cache",
+            next: { revalidate: 86400 },
+        });
+
+        if (!res.ok) {
+            console.error("yotube video isteği başarısız", res.status);
+            return [];
+        }
+
+        return res.json();
+    } catch (error) {
+        console.error("yotube video isteği başarısız error:", error);
+        return [];
+    }
+};
+
+export default async function HairMesotherapyPage() {
+    const videos = await getYoutubeVideos();
     return (
-        <div>HairMesotherapyPage</div>
+        <HairMesotherapyMain>
+            <VideosTutorials videos={videos} />
+        </HairMesotherapyMain>
     )
 }

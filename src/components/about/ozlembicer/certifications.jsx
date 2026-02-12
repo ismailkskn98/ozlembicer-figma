@@ -219,7 +219,7 @@ export default function Certifications() {
   return (
     <section className='fluid gridContainer gap-y-6 w-full py-16 lg:py-25'>
       <MotionScrollInView className="w-full max-w-full xl:max-w-6xl mx-auto rounded-[10px]">
-        <article className='w-full max-w-full xl:max-w-6xl mx-auto rounded-[10px] h-20 bg-coffee-dark flex items-center justify-center text-ivory-soft px-4 text-center'>
+        <article className='w-full max-w-full xl:max-w-6xl mx-auto rounded-[10px] h-20 bg-wine-brown flex items-center justify-center text-ivory-soft px-4 text-center'>
           <h2 className='text-[20px] sm:text-[32px]'>Other Education & Training Programs</h2>
         </article>
       </MotionScrollInView>
