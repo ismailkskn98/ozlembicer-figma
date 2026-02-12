@@ -52,7 +52,7 @@ export const navigationMenu = [
   {
     item: 'Guides',
     links: [
-      { href: '#', label: 'Guide - Before Hair Transp.' },
+      { href: '/guides/before-hair-transplantation', label: 'Guide - Before Hair Transp.' },
       { href: '/guides/after-hair-transplantation', label: 'Guide - After Hair Transp.' },
       { href: '#', label: 'Technology & Hair Transp.' },
       { href: '#', label: 'Complications of Hair Surgery' },
