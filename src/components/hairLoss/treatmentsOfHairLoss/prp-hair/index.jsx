@@ -10,7 +10,6 @@ import PrpHairDoesItWork from './prpHairDoesItWork'
 const linksItems = [
     { label: 'Hair Mesotherapy', href: '/hair-loss/treatments-of-hair-loss/hair-mesotherapy' },
     { label: 'PRP Hair Treatment', href: '#' },
-    { label: 'BHT (Body Hair)', href: '/hair-loss/treatments-of-hair-loss/bht-body-hair' },
     { label: 'Stamp Cell Treatment', href: '/hair-loss/treatments-of-hair-loss/stamp-cell-treatment' },
     { label: 'Trichopat Treatment', href: '/hair-loss/treatments-of-hair-loss/trichopat-treatment' },
 ]
