@@ -49,7 +49,30 @@ export const navigationMenu = [
       { href: '/eyebrown-transplant', label: 'Eyebrow Transplant' },
     ],
   },
-  { item: 'Guides', links: [] },
-  { item: 'Gallery', links: [] },
+  {
+    item: 'Guides',
+    links: [
+      { href: '#', label: 'Guide - Before Hair Transp.' },
+      { href: '/guides/after-hair-transplantation', label: 'Guide - After Hair Transp.' },
+      { href: '#', label: 'Technology & Hair Transp.' },
+      { href: '#', label: 'Complications of Hair Surgery' },
+      { href: '#', label: 'Frequently Asked Questions' },
+    ],
+  },
+  {
+    item: 'Gallery',
+    links: [
+      { href: '#', label: 'Before & After Images' },
+      {
+        href: '#',
+        label: 'Video Gallery',
+        submenu: [
+          { href: '#', label: 'Informative Videos' },
+          { href: '#', label: 'Patient Reviews' },
+          { href: '#', label: 'Interviews with Dr.Bicer' },
+        ],
+      },
+    ],
+  },
   // { item: 'Contact Us', href: '/contact-us' },
 ];
