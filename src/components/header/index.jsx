@@ -11,10 +11,10 @@ import MobilNavbar from './mobilNavbar'
 export default function Header() {
     return (
         <main className='fixed inset-x-0 top-0 z-50 w-full gridContainer'>
-            <header className='w-full fluid gridContainer bg-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 border-b border-gold overflow-hidden'>
+            <header className='w-full fluid gridContainer bg-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 border-b border-gold'>
                 <MotionScrollInViewOpacity className="w-full flex items-center">
                     <section className='w-full h-full max-w-full lg:max-w-6xl mx-auto flex items-center justify-between'>
-                        <Link href={"/"} className='relative h-full w-fit flex items-center justify-center'>
+                        <Link href={"/"} className='relative h-[99%] w-fit flex items-center justify-center'>
                             <div className='absolute left-1/2 top-1/2 -translate-1/2 w-[200%] h-full bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark' />
                             <Image src="/images/logo.jpg" alt='ozlembicer logo' width={150} height={100} className='relative z-20 object-contain object-center w-fit h-10 lg:h-11 xl:h-15' />
                         </Link>
