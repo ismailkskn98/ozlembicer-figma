@@ -2,7 +2,6 @@ import React from 'react'
 import Hero from './hero'
 import HeroLogoCarousel from '../common/logoCarousel'
 import VideosTutorials from '../common/videosTutorials'
-import TitleImages from '../common/titleImages'
 import PatientResults from '../common/patientResults'
 import AestheticAndArt from './aestheticAndArt'
 import HowToAppointment from '../common/howToAppointment'
@@ -15,7 +14,6 @@ export default function HomeMain({ videos }) {
             <HeroLogoCarousel />
             <div className='fluid gridContainer bg-linear-to-b from-stone-beige via-ivory-soft via-80% to-stone-beige'>
                 <VideosTutorials videos={videos} />
-                {/* <TitleImages /> */}
                 <DeneyTitleImage />
                 <PatientResults />
                 <AestheticAndArt />

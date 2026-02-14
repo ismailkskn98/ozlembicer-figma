@@ -98,14 +98,7 @@ export default function DeneyTitleImage() {
                             <AccordionItem value={item.value} className="h-full border-none">
                                 <div className="relative h-full overflow-hidden">
                                     <div className="absolute inset-0 bg-black/50 z-10" />
-                                    <div className="absolute inset-0 z-0">
-                                        <Image
-                                            src={item.image}
-                                            alt={item.title}
-                                            fill
-                                            className="object-cover object-center"
-                                        />
-                                    </div>
+                                    <div className="absolute inset-0 z-0 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${item.image})` }} />
                                     <AccordionTrigger
                                         isShowIcon={false}
                                         className="relative z-20 p-0 hover:no-underline data-[state=open]:no-underline"
