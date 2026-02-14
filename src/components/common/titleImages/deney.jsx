@@ -1,6 +1,5 @@
 'use client';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
-import Image from "next/image";
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import MotionScrollInView from "../motionScrollInView";
@@ -8,6 +7,7 @@ import { FaHandSparkles } from "react-icons/fa6";
 import { GiBeard } from "react-icons/gi";
 import { IoSparklesSharp } from "react-icons/io5";
 import { IoEyeSharp } from "react-icons/io5";
+import { IoClose } from "react-icons/io5";
 
 
 const titleItemsData = [
@@ -83,56 +83,75 @@ export default function DeneyTitleImage() {
 
     return (
         <MotionScrollInView
-            className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-y-5 rounded-4xl lg:mb-10 mt-0 lg:mt-10 overflow-hidden">
-            <Accordion type="single" collapsible className="w-full flex flex-row h-150 items-stretch gap-0" value={selectedItem} onValueChange={(value) => setSelectedItem(value)}>
+            className="w-full max-w-full xl:max-w-6xl mx-auto rounded-4xl lg:mb-10 mt-0 lg:mt-10 overflow-hidden">
+            <Accordion type="single" collapsible className="w-full flex flex-col md:flex-row h-auto md:h-150 md:min-h-150 items-stretch gap-0" value={selectedItem} onValueChange={(value) => setSelectedItem(value)}>
                 {titleItemsData.map((item, index) => {
                     const isOpen = selectedItem === item.value;
+                    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
                     return (
                         <motion.div
                             key={item.value}
-                            className="relative h-full"
+                            className="relative w-full md:w-auto md:h-full"
                             initial={false}
-                            animate={{ width: isOpen ? '70%' : '10%' }}
+                            animate={{
+                                width: isMobile ? '100%' : isOpen ? '70%' : '10%',
+                                height: isMobile ? (isOpen ? '50%' : '100px') : 'auto'
+                            }}
                             transition={{ duration: 0.4, ease: [0.4, 0, 0.2, 1] }}
                         >
                             <AccordionItem value={item.value} className="h-full border-none">
-                                <div className="relative h-full overflow-hidden">
+                                <div className="relative h-full min-h-15] md:min-h-0 overflow-hidden">
                                     <div className="absolute inset-0 bg-black/50 z-10" />
                                     <div className="absolute inset-0 z-0 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${item.image})` }} />
                                     <AccordionTrigger
                                         isShowIcon={false}
-                                        className="relative z-20 p-0 hover:no-underline data-[state=open]:no-underline"
+                                        className="relative z-20 p-0 hover:no-underline data-[state=open]:no-underline min-h-15 md:min-h-0"
                                     >
-                                        <div className="relative h-full w-full flex items-end justify-center pb-10 cursor-pointer group">
-                                            {!isOpen && (
+                                        <div className="relative h-full w-full flex items-center md:items-end justify-center md:pb-10 cursor-pointer group">
+                                            {!isOpen ? (
                                                 <motion.div
                                                     initial={{ opacity: 0 }}
                                                     animate={{ opacity: 1 }}
                                                     exit={{ opacity: 0 }}
                                                     transition={{ duration: 0.2 }}
-                                                    className="absolute inset-0 flex flex-col items-center justify-between py-6"
+                                                    className="absolute inset-0 flex flex-row md:flex-col items-center justify-center md:justify-between gap-4 md:gap-0 py-4 md:py-6"
                                                 >
                                                     <h2
                                                         className="text-ivory-soft text-lg font-medium tracking-wider whitespace-nowrap origin-center"
                                                         style={{
-                                                            writingMode: 'vertical-rl',
-                                                            textOrientation: 'mixed'
+                                                            writingMode: isMobile ? 'horizontal-tb' : 'vertical-rl',
+                                                            textOrientation: isMobile ? 'mixed' : 'mixed'
                                                         }}
                                                     >
                                                         {item.title}
                                                     </h2>
                                                     <item.icon className="text-ivory-soft text-2xl" />
                                                 </motion.div>
+                                            ) : (
+                                                isMobile && (
+                                                    <motion.div
+                                                        initial={{ opacity: 0 }}
+                                                        animate={{ opacity: 1 }}
+                                                        exit={{ opacity: 0 }}
+                                                        transition={{ duration: 0.2 }}
+                                                        className="absolute inset-0 flex flex-row items-center justify-between gap-3 py-4 px-6"
+                                                    >
+                                                        <h2 className="text-ivory-soft text-sm tracking-wider">
+                                                            Close
+                                                        </h2>
+                                                        <IoClose className="text-ivory-soft text-lg" />
+                                                    </motion.div>
+                                                )
                                             )}
                                         </div>
                                     </AccordionTrigger>
 
-                                    <AccordionContent className="absolute inset-0 z-20 pt-10 pb-10 px-8 overflow-y-auto"
+                                    <AccordionContent className="relative md:absolute inset-0 z-20 pt-6 md:pt-10 pb-6 md:pb-10 px-6 md:px-8 overflow-y-auto max-h-125 md:max-h-full"
                                         onWheel={(e) => e.stopPropagation()}
                                     >
                                         <motion.div
-                                            initial={{ opacity: 0, x: -20 }}
-                                            animate={{ opacity: 1, x: 0 }}
+                                            initial={{ opacity: 0, x: isMobile ? 0 : -20, y: isMobile ? -20 : 0 }}
+                                            animate={{ opacity: 1, x: 0, y: 0 }}
                                             transition={{ delay: 0.2, duration: 0.3 }}
                                         >
                                             <h2 className="text-2xl lg:text-3xl text-ivory-soft font-semibold mb-6">
