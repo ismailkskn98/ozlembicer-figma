@@ -85,7 +85,7 @@ export default function TitleImages() {
                                             <span>{item.title}</span>
                                             <IoIosArrowDown className="text-ivory-soft sm:hidden" />
                                         </div>
-                                        <div className="col-span-1 sm:col-span-2 relative z-20 w-full max-w-170 h-20 sm:h-32.5 flex items-center">
+                                        <div className="col-span-1 sm:col-span-2 relative z-20 w-full h-20 sm:h-32.5 flex items-center">
                                             <Image
                                                 src={item.image}
                                                 alt={item.title}
