@@ -11,11 +11,12 @@ import MobilNavbar from './mobilNavbar'
 export default function Header() {
     return (
         <main className='fixed inset-x-0 top-0 z-50 w-full gridContainer'>
-            <header className='w-full fluid gridContainer bg-linear-to-r from-coffee-dark via-wine-brown via-22% from-10% to-45% to-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 py-2.5 border-b border-gold'>
+            <header className='w-full fluid gridContainer bg-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 border-b border-gold overflow-hidden'>
                 <MotionScrollInViewOpacity className="w-full flex items-center">
-                    <section className='w-full max-w-full lg:max-w-6xl mx-auto flex items-center justify-between'>
-                        <Link href={"/"} className='h-fit w-fit'>
-                            <Image src="/images/logo.jpg" alt='ozlembicer logo' width={150} height={100} className='object-contain object-center w-fit h-10 lg:h-11 xl:h-15' />
+                    <section className='w-full h-full max-w-full lg:max-w-6xl mx-auto flex items-center justify-between'>
+                        <Link href={"/"} className='relative h-full w-fit flex items-center justify-center'>
+                            <div className='absolute left-1/2 top-1/2 -translate-1/2 w-[200%] h-full bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark' />
+                            <Image src="/images/logo.jpg" alt='ozlembicer logo' width={150} height={100} className='relative z-20 object-contain object-center w-fit h-10 lg:h-11 xl:h-15' />
                         </Link>
                         <main className='hidden md:flex items-center'>
                             <Navbar />
