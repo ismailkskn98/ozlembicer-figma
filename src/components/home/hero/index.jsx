@@ -82,12 +82,10 @@ export default function Hero() {
                         <SwiperSlide key={index} className='w-full'>
                             {({ isActive }) => (
                                 <div className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 md:gap-15`}>
-                                    <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft min-w-fit md:min-w-[410px]'>
-                                        {/* Title box (fixed height) */}
+                                    <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft min-w-fit md:min-w-102.5'>
                                         <div
-                                            className={`w-full flex items-end justify-start h-auto sm:h-[150px] lg:h-[220px] xl:h-[240px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
+                                            className={`w-full flex items-end justify-start h-auto sm:h-37.5 lg:h-55 xl:h-60 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                                         >
-                                            {/* Desktop */}
                                             <h2 className='hidden lg:flex flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15'>
                                                 {item.title.map((line, lineIndex) => (
                                                     <span key={lineIndex} className="block text-nowrap">
@@ -95,7 +93,6 @@ export default function Hero() {
                                                     </span>
                                                 ))}
                                             </h2>
-                                            {/* Mobile */}
                                             <h2 className='flex lg:hidden flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15'>
                                                 {item.mobileTitle.map((line, lineIndex) => (
                                                     <span key={lineIndex} className="block text-nowrap">
@@ -105,17 +102,15 @@ export default function Hero() {
                                             </h2>
                                         </div>
 
-                                        {/* Paragraph box (fixed height) */}
                                         <div
-                                            className={`w-full flex items-start justify-start h-auto sm:h-[150px] lg:h-[170px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
+                                            className={`w-full flex items-start justify-start h-auto sm:h-37.5 lg:h-42.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                                         >
                                             <p className='line-clamp-6 text-start text-sm sm:text-base w-full max-w-full sm:max-w-150 lg:max-w-100 xl:max-w-87.5'>
                                                 {item.description}
                                             </p>
                                         </div>
 
-                                        {/* Buttons box (fixed height) */}
-                                        <div className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-auto sm:h-[44px] transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
+                                        <div className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-auto sm:h-11 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
                                             {item.links.map((link, linkIndex) => (
                                                 <Link
                                                     key={linkIndex}
