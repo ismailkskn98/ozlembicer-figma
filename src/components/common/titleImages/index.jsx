@@ -2,7 +2,7 @@
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import Image from "next/image";
 import MotionScrollInViewVariant from "@/components/common/motionScrollInViewVariant";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -60,34 +60,15 @@ const titleItemsData = [
 
 export default function TitleImages() {
     const [selectedItem, setSelectedItem] = useState(null);
-    const [accordionValue, setAccordionValue] = useState(null);
-
-    const handleValueChange = (value) => {
-        if (value) {
-            setSelectedItem(value);
-            setAccordionValue(value);
-            setTimeout(() => {
-            }, 300);
-        } else {
-            setAccordionValue(null);
-            setSelectedItem(null);
-            setTimeout(() => {
-            }, 300);
-        }
-    };
-
-    const displayItems = selectedItem
-        ? titleItemsData.filter(item => item.value === selectedItem)
-        : titleItemsData;
 
     return (
         <MotionScrollInViewVariant
             className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-y-5 bg-linear-to-r from-wine-brown to-coffee-dark rounded-4xl px-3 lg:px-10 py-3 lg:py-10 lg:mb-10 mt-0 lg:mt-10 overflow-hidden"
             childClassname="w-full flex items-center justify-between gap-2.5"
         >
-            <Accordion type="single" collapsible className="w-full" value={accordionValue} onValueChange={handleValueChange}>
+            <Accordion type="single" collapsible className="w-full" value={selectedItem} onValueChange={(value) => setSelectedItem(value)}>
                 <AnimatePresence initial={false}>
-                    {displayItems.map((item) => (
+                    {titleItemsData.map((item) => (
                         <motion.div
                             key={item.value}
                             layoutId={item.value}
@@ -104,34 +85,36 @@ export default function TitleImages() {
                                             <span>{item.title}</span>
                                             <IoIosArrowDown className="text-ivory-soft sm:hidden" />
                                         </div>
-                                        <div className="col-span-1 sm:col-span-2 relative z-20 w-full max-w-170 h-20 sm:h-32.5">
+                                        <div className="col-span-1 sm:col-span-2 relative z-20 w-full max-w-170 h-20 sm:h-32.5 flex items-center">
                                             <Image
                                                 src={item.image}
                                                 alt={item.title}
                                                 fill
-                                                className="object-cover object-center w-full h-full"
+                                                className="object-cover object-center w-full max-h-[90%] my-auto rounded-sm"
                                             />
                                         </div>
                                     </div>
                                 </AccordionTrigger>
-                                <AccordionContent>
-                                    <h3 className="text-[18px] text-ivory-soft mb-3">{item.content.title}</h3>
-                                    {item.content.items.map((contentItem, idx) => (
-                                        <div key={idx}>
-                                            {contentItem.type === 'paragraph' && (
-                                                <p className="text-ivory-soft/80 text-[14px] mb-3">
-                                                    {contentItem.text}
-                                                </p>
-                                            )}
-                                            {contentItem.type === 'list' && (
-                                                <ul className="text-ivory-soft/80 text-[14px] mb-3 list-disc list-inside">
-                                                    {contentItem.items.map((listItem, listIdx) => (
-                                                        <li key={listIdx}>{listItem}</li>
-                                                    ))}
-                                                </ul>
-                                            )}
-                                        </div>
-                                    ))}
+                                <AccordionContent className="">
+                                    <main className="w-full py-3 px-0">
+                                        <h3 className="text-[18px] text-ivory-soft mb-3">{item.content.title}</h3>
+                                        {item.content.items.map((contentItem, idx) => (
+                                            <div key={idx}>
+                                                {contentItem.type === 'paragraph' && (
+                                                    <p className="text-ivory-soft/80 text-sm mb-3">
+                                                        {contentItem.text}
+                                                    </p>
+                                                )}
+                                                {contentItem.type === 'list' && (
+                                                    <ul className="text-ivory-soft/80 text-sm mb-3 list-disc list-inside">
+                                                        {contentItem.items.map((listItem, listIdx) => (
+                                                            <li key={listIdx}>{listItem}</li>
+                                                        ))}
+                                                    </ul>
+                                                )}
+                                            </div>
+                                        ))}
+                                    </main>
                                 </AccordionContent>
                             </AccordionItem>
                         </motion.div>
