@@ -27,11 +27,12 @@ function AccordionItem({
 function AccordionTrigger({
   className,
   isShowIcon = true,
+  isOpen,
   children,
   ...props
 }) {
   return (
-    <AccordionPrimitive.Header className="flex h-full">
+    <AccordionPrimitive.Header className={`flex ${!isOpen && 'h-full'}`}>
       <AccordionPrimitive.Trigger
         data-slot="accordion-trigger"
         className={cn(
