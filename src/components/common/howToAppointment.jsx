@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import MotionScrollInView from './motionScrollInView'
 import MotionScrollInViewVariant from './motionScrollInViewVariant'
-import { BsTelephone } from "react-icons/bs";
+import { Phone } from 'lucide-react';
 
 const appointmentSteps = [
     {
@@ -12,7 +12,7 @@ const appointmentSteps = [
         hoverTitle: 'Fill Application',
         hoverTitleBr: 'Form',
         image: null,
-        icon: BsTelephone,
+        icon: Phone,
         alt: 'whatsapp',
         imageWidth: 'w-14 sm:w-16 lg:w-69.25',
         description: 'Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients\' dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology.'
@@ -55,7 +55,7 @@ export default function HowToAppointment() {
                                 {step.image ? (
                                     <Image src={step.image} alt={step.alt} width={300} height={200} className={`lg:hidden object-contain object-center ${step.imageWidth} h-full`} />
                                 ) : (
-                                    <step.icon className='lg:hidden w-15 sm:w-16 lg:w-69.25 h-auto text-ivory-soft' />
+                                    <step.icon className='lg:hidden w-15 sm:w-16 lg:w-69.25 h-auto text-ivory-soft' strokeWidth={0.75} absoluteStrokeWidth />
                                 )}
                                 <span className='text-[70px] sm:text-[80px] 2xl:text-[96px]'>{step.id}</span>
                                 <div className='relative w-full'>
@@ -67,7 +67,7 @@ export default function HowToAppointment() {
                                 {step.image ? (
                                     <Image src={step.image} alt={step.alt} width={300} height={200} className={`opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 object-contain object-center ${step.imageWidth} h-full`} />
                                 ) : (
-                                    <step.icon className='opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 w-14 sm:w-16 lg:w-38.25 h-auto text-ivory-soft' />
+                                    <step.icon className='opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 w-14 sm:w-16 lg:w-38.25 h-auto text-ivory-soft' strokeWidth={0.75} absoluteStrokeWidth />
                                 )}
                                 <p className='w-xs lg:w-xs px-2 sm:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200'>{step.description}</p>
                             </div>
