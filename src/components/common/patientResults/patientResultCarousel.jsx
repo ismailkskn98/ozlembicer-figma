@@ -1,14 +1,43 @@
 'use client';
-import React from 'react'
-import { Navigation, Autoplay } from 'swiper/modules';
+import React, { useId, useState } from 'react'
+import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io';
+import Image from 'next/image';
+import { Navigation, Autoplay, Grid } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io';
-import Image from 'next/image';
+import 'swiper/css/grid';
 
-const carouselItems = [
+const localCarouselItems = [
+    {
+        beforeImage: '/images/patient-results/before.png',
+        afterImage: '/images/patient-results/after.png',
+        technique: 'FUE (Micro Motor)',
+        grafts: '3.200',
+        afterMonths: '12 Months'
+    },
+    {
+        beforeImage: '/images/patient-results/before.png',
+        afterImage: '/images/patient-results/after.png',
+        technique: 'FUE (Micro Motor)',
+        grafts: '3.200',
+        afterMonths: '12 Months'
+    },
+    {
+        beforeImage: '/images/patient-results/before.png',
+        afterImage: '/images/patient-results/after.png',
+        technique: 'FUE (Micro Motor)',
+        grafts: '3.200',
+        afterMonths: '12 Months'
+    },
+    {
+        beforeImage: '/images/patient-results/before.png',
+        afterImage: '/images/patient-results/after.png',
+        technique: 'FUE (Micro Motor)',
+        grafts: '3.200',
+        afterMonths: '12 Months'
+    },
     {
         beforeImage: '/images/patient-results/before.png',
         afterImage: '/images/patient-results/after.png',
@@ -53,49 +82,45 @@ const carouselItems = [
     },
 ]
 
-export default function PatientResultCarousel() {
+export default function PatientResultCarousel({ carouselItems = [], showNavigation = true, delay = 4000, rows = 1, slidesPerView = 3, blur = true }) {
+    const id = useId();
+    const prevId = `patient-prev-${id}`;
+    const nextId = `patient-next-${id}`;
+    const defaultCarouselItems = carouselItems.length > 0 ? carouselItems : localCarouselItems;
+
     return (
         <div className='w-full xl:max-w-262 mx-auto flex flex-col items-center justify-center gap-y-6 sm:gap-y-7'>
             <Swiper
-                modules={[Navigation, Autoplay]}
-                slidesPerView={3}
+                modules={[Navigation, Autoplay, Grid]}
+                grid={rows > 1 ? { rows, fill: 'row' } : undefined}
+                slidesPerView={slidesPerView}
+                slidesPerGroup={1}
                 breakpoints={{
-                    1280: {
-                        slidesPerView: 3,
-                        spaceBetween: 50
-                    },
-                    900: {
-                        slidesPerView: 3,
-                        spaceBetween: 30
-                    },
-                    740: {
-                        slidesPerView: 2.5,
-                        spaceBetween: 20
-                    },
-                    500: {
-                        slidesPerView: 2,
-                        spaceBetween: 20
-                    },
-                    100: {
-                        slidesPerView: 1.15,
-                        spaceBetween: 10
-                    },
+                    1280: { slidesPerView: 3, spaceBetween: 50 },
+                    900: { slidesPerView: 3, spaceBetween: 30 },
+                    740: { slidesPerView: 2.5, spaceBetween: 20 },
+                    500: { slidesPerView: 2, spaceBetween: 20 },
+                    100: { slidesPerView: 1.15, spaceBetween: 10 },
                 }}
-                centeredSlides={true}
-                centeredSlidesBounds={true}
-                navigation={{ prevEl: '#patient-prev', nextEl: '#patient-next' }}
-                loop={true}
+                centeredSlides={rows === 1}
+                centeredSlidesBounds={rows === 1}
+                navigation={showNavigation ? { prevEl: `#${prevId}`, nextEl: `#${nextId}` } : false}
+                loop={rows === 1}
+                rewind={rows > 1}
                 autoplay={{
-                    delay: 4000,
+                    delay: delay,
                     disableOnInteraction: false,
+                    pauseOnMouseEnter: true,
                 }}
-                className='w-full'
+                observer={true}
+                observeParents={true}
+                className='w-full relative'
             >
-                {carouselItems.map((item, index) => (
-                    <SwiperSlide className='py-3' key={index}>
+                {defaultCarouselItems.map((item, index) => (
+                    <SwiperSlide className='py-3 px-2' key={index}>
                         {({ isActive }) => (
                             <section className='bg-linear-to-b from-stone-beige to-ivory-soft p-2.5 rounded-[10px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]'>
-                                <div className={`w-full flex flex-col items-center justify-center gap-2.5 rounded-[10px] ${!isActive && 'blur-[2px]'}`}>
+                                <div className={`w-full flex flex-col items-center justify-center gap-2.5 rounded-[10px] ${blur && !isActive ? 'blur-[2px]' : ''}`}>
                                     <div className='w-full flex items-center gap-1.25'>
                                         <div className='relative w-full h-70 rounded-[5px] overflow-hidden'>
                                             <Image src={item.beforeImage} alt={`Patient before ${index + 1}`} fill className='w-full h-full object-cover object-center rounded-[5px]' />
@@ -129,14 +154,16 @@ export default function PatientResultCarousel() {
                     </SwiperSlide>
                 ))}
             </Swiper>
-            <article className='flex items-center justify-center gap-6'>
-                <div id="patient-prev">
-                    <IoIosArrowDropleft className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/40 p-1.5 transition duration-200 rounded-full" />
-                </div>
-                <div id="patient-next">
-                    <IoIosArrowDropright className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/40 p-1.5 transition duration-200 rounded-full" />
-                </div>
-            </article>
+            {showNavigation && (
+                <article className='flex items-center justify-center gap-6'>
+                    <div id={prevId}>
+                        <IoIosArrowDropleft className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/40 p-1.5 transition duration-200 rounded-full" />
+                    </div>
+                    <div id={nextId}>
+                        <IoIosArrowDropright className="w-10 h-10 text-coffee-dark cursor-pointer hover:bg-gold/40 p-1.5 transition duration-200 rounded-full" />
+                    </div>
+                </article>
+            )}
         </div>
     )
 }

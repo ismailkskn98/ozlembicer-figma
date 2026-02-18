@@ -16,7 +16,7 @@ export default function HomeMain({ videos }) {
             <div className='fluid gridContainer bg-linear-to-b from-stone-beige via-ivory-soft via-80% to-stone-beige'>
                 <VideosTutorials videos={videos} />
                 <DeneyTitleImage />
-                <PatientResults />
+                <PatientResults title="Patient Results" />
                 <AestheticAndArt />
                 {/* <SpeaksLanguage /> */}
                 <TemporarySpeaksLanguage />

@@ -69,7 +69,7 @@ export default function HowToAppointment() {
                                 ) : (
                                     <step.icon className='opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 w-14 sm:w-16 lg:w-38.25 h-auto text-ivory-soft' strokeWidth={0.75} absoluteStrokeWidth />
                                 )}
-                                <p className='w-xs lg:w-xs px-2 sm:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200'>{step.description}</p>
+                                <p className='w-full sm:w-xs lg:w-xs px-2 sm:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200'>{step.description}</p>
                             </div>
                         </article>
                     ))}

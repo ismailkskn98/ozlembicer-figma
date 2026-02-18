@@ -45,7 +45,7 @@ export default function MaleHairLossMain({ children }) {
                 <NorwoodScale />
                 {children}
                 <TitleImages />
-                <PatientResults />
+                <PatientResults title="Patient Results" />
                 <div className='-mt-10 lg:mt-0'>
                     <HowToAppointment />
                 </div>

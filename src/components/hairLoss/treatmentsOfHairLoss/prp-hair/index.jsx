@@ -24,7 +24,7 @@ export default function PrpHairTreatmentMain({ children }) {
                 <PrpHairDoesItWork />
                 {children}
                 <TitleImages />
-                <PatientResults />
+                <PatientResults title="Patient Results" />
                 <div className='-mt-10 lg:mt-0'>
                     <HowToAppointment />
                 </div>
