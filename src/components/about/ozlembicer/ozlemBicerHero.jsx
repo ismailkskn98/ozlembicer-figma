@@ -17,7 +17,7 @@ export default function OzlemBicerHero() {
                     </article>
                 </MotionLeftView>
                 <MotionRightView className="w-full max-w-140.5">
-                    <Image src="/images/about/ozlem-hero.png" alt="Dr. Özlem Bicer" width={580} height={780} className='object-contain object-center w-full max-w-fit lg:max-w-135 2xl:max-w-140.5 h-fit max-h-100 sm:max-h-130 md:max-h-150 lg:max-h-fit rounded-4xl' />
+                    <Image src="/images/about/ozlem-hero.png" alt="Dr. Özlem Bicer" width={580} height={780} className='object-contain object-center w-full max-w-fit lg:max-w-135 2xl:max-w-140.5 h-fit max-h-100 sm:max-h-130 md:max-h-150 lg:max-h-fit' />
                 </MotionRightView>
             </section>
         </main>

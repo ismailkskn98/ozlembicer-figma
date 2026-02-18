@@ -1,12 +1,10 @@
 import React from 'react'
-import SpeaksLanguage from './speaksLanguage'
 import CustomBreadCrumb from '@/components/common/customBreadCrumb'
 import ClinicTeamHero from './clinicTeamHero'
 import Clinic from './clinic'
 import PatientResults from '@/components/common/patientResults'
 import HowToAppointment from '@/components/common/howToAppointment'
 import HeroLogoCarousel from '@/components/common/logoCarousel'
-import TemporarySpeaksLanguage from './temporarySpeaksLanguage'
 
 
 const linksItems = [
@@ -23,8 +21,6 @@ export default function ClinicAndTeamMain() {
                 <ClinicTeamHero />
                 <HeroLogoCarousel />
                 <Clinic />
-                {/* <SpeaksLanguage /> */}
-                <TemporarySpeaksLanguage />
                 <PatientResults />
                 <div className='-mt-10 lg:mt-0'>
                     <HowToAppointment />

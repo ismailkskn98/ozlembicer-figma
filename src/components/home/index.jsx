@@ -6,6 +6,7 @@ import PatientResults from '../common/patientResults'
 import AestheticAndArt from './aestheticAndArt'
 import HowToAppointment from '../common/howToAppointment'
 import DeneyTitleImage from '../common/titleImages/deney'
+import TemporarySpeaksLanguage from '../about/clinicAndTeam/temporarySpeaksLanguage'
 
 export default function HomeMain({ videos }) {
     return (
@@ -17,6 +18,8 @@ export default function HomeMain({ videos }) {
                 <DeneyTitleImage />
                 <PatientResults />
                 <AestheticAndArt />
+                {/* <SpeaksLanguage /> */}
+                <TemporarySpeaksLanguage />
                 <HowToAppointment />
             </div>
         </main>

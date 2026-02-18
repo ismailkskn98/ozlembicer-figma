@@ -72,7 +72,7 @@ export default function TemporarySpeaksLanguage() {
 
     return (
         <>
-            <section className='fluid gridContainer w-full pb-2 sm:pb-10 pt-10'>
+            <section className='fluid gridContainer w-full pb-2 pt-10'>
                 <main className='relative w-full max-w-full xl:max-w-6xl mx-auto bg-linear-to-br from-coffee-dark via-wine-brown to-coffee-dark py-12 sm:py-16 px-6 sm:px-12 rounded-4xl shadow-xl'>
                     <div className='absolute z-0 inset-0 w-full h-full rounded-4xl bg-[url("/images/world.svg")] bg-center bg-cover bg-fixed bg-no-repeat opacity-20' />
                     <MotionScrollInView className='relative z-20 text-center mb-8'>
