@@ -11,6 +11,7 @@ import HowDoesItWork from './common/howDoesItWork';
 import DomLoaded from '../../common/domLoaded';
 import HowToAppointment from '../../common/howToAppointment';
 import HowDoesItWorkLong from './longHair/howDoesItWorkLong';
+import HowDoesItWorkFut from './futHair/howDoesItWorkFut';
 
 const linksItems = [
     { label: 'FUE (Micro Motor)', href: '/hair-transplant#fue-micro-motor' },
@@ -318,18 +319,31 @@ export default function HairTransplantMain() {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
-                        title={["Hair Transplantation", "Using FUT"]}
+                        title={["Stages of FUT", "Hair Transplantation"]}
                         content={[
-                            { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
-                            { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
-                            { type: "paragraph", value: "The extraction can be performed:" },
-                            { type: "list", value: ["Manually", "With a micromotor"] },
-                            { type: "paragraph", value: "Depending on the patient’s hair structure, scalp condition, and treatment plan." },
-                            { type: "paragraph", value: "Micromotor-assisted FUE may allow a higher number of grafts to be harvested per hour, while manual FUE may be preferred in certain cases for enhanced control and precision." },
-                            { type: "paragraph", value: "In both techniques, punches with a diameter of approximately 0.5–0.9 mm are used. FUE does not create linear scars; instead, tiny dot-like marks may appear in the donor area and typically heal quickly." },
+                            { type: "heading", value: "1. Initial Contact & Consultation" },
+                            { type: "paragraph", value: "The process begins by contacting the clinic. One of our experienced consultants and interpreters will guide you through every step in your native language. You will be asked to complete a consultation form and submit photographs and videos, which are reviewed by Dr. Biçer. Based on this evaluation, you will receive preliminary information, including an estimated graft number. If necessary, Dr. Biçer may request an online consultation for further assessment. Following this, a personalized treatment plan and offer will be prepared and sent to you." },
+                            { type: "paragraph", value: "Once you decide to proceed with surgery, your consultant will help you select suitable dates. After the advance payment is completed, your surgery will be officially scheduled." },
+                            { type: "heading", value: "2. Preoperative Day (One Day Before Surgery)" },
+                            { type: "paragraph", value: "We strongly recommend arriving at the clinic one day before the surgery. On this day, professional photographs are taken and medical evaluations are performed, including blood tests, electrocardiography (ECG), and trichoscopic examination. You will then have a face-to-face consultation with Dr. Biçer." },
+                            { type: "paragraph", value: "This step is extremely important, as your expectations, donor capacity, scalp laxity, and final graft number are clearly determined, and the surgical plan is finalized." },
+                            { type: "heading", value: "3. Surgery Day" },
+                            { type: "paragraph", value: "On the day of surgery, you should arrive at the clinic at 08:00 AM. Dr. Biçer will once again review all details with you and carefully design and draw your hairline. Hairline design is a critical step for achieving a natural appearance and long-term aesthetic success." },
+                            { type: "paragraph", value: "According to the FUT technique, the hair is not shaved. Your hair will be washed with a disinfectant shampoo, and the hairline area will be prepared once more. You will be fully informed about each stage of the procedure." },
+                            { type: "heading", value: "4. Donor Strip (Flap) Extraction" },
+                            { type: "paragraph", value: "Dr. Biçer measures donor area elasticity and scalp laxity, then marks the strip excision line. Needle-free local anesthesia is administered, and you remain awake and continuously monitored for safety." },
+                            { type: "paragraph", value: "After anesthesia, Dr. Biçer performs the strip (flap) excision. Typically, 1,500–2,500 grafts are obtained from a single strip. The donor area is then closed using an aesthetic trichophytic suture. Meanwhile, the medical team carefully dissects the grafts into single, double, or multiple follicular units under a microscope." },
+                            { type: "heading", value: "5. Recipient Area Incisions" },
+                            { type: "paragraph", value: "In the third stage, Dr. Biçer creates the recipient incisions, determining the correct angle, direction, and density of the transplanted hair to ensure a natural result." },
+                            { type: "heading", value: "6. Graft Placement" },
+                            { type: "paragraph", value: "In the final stage, a specialized nursing team places the grafts into the recipient area. During this phase, Dr. Biçer remains present in the clinic, supervising the procedure." },
+                            { type: "heading", value: "7. Postoperative Follow-Up" },
+                            { type: "paragraph", value: "The day after surgery, you will return to the clinic for bandage removal and postoperative evaluation. New photographs are taken after Dr. Biçer confirms that healing is progressing normally." },
+                            { type: "paragraph", value: "The aesthetic sutures placed in the donor area should be removed 15 days after surgery by a physician. If you are still in the country, this can be done at our clinic; otherwise, it can safely be removed in your home country." },
+                            { type: "paragraph", value: "Our care does not end after the procedure. Dr. Biçer and her medical team continue to follow your progress for at least one year, providing ongoing support and guidance throughout your recovery and hair growth journey." },
                         ]}
                     >
-                        <FueDoesItWorkFAQs />
+                        <HowDoesItWorkFut />
                     </HowDoesItWork>
                 </SectionWrapper>
                 <div className='-mt-16 sm:-mt-10'>
