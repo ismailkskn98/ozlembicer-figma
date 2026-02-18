@@ -19,6 +19,8 @@ export default function MaleHairLossHero() {
                             <li>Mesotherapy</li>
                             <li>Medications such as topical minoxidil or oral finasteride</li>
                             <li>Nutritional and hormonal support</li>
+                            <li>Stamp Cell Therapies</li>
+                            <li>Exosome</li>
                         </ul>
                         <p className='text-sm sm:text-base'>However, it is important to understand that:</p>
                         <p className='text-sm sm:text-base'>Hair transplantation does not stop or cure hair loss. It is a reconstructive procedure performed only when hair loss has stabilized.</p>

@@ -8,6 +8,7 @@ import SectionWrapper from '../../../transplantation/hairTransplant/common/secti
 import HowDoesItWork from '../../../transplantation/hairTransplant/common/howDoesItWork'
 import MaleHairDoesItWork from './maleHairDoesItWork'
 import HowToAppointment from '../../../common/howToAppointment'
+import NorwoodScale from './norwoodScale'
 
 const linksItems = [
     { label: 'Male Hair Loss', href: '#' },
@@ -30,7 +31,6 @@ export default function MaleHairLossMain({ children }) {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 4" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
-                            { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
                         title={["How Much", "Hair Loss Is Normal?"]}
                         content={[
@@ -42,6 +42,7 @@ export default function MaleHairLossMain({ children }) {
                         <MaleHairDoesItWork />
                     </HowDoesItWork>
                 </SectionWrapper>
+                <NorwoodScale />
                 {children}
                 <TitleImages />
                 <PatientResults />
