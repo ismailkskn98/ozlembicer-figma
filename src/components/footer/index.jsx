@@ -12,10 +12,10 @@ export default function Footer() {
             <section className='relative fluid gridContainer w-full bg-coffee-dark py-5.25 border-y border-gold min-h-75'>
                 <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
                 <div className='w-full fluid absolute inset-x-0 top-0 h-px bg-gold z-0' />
-                <main className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col md:flex-row items-center lg:items-start justify-start md:justify-between my-auto'>
+                <main className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col md:flex-row items-center lg:items-start justify-start md:justify-between my-auto gap-5 md:gap-0'>
                     <article className='w-full max-w-sm flex flex-col items-center md:items-start'>
-                        <Image src='/images/logo.jpg' alt='Dr.Bicer Logo' width={250} height={70} className='object-contain object-center w-fit h-9 lg:h-10 xl:h-14' />
-                        <div className='w-full flex flex-col items-center md:items-start gap-8 mt-5'>
+                        <Image src='/images/logo.jpg' alt='Dr.Bicer Logo' width={250} height={70} className='object-contain object-center w-fit h-10 lg:h-11 xl:h-15' />
+                        <div className='w-full flex flex-col items-center md:items-start gap-4 md:gap-8 mt-5'>
                             <div className='w-full max-w-xs md:max-w-sm grid grid-cols-1 gap-y-0 text-ivory-soft text-sm -space-y-1'>
                                 <div className='w-full flex items-center justify-center md:justify-between'>
                                     <div className='flex-1 w-full text-start text-nowrap'>Adress:</div>
@@ -31,10 +31,10 @@ export default function Footer() {
                                 </div>
                             </div>
                             <div className='flex items-center gap-5'>
-                                <Link href="#" className='text-white text-[38px] hover:text-gold transition-colors'><FaInstagram /></Link>
-                                <Link href="#" className='text-white text-[38px] hover:text-gold transition-colors'><FaFacebookSquare /></Link>
-                                <Link href="#" className='text-white text-[38px] hover:text-gold transition-colors'><FaLinkedin /></Link>
-                                <Link href="#" className='text-white text-[38px] hover:text-gold transition-colors'><FaYoutube /></Link>
+                                <Link href="#" className='text-white text-3xl lg:text-[38px] hover:text-gold transition-colors'><FaInstagram /></Link>
+                                <Link href="#" className='text-white text-3xl lg:text-[38px] hover:text-gold transition-colors'><FaFacebookSquare /></Link>
+                                <Link href="#" className='text-white text-3xl lg:text-[38px] hover:text-gold transition-colors'><FaLinkedin /></Link>
+                                <Link href="#" className='text-white text-3xl lg:text-[38px] hover:text-gold transition-colors'><FaYoutube /></Link>
                             </div>
                         </div>
                     </article>
