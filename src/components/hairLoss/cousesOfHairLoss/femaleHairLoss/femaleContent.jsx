@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function FemaleContent() {
   return (
-    <main className='fluid gridContainer w-full pb-10 pt-25'>
+    <main className='fluid gridContainer w-full pb-10 pt-10 lg:pt-25'>
       <section className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-16'>
         <main className='w-full flex flex-col lg:flex-row items-stretch gap-6'>
           <section className='flex-1 w-full flex flex-col items-start text-[#3D1D1D] text-[14px] gap-3'>

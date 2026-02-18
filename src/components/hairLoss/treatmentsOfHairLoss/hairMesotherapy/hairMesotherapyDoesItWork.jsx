@@ -5,7 +5,7 @@ export default function HairMesotherapyDoesItWork() {
     return (
         <main className='grid grid-cols-1 sm:grid-cols-2 w-full place-content-stretch place-items-stretch text-coffee-dark'>
 
-            <article className='border-b border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-6 pt-3 pb-5 sm:pr-4'>
+            <article className='border-b sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-6 pt-3 pb-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Will The", "Result Last?"].map((text, index) => (
                         <span key={index}>{text}</span>

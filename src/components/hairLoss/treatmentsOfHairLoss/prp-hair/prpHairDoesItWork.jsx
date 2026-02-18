@@ -32,7 +32,7 @@ export default function PrpHairDoesItWork() {
             <Image src="/images/hair-loss/hair-prp-section.png" alt="FUE Hair Transplant" width={700} height={900} className='object-cover h-full w-full max-h-90 sm:max-h-150 lg:max-h-full rounded-4xl' />
 
             <section className='col-span-1 lg:col-span-2 w-full flex flex-col sm:flex-row items-start gap-6 h-full'>
-                <article className='w-full flex flex-col items-start gap-4 lg:gap-9 border-r-0 sm:border-r border-coffee-dark/15 pr-0 sm:pr-4'>
+                <article className='w-full flex flex-col items-start gap-4 lg:gap-9 border-b sm:border-b-0 border-r-0 sm:border-r border-coffee-dark/15 pr-0 pb-5 sm:pr-4'>
                     <h3 className='text-base lg:text-[20px] font-bold flex flex-col items-start'>
                         {title1.map((text, index) => (
                             <span key={index}>{text}</span>
@@ -50,7 +50,7 @@ export default function PrpHairDoesItWork() {
                         })}
                     </div>
                 </article>
-                <article className='w-full flex flex-col items-start gap-4 lg:gap-9'>
+                <article className='w-full flex flex-col items-start gap-4 lg:gap-9 pb-5'>
                     <h3 className='text-base lg:text-[20px] font-bold flex flex-col items-start'>
                         {title2.map((text, index) => (
                             <span key={index}>{text}</span>

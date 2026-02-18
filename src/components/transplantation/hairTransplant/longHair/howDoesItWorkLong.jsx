@@ -48,7 +48,7 @@ export default function HowDoesItWorkLong() {
                 </div>
                 <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
-            <article className='border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
+            <article className='sm:border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Why Choose", "Long Hair Transplantation?"].map((text, index) => (
                         <span key={index}>{text}</span>

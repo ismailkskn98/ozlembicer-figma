@@ -72,7 +72,7 @@ export default function FueDoesItWorkFAQs() {
                 <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
 
-            <article className='border-r-0 sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 lg:pr-4'>
+            <article className='border-b sm:border-b-0 border-r-0 sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 lg:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
                     {["Is FUE Hair Transplant", "Painful?"].map((text, index) => (
                         <span key={index}>{text}</span>
