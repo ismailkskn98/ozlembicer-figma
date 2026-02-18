@@ -25,7 +25,7 @@ export default function FueDoesItWorkFAQs() {
                 <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
                     <p>FUE involves creating tiny incisions in both the donor and recipient areas.</p>
                     <ul className='list-disc list-outside pl-5'>
-                        <li>Scars are usually not noticeable to the untrained eye</li>
+                        <li>Scars are usually not noticeable if the patient use donor hairs less than 2cm length.</li>
                         <li>Donor-area marks are typically hidden by surrounding hair</li>
                         <li>If the hair is shaved very short, small dot scars may become visible, which is a known and normal characteristic of the FUE technique</li>
                     </ul>
@@ -90,7 +90,7 @@ export default function FueDoesItWorkFAQs() {
                     <ul className='list-disc list-outside pl-5'>
                         <li>Watch TV</li>
                         <li>Listen to music</li>
-                        <li>Relax during the procedure</li>
+                        <li>Relax comfortably</li>
                     </ul>
                     <p>After the operation, mild pain, tightness, or sensitivity may occur. These symptoms are usually temporary and can be easily managed with standard painkillers for a few days.</p>
                 </div>
