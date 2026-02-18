@@ -1,5 +1,15 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "title": "Hallo Welt!"
+  },
+  "LanguageModal": {
+    "title": "Sprache wechseln",
+    "description": "Möchten Sie zu {language} wechseln?",
+    "confirm": "Ja, wechseln",
+    "cancel": "Abbrechen"
+  },
+  "SpeaksLanguage": {
+    "heading": "Mehrsprachiger Support",
+    "subheading": "Kontaktieren Sie direkt jemanden, der Ihre Sprache spricht"
   }
 }

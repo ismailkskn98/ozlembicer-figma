@@ -3,10 +3,27 @@ import MotionScrollInView from '@/components/common/motionScrollInView'
 import MotionScrollInViewVariant from '@/components/common/motionScrollInViewVariant'
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import Image from 'next/image'
-import React, { useState, useTransition } from 'react'
+import React, { useState } from 'react'
 import { useLocale, useTranslations } from 'next-intl'
-import { usePathname, useRouter } from '@/i18n/navigation';
-import { useSearchParams } from 'next/navigation';
+
+const comingSoonMessages = {
+    en: {
+        title: "Coming Soon",
+        message: "This section is under construction. Thank you for your understanding."
+    },
+    de: {
+        title: "Demnächst verfügbar",
+        message: "Dieser Bereich befindet sich im Aufbau. Vielen Dank für Ihr Verständnis."
+    },
+    fr: {
+        title: "Prochainement disponible",
+        message: "Cette section est en construction. Merci de votre compréhension."
+    },
+    it: {
+        title: "Prossimamente disponibile",
+        message: "Questa sezione è in costruzione. Grazie per la vostra comprensione."
+    },
+};
 
 const localeMap = {
     'English': 'en',
@@ -15,18 +32,14 @@ const localeMap = {
     'Deutsch': 'de',
 };
 
-export default function SpeaksLanguage() {
+export default function TemporarySpeaksLanguage() {
     const t = useTranslations('SpeaksLanguage');
     const tModal = useTranslations('LanguageModal');
-
-    const router = useRouter();
-    const pathname = usePathname();
-    const searchParams = useSearchParams();
     const locale = useLocale();
-    const [isPending, startTransition] = useTransition();
 
-    const [isDialogOpen, setIsDialogOpen] = useState(false);
-    const [pendingLang, setPendingLang] = useState(null); // { name, locale }
+    const [confirmOpen, setConfirmOpen] = useState(false);
+    const [comingSoonOpen, setComingSoonOpen] = useState(false);
+    const [pendingLang, setPendingLang] = useState(null);
 
     const languages = [
         { flag: '/images/about/united-states.png', name: 'English', alt: 'English Support' },
@@ -39,24 +52,21 @@ export default function SpeaksLanguage() {
         const targetLocale = localeMap[lang.name];
         if (!targetLocale || targetLocale === locale) return;
         setPendingLang({ name: lang.name, locale: targetLocale });
-        setIsDialogOpen(true);
+        setConfirmOpen(true);
     };
 
     const handleConfirm = () => {
-        if (!pendingLang) return;
-        setIsDialogOpen(false);
-        let currentSearchParams = {};
-        searchParams.forEach((value, key) => { currentSearchParams[key] = value; });
-        startTransition(() => {
-            router.replace(
-                { pathname, query: currentSearchParams },
-                { scroll: false, locale: pendingLang.locale }
-            );
-        });
+        setConfirmOpen(false);
+        setComingSoonOpen(true);
     };
 
     const handleCancel = () => {
-        setIsDialogOpen(false);
+        setConfirmOpen(false);
+        setPendingLang(null);
+    };
+
+    const handleComingSoonClose = () => {
+        setComingSoonOpen(false);
         setPendingLang(null);
     };
 
@@ -109,7 +119,8 @@ export default function SpeaksLanguage() {
                 </main>
             </section>
 
-            <Dialog open={isDialogOpen} onOpenChange={handleCancel}>
+            {/* Step 1: Onay modalı */}
+            <Dialog open={confirmOpen} onOpenChange={handleCancel}>
                 <DialogContent className="bg-coffee-dark border border-gold/40 max-w-md">
                     <DialogHeader>
                         <DialogTitle className="text-ivory-soft text-xl font-bold">
@@ -128,10 +139,31 @@ export default function SpeaksLanguage() {
                         </button>
                         <button
                             onClick={handleConfirm}
-                            disabled={isPending}
-                            className="px-5 py-1.5 bg-ivory-soft hover:bg-ivory-soft/80 text-coffee-dark rounded-sm transition-colors duration-200 cursor-pointer text-sm disabled:opacity-60"
+                            className="px-5 py-1.5 bg-ivory-soft hover:bg-ivory-soft/80 text-coffee-dark rounded-sm transition-colors duration-200 cursor-pointer text-sm"
                         >
                             {tModal('confirm')}
+                        </button>
+                    </div>
+                </DialogContent>
+            </Dialog>
+
+            {/* Step 2: Coming Soon bilgilendirme modalı */}
+            <Dialog open={comingSoonOpen} onOpenChange={handleComingSoonClose}>
+                <DialogContent className="bg-coffee-dark border border-gold max-w-md">
+                    <DialogHeader>
+                        <DialogTitle className="text-ivory-soft text-xl font-bold">
+                            {comingSoonMessages[pendingLang?.locale ?? locale]?.title}
+                        </DialogTitle>
+                        <DialogDescription className="text-ivory-soft/90 text-sm pt-2">
+                            {comingSoonMessages[pendingLang?.locale ?? locale]?.message}
+                        </DialogDescription>
+                    </DialogHeader>
+                    <div className="flex justify-end pt-4">
+                        <button
+                            onClick={handleComingSoonClose}
+                            className="px-5 py-1.5 bg-ivory-soft hover:bg-ivory-soft/80 text-coffee-dark rounded-sm transition-colors duration-200 cursor-pointer text-sm"
+                        >
+                            OK
                         </button>
                     </div>
                 </DialogContent>
