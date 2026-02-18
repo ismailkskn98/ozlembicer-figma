@@ -64,8 +64,6 @@ export default function PricingHero() {
                             <p>Student: %10 (for students who do not work)</p>
                             <p>Group patients: %10 for Each</p>
                             <p>2 BHT sessions: %15 (If two sessions are done in one day)</p>
-                            <p>Advertisement: %5 (Before/After photos/videos without face)</p>
-                            <p>Advertisement: %10 (Before/After photos/videos with face)</p>
                             <p>Last minute appointments:1000€ (For appointments for a specific day which is less than ten days away. To be able to tolerate expensive flight prices at last minute)</p>
                             <p>Last minute appointments:500€ (for 10-15 days)</p>
                             <p>For publication of media (photos & videos) in scientific studies, presentations, congress and articles: 20% (Dr.Bicer makes her own decision for this discount type in consultation if the patient is suitable for this case Ex: Burn Reconstruction)</p>
