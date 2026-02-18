@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { ReactLenis } from "@/lib/lenis";
+import ScrollToTopOnRouteChange from '@/components/common/scrollToTopOnRouteChange';
 
 const inter = localFont({
   src: [
@@ -37,9 +38,9 @@ export default async function RootLayout({ children, params }) {
       <body className={`${inter.variable} font-inter antialiased w-full bg-stone-beige`}>
         <NextIntlClientProvider>
           <ReactLenis root options={{ smoothWheel: true }}>
+            <ScrollToTopOnRouteChange />
             <Header />
-            <div className='pt-30.5 sm:pt-35.5 lg:pt-30 relative'>{children}</div>
-            {/* {children} */}
+            <div className='pt-27 sm:pt-33 lg:pt-30 relative'>{children}</div>
             <Footer />
           </ReactLenis>
         </NextIntlClientProvider>
