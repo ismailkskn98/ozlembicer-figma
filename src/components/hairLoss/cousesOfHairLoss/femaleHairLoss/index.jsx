@@ -8,7 +8,7 @@ import HowToAppointment from '../../../common/howToAppointment'
 import FemaleContent from './femaleContent'
 
 const linksItems = [
-    { label: 'Male Hair Loss', href: '/hair-loss/male-hair-loss' },
+    { label: 'Male Hair Loss', href: '/hair-loss/couses-of-hair-loss/male-hair-loss' },
     { label: 'Female Hair Loss', href: '#' },
 ]
 

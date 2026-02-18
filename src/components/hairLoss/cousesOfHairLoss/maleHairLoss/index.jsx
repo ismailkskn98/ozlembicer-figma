@@ -12,7 +12,7 @@ import NorwoodScale from './norwoodScale'
 
 const linksItems = [
     { label: 'Male Hair Loss', href: '#' },
-    { label: 'Female Hair Loss', href: '/hair-loss/female-hair-loss' },
+    { label: 'Female Hair Loss', href: '/hair-loss/couses-of-hair-loss/female-hair-loss' },
 ]
 
 export default function MaleHairLossMain({ children }) {
