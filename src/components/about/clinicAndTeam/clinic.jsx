@@ -12,10 +12,10 @@ export default function Clinic() {
             <main className='w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-4'>
                 <h2 className='text-ivory-soft text-[32px]'>Clinic</h2>
                 <div className='w-full flex flex-col lg:flex-row items-start gap-12 lg:gap-32'>
-                    <MotionLeftView className='flex-1 w-full lg:max-w-120'>
+                    <MotionLeftView className='order-2 lg:order-1 flex-1 w-full lg:max-w-120'>
                         <PhotoGallery />
                     </MotionLeftView>
-                    <MotionRightView>
+                    <MotionRightView className="order-1 lg:order-2">
                         <Image src='/images/about/clinic-gallery-right.png' alt='Clinic Gallery' width={500} height={700} className='flex-1 object-contain object-center h-full max-h-120 min-h-120 sm:min-h-157 sm:max-h-157.5 w-fit' />
                     </MotionRightView>
                 </div>

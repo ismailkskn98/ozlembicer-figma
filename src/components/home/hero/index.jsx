@@ -64,7 +64,7 @@ const heroSlideItems = [
 
 export default function Hero() {
     return (
-        <section className='relative fluid gridContainer bg-radial to-wine-brown from-20% from-coffee-dark pt-20 sm:pt-25 pb-52 md:pb-40 xl:pb-50'>
+        <section className='relative fluid gridContainer bg-radial to-wine-brown from-20% from-coffee-dark pt-12 sm:pt-12 lg:pt-16 xl:pt-25 pb-52 md:pb-40 xl:pb-50'>
             <div className='w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0' />
             <main className='w-full max-w-full xl:max-w-6xl mx-auto'>
                 <Swiper
@@ -82,7 +82,7 @@ export default function Hero() {
                         <SwiperSlide key={index} className='w-full'>
                             {({ isActive }) => (
                                 <div className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 md:gap-15`}>
-                                    <article className='flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft min-w-fit md:min-w-102.5'>
+                                    <article className='order-2 lg:order-1 flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft min-w-fit md:min-w-102.5'>
                                         <div
                                             className={`w-full flex items-end justify-start h-auto sm:h-37.5 lg:h-55 xl:h-60 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                                         >
@@ -110,7 +110,7 @@ export default function Hero() {
                                             </p>
                                         </div>
 
-                                        <div className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-auto sm:h-11 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
+                                        <div className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-auto lg:h-11 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
                                             {item.links.map((link, linkIndex) => (
                                                 <Link
                                                     key={linkIndex}
@@ -125,7 +125,7 @@ export default function Hero() {
                                             ))}
                                         </div>
                                     </article>
-                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`object-cover lg:object-size object-top w-145 xl:w-165.5 h-70 sm:h-80 md:h-90 lg:h-110 xl:h-[496.5px] rounded-lg transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
+                                    <Image src={item.imageSrc} alt={item.imageAlt} width={800} height={550} className={`order-1 lg:order-2 object-cover lg:object-size object-top w-145 xl:w-165.5 h-70 sm:h-80 md:h-90 lg:h-110 xl:h-[496.5px] rounded-lg transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`} />
                                 </div>
                             )}
                         </SwiperSlide>
