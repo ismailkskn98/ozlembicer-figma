@@ -47,7 +47,7 @@ const heroSlideItems = [
         title: ["Internationally", "Acclaimed", "Faculty Member"],
         mobileTitle: ["Internationally", "Acclaimed", "Faculty Member"],
         description: "Dr. Özlem Bicer brings over 27 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.",
-        imageSrc: "/images/hero-carousel/hero-3.png",
+        imageSrc: "/images/hero-carousel/hero-3-dene.png",
         imageAlt: "hero ozlem bicer 2",
         links: [
             {
