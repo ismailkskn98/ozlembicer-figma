@@ -10,6 +10,7 @@ import FueDoesItWorkFAQs from './fueMicroMotor/fueDoesItWorkFAQs';
 import HowDoesItWork from './common/howDoesItWork';
 import DomLoaded from '../../common/domLoaded';
 import HowToAppointment from '../../common/howToAppointment';
+import HowDoesItWorkLong from './longHair/sgsdhsdhowDoesItWorkLong';
 
 const linksItems = [
     { label: 'FUE (Micro Motor)', href: '/hair-transplant#fue-micro-motor' },
@@ -256,8 +257,8 @@ export default function HairTransplantMain() {
                     generalInfoProps={{
                         title: "What Is",
                         boldTitle: "Long Hair Transplant?",
-                        description1: "Long Hair known as strip hair transplantation—is one of the most established hair transplant techniques. ",
-                        description2: "In the FUT method, a thin strip of hair-bearing scalp is surgically removed from the back of the head (donor area). The incision is then closed with sutures. The harvested strip is carefully divided into individual follicular units, each containing 1 to 4 hairs, and transplanted into areas affected by hair loss using a technique similar to FUE.",
+                        description1: "Long hair transplantation is an advanced hair transplant technique in which hair follicles are extracted and implanted without shaving the donor or recipient areas. Although the procedure is technically the same as the classic micromotor FUE technique, special punches are used to avoid cutting the hair shaft, allowing the hair to remain long during extraction and implantation.",
+                        description2: "This method enables patients to see immediate cosmetic results after the procedure. The transplanted long hairs shed temporarily, but the follicles remain permanent and regrow naturally over time.",
                         imageUrl: "/images/hair-transplant/reconstructive.png"
                     }}
                 >
@@ -271,18 +272,25 @@ export default function HairTransplantMain() {
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                             { src: "/images/hair-transplant/howwork.png", alt: "FUE Step 5" },
                         ]}
-                        title={["When Is Body Hair", "Transplantation Recommended?"]}
+                        title={["Who Needs", "Long Hair Transplantation?"]}
                         content={[
-                            { type: "paragraph", value: "At the start of the FUE procedure, Dr. Özlem Biçer carefully evaluates the donor area to identify the healthiest and most suitable hair follicles for transplantation." },
-                            { type: "paragraph", value: "Local anesthesia is applied to ensure a comfortable and pain-free procedure. Once the scalp is numb, hair follicles are extracted one by one using a multiple micro punches in different sizes." },
-                            { type: "paragraph", value: "The extraction can be performed:" },
-                            { type: "list", value: ["Manually", "With a micromotor"] },
-                            { type: "paragraph", value: "Depending on the patient’s hair structure, scalp condition, and treatment plan." },
-                            { type: "paragraph", value: "Micromotor-assisted FUE may allow a higher number of grafts to be harvested per hour, while manual FUE may be preferred in certain cases for enhanced control and precision." },
-                            { type: "paragraph", value: "In both techniques, punches with a diameter of approximately 0.5–0.9 mm are used. FUE does not create linear scars; instead, tiny dot-like marks may appear in the donor area and typically heal quickly." },
+                            { type: "paragraph", value: "Long hair transplantation may be recommended for individuals who:" },
+                            {
+                                type: "list", value: [
+                                    "Have unnatural, poorly designed, or unsatisfactory hairlines from previous procedures and want an immediate, natural-looking improvement",
+                                    "Experience visible scarring caused by earlier hair transplant techniques (FUE or FUT) and prefer better camouflage",
+                                    "Suffer from asymmetry or incorrect hair growth direction that requires precise correction",
+                                    "Have low or uneven hair density and wish to see instant volume without waiting months for growth",
+                                    "Have hair loss resulting from burns, accidents, surgery, or trauma, where aesthetic restoration is critical",
+                                    "Are affected by scarring alopecia or certain medical conditions that limit conventional transplant options",
+                                    "Have had failed or disappointing hair transplant results and seek an advanced corrective solution",
+                                    "Prefer a technique that provides immediate cosmetic results, especially for social or professional reasons"
+                                ]
+                            },
+                            { type: "paragraph", value: "Each long hair transplantation case is unique and requires a fully individualized treatment plan based on the patient’s hair characteristics, expectations, and medical background." },
                         ]}
                     >
-                        <FueDoesItWorkFAQs />
+                        <HowDoesItWorkLong />
                     </HowDoesItWork>
                 </SectionWrapper>
 
