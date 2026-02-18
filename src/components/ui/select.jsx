@@ -42,7 +42,7 @@ function SelectTrigger({
       {...props}>
       {children}
       <SelectPrimitive.Icon asChild>
-        <IoIosArrowForward className="size-3 md:size-4 mb-px" />
+        <IoIosArrowForward className="size-3 md:size-4 " />
       </SelectPrimitive.Icon>
     </SelectPrimitive.Trigger>
   );

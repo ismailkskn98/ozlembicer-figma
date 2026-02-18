@@ -24,9 +24,9 @@ export default function MobilNavbar({ children }) {
             <SheetContent showCloseButton={false} side="right" className='bg-coffee-dark border-gold p-0'>
                 <SheetTitle className='sr-only'>Navigation Menu</SheetTitle>
                 <main className='flex flex-col h-full'>
-                    <header className='w-full flex items-center justify-between gap-3 px-6 py-4 border-b border-gold/30'>
+                    <header className='w-full flex items-center justify-between gap-3 px-6 py-4 border-b border-gold min-h-20'>
                         <Link href={"/"} className='h-fit w-fit'>
-                            <Image src="/images/logo.jpg" alt='ozlembicer logo' width={150} height={100} className='object-contain object-center w-fit h-8' />
+                            <Image src="/images/logo.jpg" alt='ozlembicer logo' width={150} height={100} className='object-contain object-center w-fit min-w-25 h-8' />
                         </Link>
                         <SheetClose asChild>
                             <button className='text-ivory-soft hover:text-gold transition-colors text-sm font-medium'>

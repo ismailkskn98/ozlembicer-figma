@@ -16,7 +16,7 @@ export default function Header() {
                     <section className='w-full h-full max-w-full lg:max-w-6xl mx-auto flex items-center justify-between'>
                         <Link href={"/"} className='relative h-[99%] w-fit flex items-center justify-center'>
                             <div className='absolute left-1/2 top-1/2 -translate-1/2 w-[200%] h-full bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark' />
-                            <Image src="/images/logo.jpg" alt='ozlembicer logo' width={150} height={100} className='relative z-20 object-contain object-center w-fit h-10 lg:h-11 xl:h-15' />
+                            <Image src="/images/logo.jpg" alt='ozlembicer logo' width={150} height={100} className='relative z-20 object-contain object-center w-fit min-w-31.25 h-10 lg:h-11 xl:h-15' />
                         </Link>
                         <main className='hidden md:flex items-center'>
                             <Navbar />
@@ -32,7 +32,9 @@ export default function Header() {
                                 <span>+90 (414) 13 13</span>
                             </Link>
                         </main>
-                        <article className='md:hidden flex items-center'>
+                        <article className='md:hidden flex items-center gap-3'>
+                            {/* <LanguageChange /> */}
+                            <TemporaryLanguageChange />
                             <MobilNavbar>
                                 <SlMenu size={24} className='cursor-pointer text-ivory-soft' />
                             </MobilNavbar>
@@ -40,15 +42,13 @@ export default function Header() {
                     </section>
                 </MotionScrollInViewOpacity>
             </header>
-            <section className='lg:hidden fluid gridContainer w-full max-w-full lg:max-w-6xl mx-auto py-1 bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark'>
-                <main className='w-full flex items-center justify-between'>
-                    <Link href="/contact-us" className='flex items-center justify-center gap-1 text-ivory-soft  px-2.5 py-0.5 rounded-sm text-xs sm:text-sm'>
+            <section className='lg:hidden fluid gridContainer w-full max-w-full lg:max-w-6xl mx-auto py-1 bg-coffee-dark'>
+                <main className='w-full flex items-center justify-center'>
+                    <Link href="/contact-us" className='flex items-center justify-center gap-1 text-ivory-soft px-2.5 py-0.5 rounded-sm text-xs sm:text-sm'>
                         <span>info@ozlembicer.com</span>
                         <span>-</span>
                         <span>+90 (414) 13 13</span>
                     </Link>
-                    {/* <LanguageChange /> */}
-                    <TemporaryLanguageChange />
                 </main>
             </section>
         </main>
