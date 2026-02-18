@@ -29,7 +29,7 @@ export default function PrpHairDoesItWork() {
 
     return (
         <main className='grid grid-cols-1 lg:grid-cols-3 w-full max-w-6xl mx-auto place-content-stretch place-items-stretch text-coffee-dark gap-6 py-10 sm:py-16 lg:py-25'>
-            <Image src="/images/hair-loss/hair-prp-section.png" alt="FUE Hair Transplant" width={700} height={900} className='object-cover h-full w-full max-h-90 sm:max-h-150 lg:max-h-full rounded-4xl' />
+            <Image src="/images/hair-loss/hair-prp-section.png" alt="FUE Hair Transplant" width={900} height={1100} className='object-cover h-full w-full max-h-90 sm:max-h-150 lg:max-h-full rounded-4xl' />
 
             <section className='col-span-1 lg:col-span-2 w-full flex flex-col sm:flex-row items-start gap-6 h-full'>
                 <article className='w-full flex flex-col items-start gap-4 lg:gap-9 border-b sm:border-b-0 border-r-0 sm:border-r border-coffee-dark/15 pr-0 pb-5 sm:pr-4'>

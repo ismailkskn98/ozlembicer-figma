@@ -14,8 +14,8 @@ export default function BeforeAfterHero() {
                         <p className='text-sm sm:text-base'>As a clinic we give importance to post pre and post operation follow up is one of the most important part of hair transplantation. The surgery is just a single part of hair transplantation process and after the process using right medications and providing good care for recipient and donor are is another important part of the process. During this period it is important for us to move forward with our patients and providing one to one follow up is very curutial part of our clinic. Trough our pollicy we compleate the years with over 250 satisfied patient for 28 years. </p>
                     </article>
                 </MotionLeftView>
-                <MotionRightView className="order-1 lg:order-2 w-full max-w-140.5">
-                    <Image src="/images/gallery/before-after-hero.png" alt="Dr. Özlem Bicer" width={580} height={780} className='object-contain object-center mx-auto w-full max-w-fit lg:max-w-135 2xl:max-w-140.5 h-fit max-h-100 sm:max-h-130 md:max-h-150 lg:max-h-fit rounded-4xl' />
+                <MotionRightView className="relative order-1 lg:order-2 w-full max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
+                    <Image src="/images/gallery/before-after-hero.png" alt="Dr. Özlem Bicer" fill className='object-cover object-center mx-auto w-full max-w-fit lg:max-w-135 2xl:max-w-140.5  rounded-4xl' />
                 </MotionRightView>
             </section>
         </main>

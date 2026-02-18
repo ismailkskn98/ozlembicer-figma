@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import MotionScrollInViewVariant from '../../common/motionScrollInViewVariant'
+import MotionScrollInView from '@/components/common/motionScrollInView'
 
 export default function HairTransplantHero() {
     return (
@@ -10,12 +10,12 @@ export default function HairTransplantHero() {
                 <article className='w-full max-w-140.5 text-ivory-soft'>
                     <h1 className='text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-16 flex flex-col items-start'>Hair <span className='font-bold'>Transplant</span></h1>
                 </article>
-                <MotionScrollInViewVariant className="w-full grid grid-cols-2 min-[500px]:grid-cols-4 gap-1.5 min-[500px]:gap-2.5 rounded-xl min-[500px]:rounded-4xl h-full max-h-full min-[500px]:max-h-157.5">
-                    <Image src="/images/hair-transplant/hero-item-1.png" alt="hair-transplant hero item 1" width={580} height={780} className='object-cover min-[500px]:object-contain object-center w-full h-75 min-[500px]:h-full rounded-tl-xl min-[500px]:rounded-l-4xl' />
-                    <Image src="/images/hair-transplant/hero-item-2.png" alt="hair-transplant hero item 2" width={580} height={780} className='object-cover min-[500px]:object-contain object-center w-full h-75 min-[500px]:h-full rounded-tr-xl min-[500px]:rounded-none' />
-                    <Image src="/images/hair-transplant/hero-item-3.png" alt="hair-transplant hero item 3" width={580} height={780} className='object-cover min-[500px]:object-contain object-center w-full h-75 min-[500px]:h-full rounded-bl-xl min-[500px]:rounded-none' />
-                    <Image src="/images/hair-transplant/hero-item-3.png" alt="hair-transplant hero item 4" width={580} height={780} className='object-cover min-[500px]:object-contain object-center w-full h-75 min-[500px]:h-full rounded-br-xl sm:rounded-r-4xl' />
-                </MotionScrollInViewVariant>
+                <MotionScrollInView className="w-full grid grid-cols-2 sm:grid-cols-4 gap-1.5 sm:gap-2.5 rounded-xl sm:rounded-4xl h-full max-h-full sm:max-h-157.5">
+                    <Image src="/images/hair-transplant/hero-item-1.png" alt="hair-transplant hero item 1" width={880} height={1180} className='object-cover sm:object-cover object-center w-full h-75 sm:h-156 rounded-tl-xl sm:rounded-l-4xl' />
+                    <Image src="/images/hair-transplant/hero-item-2.png" alt="hair-transplant hero item 2" width={880} height={1180} className='object-cover sm:object-cover object-center w-full h-75 sm:h-156 rounded-tr-xl sm:rounded-none' />
+                    <Image src="/images/hair-transplant/hero-item-3.png" alt="hair-transplant hero item 3" width={880} height={1180} className='object-cover sm:object-cover object-center w-full h-75 sm:h-156 rounded-bl-xl sm:rounded-none' />
+                    <Image src="/images/hair-transplant/hero-item-3.png" alt="hair-transplant hero item 4" width={880} height={1180} className='object-cover sm:object-cover object-center w-full h-75 sm:h-156 rounded-br-xl sm:rounded-r-4xl' />
+                </MotionScrollInView>
                 <article className='w-full flex flex-col items-start gap-4 text-ivory-soft text-[14px]'>
                     <p>
                         At Dr. Biçer’s clinic, all hair restoration techniques are personally performed by Dr. Biçer. This allows her to objectively evaluate each patient and select the most appropriate technique based solely on medical needs, hair characteristics, and long-term expectations.

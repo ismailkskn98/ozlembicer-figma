@@ -16,8 +16,8 @@ export default function FemaleHairLossHero() {
                         <p className='text-sm sm:text-base'>There are generally three types of hair loss in women. These are grouped into the following three categories – androgenetic alopecia, telogen effluvium, and abnormal hair loss. Androgenetic alopecia is the leading cause of hair loss in women and in this case, hair loss in women is less predictable than it is in men. Telogen effluvium can be triggered by drug consumption, diet, and stress. Then there are the other rare types of hair loss that fall into the non-normal hair loss category.<br />The causes of hair loss in women</p>
                     </article>
                 </MotionLeftView>
-                <MotionRightView className="order-1 lg:order-2 w-full max-w-140.5">
-                    <Image src="/images/female-hair-hero.png" alt="Dr. Özlem Bicer" width={580} height={780} className='object-contain object-center w-full mx-auto max-w-fit lg:max-w-135 2xl:max-w-140.5 h-fit max-h-100 sm:max-h-130 md:max-h-150 lg:max-h-fit rounded-4xl' />
+                <MotionRightView className="relative order-1 lg:order-2 w-full max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
+                    <Image src="/images/female-hair-hero.png" alt="Dr. Özlem Bicer" fill className='object-cover object-center mx-auto w-full max-w-fit lg:max-w-135 2xl:max-w-140.5  rounded-4xl' />
                 </MotionRightView>
             </section>
         </main>
