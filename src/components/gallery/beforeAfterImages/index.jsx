@@ -4,7 +4,7 @@ import BeforeAfterHero from './beforeAfterHero'
 import HowToAppointment from '@/components/common/howToAppointment'
 import Image from 'next/image'
 
-export default function BeforeAfterImagesMain({ children }) {
+export default function BeforeAfterImagesMain() {
     return (
         <main className='w-full fluid gridContainer bg-ivory-soft'>
             <BeforeAfterHero />
@@ -209,7 +209,6 @@ export default function BeforeAfterImagesMain({ children }) {
                         </div>
                     </section>
                 </main>
-                {children}
                 <div className='-mt-10 lg:mt-0'>
                     <HowToAppointment />
                 </div>

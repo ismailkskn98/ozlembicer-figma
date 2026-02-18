@@ -1,31 +1,8 @@
-import VideosTutorials from '@/components/common/videosTutorials';
 import BeforeAfterImagesMain from '@/components/gallery/beforeAfterImages'
 import React from 'react'
 
-const getYoutubeVideos = async () => {
-    try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/youtube`, {
-            cache: "force-cache",
-            next: { revalidate: 86400 },
-        });
-
-        if (!res.ok) {
-            console.error("yotube video isteği başarısız", res.status);
-            return [];
-        }
-
-        return res.json();
-    } catch (error) {
-        console.error("yotube video isteği başarısız error:", error);
-        return [];
-    }
-};
-
-export default async function BeforeAfterImagesPage() {
-    const videos = await getYoutubeVideos();
+export default function BeforeAfterImagesPage() {
     return (
-        <BeforeAfterImagesMain>
-            <VideosTutorials videos={videos} />
-        </BeforeAfterImagesMain>
+        <BeforeAfterImagesMain />
     )
 }
