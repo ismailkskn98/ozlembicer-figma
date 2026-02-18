@@ -10,7 +10,7 @@ import FueDoesItWorkFAQs from './fueMicroMotor/fueDoesItWorkFAQs';
 import HowDoesItWork from './common/howDoesItWork';
 import DomLoaded from '../../common/domLoaded';
 import HowToAppointment from '../../common/howToAppointment';
-import HowDoesItWorkLong from './longHair/sgsdhsdhowDoesItWorkLong';
+import HowDoesItWorkLong from './longHair/howDoesItWorkLong';
 
 const linksItems = [
     { label: 'FUE (Micro Motor)', href: '/hair-transplant#fue-micro-motor' },
