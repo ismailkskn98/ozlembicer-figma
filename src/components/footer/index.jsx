@@ -16,7 +16,7 @@ export default function Footer() {
                     <article className='w-full max-w-sm flex flex-col items-center md:items-start'>
                         <Image src='/images/logo.jpg' alt='Dr.Bicer Logo' width={250} height={70} className='object-contain object-center w-fit h-14.75 2xl:h-18' />
                         <div className='w-full flex flex-col items-center md:items-start gap-4 mt-5'>
-                            <div className='w-full max-w-xs md:max-w-sm grid grid-cols-1 gap-y-0 text-ivory-soft text-sm 2xl:text-lg'>
+                            <div className='w-full max-w-xs md:max-w-sm grid grid-cols-1 gap-y-0 text-ivory-soft text-sm 2xl:text-lg -space-y-1'>
                                 <div className='w-full flex items-center justify-center md:justify-between'>
                                     <div className='flex-1 w-full text-start text-nowrap 2xl:text-lg'>Adress:</div>
                                     <div className='flex-1 w-full text-end md:text-start text-nowrap 2xl:text-lg'>Istanbul/Turkey</div>

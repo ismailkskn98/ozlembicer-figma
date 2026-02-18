@@ -12,7 +12,7 @@ export default function ClinicTeamHero() {
                     <Image src="/images/about/clinic-hero.png" alt="Dr. Özlem Bicer" width={1200} height={700} className='object-contain object-center w-full h-full max-h-157.5 rounded-2xl lg:rounded-4xl' />
                 </MotionLeftView>
                 <MotionRightView className="w-full max-w-286.5 mx-auto">
-                    <article className='w-full flex flex-col lg:flex-row items-start gap-6 text-ivory-soft'>
+                    <article className='w-full flex flex-col lg:flex-row items-start lg:items-center gap-6 text-ivory-soft'>
                         <h1 className='flex-1 text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-16 flex flex-col items-start'>An Experienced <span className='font-bold'>Doctor and Medical Team</span></h1>
                         <div className='flex-1 flex flex-col items-start gap-2'>
                             <p className='text-sm sm:text-base'>Our clinic is supported by a highly experienced and dedicated hair transplant team, recognized for its medical expertise and patient-centered approach. Dr. Özlem Biçer has over 28 years of experience in hair restoration surgery and is a proud member of the International Society of Hair Restoration Surgery (ISHRS). She is assisted by a team of carefully selected, highly trained, and experienced medical nurses who work together with precision and consistency.</p>

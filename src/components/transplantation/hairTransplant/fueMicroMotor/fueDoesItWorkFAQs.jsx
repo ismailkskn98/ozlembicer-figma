@@ -6,14 +6,13 @@ export default function FueDoesItWorkFAQs() {
         <main className='grid grid-cols-1 sm:grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark'>
             <article className='border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4'>
                 <h4 className='font-bold text-base lg:text-[20px] flex flex-col items-start'>
-                    {["Is FUE Hair Transplant", "Permanent?"].map((text, index) => (
+                    {["Is Androgenetic Alopecia", "Permanent?"].map((text, index) => (
                         <span key={index}>{text}</span>
                     ))}
                 </h4>
                 <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
-                    <p>FUE differs from the traditional strip {"(FUT)"} technique by transplanting individual follicular units rather than removing a strip of scalp.</p>
-                    <p>The donor hairs are taken from areas that are genetically more resistant to hair loss.For this reason, transplanted hair follicles usually continue to grow permanently in their new location.</p>
-                    <p>However, non-transplanted native hair may continue to thin over time, depending on genetic factors and the progression of hair loss.</p>
+                    <p>Androgenetic alopecia is a permanent and progressive condition, meaning that hair loss continues over time. Although the safe donor area is generally resistant to androgenetic alopecia, this resistance cannot be guaranteed for every patient for a lifetime.</p>
+                    <p>Ultimately, transplanted hair follicles also cannot be guaranteed to remain in the recipient area for the patient’s entire life.</p>
                 </div>
                 <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>
@@ -42,7 +41,7 @@ export default function FueDoesItWorkFAQs() {
                 </h4>
 
                 <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
-                    <p>An FUE hair transplant procedure typically lasts between 3 and 8 hours, depending on:</p>
+                    <p>An FUE hair transplant procedure typically lasts between 4 and 12 hours, depending on:</p>
                     <ul className='list-disc list-outside pl-5'>
                         <li>The number of grafts required</li>
                         <li>Hair thickness and density</li>
@@ -53,7 +52,7 @@ export default function FueDoesItWorkFAQs() {
                         <li>First shedding: 2–6 weeks (normal and temporary)</li>
                         <li>New hair growth begins: around 3–4 months</li>
                         <li>Noticeable improvement: 6–9 months</li>
-                        <li>Final results: after 12 months</li>
+                        <li>Final results: after 12-18 months</li>
                     </ul>
                     <p>Not all transplanted follicles grow at the same time, as some remain temporarily in the resting (telogen) phase. Overall graft survival rates of up to 90–95% are commonly reported under optimal conditions.</p>
                 </div>
@@ -80,19 +79,20 @@ export default function FueDoesItWorkFAQs() {
                     ))}
                 </h4>
                 <div className='w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base'>
+                    <p>We use a needle-free anesthesia machine. During the first two to three minutes of local anesthesia, you may feel mild and very tolerable discomfort. Once the anesthesia takes effect, you will not feel any pain during the procedure.</p>
                     <p>FUE hair transplantation is generally well tolerated and minimally painful.</p>
                     <ul className='list-disc list-outside pl-5'>
                         <li>Mild discomfort may be felt during the first few minutes of local anesthesia</li>
                         <li>The procedure itself is painless</li>
                         <li>Patients may feel tired from sitting for several hours, but regular breaks are provided</li>
                     </ul>
-                    <p>Patients can usually:</p>
+                    <p>During the procedure, patients can usually:</p>
                     <ul className='list-disc list-outside pl-5'>
                         <li>Watch TV</li>
                         <li>Listen to music</li>
                         <li>Relax during the procedure</li>
                     </ul>
-                    <p>After the operation, mild pain, tightness, or sensitivity may occur, which is usually manageable with standard painkillers for a few days.</p>
+                    <p>After the operation, mild pain, tightness, or sensitivity may occur. These symptoms are usually temporary and can be easily managed with standard painkillers for a few days.</p>
                 </div>
                 <Image src="/images/hair-transplant/howwork.png" alt="FUE Hair Transplant" width={600} height={800} className='min-[900px]:hidden object-contain h-55 w-fit' />
             </article>

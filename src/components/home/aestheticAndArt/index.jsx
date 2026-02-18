@@ -15,8 +15,7 @@ export default function AestheticAndArt() {
                         <h2 className='text-[30px] sm:text-[48px] xl:text-[64px] flex flex-col leading-8 sm:leading-13 xl:leading-18'>Aesthetic Is<span className='font-bold'>Where Art and Medicine Meets</span></h2>
                         <p className=''>Since 1998, I have been dedicated to the field of hair restoration and hair transplantation. At my clinic, we provide a high standard of medical care and professional expertise, with a clear focus on achieving natural, healthy, and long-lasting results for our patients.</p>
                         <p className=''>Over the years, we have built a strong reputation by combining surgical experience, advanced technology, and strict adherence to safe and ethical medical practices. Every treatment is carefully planned and tailored to the individual needs of each patient.</p>
-                        <p className=''>If you are seeking a world-class hair transplant clinic that prioritizes medical excellence, natural outcomes, and patient care, my experienced medical team and I are here to guide you through every step of your journey.</p>
-                        <p><span className='font-bold'>Özlem Biçer, M.D.</span></p>
+                        <p className=''>If you are seeking a world-class hair transplant clinic that prioritizes medical excellence, natural outcomes, and patient care, my experienced medical team and I are here to guide you through every step of your journey.<br />Özlem Biçer, M.D.</p>
                         <div className='flex flex-col sm:flex-row items-start sm:items-center justify-end gap-3 lg:gap-6'>
                             <Link href="/contact" className='rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm border border-ivory-soft text-ivory-soft hover:bg-ivory-soft/70 hover:text-coffee-dark hover:border-transparent transition-colors duration-200'>
                                 Read More About Dr.Bicer
