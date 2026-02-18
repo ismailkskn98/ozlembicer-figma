@@ -77,7 +77,7 @@ export default function PatientResultCarousel() {
                         spaceBetween: 20
                     },
                     100: {
-                        slidesPerView: 1.5,
+                        slidesPerView: 1.15,
                         spaceBetween: 10
                     },
                 }}
