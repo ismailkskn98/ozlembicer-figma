@@ -26,7 +26,7 @@ export default function AestheticAndArt() {
                         </div>
                     </article>
                 </MotionLeftView>
-                <MotionRightView className="w-fit max-w-full lg:max-w-141 h-full order-1 lg:order-2">
+                <MotionRightView className="w-fit mx-auto max-w-full lg:max-w-141 h-full order-1 lg:order-2">
                     <Image src="/images/aestheticAndArt.png" alt="aesthetic and art" width={600} height={800} className='object-contain object-center w-full lg:w-fit h-full max-h-160 lg:max-h-180 xl:max-h-199' />
                 </MotionRightView>
             </main>

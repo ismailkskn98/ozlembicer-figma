@@ -15,8 +15,8 @@ export default function Clinic() {
                     <MotionLeftView className='order-2 lg:order-1 flex-1 w-full lg:max-w-120'>
                         <PhotoGallery />
                     </MotionLeftView>
-                    <MotionRightView className="order-1 lg:order-2">
-                        <Image src='/images/about/clinic-gallery-right.png' alt='Clinic Gallery' width={500} height={700} className='flex-1 object-contain object-center h-full max-h-120 min-h-120 sm:min-h-157 sm:max-h-157.5 w-fit' />
+                    <MotionRightView className="order-1 lg:order-2 mx-auto">
+                        <Image src='/images/about/clinic-gallery-right.png' alt='Clinic Gallery' width={500} height={700} className='flex-1 object-contain object-center h-full max-h-120 min-h-120 sm:min-h-157 sm:max-h-157.5 w-fit mx-auto' />
                     </MotionRightView>
                 </div>
             </main>

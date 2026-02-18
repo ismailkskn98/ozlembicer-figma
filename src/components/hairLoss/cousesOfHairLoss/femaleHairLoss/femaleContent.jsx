@@ -45,13 +45,13 @@ export default function FemaleContent() {
               </div>
             </article>
           </section>
-          <div className='order-1 lg:order-2 h-full flex flex-col md:flex-row lg:flex-col items-start w-fit md:w-full lg:w-116.25'>
+          <div className='order-1 lg:order-2 mx-auto lg:mx-0 h-full flex flex-col md:flex-row lg:flex-col items-start w-fit md:w-full lg:w-116.25'>
             <Image src="/images/female-girls.png" alt='female hair loss girls' width={500} height={800} className='object-contain md:object-cover object-center w-fit md:w-full h-90 md:h-full' />
             <Image src="/images/female-ludwig-scale.png" alt='female ludwig scale' width={500} height={300} className='object-contain object-center w-full h-auto md:h-66.5' />
           </div>
         </main>
         <main className='w-full grid grid-cols-1 lg:grid-cols-3 gap-6 justify-items-stretch place-content-stretch'>
-          <div className='min-w-75 w-fit lg:w-full h-100 lg:h-full relative'>
+          <div className='min-w-75 w-fit lg:w-full h-100 lg:h-full relative mx-auto lg:mx-0'>
             <Image src="/images/female-tarak.png" alt='female hair loss girls' fill className='object-contain lg:object-cover object-center w-full h-full' />
           </div>
           <section className='col-span-1 lg:col-span-2 flex flex-col items-start text-[#3D1D1D] text-[14px] gap-4'>
