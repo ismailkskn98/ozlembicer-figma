@@ -27,7 +27,7 @@ export default function Header() {
                             {/* <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-ivory-soft text-coffee-dark border border-gold text-sm'> */}
                             {/* <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm 
                             drop-shadow-[0px_0px_6px_#eee6db]'> */}
-                            <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm hover:to-ivory-soft/20 transition-all duration-300'>
+                            <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] text-ivory-soft text-sm hover:bg-radial hover:from-coffee-dark hover:to-wine-brown transition-all duration-300'>
                                 <span>info@ozlembicer.com</span>
                                 <span>+90 (414) 13 13</span>
                             </Link>

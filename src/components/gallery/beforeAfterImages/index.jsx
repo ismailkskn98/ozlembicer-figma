@@ -15,7 +15,7 @@ export default function BeforeAfterImagesMain({ children }) {
                         <div className='w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0' />
                         <section className='w-full max-w-full xl:max-w-6xl mx-auto flex items-center justify-between gap-4'>
                             <h2 className={`flex flex-col text-[32px]`}>
-                                <span>Hair Transplant</span> <span className='font-bold'>Before & After</span>
+                                Before & After
                             </h2>
                             <Image src={"/images/before-after-icon.svg"} alt='before after icon' width={100} height={100} className="object-contain bg-linear-to-l from-gold to-ivory-soft w-12 min-[330px]:w-14 sm:w-18 lg:w-22.5 h-12 min-[330px]:h-14 sm:h-18 lg:h-22.5 rounded-full" />
                         </section>
