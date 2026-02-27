@@ -14,7 +14,7 @@ const titleItemsData = [
     {
         value: 'hair-transplant',
         title: 'Hair Transplant',
-        image: '/images/home-accordion/hair-transplant.jpg',
+        image: '/images/home-accordion/hair-transplant-degisti.jpg',
         icon: FaHandSparkles,
         content: {
             title: 'Lorem, ipsum dolor.',
@@ -101,6 +101,7 @@ export default function DeneyTitleImage() {
             clearTimeout(timeoutId);
         };
     }, []);
+
 
     return (
         <MotionScrollInView

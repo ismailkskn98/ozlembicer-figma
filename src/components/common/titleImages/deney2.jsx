@@ -59,15 +59,35 @@ const titleItemsData = [
 
 export default function TitleImagesDeney2() {
     const [selectedItem, setSelectedItem] = useState(null);
+    const [accordionValue, setAccordionValue] = useState(null);
+
+    const handleValueChange = (value) => {
+        if (value) {
+            setSelectedItem(value);
+            setAccordionValue(value);
+            setTimeout(() => {
+            }, 300);
+        } else {
+            setAccordionValue(null);
+            setSelectedItem(null);
+            setTimeout(() => {
+            }, 300);
+        }
+    };
+
+    const displayItems = selectedItem
+        ? titleItemsData.filter(item => item.value === selectedItem)
+        : titleItemsData;
+
 
     return (
         <MotionScrollInViewVariant
             className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start md:gap-y-5 bg-linear-to-r from-wine-brown to-coffee-dark rounded-4xl px-5 lg:px-10 py-5 lg:py-10 lg:mb-10 mt-0 lg:mt-10 overflow-hidden"
             childClassname="w-full flex items-center justify-between gap-2.5"
         >
-            <Accordion type="single" collapsible className="w-full" value={selectedItem} onValueChange={(value) => setSelectedItem(value)}>
+            <Accordion type="single" collapsible className="w-full" value={selectedItem} onValueChange={handleValueChange}>
                 <AnimatePresence initial={false}>
-                    {titleItemsData.map((item) => (
+                    {displayItems.map((item) => (
                         <motion.div
                             key={item.value}
                             layoutId={item.value}
@@ -96,25 +116,23 @@ export default function TitleImagesDeney2() {
                                         </article>
                                     </main>
                                 </AccordionTrigger>
-                                <AccordionContent className="relative z-20 flex justify-end px-0 py-0 data-[state=open]:overflow-auto pb-0 md:pb-2 z-20">
+                                <AccordionContent className="relative flex justify-end px-0 py-0 data-[state=open]:overflow-auto pb-0 md:pb-2 z-20">
                                     <section className="w-full md:w-2/3 -mt-28 md:-mt-32.5 flex flex-col items-start gap-3 lg:gap-3">
-                                        {/* Büyük resim — sadece açıkken, content yazısının üstünde */}
                                         <motion.div
                                             key="accordion-image"
                                             initial={{ clipPath: "inset(0 0 100% 0)" }}
                                             animate={{ clipPath: "inset(0 0 0% 0)" }}
                                             transition={{ duration: 0.2, ease: "easeInOut" }}
-                                            className="relative w-full h-52 sm:h-80 mt-1"
+                                            className="relative w-full h-52 sm:h-96 mt-1"
                                         >
                                             <Image
                                                 src={item.image}
                                                 alt={item.title}
                                                 fill
-                                                className="object-cover rounded-sm"
+                                                className="object-cover object-top rounded-sm"
                                             />
                                         </motion.div>
 
-                                        {/* Content yazısı — resmin hemen altında */}
                                         <main className="w-full py-3">
                                             <article className="w-full flex flex-col items-start">
                                                 <h3 className="text-[18px] text-ivory-soft mb-3">{item.content.title}</h3>
