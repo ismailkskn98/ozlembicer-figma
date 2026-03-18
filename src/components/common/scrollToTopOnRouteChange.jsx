@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { useLenis } from 'lenis/react';
 
@@ -8,7 +8,7 @@ export default function ScrollToTopOnRouteChange() {
     const pathname = usePathname();
     const lenis = useLenis();
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         if (lenis) {
             lenis.scrollTo(0, { immediate: true });
         } else {
