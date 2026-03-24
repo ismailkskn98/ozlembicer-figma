@@ -17,9 +17,9 @@ export default function HomeMain({ videos }) {
             <HeroLogoCarousel />
             <div className='fluid gridContainer bg-linear-to-b from-stone-beige via-ivory-soft via-80% to-stone-beige'>
                 <VideosTutorials videos={videos} />
-                {/* <DeneyTitleImage /> */}
+                <DeneyTitleImage />
                 {/* <TitleImages /> */}
-                <TitleImagesDeney2 />
+                {/* <TitleImagesDeney2 /> */}
                 <PatientResults title="Patient Results" />
                 <AestheticAndArt />
                 {/* <SpeaksLanguage /> */}
