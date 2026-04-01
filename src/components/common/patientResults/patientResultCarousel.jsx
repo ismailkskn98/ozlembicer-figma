@@ -89,7 +89,7 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
     const defaultCarouselItems = carouselItems.length > 0 ? carouselItems : localCarouselItems;
 
     return (
-        <div className='w-full xl:max-w-262 mx-auto flex flex-col items-center justify-center gap-y-6 sm:gap-y-7'>
+        <div className='w-full xl:max-w-262 mx-auto flex flex-col items-center justify-center gap-5 sm:gap-7'>
             <Swiper
                 modules={[Navigation, Autoplay, Grid]}
                 grid={rows > 1 ? { rows, fill: 'row' } : undefined}
@@ -119,14 +119,14 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
                 {defaultCarouselItems.map((item, index) => (
                     <SwiperSlide className='py-3 px-2' key={index}>
                         {({ isActive }) => (
-                            <section className='bg-linear-to-b from-stone-beige to-ivory-soft p-2.5 rounded-[10px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]'>
-                                <div className={`w-full flex flex-col items-center justify-center gap-2.5 rounded-[10px] ${blur && !isActive ? 'blur-[2px]' : ''}`}>
-                                    <div className='w-full flex items-center gap-1.25'>
-                                        <div className='relative w-full h-70 rounded-[5px] overflow-hidden'>
+                            <section className='bg-linear-to-b from-stone-beige to-ivory-soft p-2.5 rounded-[10px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] aspect-15/17'>
+                                <div className={`w-full h-full flex flex-col items-center justify-between gap-2.5 rounded-[10px] ${blur && !isActive ? 'blur-[2px]' : ''}`}>
+                                    <div className='w-full flex items-center gap-1.25 aspect-7/6'>
+                                        <div className='relative w-full aspect-137/240 rounded-[5px] overflow-hidden'>
                                             <Image src={item.beforeImage} alt={`Patient before ${index + 1}`} fill className='w-full h-full object-cover object-center rounded-[5px]' />
                                         </div>
-                                        <div className='relative w-full h-70 rounded-[5px] overflow-hidden'>
-                                            <Image src={item.afterImage} alt={`Patient after ${index + 1}`} width={300} height={250} className='w-full h-70 object-cover object-center rounded-[5px]' />
+                                        <div className='relative w-full aspect-137/240 rounded-[5px] overflow-hidden'>
+                                            <Image src={item.afterImage} alt={`Patient after ${index + 1}`} fill className='w-full h-full object-cover object-center rounded-[5px]' />
                                         </div>
                                     </div>
                                     <article className='w-full grid grid-cols-3 place-content-stretch justify-items-stretch bg-coffee-dark text-ivory-soft px-2.5 rounded-[5px] h-15'>

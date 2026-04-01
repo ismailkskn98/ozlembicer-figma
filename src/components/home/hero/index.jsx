@@ -51,7 +51,7 @@ const heroSlideItems = [
         imageAlt: "hero ozlem bicer 2",
         links: [
             {
-                href: "/contact",
+                href: "/about-us/clinic-team",
                 text: "Read More About Clinic"
             },
             {

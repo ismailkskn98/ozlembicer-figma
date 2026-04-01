@@ -17,7 +17,7 @@ export default function AestheticAndArt() {
                         <p className=''>Over the years, we have built a strong reputation by combining surgical experience, advanced technology, and strict adherence to safe and ethical medical practices. Every treatment is carefully planned and tailored to the individual needs of each patient.</p>
                         <p className=''>If you are seeking a world-class hair transplant clinic that prioritizes medical excellence, natural outcomes, and patient care, my experienced medical team and I are here to guide you through every step of your journey.<br />Özlem Biçer, M.D.</p>
                         <div className='flex flex-col sm:flex-row items-start sm:items-center justify-end gap-3 lg:gap-6'>
-                            <Link href="/contact" className='rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm border border-ivory-soft text-ivory-soft hover:bg-ivory-soft/70 hover:text-coffee-dark hover:border-transparent transition-colors duration-200'>
+                            <Link href="/about-us/dr-ozlem-bicer" className='rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm border border-ivory-soft text-ivory-soft hover:bg-ivory-soft/70 hover:text-coffee-dark hover:border-transparent transition-colors duration-200'>
                                 Read More About Dr.Bicer
                             </Link>
                             <Link href="/contact" className='rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm bg-ivory-soft text-coffee-dark hover:bg-ivory-soft/70 transition-colors duration-200'>
