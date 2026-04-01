@@ -7,6 +7,7 @@ import { GiBeard } from "react-icons/gi";
 import { IoSparklesSharp } from "react-icons/io5";
 import { IoEyeSharp } from "react-icons/io5";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 
 const titleItemsData = [
@@ -14,7 +15,7 @@ const titleItemsData = [
         value: 'hair-transplant',
         title: 'Hair Transplantation',
         image: '/images/home-accordion/hair-transplant-degisti.jpg',
-        icon: FaHandSparkles,
+        icon: '/images/hair-transplant/fue-micro-motor.svg',
         content: {
             title: 'Hair Transplantation Techniques',
             items: [
@@ -26,7 +27,7 @@ const titleItemsData = [
         value: 'beard-transplant',
         title: 'Beard Transplantation',
         image: '/images/home-accordion/beard-transplant.jpg',
-        icon: GiBeard,
+        icon: '/images/hair-transplant/fue-manuel.svg',
         content: {
             title: 'Beard Transplantation Techniques',
             items: [
@@ -38,7 +39,7 @@ const titleItemsData = [
         value: 'eyebrow-transplant',
         title: 'Eyebrow Transplantation',
         image: '/images/home-accordion/eyebrow-transplant.jpg',
-        icon: IoEyeSharp,
+        icon: '/images/hair-transplant/body-hair.svg',
         content: {
             title: 'Eyebrow Transplantation Techniques',
             items: [
@@ -50,7 +51,7 @@ const titleItemsData = [
         value: 'female-hair-transplant',
         title: 'Female Hair Transplantation',
         image: '/images/home-accordion/female-hair-transplant.jpg',
-        icon: IoSparklesSharp,
+        icon: '/images/hair-transplant/fue-manuel.svg',
         content: {
             title: 'Female Hair Transplantation Techniques',
             items: [
@@ -102,13 +103,13 @@ export default function DeneyTitleImage() {
                                     >
                                         {!isOpen && (
                                             <div className="h-full w-full flex items-start md:items-end justify-center md:pb-10 cursor-pointer">
-                                                <div className={cn('absolute inset-0 flex flex-row md:flex-col items-center justify-center md:justify-between gap-4 md:gap-0 py-4 md:py-6', {
+                                                <div className={cn('absolute inset-0 flex flex-row md:flex-col items-center justify-between gap-4 md:gap-0 px-4 md:px-0 py-4 md:py-6', {
                                                     'bg-coffee-dark/80 hover:bg-coffee-dark/50 transition-all duration-200': !isOpen,
                                                 })}>
-                                                    <h2 className="text-ivory-soft text-lg font-medium tracking-wider whitespace-nowrap md:[writing-mode:vertical-rl]">
+                                                    <h2 className="text-ivory-soft text-base md:text-lg font-medium tracking-wider whitespace-nowrap md:[writing-mode:vertical-rl]">
                                                         {item.title}
                                                     </h2>
-                                                    <item.icon className="text-ivory-soft text-2xl" />
+                                                    <Image src={item.icon} alt={item.title} width={32} height={32} className="object-contain h-9 w-9 object-center" />
                                                 </div>
                                             </div>
                                         )}
@@ -119,23 +120,23 @@ export default function DeneyTitleImage() {
                                         )}
                                     </AccordionTrigger>
 
-                                    <AccordionContent className="flex-1 relative md:absolute md:inset-0 md:z-20 pt-6 md:pt-10 pb-6 md:pb-10 px-4 sm:px-6 md:px-8 md:max-h-full"
+                                    <AccordionContent className="flex-1 relative md:absolute md:inset-0 md:z-20 pt-4 sm:pt-6 md:pt-10 pb-4 sm:pb-6 md:pb-10 px-4 sm:px-6 md:px-8 md:max-h-full"
                                         onWheel={(e) => e.stopPropagation()}
                                     >
                                         <div className="absolute inset-0 z-10 bg-coffee-dark/55" />
-                                        <h2 className="relative z-20 text-2xl lg:text-3xl text-ivory-soft font-semibold mb-6">
+                                        <h2 className="relative z-20 text-[20px] md:text-2xl 2xl:text-3xl text-ivory-soft font-semibold mb-3.5 md:mb-6">
                                             {item.title}
                                         </h2>
-                                        <h3 className="relative z-20 text-lg text-ivory-soft mb-4">{item.content.title}</h3>
+                                        <h3 className="relative z-20 text-base md:text-lg 3xl:text-xl text-ivory-soft mb-2.5 md:mb-4">{item.content.title}</h3>
                                         {item.content.items.map((contentItem, idx) => (
                                             <div key={idx} className="relative z-20">
                                                 {contentItem.type === 'paragraph' && (
-                                                    <p className="text-ivory-soft/90 text-base mb-4 leading-relaxed">
+                                                    <p className="text-ivory-soft/90 text-sm sm:text-base mb-4 leading-relaxed">
                                                         {contentItem.text}
                                                     </p>
                                                 )}
                                                 {contentItem.type === 'list' && (
-                                                    <ul className="text-ivory-soft/90 text-base mb-4 list-disc list-inside space-y-2">
+                                                    <ul className="text-ivory-soft/90 text-sm sm:text-base mb-2 md:mb-4 list-disc list-inside space-y-1 md:space-y-2">
                                                         {contentItem.items.map((listItem, listIdx) => (
                                                             <li key={listIdx}>{listItem}</li>
                                                         ))}
