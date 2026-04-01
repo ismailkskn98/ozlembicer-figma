@@ -63,9 +63,7 @@ export default function HowToAppointment() {
                   >
                      {/* Mobile */}
                      <div className="flex flex-col items-center justify-between gap-3 lg:hidden w-full h-full px-2 py-1">
-                        <span className="text-[52px] sm:text-[64px] text-ivory-soft/30 leading-none font-light">
-                           {step.id}
-                        </span>
+                        <span className="text-[48px] text-ivory-soft/30 leading-none font-light">{step.id}</span>
                         <div className="flex flex-col items-center gap-2">
                            {step.image ? (
                               <Image
@@ -73,17 +71,17 @@ export default function HowToAppointment() {
                                  alt={step.alt}
                                  width={48}
                                  height={48}
-                                 className="w-8 h-8 sm:w-12 sm:h-12 object-contain"
+                                 className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
                               />
                            ) : (
                               <step.icon
-                                 className="w-8 h-8 sm:w-12 sm:h-12 text-ivory-soft"
+                                 className="w-10 h-10 sm:w-12 sm:h-12 text-ivory-soft"
                                  strokeWidth={0.75}
                                  absoluteStrokeWidth
                               />
                            )}
-                           <p className="text-center text-ivory-soft/80 text-[9px] sm:text-[11px] leading-snug tracking-wide uppercase">
-                              {step.title}
+                           <p className="text-center text-ivory-soft/80 text-[11px] leading-snug tracking-wide uppercase">
+                              <span className="text-nowrap">{step.title}</span>
                               <br />
                               {step.titleBr}
                            </p>
