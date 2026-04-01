@@ -1,5 +1,5 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -13,11 +13,11 @@
 }
 
 :root {
-  --color-coffee-dark: #261212;
-  --color-stone-beige: #b2a99d;
-  --color-gold: #b99f6c;
-  --color-wine-brown: #3d1d1d;
-  --color-ivory-soft: #eee6db;
+  --color-wine-brown: #3d1d1d; /* Main Dark 1 */
+  --color-coffee-dark: #261212; /* Main Dark 2 */
+  --color-gold: #b99f6c; /* Main Gold 1 */
+  --color-ivory-soft: #eee6db; /* Main Light 1 */
+  --color-stone-beige: #b2a99d; /* Main Light 2 */
 }
 
 html {

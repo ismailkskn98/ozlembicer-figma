@@ -20,7 +20,7 @@ export default function ModalVideo({ title, description, videoSrc }) {
         <div className="relative overflow-hidden w-full h-full">
           <iframe src={videoSrc} className="size-full rounded-lg" allowFullScreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
-        <DialogHeader>
+        <DialogHeader className="hidden">
           <DialogTitle></DialogTitle>
           <DialogDescription></DialogDescription>
         </DialogHeader>
