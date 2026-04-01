@@ -50,7 +50,7 @@ export default function YoutubeCarousel({ videos = [] }) {
       >
         {videos.map((item, i) => (
           <SwiperSlide key={i} className="w-full py-3">
-            <div className="relative group aspect-6/5 bg-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-5 cursor-pointer overflow-hidden shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
+            <div className="relative group aspect-6/5 bg-radial from-stone-beige to-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-5 cursor-pointer overflow-hidden shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
               <Image
                 src={item.snippet.thumbnails.medium.url}
                 alt={item.snippet.title}
