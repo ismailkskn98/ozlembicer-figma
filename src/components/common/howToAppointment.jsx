@@ -55,67 +55,84 @@ export default function HowToAppointment() {
                   className="border-b border-coffee-dark text-coffee-dark font-normal w-full max-w-sm lg:max-w-6xl lg:mx-auto"
                />
             </MotionScrollInView>
-            <article className="w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-3 gap-6">
+            <div className="w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-3 gap-3 lg:gap-6">
                {appointmentSteps.map((step) => (
                   <article
                      key={step.id}
-                     className="group flex flex-col items-center justify-center bg-coffee-dark rounded-4xl pt-4 sm:pt-6 lg:pt-4 px-2 xl:px-2.5 pb-5 sm:pb-8 lg:pb-14.75 aspect-368/380"
+                     className="group flex flex-col items-center justify-center bg-coffee-dark rounded-2xl lg:rounded-4xl py-4 sm:py-5 lg:pt-4 lg:pb-14.75 px-1.5 sm:px-2 xl:px-2.5 lg:aspect-[368/380]"
                   >
-                     <div className="w-full max-w-70 flex flex-col lg:flex-row items-start lg:items-center gap-3 sm:gap-4 lg:gap-0 text-ivory-soft px-3.5 xl:px-0">
-                        <div className="flex items-center gap-2">
+                     {/* Mobile */}
+                     <div className="flex flex-col items-center justify-between gap-3 lg:hidden w-full h-full px-2 py-1">
+                        <span className="text-[52px] sm:text-[64px] text-ivory-soft/30 leading-none font-light">
+                           {step.id}
+                        </span>
+                        <div className="flex flex-col items-center gap-2">
+                           {step.image ? (
+                              <Image
+                                 src={step.image}
+                                 alt={step.alt}
+                                 width={48}
+                                 height={48}
+                                 className="w-8 h-8 sm:w-12 sm:h-12 object-contain"
+                              />
+                           ) : (
+                              <step.icon
+                                 className="w-8 h-8 sm:w-12 sm:h-12 text-ivory-soft"
+                                 strokeWidth={0.75}
+                                 absoluteStrokeWidth
+                              />
+                           )}
+                           <p className="text-center text-ivory-soft/80 text-[9px] sm:text-[11px] leading-snug tracking-wide uppercase">
+                              {step.title}
+                              <br />
+                              {step.titleBr}
+                           </p>
+                        </div>
+                     </div>
+
+                     {/* Desktop — dokunulmadı */}
+                     <div className="hidden lg:flex flex-col items-center justify-center w-full h-full">
+                        <div className="w-full max-w-70 flex flex-col lg:flex-row items-start lg:items-center gap-3 sm:gap-4 lg:gap-0 text-ivory-soft px-3.5 xl:px-0">
+                           <div className="flex items-center gap-2">
+                              <span className="text-[70px] sm:text-[80px] 2xl:text-[96px]">{step.id}</span>
+                           </div>
+                           <div className="relative w-full">
+                              <p className="text-[23px] sm:text-[28px] lg:text-[28px] xl:text-[32px] leading-8 2xl:leading-9 opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300">
+                                 {step.title}
+                                 <br />
+                                 {step.titleBr}
+                              </p>
+                              <p className="w-full absolute left-0 top-1/2 -translate-y-1/2 text-[23px] sm:text-[28px] lg:text-[30px] xl:text-[32px] leading-8 2xl:leading-9 text-nowrap opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">
+                                 {step.hoverTitle}
+                                 <br />
+                                 {step.hoverTitleBr}
+                              </p>
+                           </div>
+                        </div>
+                        <div className="relative h-38.25 w-full">
                            {step.image ? (
                               <Image
                                  src={step.image}
                                  alt={step.alt}
                                  width={300}
                                  height={200}
-                                 className={`lg:hidden object-contain object-center ${step.imageWidth} h-full`}
+                                 className={`mx-auto opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 object-contain object-center ${step.imageWidth} h-full`}
                               />
                            ) : (
                               <step.icon
-                                 className="lg:hidden w-15 sm:w-16 lg:w-69.25 h-auto text-ivory-soft"
+                                 className="mx-auto opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 w-14 sm:w-16 lg:w-36 xl:w-38.25 h-auto text-ivory-soft"
                                  strokeWidth={0.75}
                                  absoluteStrokeWidth
                               />
                            )}
-                           <span className="text-[70px] sm:text-[80px] 2xl:text-[96px]">{step.id}</span>
-                        </div>
-                        <div className="relative w-full">
-                           <p className="text-[23px] sm:text-[28px] lg:text-[28px] xl:text-[32px] leading-8 2xl:leading-9 opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300">
-                              {step.title}
-                              <br />
-                              {step.titleBr}
-                           </p>
-                           <p className="w-full absolute left-0 top-1/2 -translate-y-1/2 text-[23px] sm:text-[28px] lg:text-[30px] xl:text-[32px] leading-8 2xl:leading-9 text-nowrap opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">
-                              {step.hoverTitle}
-                              <br />
-                              {step.hoverTitleBr}
+                           <p className="hidden lg:block w-full max-w-70 px-2 sm:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">
+                              {step.description}
                            </p>
                         </div>
-                     </div>
-                     <div className="relative h-38.25 w-full">
-                        {step.image ? (
-                           <Image
-                              src={step.image}
-                              alt={step.alt}
-                              width={300}
-                              height={200}
-                              className={`mx-auto opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 object-contain object-center  ${step.imageWidth} h-full`}
-                           />
-                        ) : (
-                           <step.icon
-                              className="mx-auto opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 w-14 sm:w-16 lg:w-36 xl:w-38.25 h-auto text-ivory-soft"
-                              strokeWidth={0.75}
-                              absoluteStrokeWidth
-                           />
-                        )}
-                        <p className="hidden lg:block w-full max-w-70 px-2 sm:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">
-                           {step.description}
-                        </p>
                      </div>
                   </article>
                ))}
-            </article>
+            </div>
             <MotionScrollInView className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:items-center gap-6">
                <article className="group flex flex-col items-start gap-3.75 text-coffee-dark">
                   <h3 className="text-[32px] leading-9">
