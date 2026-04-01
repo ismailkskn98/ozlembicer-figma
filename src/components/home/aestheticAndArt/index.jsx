@@ -60,7 +60,7 @@ export default function AestheticAndArt() {
                </article>
             </MotionLeftView>
             <MotionRightView className="w-full mx-auto max-w-full lg:max-w-141 h-full order-1 lg:order-2">
-               <div className="relative w-full h-120 lg:h-180 xl:h-199 rounded-2xl lg:rounded-4xl overflow-hidden">
+               <div className="relative w-full h-100 sm:h-120 lg:h-180 xl:h-199 rounded-2xl lg:rounded-4xl overflow-hidden">
                   <Image
                      src="/images/aestheticAndArt.png"
                      alt="aesthetic and art"
