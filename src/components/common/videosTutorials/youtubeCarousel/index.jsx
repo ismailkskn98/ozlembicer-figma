@@ -1,82 +1,94 @@
-"use client";
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/autoplay";
-import "swiper/css/navigation";
-import Image from "next/image";
-import ModalVideo from "./modalVideo";
-import youtubeCacheVideos from "@/youtube.json";
-import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
+'use client';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
+import Image from 'next/image';
+import ModalVideo from './modalVideo';
+import youtubeCacheVideos from '@/youtube.json';
+import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io';
 
 export default function YoutubeCarousel({ videos = [] }) {
-  if (!videos || videos.length === 0) {
-    videos = youtubeCacheVideos;
-  }
+   if (!videos || videos.length === 0) {
+      videos = youtubeCacheVideos;
+   }
 
-  return (
-    <section className="w-full max-w-full xl:max-w-262 mx-auto flex flex-col items-center justify-center gap-y-5 sm:gap-y-7">
-      <Swiper
-        modules={[Autoplay, Navigation]}
-        slidesPerView={3}
-        breakpoints={{
-          900: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-          },
-          500: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          100: {
-            slidesPerView: 1.5,
-            spaceBetween: 15,
-          },
-        }}
-        centeredSlides={true}
-        centeredSlidesBounds={true}
-        scrollbar={{ draggable: true }}
-        navigation={{
-          prevEl: '#youtube-prev',
-          nextEl: '#youtube-next',
-        }}
-        loop={true}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
-        className="w-full"
-      >
-        {videos.map((item, i) => (
-          <SwiperSlide key={i} className="w-full py-3">
-            <div className="relative group aspect-6/5 bg-radial from-stone-beige to-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-5 cursor-pointer overflow-hidden shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
-              <Image
-                src={item.snippet.thumbnails.medium.url}
-                alt={item.snippet.title}
-                width={item.snippet.thumbnails.medium.width}
-                height={item.snippet.thumbnails.medium.height}
-                className="relative z-10 object-cover object-center w-full rounded-[5px] aspect-28/15"
-              />
-              <ModalVideo title={item.snippet.title} description={item.snippet.description} videoSrc={`https://www.youtube.com/embed/${item.id.videoId}?si=oTPj5Q6sfN3Vuxav`} />
-              <div className="w-full bg-wine-brown p-2.5 rounded-[5px] aspect-14/3 flex items-center justify-center">
-                <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[8px]">
-                  <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
-                  {item.snippet.description.length > 0 && <p className="sm:block hidden lowercase line-clamp-2">{item.snippet.description}</p>}
-                </div>
-              </div>
+   return (
+      <section className="w-full max-w-full xl:max-w-262 mx-auto flex flex-col items-center justify-center gap-y-5 sm:gap-y-7">
+         <Swiper
+            modules={[Autoplay, Navigation]}
+            slidesPerView={3}
+            breakpoints={{
+               900: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+               },
+               500: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+               },
+               100: {
+                  slidesPerView: 1.3,
+                  spaceBetween: 15,
+               },
+            }}
+            centeredSlides={true}
+            centeredSlidesBounds={true}
+            scrollbar={{ draggable: true }}
+            navigation={{
+               prevEl: '#youtube-prev',
+               nextEl: '#youtube-next',
+            }}
+            loop={true}
+            autoplay={{
+               delay: 3000,
+               disableOnInteraction: false,
+            }}
+            className="w-full"
+         >
+            {videos.map((item, i) => (
+               <SwiperSlide key={i} className="w-full py-3">
+                  <div className="relative group aspect-6/5 bg-radial from-stone-beige to-ivory-soft rounded-[10px] p-2.5 flex! flex-col items-center! justify-between! gap-2 sm:gap-5 cursor-pointer overflow-hidden shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
+                     <Image
+                        src={item.snippet.thumbnails.medium.url}
+                        alt={item.snippet.title}
+                        width={item.snippet.thumbnails.medium.width}
+                        height={item.snippet.thumbnails.medium.height}
+                        className="relative z-10 object-cover object-center w-full rounded-[5px] aspect-28/15"
+                     />
+                     <ModalVideo
+                        title={item.snippet.title}
+                        description={item.snippet.description}
+                        videoSrc={`https://www.youtube.com/embed/${item.id.videoId}?si=oTPj5Q6sfN3Vuxav`}
+                     />
+                     <div className="w-full bg-wine-brown p-2.5 rounded-[5px] aspect-14/3 flex items-center justify-center">
+                        <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[8px]">
+                           <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
+                           {item.snippet.description.length > 0 && (
+                              <p className="sm:block hidden lowercase line-clamp-2">{item.snippet.description}</p>
+                           )}
+                        </div>
+                     </div>
+                  </div>
+               </SwiperSlide>
+            ))}
+         </Swiper>
+         <div className="flex items-center justify-center gap-6">
+            <div
+               id="youtube-prev"
+               className="p-1.5 cursor-pointer hover:bg-gold/50 transition duration-200 rounded-full"
+            >
+               <IoIosArrowDropleft className="w-5 h-5 text-coffee-dark" />
             </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-      <div className="flex items-center justify-center gap-6">
-        <div id="youtube-prev" className="p-1.5 cursor-pointer hover:bg-gold/50 transition duration-200 rounded-full">
-          <IoIosArrowDropleft className="w-5 h-5 text-coffee-dark" />
-        </div>
-        <div id="youtube-next" className="p-1.5 cursor-pointer hover:bg-gold/50 transition duration-200 rounded-full">
-          <IoIosArrowDropright className="w-5 h-5 text-coffee-dark" />
-        </div>
-      </div>
-    </section>
-  );
+            <div
+               id="youtube-next"
+               className="p-1.5 cursor-pointer hover:bg-gold/50 transition duration-200 rounded-full"
+            >
+               <IoIosArrowDropright className="w-5 h-5 text-coffee-dark" />
+            </div>
+         </div>
+      </section>
+   );
 }
