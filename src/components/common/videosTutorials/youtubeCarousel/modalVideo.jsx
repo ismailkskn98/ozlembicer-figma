@@ -8,7 +8,7 @@ export default function ModalVideo({ title, description, videoSrc }) {
       <DialogTrigger asChild className="cursor-pointer!">
         <div className="absolute inset-x-0 top-1/3 -translate-y-1/3 z-20 flex scale-[0.9] items-center justify-center rounded-2xl transition-all duration-200 ease-out group-hover:scale-100 ">
           <div className="bg-black/20 flex size-14 items-center justify-center rounded-full">
-            <Play className="size-5 scale-100 text-white/50 backdrop-blur-lg transition-transform duration-200 ease-out group-hover:scale-105" />
+            <Play className="size-5 scale-110 stroke-black/20 transition-transform duration-200 ease-out group-hover:scale-115" />
           </div>
         </div>
       </DialogTrigger>
