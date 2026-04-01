@@ -7,6 +7,33 @@ import React, { useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import Pageh3Title from '@/components/common/pageh3Title';
 
+const modalMessages = {
+   en: {
+      title: 'Change Language',
+      description: (lang) => `Would you like to switch to ${lang}?`,
+      confirm: 'Yes, switch',
+      cancel: 'Cancel',
+   },
+   de: {
+      title: 'Sprache wechseln',
+      description: (lang) => `Möchten Sie zu ${lang} wechseln?`,
+      confirm: 'Ja, wechseln',
+      cancel: 'Abbrechen',
+   },
+   fr: {
+      title: 'Changer de langue',
+      description: (lang) => `Souhaitez-vous passer en ${lang} ?`,
+      confirm: 'Oui, changer',
+      cancel: 'Annuler',
+   },
+   it: {
+      title: 'Cambia lingua',
+      description: (lang) => `Vuoi passare a ${lang}?`,
+      confirm: 'Sì, cambia',
+      cancel: 'Annulla',
+   },
+};
+
 const comingSoonMessages = {
    en: {
       title: 'Coming Soon',
@@ -35,7 +62,6 @@ const localeMap = {
 
 export default function TemporarySpeaksLanguage() {
    const t = useTranslations('SpeaksLanguage');
-   const tModal = useTranslations('LanguageModal');
    const locale = useLocale();
 
    const [confirmOpen, setConfirmOpen] = useState(false);
@@ -118,10 +144,12 @@ export default function TemporarySpeaksLanguage() {
          {/* Step 1: Onay modalı */}
          <Dialog open={confirmOpen} onOpenChange={handleCancel}>
             <DialogContent className="bg-coffee-dark border border-gold/40 max-w-md">
-               <DialogHeader>
-                  <DialogTitle className="text-ivory-soft text-xl font-bold">{tModal('title')}</DialogTitle>
+               <DialogHeader className="text-start">
+                  <DialogTitle className="text-ivory-soft text-xl font-bold">
+                     {modalMessages[pendingLang?.locale ?? locale]?.title}
+                  </DialogTitle>
                   <DialogDescription className="text-ivory-soft/80 text-sm pt-2">
-                     {tModal('description', { language: pendingLang?.name ?? '' })}
+                     {modalMessages[pendingLang?.locale ?? locale]?.description(pendingLang?.name ?? '')}
                   </DialogDescription>
                </DialogHeader>
                <div className="flex justify-end gap-3 pt-4">
@@ -129,22 +157,21 @@ export default function TemporarySpeaksLanguage() {
                      onClick={handleCancel}
                      className="px-5 py-1.5 bg-transparent border border-ivory-soft/30 hover:border-ivory-soft/60 text-ivory-soft/70 hover:text-ivory-soft rounded-sm transition-all duration-200 cursor-pointer text-sm"
                   >
-                     {tModal('cancel')}
+                     {modalMessages[pendingLang?.locale ?? locale]?.cancel}
                   </button>
                   <button
                      onClick={handleConfirm}
                      className="px-5 py-1.5 bg-ivory-soft hover:bg-ivory-soft/80 text-coffee-dark rounded-sm transition-colors duration-200 cursor-pointer text-sm"
                   >
-                     {tModal('confirm')}
+                     {modalMessages[pendingLang?.locale ?? locale]?.confirm}
                   </button>
                </div>
             </DialogContent>
          </Dialog>
 
-         {/* Step 2: Coming Soon bilgilendirme modalı */}
          <Dialog open={comingSoonOpen} onOpenChange={handleComingSoonClose}>
             <DialogContent className="bg-coffee-dark border border-gold max-w-md">
-               <DialogHeader>
+               <DialogHeader className="text-start">
                   <DialogTitle className="text-ivory-soft text-xl font-bold">
                      {comingSoonMessages[pendingLang?.locale ?? locale]?.title}
                   </DialogTitle>
