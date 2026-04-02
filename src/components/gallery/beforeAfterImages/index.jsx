@@ -17,7 +17,7 @@ export default function BeforeAfterImagesMain() {
                   <section className="w-full max-w-full xl:max-w-6xl mx-auto flex items-center justify-between gap-4">
                      <h2 className={`flex flex-col text-[32px]`}>Before & After</h2>
                      <Image
-                        src={'/images/before-after-icon-nobg.svg'}
+                        src={'/images/before-after-icon-nobg-white.svg'}
                         alt="before after icon"
                         width={100}
                         height={100}

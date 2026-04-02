@@ -10,7 +10,7 @@ const titleItemsData = [
       value: 'hair-transplant',
       title: 'Hair Transplantation',
       image: '/images/home-accordion/hair-transplant-degisti.jpg',
-      icon: '/images/hair-transplant/fue-micro-motor.svg',
+      icon: '/images/hair-transplant/fue-micro-motor-nobg.svg',
       content: {
          title: 'Hair Transplantation Techniques',
          items: [
@@ -32,7 +32,7 @@ const titleItemsData = [
       value: 'beard-transplant',
       title: 'Beard Transplantation',
       image: '/images/home-accordion/beard-transplant.jpg',
-      icon: '/images/hair-transplant/beard.svg',
+      icon: '/images/hair-transplant/beard-nobg.svg',
       content: {
          title: 'Beard Transplantation Techniques',
          items: [{ type: 'list', items: ['FUE Micromotor', 'FUE Manuel', 'BHT', 'Reconstructive Hair Transplant'] }],
@@ -42,7 +42,7 @@ const titleItemsData = [
       value: 'eyebrow-transplant',
       title: 'Eyebrow Transplantation',
       image: '/images/home-accordion/eyebrow-transplant.jpg',
-      icon: '/images/hair-transplant/body-hair.svg',
+      icon: '/images/hair-transplant/body-hair-nobg.svg',
       content: {
          title: 'Eyebrow Transplantation Techniques',
          items: [{ type: 'list', items: ['FUE Micromotor', 'FUE Manuel', 'BHT', 'Reconstructive Hair Transplant'] }],
@@ -52,7 +52,7 @@ const titleItemsData = [
       value: 'female-hair-transplant',
       title: 'Female Hair Transplantation',
       image: '/images/home-accordion/female-hair-transplant.jpg',
-      icon: '/images/hair-transplant/female.svg',
+      icon: '/images/hair-transplant/female-nobg.svg',
       content: {
          title: 'Female Hair Transplantation Techniques',
          items: [{ type: 'list', items: ['FUE Micromotor', 'FUE Manuel', 'BHT', 'Reconstructive Hair Transplant'] }],
