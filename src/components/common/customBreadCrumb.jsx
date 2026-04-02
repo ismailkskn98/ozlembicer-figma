@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils';
 
 export default function CustomBreadCrumb({ links, isButton = false }) {
    return (
-      <Breadcrumb className="sticky top-26.5 sm:top-33 lg:top-30 z-20 breadcrumb-scroll fluid gridContainer bg-coffee-dark border-b border-gold overflow-x-auto lg:overflow-hidden">
+      <Breadcrumb className="sticky top-26.5 sm:top-33 lg:top-30 z-999 breadcrumb-scroll fluid gridContainer bg-coffee-dark border-b border-gold overflow-x-auto lg:overflow-hidden">
          <MotionScrollInViewOpacity className="w-full h-auto lg:h-15 flex items-center justify-center py-2 lg:pb-0 lg:pt-0">
             <BreadcrumbList
                className={cn(

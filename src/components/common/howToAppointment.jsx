@@ -52,7 +52,7 @@ export default function HowToAppointment() {
             <MotionScrollInView className="w-full">
                <Pageh3Title
                   title=" How To Make An Appointment"
-                  className="border-b border-coffee-dark text-coffee-dark font-normal w-full max-w-sm lg:max-w-6xl lg:mx-auto"
+                  className="border-b border-coffee-dark text-coffee-dark font-normal w-full max-w-6xl lg:mx-auto"
                />
             </MotionScrollInView>
             <div className="w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-3 gap-3 lg:gap-6">
