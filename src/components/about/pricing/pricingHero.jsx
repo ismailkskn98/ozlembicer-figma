@@ -131,7 +131,7 @@ export default function PricingHero() {
                                     if (para.parts) {
                                        return (
                                           <p key={pIdx}>
-                                             {para.leadingBr && <br />}
+                                             <span className="hidden sm:block">{para.leadingBr && <br />}</span>
                                              {para.parts[0]}
                                              <br />
                                              {para.parts[1]}
@@ -143,7 +143,7 @@ export default function PricingHero() {
                                           key={pIdx}
                                           className={`${para.mt2 ? 'mt-2' : ''} ${para.fontBold ? 'font-bold' : ''}`}
                                        >
-                                          {para.leadingBr && <br />}
+                                          <span className="hidden sm:block">{para.leadingBr && <br />}</span>
                                           {para.text}
                                        </p>
                                     );
