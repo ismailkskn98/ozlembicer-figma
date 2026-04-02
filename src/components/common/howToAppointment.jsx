@@ -137,13 +137,13 @@ export default function HowToAppointment() {
                      Hair Transplantation in
                      <br /> Istanbul, Turkey
                   </h3>
-                  <p className="max-w-141">
+                  <p className="max-w-full lg:max-w-141">
                      Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International
                      Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained
                      nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
                   </p>
                </article>
-               <article className="group relative w-full lg:w-auto max-w-sm lg:max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5">
+               <article className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5">
                   <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">
                      Contact US
                   </span>

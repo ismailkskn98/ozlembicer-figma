@@ -103,7 +103,10 @@ export default function TemporarySpeaksLanguage() {
             <main className="relative w-full max-w-full xl:max-w-6xl mx-auto bg-linear-to-br from-coffee-dark via-wine-brown to-coffee-dark py-10 sm:py-16 px-6 sm:px-12 rounded-4xl shadow-xl">
                <div className='absolute z-0 inset-0 w-full h-full rounded-4xl bg-[url("/images/world.svg")] bg-center bg-cover bg-fixed bg-no-repeat opacity-20' />
                <MotionScrollInView className="relative z-20 text-center mb-8">
-                  <Pageh3Title title={t('heading')} className="text-ivory-soft font-semibold mb-2 sm:mb-4" />
+                  <Pageh3Title
+                     title={t('heading')}
+                     className="text-ivory-soft font-semibold mb-2 sm:mb-3 2xl:text-3xl"
+                  />
                   <p className="text-ivory-soft/80 text-sm lg:text-base max-w-2xl mx-auto">{t('subheading')}</p>
                </MotionScrollInView>
 
