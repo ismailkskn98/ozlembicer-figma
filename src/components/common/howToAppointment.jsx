@@ -59,7 +59,7 @@ export default function HowToAppointment() {
                {appointmentSteps.map((step) => (
                   <article
                      key={step.id}
-                     className="group flex flex-col items-center justify-center bg-coffee-dark rounded-2xl lg:rounded-4xl py-4 sm:py-5 lg:pt-4 lg:pb-14.75 px-1.5 sm:px-2 xl:px-2.5 lg:aspect-[368/380]"
+                     className="group flex flex-col items-center justify-center bg-coffee-dark rounded-2xl lg:rounded-4xl py-4 sm:py-5 lg:pt-4 lg:pb-14.75 px-1.5 sm:px-2 xl:px-2.5 lg:aspect-368/380"
                   >
                      {/* Mobile */}
                      <div className="flex flex-col items-center justify-between gap-3 lg:hidden w-full h-full px-2 py-1">
