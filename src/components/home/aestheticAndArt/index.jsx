@@ -10,10 +10,10 @@ export default function AestheticAndArt() {
       <section className="relative fluid gridContainer w-full py-15 lg:py-25 bg-radial from-coffee-dark to-wine-brown overflow-hidden">
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0" />
          <div className="w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0" />
-         <main className="relative z-20 w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+         <main className="relative z-20 w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 justify-items-stretch gap-10">
             <MotionLeftView className="flex order-2 lg:order-1">
-               <article className="flex-1 flex flex-col item-start justify-between gap-5 sm:gap-7.5 text-ivory-soft">
-                  <h2 className="text-[30px] sm:text-[48px] xl:text-[64px] flex flex-col leading-8 sm:leading-13 xl:leading-20">
+               <article className="flex-1 flex flex-col item-start justify-between gap-4 xl:gap-7.5 text-ivory-soft">
+                  <h2 className="text-[30px] sm:text-[48px] xl:text-[64px] flex flex-col leading-8 sm:leading-13 xl:leading-18">
                      Aesthetic Is
                      <br />
                      <span className="font-bold">
@@ -22,23 +22,32 @@ export default function AestheticAndArt() {
                         Medicine Meets
                      </span>
                   </h2>
-                  <div className="w-full flex flex-col items-start text-start lg:max-w-134">
+                  <div className="w-full flex flex-col items-start text-start lg:max-w-134 leading-6 lg:leading-5 xl:leading-6">
                      <p className="">
                         Since 1998, I have been dedicated to the field of hair restoration and hair transplantation. At
                         my clinic, we provide a high standard of medical care and professional expertise, with a clear
                         focus on achieving natural, healthy, and long-lasting results for our patients.
+                        <br />
+                        <br />
                      </p>
-                     <br />
+                     <p className="">
+                        Our approach is not limited to the day of the procedure alone. Each patient is carefully
+                        evaluated and guided before the treatment, and then closely followed for at least one year after
+                        the procedure to ensure optimal healing, hair growth, and long-term success.
+                        <br />
+                        <br />
+                     </p>
                      <p className="">
                         Over the years, we have built a strong reputation by combining surgical experience, advanced
                         technology, and strict adherence to safe and ethical medical practices. Every treatment is
                         carefully planned and tailored to the individual needs of each patient.
+                        <br />
+                        <br />
                      </p>
-                     <br />
                      <p className="">
                         If you are seeking a world-class hair transplant clinic that prioritizes medical excellence,
-                        natural outcomes, and patient care, my experienced medical team and I are here to guide you
-                        through every step of your journey.
+                        natural outcomes, and comprehensive patient care, my experienced medical team and I are here to
+                        guide you through every step of your journey.
                         <br />
                         Özlem Biçer, M.D.
                      </p>
@@ -60,12 +69,12 @@ export default function AestheticAndArt() {
                </article>
             </MotionLeftView>
             <MotionRightView className="w-full mx-auto max-w-full lg:max-w-141 h-full order-1 lg:order-2">
-               <div className="relative w-full h-100 sm:h-120 lg:h-180 xl:h-199 rounded-2xl lg:rounded-4xl overflow-hidden">
+               <div className="relative w-full h-100 sm:h-120 lg:h-full rounded-2xl lg:rounded-4xl overflow-hidden">
                   <Image
                      src="/images/aestheticAndArt.png"
                      alt="aesthetic and art"
                      fill
-                     className="object-cover lg:object-contain object-center w-full h-full rounded-2xl lg:rounded-4xl"
+                     className="object-cover xl:object-contain object-center w-full h-full rounded-2xl lg:rounded-4xl"
                   />
                </div>
             </MotionRightView>

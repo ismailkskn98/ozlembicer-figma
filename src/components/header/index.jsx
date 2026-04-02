@@ -15,7 +15,7 @@ export default function Header() {
             <MotionScrollInViewOpacity className="w-full flex items-center">
                <section className="w-full h-full max-w-full lg:max-w-6xl mx-auto flex items-center justify-between">
                   <Link href={'/'} className="relative h-[99%] w-fit flex items-center justify-center">
-                     <div className="absolute left-1/2 top-1/2 -translate-1/2 w-[200%] h-full bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark" />
+                     <div className="absolute left-1/2 top-1/2 -translate-1/2 w-[200%] h-[99%] bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark" />
                      <Image
                         src="/images/logo.jpg"
                         alt="ozlembicer logo"

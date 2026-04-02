@@ -22,19 +22,23 @@ export default function ClinicTeamHero() {
                   <h1 className="flex-1 text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-13 lg:leading-15 xl:leading-18 flex flex-col items-start">
                      An Experienced <span className="font-bold">Doctor and Medical Team</span>
                   </h1>
-                  <div className="flex-1 flex flex-col items-start gap-2">
+                  <div className="flex-1 flex flex-col items-start">
                      <p className="text-sm sm:text-base">
                         Our clinic is supported by a highly experienced and dedicated hair transplant team, recognized
                         for its medical expertise and patient-centered approach. Dr. Özlem Biçer has over 28 years of
                         experience in hair restoration surgery and is a proud member of the International Society of
                         Hair Restoration Surgery (ISHRS). She is assisted by a team of carefully selected, highly
                         trained, and experienced medical nurses who work together with precision and consistency.
+                        <br />
+                        <br />
                      </p>
                      <p className="text-sm sm:text-base">
                         Unlike many hair transplant centers, we believe that hair transplantation is a medical procedure
                         that should be performed under the direct responsibility of a licensed physician. Our clinic
                         operates in accordance with medical regulations and professional standards, and is among a
                         limited number of licensed hair transplant clinics in Turkey.
+                        <br />
+                        <br />
                      </p>
                      <p className="text-sm sm:text-base">
                         To ensure the highest level of care, we treat only one patient per day. The same experienced
