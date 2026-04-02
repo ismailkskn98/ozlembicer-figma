@@ -58,6 +58,7 @@ const priceItems = [
    },
    {
       icon: null,
+      stackOnMobile: true,
       title: 'Touch-Up Terms and Conditions',
       paragraphs: [
          {
@@ -72,6 +73,7 @@ const priceItems = [
    },
    {
       icon: null,
+      stackOnMobile: true,
       title: 'Discount Terms and Conditions',
       paragraphs: [
          { text: 'Medical Doctor/Team :%10', leadingBr: true },
@@ -112,17 +114,20 @@ export default function PricingHero() {
                         return <p key={index}>{item.text}</p>;
                      }
                      return (
-                        <article key={index} className="flex items-start gap-5">
+                        <article
+                           key={index}
+                           className={`${item.stackOnMobile ? 'flex-col sm:flex-row' : 'flex-row'} flex items-start gap-5`}
+                        >
                            {item.icon ? (
                               <Image
                                  src={item.icon}
                                  alt={item.title}
                                  width={90}
                                  height={90}
-                                 className="object-contain object-center shrink-0"
+                                 className="object-contain object-center shrink-0 w-20 sm:w-22.5 h-20 sm:h-22.5"
                               />
                            ) : (
-                              <div className="w-22.5 h-22.5 bg-white rounded-sm shrink-0" />
+                              <div className="w-20 sm:w-22.5 h-20 sm:h-22.5 bg-white rounded-sm shrink-0" />
                            )}
                            <div className="flex flex-col items-start">
                               <h3 className="font-bold leading-3">{item.title}</h3>
