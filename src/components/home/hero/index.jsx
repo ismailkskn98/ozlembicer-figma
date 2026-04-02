@@ -14,7 +14,7 @@ const heroSlideItems = [
       title: ['Your', 'Expectations Are', 'Our Priority'],
       mobileTitle: ['Your', 'Expectations Are', 'Our Priority'],
       description:
-         'Dr. Özlem Bicer brings over 27 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.',
+         'According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.',
       imageSrc: '/images/hero-carousel/hero-1.png',
       imageAlt: 'hero ozlem bicer',
       links: [
@@ -32,7 +32,7 @@ const heroSlideItems = [
       title: ['An Experienced', 'Doctor And', 'Medical Team'],
       mobileTitle: ['An Experienced', 'Doctor And', 'Medical Team'],
       description:
-         'Dr. Özlem Bicer brings over 27 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.',
+         'According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.',
       imageSrc: '/images/hero-carousel/hero-2.png',
       imageAlt: 'hero ozlem bicer team',
       links: [
@@ -50,7 +50,7 @@ const heroSlideItems = [
       title: ['Internationally', 'Acclaimed', 'Faculty Member'],
       mobileTitle: ['Internationally', 'Acclaimed', 'Faculty Member'],
       description:
-         'Dr. Özlem Bicer brings over 27 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.',
+         'According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.',
       imageSrc: '/images/hero-carousel/hero-3-dene.png',
       imageAlt: 'hero ozlem bicer 2',
       links: [
