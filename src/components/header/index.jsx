@@ -21,7 +21,7 @@ export default function Header() {
                         alt="ozlembicer logo"
                         width={150}
                         height={100}
-                        className="relative z-20 object-contain object-center w-fit min-w-31.25 h-10 lg:h-11 xl:h-15"
+                        className="relative z-20 object-contain object-center w-fit sm:min-w-31.25 h-9 sm:h-10 lg:h-11 xl:h-15"
                      />
                   </Link>
                   <main className="hidden md:flex items-center">
