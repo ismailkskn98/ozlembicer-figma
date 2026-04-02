@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_2" data-name="katman 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 51.02 46.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Adsız_degrade_3);
+      }
+
+      .cls-2 {
+        fill: url(#Adsız_degrade_15-6);
+      }
+
+      .cls-3 {
+        fill: url(#Adsız_degrade_15-3);
+      }
+
+      .cls-4 {
+        fill: url(#Adsız_degrade_15-10);
+      }
+
+      .cls-5 {
+        fill: #f7aa87;
+      }
+
+      .cls-6 {
+        fill: #ffebe0;
+      }
+
+      .cls-7 {
+        fill: url(#Adsız_degrade_15-4);
+      }
+
+      .cls-8 {
+        fill: url(#Adsız_degrade_15-2);
+      }
+
+      .cls-9 {
+        fill: url(#Adsız_degrade_15-5);
+      }
+
+      .cls-10 {
+        fill: #656273;
+      }
+
+      .cls-11 {
+        fill: url(#Adsız_degrade_15-13);
+      }
+
+      .cls-12 {
+        fill: url(#Adsız_degrade_15-7);
+      }
+
+      .cls-13 {
+        fill: #e38761;
+      }
+
+      .cls-14 {
+        fill: url(#Adsız_degrade_15);
+      }
+
+      .cls-15 {
+        fill: #121218;
+      }
+
+      .cls-16 {
+        fill: url(#Adsız_degrade_15-12);
+      }
+
+      .cls-17 {
+        fill: url(#Adsız_degrade_15-9);
+      }
+
+      .cls-18 {
+        fill: url(#Adsız_degrade_15-8);
+      }
+
+      .cls-19 {
+        fill: url(#Adsız_degrade_15-11);
+      }
+
+      .cls-20 {
+        fill: #403d4b;
+      }
+    </style>
+    <linearGradient id="Adsız_degrade_3" data-name="Adsız degrade 3" x1="40.85" y1="-173.33" x2="47.62" y2="-173.33" gradientTransform="translate(106.54 -155.65) rotate(34.7) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".35" stop-color="#3e1d1f"/>
+      <stop offset=".96" stop-color="#261213"/>
+    </linearGradient>
+    <linearGradient id="Adsız_degrade_15" data-name="Adsız degrade 15" x1="45.88" y1="-171.24" x2="48.29" y2="-171.24" gradientTransform="translate(0 -161.29) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b99f6c"/>
+      <stop offset=".35" stop-color="#3e1d1f"/>
+      <stop offset=".96" stop-color="#261213"/>
+    </linearGradient>
+    <linearGradient id="Adsız_degrade_15-2" data-name="Adsız degrade 15" x1="29.2" y1="-181.68" x2="34.94" y2="-181.68" gradientTransform="translate(109.13 -147.22) rotate(34.7) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-3" data-name="Adsız degrade 15" x1="34.57" y1="-175.94" x2="45.84" y2="-175.94" gradientTransform="translate(0 -161.29) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-4" data-name="Adsız degrade 15" x1="35.03" y1="-177.3" x2="45.84" y2="-177.3" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-5" data-name="Adsız degrade 15" x1="33.56" y1="-179.98" x2="35.29" y2="-179.98" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-6" data-name="Adsız degrade 15" x1="42.9" y1="-172.73" x2="47.13" y2="-172.73" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-7" data-name="Adsız degrade 15" x1="43.47" y1="-174.48" x2="44.42" y2="-174.48" gradientTransform="translate(111.15 -153.72) rotate(36.07) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-8" data-name="Adsız degrade 15" x1="42.46" y1="-175.17" x2="43.42" y2="-175.17" gradientTransform="translate(111.36 -153) rotate(36.07) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-9" data-name="Adsız degrade 15" x1="41.47" y1="-175.86" x2="42.43" y2="-175.86" gradientTransform="translate(111.59 -152.27) rotate(36.07) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-10" data-name="Adsız degrade 15" x1="40.47" y1="-176.58" x2="41.43" y2="-176.58" gradientTransform="translate(111.82 -151.54) rotate(36.07) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-11" data-name="Adsız degrade 15" x1="39.46" y1="-177.26" x2="40.42" y2="-177.26" gradientTransform="translate(112.02 -150.83) rotate(36.07) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-12" data-name="Adsız degrade 15" x1="38.38" y1="-177.96" x2="39.33" y2="-177.96" gradientTransform="translate(112.22 -150.05) rotate(36.07) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+    <linearGradient id="Adsız_degrade_15-13" data-name="Adsız degrade 15" x1="37.12" y1="-178.84" x2="38.08" y2="-178.84" gradientTransform="translate(112.5 -149.14) rotate(36.07) scale(1 -1)" xlink:href="#Adsız_degrade_15"/>
+  </defs>
+  <g id="katman_2-2" data-name="katman 2">
+    <g>
+      <path class="cls-5" d="M0,21.73c.28,13.89,11.65,25.04,25.6,24.99,13.94-.05,25.24-11.28,25.42-25.18l-51.02,.18Z"/>
+      <path class="cls-13" d="M0,21.73c.02,1.1,.12,2.18,.28,3.23,6.25,2.72,13.72,2.74,20.32,1.22,8.46-1.75,16.34,2.63,24.51,.29,1.97-.65,3.94-1.61,5.8-2.83,.06-.69,.11-1.39,.12-2.1,0,0-51.02,.18-51.02,.18Z"/>
+      <path class="cls-6" d="M30.29,21.63h-7.16c-1.16,1.59-2.88,2.73-3.86,4.54-1.47,2.74-2,6.1-.4,8.9,1.48,2.58,4.41,4.1,7.36,3.82,3.34-.33,6.19-2.86,6.79-6.18,.34-1.87-.04-3.76-.77-5.48-.85-1.98-2.22-3.41-1.97-5.58h0Z"/>
+      <path class="cls-20" d="M28.7,20.6L34.59,0l-9.35,21.55c-.49,1.12-1.29,2.07-2.27,2.83-1.98,1.52-3.35,4.55-3.35,6.9,0,3.26,2.65,5.91,5.91,5.91s5.91-2.65,5.91-5.91c0-1.66-.68-3.65-1.78-5.22-1.12-1.59-1.48-3.59-.95-5.47h0Z"/>
+      <g>
+        <g>
+          <rect class="cls-1" x="40.53" y="11.44" width="7.42" height="1.18" transform="translate(1.02 27.32) rotate(-34.7)"/>
+          <path class="cls-14" d="M48.29,11.38l-2.07-3h0c-.35,.24-.44,.73-.19,1.08l1.19,1.72c.24,.35,.73,.44,1.08,.19h0Z"/>
+        </g>
+        <rect class="cls-8" x="28.62" y="20.34" width="6.89" height=".13" transform="translate(-5.91 21.88) rotate(-34.7)"/>
+        <path class="cls-3" d="M34.92,18.43h0c-.61-.89-.4-2.11,.5-2.73l8.19-5.67,2.24,3.23-8.19,5.67c-.89,.61-2.11,.4-2.73-.5Z"/>
+        <path class="cls-7" d="M45.11,12.21c-2.93,2.18-6.53,4.81-10.08,6.39l.67,.97c.18,.27,.55,.33,.81,.15l9.33-6.46-.73-1.05h0Z"/>
+        <path class="cls-9" d="M35.29,18.99l-.76-1.1-.88,.81c-.11,.1-.14,.28-.05,.41l.18,.27c.08,.12,.25,.17,.38,.11l1.12-.5Z"/>
+        <polygon class="cls-2" points="43.19 8.5 47.13 14.18 46.84 14.39 45.52 13.46 43.29 10.25 42.9 8.7 43.19 8.5"/>
+        <rect class="cls-12" x="43.75" y="12.64" width=".39" height="1.1" transform="translate(.66 28.4) rotate(-36.07)"/>
+        <rect class="cls-18" x="42.74" y="13.33" width=".39" height="1.1" transform="translate(.06 27.94) rotate(-36.07)"/>
+        <rect class="cls-17" x="41.76" y="14.03" width=".39" height="1.1" transform="translate(-.54 27.49) rotate(-36.07)"/>
+        <rect class="cls-4" x="40.76" y="14.75" width=".39" height="1.1" transform="translate(-1.16 27.04) rotate(-36.07)"/>
+        <rect class="cls-19" x="39.75" y="15.42" width=".39" height="1.1" transform="translate(-1.75 26.58) rotate(-36.07)"/>
+        <rect class="cls-16" x="38.65" y="16.12" width=".39" height="1.1" transform="translate(-2.37 26.07) rotate(-36.07)"/>
+        <rect class="cls-11" x="37.4" y="17" width=".39" height="1.1" transform="translate(-3.13 25.5) rotate(-36.07)"/>
+      </g>
+      <path class="cls-13" d="M15.36,29.68c0,.23-.18,.41-.41,.41s-.41-.18-.41-.41,.18-.41,.41-.41,.41,.18,.41,.41Z"/>
+      <circle class="cls-13" cx="11.78" cy="34" r=".44"/>
+      <path class="cls-13" d="M17.62,38.33c0,.35-.29,.64-.64,.64s-.64-.29-.64-.64,.29-.64,.64-.64,.64,.29,.64,.64Z"/>
+      <path class="cls-13" d="M37.96,29.37c0,.16-.12,.28-.28,.28s-.28-.12-.28-.28,.12-.28,.28-.28,.28,.12,.28,.28Z"/>
+      <path class="cls-13" d="M35.98,36.04c0,.37-.29,.66-.66,.66s-.66-.29-.66-.66,.29-.66,.66-.66,.66,.29,.66,.66Z"/>
+      <path class="cls-13" d="M42.43,32.1c0,.32-.26,.58-.58,.58s-.58-.26-.58-.58,.26-.58,.58-.58,.58,.26,.58,.58Z"/>
+      <path class="cls-15" d="M29.16,25.22c-.54,4.68-2.22,10.05-7.97,8.54-.41-.05-.77-.15-1.12-.28,.88,2.17,3,3.69,5.47,3.69,3.26,0,5.91-2.65,5.91-5.91,0-1.66-.68-3.65-1.78-5.22-.18-.27-.35-.54-.5-.84h0Z"/>
+      <path class="cls-10" d="M21.97,26.63c-.64,.94-.63,2.06,0,2.49,.65,.43,1.68,.03,2.31-.91s.63-2.06,0-2.49c-.65-.43-1.68-.03-2.31,.91Z"/>
+    </g>
+  </g>
+</svg>
