@@ -101,12 +101,12 @@ export default function PricingHero() {
       <main className="relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-12 lg:pt-25 pb-50">
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0" />
          <section className="w-full max-w-full xl:max-w-6xl mx-auto">
-            <article className="w-full flex flex-col items-start gap-10 text-ivory-soft">
+            <article className="w-full flex flex-col items-start gap-6 lg:gap-10 text-ivory-soft">
                <MotionScrollInView>
                   <h1 className="text-[32px]">Pricing</h1>
                </MotionScrollInView>
                <MotionScrollInViewVariant
-                  className="flex-1 flex flex-col items-start gap-10 text-sm sm:text-[14px] leading-relaxed"
+                  className="flex-1 flex flex-col items-start gap-6 lg:gap-10 text-sm sm:text-[14px] leading-relaxed"
                   childClassname={'flex flex-col items-start'}
                >
                   {priceItems.map((item, index) => {
