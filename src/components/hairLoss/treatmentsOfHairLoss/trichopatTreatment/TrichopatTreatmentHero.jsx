@@ -5,7 +5,7 @@ import MotionRightView from '../../../common/motionRightView';
 
 export default function TrichopatTreatmentHero() {
    return (
-      <main className="relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-12 lg:pt-25 pb-50">
+      <main className="relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-12 lg:pt-25 pb-50 overflow-hidden">
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0" />
          <section className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-center justify-start gap-6">
             <MotionRightView className="w-full max-w-full">
