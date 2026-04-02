@@ -216,7 +216,7 @@ const certificationsItems = [
 
 export default function Certifications() {
    return (
-      <section className="fluid gridContainer gap-y-6 w-full py-16 lg:pb-25 lg:pt-12.5">
+      <section className="fluid gridContainer gap-y-6 w-full pt-16 pb-6 lg:pb-25 lg:pt-12.5">
          <MotionScrollInView className="w-full max-w-full xl:max-w-6xl mx-auto rounded-[10px]">
             <article className="w-full max-w-full xl:max-w-6xl mx-auto rounded-[10px] h-20 bg-wine-brown flex items-center justify-center text-ivory-soft px-4 text-center">
                <h2 className="text-[20px] sm:text-[32px]">Other Education & Training Programs</h2>

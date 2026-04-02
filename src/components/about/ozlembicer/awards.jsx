@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Awards() {
    return (
-      <div className="w-full pt-25 pb-12.5">
+      <div className="w-full pt-15 lg:pt-25 pb-0 lg:pb-12.5">
          <MotionScrollInView className="w-full max-w-full xl:max-w-6xl mx-auto rounded-[10px] bg-radial from-coffee-dark to-wine-brown py-5 px-3">
             <main className="flex flex-col items-center justify-center gap-4 sm:gap-5">
                <h2 className="text-[25px] sm:text-[32px] bg-linear-to-t from-gold to-ivory-soft text-transparent bg-clip-text">
