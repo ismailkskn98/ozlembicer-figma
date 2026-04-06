@@ -19,11 +19,11 @@ const heroSlideItems = [
       imageAlt: 'hero ozlem bicer',
       links: [
          {
-            href: '/contact',
+            href: '/about-us/clinic-team',
             text: 'Read More About Clinic',
          },
          {
-            href: '/contact',
+            href: '/contact-us',
             text: 'Book an Appointment',
          },
       ],
@@ -37,11 +37,11 @@ const heroSlideItems = [
       imageAlt: 'hero ozlem bicer team',
       links: [
          {
-            href: '/contact',
+            href: '/about-us/clinic-team',
             text: 'Read More About Clinic',
          },
          {
-            href: '/contact',
+            href: '/contact-us',
             text: 'Book an Appointment',
          },
       ],
@@ -59,7 +59,7 @@ const heroSlideItems = [
             text: 'Read More About Clinic',
          },
          {
-            href: '/contact',
+            href: '/contact-us',
             text: 'Book an Appointment',
          },
       ],

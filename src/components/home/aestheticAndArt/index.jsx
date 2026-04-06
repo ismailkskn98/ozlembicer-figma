@@ -60,7 +60,7 @@ export default function AestheticAndArt() {
                         Read More About Dr.Bicer
                      </Link>
                      <Link
-                        href="/contact"
+                        href="/contact-us"
                         className="rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm bg-ivory-soft text-coffee-dark hover:bg-ivory-soft/70 transition-colors duration-200"
                      >
                         Book an Appointment
