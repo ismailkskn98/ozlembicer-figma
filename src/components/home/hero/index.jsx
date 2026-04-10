@@ -84,13 +84,9 @@ export default function Hero() {
                {heroSlideItems.map((item, index) => (
                   <SwiperSlide key={index} className="w-full pr-1">
                      {({ isActive }) => (
-                        <div
-                           className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 xl:gap-15`}
-                        >
+                        <div className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 xl:gap-15`}>
                            <article className="order-2 lg:order-1 flex flex-col items-center lg:items-start gap-5 lg:gap-3 xl:gap-7.5 text-ivory-soft min-w-full lg:min-w-102.5">
-                              <div
-                                 className={`w-full flex items-end justify-start h-auto sm:h-37.5 xl:h-60 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
-                              >
+                              <div className={`w-full flex items-end justify-start h-auto sm:h-37.5 xl:h-60 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
                                  <h2 className="hidden lg:flex flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-11 min-[70rem]:leading-12 min-[72rem]:leading-15">
                                     {item.title.map((line, lineIndex) => (
                                        <span key={lineIndex} className="block text-nowrap">
@@ -107,12 +103,8 @@ export default function Hero() {
                                  </h2>
                               </div>
 
-                              <div
-                                 className={`w-full flex items-start justify-start h-auto min-[72rem]:h-42.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
-                              >
-                                 <p className="line-clamp-6 text-start text-sm sm:text-base w-full max-w-full lg:max-w-100 xl:max-w-87.5">
-                                    {item.description}
-                                 </p>
+                              <div className={`w-full flex items-start justify-start h-auto min-[72rem]:h-42.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
+                                 <p className="line-clamp-6 text-start text-sm sm:text-base w-full max-w-full lg:max-w-100 xl:max-w-87.5">{item.description}</p>
                               </div>
 
                               <div
