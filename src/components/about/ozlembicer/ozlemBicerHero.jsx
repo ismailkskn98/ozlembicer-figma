@@ -9,28 +9,30 @@ export default function OzlemBicerHero() {
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0" />
          <section className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:items-center justify-start lg:justify-between gap-10">
             <MotionLeftView className="order-2 lg:order-1 w-full max-w-full lg:max-w-141">
-               <article className="w-full flex flex-col items-start gap-4 text-ivory-soft">
-                  <h1 className="text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-16 flex flex-col items-start">
+               <article className="w-full flex flex-col items-start gap-7.5 text-ivory-soft">
+                  <h1 className="text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-18 flex flex-col items-start">
                      Who Is <span className="font-bold">Dr. Ozlem Bicer</span>
                   </h1>
-                  <p className="text-sm sm:text-base">
-                     Dr. Özlem Biçer was born in 1973 in Istanbul. She completed her secondary education at Anakent
-                     College in 1991 and graduated from the Faculty of Medicine at Trakya University in 1998. Following
-                     her medical degree, she completed a certified training program in hair surgery organized by the
-                     Ministry of Health of the Republic of Turkey and received official authorization to perform hair
-                     transplantation procedures.
-                  </p>
-                  <p className="text-sm sm:text-base">
-                     In 2002, Dr. Biçer further expanded her expertise through advanced training in France, focusing on
-                     hair loss treatments, mesotherapy, and medical aesthetics.
-                  </p>
-                  <p className="text-sm sm:text-base">
-                     Dr. Biçer is a hair transplant surgeon with over 25 years of medical experience. She has been
-                     performing both FUE (Follicular Unit Extraction) and FUT (Follicular Unit Transplantation)
-                     procedures throughout her career. Between 1999 and 2002, she worked in several private clinics in
-                     Istanbul, specializing in aesthetic medicine and hair surgery. Since 2002, she has been performing
-                     hair transplantation procedures at her own licensed and authorized clinic.
-                  </p>
+                  <div className="w-full">
+                     <p className="text-sm sm:text-base">
+                        Dr. Özlem Biçer was born in 1973 in İstanbul. She completed her secondary education at Anakent College in 1991 and graduated from the Faculty of Medicine at Trakya University
+                        in 1998. Following her medical degree, she completed a certified training program in hair surgery organized by the Ministry of Health of the Republic of Turkey and received
+                        official authorization to perform hair transplantation procedures.
+                        <br />
+                        <br />
+                     </p>
+                     <p className="text-sm sm:text-base">
+                        In 2002, Dr. Biçer further expanded her expertise through advanced training in France, focusing on hair loss treatments, mesotherapy, and medical aesthetics. <br />
+                        <br />
+                     </p>
+                     <p className="text-sm sm:text-base">
+                        Dr. Biçer is a hair transplant surgeon with over 25 years of medical experience. She has been performing both FUE (Follicular Unit Extraction) and FUT (Follicular Unit
+                        Transplantation) procedures throughout her career. Between 1999 and 2002, she worked in several private clinics in İstanbul, specializing in aesthetic medicine and hair
+                        surgery. Since 2002, she has been performing hair transplantation procedures at her own licensed and authorized clinic.
+                        <br />
+                        <br />
+                     </p>
+                  </div>
                </article>
             </MotionLeftView>
             <MotionRightView className="order-1 lg:order-2 w-full max-w-full lg:max-w-140.5">
