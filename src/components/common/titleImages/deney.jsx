@@ -42,7 +42,7 @@ const titleItemsData = [
       value: 'eyebrow-transplant',
       title: 'Eyebrow Transplantation',
       image: '/images/home-accordion/eyebrow-transplant.jpg',
-      icon: '/images/hair-transplant/body-hair-nobg.svg',
+      icon: '/images/hair-transplant/eyebrow.svg',
       content: {
          title: 'Eyebrow Transplantation Techniques',
          items: [{ type: 'list', items: ['FUE Micromotor', 'FUE Manuel', 'BHT', 'Reconstructive Hair Transplant'] }],
@@ -52,7 +52,7 @@ const titleItemsData = [
       value: 'female-hair-transplant',
       title: 'Female Hair Transplantation',
       image: '/images/home-accordion/female-hair-transplant.jpg',
-      icon: '/images/hair-transplant/female-nobg.svg',
+      icon: '/images/hair-transplant/female-hair.svg',
       content: {
          title: 'Female Hair Transplantation Techniques',
          items: [{ type: 'list', items: ['FUE Micromotor', 'FUE Manuel', 'BHT', 'Reconstructive Hair Transplant'] }],
@@ -127,7 +127,7 @@ export default function DeneyTitleImage() {
                                           alt={item.title}
                                           width={32}
                                           height={32}
-                                          className="object-contain h-9 w-9 object-center"
+                                          className="object-contain h-11 w-11 object-center"
                                        />
                                     </div>
                                  </div>

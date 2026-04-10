@@ -159,8 +159,8 @@ export default function PatientResultCarousel({
                               </div>
                            </div>
                            <article className="w-full grid grid-cols-3 place-content-stretch justify-items-stretch bg-coffee-dark text-ivory-soft px-2.5 rounded-[5px] min-h-15 max-h-15">
-                              <div className="relative flex flex-col items-center justify-center text-center gap-0.5">
-                                 <h5 className="font-bold text-[8px]">TECHNIQUE</h5>
+                              <div className="relative flex flex-col items-center justify-center text-center gap-px">
+                                 <h5 className="font-bold text-[10px]">TECHNIQUE</h5>
                                  <Image
                                     src="/images/heroCard-line.png"
                                     alt="line"
@@ -168,7 +168,7 @@ export default function PatientResultCarousel({
                                     height={5}
                                     className="w-12.75 h-fit object-contain object-center"
                                  />
-                                 <p className="text-[8px]">
+                                 <p className="text-[10px]">
                                     {item.technique1}
                                     <br />
                                     {item.technique2}
@@ -181,8 +181,8 @@ export default function PatientResultCarousel({
                                     className="absolute top-1/2 -translate-y-1/2 left-full -translate-x-1/2 -rotate-90 object-contain object-center w-10.5 h-4"
                                  />
                               </div>
-                              <div className="relative flex flex-col items-center justify-center text-center gap-0.5">
-                                 <h5 className="font-bold text-[8px]">GRAFTS</h5>
+                              <div className="relative flex flex-col items-center justify-center text-center gap-px">
+                                 <h5 className="font-bold text-[10px]">GRAFTS</h5>
                                  <Image
                                     src="/images/heroCard-line.png"
                                     alt="line"
@@ -190,7 +190,7 @@ export default function PatientResultCarousel({
                                     height={5}
                                     className="w-12.75 h-fit object-contain object-center"
                                  />
-                                 <p className="text-[8px]">{item.grafts}</p>
+                                 <p className="text-[10px]">{item.grafts}</p>
                                  <Image
                                     src="/images/heroCard-line.png"
                                     alt="line"
@@ -199,8 +199,8 @@ export default function PatientResultCarousel({
                                     className="absolute top-1/2 -translate-y-1/2 left-full -translate-x-1/2 -rotate-90 object-contain object-center w-10.5 h-4"
                                  />
                               </div>
-                              <div className="relative flex flex-col items-center justify-center text-center gap-0.5">
-                                 <h5 className="font-bold text-[8px]">AFTER</h5>
+                              <div className="relative flex flex-col items-center justify-center text-center gap-px">
+                                 <h5 className="font-bold text-[10px]">AFTER</h5>
                                  <Image
                                     src="/images/heroCard-line.png"
                                     alt="line"
@@ -208,7 +208,7 @@ export default function PatientResultCarousel({
                                     height={5}
                                     className="w-12.75 h-fit object-contain object-center"
                                  />
-                                 <p className="text-[8px]">{item.afterMonths}</p>
+                                 <p className="text-[10px]">{item.afterMonths}</p>
                               </div>
                            </article>
                         </div>

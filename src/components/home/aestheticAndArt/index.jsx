@@ -69,12 +69,12 @@ export default function AestheticAndArt() {
                </article>
             </MotionLeftView>
             <MotionRightView className="w-full mx-auto max-w-full lg:max-w-141 h-full order-1 lg:order-2">
-               <div className="relative w-full h-100 sm:h-120 lg:h-full rounded-2xl lg:rounded-4xl overflow-hidden">
+               <div className="relative w-full h-100 sm:h-120 lg:h-full rounded-2xl lg:rounded-4xl">
                   <Image
                      src="/images/aestheticAndArt.png"
                      alt="aesthetic and art"
                      fill
-                     className="object-cover xl:object-contain object-center w-full h-full rounded-2xl lg:rounded-4xl"
+                     className="object-cover object-center w-full h-full rounded-2xl lg:rounded-4xl"
                   />
                </div>
             </MotionRightView>

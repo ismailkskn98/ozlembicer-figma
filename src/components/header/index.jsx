@@ -1,5 +1,4 @@
 import { Link } from '@/i18n/navigation';
-import Image from 'next/image';
 import React from 'react';
 import Navbar from './navbar';
 // import LanguageChange from './languageChange'
@@ -7,6 +6,7 @@ import TemporaryLanguageChange from './temporaryLanguageChange';
 import MotionScrollInViewOpacity from '../common/motionScrollInViewOpacity';
 import { SlMenu } from 'react-icons/sl';
 import MobilNavbar from './mobilNavbar';
+import HeaderLogo from './headerLogo';
 
 export default function Header() {
    return (
@@ -14,16 +14,7 @@ export default function Header() {
          <header className="w-full fluid gridContainer bg-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 border-b border-gold">
             <MotionScrollInViewOpacity className="w-full flex items-center">
                <section className="w-full h-full max-w-full lg:max-w-6xl mx-auto flex items-center justify-between">
-                  <Link href={'/'} className="relative h-[99%] w-fit flex items-center justify-center">
-                     <div className="absolute left-1/2 top-1/2 -translate-1/2 w-[200%] h-[99%] bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark" />
-                     <Image
-                        src="/images/logo.jpg"
-                        alt="ozlembicer logo"
-                        width={150}
-                        height={100}
-                        className="relative z-20 object-contain object-center w-fit sm:min-w-31.25 h-9 sm:h-10 lg:h-11 xl:h-15"
-                     />
-                  </Link>
+                  <HeaderLogo />
                   <main className="hidden md:flex items-center">
                      <Navbar />
                      <div className="w-fit h-fit md:inline-block hidden">

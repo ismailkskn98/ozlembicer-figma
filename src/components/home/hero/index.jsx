@@ -74,32 +74,31 @@ export default function Hero() {
             <Swiper
                modules={[EffectFade, Autoplay]}
                effect="fade"
-               spaceBetween={50}
-               slidesPerView={3}
+               slidesPerView={1}
                loop={true}
                autoplay={{
-                  delay: 5000,
+                  delay: 500000,
                   disableOnInteraction: false,
                }}
             >
                {heroSlideItems.map((item, index) => (
-                  <SwiperSlide key={index} className="w-full">
+                  <SwiperSlide key={index} className="w-full pr-1">
                      {({ isActive }) => (
                         <div
-                           className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 md:gap-15`}
+                           className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 xl:gap-15`}
                         >
-                           <article className="order-2 lg:order-1 flex flex-col items-center lg:items-start gap-5 xl:gap-7.5 text-ivory-soft min-w-full lg:min-w-102.5">
+                           <article className="order-2 lg:order-1 flex flex-col items-center lg:items-start gap-5 lg:gap-3 xl:gap-7.5 text-ivory-soft min-w-full lg:min-w-102.5">
                               <div
-                                 className={`w-full flex items-end justify-start h-auto sm:h-37.5 lg:h-55 xl:h-60 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
+                                 className={`w-full flex items-end justify-start h-auto sm:h-37.5 xl:h-60 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                               >
-                                 <h2 className="hidden lg:flex flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15">
+                                 <h2 className="hidden lg:flex flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-11 min-[70rem]:leading-12 min-[72rem]:leading-15">
                                     {item.title.map((line, lineIndex) => (
                                        <span key={lineIndex} className="block text-nowrap">
                                           {line}
                                        </span>
                                     ))}
                                  </h2>
-                                 <h2 className="flex lg:hidden flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[50px] leading-11 lg:leading-14 xl:leading-15">
+                                 <h2 className="flex lg:hidden flex-col items-start text-start justify-end font-bold text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-11 lg:leading-12 min-[72rem]:leading-15">
                                     {item.mobileTitle.map((line, lineIndex) => (
                                        <span key={lineIndex} className="block text-nowrap">
                                           {line}
@@ -109,7 +108,7 @@ export default function Hero() {
                               </div>
 
                               <div
-                                 className={`w-full flex items-start justify-start h-auto lg:h-42.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
+                                 className={`w-full flex items-start justify-start h-auto min-[72rem]:h-42.5 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                               >
                                  <p className="line-clamp-6 text-start text-sm sm:text-base w-full max-w-full lg:max-w-100 xl:max-w-87.5">
                                     {item.description}
@@ -117,7 +116,7 @@ export default function Hero() {
                               </div>
 
                               <div
-                                 className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-auto lg:h-11 transition-all duration-500 mt-4 lg:mt-0 ${isActive ? 'opacity-100' : 'opacity-0'}`}
+                                 className={`w-full flex flex-row items-center justify-end gap-3 sm:gap-6 h-auto min-[70rem]:h-11 transition-all duration-500 mt-4 xl:mt-0 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                               >
                                  {item.links.map((link, linkIndex) => (
                                     <Link
@@ -134,15 +133,17 @@ export default function Hero() {
                                  ))}
                               </div>
                            </article>
+
                            <Image
                               src={item.imageSrc}
                               alt={item.imageAlt}
                               width={1200}
                               height={800}
-                              //   className={`order-1 lg:order-2 object-cover lg:object-size object-center lg:object-top w-full lg:w-145 xl:w-165.5 h-70 sm:h-80 md:h-90 lg:h-110 xl:h-[496.5px] rounded-lg transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                               className={cn(
-                                 'order-1 lg:order-2 object-cover lg:object-size object-center lg:object-top w-full lg:w-145 xl:w-165.5 h-80 md:h-110 xl:h-[496.5px] rounded-lg transition-all duration-500',
+                                 // 'order-1 lg:order-2 object-cover object-center lg:object-top flex-1 w-full xl:w-165.5 h-80 md:h-110 lg:h-100 xl:h-[496.5px] rounded-lg transition-all duration-500',
+                                 'order-1 lg:order-2 object-cover object-center lg:object-top flex-1 w-full aspect-678/510 min-[65rem]:aspect-678/495 rounded-lg transition-all duration-500',
                                  isActive ? 'opacity-100' : 'opacity-0',
+                                 index === 1 && 'object-cover lg:object-fill',
                                  {
                                     'object-top': index !== 0,
                                  },

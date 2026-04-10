@@ -64,7 +64,7 @@ export default function YoutubeCarousel({ videos = [] }) {
                         videoSrc={`https://www.youtube.com/embed/${item.id.videoId}?si=oTPj5Q6sfN3Vuxav`}
                      />
                      <div className="w-full bg-wine-brown p-2.5 rounded-[5px] aspect-14/3 flex items-center justify-center">
-                        <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[8px]">
+                        <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[10px]">
                            <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
                            {item.snippet.description.length > 0 && (
                               <p className="sm:block hidden lowercase line-clamp-2">{item.snippet.description}</p>
