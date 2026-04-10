@@ -25,7 +25,7 @@ const appointmentSteps = [
       titleBr: 'Consultation',
       hoverTitle: 'Fill Application',
       hoverTitleBr: 'Form',
-      image: '/images/appointment-icon-2-new.png',
+      image: '/images/appointment-icon-2-new.webp',
       alt: 'consultation',
       imageWidth: 'w-14 sm:w-16 lg:w-69.25',
       description:
@@ -37,7 +37,7 @@ const appointmentSteps = [
       titleBr: 'Appointment',
       hoverTitle: 'Fill Application',
       hoverTitleBr: 'Form',
-      image: '/images/appointment-icon-3-new.png',
+      image: '/images/appointment-icon-3-new.webp',
       alt: 'appointment',
       imageWidth: 'w-14 sm:w-16 lg:w-69.25',
       description:
@@ -50,10 +50,7 @@ export default function HowToAppointment() {
       <section className="w-full py-15">
          <main className="w-full flex flex-col items-start lg:items-center justify-start lg:justify-center gap-6">
             <MotionScrollInView className="w-full">
-               <Pageh3Title
-                  title=" How To Make An Appointment"
-                  className="border-b border-coffee-dark text-coffee-dark font-normal w-full max-w-6xl lg:mx-auto"
-               />
+               <Pageh3Title title=" How To Make An Appointment" className="border-b border-coffee-dark text-coffee-dark font-normal w-full max-w-6xl lg:mx-auto" />
             </MotionScrollInView>
             <div className="w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-3 gap-3 lg:gap-6">
                {appointmentSteps.map((step) => (
@@ -66,19 +63,9 @@ export default function HowToAppointment() {
                         <span className="text-[48px] text-ivory-soft/30 leading-none font-light">{step.id}</span>
                         <div className="flex flex-col items-center gap-2">
                            {step.image ? (
-                              <Image
-                                 src={step.image}
-                                 alt={step.alt}
-                                 width={48}
-                                 height={48}
-                                 className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
-                              />
+                              <Image src={step.image} alt={step.alt} width={48} height={48} className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
                            ) : (
-                              <step.icon
-                                 className="w-10 h-10 sm:w-12 sm:h-12 text-ivory-soft"
-                                 strokeWidth={0.75}
-                                 absoluteStrokeWidth
-                              />
+                              <step.icon className="w-10 h-10 sm:w-12 sm:h-12 text-ivory-soft" strokeWidth={0.75} absoluteStrokeWidth />
                            )}
                            <p className="text-center text-ivory-soft/80 text-[11px] leading-snug tracking-wide uppercase">
                               <span className="text-nowrap">{step.title}</span>
@@ -138,19 +125,14 @@ export default function HowToAppointment() {
                      <br /> Istanbul, Turkey
                   </h3>
                   <p className="max-w-full lg:max-w-141">
-                     Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International
-                     Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained
-                     nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
+                     Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team
+                     of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
                   </p>
                </article>
                <article className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5">
-                  <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">
-                     Contact US
-                  </span>
+                  <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
                   <div className="w-fit flex flex-col items-center justify-center gap-2 absolute left-1/2 top-1/2 -translate-1/2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300">
-                     <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">
-                        Contact US
-                     </span>
+                     <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
                      <div className="flex flex-col items-center justify-center text-[23px] sm:text-[28px] lg:text-[32px]">
                         <a href="mailto:info@ozlembicer.com">info@ozlembicer.com</a>
                         <a href="tel:+905334141313">+90 (533) 414 13 13</a>

@@ -24,13 +24,7 @@ export default function MobilNavbar({ children }) {
                <header className="w-full flex items-center justify-between gap-3 px-6 py-4 border-b border-gold min-h-20">
                   <SheetClose asChild>
                      <Link href={'/'} className="h-fit w-fit cursor-pointer">
-                        <Image
-                           src="/images/logo.jpg"
-                           alt="ozlembicer logo"
-                           width={150}
-                           height={100}
-                           className="object-contain object-center w-fit min-w-25 h-8"
-                        />
+                        <Image src="/images/logo.webp" alt="ozlembicer logo" width={150} height={100} className="object-contain object-center w-fit min-w-25 h-8" />
                      </Link>
                   </SheetClose>
                   <SheetClose asChild>
@@ -119,10 +113,7 @@ export default function MobilNavbar({ children }) {
                               </>
                            ) : (
                               <SheetClose asChild>
-                                 <Link
-                                    href={item.href}
-                                    className="block py-3 px-3 text-ivory-soft hover:bg-wine-brown/50 rounded-lg transition-colors duration-200 text-sm capitalize font-medium"
-                                 >
+                                 <Link href={item.href} className="block py-3 px-3 text-ivory-soft hover:bg-wine-brown/50 rounded-lg transition-colors duration-200 text-sm capitalize font-medium">
                                     {item.item}
                                  </Link>
                               </SheetClose>
@@ -134,16 +125,10 @@ export default function MobilNavbar({ children }) {
 
                <footer className="px-6 py-4 border-t border-gold/30 mt-auto flex items-center justify-between gap-3">
                   <article className="space-y-1">
-                     <a
-                        href="mailto:info@ozlembicer.com"
-                        className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200 break-all"
-                     >
+                     <a href="mailto:info@ozlembicer.com" className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200 break-all">
                         info@ozlembicer.com
                      </a>
-                     <a
-                        href="tel:+904141313"
-                        className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200"
-                     >
+                     <a href="tel:+904141313" className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200">
                         +90 (414) 13 13
                      </a>
                   </article>

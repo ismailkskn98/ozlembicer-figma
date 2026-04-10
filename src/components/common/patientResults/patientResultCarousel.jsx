@@ -92,14 +92,7 @@ const localCarouselItems = [
    },
 ];
 
-export default function PatientResultCarousel({
-   carouselItems = [],
-   showNavigation = true,
-   delay = 4000,
-   rows = 1,
-   slidesPerView = 3,
-   blur = true,
-}) {
+export default function PatientResultCarousel({ carouselItems = [], showNavigation = true, delay = 4000, rows = 1, slidesPerView = 3, blur = true }) {
    const id = useId();
    const prevId = `patient-prev-${id}`;
    const nextId = `patient-next-${id}`;
@@ -137,44 +130,26 @@ export default function PatientResultCarousel({
                <SwiperSlide className="py-3 px-2" key={index}>
                   {({ isActive }) => (
                      <section className="bg-linear-to-b from-stone-beige to-ivory-soft p-2.5 rounded-[10px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] aspect-15/17">
-                        <div
-                           className={`w-full h-full flex flex-col items-center justify-between gap-2 sm:gap-5 rounded-[10px] ${blur && !isActive ? 'blur-[2px]' : ''}`}
-                        >
+                        <div className={`w-full h-full flex flex-col items-center justify-between gap-2 sm:gap-5 rounded-[10px] ${blur && !isActive ? 'blur-[2px]' : ''}`}>
                            <div className="w-full flex items-center gap-1.25 aspect-7/6">
                               <div className="relative w-full aspect-137/240 rounded-[5px] overflow-hidden">
-                                 <Image
-                                    src={item.beforeImage}
-                                    alt={`Patient before ${index + 1}`}
-                                    fill
-                                    className="w-full h-full object-cover object-center rounded-[5px]"
-                                 />
+                                 <Image src={item.beforeImage} alt={`Patient before ${index + 1}`} fill className="w-full h-full object-cover object-center rounded-[5px]" />
                               </div>
                               <div className="relative w-full aspect-137/240 rounded-[5px] overflow-hidden">
-                                 <Image
-                                    src={item.afterImage}
-                                    alt={`Patient after ${index + 1}`}
-                                    fill
-                                    className="w-full h-full object-cover object-center rounded-[5px]"
-                                 />
+                                 <Image src={item.afterImage} alt={`Patient after ${index + 1}`} fill className="w-full h-full object-cover object-center rounded-[5px]" />
                               </div>
                            </div>
                            <article className="w-full grid grid-cols-3 place-content-stretch justify-items-stretch bg-coffee-dark text-ivory-soft px-2.5 rounded-[5px] min-h-15 max-h-15">
                               <div className="relative flex flex-col items-center justify-center text-center gap-px">
                                  <h5 className="font-bold text-[10px]">TECHNIQUE</h5>
-                                 <Image
-                                    src="/images/heroCard-line.png"
-                                    alt="line"
-                                    width={60}
-                                    height={5}
-                                    className="w-12.75 h-fit object-contain object-center"
-                                 />
+                                 <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className="w-12.75 h-fit object-contain object-center" />
                                  <p className="text-[10px]">
                                     {item.technique1}
                                     <br />
                                     {item.technique2}
                                  </p>
                                  <Image
-                                    src="/images/heroCard-line.png"
+                                    src="/images/heroCard-line.webp"
                                     alt="line"
                                     width={50}
                                     height={5}
@@ -183,16 +158,10 @@ export default function PatientResultCarousel({
                               </div>
                               <div className="relative flex flex-col items-center justify-center text-center gap-px">
                                  <h5 className="font-bold text-[10px]">GRAFTS</h5>
-                                 <Image
-                                    src="/images/heroCard-line.png"
-                                    alt="line"
-                                    width={60}
-                                    height={5}
-                                    className="w-12.75 h-fit object-contain object-center"
-                                 />
+                                 <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className="w-12.75 h-fit object-contain object-center" />
                                  <p className="text-[10px]">{item.grafts}</p>
                                  <Image
-                                    src="/images/heroCard-line.png"
+                                    src="/images/heroCard-line.webp"
                                     alt="line"
                                     width={50}
                                     height={5}
@@ -201,13 +170,7 @@ export default function PatientResultCarousel({
                               </div>
                               <div className="relative flex flex-col items-center justify-center text-center gap-px">
                                  <h5 className="font-bold text-[10px]">AFTER</h5>
-                                 <Image
-                                    src="/images/heroCard-line.png"
-                                    alt="line"
-                                    width={60}
-                                    height={5}
-                                    className="w-12.75 h-fit object-contain object-center"
-                                 />
+                                 <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className="w-12.75 h-fit object-contain object-center" />
                                  <p className="text-[10px]">{item.afterMonths}</p>
                               </div>
                            </article>
