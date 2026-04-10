@@ -52,7 +52,7 @@ const titleItemsData = [
    },
 ];
 
-function MobileContent({ isOpen, onClick, children }) {
+function MobileContent({ isOpen, children }) {
    const contentRef = useRef(null);
    const [height, setHeight] = useState(0);
 
@@ -71,10 +71,9 @@ function MobileContent({ isOpen, onClick, children }) {
          style={{
             height: height + 'px',
             overflow: 'hidden',
-            transition: 'height 100ms ease',
+            transition: 'height 300ms ease',
          }}
          className="md:hidden"
-         onClick={isOpen ? onClick : undefined}
       >
          <div ref={contentRef}>{children}</div>
       </div>
@@ -114,40 +113,43 @@ export default function DeneyTitleImage() {
 
    return (
       <main className="w-full max-w-full xl:max-w-6xl mx-auto rounded-4xl lg:mb-10 mt-0 lg:mt-10 overflow-hidden">
-         <div className="w-full flex flex-col md:flex-row md:h-150 items-stretch gap-0">
+         <div className="w-full flex flex-col md:flex-row min-h-[70vh] md:min-h-min md:h-150 items-stretch gap-0">
             {titleItemsData.map((item) => {
                const isOpen = selectedItem === item.value;
-               console.log('selectedItem: ', selectedItem);
+
                return (
                   <div
                      key={item.value}
-                     className={cn('relative w-full overflow-hidden flex transition-all duration-300 ease-in-out min-h-[17.5vh]', 'md:min-h-0 md:w-auto md:h-full', isOpen ? 'md:flex-7' : 'md:flex-1')}
+                     className={cn('relative w-full overflow-hidden flex', 'md:w-auto md:h-full md:transition-all md:duration-300 md:ease-in-out', isOpen ? 'md:flex-7' : 'md:flex-1')}
                   >
-                     <div className="relative min-h-[17.5vh] h-full flex-1 flex flex-col w-full overflow-hidden">
+                     <div className="relative h-full flex-1 flex flex-col w-full overflow-hidden">
                         <div className="absolute inset-0 z-0">
                            <Image src={item.image} alt={item.title} fill className="object-cover" sizes="100vw" priority={item.value === 'hair-transplant'} />
                         </div>
 
                         {!isOpen && (
-                           <button type="button" onClick={() => handleItemClick(item.value)} className="absolute inset-x-0 top-0 h-[17.5vh] z-20 w-full md:inset-0 md:h-full p-0 text-left">
-                              <div className="relative h-full w-full flex items-start md:items-end justify-center md:pb-10 cursor-pointer">
-                                 <div
-                                    className={cn(
-                                       'absolute inset-0 flex flex-row md:flex-col items-center justify-between gap-4 md:gap-0 px-4 md:px-0 py-4 md:py-6 transition-all duration-200 bg-coffee-dark/60 md:bg-coffee-dark/80 hover:bg-coffee-dark/30 md:hover:bg-coffee-dark/50',
-                                    )}
-                                 >
+                           <button type="button" onClick={() => handleItemClick(item.value)} className="relative z-20 w-full min-h-15 md:h-full p-0 text-left">
+                              <div className="h-full w-full flex items-start md:items-end justify-center md:pb-10 cursor-pointer">
+                                 <div className="absolute inset-0 flex flex-row md:flex-col items-center justify-between gap-4 md:gap-0 px-4 md:px-0 py-4 md:py-6 bg-coffee-dark/80 hover:bg-coffee-dark/50 transition-all duration-200">
                                     <h2 className="text-ivory-soft text-base md:text-lg font-medium tracking-wider whitespace-nowrap md:[writing-mode:vertical-rl]">{item.title}</h2>
+
                                     <Image src={item.icon} alt={item.title} width={32} height={32} className="object-contain h-11 w-11 object-center" />
                                  </div>
                               </div>
                            </button>
                         )}
 
-                        <MobileContent isOpen={isOpen} onClick={() => handleItemClick(item.value)}>
-                           <div className="absolute inset-0 z-10 bg-coffee-dark/55" />
-                           <div className="relative z-20 p-6">
+                        <MobileContent isOpen={isOpen}>
+                           <div className="relative z-20 pt-4 sm:pt-6 pb-4 sm:pb-6 px-4 sm:px-6">
+                              <div className="absolute inset-0 z-10 bg-coffee-dark/55" />
+
                               <div className="relative z-20">
+                                 <button type="button" onClick={() => handleItemClick(item.value)} className="mb-4 text-ivory-soft text-sm underline">
+                                    Close
+                                 </button>
+
                                  <h2 className="text-[20px] text-ivory-soft font-semibold mb-3.5">{item.title}</h2>
+
                                  <h3 className="text-base text-ivory-soft mb-2.5">{item.content.title}</h3>
 
                                  {item.content.items.map((contentItem, idx) => (
