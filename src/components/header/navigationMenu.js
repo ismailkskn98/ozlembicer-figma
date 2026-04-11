@@ -36,12 +36,12 @@ export const navigationMenu = [
       links: [
          {
             href: '/hair-transplant',
-            label: 'Hair Transplant',
+            label: 'Hair Transplantat',
             submenu: [
                { href: '/hair-transplant#fue-micro-motor', label: 'FUE (Micro Motor)' },
                { href: '/hair-transplant#fue-manuel', label: 'FUE (Manuel)' },
-               { href: '/hair-transplant#body-hair-transplant', label: 'BHT (Body Hair)' },
-               { href: '/hair-transplant#reconstructive-hair-transplant', label: 'Reconstructive' },
+               { href: '/hair-transplant#body-hair-transplant', label: 'Body Hair Transplantation' },
+               { href: '/hair-transplant#reconstructive-hair-transplant', label: 'Reconstructive Hair Transp.' },
                { href: '/hair-transplant#long-hair', label: 'Long Hair (Unshaven)' },
                { href: '/hair-transplant#fut', label: 'FUT' },
             ],
