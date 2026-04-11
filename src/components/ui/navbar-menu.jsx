@@ -1,9 +1,10 @@
 'use client';
 import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Link } from '@/i18n/navigation';
+import { Link, usePathname } from '@/i18n/navigation';
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
+import { useLenis } from 'lenis/react';
 
 const transition = {
    type: 'spring',
@@ -22,10 +23,25 @@ export const MenuHoverContext = React.createContext({ registerHover: () => {}, u
 
 export const MenuItem = ({ setActive, active, item, className, isLinks, href, children }) => {
    const hoverCtx = React.useContext(MenuHoverContext);
+   const pathname = usePathname();
+   const lenis = useLenis();
+
    return (
       <div className="relative">
          {!href && isLinks ? (
-            <motion.p onMouseEnter={() => setActive(item)} transition={{ duration: 0.3 }} className={cn('', className)}>
+            <motion.p
+               onMouseEnter={() => setActive(item)}
+               transition={{ duration: 0.3 }}
+               onClick={() => {
+                  if (pathname !== '/hair-transplant') return;
+                  if (lenis) {
+                     lenis.scrollTo(0, { duration: 1.2 });
+                  } else {
+                     window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }
+               }}
+               className={cn('', className)}
+            >
                {item}
             </motion.p>
          ) : (
