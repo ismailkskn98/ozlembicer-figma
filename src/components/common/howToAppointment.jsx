@@ -17,7 +17,7 @@ const appointmentSteps = [
       alt: 'whatsapp',
       imageWidth: 'w-14 sm:w-16 lg:w-69.25',
       description:
-         "Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients' dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology.",
+         'Reach out to us on WhatsApp and get connected with a dedicated patient consultant who speaks your language. Fill out the form provided by your consultant and schedule your online consultation with Dr. Biçer.',
    },
    {
       id: 2,
@@ -29,7 +29,7 @@ const appointmentSteps = [
       alt: 'consultation',
       imageWidth: 'w-14 sm:w-16 lg:w-69.25',
       description:
-         "Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients' dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology.",
+         'Have a one-on-one online consultation with Dr. Biçer to receive a personalized assessment and detailed information about your treatment and process. Together with your consultant, proceed with planning the next steps.',
    },
    {
       id: 3,
@@ -41,7 +41,7 @@ const appointmentSteps = [
       alt: 'appointment',
       imageWidth: 'w-14 sm:w-16 lg:w-69.25',
       description:
-         "Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients' dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology.",
+         'Finalize your treatment plan and confirm your appointment with the guidance of your consultant. After your procedure, your patient consultant will stay in continuous contact with you for one year, closely monitoring your progress, providing updates, and supporting you throughout your entire recovery journey.',
    },
 ];
 
@@ -56,22 +56,30 @@ export default function HowToAppointment() {
                {appointmentSteps.map((step) => (
                   <article
                      key={step.id}
-                     className="group flex flex-col items-center justify-center bg-coffee-dark rounded-xl sm:rounded-2xl lg:rounded-4xl py-4 sm:py-5 lg:pt-4 lg:pb-14.75 px-1.5 sm:px-2 xl:px-2.5 lg:aspect-368/380"
+                     className="group flex flex-col items-center justify-center bg-coffee-dark rounded-xl sm:rounded-2xl lg:rounded-4xl py-4 sm:py-5 lg:pt-4 lg:pb-14.75 px-1.5 sm:px-2 xl:px-2.5 md:aspect-368/380"
                   >
                      {/* Mobile */}
-                     <div className="flex flex-col items-center justify-between gap-3 lg:hidden w-full h-full px-2 py-1">
-                        <span className="text-[48px] text-ivory-soft/30 leading-none font-light">{step.id}</span>
-                        <div className="flex flex-col items-center gap-2">
-                           {step.image ? (
-                              <Image src={step.image} alt={step.alt} width={48} height={48} className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
-                           ) : (
-                              <step.icon className="w-10 h-10 sm:w-12 sm:h-12 text-ivory-soft" strokeWidth={0.75} absoluteStrokeWidth />
-                           )}
-                           <p className="text-center text-ivory-soft/80 text-[11px] leading-snug tracking-wide uppercase">
+                     <div className="flex flex-col items-center lg:justify-between gap-3 lg:hidden w-full h-full px-2 py-1">
+                        <div className="flex items-center gap-0.5">
+                           <span className="text-[27px] min-[35rem]:text-[36px] sm:text-[48px] md:text-[56px] min-[56.25rem]:text-[64px] text-ivory-soft leading-none font-light">{step.id}</span>
+                           <p className="text-start text-ivory-soft text-[10px] min-[35rem]:text-sm sm:text-base md:text-lg min-[56.25rem]:text-2xl leading-2.5 min-[35rem]:leading-4 sm:leading-5 min-[56.25rem]-leading-7 uppercase">
                               <span className="text-nowrap">{step.title}</span>
                               <br />
                               {step.titleBr}
                            </p>
+                        </div>
+                        <div className="flex flex-col items-center gap-2">
+                           {step.image ? (
+                              <Image
+                                 src={step.image}
+                                 alt={step.alt}
+                                 width={120}
+                                 height={120}
+                                 className="w-10 h-10 sm:w-16 md:w-28 sm:h-16 md:h-28 min-[56.25rem]:w-32 min-[56.25rem]:h-32 object-contain"
+                              />
+                           ) : (
+                              <step.icon className="w-10 h-10 sm:w-16 md:w-28 sm:h-16 md:h-28 min-[56.25rem]:w-32 min-[56.25rem]:h-32 text-ivory-soft" strokeWidth={0.75} absoluteStrokeWidth />
+                           )}
                         </div>
                      </div>
 

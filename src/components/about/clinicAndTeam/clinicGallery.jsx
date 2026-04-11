@@ -85,13 +85,13 @@ export default function ClinicGallery() {
                <button
                   key={i}
                   onClick={() => setIndex(i)}
-                  className="relative grow basis-30 sm:basis-43 lg:basis-30 xl:basis-36.5 shrink w-full aspect-square overflow-hidden rounded-sm cursor-pointer"
+                  className="relative grow basis-30 sm:basis-43 lg:basis-30 xl:basis-30 shrink w-full aspect-square lg:aspect-auto overflow-hidden rounded-[5px] cursor-pointer"
                >
                   <Image
                      src={photo.src}
                      alt={`clinic gallery ${i + 1}`}
                      fill
-                     className="object-cover hover:scale-105 transition-transform duration-300"
+                     className="object-cover hover:scale-105 transition-transform duration-300 rounded-[5px]"
                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                   />
                </button>
