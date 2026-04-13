@@ -137,16 +137,20 @@ export default function HowToAppointment() {
                      of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
                   </p>
                </article>
-               <article className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5">
+               <a
+                  href="https://wa.me/905304141313"
+                  target="_blank"
+                  className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5 cursor-pointer"
+               >
                   <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
                   <div className="w-fit flex flex-col items-center justify-center gap-2 absolute left-1/2 top-1/2 -translate-1/2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300">
                      <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
                      <div className="flex flex-col items-center justify-center text-[23px] sm:text-[28px] lg:text-[32px]">
-                        <a href="mailto:info@ozlembicer.com">info@ozlembicer.com</a>
-                        <a href="tel:+905334141313">+90 (533) 414 13 13</a>
+                        <span>info@ozlembicer.com</span>
+                        <span>+90 (530) 414 13 13</span>
                      </div>
                   </div>
-               </article>
+               </a>
             </MotionScrollInView>
          </main>
       </section>

@@ -23,11 +23,15 @@ export default function Footer() {
                         </div>
                         <div className="w-full flex items-center justify-center md:justify-between">
                            <div className="flex-1 w-full text-start text-nowrap">Mobile & WhatsApp:</div>
-                           <div className="flex-1 w-full text-end md:text-start text-nowrap">+90 530 414 13 13</div>
+                           <a href="tel:+905304141313" target="_blank" className="flex-1 w-full text-end md:text-start text-nowrap">
+                              +90 530 414 13 13
+                           </a>
                         </div>
                         <div className="w-full flex items-center justify-center md:justify-between">
                            <div className="flex-1 w-full text-start text-nowrap">E-Mail:</div>
-                           <div className="flex-1 w-full text-end md:text-start text-nowrap">info@ozlembicer.com</div>
+                           <a href="mailto:info@ozlembicer.com" target="_blank" className="flex-1 w-full text-end md:text-start text-nowrap">
+                              info@ozlembicer.com
+                           </a>
                         </div>
                      </div>
                      <div className="flex items-center gap-5">
