@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import MotionScrollInView from './motionScrollInView';
-import MotionScrollInViewVariant from './motionScrollInViewVariant';
 import { Phone } from 'lucide-react';
 import Pageh3Title from './pageh3Title';
 
