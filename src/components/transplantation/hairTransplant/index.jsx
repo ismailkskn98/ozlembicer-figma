@@ -39,20 +39,19 @@ export default function HairTransplantMain() {
                   boldTitle: 'FUE Hair Transplant?',
                   description1:
                      'FUE hair transplant (Follicular Unit Extraction) is a modern and minimally invasive hair restoration technique used to treat hair loss in both men and women. In this method, individual hair follicles—called follicular units—are extracted one by one from the donor area, usually the back and sides of the scalp, and transplanted into areas affected by hair loss.',
-                  description2:
-                     'Each follicular unit naturally contains 1 to 4 hairs, allowing the surgeon to achieve a natural hair density and appearance.',
+                  description2: 'Each follicular unit naturally contains 1 to 4 hairs, allowing the surgeon to achieve a natural hair density and appearance.',
                   imageUrl: '/images/hair-transplant/fue-micro-motor.png',
                }}
             >
                <HowDoesItWork
                   images={[
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 1' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 2' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 3' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 4' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
+                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
+                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
+                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
+                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
+                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
+                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
+                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
                   ]}
                   title={['What Are the Steps of', 'FUE Hair Transplantation?']}
                   content={[
@@ -76,12 +75,7 @@ export default function HairTransplantMain() {
                      },
                      {
                         type: 'list',
-                        value: [
-                           'Medical photographs are taken',
-                           'Blood tests are performed',
-                           'Electrocardiography (ECG) is completed',
-                           'Trichoscopic examination is conducted',
-                        ],
+                        value: ['Medical photographs are taken', 'Blood tests are performed', 'Electrocardiography (ECG) is completed', 'Trichoscopic examination is conducted'],
                      },
                      {
                         type: 'paragraph',
@@ -167,20 +161,19 @@ export default function HairTransplantMain() {
                   boldTitle: 'FUE Hair Transplant?',
                   description1:
                      'FUE hair transplant (Follicular Unit Extraction) is a modern and minimally invasive hair restoration technique used to treat hair loss in both men and women. In this method, individual hair follicles—called follicular units—are extracted one by one from the donor area, usually the back and sides of the scalp, and transplanted into areas affected by hair loss.',
-                  description2:
-                     'Each follicular unit naturally contains 1 to 4 hairs, allowing the surgeon to achieve a natural hair density and appearance.',
+                  description2: 'Each follicular unit naturally contains 1 to 4 hairs, allowing the surgeon to achieve a natural hair density and appearance.',
                   imageUrl: '/images/hair-transplant/fue-micro-motor.png',
                }}
             >
                <HowDoesItWork
                   images={[
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 1' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 2' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 3' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 4' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
+                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
+                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
+                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
+                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
+                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
+                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
+                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
                   ]}
                   title={['What Are the Steps of', 'FUE Hair Transplantation?']}
                   content={[
@@ -204,12 +197,7 @@ export default function HairTransplantMain() {
                      },
                      {
                         type: 'list',
-                        value: [
-                           'Medical photographs are taken',
-                           'Blood tests are performed',
-                           'Electrocardiography (ECG) is completed',
-                           'Trichoscopic examination is conducted',
-                        ],
+                        value: ['Medical photographs are taken', 'Blood tests are performed', 'Electrocardiography (ECG) is completed', 'Trichoscopic examination is conducted'],
                      },
                      {
                         type: 'paragraph',
@@ -268,11 +256,7 @@ export default function HairTransplantMain() {
                      { type: 'paragraph', value: 'The day after surgery, you return to the clinic for:' },
                      {
                         type: 'list',
-                        value: [
-                           'WRemoval of bandages',
-                           'Medical examination by Dr. Biçer',
-                           'Postoperative photographs',
-                        ],
+                        value: ['WRemoval of bandages', 'Medical examination by Dr. Biçer', 'Postoperative photographs'],
                      },
                      {
                         type: 'paragraph',
@@ -326,20 +310,19 @@ export default function HairTransplantMain() {
                   boldTitle: 'Body Hair Transplant?',
                   description1:
                      'Body Hair Transplantation (BHT) is an advanced hair restoration technique used when the scalp does not provide enough suitable donor hair for a standard hair transplant. In a conventional hair transplant, hair follicles are typically harvested from the back and sides of the scalp. However, some patients have a limited or depleted scalp donor area, making additional donor sources necessary.',
-                  description2:
-                     'In such cases, hair follicles can be harvested from other parts of the body—most commonly the beard and, in selected cases, the chest—and transplanted to the scalp.',
+                  description2: 'In such cases, hair follicles can be harvested from other parts of the body—most commonly the beard and, in selected cases, the chest—and transplanted to the scalp.',
                   imageUrl: '/images/hair-transplant/body-hair.png',
                }}
             >
                <HowDoesItWork
                   images={[
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 1' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 2' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 3' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 4' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
+                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
+                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
+                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
+                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
+                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
+                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
+                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
                   ]}
                   title={['When Is Body Hair', 'Transplantation Recommended?']}
                   content={[
@@ -382,13 +365,13 @@ export default function HairTransplantMain() {
             >
                <HowDoesItWork
                   images={[
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 1' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 2' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 3' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 4' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
+                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
+                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
+                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
+                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
+                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
+                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
+                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
                   ]}
                   title={['Who Needs', 'Reconstructive Hair Transplantation?']}
                   content={[
@@ -436,13 +419,13 @@ export default function HairTransplantMain() {
             >
                <HowDoesItWork
                   images={[
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 1' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 2' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 3' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 4' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
+                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
+                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
+                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
+                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
+                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
+                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
+                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
                   ]}
                   title={['Who Needs', 'Long Hair Transplantation?']}
                   content={[
@@ -479,8 +462,7 @@ export default function HairTransplantMain() {
                generalInfoProps={{
                   title: 'What Is',
                   boldTitle: 'FUT Hair Transplant?',
-                  description1:
-                     'FUT (Follicular Unit Transplantation)—also known as strip hair transplantation—is one of the most established hair transplant techniques. ',
+                  description1: 'FUT (Follicular Unit Transplantation)—also known as strip hair transplantation—is one of the most established hair transplant techniques. ',
                   description2:
                      'In the FUT method, a thin strip of hair-bearing scalp is surgically removed from the back of the head (donor area). The incision is then closed with sutures. The harvested strip is carefully divided into individual follicular units, each containing 1 to 4 hairs, and transplanted into areas affected by hair loss using a technique similar to FUE.',
                   imageUrl: '/images/hair-transplant/body-hair.png',
@@ -488,13 +470,13 @@ export default function HairTransplantMain() {
             >
                <HowDoesItWork
                   images={[
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 1' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 2' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 3' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 4' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                     { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
+                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
+                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
+                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
+                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
+                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
+                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
+                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
                   ]}
                   title={['Stages of FUT', 'Hair Transplantation']}
                   content={[

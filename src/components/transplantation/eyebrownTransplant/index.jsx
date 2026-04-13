@@ -17,13 +17,13 @@ export default function EyebrownTransplant() {
                   <HowDoesItWork
                      className="text-ivory-soft"
                      images={[
-                        { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 1' },
-                        { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 2' },
-                        { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 3' },
-                        { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 4' },
-                        { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                        { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
-                        { src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 5' },
+                        { src: '/howwork-1.webp', alt: 'FUE Step 1' },
+                        { src: '/howwork-2.webp', alt: 'FUE Step 2' },
+                        { src: '/howwork-3.webp', alt: 'FUE Step 3' },
+                        { src: '/howwork-4.webp', alt: 'FUE Step 4' },
+                        { src: '/howwork-5.webp', alt: 'FUE Step 5' },
+                        { src: '/howwork-6.webp', alt: 'FUE Step 6' },
+                        { src: '/howwork-7.webp', alt: 'FUE Step 7' },
                      ]}
                      title={['Why Do People Choose', 'Eyebrow Transplantation?']}
                      content={[

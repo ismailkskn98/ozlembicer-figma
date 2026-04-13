@@ -24,7 +24,7 @@ export default function HairMesotherapyMain({ children }) {
          <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
             <HeroLogoCarousel />
             <SectionWrapper>
-               <HowDoesItWork images={[{ src: '/images/hair-transplant/howwork.png', alt: 'FUE Step 1' }]}>
+               <HowDoesItWork images={[{ src: '/images/hair-transplant/howwork-1.webp', alt: 'FUE Step 1' }]}>
                   <HairMesotherapyDoesItWork />
                </HowDoesItWork>
             </SectionWrapper>
