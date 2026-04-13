@@ -17,8 +17,21 @@ export default function HowDoesItWorksMobilCarousel({ images = [], videos = [] }
       <section className="min-[900px]:hidden w-full col-span-full">
          <Swiper
             modules={[Autoplay, Navigation]}
-            slidesPerView={1.3}
-            spaceBetween={12}
+            slidesPerView={3}
+            breakpoints={{
+               900: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+               },
+               600: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+               },
+               100: {
+                  slidesPerView: 1.3,
+                  spaceBetween: 15,
+               },
+            }}
             centeredSlides={true}
             centeredSlidesBounds={true}
             loop={true}
