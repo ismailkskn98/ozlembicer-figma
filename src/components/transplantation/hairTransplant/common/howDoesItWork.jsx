@@ -65,7 +65,7 @@ export default function HowDoesItWork({ images = [], videos = [], title = [], co
             )}
             {children}
          </section>
-         <HowDoesItWorksMobilCarousel />
+         <HowDoesItWorksMobilCarousel images={images} videos={videos} />
       </main>
    );
 }
