@@ -1,8 +1,16 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import MotionScrollInView from '@/components/common/motionScrollInView';
+import { Play } from 'lucide-react';
+import { X } from 'lucide-react';
+import { Dialog, DialogContent, DialogClose, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+
+const VIDEO_ID = '4m9to1KGCx0';
 
 export default function HairTransplantHero() {
+   const [open, setOpen] = useState(false);
+
    return (
       <main className="relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-12 lg:pt-25 pb-50 overflow-hidden">
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0" />
@@ -12,7 +20,13 @@ export default function HairTransplantHero() {
                   Hair <span className="font-bold">Transplant</span>
                </h1>
             </article>
-            <MotionScrollInView className="w-full grid grid-cols-2 sm:grid-cols-4 gap-1.5 sm:gap-2.5 rounded-xl sm:rounded-4xl h-full max-h-full sm:max-h-130 lg:max-h-157.5">
+            <MotionScrollInView className="w-full group relative grid grid-cols-2 sm:grid-cols-4 gap-1.5 sm:gap-2.5 rounded-xl sm:rounded-4xl h-full max-h-full sm:max-h-130 lg:max-h-157.5 cursor-pointer">
+               <button type="button" onClick={() => setOpen(true)} className="absolute inset-0 z-20 w-full h-full cursor-pointer" aria-label="Play video" />
+               <div className="absolute left-1/2 top-1/2 -translate-1/2 z-10 flex scale-[0.9] items-center justify-center rounded-2xl transition-all duration-200 ease-out group-hover:scale-100 ">
+                  <div className="bg-wine-brown/50 group-hover:scale-105 group-hover:bg-wine-brown/80 transition-all duration-200 flex size-24 items-center justify-center rounded-full">
+                     <Play className="size-8 scale-110 stroke-ivory-soft/60 transition-transform duration-200 ease-out group-hover:scale-115" />
+                  </div>
+               </div>
                <Image
                   src="/images/hair-transplant/hero-item-1.png"
                   alt="hair-transplant hero item 1"
@@ -42,59 +56,78 @@ export default function HairTransplantHero() {
                   className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-br-xl sm:rounded-r-4xl"
                />
             </MotionScrollInView>
+
+            <Dialog open={open} onOpenChange={setOpen}>
+               <DialogHeader className="hidden">
+                  <DialogTitle />
+                  <DialogDescription />
+               </DialogHeader>
+               <DialogContent
+                  showCloseButton={false}
+                  className="bg-radial from-coffee-dark to-wine-brown rounded-[10px] p-2.5 h-full max-h-[50vh] md:max-h-[60vh] w-full max-w-[90vw] md:max-w-[80vw] lg:max-w-[50vw] flex flex-col items-start gap-2 border-none shadow-none"
+               >
+                  <DialogClose className="absolute -top-3 -right-3 z-20 rounded-full bg-ivory-soft/95 p-1.5 md:p-2 shadow-md hover:scale-105 transition cursor-pointer">
+                     <X className="w-5 h-5 text-black" />
+                  </DialogClose>
+                  <div className="relative overflow-hidden w-full h-full">
+                     {open && (
+                        <iframe
+                           src={`https://www.youtube-nocookie.com/embed/${VIDEO_ID}?autoplay=1&rel=0&modestbranding=1&playsinline=1`}
+                           title="Hair Transplant Video"
+                           allow="autoplay; fullscreen; picture-in-picture"
+                           allowFullScreen
+                           className="size-full rounded-lg border-0"
+                        />
+                     )}
+                  </div>
+               </DialogContent>
+            </Dialog>
+
             <article className="w-full flex flex-col items-start gap-4 text-ivory-soft text-[14px]">
                <p>
-                  At Dr. Biçer’s clinic, all hair restoration techniques are personally performed by Dr. Biçer. This
-                  allows her to objectively evaluate each patient and select the most appropriate technique based solely
-                  on medical needs, hair characteristics, and long-term expectations.
+                  At Dr. Biçer’s clinic, all hair restoration techniques are personally performed by Dr. Biçer. This allows her to objectively evaluate each patient and select the most
+                  appropriate technique based solely on medical needs, hair characteristics, and long-term expectations.
                </p>
                <p>
-                  It is also important to understand that hair transplantation is not a cure for hair loss. It is a
-                  highly effective camouflage technique for patients suffering from alopecia, designed to restore a
-                  natural appearance and improve self-confidence.
+                  It is also important to understand that hair transplantation is not a cure for hair loss. It is a highly effective camouflage technique for patients suffering from
+                  alopecia, designed to restore a natural appearance and improve self-confidence.
                </p>
                <p>
-                  Hair replacement surgery can change your appearance dramatically and boost your self-confidence. Among
-                  available methods, FUE (Follicular Unit Extraction) is considered the least invasive technique and
-                  offers the shortest recovery time.
+                  Hair replacement surgery can change your appearance dramatically and boost your self-confidence. Among available methods, FUE (Follicular Unit Extraction) is considered the
+                  least invasive technique and offers the shortest recovery time.
                </p>
                <p>
-                  Most people can undergo surgery with little or no complications. However, not everyone is a suitable
-                  candidate for hair replacement surgery. Before undergoing any procedure, it is essential to discuss
-                  your expectations and undergo a thorough medical evaluation by your surgeon. To determine whether you
-                  are a good candidate, the following factors are carefully considered:
+                  Most people can undergo surgery with little or no complications. However, not everyone is a suitable candidate for hair replacement surgery. Before undergoing any
+                  procedure, it is essential to discuss your expectations and undergo a thorough medical evaluation by your surgeon. To determine whether you are a good candidate, the
+                  following factors are carefully considered:
                </p>
                <div className="w-full flex flex-col items-start">
                   <h3 className="font-bold">OVERALL HEALTH CONDITIONS</h3>
                   <p>
-                     Are you generally in good health with no contraindications to treatment? Patients with cardiac
-                     conditions, congenital bleeding or clotting disorders, or certain skin diseases such as psoriasis
-                     are usually advised against surgery.
+                     Are you generally in good health with no contraindications to treatment? Patients with cardiac conditions, congenital bleeding or clotting disorders, or certain skin
+                     diseases such as psoriasis are usually advised against surgery.
                   </p>
                </div>
                <div className="w-full flex flex-col items-start">
                   <h3 className="font-bold">HAIR LOSS PATTERN</h3>
                   <p>
-                     Hair transplantation can provide dramatic yet natural results in cases of significant thinning or
-                     balding, provided that healthy donor hair is present at the back and sides of the scalp. Patients
-                     with male pattern baldness (androgenetic alopecia) are often ideal candidates. For women, however,
-                     if hair loss presents as diffuse overall thinning, hair transplantation may not be the most
-                     suitable option.
+                     Hair transplantation can provide dramatic yet natural results in cases of significant thinning or balding, provided that healthy donor hair is present at the back and
+                     sides of the scalp. Patients with male pattern baldness (androgenetic alopecia) are often ideal candidates. For women, however, if hair loss presents as diffuse overall
+                     thinning, hair transplantation may not be the most suitable option.
                   </p>
                </div>
                <div className="w-full flex flex-col items-start">
                   <h3 className="font-bold">AGE</h3>
                   <p>
-                     Hair loss should be relatively stabilized before surgery. Very young patients (early 20s) are often
-                     advised to wait and consider medical treatments before undergoing a hair transplant.
+                     Hair loss should be relatively stabilized before surgery. Very young patients (early 20s) are often advised to wait and consider medical treatments before undergoing a
+                     hair transplant.
                   </p>
                </div>
                <div className="w-full flex flex-col items-start">
                   <h3 className="font-bold">COSMETIC CONCERNS</h3>
                   <p>
-                     If avoiding linear scarring is important to you, FUE may be the preferred technique. FUE can also
-                     be used to camouflage existing scars from previous surgeries or injuries by transplanting new
-                     follicles into those areas.
+                     If avoiding linear scarring is important to you, FUE may be the preferred technique. FUE can also be used to camouflage existing scars from previous surgeries or
+                     injuries by transplanting new follicles into those areas.
                   </p>
                </div>
             </article>
