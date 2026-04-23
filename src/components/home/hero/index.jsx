@@ -128,7 +128,7 @@ export default function Hero() {
 
                            <div
                               className={cn(
-                                 'relative order-1 lg:order-2 flex-1 w-full aspect-678/510 min-[65rem]:aspect-678/495 rounded-lg transition-all duration-500',
+                                 'relative order-1 lg:order-2 flex-1 w-full max-h-[600px] aspect-678/510 min-[65rem]:aspect-678/495 rounded-lg transition-all duration-500',
                                  isActive ? 'opacity-100' : 'opacity-0',
                                  index === 1 && 'object-cover lg:object-fill',
                                  {
