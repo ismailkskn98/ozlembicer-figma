@@ -77,7 +77,7 @@ export default function Hero() {
                slidesPerView={1}
                loop={true}
                autoplay={{
-                  delay: 500000,
+                  delay: 5000,
                   disableOnInteraction: false,
                }}
             >
@@ -126,7 +126,20 @@ export default function Hero() {
                               </div>
                            </article>
 
-                           <Image
+                           <div
+                              className={cn(
+                                 'relative order-1 lg:order-2 flex-1 w-full aspect-678/510 min-[65rem]:aspect-678/495 rounded-lg transition-all duration-500',
+                                 isActive ? 'opacity-100' : 'opacity-0',
+                                 index === 1 && 'object-cover lg:object-fill',
+                                 {
+                                    'object-top': index !== 0,
+                                 },
+                              )}
+                           >
+                              <Image src={item.imageSrc} alt={item.imageAlt} fill className={cn(' object-cover object-center lg:object-top rounded-lg')} />
+                           </div>
+
+                           {/* <Image
                               src={item.imageSrc}
                               alt={item.imageAlt}
                               width={1200}
@@ -140,7 +153,7 @@ export default function Hero() {
                                     'object-top': index !== 0,
                                  },
                               )}
-                           />
+                           /> */}
                         </div>
                      )}
                   </SwiperSlide>
