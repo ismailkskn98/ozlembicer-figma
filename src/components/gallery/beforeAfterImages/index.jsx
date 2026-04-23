@@ -27,13 +27,7 @@ export default function BeforeAfterImagesMain() {
                </main>
             </header>
             <main className="w-full mx-auto grid grid-cols-1 pt-16">
-               <PatientResults
-                  mainClassName="py-0"
-                  showNavigation={false}
-                  delay={4000}
-                  carouselProps={{ rows: 2, slidesPerView: 3 }}
-                  blur={false}
-               />
+               <PatientResults mainClassName="py-0" showNavigation={false} delay={4000} carouselProps={{ rows: 2, slidesPerView: 3 }} blur={false} />
             </main>
             <div className="-mt-10 lg:mt-0">
                <HowToAppointment />

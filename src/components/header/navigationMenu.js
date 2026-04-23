@@ -65,12 +65,12 @@ export const navigationMenu = [
       links: [
          { href: '/gallery/before-after-images', label: 'Before & After Images' },
          {
-            href: '#',
+            href: '/gallery',
             label: 'Video Gallery',
             submenu: [
-               { href: '#', label: 'Informative Videos' },
-               { href: '#', label: 'Patient Reviews' },
-               { href: '#', label: 'Interviews with Dr.Bicer' },
+               { href: '/gallery#informative-videos', label: 'Informative Videos' },
+               { href: '/gallery#patient-reviews', label: 'Patient Reviews' },
+               { href: '/gallery#interviews', label: 'Interviews with Dr. Bicer' },
             ],
          },
       ],
