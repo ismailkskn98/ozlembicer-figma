@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Play } from 'lucide-react';
 
 export default function PatientResultCard({ item, index, large = false }) {
    return (
@@ -9,7 +10,7 @@ export default function PatientResultCard({ item, index, large = false }) {
             transition-all duration-300 ${large ? 'p-4 md:p-5 w-full max-w-205' : 'p-2.5 w-full aspect-300/340'}`}
       >
          <div className={`w-full h-full flex flex-col items-center justify-between rounded-[10px] ${large ? 'gap-4 md:gap-6' : 'gap-2 sm:gap-5'}`}>
-            <div className={`w-full flex items-center gap-1.25 ${large ? 'aspect-auto' : 'aspect-7/6'}`}>
+            <div className={`relative w-full flex items-center gap-1.25 ${large ? 'aspect-auto' : 'aspect-7/6'}`}>
                <div className="relative w-full aspect-137/240 rounded-[5px] overflow-hidden">
                   <Image src={item.beforeImage} alt={`Patient before ${index + 1}`} fill className="w-full h-full object-cover object-center rounded-[5px]" />
                </div>
@@ -22,6 +23,13 @@ export default function PatientResultCard({ item, index, large = false }) {
                      className="w-full h-full object-cover object-center rounded-[5px]"
                   />
                </div>
+               {item.videoId && (
+                  <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 z-20 flex scale-[0.9] items-center justify-center rounded-2xl transition-all duration-200 ease-out group-hover:scale-100 ">
+                     <div className="bg-stone-beige/70 flex size-14 items-center justify-center rounded-full">
+                        <Play className="size-5 scale-110 stroke-ivory-soft transition-transform duration-200 ease-out group-hover:scale-115" />
+                     </div>
+                  </div>
+               )}
             </div>
 
             <article
