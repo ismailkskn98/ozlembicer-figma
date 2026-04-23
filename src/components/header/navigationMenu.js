@@ -12,7 +12,7 @@ export const navigationMenu = [
       item: 'Hair Loss',
       links: [
          {
-            href: '/#',
+            href: '#',
             label: 'Couses of Hair Loss',
             submenu: [
                { href: '/hair-loss/couses-of-hair-loss/male-hair-loss', label: 'Hair Loss in Male' },
@@ -20,7 +20,7 @@ export const navigationMenu = [
             ],
          },
          {
-            href: '/#',
+            href: '#',
             label: 'Treatments of Hair Loss',
             submenu: [
                { href: '/hair-loss/treatments-of-hair-loss/hair-mesotherapy', label: 'Hair Mesotherapy' },

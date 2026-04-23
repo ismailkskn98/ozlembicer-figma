@@ -111,11 +111,9 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
             slidesPerView={slidesPerView}
             slidesPerGroup={1}
             breakpoints={{
-               1280: { slidesPerView: 3, spaceBetween: 74 },
-               900: { slidesPerView: 3, spaceBetween: 30 },
-               740: { slidesPerView: 2.5, spaceBetween: 20 },
-               500: { slidesPerView: 2, spaceBetween: 10 },
-               100: { slidesPerView: 1.3, spaceBetween: 5 },
+               900: { slidesPerView: 3, spaceBetween: 50 },
+               500: { slidesPerView: 2, spaceBetween: 20 },
+               100: { slidesPerView: 1.3, spaceBetween: 15 },
             }}
             centeredSlides={rows === 1}
             centeredSlidesBounds={rows === 1}
@@ -132,7 +130,7 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
             className="w-full relative"
          >
             {defaultCarouselItems.map((item, index) => (
-               <SwiperSlide className="py-3 px-2" key={index}>
+               <SwiperSlide className="py-3 w-full" key={index}>
                   <div
                      role="button"
                      tabIndex={0}

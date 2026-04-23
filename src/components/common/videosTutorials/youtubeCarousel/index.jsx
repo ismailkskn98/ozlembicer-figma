@@ -22,18 +22,9 @@ export default function YoutubeCarousel({ videos = [] }) {
             modules={[Autoplay, Navigation]}
             slidesPerView={3}
             breakpoints={{
-               900: {
-                  slidesPerView: 3,
-                  spaceBetween: 50,
-               },
-               500: {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-               },
-               100: {
-                  slidesPerView: 1.3,
-                  spaceBetween: 15,
-               },
+               900: { slidesPerView: 3, spaceBetween: 50 },
+               500: { slidesPerView: 2, spaceBetween: 20 },
+               100: { slidesPerView: 1.3, spaceBetween: 15 },
             }}
             centeredSlides={true}
             centeredSlidesBounds={true}
@@ -73,9 +64,7 @@ export default function YoutubeCarousel({ videos = [] }) {
                         <div className="w-full bg-wine-brown p-2.5 rounded-[5px] aspect-14/3 flex items-center justify-center">
                            <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[10px]">
                               <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
-                              {item.snippet.description.length > 0 && (
-                                 <p className="sm:block hidden lowercase line-clamp-2">{item.snippet.description}</p>
-                              )}
+                              {item.snippet.description.length > 0 && <p className="sm:block hidden lowercase line-clamp-2">{item.snippet.description}</p>}
                            </div>
                         </div>
                      </div>
@@ -84,16 +73,10 @@ export default function YoutubeCarousel({ videos = [] }) {
             ))}
          </Swiper>
          <div className="flex items-center justify-center gap-6">
-            <div
-               id="youtube-prev"
-               className="p-1.5 cursor-pointer hover:bg-gold/50 transition duration-200 rounded-full"
-            >
+            <div id="youtube-prev" className="p-1.5 cursor-pointer hover:bg-gold/50 transition duration-200 rounded-full">
                <IoIosArrowDropleft className="w-5 h-5 text-coffee-dark" />
             </div>
-            <div
-               id="youtube-next"
-               className="p-1.5 cursor-pointer hover:bg-gold/50 transition duration-200 rounded-full"
-            >
+            <div id="youtube-next" className="p-1.5 cursor-pointer hover:bg-gold/50 transition duration-200 rounded-full">
                <IoIosArrowDropright className="w-5 h-5 text-coffee-dark" />
             </div>
          </div>
