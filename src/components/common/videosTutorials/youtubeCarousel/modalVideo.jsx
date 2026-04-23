@@ -1,16 +1,12 @@
 import React from 'react';
 import { Dialog, DialogClose, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { Play, X } from 'lucide-react';
+import { X } from 'lucide-react';
 
-export default function ModalVideo({ title, description, videoSrc }) {
+export default function ModalVideo({ title, description, videoSrc, children }) {
    return (
       <Dialog>
          <DialogTrigger asChild className="cursor-pointer!">
-            <div className="absolute inset-x-0 top-1/3 -translate-y-1/3 z-20 flex scale-[0.9] items-center justify-center rounded-2xl transition-all duration-200 ease-out group-hover:scale-100 ">
-               <div className="bg-black/20 flex size-14 items-center justify-center rounded-full">
-                  <Play className="size-5 scale-110 stroke-black/20 transition-transform duration-200 ease-out group-hover:scale-115" />
-               </div>
-            </div>
+            {children}
          </DialogTrigger>
          <DialogContent
             showCloseButton={false}

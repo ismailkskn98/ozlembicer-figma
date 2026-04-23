@@ -49,7 +49,7 @@ export default function HowToAppointment() {
       <section className="w-full py-15">
          <main className="w-full flex flex-col items-start lg:items-center justify-start lg:justify-center gap-6">
             <MotionScrollInView className="w-full">
-               <Pageh3Title title=" How To Make An Appointment" className="border-b border-coffee-dark text-coffee-dark font-normal w-full max-w-6xl lg:mx-auto" />
+               <Pageh3Title title="How To Make An Appointment" className="border-b border-coffee-dark text-coffee-dark w-full max-w-6xl lg:mx-auto" />
             </MotionScrollInView>
             <div className="w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-3 gap-3 lg:gap-6">
                {appointmentSteps.map((step) => (
@@ -60,7 +60,9 @@ export default function HowToAppointment() {
                      {/* Mobile */}
                      <div className="flex flex-col items-center lg:justify-between gap-3 lg:hidden w-full h-full px-2 py-1">
                         <div className="flex items-center gap-0.5">
-                           <span className="text-[27px] min-[35rem]:text-[36px] sm:text-[48px] md:text-[56px] min-[56.25rem]:text-[64px] text-ivory-soft leading-none font-light">{step.id}</span>
+                           <span className="text-[27px] min-[35rem]:text-[36px] sm:text-[48px] md:text-[56px] min-[56.25rem]:text-[64px] text-ivory-soft leading-none font-light">
+                              {step.id}
+                           </span>
                            <p className="text-start text-ivory-soft text-[10px] min-[35rem]:text-sm sm:text-base md:text-lg min-[56.25rem]:text-2xl leading-2.5 min-[35rem]:leading-4 sm:leading-5 min-[56.25rem]-leading-7 uppercase">
                               <span className="text-nowrap">{step.title}</span>
                               <br />
@@ -77,7 +79,11 @@ export default function HowToAppointment() {
                                  className="w-10 h-10 sm:w-16 md:w-28 sm:h-16 md:h-28 min-[56.25rem]:w-32 min-[56.25rem]:h-32 object-contain"
                               />
                            ) : (
-                              <step.icon className="w-10 h-10 sm:w-16 md:w-28 sm:h-16 md:h-28 min-[56.25rem]:w-32 min-[56.25rem]:h-32 text-ivory-soft" strokeWidth={0.75} absoluteStrokeWidth />
+                              <step.icon
+                                 className="w-10 h-10 sm:w-16 md:w-28 sm:h-16 md:h-28 min-[56.25rem]:w-32 min-[56.25rem]:h-32 text-ivory-soft"
+                                 strokeWidth={0.75}
+                                 absoluteStrokeWidth
+                              />
                            )}
                         </div>
                      </div>
@@ -132,8 +138,8 @@ export default function HowToAppointment() {
                      <br /> Istanbul, Turkey
                   </h3>
                   <p className="max-w-full lg:max-w-141">
-                     Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team
-                     of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
+                     Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a
+                     dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
                   </p>
                </article>
                <a
@@ -141,7 +147,9 @@ export default function HowToAppointment() {
                   target="_blank"
                   className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5 cursor-pointer"
                >
-                  <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
+                  <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">
+                     Contact US
+                  </span>
                   <div className="w-fit flex flex-col items-center justify-center gap-2 absolute left-1/2 top-1/2 -translate-1/2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300">
                      <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
                      <div className="flex flex-col items-center justify-center text-[23px] sm:text-[28px] lg:text-[32px]">

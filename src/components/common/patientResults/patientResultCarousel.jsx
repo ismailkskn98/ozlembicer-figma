@@ -183,7 +183,7 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
                         <DialogTitle></DialogTitle>
                         <DialogDescription></DialogDescription>
                      </DialogHeader>
-                     <DialogContent showCloseButton={false} className="max-w-[90vw] md:max-w-100 p-0 border-0 bg-transparent shadow-none">
+                     <DialogContent showCloseButton={false} className="max-w-[90vw] md:max-w-150 p-0 border-0 bg-transparent shadow-none">
                         <motion.div
                            initial={{ opacity: 0, scale: 0.92, y: 24 }}
                            animate={{ opacity: 1, scale: 1, y: 0 }}
