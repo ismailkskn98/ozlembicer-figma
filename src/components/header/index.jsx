@@ -7,6 +7,8 @@ import MotionScrollInViewOpacity from '../common/motionScrollInViewOpacity';
 import { SlMenu } from 'react-icons/sl';
 import MobilNavbar from './mobilNavbar';
 import HeaderLogo from './headerLogo';
+import { CiSearch } from 'react-icons/ci';
+import SearchMain from './searchMain';
 
 export default function Header() {
    return (
@@ -17,13 +19,14 @@ export default function Header() {
                   <HeaderLogo />
                   <main className="hidden md:flex items-center">
                      <Navbar />
-                     <div className="w-fit h-fit md:inline-block hidden">
-                        {/* <LanguageChange /> */}
+                     <div className="w-fit h-fit hidden md:flex items-center justify-center gap-3 lg:gap-4 pl-2 lg:pl-4 lg:pr-5">
                         <TemporaryLanguageChange />
+                        <SearchMain>
+                           <button type="button" className="uppercase font-bold text-xl lg:text-2xl w-full text-left cursor-pointer">
+                              <CiSearch className="text-ivory-soft!" />
+                           </button>
+                        </SearchMain>
                      </div>
-                     {/* <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-ivory-soft text-coffee-dark border border-gold text-sm'> */}
-                     {/* <Link href="/contact-us" className='hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] bg-radial from-coffee-dark to-wine-brown text-ivory-soft text-sm 
-                            drop-shadow-[0px_0px_6px_#eee6db]'> */}
                      <Link
                         href="/contact-us"
                         className="group hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] text-ivory-soft text-sm bg-wine-brown border border-wine-brown transition-all duration-300"
@@ -32,13 +35,19 @@ export default function Header() {
                         <span className="group-hover:opacity-70 transition-all duration-200">+90 (414) 13 13</span>
                      </Link>
                   </main>
-                  <article className="md:hidden flex items-center gap-3">
-                     {/* <LanguageChange /> */}
-                     <TemporaryLanguageChange />
-                     <MobilNavbar>
-                        <SlMenu size={24} className="cursor-pointer text-ivory-soft" />
-                     </MobilNavbar>
-                  </article>
+                  <div className="md:hidden flex items-center gap-4">
+                     <SearchMain>
+                        <button type="button" className="uppercase font-bold text-xl lg:text-2xl w-full text-left cursor-pointer">
+                           <CiSearch className="text-ivory-soft" />
+                        </button>
+                     </SearchMain>
+                     <article className="md:hidden flex items-center gap-4">
+                        <TemporaryLanguageChange />
+                        <MobilNavbar>
+                           <SlMenu size={24} className="cursor-pointer text-ivory-soft" />
+                        </MobilNavbar>
+                     </article>
+                  </div>
                </section>
             </MotionScrollInViewOpacity>
          </header>
