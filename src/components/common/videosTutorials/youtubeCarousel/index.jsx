@@ -57,7 +57,7 @@ export default function YoutubeCarousel({ videos = [] }) {
                            className="relative z-10 object-cover object-center w-full rounded-[5px] aspect-28/15"
                         />
                         <div className="absolute inset-x-0 top-1/3 -translate-y-1/3 z-20 flex scale-[0.9] items-center justify-center rounded-2xl transition-all duration-200 ease-out group-hover:scale-100 ">
-                           <div className="bg-stone-beige/70 flex size-14 items-center justify-center rounded-full">
+                           <div className="bg-stone-beige/50 flex size-14 items-center justify-center rounded-full">
                               <Play className="size-5 scale-110 stroke-ivory-soft transition-transform duration-200 ease-out group-hover:scale-115" />
                            </div>
                         </div>

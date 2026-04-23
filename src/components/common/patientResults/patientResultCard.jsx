@@ -25,7 +25,7 @@ export default function PatientResultCard({ item, index, large = false }) {
                </div>
                {item.videoId && (
                   <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 z-20 flex scale-[0.9] items-center justify-center rounded-2xl transition-all duration-200 ease-out group-hover:scale-100 ">
-                     <div className="bg-stone-beige/70 flex size-14 items-center justify-center rounded-full">
+                     <div className="bg-stone-beige/50 flex size-14 items-center justify-center rounded-full">
                         <Play className="size-5 scale-110 stroke-ivory-soft transition-transform duration-200 ease-out group-hover:scale-115" />
                      </div>
                   </div>

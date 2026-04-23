@@ -44,15 +44,6 @@ export default function HairTransplantMain() {
                }}
             >
                <HowDoesItWork
-                  images={[
-                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
-                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
-                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
-                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
-                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
-                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
-                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
-                  ]}
                   title={['What Are the Steps of', 'FUE Hair Transplantation?']}
                   content={[
                      { type: 'heading', value: '1. Initial Contact & Consultation' },
@@ -166,15 +157,6 @@ export default function HairTransplantMain() {
                }}
             >
                <HowDoesItWork
-                  images={[
-                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
-                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
-                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
-                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
-                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
-                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
-                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
-                  ]}
                   title={['What Are the Steps of', 'FUE Hair Transplantation?']}
                   content={[
                      { type: 'heading', value: '1. Initial Contact & Consultation' },
@@ -310,19 +292,15 @@ export default function HairTransplantMain() {
                   boldTitle: 'Body Hair Transplant?',
                   description1:
                      'Body Hair Transplantation (BHT) is an advanced hair restoration technique used when the scalp does not provide enough suitable donor hair for a standard hair transplant. In a conventional hair transplant, hair follicles are typically harvested from the back and sides of the scalp. However, some patients have a limited or depleted scalp donor area, making additional donor sources necessary.',
-                  description2: 'In such cases, hair follicles can be harvested from other parts of the body—most commonly the beard and, in selected cases, the chest—and transplanted to the scalp.',
+                  description2:
+                     'In such cases, hair follicles can be harvested from other parts of the body—most commonly the beard and, in selected cases, the chest—and transplanted to the scalp.',
                   imageUrl: '/images/hair-transplant/body-hair.png',
                }}
             >
                <HowDoesItWork
-                  images={[
-                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
-                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
-                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
-                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
-                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
-                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
-                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
+                  videos={[
+                     { videoId: 'TOFFQj26QVk', alt: 'Body Hair Transplant', title: 'Everything you need to know about body hair transplantation (BHT)' },
+                     { videoId: 'HQa-LIH3QqA', alt: 'Body Hair Transplant 2', title: 'What is BHT?' },
                   ]}
                   title={['When Is Body Hair', 'Transplantation Recommended?']}
                   content={[
@@ -364,14 +342,10 @@ export default function HairTransplantMain() {
                }}
             >
                <HowDoesItWork
-                  images={[
-                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
-                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
-                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
-                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
-                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
-                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
-                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
+                  videos={[
+                     { videoId: 'sHLV0jLvKVs', alt: 'Reconstructive Hair Transplant', title: 'Reconstruction Hair Transplantation - 01' },
+                     { videoId: 'WB0I5IlAqjg', alt: 'Reconstructive Hair Transplant 2', title: 'Reconstruction Hair Transplantation - 02' },
+                     { videoId: 'twv7tvc9kLk', alt: 'Reconstructive Hair Transplant 3', title: 'Reconstruction Hair Transplantation - 03' },
                   ]}
                   title={['Who Needs', 'Reconstructive Hair Transplantation?']}
                   content={[
@@ -418,15 +392,6 @@ export default function HairTransplantMain() {
                }}
             >
                <HowDoesItWork
-                  images={[
-                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
-                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
-                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
-                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
-                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
-                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
-                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
-                  ]}
                   title={['Who Needs', 'Long Hair Transplantation?']}
                   content={[
                      { type: 'paragraph', value: 'Long hair transplantation may be recommended for individuals who:' },
@@ -469,14 +434,14 @@ export default function HairTransplantMain() {
                }}
             >
                <HowDoesItWork
-                  images={[
-                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
-                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
-                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
-                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
-                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
-                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
-                     { src: '/howwork-7.webp', alt: 'FUE Step 7' },
+                  videos={[
+                     {
+                        videoId: 'idSIhdT5B_U',
+                        alt: 'FUT Step 1',
+                        title: 'What is FUT hair transplantation? - Dr. Özlem Biçer, MD',
+                     },
+                     { videoId: 'O8c5cTp9xv0', alt: 'FUT Step 2', title: 'FUT transplant?' },
+                     { videoId: 'jOdV8KsQeFQ', alt: 'FUT Step 3', title: 'FUT TECHNICH' },
                   ]}
                   title={['Stages of FUT', 'Hair Transplantation']}
                   content={[
