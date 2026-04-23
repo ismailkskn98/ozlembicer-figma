@@ -51,22 +51,22 @@ export default function TemporaryLanguageChange() {
                </SelectTrigger>
 
                <SelectContent className="bg-coffee-dark border-gold/30 text-ivory-soft">
-                  <SelectItem value="en" className="cursor-pointer hover:bg-wine-brown">
+                  <SelectItem value="en" className="cursor-pointer hover:bg-wine-brown! hover:text-ivory-soft! transition-all duration-200">
                      <span className="flex items-center gap-1.5 text-xs">
                         <span>English</span>
                      </span>
                   </SelectItem>
-                  <SelectItem value="de" className="cursor-pointer hover:bg-wine-brown">
+                  <SelectItem value="de" className="cursor-pointer hover:bg-wine-brown! hover:text-ivory-soft! transition-all duration-200">
                      <span className="flex items-center gap-1.5 text-xs">
                         <span>Deutsch</span>
                      </span>
                   </SelectItem>
-                  <SelectItem value="fr" className="cursor-pointer hover:bg-wine-brown">
+                  <SelectItem value="fr" className="cursor-pointer hover:bg-wine-brown! hover:text-ivory-soft! transition-all duration-200">
                      <span className="flex items-center gap-1.5 text-xs">
                         <span>Français</span>
                      </span>
                   </SelectItem>
-                  <SelectItem value="it" className="cursor-pointer hover:bg-wine-brown">
+                  <SelectItem value="it" className="cursor-pointer hover:bg-wine-brown! hover:text-ivory-soft! transition-all duration-200">
                      <span className="flex items-center gap-1.5 text-xs">
                         <span>Italiano</span>
                      </span>
