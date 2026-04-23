@@ -3,11 +3,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
+import { Link } from '@/i18n/navigation';
 
 const titleItemsData = [
    {
       value: 'hair-transplant',
       title: 'Hair Transplantation',
+      href: '/hair-transplant',
       image: '/images/home-accordion/hair-transplant-degisti.webp',
       icon: '/images/hair-transplant/fue-micro-motor-nobg.svg',
       content: {
@@ -23,6 +25,7 @@ const titleItemsData = [
    {
       value: 'beard-transplant',
       title: 'Beard Transplantation',
+      href: '/beard-transplantation',
       image: '/images/home-accordion/beard-transplant.webp',
       icon: '/images/hair-transplant/beard-nobg.svg',
       content: {
@@ -38,6 +41,7 @@ const titleItemsData = [
    {
       value: 'eyebrow-transplant',
       title: 'Eyebrow Transplantation',
+      href: '/eyebrown-transplant',
       image: '/images/home-accordion/eyebrow-transplant.webp',
       icon: '/images/hair-transplant/eyebrow.svg',
       content: {
@@ -53,6 +57,7 @@ const titleItemsData = [
    {
       value: 'female-hair-transplant',
       title: 'Female Hair Transplantation',
+      href: '/hair-transplant',
       image: '/images/home-accordion/female-hair-transplant.webp',
       icon: '/images/hair-transplant/female-hair.svg',
       content: {
@@ -182,34 +187,70 @@ export default function DeneyTitleImage() {
                                        )}
                                     </div>
                                  ))}
+
+                                 <div className="flex justify-end mt-1">
+                                    <Link
+                                       href={item.href}
+                                       onClick={(e) => e.stopPropagation()}
+                                       className="inline-flex items-center gap-1.5 text-sm text-ivory-soft/80 hover:text-ivory-soft border border-ivory-soft/40 hover:border-ivory-soft/80 rounded-full px-4 py-1.5 transition-all duration-200"
+                                    >
+                                       Learn More
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5">
+                                          <path
+                                             fillRule="evenodd"
+                                             d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+                                             clipRule="evenodd"
+                                          />
+                                       </svg>
+                                    </Link>
+                                 </div>
                               </div>
                            </div>
                         </MobileContent>
 
                         {isDesktop && isOpen && (
-                           <div className="absolute inset-0 z-20 pt-10 pb-10 px-8">
+                           <div className="absolute flex inset-0 z-20 pt-10 pb-10 px-8">
                               <button type="button" onClick={() => handleItemClick(item.value)} className="absolute inset-0" />
 
                               <div className="absolute inset-0 z-10 bg-coffee-dark/55" />
 
-                              <div className="relative z-20">
-                                 <h2 className="text-[20px] md:text-2xl 2xl:text-3xl text-ivory-soft font-semibold mb-3.5 md:mb-6">{item.title}</h2>
+                              <div className="relative flex-1 flex flex-col z-20">
+                                 <div className="w-full flex flex-col flex-1">
+                                    <h2 className="text-[20px] md:text-2xl 2xl:text-3xl text-ivory-soft font-semibold mb-3.5 md:mb-6">{item.title}</h2>
 
-                                 <h3 className="text-base md:text-lg 3xl:text-xl text-ivory-soft mb-2.5 md:mb-4">{item.content.title}</h3>
+                                    <h3 className="text-base md:text-lg 3xl:text-xl text-ivory-soft mb-2.5 md:mb-4">{item.content.title}</h3>
 
-                                 {item.content.items.map((contentItem, idx) => (
-                                    <div key={idx} className="relative z-20">
-                                       {contentItem.type === 'paragraph' && <p className="text-ivory-soft/90 text-sm sm:text-base mb-4 leading-relaxed">{contentItem.text}</p>}
+                                    {item.content.items.map((contentItem, idx) => (
+                                       <div key={idx} className="relative z-20">
+                                          {contentItem.type === 'paragraph' && <p className="text-ivory-soft/90 text-sm sm:text-base mb-4 leading-relaxed">{contentItem.text}</p>}
 
-                                       {contentItem.type === 'list' && (
-                                          <ul className="text-ivory-soft/90 text-sm sm:text-base mb-2 md:mb-4 list-disc list-inside space-y-1 md:space-y-2">
-                                             {contentItem.items.map((listItem, listIdx) => (
-                                                <li key={listIdx}>{listItem}</li>
-                                             ))}
-                                          </ul>
-                                       )}
-                                    </div>
-                                 ))}
+                                          {contentItem.type === 'list' && (
+                                             <ul className="text-ivory-soft/90 text-sm sm:text-base mb-2 md:mb-4 list-disc list-inside space-y-1 md:space-y-2">
+                                                {contentItem.items.map((listItem, listIdx) => (
+                                                   <li key={listIdx}>{listItem}</li>
+                                                ))}
+                                             </ul>
+                                          )}
+                                       </div>
+                                    ))}
+                                 </div>
+
+                                 <div className="flex justify-end mt-2">
+                                    <Link
+                                       href={item.href}
+                                       onClick={(e) => e.stopPropagation()}
+                                       className="inline-flex items-center gap-1.5 text-sm text-ivory-soft/80 hover:text-ivory-soft border border-ivory-soft/40 hover:border-ivory-soft/80 rounded-full px-4 py-1.5 transition-all duration-200"
+                                    >
+                                       Learn More
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5">
+                                          <path
+                                             fillRule="evenodd"
+                                             d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+                                             clipRule="evenodd"
+                                          />
+                                       </svg>
+                                    </Link>
+                                 </div>
                               </div>
                            </div>
                         )}
