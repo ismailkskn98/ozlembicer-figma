@@ -6,7 +6,6 @@ import { Navigation, Autoplay, Grid } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Dialog, DialogContent, DialogClose, DialogHeader } from '@/components/ui/dialog';
 import PatientResultCard from './patientResultCard';
-import { motion, AnimatePresence } from 'motion/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -96,7 +95,7 @@ const localCarouselItems = [
    },
 ];
 
-export default function PatientResultCarousel({ carouselItems = [], showNavigation = true, delay = 4000, rows = 1, slidesPerView = 3, blur = true }) {
+export default function PatientResultCarousel({ carouselItems = [], showNavigation = true, delay = 4000, slidesPerView = 3, rows = 1 }) {
    const id = useId();
    const prevId = `patient-prev-${id}`;
    const nextId = `patient-next-${id}`;
@@ -107,7 +106,7 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
    return (
       <div className="w-full xl:max-w-262 mx-auto flex flex-col items-center justify-center gap-5 sm:gap-7">
          <Swiper
-            modules={[Navigation, Autoplay, Grid]}
+            modules={[Navigation, Autoplay, ...(rows > 1 ? [Grid] : [])]}
             grid={rows > 1 ? { rows, fill: 'row' } : undefined}
             slidesPerView={slidesPerView}
             slidesPerGroup={1}
@@ -134,25 +133,23 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
          >
             {defaultCarouselItems.map((item, index) => (
                <SwiperSlide className="py-3 px-2" key={index}>
-                  {({ isActive }) => (
-                     <div
-                        role="button"
-                        tabIndex={0}
-                        onClick={() => {
+                  <div
+                     role="button"
+                     tabIndex={0}
+                     onClick={() => {
+                        setSelectedItem(item);
+                        setSelectedIndex(index);
+                     }}
+                     onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
                            setSelectedItem(item);
                            setSelectedIndex(index);
-                        }}
-                        onKeyDown={(e) => {
-                           if (e.key === 'Enter' || e.key === ' ') {
-                              setSelectedItem(item);
-                              setSelectedIndex(index);
-                           }
-                        }}
-                        className="cursor-pointer"
-                     >
-                        <PatientResultCard item={item} index={index} blur={blur && !isActive} />
-                     </div>
-                  )}
+                        }
+                     }}
+                     className="cursor-pointer"
+                  >
+                     <PatientResultCard item={item} index={index} />
+                  </div>
                </SwiperSlide>
             ))}
          </Swiper>
@@ -167,50 +164,30 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
                </div>
             </article>
          )}
-         <AnimatePresence>
-            <Dialog
-               open={!!selectedItem}
-               onOpenChange={(open) => {
-                  if (!open) {
-                     setSelectedItem(null);
-                     setSelectedIndex(null);
-                  }
-               }}
-            >
-               {selectedItem && (
-                  <>
-                     <DialogHeader className="hidden">
-                        <DialogTitle></DialogTitle>
-                        <DialogDescription></DialogDescription>
-                     </DialogHeader>
-                     <DialogContent showCloseButton={false} className="max-w-[90vw] md:max-w-150 p-0 border-0 bg-transparent shadow-none">
-                        <motion.div
-                           initial={{ opacity: 0, scale: 0.92, y: 24 }}
-                           animate={{ opacity: 1, scale: 1, y: 0 }}
-                           exit={{ opacity: 0, scale: 0.94, y: 16 }}
-                           transition={{
-                              type: 'spring',
-                              stiffness: 180,
-                              damping: 22,
-                              mass: 0.9,
-                           }}
-                           className="relative"
-                        >
-                           <DialogClose className="absolute -top-3 -right-3 z-20 rounded-full bg-white/95 p-1.5 md:p-2 shadow-md hover:scale-105 transition cursor-pointer">
-                              <X className="w-5 h-5 text-black" />
-                           </DialogClose>
-
-                           {selectedItem && (
-                              <div className="animate-in zoom-in-95 fade-in duration-200">
-                                 <PatientResultCard item={selectedItem} index={selectedIndex ?? 0} large />
-                              </div>
-                           )}
-                        </motion.div>
-                     </DialogContent>
-                  </>
-               )}
-            </Dialog>
-         </AnimatePresence>
+         <Dialog
+            open={!!selectedItem}
+            onOpenChange={(open) => {
+               if (!open) {
+                  setSelectedItem(null);
+                  setSelectedIndex(null);
+               }
+            }}
+         >
+            {selectedItem && (
+               <>
+                  <DialogHeader className="hidden">
+                     <DialogTitle></DialogTitle>
+                     <DialogDescription></DialogDescription>
+                  </DialogHeader>
+                  <DialogContent showCloseButton={false} className="max-w-[90vw] md:max-w-150 p-0 border-0 bg-transparent shadow-none animate-in zoom-in-95 fade-in duration-200">
+                     <DialogClose className="absolute -top-3 -right-3 z-20 rounded-full bg-white/95 p-1.5 md:p-2 shadow-md hover:scale-105 transition cursor-pointer">
+                        <X className="w-5 h-5 text-black" />
+                     </DialogClose>
+                     <PatientResultCard item={selectedItem} index={selectedIndex ?? 0} large />
+                  </DialogContent>
+               </>
+            )}
+         </Dialog>
       </div>
    );
 }

@@ -17,14 +17,14 @@ const linksItems = [
 export default function OzlemBicerMain({ children }) {
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
-         <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
-            <CustomBreadCrumb links={linksItems} />
-            <OzlemBicerHero />
-            <HeroLogoCarousel isBgGradient={false} />
+         <CustomBreadCrumb links={linksItems} />
+         <OzlemBicerHero />
+         <HeroLogoCarousel isBgGradient={true} />
+         <div className="fluid gridContainer w-full bg-linear-to-b from-ivory-soft to-stone-beige">
             <DoctorProfile />
             <ProfessionalAffiliations />
          </div>
-         <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
+         <div className="fluid gridContainer w-full bg-linear-to-t from-stone-beige via-ivory-soft to-stone-beige">
             <Awards />
             <Certifications />
             {children}

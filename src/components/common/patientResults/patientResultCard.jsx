@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function PatientResultCard({ item, index, large = false, blur = false }) {
+export default function PatientResultCard({ item, index, large = false }) {
    return (
       <section
          className={`
@@ -11,13 +11,25 @@ export default function PatientResultCard({ item, index, large = false, blur = f
             ${large ? 'p-4 md:p-5 w-full max-w-205' : 'p-2.5 aspect-15/17'}
          `}
       >
-         <div className={`w-full h-full flex flex-col items-center justify-between rounded-[10px] ${large ? 'gap-4 md:gap-6' : 'gap-2 sm:gap-5'} ${blur ? 'blur-[2px]' : ''}`}>
+         <div className={`w-full h-full flex flex-col items-center justify-between rounded-[10px] ${large ? 'gap-4 md:gap-6' : 'gap-2 sm:gap-5'}`}>
             <div className={`w-full flex items-center gap-1.25 ${large ? 'aspect-auto' : 'aspect-7/6'}`}>
                <div className="relative w-full aspect-137/240 rounded-[5px] overflow-hidden">
-                  <Image src={item.beforeImage} alt={`Patient before ${index + 1}`} fill className="w-full h-full object-cover object-center rounded-[5px]" />
+                  <Image 
+                     src={item.beforeImage} 
+                     alt={`Patient before ${index + 1}`} 
+                     fill 
+                     sizes="(max-width: 640px) 150px, (max-width: 900px) 200px, 250px"
+                     className="w-full h-full object-cover object-center rounded-[5px]" 
+                  />
                </div>
                <div className="relative w-full aspect-137/240 rounded-[5px] overflow-hidden">
-                  <Image src={item.afterImage} alt={`Patient after ${index + 1}`} fill className="w-full h-full object-cover object-center rounded-[5px]" />
+                  <Image 
+                     src={item.afterImage} 
+                     alt={`Patient after ${index + 1}`} 
+                     fill 
+                     sizes="(max-width: 640px) 150px, (max-width: 900px) 200px, 250px"
+                     className="w-full h-full object-cover object-center rounded-[5px]" 
+                  />
                </div>
             </div>
 
@@ -30,7 +42,13 @@ export default function PatientResultCard({ item, index, large = false, blur = f
             >
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
                   <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[10px]'}`}>TECHNIQUE</h5>
-                  <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
+                  <Image 
+                     src="/images/heroCard-line.webp" 
+                     alt="line" 
+                     width={60} 
+                     height={5} 
+                     className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} 
+                  />
                   <p className={large ? 'text-xs md:text-sm' : 'text-[10px]'}>
                      {item.technique1}
                      <br />
@@ -49,7 +67,13 @@ export default function PatientResultCard({ item, index, large = false, blur = f
 
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
                   <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[10px]'}`}>GRAFTS</h5>
-                  <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
+                  <Image 
+                     src="/images/heroCard-line.webp" 
+                     alt="line" 
+                     width={60} 
+                     height={5} 
+                     className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} 
+                  />
                   <p className={large ? 'text-xs md:text-sm' : 'text-[10px]'}>{item.grafts}</p>
                   {!large && (
                      <Image
@@ -64,7 +88,13 @@ export default function PatientResultCard({ item, index, large = false, blur = f
 
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
                   <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[10px]'}`}>AFTER</h5>
-                  <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
+                  <Image 
+                     src="/images/heroCard-line.webp" 
+                     alt="line" 
+                     width={60} 
+                     height={5} 
+                     className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} 
+                  />
                   <p className={large ? 'text-xs md:text-sm' : 'text-[10px]'}>{item.afterMonths}</p>
                </div>
             </article>

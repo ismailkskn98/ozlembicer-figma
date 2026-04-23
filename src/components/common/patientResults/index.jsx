@@ -11,7 +11,7 @@ export default function PatientResults({ title, mainClassName, showNavigation = 
                 {title && (
                     <Pageh3Title title={title} />
                 )}
-                <PatientResultCarousel showNavigation={showNavigation} carouselItems={carouselItems} delay={delay} {...carouselProps} blur={blur} />
+                <PatientResultCarousel showNavigation={showNavigation} carouselItems={carouselItems} delay={delay} {...carouselProps} />
             </main>
         </MotionScrollInView>
     )
