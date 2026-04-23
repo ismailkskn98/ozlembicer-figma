@@ -44,10 +44,7 @@ export default function Header() {
          </header>
          <section className="lg:hidden fluid gridContainer w-full max-w-full lg:max-w-6xl mx-auto py-1 bg-coffee-dark">
             <main className="w-full flex items-center justify-center">
-               <Link
-                  href="/contact-us"
-                  className="flex items-center justify-center gap-1 text-ivory-soft px-2.5 py-0.5 rounded-sm text-xs sm:text-sm"
-               >
+               <Link href="/contact-us" className="flex items-center justify-center gap-1 text-ivory-soft px-2.5 py-0.5 rounded-sm text-xs sm:text-sm">
                   <span>info@ozlembicer.com</span>
                   <span>-</span>
                   <span>+90 (414) 13 13</span>

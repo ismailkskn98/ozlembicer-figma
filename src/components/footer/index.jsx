@@ -14,7 +14,13 @@ export default function Footer() {
             <div className="w-full fluid absolute inset-x-0 top-0 h-px bg-gold z-0" />
             <main className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col md:flex-row items-center lg:items-start justify-start md:justify-between my-auto gap-5 md:gap-0">
                <article className="w-full max-w-sm flex flex-col items-center md:items-start">
-                  <Image src="/images/logo.webp" alt="Dr.Bicer Logo" width={250} height={70} className="object-contain object-center w-fit h-10 lg:h-11 xl:h-15" />
+                  <Image
+                     src="/images/logo.webp"
+                     alt="Dr.Bicer Logo"
+                     width={250}
+                     height={70}
+                     className="relative z-20 object-contain object-center w-fit min-w-25 h-8 sm:min-w-31.25  sm:h-10 lg:h-11 xl:h-15"
+                  />
                   <div className="w-full flex flex-col items-center md:items-start gap-4 md:gap-8 mt-5">
                      <div className="w-full max-w-xs md:max-w-sm grid grid-cols-1 gap-y-0 text-ivory-soft text-sm -space-y-1">
                         <div className="w-full flex items-center justify-center md:justify-between">
@@ -41,7 +47,11 @@ export default function Footer() {
                         <Link href="https://www.facebook.com/drozlembicer" target="_blank" className="text-white text-3xl lg:text-[38px] hover:text-gold transition-colors">
                            <FaFacebookSquare />
                         </Link>
-                        <Link href="https://www.linkedin.com/in/%C3%B6zlem-bi%C3%A7er-69154010b/" target="_blank" className="text-white text-3xl lg:text-[38px] hover:text-gold transition-colors">
+                        <Link
+                           href="https://www.linkedin.com/in/%C3%B6zlem-bi%C3%A7er-69154010b/"
+                           target="_blank"
+                           className="text-white text-3xl lg:text-[38px] hover:text-gold transition-colors"
+                        >
                            <FaLinkedin />
                         </Link>
                         <Link href="https://www.youtube.com/@drozlembicerclinic" target="_blank" className="text-white text-3xl lg:text-[38px] hover:text-gold transition-colors">

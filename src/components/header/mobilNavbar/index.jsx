@@ -113,7 +113,10 @@ export default function MobilNavbar({ children }) {
                               </>
                            ) : (
                               <SheetClose asChild>
-                                 <Link href={item.href} className="block py-3 px-3 text-ivory-soft hover:bg-wine-brown/50 rounded-lg transition-colors duration-200 text-sm capitalize font-medium">
+                                 <Link
+                                    href={item.href}
+                                    className="block py-3 px-3 text-ivory-soft hover:bg-wine-brown/50 rounded-lg transition-colors duration-200 text-sm capitalize font-medium"
+                                 >
                                     {item.item}
                                  </Link>
                               </SheetClose>

@@ -132,11 +132,15 @@ export default function DeneyTitleImage() {
          <div className="w-full flex flex-col md:flex-row md:h-150 items-stretch gap-0">
             {titleItemsData.map((item) => {
                const isOpen = selectedItem === item.value;
-               console.log('selectedItem: ', selectedItem);
+
                return (
                   <div
                      key={item.value}
-                     className={cn('relative w-full overflow-hidden flex transition-all duration-300 ease-in-out min-h-[17.5vh]', 'md:min-h-0 md:w-auto md:h-full', isOpen ? 'md:flex-7' : 'md:flex-1')}
+                     className={cn(
+                        'relative w-full overflow-hidden flex transition-all duration-300 ease-in-out min-h-[17.5vh]',
+                        'md:min-h-0 md:w-auto md:h-full',
+                        isOpen ? 'md:flex-7' : 'md:flex-1',
+                     )}
                   >
                      <div className="relative min-h-[17.5vh] h-full flex-1 flex flex-col w-full overflow-hidden">
                         <div className="absolute inset-0 z-0">
