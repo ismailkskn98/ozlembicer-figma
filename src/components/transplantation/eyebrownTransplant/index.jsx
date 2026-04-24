@@ -9,9 +9,9 @@ import Image from 'next/image';
 export default function EyebrownTransplant() {
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
+         <EyebrownHero />
+         <HeroLogoCarousel isBgGradient={true} />
          <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
-            <EyebrownHero />
-            <HeroLogoCarousel />
             <main className="w-full fluid gridContainer border-y-2 border-gold bg-radial from-coffee-dark to-wine-brown">
                <SectionWrapper>
                   <HowDoesItWork
@@ -86,8 +86,8 @@ export default function EyebrownTransplant() {
                            </h4>
                            <div className="w-full flex flex-col items-start gap-4 text-ivory-soft text-sm lg:text-base">
                               <p>
-                                 Eyebrow transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on patient preferences,
-                                 donor area characteristics, and surgical planning.
+                                 Eyebrow transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on patient
+                                 preferences, donor area characteristics, and surgical planning.
                               </p>
                               <ul className="list-disc list-outside pl-5">
                                  <li>FUE involves individual follicle extraction and is often preferred by patients who wish to avoid a linear scar</li>
@@ -155,8 +155,8 @@ export default function EyebrownTransplant() {
                         <section className="col-span-1 sm:col-span-2 w-full flex flex-col items-start gap-4 mt-6 text-sm lg:text-base">
                            <h4 className="font-bold text-[20px]">Important Note for Patients</h4>
                            <p>
-                              Eyebrow transplantation is a highly specialized procedure, and results may vary depending on individual healing capacity, hair characteristics, and medical history. A
-                              detailed consultation is essential to ensure realistic expectations and optimal outcomes.
+                              Eyebrow transplantation is a highly specialized procedure, and results may vary depending on individual healing capacity, hair characteristics, and medical
+                              history. A detailed consultation is essential to ensure realistic expectations and optimal outcomes.
                            </p>
                         </section>
                      </main>

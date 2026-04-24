@@ -9,9 +9,9 @@ import Image from 'next/image';
 export default function BeardTransplantationMain() {
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
+         <BeardHero />
+         <HeroLogoCarousel isBgGradient={true} />
          <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
-            <BeardHero />
-            <HeroLogoCarousel />
             <main className="w-full fluid gridContainer border-y-2 border-gold bg-radial from-coffee-dark to-wine-brown">
                <SectionWrapper>
                   <HowDoesItWork
@@ -96,8 +96,8 @@ export default function BeardTransplantationMain() {
                            </h4>
                            <div className="w-full flex flex-col items-start gap-4 text-ivory-soft text-sm lg:text-base">
                               <p>
-                                 The donor hair is typically harvested from the scalp, as scalp hair follicles are genetically programmed to grow long-term even after being transplanted to the beard
-                                 area.
+                                 The donor hair is typically harvested from the scalp, as scalp hair follicles are genetically programmed to grow long-term even after being transplanted to
+                                 the beard area.
                               </p>
                            </div>
                         </article>
@@ -109,8 +109,8 @@ export default function BeardTransplantationMain() {
                            </h4>
                            <div className="w-full flex flex-col items-start gap-4 text-ivory-soft text-sm lg:text-base">
                               <p>
-                                 Beard transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on the patient’s donor area,
-                                 graft requirements, and surgical plan.
+                                 Beard transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on the patient’s
+                                 donor area, graft requirements, and surgical plan.
                               </p>
                               <ul className="list-disc list-outside pl-5">
                                  <li>FUE involves the individual extraction of hair follicles using micro punches</li>

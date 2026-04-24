@@ -26,8 +26,8 @@ export default function HairTransplantMain() {
       <>
          <CustomBreadCrumb links={linksItems} isButton={true} />
          <HairTransplantHero />
-         <HeroLogoCarousel />
-         <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft via-90% to-stone-beige">
+         <HeroLogoCarousel isBgGradient={true} />
+         <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft">
             <SectionWrapper
                linksItems={linksItems}
                id="fue-micro-motor"
@@ -140,7 +140,8 @@ export default function HairTransplantMain() {
                   <FueDoesItWorkFAQs />
                </HowDoesItWork>
             </SectionWrapper>
-
+         </main>
+         <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft">
             <SectionWrapper
                linksItems={linksItems}
                id="fue-manuel"
@@ -280,7 +281,8 @@ export default function HairTransplantMain() {
                   </article>
                </section>
             </SectionWrapper>
-
+         </main>
+         <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft">
             <SectionWrapper
                linksItems={linksItems}
                id="body-hair-transplant"
@@ -324,7 +326,8 @@ export default function HairTransplantMain() {
                   <HowDoesItWorkBodyHair />
                </HowDoesItWork>
             </SectionWrapper>
-
+         </main>
+         <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft">
             <SectionWrapper
                linksItems={linksItems}
                id="reconstructive-hair-transplant"
@@ -374,7 +377,8 @@ export default function HairTransplantMain() {
                   <HowDoesItWorkRecon />
                </HowDoesItWork>
             </SectionWrapper>
-
+         </main>
+         <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige to-ivory-soft">
             <SectionWrapper
                linksItems={linksItems}
                id="long-hair"
@@ -417,7 +421,8 @@ export default function HairTransplantMain() {
                   <HowDoesItWorkLong />
                </HowDoesItWork>
             </SectionWrapper>
-
+         </main>
+         <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft via-90% to-stone-beige/50">
             <SectionWrapper
                linksItems={linksItems}
                id="fut"

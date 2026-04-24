@@ -21,8 +21,8 @@ export default function TrichopatTreatmentMain({ children }) {
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <CustomBreadCrumb links={linksItems} />
          <TrichopatTreatmentHero />
+         <HeroLogoCarousel isBgGradient={true} />
          <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
-            <HeroLogoCarousel />
             <SectionWrapper>
                <HowDoesItWork
                   images={[

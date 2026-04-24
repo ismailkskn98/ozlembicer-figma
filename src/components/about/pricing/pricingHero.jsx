@@ -5,12 +5,12 @@ import React from 'react';
 
 const priceItems = [
    {
-      icon: null,
+      icon: '/images/price/FUE-Automated.svg',
       title: 'FUE Automated',
       paragraphs: [{ text: '3€ per Graft', leadingBr: true }, { text: 'Up To 4.000 Grafts In One Session' }],
    },
    {
-      icon: null,
+      icon: '/images/price/FUE-Manual.svg',
       title: 'FUE Manual',
       paragraphs: [
          { text: '4€ per Graft', leadingBr: true },
@@ -19,17 +19,14 @@ const priceItems = [
       ],
    },
    {
-      icon: null,
+      icon: '/images/price/FUE-Strip.svg',
       title: 'FUT (Strip)',
       paragraphs: [{ text: '6.000€', leadingBr: true }],
    },
    {
       icon: '/images/price/beard-icon.png',
       title: 'Beard Transplant',
-      paragraphs: [
-         { text: 'From Scalp To Beard: 6.000-9.000€ (Related With Graft Count)', leadingBr: true },
-         { text: 'From Beard To Scalp: 6.000€ (Unrelated With Graft Count)' },
-      ],
+      paragraphs: [{ text: 'From Scalp To Beard: 6.000-9.000€ (Related With Graft Count)', leadingBr: true }, { text: 'From Beard To Scalp: 6.000€ (Unrelated With Graft Count)' }],
    },
    {
       icon: '/images/price/eyebrow-icon.png',
@@ -57,7 +54,7 @@ const priceItems = [
       paragraphs: [{ parts: ['In person: 100€', 'Online: Free'], leadingBr: true }],
    },
    {
-      icon: null,
+      icon: '/images/price/Touch-Up-Terms-and-Conditions.svg',
       stackOnMobile: true,
       title: 'Touch-Up Terms and Conditions',
       paragraphs: [
@@ -72,7 +69,7 @@ const priceItems = [
       ],
    },
    {
-      icon: null,
+      icon: '/images/price/Discount-Terms-and-Conditions.svg',
       stackOnMobile: true,
       title: 'Discount Terms and Conditions',
       paragraphs: [
@@ -105,27 +102,15 @@ export default function PricingHero() {
                <MotionScrollInView>
                   <h1 className="text-[32px]">Pricing</h1>
                </MotionScrollInView>
-               <MotionScrollInViewVariant
-                  className="flex-1 flex flex-col items-start gap-6 lg:gap-10 text-sm sm:text-[14px] leading-relaxed"
-                  childClassname={'flex flex-col items-start'}
-               >
+               <MotionScrollInViewVariant className="flex-1 flex flex-col items-start gap-6 lg:gap-10 text-sm sm:text-[14px] leading-relaxed" childClassname={'flex flex-col items-start'}>
                   {priceItems.map((item, index) => {
                      if (item.standalone) {
                         return <p key={index}>{item.text}</p>;
                      }
                      return (
-                        <article
-                           key={index}
-                           className={`${item.stackOnMobile ? 'flex-col sm:flex-row' : 'flex-row'} flex items-start gap-5`}
-                        >
+                        <article key={index} className={`${item.stackOnMobile ? 'flex-col sm:flex-row' : 'flex-row'} flex items-start gap-5`}>
                            {item.icon ? (
-                              <Image
-                                 src={item.icon}
-                                 alt={item.title}
-                                 width={90}
-                                 height={90}
-                                 className="object-contain object-center shrink-0 w-20 sm:w-22.5 h-20 sm:h-22.5"
-                              />
+                              <Image src={item.icon} alt={item.title} width={90} height={90} className="object-contain object-center shrink-0 w-20 sm:w-22.5 h-20 sm:h-22.5" />
                            ) : (
                               <div className="w-20 sm:w-22.5 h-20 sm:h-22.5 bg-white rounded-sm shrink-0" />
                            )}
@@ -144,10 +129,7 @@ export default function PricingHero() {
                                        );
                                     }
                                     return (
-                                       <p
-                                          key={pIdx}
-                                          className={`${para.mt2 ? 'mt-2' : ''} ${para.fontBold ? 'font-bold' : ''}`}
-                                       >
+                                       <p key={pIdx} className={`${para.mt2 ? 'mt-2' : ''} ${para.fontBold ? 'font-bold' : ''}`}>
                                           <span className="hidden sm:block">{para.leadingBr && <br />}</span>
                                           {para.text}
                                        </p>

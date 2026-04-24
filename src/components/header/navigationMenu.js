@@ -68,7 +68,7 @@ export const navigationMenu = [
             href: '/gallery',
             label: 'Video Gallery',
             submenu: [
-               { href: '/gallery#informative-videos', label: 'Informative Videos' },
+               // { href: '/gallery#informative-videos', label: 'Informative Videos' },
                { href: '/gallery#patient-reviews', label: 'Patient Reviews' },
                { href: '/gallery#interviews', label: 'Interviews with Dr. Bicer' },
             ],

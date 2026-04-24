@@ -16,9 +16,9 @@ export default function PricingMain({ children }) {
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <CustomBreadCrumb links={linksItems} />
+         <PricingHero />
+         <HeroLogoCarousel isBgGradient={true} />
          <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
-            <PricingHero />
-            <HeroLogoCarousel />
             {children}
             <DeneyTitleImage />
             <PatientResults title="Patient Results" />
