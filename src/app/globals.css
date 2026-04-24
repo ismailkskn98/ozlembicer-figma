@@ -5,20 +5,19 @@
 
 @theme {
    --font-inter: var(--font-inter);
-
-   --color-coffee-dark: rgb(38 18 18);
-   --color-stone-beige: rgb(178 169 157);
-   --color-gold: rgb(185 159 108);
-   --color-wine-brown: rgb(61 29 29);
-   --color-ivory-soft: rgb(238 230 219);
+   --color-coffee-dark: #261212;
+   --color-stone-beige: #b2a99d;
+   --color-gold: #b99f6c;
+   --color-wine-brown: #3d1d1d;
+   --color-ivory-soft: #eee6db;
 }
 
 :root {
-   --color-wine-brown: rgb(61 29 29);
-   --color-coffee-dark: rgb(38 18 18);
-   --color-gold: rgb(185 159 108);
-   --color-ivory-soft: rgb(238 230 219);
-   --color-stone-beige: rgb(178 169 157);
+   --color-wine-brown: #3d1d1d; /* Main Dark 1 */
+   --color-coffee-dark: #261212; /* Main Dark 2 */
+   --color-gold: #b99f6c; /* Main Gold 1 */
+   --color-ivory-soft: #eee6db; /* Main Light 1 */
+   --color-stone-beige: #b2a99d; /* Main Light 2 */
 }
 
 html {

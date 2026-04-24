@@ -5,7 +5,9 @@ import HowToAppointment from '../common/howToAppointment';
 export default function ContactMain() {
    return (
       <>
-         <HowToAppointment isContactPage={true} className="pt-15 pb-0" />
+         <section className="w-full fluid gridContainer">
+            <HowToAppointment isContactPage={true} className="pt-15 pb-0" />
+         </section>
          <ContactForm />
       </>
    );

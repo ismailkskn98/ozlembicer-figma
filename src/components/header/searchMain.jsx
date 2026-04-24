@@ -70,7 +70,7 @@ export default function SearchMain({ children }) {
 
                {/* Search input */}
                <div className="flex items-center py-2 px-3 shrink-0">
-                  <Search className="stroke-1 w-5 h-5 shrink-0 text-ivory-soft" style={{ opacity: 0.6 }} />
+                  <Search className="stroke-1 w-5 h-5 shrink-0 text-ivory-soft" />
                   <input
                      ref={inputRef}
                      onChange={(e) => {
