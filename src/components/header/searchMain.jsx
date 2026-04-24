@@ -17,9 +17,7 @@ function ResultItem({ item, onClose }) {
             {item.image ? <Image src={item.image} alt={item.title} fill className="object-cover object-center" /> : <Search className="w-4 h-4 stroke-1 text-ivory-soft" opacity={0.6} />}
          </div>
          <span className="text-sm font-medium flex-1 text-ivory-soft">{item.title}</span>
-         <span className="text-xs text-ivory-soft uppercase tracking-wide" style={{ opacity: 0.6 }}>
-            {item.category}
-         </span>
+         <span className="text-xs text-ivory-soft/60 uppercase tracking-wide">{item.category}</span>
       </Link>
    );
 }

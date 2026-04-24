@@ -90,10 +90,10 @@ export default function HowToAppointment({ isContactPage, className }) {
                      <div className="hidden lg:flex flex-col items-center justify-center w-full h-full">
                         <div className="w-full max-w-70 flex flex-col lg:flex-row items-start lg:items-center gap-3 sm:gap-4 lg:gap-0 text-ivory-soft px-3.5 xl:px-0">
                            <div className="flex items-center gap-2">
-                              <span className="text-[70px] sm:text-[80px] 2xl:text-[96px]">{step.id}</span>
+                              <span className="text-[70px] lg:text-[75px] xl:text-[80px] 2xl:text-[96px]">{step.id}</span>
                            </div>
                            <div className="relative w-full">
-                              <p className="text-[23px] sm:text-[28px] lg:text-[28px] xl:text-[32px] leading-8 2xl:leading-9 opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300">
+                              <p className="text-[23px] sm:text-[28px] lg:text-[26px] xl:text-[32px] leading-8 2xl:leading-9 opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300">
                                  {step.title}
                                  <br />
                                  {step.titleBr}
@@ -105,7 +105,7 @@ export default function HowToAppointment({ isContactPage, className }) {
                               </p>
                            </div>
                         </div>
-                        <div className="relative h-38.25 w-full">
+                        <div className="relative h-35 xl:h-38.25 w-full">
                            {step.image ? (
                               <Image
                                  src={step.image}
@@ -116,12 +116,12 @@ export default function HowToAppointment({ isContactPage, className }) {
                               />
                            ) : (
                               <step.icon
-                                 className="mx-auto opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 w-14 sm:w-16 lg:w-36 xl:w-38.25 h-auto text-ivory-soft"
+                                 className="mx-auto opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-all duration-300 w-14 sm:w-16 lg:w-34 xl:w-38.25 h-auto text-ivory-soft"
                                  strokeWidth={0.75}
                                  absoluteStrokeWidth
                               />
                            )}
-                           <p className="hidden lg:block w-full max-w-70 px-2 sm:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">
+                           <p className="hidden lg:block w-full max-w-70 px-2 xl:px-0 absolute left-1/2 top-1/2 -translate-1/2 text-[13px] xl:text-[14px] text-ivory-soft opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">
                               {step.description}
                            </p>
                         </div>
