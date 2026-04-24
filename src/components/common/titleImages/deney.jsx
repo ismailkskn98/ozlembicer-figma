@@ -27,7 +27,7 @@ const titleItemsData = [
       title: 'Beard Transplantation',
       href: '/beard-transplantation',
       image: '/images/home-accordion/beard-transplant.webp',
-      icon: '/images/hair-transplant/beard-nobg.svg',
+      icon: '/images/hair-transplant/new-beard-transplantation.svg',
       content: {
          title: 'Beard Transplantation',
          items: [
@@ -43,7 +43,7 @@ const titleItemsData = [
       title: 'Eyebrow Transplantation',
       href: '/eyebrown-transplant',
       image: '/images/home-accordion/eyebrow-transplant.webp',
-      icon: '/images/hair-transplant/eyebrow.svg',
+      icon: '/images/hair-transplant/new-eyebrow-transplantation.svg',
       content: {
          title: 'Eyebrow Transplantation',
          items: [

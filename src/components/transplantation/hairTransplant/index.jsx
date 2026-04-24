@@ -147,7 +147,7 @@ export default function HairTransplantMain() {
                id="fue-manuel"
                title="FUE"
                subtitle="(Manual)"
-               imageUrl="/images/hair-transplant/fue-manuel-nobg.svg"
+               imageUrl="/images/hair-transplant/FUE-Manual.svg"
                generalInfoProps={{
                   title: 'What Is',
                   boldTitle: 'FUE Hair Transplant?',
@@ -288,7 +288,7 @@ export default function HairTransplantMain() {
                id="body-hair-transplant"
                title="BHT"
                subtitle="(Body Hair Transplant)"
-               imageUrl="/images/hair-transplant/body-hair-nobg.svg"
+               imageUrl="/images/hair-transplant/new-bht.svg"
                generalInfoProps={{
                   title: 'What Is',
                   boldTitle: 'Body Hair Transplant?',
@@ -333,7 +333,7 @@ export default function HairTransplantMain() {
                id="reconstructive-hair-transplant"
                title="Reconstructive Hair Transplantation"
                subtitle=""
-               imageUrl="/images/hair-transplant/reconstructive-nobg.svg"
+               imageUrl="/images/hair-transplant/reconstruct-ve-Hair-Transplantation.svg"
                generalInfoProps={{
                   title: 'What Is',
                   boldTitle: 'Reconstructive Hair Transplantation?',
@@ -428,7 +428,7 @@ export default function HairTransplantMain() {
                id="fut"
                title="FUT"
                subtitle="(Follicular Unit Transplantation)"
-               imageUrl="/images/hair-transplant/fut-nobg.svg"
+               imageUrl="/images/hair-transplant/FUE-Strip.svg"
                generalInfoProps={{
                   title: 'What Is',
                   boldTitle: 'FUT Hair Transplant?',

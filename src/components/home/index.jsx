@@ -14,7 +14,7 @@ export default function HomeMain({ videos }) {
          <Hero />
          <HeroLogoCarousel />
          <div className="fluid gridContainer bg-linear-to-b from-stone-beige via-ivory-soft via-80% to-stone-beige">
-            <PatientResults title="Patient Results" delay={500000} />
+            <PatientResults title="Patient Results" delay={4000} />
             <DeneyTitleImage />
             <VideosTutorials videos={videos} />
             <AestheticAndArt />
