@@ -87,14 +87,14 @@ export default function Hero() {
                         <div className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 xl:gap-15`}>
                            <article className="order-2 lg:order-1 flex flex-col items-center lg:items-start gap-5 lg:gap-3 xl:gap-7.5 text-ivory-soft min-w-full lg:min-w-102.5">
                               <div className={`w-full flex items-end justify-start h-auto sm:h-37.5 xl:h-60 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
-                                 <h2 className="hidden lg:flex flex-col items-start text-start justify-end font-bold text-[35px] min-[393px]:text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-10 min-[393px]:leading-11 min-[70rem]:leading-12 min-[72rem]:leading-15">
+                                 <h2 className="hidden lg:flex flex-col items-start text-start justify-end font-bold text-[30px] min-[300px]:text-[35px] min-[393px]:text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-9 min-[300px]:leading-10 min-[393px]:leading-11 min-[70rem]:leading-12 min-[72rem]:leading-15">
                                     {item.title.map((line, lineIndex) => (
                                        <span key={lineIndex} className="block text-nowrap">
                                           {line}
                                        </span>
                                     ))}
                                  </h2>
-                                 <h2 className="flex lg:hidden flex-col items-start text-start justify-end font-bold text-[35px] min-[393px]:text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-10 min-[393px]:leading-11 lg:leading-12 min-[72rem]:leading-15">
+                                 <h2 className="flex lg:hidden flex-col items-start text-start justify-end font-bold text-[30px] min-[300px]:text-[35px] min-[393px]:text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-9 min-[300px]:leading-10 min-[393px]:leading-11 lg:leading-12 min-[72rem]:leading-15">
                                     {item.mobileTitle.map((line, lineIndex) => (
                                        <span key={lineIndex} className="block text-nowrap">
                                           {line}
