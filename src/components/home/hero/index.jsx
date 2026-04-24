@@ -19,8 +19,8 @@ const heroSlideItems = [
       imageAlt: 'hero ozlem bicer',
       links: [
          {
-            href: '/about-us/clinic-team',
-            text: 'Read More About Clinic',
+            href: '/hair-transplant',
+            text: 'Read More About Hair Transplant',
          },
          {
             href: '/contact-us',
@@ -38,7 +38,7 @@ const heroSlideItems = [
       links: [
          {
             href: '/about-us/clinic-team',
-            text: 'Read More About Clinic',
+            text: 'Read More About Clinic & Team',
          },
          {
             href: '/contact-us',
@@ -55,8 +55,8 @@ const heroSlideItems = [
       imageAlt: 'hero ozlem bicer 2',
       links: [
          {
-            href: '/about-us/clinic-team',
-            text: 'Read More About Clinic',
+            href: '/about-us/dr-ozlem-bicer',
+            text: 'Read More About Dr. Ozlem Bicer',
          },
          {
             href: '/contact-us',
