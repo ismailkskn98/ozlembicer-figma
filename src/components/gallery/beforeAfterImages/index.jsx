@@ -9,8 +9,8 @@ export default function BeforeAfterImagesMain() {
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <BeforeAfterHero />
+         <HeroLogoCarousel isBgGradient={true} />
          <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
-            <HeroLogoCarousel />
             <header className="w-full fluid gridContainer border-y border-gold">
                <main className="w-full fluid gridContainer bg-linear-to-r from-coffee-dark via-wine-brown to-coffee-dark h-37.5 border-y border-gold py-2.5 text-ivory-soft">
                   <div className="w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0" />
