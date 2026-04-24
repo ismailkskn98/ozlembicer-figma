@@ -3,6 +3,7 @@ import React from 'react';
 import MotionScrollInView from './motionScrollInView';
 import { Phone } from 'lucide-react';
 import Pageh3Title from './pageh3Title';
+import { cn } from '@/lib/utils';
 
 const appointmentSteps = [
    {
@@ -44,9 +45,9 @@ const appointmentSteps = [
    },
 ];
 
-export default function HowToAppointment() {
+export default function HowToAppointment({ isContactPage = false }) {
    return (
-      <section className="w-full py-15">
+      <section className={cn(`w-full ${isContactPage ? 'pt-15 pb-0' : 'py-15'}`)}>
          <main className="w-full flex flex-col items-start lg:items-center justify-start lg:justify-center gap-6">
             <MotionScrollInView className="w-full">
                <Pageh3Title title="How To Make An Appointment" className="border-b border-coffee-dark text-coffee-dark w-full max-w-6xl lg:mx-auto" />
@@ -131,34 +132,36 @@ export default function HowToAppointment() {
                   </article>
                ))}
             </div>
-            <MotionScrollInView className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:items-center gap-6">
-               <article className="group flex flex-col items-start gap-3.75 text-coffee-dark">
-                  <h3 className="text-[32px] leading-9">
-                     Hair Transplantation in
-                     <br /> Istanbul, Turkey
-                  </h3>
-                  <p className="max-w-full lg:max-w-141">
-                     Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a
-                     dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
-                  </p>
-               </article>
-               <a
-                  href="https://wa.me/905304141313"
-                  target="_blank"
-                  className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5 cursor-pointer"
-               >
-                  <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">
-                     Contact US
-                  </span>
-                  <div className="w-fit flex flex-col items-center justify-center gap-2 absolute left-1/2 top-1/2 -translate-1/2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300">
-                     <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
-                     <div className="flex flex-col items-center justify-center text-[23px] sm:text-[28px] lg:text-[32px]">
-                        <span>info@ozlembicer.com</span>
-                        <span>+90 (530) 414 13 13</span>
+            {!isContactPage && (
+               <MotionScrollInView className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:items-center gap-6">
+                  <article className="group flex flex-col items-start gap-3.75 text-coffee-dark">
+                     <h3 className="text-[32px] leading-9">
+                        Hair Transplantation in
+                        <br /> Istanbul, Turkey
+                     </h3>
+                     <p className="max-w-full lg:max-w-141">
+                        Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a
+                        dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
+                     </p>
+                  </article>
+                  <a
+                     href="https://wa.me/905304141313"
+                     target="_blank"
+                     className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5 cursor-pointer"
+                  >
+                     <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">
+                        Contact US
+                     </span>
+                     <div className="w-fit flex flex-col items-center justify-center gap-2 absolute left-1/2 top-1/2 -translate-1/2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300">
+                        <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
+                        <div className="flex flex-col items-center justify-center text-[23px] sm:text-[28px] lg:text-[32px]">
+                           <span>info@ozlembicer.com</span>
+                           <span>+90 (530) 414 13 13</span>
+                        </div>
                      </div>
-                  </div>
-               </a>
-            </MotionScrollInView>
+                  </a>
+               </MotionScrollInView>
+            )}
          </main>
       </section>
    );

@@ -1,12 +1,12 @@
-import React from 'react'
-import ContactCards from './contactCards'
-import ContactForm from './contactForm'
+import React from 'react';
+import ContactForm from './contactForm';
+import HowToAppointment from '../common/howToAppointment';
 
 export default function ContactMain() {
-    return (
-        <>
-            <ContactCards />
-            <ContactForm />
-        </>
-    )
+   return (
+      <>
+         <HowToAppointment isContactPage={true} />
+         <ContactForm />
+      </>
+   );
 }

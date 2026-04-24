@@ -15,8 +15,8 @@ import { DialogDescription, DialogTitle } from '@radix-ui/react-dialog';
 
 const localCarouselItems = [
    {
-      beforeImage: '/images/patient-results/before.png',
-      afterImage: '/images/patient-results/after.png',
+      beforeImage: '/images/patient-results/dA8T22ACZUQ-before.png',
+      afterImage: '/images/patient-results/dA8T22ACZUQ-after.png',
       videoId: 'dA8T22ACZUQ',
       technique1: 'FUE',
       technique2: '(Micro Motor)',
@@ -24,8 +24,8 @@ const localCarouselItems = [
       afterMonths: '12 Months',
    },
    {
-      beforeImage: '/images/patient-results/before.png',
-      afterImage: '/images/patient-results/after.png',
+      beforeImage: '/images/patient-results/DOSoDn9jTik-before.png',
+      afterImage: '/images/patient-results/DOSoDn9jTik-after.png',
       videoId: 'DOSoDn9jTik',
       technique1: 'FUE',
       technique2: '(Micro Motor)',
@@ -33,8 +33,8 @@ const localCarouselItems = [
       afterMonths: '12 Months',
    },
    {
-      beforeImage: '/images/patient-results/before.png',
-      afterImage: '/images/patient-results/after.png',
+      beforeImage: '/images/patient-results/eJfmg7s300I-before.png',
+      afterImage: '/images/patient-results/eJfmg7s300I-after.png',
       videoId: 'eJfmg7s300I',
       technique1: 'FUE',
       technique2: '(Micro Motor)',
@@ -42,8 +42,8 @@ const localCarouselItems = [
       afterMonths: '12 Months',
    },
    {
-      beforeImage: '/images/patient-results/before.png',
-      afterImage: '/images/patient-results/after.png',
+      beforeImage: '/images/patient-results/XfbQBWUzApg-before.png',
+      afterImage: '/images/patient-results/XfbQBWUzApg-after.png',
       videoId: 'XfbQBWUzApg',
       technique1: 'FUE',
       technique2: '(Micro Motor)',
@@ -51,8 +51,8 @@ const localCarouselItems = [
       afterMonths: '12 Months',
    },
    {
-      beforeImage: '/images/patient-results/before.png',
-      afterImage: '/images/patient-results/after.png',
+      beforeImage: '/images/patient-results/YPsYtiYt4pU-before.png',
+      afterImage: '/images/patient-results/YPsYtiYt4pU-after.png',
       videoId: 'YPsYtiYt4pU',
       technique1: 'FUE',
       technique2: '(Micro Motor)',
@@ -60,8 +60,8 @@ const localCarouselItems = [
       afterMonths: '12 Months',
    },
    {
-      beforeImage: '/images/patient-results/before.png',
-      afterImage: '/images/patient-results/after.png',
+      beforeImage: '/images/patient-results/VHkHD-hfHJw-before.png',
+      afterImage: '/images/patient-results/VHkHD-hfHJw-after.png',
       videoId: 'VHkHD-hfHJw',
       technique1: 'FUE',
       technique2: '(Micro Motor)',
