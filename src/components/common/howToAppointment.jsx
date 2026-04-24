@@ -59,34 +59,29 @@ export default function HowToAppointment({ isContactPage, className }) {
                      className="group flex flex-col items-center justify-center bg-coffee-dark rounded-xl sm:rounded-2xl lg:rounded-4xl py-4 sm:py-3 lg:pt-4 lg:pb-14.75 px-1.5 sm:px-2 xl:px-2.5 aspect-368/368"
                   >
                      {/* Mobile */}
-                     <div className="flex flex-col items-center justify-center flex-1 lg:justify-between gap-3 lg:hidden w-full h-full px-2 py-1">
-                        <div className="flex items-center gap-0.5">
-                           {/* <span className="text-[27px] min-[35rem]:text-[36px] sm:text-[48px] md:text-[56px] min-[56.25rem]:text-[70px] text-ivory-soft leading-none font-light"> */}
-                           <span className="text-[clamp(27px,7vw,70px)] text-ivory-soft leading-none font-light">{step.id}</span>
-                           <p className="text-start text-ivory-soft text-[clamp(10px,3vw,30px)] leading-none">
+                     <div className="flex flex-col items-center justify-center flex-1 lg:justify-between gap-3 lg:hidden w-full h-full px-2 py-1 min-h-[0vw]">
+                        <div className="flex items-center gap-0.5 min-w-0">
+                           <span style={{ fontSize: 'clamp(27px,7vw,70px)' }} className="text-ivory-soft leading-none font-light shrink-0">
+                              {step.id}
+                           </span>
+                           <p style={{ fontSize: 'clamp(10px,3vw,30px)' }} className="text-start text-ivory-soft leading-none min-w-0">
                               <span className="text-nowrap">{step.title}</span>
                               <br />
                               {step.titleBr}
                            </p>
                         </div>
-                        <div className="flex flex-col items-center gap-2">
+                        <div className="flex flex-col items-center gap-2 min-w-[0vw]">
                            {step.image ? (
                               <Image
                                  src={step.image}
                                  alt={step.alt}
                                  width={120}
                                  height={120}
-                                 // className="w-10 h-10 sm:w-16 md:w-28 sm:h-16 md:h-28 min-[56.25rem]:w-32 min-[56.25rem]:h-32 object-contain"
-                                 className="w-[clamp(10px,10vw,128px)] h-[clamp(10px,10vw,128px)] object-contain"
+                                 style={{ width: 'clamp(10px,10vw,128px)', height: 'clamp(10px,10vw,128px)' }}
+                                 className="object-contain"
                               />
                            ) : (
-                              <step.icon
-                                 // className="w-10 h-10 sm:w-16 md:w-28 sm:h-16 md:h-28 min-[56.25rem]:w-32 min-[56.25rem]:h-32 text-ivory-soft"
-                                 className="w-[clamp(10px,10vw,128px)] h-[clamp(10px,10vw,128px)] text-ivory-soft"
-                                 // className="w-10 h-10 sm:w-16 md:w-28 sm:h-16 md:h-28 min-[56.25rem]:w-32 min-[56.25rem]:h-32 text-ivory-soft"
-                                 strokeWidth={0.75}
-                                 absoluteStrokeWidth
-                              />
+                              <step.icon style={{ width: 'clamp(10px,10vw,128px)', height: 'clamp(10px,10vw,128px)' }} className="text-ivory-soft" strokeWidth={0.75} absoluteStrokeWidth />
                            )}
                         </div>
                      </div>

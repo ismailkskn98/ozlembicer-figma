@@ -33,6 +33,8 @@ body {
    width: 100%;
    min-height: 100vh;
    /* overflow-x: hidden; */
+   /* Safari iOS fix: forces vw-based clamp() values to recalculate on viewport resize */
+   -webkit-marquee-increment: 0vw;
 }
 
 html.lenis,
