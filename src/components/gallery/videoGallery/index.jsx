@@ -68,7 +68,7 @@ export default function VideoGalleryMain() {
             {/* <VideoGallerySection id="informative-videos" title="Informative Videos" videos={informativeVideos} iconSrc="/images/gallery/Informative-Videos.svg" /> */}
             <VideoGallerySection id="patient-reviews" title="Patient Reviews" videos={patientReviewVideos} iconSrc="/images/gallery/Patient-Reviews.svg" />
             <VideoGallerySection id="interviews" title="Interviews with Dr. Bicer" videos={interviewVideos} iconSrc="/images/gallery/Interviews-with-Dr-Bicer.svg" />
-            <HowToAppointment />
+            <HowToAppointment className="pt-0 pb-15" />
          </main>
       </>
    );

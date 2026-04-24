@@ -24,14 +24,6 @@ export default function MaleHairLossMain({ children }) {
          <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
             <SectionWrapper>
                <HowDoesItWork
-                  images={[
-                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
-                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
-                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
-                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
-                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
-                     { src: '/howwork-6.webp', alt: 'FUE Step 6' },
-                  ]}
                   title={['How Much', 'Hair Loss Is Normal?']}
                   content={[
                      {

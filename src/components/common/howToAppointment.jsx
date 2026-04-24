@@ -45,9 +45,9 @@ const appointmentSteps = [
    },
 ];
 
-export default function HowToAppointment({ isContactPage = false }) {
+export default function HowToAppointment({ isContactPage, className }) {
    return (
-      <section className={cn(`w-full ${isContactPage ? 'pt-15 pb-0' : 'py-15'}`)}>
+      <section className={cn(`w-full py-15`, className)}>
          <main className="w-full flex flex-col items-start lg:items-center justify-start lg:justify-center gap-6">
             <MotionScrollInView className="w-full">
                <Pageh3Title title="How To Make An Appointment" className="border-b border-coffee-dark text-coffee-dark w-full max-w-6xl lg:mx-auto" />

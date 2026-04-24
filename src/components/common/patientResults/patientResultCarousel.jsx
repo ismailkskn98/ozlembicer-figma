@@ -206,7 +206,7 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
                      <DialogTitle></DialogTitle>
                      <DialogDescription></DialogDescription>
                   </DialogHeader>
-                  <DialogContent showCloseButton={false} className="max-w-[90vw] md:max-w-150 p-0 border-0 bg-transparent shadow-none animate-in zoom-in-95 fade-in duration-200">
+                  <DialogContent showCloseButton={false} className="max-w-[90vw] z-9999999 md:max-w-150 p-0 border-0 bg-transparent shadow-none animate-in zoom-in-95 fade-in duration-200">
                      <DialogClose className="absolute -top-3 -right-3 z-20 rounded-full bg-ivory-soft/95 p-1.5 md:p-2 shadow-md hover:scale-105 transition cursor-pointer">
                         <X className="w-5 h-5 text-black" />
                      </DialogClose>
