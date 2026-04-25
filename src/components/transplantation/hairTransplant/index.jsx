@@ -296,7 +296,7 @@ export default function HairTransplantMain() {
                      'Body Hair Transplantation (BHT) is an advanced hair restoration technique used when the scalp does not provide enough suitable donor hair for a standard hair transplant. In a conventional hair transplant, hair follicles are typically harvested from the back and sides of the scalp. However, some patients have a limited or depleted scalp donor area, making additional donor sources necessary.',
                   description2:
                      'In such cases, hair follicles can be harvested from other parts of the body—most commonly the beard and, in selected cases, the chest—and transplanted to the scalp.',
-                  imageUrl: '/images/hair-transplant/body-hair.png',
+                  imageUrl: '/images/bizim/BodyHairTransplant.png',
                }}
             >
                <HowDoesItWork
@@ -341,7 +341,7 @@ export default function HairTransplantMain() {
                      'Reconstructive hair transplantation is a specialized field of hair restoration focused on correcting hair loss or aesthetic problems caused by previous hair transplant procedures, trauma, burns, scars, medical conditions, or congenital factors.',
                   description2:
                      'Unlike standard cosmetic hair transplantation, reconstructive procedures require advanced planning, surgical precision, and artistic judgment to restore a natural appearance while respecting facial proportions and existing hair characteristics.',
-                  imageUrl: '/images/hair-transplant/reconstructive.png',
+                  imageUrl: '/images/bizim/ReconstructiveHair.png',
                }}
             >
                <HowDoesItWork
@@ -392,7 +392,7 @@ export default function HairTransplantMain() {
                      'Long hair transplantation is an advanced hair transplant technique in which hair follicles are extracted and implanted without shaving the donor or recipient areas. Although the procedure is technically the same as the classic micromotor FUE technique, special punches are used to avoid cutting the hair shaft, allowing the hair to remain long during extraction and implantation.',
                   description2:
                      'This method enables patients to see immediate cosmetic results after the procedure. The transplanted long hairs shed temporarily, but the follicles remain permanent and regrow naturally over time.',
-                  imageUrl: '/images/hair-transplant/reconstructive.png',
+                  imageUrl: '/images/bizim/LongHairTransplant.png',
                }}
             >
                <HowDoesItWork
@@ -435,7 +435,7 @@ export default function HairTransplantMain() {
                   description1: 'FUT (Follicular Unit Transplantation)—also known as strip hair transplantation—is one of the most established hair transplant techniques. ',
                   description2:
                      'In the FUT method, a thin strip of hair-bearing scalp is surgically removed from the back of the head (donor area). The incision is then closed with sutures. The harvested strip is carefully divided into individual follicular units, each containing 1 to 4 hairs, and transplanted into areas affected by hair loss using a technique similar to FUE.',
-                  imageUrl: '/images/hair-transplant/body-hair.png',
+                  imageUrl: '/images/bizim/FUTHairTransplant.png',
                }}
             >
                <HowDoesItWork
