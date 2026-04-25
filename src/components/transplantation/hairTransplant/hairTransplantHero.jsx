@@ -42,11 +42,11 @@ export default function HairTransplantHero() {
                   className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-tr-xl sm:rounded-none"
                />
                <Image
-                  src="/images/hair-transplant/hero-item-3.png"
+                  src="/images/hair-transplant/2.webp"
                   alt="hair-transplant hero item 3"
                   width={880}
                   height={1180}
-                  className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-bl-xl sm:rounded-none"
+                  className="object-cover sm:object-cover object-[70%_50%] w-full h-75 sm:h-130 lg:h-156 rounded-bl-xl sm:rounded-none"
                />
                <Image
                   src="/images/hair-transplant/hero-item-3.png"
