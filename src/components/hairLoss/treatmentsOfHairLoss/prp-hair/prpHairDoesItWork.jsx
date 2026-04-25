@@ -46,7 +46,7 @@ export default function PrpHairDoesItWork() {
    return (
       <main className="grid grid-cols-1 lg:grid-cols-3 w-full max-w-6xl mx-auto place-content-stretch place-items-stretch text-coffee-dark gap-6 py-10 sm:py-16 lg:py-25">
          <Image
-            src="/images/bizim/Platelet-Rich-Plasma.png"
+            src="/images/hair-loss/hair-prp-section.png"
             alt="FUE Hair Transplant"
             width={900}
             height={1100}

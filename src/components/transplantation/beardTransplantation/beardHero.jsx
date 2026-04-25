@@ -13,7 +13,7 @@ export default function BeardHero() {
             </h1>
             <MotionLeftView className="w-full">
                <Image
-                  src="/images/bizim/Beard-Transplant.png"
+                  src="/images/beard-transplant/beard-hero.png"
                   alt="Dr. Özlem Bicer"
                   width={1200}
                   height={700}

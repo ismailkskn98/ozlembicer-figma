@@ -13,7 +13,7 @@ export default function EyebrownHero() {
             </h1>
             <MotionLeftView className="w-full">
                <Image
-                  src="/images/bizim/Eyebrown-Transplant.png"
+                  src="/images/beard-transplant/eyebrown-hero.png"
                   alt="Dr. Özlem Bicer"
                   width={1200}
                   height={700}

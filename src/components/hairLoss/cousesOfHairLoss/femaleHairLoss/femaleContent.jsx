@@ -98,7 +98,7 @@ export default function FemaleContent() {
             </main>
             <main className="w-full grid grid-cols-1 lg:grid-cols-3 gap-6 justify-items-stretch place-content-stretch">
                <div className="min-w-75 w-full h-100 lg:h-full relative mx-auto lg:mx-0">
-                  <Image src="/images/bizim/FemaleHairLossTarak.png" alt="female hair loss girls" fill className="object-cover object-center w-full h-full rounded-2xl lg:rounded-4xl" />
+                  <Image src="/images/female-tarak.webp" alt="female hair loss girls" fill className="object-cover object-center w-full h-full rounded-2xl lg:rounded-4xl" />
                </div>
                <section className="col-span-1 lg:col-span-2 flex flex-col items-start text-[#3D1D1D] text-[14px] gap-4">
                   <article className="flex flex-col items-start">
