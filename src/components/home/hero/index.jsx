@@ -108,7 +108,7 @@ export default function Hero() {
                               </div>
 
                               <div
-                                 className={`w-full flex flex-col min-[393px]:flex-row min-[393px]:items-center min-[393px]:justify-end gap-3 sm:gap-6 h-auto min-[70rem]:h-11 transition-all duration-500 min-[393px]:mt-4 xl:mt-0 ${isActive ? 'opacity-100' : 'opacity-0'}`}
+                                 className={`w-full flex flex-col min-[300px]:flex-row min-[393px]:items-center min-[393px]:justify-end gap-3 sm:gap-6 h-auto min-[70rem]:h-11 transition-all duration-500 min-[393px]:mt-4 xl:mt-0 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                               >
                                  {item.links.map((link, linkIndex) => (
                                     <Link

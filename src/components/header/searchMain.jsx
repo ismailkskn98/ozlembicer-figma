@@ -59,7 +59,8 @@ export default function SearchMain({ children }) {
 
             <DialogPrimitive.Content
                aria-describedby={undefined}
-               className="fixed left-1/2 max-w-[calc(100%-2rem)] md:max-w-2xl w-full -translate-x-1/2 rounded-xl overflow-hidden flex flex-col bg-coffee-dark border border-gold/30 shadow-2xl outline-none data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 duration-100"
+               data-lenis-prevent
+               className="fixed left-1/2 max-w-[calc(100%-2rem)] md:max-w-2xl w-full -translate-x-1/2 rounded-xl overflow-hidden flex flex-col min-h-0 bg-coffee-dark border border-gold/30 shadow-2xl outline-none data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 duration-100"
                style={{
                   top: '5rem',
                   zIndex: 100000,
@@ -93,8 +94,8 @@ export default function SearchMain({ children }) {
                </div>
 
                {/* Results */}
-               <div className="border-t overflow-y-auto overscroll-contain" style={{ borderTop: '1px solid #b99f6c60' }}>
-                  <div className="px-4 py-4 flex flex-col gap-1">
+               <div data-lenis-prevent className="border-t flex-1 min-h-0 overflow-y-auto overscroll-contain touch-pan-y" style={{ borderTop: '1px solid #b99f6c60' }}>
+                  <div className="px-4 py-4 flex flex-col gap-1 min-h-0">
                      {results !== null && results.length === 0 && <p className="text-sm text-stone-beige/60 py-2 px-2">No results found.</p>}
 
                      {results !== null && results.length > 0 && results.map((item) => <ResultItem key={item.id} item={item} onClose={handleClose} />)}
