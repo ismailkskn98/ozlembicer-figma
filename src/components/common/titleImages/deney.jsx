@@ -10,7 +10,7 @@ const titleItemsData = [
       value: 'hair-transplant',
       title: 'Hair Transplantation',
       href: '/hair-transplant',
-      image: '/images/home-accordion/hair-transplant-degisti.webp',
+      image: '/images/home-accordion/Hair-Transplantation.webp',
       icon: '/images/hair-transplant/fue-micro-motor-nobg.svg',
       content: {
          title: 'Hair Transplantation',
@@ -26,7 +26,7 @@ const titleItemsData = [
       value: 'beard-transplant',
       title: 'Beard Transplantation',
       href: '/beard-transplantation',
-      image: '/images/home-accordion/beard-transplant.webp',
+      image: '/images/home-accordion/Beard-Transplantation.webp',
       icon: '/images/hair-transplant/new-beard-transplantation.svg',
       content: {
          title: 'Beard Transplantation',
@@ -42,7 +42,7 @@ const titleItemsData = [
       value: 'eyebrow-transplant',
       title: 'Eyebrow Transplantation',
       href: '/eyebrown-transplant',
-      image: '/images/home-accordion/eyebrow-transplant.webp',
+      image: '/images/home-accordion/Eyebrow-Transplantation.webp',
       icon: '/images/hair-transplant/new-eyebrow-transplantation.svg',
       content: {
          title: 'Eyebrow Transplantation',
@@ -58,7 +58,7 @@ const titleItemsData = [
       value: 'female-hair-transplant',
       title: 'Female Hair Transplantation',
       href: '/hair-transplant',
-      image: '/images/home-accordion/female-hair-transplant.webp',
+      image: '/images/home-accordion/Female-Hair-Transplantation.webp',
       icon: '/images/hair-transplant/female-hair.svg',
       content: {
          title: 'Female Hair Transplantation',
@@ -157,7 +157,7 @@ export default function DeneyTitleImage() {
                               <div className="relative h-full w-full flex items-start md:items-end justify-center md:pb-10 cursor-pointer">
                                  <div
                                     className={cn(
-                                       'absolute inset-0 flex flex-row md:flex-col items-center justify-between gap-4 md:gap-0 px-6 md:px-0 py-4 md:py-6 transition-all duration-200 bg-coffee-dark/30 md:bg-coffee-dark/80 hover:bg-coffee-dark/30 md:hover:bg-coffee-dark/50',
+                                       'absolute inset-0 flex flex-row md:flex-col items-center justify-between gap-4 md:gap-0 px-6 md:px-0 py-4 md:py-6 transition-all duration-200 bg-coffee-dark/50 md:bg-coffee-dark/83 hover:bg-coffee-dark/30 md:hover:bg-coffee-dark/50',
                                     )}
                                  >
                                     <h2 className="text-ivory-soft text-base md:text-lg font-medium tracking-wider whitespace-nowrap md:[writing-mode:vertical-rl]">{item.title}</h2>
@@ -168,7 +168,7 @@ export default function DeneyTitleImage() {
                         )}
 
                         <MobileContent isOpen={isOpen} onClick={() => handleItemClick(item.value)}>
-                           <div className="absolute inset-0 z-10 bg-coffee-dark/85" />
+                           <div className="absolute inset-0 z-10 bg-coffee-dark/70" />
                            <div className="relative z-20 p-6">
                               <div className="relative z-20">
                                  <h2 className="text-[20px] text-ivory-soft font-semibold mb-3.5">{item.title}</h2>
@@ -212,7 +212,8 @@ export default function DeneyTitleImage() {
                            <div className="absolute flex inset-0 z-20 pt-10 pb-10 px-8">
                               <button type="button" onClick={() => handleItemClick(item.value)} className="absolute inset-0" />
 
-                              <div className="absolute inset-0 z-10 bg-coffee-dark/55" />
+                              <div className="absolute inset-0 z-10 bg-coffee-dark/53" />
+                              {/* <div className="absolute inset-0 z-15 backdrop-blur-[4px]" /> */}
 
                               <div className="relative flex-1 flex flex-col z-20">
                                  <div className="w-full flex flex-col flex-1">

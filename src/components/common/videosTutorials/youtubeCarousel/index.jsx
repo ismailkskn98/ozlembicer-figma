@@ -24,7 +24,7 @@ export default function YoutubeCarousel({ videos = [] }) {
             breakpoints={{
                900: { slidesPerView: 3, spaceBetween: 50 },
                500: { slidesPerView: 2, spaceBetween: 20 },
-               100: { slidesPerView: 1.3, spaceBetween: 15 },
+               100: { slidesPerView: 1.2, spaceBetween: 15 },
             }}
             centeredSlides={true}
             centeredSlidesBounds={true}
@@ -62,7 +62,7 @@ export default function YoutubeCarousel({ videos = [] }) {
                            </div>
                         </div>
                         <div className="w-full bg-wine-brown p-2.5 rounded-[5px] aspect-14/3 flex items-center justify-center">
-                           <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[10px]">
+                           <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[clamp(9px_2vw_10px)]">
                               <h4 className="font-bold uppercase line-clamp-1"> {item.snippet.title}</h4>
                               {item.snippet.description.length > 0 && <p className="sm:block hidden lowercase line-clamp-2">{item.snippet.description}</p>}
                            </div>

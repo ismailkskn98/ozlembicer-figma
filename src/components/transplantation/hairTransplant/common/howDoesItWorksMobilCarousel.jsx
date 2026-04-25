@@ -31,7 +31,7 @@ function ItemCard({ item, isVideo, index }) {
                   </div>
                </div>
                <div className="w-full bg-wine-brown p-2.5 rounded-[5px] aspect-14/3 flex items-center justify-center">
-                  <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[10px]">
+                  <div className="flex flex-col items-center justify-center text-center relative z-50 text-ivory-soft text-[clamp(9px_2vw_10px)]">
                      <h4 className="font-bold uppercase line-clamp-1">{item.title || ''}</h4>
                   </div>
                </div>
@@ -79,7 +79,7 @@ export default function HowDoesItWorksMobilCarousel({ images = [], videos = [] }
             breakpoints={{
                900: { slidesPerView: 3, spaceBetween: 50 },
                600: { slidesPerView: 3, spaceBetween: 20 },
-               100: { slidesPerView: 1.3, spaceBetween: 15 },
+               100: { slidesPerView: 1.2, spaceBetween: 15 },
             }}
             centeredSlides={true}
             centeredSlidesBounds={true}

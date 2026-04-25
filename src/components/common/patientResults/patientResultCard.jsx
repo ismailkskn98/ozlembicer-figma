@@ -40,9 +40,9 @@ export default function PatientResultCard({ item, index, large = false }) {
                `}
             >
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[10px]'}`}>TECHNIQUE</h5>
+                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(8px,0.5vw,10px)]'}`}>TECHNIQUE</h5>
                   <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
-                  <p className={large ? 'text-xs md:text-sm' : 'text-[10px]'}>
+                  <p className={large ? 'text-xs md:text-sm' : 'text-[clamp(9px,1vw,10px)]'}>
                      {item.technique1}
                      <br />
                      {item.technique2}
@@ -59,9 +59,9 @@ export default function PatientResultCard({ item, index, large = false }) {
                </div>
 
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[10px]'}`}>GRAFTS</h5>
+                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(9px,1vw,10px)]'}`}>GRAFTS</h5>
                   <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
-                  <p className={large ? 'text-xs md:text-sm' : 'text-[10px]'}>{item.grafts}</p>
+                  <p className={large ? 'text-xs md:text-sm' : 'text-[clamp(9px,1vw,10px)]'}>{item.grafts}</p>
                   {!large && (
                      <Image
                         src="/images/heroCard-line.webp"
@@ -74,9 +74,9 @@ export default function PatientResultCard({ item, index, large = false }) {
                </div>
 
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[10px]'}`}>AFTER</h5>
+                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(8px,2vw,10px)]'}`}>AFTER</h5>
                   <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
-                  <p className={large ? 'text-xs md:text-sm' : 'text-[10px]'}>{item.afterMonths}</p>
+                  <p className={large ? 'text-xs md:text-sm' : 'text-[clamp(9px,1vw,10px)]'}>{item.afterMonths}</p>
                </div>
             </article>
          </div>
