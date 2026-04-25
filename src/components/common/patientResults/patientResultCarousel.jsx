@@ -140,8 +140,11 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
             slidesPerView={slidesPerView}
             slidesPerGroup={1}
             breakpoints={{
-               900: { slidesPerView: 3, spaceBetween: 50 },
-               500: { slidesPerView: 2, spaceBetween: 20 },
+               1100: { slidesPerView: 3, spaceBetween: 50 },
+               900: { slidesPerView: 3, spaceBetween: 20 },
+               820: { slidesPerView: 2.5, spaceBetween: 15 },
+               570: { slidesPerView: 2, spaceBetween: 15 },
+               500: { slidesPerView: 1.5, spaceBetween: 15 },
                100: { slidesPerView: 1.2, spaceBetween: 15 },
             }}
             centeredSlides={rows === 1}

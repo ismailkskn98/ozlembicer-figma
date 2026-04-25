@@ -9,7 +9,7 @@ export default function PatientResultCard({ item, index, large = false }) {
             rounded-[10px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]
             transition-all duration-300 ${large ? 'p-4 md:p-5 w-full max-w-205' : 'p-2.5 w-full aspect-300/340'}`}
       >
-         <div className={`w-full h-full flex flex-col items-center justify-between rounded-[10px] ${large ? 'gap-4 md:gap-6' : 'gap-2 sm:gap-5'}`}>
+         <div className={`w-full h-full flex flex-col items-center justify-between rounded-[10px] ${large ? 'gap-4 md:gap-6' : 'gap-2 sm:gap-3.5 xl:gap-5'}`}>
             <div className={`relative w-full flex items-center gap-1.25 ${large ? 'aspect-auto' : 'aspect-7/6'}`}>
                <div className="relative w-full aspect-137/240 rounded-[5px] overflow-hidden">
                   <Image src={item.beforeImage} alt={`Patient before ${index + 1}`} fill className="w-full h-full object-cover object-center rounded-[5px]" />
