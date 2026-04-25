@@ -15,16 +15,13 @@ export default function StampCellTreatmentHero() {
                   </h1>
                   <div className="w-full flex flex-col items-start gap-4">
                      <p className="text-sm sm:text-base">
-                        Stem cell therapy in hair transplantation is a regenerative, supportive treatment designed to
-                        improve scalp health, strengthen existing hair follicles, and enhance the results of hair
-                        restoration procedures. In clinical hair practice, this therapy does not involve embryonic stem
-                        cells; instead, it uses autologous adult stem cells obtained from the patient’s own tissues,
-                        most commonly from adipose (fat) tissue or bone marrow, or stem cell–rich extracts derived from
-                        hair follicles.
+                        Stem cell therapy in hair transplantation is a regenerative, supportive treatment designed to improve scalp health, strengthen existing hair follicles, and enhance
+                        the results of hair restoration procedures. In clinical hair practice, this therapy does not involve embryonic stem cells; instead, it uses autologous adult stem
+                        cells obtained from the patient’s own tissues, most commonly from adipose (fat) tissue or bone marrow, or stem cell–rich extracts derived from hair follicles.
                      </p>
                      <p className="text-sm sm:text-base">
-                        The main goal of stem cell therapy is to stimulate dormant or weakened hair follicles, improve
-                        the scalp microenvironment, and support natural hair growth and graft survival.
+                        The main goal of stem cell therapy is to stimulate dormant or weakened hair follicles, improve the scalp microenvironment, and support natural hair growth and graft
+                        survival.
                      </p>
                   </div>
                </article>
@@ -32,7 +29,7 @@ export default function StampCellTreatmentHero() {
 
             <MotionRightView className="relative order-1 lg:order-2 w-full max-w-full lg:max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
                <Image
-                  src="/images/hair-loss/stamp-cell.png"
+                  src="/images/bizim/Stamp-Cell.png"
                   alt="Dr. Özlem Bicer"
                   fill
                   className="object-cover object-center mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"

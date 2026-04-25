@@ -12,8 +12,8 @@ import DeneyTitleImage from '@/components/common/titleImages/deney';
 const linksItems = [
    { label: 'Hair Mesotherapy', href: '/hair-loss/treatments-of-hair-loss/hair-mesotherapy' },
    { label: 'PRP Hair Treatment', href: '/hair-loss/treatments-of-hair-loss/prp-hair-treatment' },
-   { label: 'Stamp Cell Treatment', href: '#' },
-   { label: 'Trichopat Treatment', href: '/hair-loss/treatments-of-hair-loss/trichopat-treatment' },
+   { label: 'Stamp Cell Treatment', href: '/hair-loss/treatments-of-hair-loss/stamp-cell-treatment' },
+   { label: 'Trichopat Treatment', href: '#' },
 ];
 
 export default function TrichopatTreatmentMain({ children }) {

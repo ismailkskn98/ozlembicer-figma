@@ -13,11 +13,11 @@ export default function EyebrownHero() {
             </h1>
             <MotionLeftView className="w-full">
                <Image
-                  src="/images/beard-transplant/eyebrown-hero.png"
+                  src="/images/bizim/Eyebrown-Transplant.png"
                   alt="Dr. Özlem Bicer"
                   width={1200}
                   height={700}
-                  className="object-contain object-center w-full h-full max-h-157.5 rounded-4xl"
+                  className="object-cover object-center w-full h-full max-h-157.5 rounded-4xl"
                />
             </MotionLeftView>
             <MotionRightView className="w-full max-w-full lg:max-w-286.5 mx-auto">
@@ -27,26 +27,20 @@ export default function EyebrownHero() {
                         What Is <span className="font-bold">Eyebrow Transplant?</span>
                      </h2>
                      <p className="text-sm sm:text-base">
-                        Eyebrows play a critical role in facial expression and overall appearance. Their shape and
-                        density can significantly influence how the face is perceived, making it appear more attractive,
-                        more feminine, or even more assertive.
+                        Eyebrows play a critical role in facial expression and overall appearance. Their shape and density can significantly influence how the face is perceived, making it
+                        appear more attractive, more feminine, or even more assertive.
                      </p>
                      <p className="text-sm sm:text-base">
-                        Trends in fashion also affect eyebrow preferences. At different times, patients may prefer thin,
-                        thick, or contoured eyebrows. Repeated plucking, shaping, or waxing over long periods can cause
-                        chronic traction damage, leading to permanent loss of eyebrow hairs that may no longer regrow
-                        naturally. When patients wish to restore their original eyebrow shape and density, eyebrow
-                        transplantation becomes an effective solution.
+                        Trends in fashion also affect eyebrow preferences. At different times, patients may prefer thin, thick, or contoured eyebrows. Repeated plucking, shaping, or waxing
+                        over long periods can cause chronic traction damage, leading to permanent loss of eyebrow hairs that may no longer regrow naturally. When patients wish to restore
+                        their original eyebrow shape and density, eyebrow transplantation becomes an effective solution.
                      </p>
                      <p className="text-sm sm:text-base">
-                        In rare cases, some patients may have congenital absence or very sparse eyebrows, and eyebrow
-                        transplantation is also a suitable option for these individuals.
+                        In rare cases, some patients may have congenital absence or very sparse eyebrows, and eyebrow transplantation is also a suitable option for these individuals.
                      </p>
                      <p className="text-sm sm:text-base">
-                        For eyebrow transplantation, we prefer the long hair FUE technique and use fine hairs harvested
-                        from the lower safe donor zone. This approach allows us to select softer, thinner hairs and
-                        implant them with precise angles and directions, ensuring a natural and aesthetically harmonious
-                        eyebrow result.
+                        For eyebrow transplantation, we prefer the long hair FUE technique and use fine hairs harvested from the lower safe donor zone. This approach allows us to select
+                        softer, thinner hairs and implant them with precise angles and directions, ensuring a natural and aesthetically harmonious eyebrow result.
                      </p>
                   </div>
                </article>

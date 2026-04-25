@@ -15,41 +15,34 @@ export default function HairMesotherapyHero() {
                   </h1>
                   <div className="w-full flex flex-col items-start gap-4">
                      <p className="text-sm sm:text-base">
-                        Mesotherapy is a technique in which microscopic amounts of drugs, vitamins, minerals and amino
-                        acids (Vasodilator and DHT Blockers) are administered to the upper and middle layers of the
-                        scalp skin to treat hair loss and increase the quality of existing hair by stimulating hair
-                        regeneration.
+                        Mesotherapy is a technique in which microscopic amounts of drugs, vitamins, minerals and amino acids (Vasodilator and DHT Blockers) are administered to the upper and
+                        middle layers of the scalp skin to treat hair loss and increase the quality of existing hair by stimulating hair regeneration.
                      </p>
                      <p className="text-sm sm:text-base">
-                        This method has obtained special recognition in the field of aesthetic medicine as it is one of
-                        the most effective non-surgical techniques for treating the scalp. In fact, no cream or serum
-                        can deliver the biological active ingredients into the cells of the scalp and activate the hair
-                        metabolism as effectively as mesotherapy.
+                        This method has obtained special recognition in the field of aesthetic medicine as it is one of the most effective non-surgical techniques for treating the scalp. In
+                        fact, no cream or serum can deliver the biological active ingredients into the cells of the scalp and activate the hair metabolism as effectively as mesotherapy.
                      </p>
                      <p className="text-sm sm:text-base">
-                        The technique of micro injections with mesotherapy This technique consists in the administration
-                        of a mesotherapy cocktail by means of intra-dermal micro injections, placing the nutrients
-                        directly in the dermal tissues.
+                        The technique of micro injections with mesotherapy This technique consists in the administration of a mesotherapy cocktail by means of intra-dermal micro injections,
+                        placing the nutrients directly in the dermal tissues.
                      </p>
                      <p className="text-sm sm:text-base">
-                        The needle also creates micro perforations that induce the tissues involved in a healing
-                        process, which stimulates the scalp to produce collagen and elastin, two of the main building
-                        blocks of the skin.
+                        The needle also creates micro perforations that induce the tissues involved in a healing process, which stimulates the scalp to produce collagen and elastin, two of
+                        the main building blocks of the skin.
                      </p>
                      <p className="text-sm sm:text-base">
-                        The procedure takes about 10 sessions of 15 minutes each to achieve the desired effects. What
-                        are the recovery times after the treatment? The treatment does not require any recovery time.
+                        The procedure takes about 10 sessions of 15 minutes each to achieve the desired effects. What are the recovery times after the treatment? The treatment does not
+                        require any recovery time.
                      </p>
                      <p className="text-sm sm:text-base">
-                        Most people undergoing this treatment in fact immediately return to their normal activities
-                        after the procedure without any side effects.
+                        Most people undergoing this treatment in fact immediately return to their normal activities after the procedure without any side effects.
                      </p>
                   </div>
                </article>
             </MotionLeftView>
             <MotionRightView className="relative order-1 lg:order-2 w-full max-w-full lg:max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
                <Image
-                  src="/images/hair-loss/hair-mesotherapy.png"
+                  src="/images/bizim/HairMesotherapy.png"
                   alt="Dr. Özlem Bicer"
                   fill
                   className="object-cover object-center mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"

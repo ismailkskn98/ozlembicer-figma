@@ -40,7 +40,7 @@ export default function HairTransplantMain() {
                   description1:
                      'FUE hair transplant (Follicular Unit Extraction) is a modern and minimally invasive hair restoration technique used to treat hair loss in both men and women. In this method, individual hair follicles—called follicular units—are extracted one by one from the donor area, usually the back and sides of the scalp, and transplanted into areas affected by hair loss.',
                   description2: 'Each follicular unit naturally contains 1 to 4 hairs, allowing the surgeon to achieve a natural hair density and appearance.',
-                  imageUrl: '/images/hair-transplant/fue-micro-motor.png',
+                  imageUrl: '/images/bizim/FUE.png',
                }}
             >
                <HowDoesItWork
@@ -154,7 +154,7 @@ export default function HairTransplantMain() {
                   description1:
                      'FUE hair transplant (Follicular Unit Extraction) is a modern and minimally invasive hair restoration technique used to treat hair loss in both men and women. In this method, individual hair follicles—called follicular units—are extracted one by one from the donor area, usually the back and sides of the scalp, and transplanted into areas affected by hair loss.',
                   description2: 'Each follicular unit naturally contains 1 to 4 hairs, allowing the surgeon to achieve a natural hair density and appearance.',
-                  imageUrl: '/images/hair-transplant/fue-micro-motor.png',
+                  imageUrl: '/images/bizim/FUE2.png',
                }}
             >
                <HowDoesItWork
@@ -288,7 +288,7 @@ export default function HairTransplantMain() {
                id="body-hair-transplant"
                title="BHT"
                subtitle="(Body Hair Transplant)"
-               imageUrl="/images/hair-transplant/new-bht.svg"
+               imageUrl="/images/home-accordion/new-bht.svg"
                generalInfoProps={{
                   title: 'What Is',
                   boldTitle: 'Body Hair Transplant?',

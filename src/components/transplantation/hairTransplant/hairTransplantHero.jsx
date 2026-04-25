@@ -28,28 +28,28 @@ export default function HairTransplantHero() {
                   </div>
                </div>
                <Image
-                  src="/images/hair-transplant/hero-item-1.png"
+                  src="/images/hair-transplant/1.webp"
                   alt="hair-transplant hero item 1"
                   width={880}
                   height={1180}
-                  className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-tl-xl sm:rounded-l-4xl"
+                  className="object-cover sm:object-cover object-[65%_50%] w-full h-75 sm:h-130 lg:h-156 rounded-tl-xl sm:rounded-l-4xl"
                />
                <Image
-                  src="/images/hair-transplant/hero-item-2.png"
+                  src="/images/hair-transplant/2.webp"
                   alt="hair-transplant hero item 2"
                   width={880}
                   height={1180}
-                  className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-tr-xl sm:rounded-none"
+                  className="object-cover sm:object-cover object-[70%_50%] w-full h-75 sm:h-130 lg:h-156 rounded-tr-xl sm:rounded-none"
                />
                <Image
-                  src="/images/hair-transplant/hero-item-3.png"
+                  src="/images/hair-transplant/3.webp"
                   alt="hair-transplant hero item 3"
                   width={880}
                   height={1180}
-                  className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-bl-xl sm:rounded-none"
+                  className="object-cover sm:object-cover object-[68%_50%] w-full h-75 sm:h-130 lg:h-156 rounded-bl-xl sm:rounded-none"
                />
                <Image
-                  src="/images/hair-transplant/hero-item-3.png"
+                  src="/images/hair-transplant/4.webp"
                   alt="hair-transplant hero item 4"
                   width={880}
                   height={1180}

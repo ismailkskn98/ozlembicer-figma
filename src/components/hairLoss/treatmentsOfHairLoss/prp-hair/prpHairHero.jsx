@@ -15,35 +15,30 @@ export default function PrpHairHero() {
                   </h1>
                   <div className="w-full flex flex-col items-start gap-4">
                      <p className="text-sm sm:text-base">
-                        Platelet-Rich Plasma (PRP) is a non-surgical, autologous treatment used to support hair health
-                        and slow down hair loss, especially in patients who are not yet ready for hair transplantation
-                        or who wish to enhance treatment outcomes. PRP is prepared from the patient’s own blood and
-                        contains a high concentration of platelets and growth factors that play a key role in tissue
-                        healing and regeneration.
+                        Platelet-Rich Plasma (PRP) is a non-surgical, autologous treatment used to support hair health and slow down hair loss, especially in patients who are not yet ready
+                        for hair transplantation or who wish to enhance treatment outcomes. PRP is prepared from the patient’s own blood and contains a high concentration of platelets and
+                        growth factors that play a key role in tissue healing and regeneration.
                      </p>
                      <p className="text-sm sm:text-base">
-                        PRP therapy has shown promising results in patients with early-stage or ongoing hair loss, where
-                        hair thinning has begun but complete baldness has not yet developed. As a standalone hair loss
-                        treatment, PRP is typically performed once a month for three consecutive sessions.
+                        PRP therapy has shown promising results in patients with early-stage or ongoing hair loss, where hair thinning has begun but complete baldness has not yet developed.
+                        As a standalone hair loss treatment, PRP is typically performed once a month for three consecutive sessions.
                      </p>
                      <p className="text-sm sm:text-base">
-                        Platelets contain important intracellular components such as alpha granules, lysosomes, and
-                        glycogen, which release growth factors that stimulate cellular repair, improve blood supply, and
-                        support follicular activity. For this reason, PRP is also highly valuable during hair
-                        transplantation. At Dr. Özlem Biçer’s Clinic, PRP is used as a holding solution for follicular
-                        units during the transfer phase, helping to minimize graft dehydration, shorten out-of-body
-                        time, and increase graft survival rates.
+                        Platelets contain important intracellular components such as alpha granules, lysosomes, and glycogen, which release growth factors that stimulate cellular repair,
+                        improve blood supply, and support follicular activity. For this reason, PRP is also highly valuable during hair transplantation. At Dr. Özlem Biçer’s Clinic, PRP is
+                        used as a holding solution for follicular units during the transfer phase, helping to minimize graft dehydration, shorten out-of-body time, and increase graft
+                        survival rates.
                      </p>
                      <p className="text-sm sm:text-base">
-                        PRP is a safe and effective supportive treatment when performed under medical supervision and is
-                        often combined with hair transplantation to optimize healing and long-term results.
+                        PRP is a safe and effective supportive treatment when performed under medical supervision and is often combined with hair transplantation to optimize healing and
+                        long-term results.
                      </p>
                   </div>
                </article>
             </MotionLeftView>
             <MotionRightView className="relative order-1 lg:order-2 w-full max-w-full lg:max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
                <Image
-                  src="/images/hair-loss/hair-prp.png"
+                  src="/images/bizim/prpyedek.png"
                   alt="Dr. Özlem Bicer"
                   fill
                   className="object-cover object-center mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"

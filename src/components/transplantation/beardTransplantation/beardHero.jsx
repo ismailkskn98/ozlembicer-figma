@@ -13,7 +13,7 @@ export default function BeardHero() {
             </h1>
             <MotionLeftView className="w-full">
                <Image
-                  src="/images/beard-transplant/beard-hero.png"
+                  src="/images/bizim/Beard-Transplant.png"
                   alt="Dr. Özlem Bicer"
                   width={1200}
                   height={700}
@@ -27,15 +27,13 @@ export default function BeardHero() {
                         What Is <span className="font-bold">Beard Transplant?</span>
                      </h2>
                      <p className="text-sm sm:text-base">
-                        Beard transplantation is a specialized hair restoration procedure designed to improve beard
-                        density, shape, and symmetry. At our clinic, Dr. Özlem Biçer and her experienced medical team
-                        perform facial hair transplants for men who wish to enhance thin areas, correct patchy growth,
-                        or restore hair loss caused by scarring or medical conditions.
+                        Beard transplantation is a specialized hair restoration procedure designed to improve beard density, shape, and symmetry. At our clinic, Dr. Özlem Biçer and her
+                        experienced medical team perform facial hair transplants for men who wish to enhance thin areas, correct patchy growth, or restore hair loss caused by scarring or
+                        medical conditions.
                      </p>
                      <p className="text-sm sm:text-base">
-                        Facial hair transplantation is technically more demanding than scalp hair transplantation and
-                        requires advanced surgical experience and precise artistic planning. The procedure can be
-                        performed to restore:
+                        Facial hair transplantation is technically more demanding than scalp hair transplantation and requires advanced surgical experience and precise artistic planning. The
+                        procedure can be performed to restore:
                      </p>
                      <ul className="list-disc list-inside flex flex-col items-start gap-1 text-sm sm:text-base">
                         <li>Beard density</li>

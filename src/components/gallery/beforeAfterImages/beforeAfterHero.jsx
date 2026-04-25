@@ -14,19 +14,16 @@ export default function BeforeAfterHero() {
                      Patient Results <span className="font-bold">Before & After</span>
                   </h1>
                   <p className="text-sm sm:text-base">
-                     As a clinic we give importance to post pre and post operation follow up is one of the most
-                     important part of hair transplantation. The surgery is just a single part of hair transplantation
-                     process and after the process using right medications and providing good care for recipient and
-                     donor are is another important part of the process. During this period it is important for us to
-                     move forward with our patients and providing one to one follow up is very curutial part of our
-                     clinic. Trough our pollicy we compleate the years with over 250 satisfied patient for 28
-                     years.{' '}
+                     As a clinic we give importance to post pre and post operation follow up is one of the most important part of hair transplantation. The surgery is just a single part of
+                     hair transplantation process and after the process using right medications and providing good care for recipient and donor are is another important part of the process.
+                     During this period it is important for us to move forward with our patients and providing one to one follow up is very curutial part of our clinic. Trough our pollicy we
+                     compleate the years with over 250 satisfied patient for 28 years.{' '}
                   </p>
                </article>
             </MotionLeftView>
             <MotionRightView className="relative order-1 lg:order-2 w-full max-w-full lg:max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
                <Image
-                  src="/images/gallery/before-after-hero.png"
+                  src="/images/bizim/Patient-Results.png"
                   alt="Dr. Özlem Bicer"
                   fill
                   className="object-cover object-center mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"

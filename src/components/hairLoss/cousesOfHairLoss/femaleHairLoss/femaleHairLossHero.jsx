@@ -15,24 +15,24 @@ export default function FemaleHairLossHero() {
                   </h1>
                   <div className="w-full">
                      <p className="text-sm sm:text-base">
-                        About a third of women will experience hair loss (alopecia) at some point in their life; After menopause, two thirds of women experience hair thinning or bald spots on their
-                        heads. In contrast to men, hair loss is very effective in women because it is less socially acceptable for women. Alopecia can seriously affect a woman’s emotional health and
-                        quality of life.
+                        About a third of women will experience hair loss (alopecia) at some point in their life; After menopause, two thirds of women experience hair thinning or bald spots
+                        on their heads. In contrast to men, hair loss is very effective in women because it is less socially acceptable for women. Alopecia can seriously affect a woman’s
+                        emotional health and quality of life.
                         <br />
                         <br />
                      </p>
                      <p className="text-sm sm:text-base">
-                        At Doctor Özlem Biçer’s clinic, we understand how much a woman’s self-confidence is caused by hair loss. But before starting the journey of regaining self-confidence, it is
-                        important to determine what type of hair loss you are facing. After determining the nature of your exposure, your doctor will begin considering treatment and, in some cases,
-                        considering having a hair transplant. In order to protect the emotional health of the patient, the hair transplant performed by Doctor Özlem Biçer is performed without a full
-                        head shave. It is therefore incomprehensible that you have had a hair transplant.
+                        At Doctor Özlem Biçer’s clinic, we understand how much a woman’s self-confidence is caused by hair loss. But before starting the journey of regaining self-confidence,
+                        it is important to determine what type of hair loss you are facing. After determining the nature of your exposure, your doctor will begin considering treatment and,
+                        in some cases, considering having a hair transplant. In order to protect the emotional health of the patient, the hair transplant performed by Doctor Özlem Biçer is
+                        performed without a full head shave. It is therefore incomprehensible that you have had a hair transplant.
                         <br />
                         <br />
                      </p>
                      <p className="text-sm sm:text-base">
-                        There are generally three types of hair loss in women. These are grouped into the following three categories – androgenetic alopecia, telogen effluvium, and abnormal hair loss.
-                        Androgenetic alopecia is the leading cause of hair loss in women and in this case, hair loss in women is less predictable than it is in men. Telogen effluvium can be triggered
-                        by drug consumption, diet, and stress. Then there are the other rare types of hair loss that fall into the non-normal hair loss category.
+                        There are generally three types of hair loss in women. These are grouped into the following three categories – androgenetic alopecia, telogen effluvium, and abnormal
+                        hair loss. Androgenetic alopecia is the leading cause of hair loss in women and in this case, hair loss in women is less predictable than it is in men. Telogen
+                        effluvium can be triggered by drug consumption, diet, and stress. Then there are the other rare types of hair loss that fall into the non-normal hair loss category.
                         <br />
                         The causes of hair loss in women
                      </p>
@@ -41,7 +41,7 @@ export default function FemaleHairLossHero() {
             </MotionLeftView>
             <MotionRightView className="relative order-1 lg:order-2 w-full max-w-full lg:max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
                <Image
-                  src="/images/female-hair-hero.webp"
+                  src="/images/bizim/FemaleHairLoss.png"
                   alt="Dr. Özlem Bicer"
                   fill
                   className="object-cover object-center mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"
