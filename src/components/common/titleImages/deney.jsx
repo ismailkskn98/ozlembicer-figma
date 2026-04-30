@@ -10,7 +10,7 @@ const titleItemsData = [
       value: 'hair-transplant',
       title: 'Hair Transplantation',
       href: '/hair-transplant',
-      image: '/images/home-accordion/Hair-Transplantation.webp',
+      image: '/images/home-accordion/hair-transplant-degisti.webp',
       icon: '/images/hair-transplant/fue-micro-motor-nobg.svg',
       content: {
          title: 'Hair Transplantation',
@@ -26,7 +26,7 @@ const titleItemsData = [
       value: 'beard-transplant',
       title: 'Beard Transplantation',
       href: '/beard-transplantation',
-      image: '/images/home-accordion/Beard-Transplantation.webp',
+      image: '/images/home-accordion/beard-transplant.webp',
       icon: '/images/hair-transplant/new-beard-transplantation.svg',
       content: {
          title: 'Beard Transplantation',
@@ -42,7 +42,7 @@ const titleItemsData = [
       value: 'eyebrow-transplant',
       title: 'Eyebrow Transplantation',
       href: '/eyebrown-transplant',
-      image: '/images/home-accordion/Eyebrow-Transplantation.webp',
+      image: '/images/home-accordion/eyebrow-transplant.webp',
       icon: '/images/hair-transplant/new-eyebrow-transplantation.svg',
       content: {
          title: 'Eyebrow Transplantation',
