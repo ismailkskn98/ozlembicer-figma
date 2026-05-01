@@ -94,7 +94,7 @@ export default function Hero() {
                                        </span>
                                     ))}
                                  </h2>
-                                 <h2 className="flex lg:hidden flex-col items-start text-start justify-end font-bold text-[30px] min-[300px]:text-[35px] min-[393px]:text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-9 min-[300px]:leading-10 min-[393px]:leading-11 lg:leading-12 min-[72rem]:leading-15">
+                                 <h2 className="flex lg:hidden flex-col items-start text-start justify-end font-bold text-[30px] min-[300px]:text-[35px] min-[393px]:text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-9 min-[300px]:leading-10 min-[393px]:leading-11 min-[70rem]:leading-12 min-[72rem]:leading-15">
                                     {item.mobileTitle.map((line, lineIndex) => (
                                        <span key={lineIndex} className="block text-nowrap">
                                           {line}
@@ -108,13 +108,13 @@ export default function Hero() {
                               </div>
 
                               <div
-                                 className={`w-full flex flex-col min-[300px]:flex-row min-[393px]:items-center min-[393px]:justify-end gap-3 sm:gap-6 h-auto min-[70rem]:h-11 transition-all duration-500 min-[393px]:mt-4 xl:mt-0 ${isActive ? 'opacity-100' : 'opacity-0'}`}
+                                 className={`w-full flex flex-col min-[400px]:flex-row min-[400px]:items-center min-[400px]:justify-end gap-3 sm:gap-6 h-auto min-[70rem]:h-11 transition-all duration-500 mt-2 min-[400px]:mt-4 xl:mt-0 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                               >
                                  {item.links.map((link, linkIndex) => (
                                     <Link
                                        key={linkIndex}
                                        href={link.href}
-                                       className={`rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm text-nowrap ${
+                                       className={`rounded-sm sm:rounded-[10px] py-2.5 sm:py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm text-nowrap ${
                                           linkIndex === 0
                                              ? 'border border-ivory-soft text-ivory-soft hover:bg-ivory-soft/70 hover:text-coffee-dark hover:border-transparent transition-colors duration-200'
                                              : 'bg-ivory-soft text-coffee-dark hover:bg-ivory-soft/70 transition-colors duration-200'
