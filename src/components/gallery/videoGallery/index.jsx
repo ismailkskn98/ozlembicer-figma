@@ -15,16 +15,7 @@ const linksItems = [
 // Her video için: { videoId: 'YOUTUBE_ID', title: 'Başlık' }
 // thumbnail isteğe bağlı; verilmezse YouTube'dan otomatik alınır
 
-const informativeVideos = [
-   { videoId: 'ruQQ42ZlJVc', title: 'Video Başlığı' },
-   { videoId: 'ruQQ42ZlJVc', title: 'Video Başlığı' },
-   { videoId: 'ruQQ42ZlJVc', title: 'Video Başlığı' },
-   { videoId: 'ruQQ42ZlJVc', title: 'Video Başlığı' },
-   { videoId: 'ruQQ42ZlJVc', title: 'Video Başlığı' },
-   { videoId: 'ruQQ42ZlJVc', title: 'Video Başlığı' },
-   { videoId: 'ruQQ42ZlJVc', title: 'Video Başlığı' },
-   { videoId: 'ruQQ42ZlJVc', title: 'Video Başlığı' },
-];
+const informativeVideos = [{ videoId: '7W5NbnGj1Kk', title: 'Is There a Best Hair Transplant Technique? FUE vs FUT Explained by Dr. Özlem Biçer' }];
 
 const patientReviewVideos = [
    { videoId: 'jex7fml6vk4', title: 'Patient Review - 001' },
@@ -65,7 +56,7 @@ export default function VideoGalleryMain() {
          {/* <GalleryHero /> */}
          {/* <HeroLogoCarousel /> */}
          <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft via-90% to-stone-beige">
-            {/* <VideoGallerySection id="informative-videos" title="Informative Videos" videos={informativeVideos} iconSrc="/images/gallery/Informative-Videos.svg" /> */}
+            <VideoGallerySection id="informative-videos" title="Informative Videos" videos={informativeVideos} iconSrc="/images/gallery/Informative-Videos.svg" />
             <VideoGallerySection id="patient-reviews" title="Patient Reviews" videos={patientReviewVideos} iconSrc="/images/gallery/Patient-Reviews.svg" />
             <VideoGallerySection id="interviews" title="Interviews with Dr. Bicer" videos={interviewVideos} iconSrc="/images/gallery/Interviews-with-Dr-Bicer.svg" />
             <HowToAppointment className="pt-0 pb-15" />
