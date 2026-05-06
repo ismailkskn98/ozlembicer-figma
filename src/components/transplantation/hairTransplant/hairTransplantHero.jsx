@@ -28,31 +28,35 @@ export default function HairTransplantHero() {
                   </div>
                </div>
                <Image
-                  src="/images/hair-transplant/hero-item-1.png"
+                  src="/images/hair-transplant/hero-item-1.jpg"
                   alt="hair-transplant hero item 1"
                   width={880}
                   height={1180}
+                  unoptimized
                   className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-tl-xl sm:rounded-l-4xl"
                />
                <Image
-                  src="/images/hair-transplant/hero-item-2.png"
+                  src="/images/hair-transplant/hero-item-2.jpg"
                   alt="hair-transplant hero item 2"
                   width={880}
                   height={1180}
+                  unoptimized
                   className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-tr-xl sm:rounded-none"
                />
                <Image
-                  src="/images/hair-transplant/2.webp"
+                  src="/images/hair-transplant/hero-item-3.jpg"
                   alt="hair-transplant hero item 3"
                   width={880}
                   height={1180}
+                  unoptimized
                   className="object-cover sm:object-cover object-[70%_50%] w-full h-75 sm:h-130 lg:h-156 rounded-bl-xl sm:rounded-none"
                />
                <Image
-                  src="/images/hair-transplant/hero-item-3.png"
+                  src="/images/hair-transplant/hero-item-4.jpg"
                   alt="hair-transplant hero item 4"
                   width={880}
                   height={1180}
+                  unoptimized
                   className="object-cover sm:object-cover object-center w-full h-75 sm:h-130 lg:h-156 rounded-br-xl sm:rounded-r-4xl"
                />
             </MotionScrollInView>

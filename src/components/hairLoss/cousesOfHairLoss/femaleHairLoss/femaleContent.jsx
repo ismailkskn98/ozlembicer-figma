@@ -81,10 +81,11 @@ export default function FemaleContent() {
                </section>
                <div className="order-1 lg:order-2 mx-auto lg:mx-0 h-full flex flex-col items-start w-full lg:w-116.25">
                   <Image
-                     src="/images/female-girls.webp"
+                     src="/images/female-girls.jpg"
                      alt="female hair loss girls"
                      width={800}
                      height={1200}
+                     unoptimized
                      className="object-cover object-center w-full h-90 md:h-110 lg:h-full rounded-t-2xl lg:rounded-t-4xl"
                   />
                   <Image
@@ -92,13 +93,14 @@ export default function FemaleContent() {
                      alt="female ludwig scale"
                      width={1200}
                      height={800}
+                     unoptimized
                      className="object-cover object-center w-full h-auto lg:h-66.5 rounded-b-2xl lg:rounded-b-4xl"
                   />
                </div>
             </main>
             <main className="w-full grid grid-cols-1 lg:grid-cols-3 gap-6 justify-items-stretch place-content-stretch">
                <div className="min-w-75 w-full h-100 lg:h-full relative mx-auto lg:mx-0">
-                  <Image src="/images/female-tarak.webp" alt="female hair loss girls" fill className="object-cover object-center w-full h-full rounded-2xl lg:rounded-4xl" />
+                  <Image src="/images/female-tarak.jpg" alt="female hair loss girls" fill unoptimized className="object-cover object-center w-full h-full rounded-2xl lg:rounded-4xl" />
                </div>
                <section className="col-span-1 lg:col-span-2 flex flex-col items-start text-[#3D1D1D] text-[14px] gap-4">
                   <article className="flex flex-col items-start">

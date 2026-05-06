@@ -13,11 +13,12 @@ export default function EyebrownHero() {
             </h1>
             <MotionLeftView className="w-full">
                <Image
-                  src="/images/beard-transplant/eyebrown-hero.png"
+                  src="/images/eyebrown-hero.jpg"
                   alt="Dr. Özlem Bicer"
                   width={1200}
                   height={700}
                   className="object-cover object-center w-full h-full max-h-157.5 rounded-4xl"
+                  unoptimized
                />
             </MotionLeftView>
             <MotionRightView className="w-full max-w-full lg:max-w-286.5 mx-auto">

@@ -15,12 +15,7 @@ const GeneralInfo = ({ title, boldTitle, description1, description2, imageUrl })
             </div>
          </article>
          <div className="order-1 lg:order-2 relative w-full h-70 sm:h-120 lg:h-140 xl:h-146.25 rounded-4xl">
-            <Image
-               src={imageUrl}
-               alt={boldTitle}
-               fill
-               className="object-cover object-center w-full h-full rounded-4xl"
-            />
+            <Image src={imageUrl} alt={boldTitle} fill unoptimized className="object-cover object-center w-full h-full rounded-4xl" />
          </div>
       </section>
    );

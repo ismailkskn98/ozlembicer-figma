@@ -10,7 +10,7 @@ const titleItemsData = [
       value: 'hair-transplant',
       title: 'Hair Transplantation',
       href: '/hair-transplant',
-      image: '/images/home-accordion/hair-transplant-degisti.webp',
+      image: '/images/home-accordion/hair-transplant.jpg',
       icon: '/images/hair-transplant/fue-micro-motor-nobg.svg',
       content: {
          title: 'Hair Transplantation',
@@ -26,7 +26,7 @@ const titleItemsData = [
       value: 'beard-transplant',
       title: 'Beard Transplantation',
       href: '/beard-transplantation',
-      image: '/images/home-accordion/beard-transplant.webp',
+      image: '/images/home-accordion/beard-transplant.jpg',
       icon: '/images/hair-transplant/new-beard-transplantation.svg',
       content: {
          title: 'Beard Transplantation',
@@ -42,7 +42,7 @@ const titleItemsData = [
       value: 'eyebrow-transplant',
       title: 'Eyebrow Transplantation',
       href: '/eyebrown-transplant',
-      image: '/images/home-accordion/eyebrow-transplant.webp',
+      image: '/images/home-accordion/eyebrow-transplant.jpg',
       icon: '/images/hair-transplant/new-eyebrow-transplantation.svg',
       content: {
          title: 'Eyebrow Transplantation',
@@ -58,7 +58,7 @@ const titleItemsData = [
       value: 'female-hair-transplant',
       title: 'Female Hair Transplantation',
       href: '/hair-transplant',
-      image: '/images/home-accordion/Female-Hair-Transplantation.webp',
+      image: '/images/home-accordion/Female-Hair-Transplantation.jpg',
       icon: '/images/hair-transplant/female-hair.svg',
       content: {
          title: 'Female Hair Transplantation',
@@ -149,7 +149,7 @@ export default function DeneyTitleImage() {
                   >
                      <div className="relative min-h-[17.5vh] h-full flex-1 flex flex-col w-full overflow-hidden">
                         <div className="absolute inset-0 z-0">
-                           <Image src={item.image} alt={item.title} fill className="object-cover" sizes="100vw" priority={item.value === 'hair-transplant'} />
+                           <Image src={item.image} alt={item.title} fill className="object-cover" sizes="100vw" unoptimized priority={item.value === 'hair-transplant'} />
                         </div>
 
                         {!isOpen && (

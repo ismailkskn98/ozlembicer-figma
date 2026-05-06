@@ -46,10 +46,11 @@ export default function PrpHairDoesItWork() {
    return (
       <main className="grid grid-cols-1 lg:grid-cols-3 w-full max-w-6xl mx-auto place-content-stretch place-items-stretch text-coffee-dark gap-6 py-10 sm:py-16 lg:py-25">
          <Image
-            src="/images/hair-loss/hair-prp-section.png"
+            src="/images/hair-loss/hair-prp-section.jpg"
             alt="FUE Hair Transplant"
             width={900}
             height={1100}
+            unoptimized
             className="object-cover h-full w-full max-h-90 sm:max-h-150 lg:max-h-full rounded-4xl"
          />
 

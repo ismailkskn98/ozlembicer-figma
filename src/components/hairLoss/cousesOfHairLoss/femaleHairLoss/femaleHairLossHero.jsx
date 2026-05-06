@@ -41,10 +41,11 @@ export default function FemaleHairLossHero() {
             </MotionLeftView>
             <MotionRightView className="relative order-1 lg:order-2 w-full max-w-full lg:max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
                <Image
-                  src="/images/female-hair-hero.webp"
+                  src="/images/female-hair-hero.jpg"
                   alt="Dr. Özlem Bicer"
                   fill
-                  className="object-cover object-center mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"
+                  unoptimized
+                  className="object-cover object-[32%_50%] mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"
                />
             </MotionRightView>
          </section>
