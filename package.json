@@ -10,7 +10,7 @@
    "scripts": {
       "dev": "next dev",
       "build": "next build && shx cp -r public .next/standalone/public && shx cp -r .next/static .next/standalone/.next/static",
-      "start": "next start",
+      "start": "node .next/standalone/server.js",
       "lint": "eslint"
    },
    "dependencies": {
