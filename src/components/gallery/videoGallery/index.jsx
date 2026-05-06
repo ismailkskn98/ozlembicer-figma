@@ -6,7 +6,7 @@ import VideoGallerySection from './videoGallerySection';
 import HowToAppointment from '@/components/common/howToAppointment';
 
 const linksItems = [
-   // { label: 'Informative Videos', href: '/gallery#informative-videos' },
+   { label: 'Informative Videos', href: '/gallery#informative-videos' },
    { label: 'Patient Reviews', href: '/gallery#patient-reviews' },
    { label: 'Interviews with Dr. Bicer', href: '/gallery#interviews' },
 ];
