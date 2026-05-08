@@ -42,7 +42,7 @@ const titleItemsData = [
       value: 'eyebrow-transplant',
       title: 'Eyebrow Transplantation',
       href: '/eyebrown-transplant',
-      image: '/images/home-accordion/eyebrow-transplant.jpg',
+      image: '/images/eyebrown-hero.jpg',
       icon: '/images/hair-transplant/new-eyebrow-transplantation.svg',
       content: {
          title: 'Eyebrow Transplantation',
