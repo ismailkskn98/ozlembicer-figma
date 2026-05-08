@@ -27,6 +27,7 @@ export default async function middleware(request) {
    return response;
 }
 
+// eslint-disable-next-line no-useless-escape
 export const config = {
-   matcher: '/((?!api|trpc|_next|_vercel|.\\..).*)',
+   matcher: ['/((?!api|trpc|_next|_vercel|.\\..).*)'],
 };
