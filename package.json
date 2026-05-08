@@ -10,7 +10,7 @@
    "scripts": {
       "dev": "next dev",
       "build": "next build && shx cp -r public .next/standalone/public && shx cp -r .next/static .next/standalone/.next/static",
-      "start": "PORT=3025 node .next/standalone/server.js",
+      "start": "cross-env PORT=3025 node .next/standalone/server.js",
       "lint": "eslint"
    },
    "dependencies": {
@@ -22,6 +22,7 @@
       "@radix-ui/react-tooltip": "^1.2.8",
       "class-variance-authority": "^0.7.1",
       "clsx": "^2.1.1",
+      "cross-env": "^10.1.0",
       "lenis": "^1.3.17",
       "lucide-react": "^0.562.0",
       "motion": "^12.27.5",
