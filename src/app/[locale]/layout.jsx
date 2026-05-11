@@ -22,7 +22,7 @@ const inter = localFont({
    variable: '--font-inter',
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drozlembicer.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://ozlembicer.com';
 
 export async function generateMetadata({ params }) {
    const { locale } = await params;
@@ -42,10 +42,10 @@ export async function generateMetadata({ params }) {
       alternates: {
          canonical: `${SITE_URL}/${locale}`,
          languages: {
-            'en': `${SITE_URL}/en`,
-            'de': `${SITE_URL}/de`,
-            'fr': `${SITE_URL}/fr`,
-            'it': `${SITE_URL}/it`,
+            en: `${SITE_URL}/en`,
+            de: `${SITE_URL}/de`,
+            fr: `${SITE_URL}/fr`,
+            it: `${SITE_URL}/it`,
          },
       },
       openGraph: {
