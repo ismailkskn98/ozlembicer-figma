@@ -32,7 +32,7 @@ export default function Header() {
                         className="group hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] text-ivory-soft text-sm bg-wine-brown border border-wine-brown transition-all duration-300"
                      >
                         <span className="group-hover:opacity-70 transition-all duration-200">info@ozlembicer.com</span>
-                        <span className="group-hover:opacity-70 transition-all duration-200">+90 (414) 13 13</span>
+                        <span className="group-hover:opacity-70 transition-all duration-200">+90 (530) 414 13 13</span>
                      </Link>
                   </main>
                   <div className="md:hidden flex items-center gap-4">
@@ -56,7 +56,7 @@ export default function Header() {
                <Link href="/contact-us" className="flex items-center justify-center gap-1 text-ivory-soft px-2.5 py-0.5 rounded-sm text-xs sm:text-sm">
                   <span>info@ozlembicer.com</span>
                   <span>-</span>
-                  <span>+90 (414) 13 13</span>
+                  <span>+90 (530) 414 13 13</span>
                </Link>
             </main>
          </section>

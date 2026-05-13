@@ -131,8 +131,8 @@ export default function MobilNavbar({ children }) {
                      <a href="mailto:info@ozlembicer.com" className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200 break-all">
                         info@ozlembicer.com
                      </a>
-                     <a href="tel:+904141313" className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200">
-                        +90 (414) 13 13
+                     <a href="tel:+905304141313" className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200">
+                        +90 (530) 414 13 13
                      </a>
                   </article>
                   {/* <LanguageChange /> */}
