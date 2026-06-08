@@ -46,6 +46,7 @@ export const navigationMenu = [
                { href: '/hair-transplant#fut', label: 'FUT' },
             ],
          },
+         { href: '/hair-wash', label: 'Hair Wash' },
          { href: '/beard-transplantation', label: 'Beard Transplantation' },
          { href: '/eyebrown-transplant', label: 'Eyebrow Transplant' },
       ],

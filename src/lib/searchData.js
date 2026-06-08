@@ -261,4 +261,13 @@ export const searchData = [
       image: null,
       keywords: ['contact', 'iletişim', 'email', 'phone', 'appointment', 'randevu'],
    },
+   {
+      id: 30,
+      title: 'Hair Washing After Hair Transplantation',
+      category: 'Transplantation',
+      type: 'page',
+      href: '/hair-wash',
+      image: null,
+      keywords: ['hair wash', 'washing', 'after hair transplantation', 'hair transplant', 'saç yıkama', 'saç ekimi sonrası'],
+   },
 ];
