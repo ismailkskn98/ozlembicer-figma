@@ -96,9 +96,21 @@ export default function Footer() {
                </article>
             </main>
          </section>
-         <section className="fluid gridContainer w-full bg-stone-beige text-coffee-dark h-15 text-center text-sm">
-            <div className="w-full h-full flex items-center justify-center">
-               <p className="">Dr.Bicer 2026 - All Rights Reserved.</p>
+         <section className="fluid gridContainer w-full bg-stone-beige text-coffee-dark min-h-15 py-3 text-center text-sm">
+            <div className="w-full h-full flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
+               <p>Dr.Bicer 2026 - All Rights Reserved.</p>
+               <span className="hidden sm:inline text-coffee-dark/25" aria-hidden="true">
+                  |
+               </span>
+               <a
+                  href="https://markaforce.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-1.5 text-coffee-dark hover:text-coffee-dark transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold/50 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-beige rounded-sm"
+               >
+                  <Image src="/markaforce.png" alt="" width={16} height={15} className="h-auto w-3.5 grayscale transition duration-200 group-hover:grayscale-0 group-hover:opacity-100" />
+                  <span>MarkaForce</span>
+               </a>
             </div>
          </section>
       </footer>
