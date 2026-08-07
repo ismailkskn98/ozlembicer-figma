@@ -17,5 +17,11 @@
   "SpeaksLanguage": {
     "heading": "Supporto multilingue",
     "subheading": "Contatta direttamente qualcuno che parla la tua lingua"
+  },
+  "NotFound": {
+    "title": "Pagina non trovata",
+    "description": "La pagina che stai cercando potrebbe essere stata spostata o non esiste più. Lascia che ti aiutiamo a orientarti.",
+    "home": "Torna alla home",
+    "contact": "Prenota un appuntamento"
   }
 }

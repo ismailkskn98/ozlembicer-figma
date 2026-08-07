@@ -17,5 +17,11 @@
   "SpeaksLanguage": {
     "heading": "Multilingual Support",
     "subheading": "Contact Directly Someone Who Speaks Your Language"
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for may have been moved or no longer exists. Let us help you find your way.",
+    "home": "Back to Home",
+    "contact": "Book an Appointment"
   }
 }

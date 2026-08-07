@@ -17,5 +17,11 @@
   "SpeaksLanguage": {
     "heading": "Mehrsprachiger Support",
     "subheading": "Kontaktieren Sie direkt jemanden, der Ihre Sprache spricht"
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite wurde möglicherweise verschoben oder existiert nicht mehr. Wir helfen Ihnen gerne weiter.",
+    "home": "Zur Startseite",
+    "contact": "Termin vereinbaren"
   }
 }
