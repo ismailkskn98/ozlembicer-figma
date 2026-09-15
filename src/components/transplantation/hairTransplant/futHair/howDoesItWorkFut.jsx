@@ -13,7 +13,8 @@ export default function HowDoesItWorkFut() {
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
                <p>Although there is extensive information available online about FUT and FUE techniques, many patients are not fully aware of how these procedures are actually performed.</p>
                <p>
-                  In FUT, once the donor strip is removed, it is dissected under a microscope into very fine follicular units. The donor area is then carefully sutured, which results in a linear scar.
+                  In FUT, once the donor strip is removed, it is dissected under a microscope into very fine follicular units. The donor area is then carefully sutured, which results in a
+                  linear scar.
                </p>
                <p>Dr. Özlem Biçer uses meticulous suturing techniques to ensure that the scar remains as thin and discreet as possible.</p>
                <p>The primary goal of FUT is to transfer hair from the most stable donor zone to areas where hair loss is most pronounced.</p>
@@ -29,7 +30,7 @@ export default function HowDoesItWorkFut() {
                <p>For patient comfort, local anesthesia is administered to the donor and recipient areas.</p>
                <ul className="list-disc list-outside pl-5">
                   <li>A mild burning sensation may be felt during the first 5 minutes</li>
-                  <li>The procedure itself is painless, and patients typically do not experience discomfort during or after surgery</li>
+                  <li>Patients typically experience minimal discomfort during or after surgery</li>
                </ul>
             </div>
          </article>
@@ -72,7 +73,10 @@ export default function HowDoesItWorkFut() {
             </h4>
 
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>The harvested strip is first divided into thin sections called “slivers.” Excess tissue is removed from these slivers, and individual follicular units are carefully separated.</p>
+               <p>
+                  The harvested strip is first divided into thin sections called “slivers.” Excess tissue is removed from these slivers, and individual follicular units are carefully
+                  separated.
+               </p>
                <p>Each graft is prepared individually to ensure minimal trauma and optimal survival.</p>
             </div>
          </article>
