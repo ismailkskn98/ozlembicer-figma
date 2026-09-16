@@ -48,13 +48,13 @@ export default function AestheticAndArt() {
                   <div className="flex flex-col sm:flex-row items-start sm:items-center justify-end gap-3 lg:gap-6">
                      <Link
                         href="/about-us/dr-ozlem-bicer"
-                        className="rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm border border-ivory-soft text-ivory-soft hover:bg-ivory-soft/70 hover:text-coffee-dark hover:border-transparent transition-colors duration-200"
+                        className="rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-[10px] xl:text-sm text-nowrap border border-ivory-soft text-ivory-soft hover:bg-ivory-soft/70 hover:text-coffee-dark hover:border-transparent transition-colors duration-200"
                      >
                         {t('doctorLink')}
                      </Link>
                      <Link
                         href="/contact-us"
-                        className="rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-sm bg-ivory-soft text-coffee-dark hover:bg-ivory-soft/70 transition-colors duration-200"
+                        className="rounded-[10px] py-2 xl:py-2.5 px-3 xl:px-3.75 text-xs lg:text-[10px] xl:text-sm text-nowrap bg-ivory-soft text-coffee-dark hover:bg-ivory-soft/70 transition-colors duration-200"
                      >
                         {t('appointmentLink')}
                      </Link>

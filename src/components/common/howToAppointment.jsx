@@ -63,10 +63,10 @@ export default function HowToAppointment({ isContactPage, className }) {
                      {/* Mobile */}
                      <div className="flex flex-col items-center justify-center flex-1 lg:justify-between gap-3 lg:hidden w-full h-full px-2 py-1 min-h-[0vw]">
                         <div className="flex items-center gap-0.5 min-w-0">
-                           <span style={{ fontSize: 'clamp(27px,7vw,70px)' }} className="text-ivory-soft leading-none font-light shrink-0">
+                           <span style={{ fontSize: 'clamp(22px,6vw,70px)' }} className="text-ivory-soft leading-none font-light shrink-0">
                               {step.id}
                            </span>
-                           <p style={{ fontSize: 'clamp(10px,3vw,30px)' }} className="text-start text-ivory-soft leading-none min-w-0">
+                           <p style={{ fontSize: 'clamp(8px,2.5vw,30px)' }} className="text-start text-ivory-soft leading-none min-w-0">
                               <span className="text-nowrap">{step.title}</span>
                               <br />
                               {step.titleBr}

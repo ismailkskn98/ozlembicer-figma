@@ -143,8 +143,8 @@
           "description": "Avere una consulenza online individuale con il Dr. Biçer per ricevere una valutazione personalizzata e informazioni dettagliate sul vostro trattamento e processo. Insieme al vostro consulente, procedere con la pianificazione dei prossimi passi."
         },
         "complete": {
-          "title": "Completa il tuo",
-          "titleBr": "appuntamento",
+          "title": "Completa il",
+          "titleBr": "tuo appuntamento",
           "hoverTitle": "Compila il",
           "hoverTitleBr": "modulo",
           "imageAlt": "appuntamento",

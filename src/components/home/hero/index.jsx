@@ -72,22 +72,23 @@ export default function Hero() {
    return (
       <section className="relative fluid gridContainer bg-radial to-wine-brown from-20% from-coffee-dark pt-12 sm:pt-12 lg:pt-16 xl:pt-25 pb-52 md:pb-40 xl:pb-50">
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0" />
-         <main className="w-full max-w-full xl:max-w-6xl mx-auto">
+         <main className="w-full min-w-0 max-w-full xl:max-w-6xl mx-auto">
             <Swiper
                modules={[EffectFade, Autoplay]}
                effect="fade"
                slidesPerView={1}
                loop={true}
                autoplay={{
-                  delay: 50000,
+                  delay: 5000,
                   disableOnInteraction: false,
                }}
+               className="w-full min-w-0"
             >
                {heroSlideItems.map((item, index) => (
                   <SwiperSlide key={index} className="w-full pr-1">
                      {({ isActive }) => (
-                        <div className={`w-full flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 xl:gap-15`}>
-                           <article className="order-2 lg:order-1 flex flex-col items-center lg:items-start gap-5 lg:gap-3 xl:gap-7.5 text-ivory-soft min-w-full lg:min-w-102.5">
+                        <div className={`w-full min-w-0 flex flex-col lg:flex-row items-center lg:items-end justify-center lg:justify-between gap-10 xl:gap-15`}>
+                           <article className="order-2 lg:order-1 flex w-full min-w-0 flex-col items-center lg:w-auto lg:items-start gap-5 lg:gap-3 xl:gap-7.5 text-ivory-soft lg:min-w-102.5">
                               <div className={`w-full flex items-end justify-start h-auto sm:h-37.5 xl:h-60 transition-all duration-500 ${isActive ? 'opacity-100' : 'opacity-0'}`}>
                                  <h2 className="hidden lg:flex flex-col items-start text-start justify-end font-bold text-[30px] min-[300px]:text-[35px] min-[393px]:text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-9 min-[300px]:leading-10 min-[393px]:leading-11 min-[70rem]:leading-12 min-[72rem]:leading-15">
                                     {item.title.map((line, lineIndex) => (
@@ -96,7 +97,7 @@ export default function Hero() {
                                        </span>
                                     ))}
                                  </h2>
-                                 <h2 className="flex lg:hidden flex-col items-start text-start justify-end font-bold text-[30px] min-[300px]:text-[35px] min-[393px]:text-[38px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-9 min-[300px]:leading-10 min-[393px]:leading-11 min-[70rem]:leading-12 min-[72rem]:leading-15">
+                                 <h2 className="flex lg:hidden flex-col items-start text-start justify-end font-bold text-[28px] min-[300px]:text-[31px] min-[393px]:text-[33px] sm:text-[40px] lg:text-[40px] min-[70rem]:text-[45px] min-[72rem]:text-[50px] leading-8 min-[300px]:leading-9 min-[393px]:leading-10 min-[70rem]:leading-12 min-[72rem]:leading-15">
                                     {item.mobileTitle.map((line, lineIndex) => (
                                        <span key={lineIndex} className="block text-nowrap">
                                           {line}
@@ -110,7 +111,7 @@ export default function Hero() {
                               </div>
 
                               <div
-                                 className={`w-full flex flex-col min-[400px]:flex-row min-[400px]:items-center min-[400px]:justify-end gap-3 sm:gap-6 h-auto min-[70rem]:h-11 transition-all duration-500 mt-2 min-[400px]:mt-4 xl:mt-0 ${isActive ? 'opacity-100' : 'opacity-0'}`}
+                                 className={`w-full flex flex-col items-start sm:flex-row sm:items-center sm:justify-end gap-3 sm:gap-6 h-auto min-[70rem]:h-11 transition-all duration-500 mt-2 sm:mt-4 xl:mt-0 ${isActive ? 'opacity-100' : 'opacity-0'}`}
                               >
                                  {item.links.map((link, linkIndex) => (
                                     <Link

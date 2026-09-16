@@ -127,8 +127,8 @@
       "title": "Comment prendre rendez-vous",
       "steps": {
         "contact": {
-          "title": "Contactez-nous sur",
-          "titleBr": "WhatsApp",
+          "title": "Contactez-nous",
+          "titleBr": "sur WhatsApp",
           "hoverTitle": "Remplir le",
           "hoverTitleBr": "formulaire",
           "imageAlt": "WhatsApp",
