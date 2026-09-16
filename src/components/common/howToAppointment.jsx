@@ -4,53 +4,55 @@ import MotionScrollInView from './motionScrollInView';
 import { Phone } from 'lucide-react';
 import Pageh3Title from './pageh3Title';
 import { cn } from '@/lib/utils';
+import { useTranslations } from 'next-intl';
 
-const appointmentSteps = [
+function getAppointmentSteps(t) {
+ return [
    {
       id: 1,
-      title: 'Contact From',
-      titleBr: 'WhatsApp',
-      hoverTitle: 'Fill Application',
-      hoverTitleBr: 'Form',
+      title: t('steps.contact.title'),
+      titleBr: t('steps.contact.titleBr'),
+      hoverTitle: t('steps.contact.hoverTitle'),
+      hoverTitleBr: t('steps.contact.hoverTitleBr'),
       image: null,
       icon: Phone,
-      alt: 'whatsapp',
+      alt: t('steps.contact.imageAlt'),
       imageWidth: 'w-14 sm:w-16 lg:w-69.25',
-      description:
-         'Reach out to us on WhatsApp and get connected with a dedicated patient consultant who speaks your language. Fill out the form provided by your consultant and schedule your online consultation with Dr. Biçer.',
+      description: t('steps.contact.description'),
    },
    {
       id: 2,
-      title: 'Get Online',
-      titleBr: 'Consultation',
-      hoverTitle: 'Fill Application',
-      hoverTitleBr: 'Form',
+      title: t('steps.consultation.title'),
+      titleBr: t('steps.consultation.titleBr'),
+      hoverTitle: t('steps.consultation.hoverTitle'),
+      hoverTitleBr: t('steps.consultation.hoverTitleBr'),
       image: '/images/appointment-icon-2-new.webp',
-      alt: 'consultation',
+      alt: t('steps.consultation.imageAlt'),
       imageWidth: 'w-14 sm:w-16 lg:w-69.25',
-      description:
-         'Have a one-on-one online consultation with Dr. Biçer to receive a personalized assessment and detailed information about your treatment and process. Together with your consultant, proceed with planning the next steps.',
+      description: t('steps.consultation.description'),
    },
    {
       id: 3,
-      title: 'Complete Your',
-      titleBr: 'Appointment',
-      hoverTitle: 'Fill Application',
-      hoverTitleBr: 'Form',
+      title: t('steps.complete.title'),
+      titleBr: t('steps.complete.titleBr'),
+      hoverTitle: t('steps.complete.hoverTitle'),
+      hoverTitleBr: t('steps.complete.hoverTitleBr'),
       image: '/images/appointment-icon-3-new.webp',
-      alt: 'appointment',
+      alt: t('steps.complete.imageAlt'),
       imageWidth: 'w-14 sm:w-16 lg:w-69.25',
-      description:
-         'Finalize your treatment plan and confirm your appointment with the guidance of your consultant. After your procedure, your patient consultant will stay in continuous contact with you for one year, closely monitoring your progress, providing updates, and supporting you throughout your entire recovery journey.',
+      description: t('steps.complete.description'),
    },
-];
+ ];
+}
 
 export default function HowToAppointment({ isContactPage, className }) {
+   const t = useTranslations('HomePage.appointment');
+   const appointmentSteps = getAppointmentSteps(t);
    return (
       <section className={cn(`w-full py-15`, className)}>
          <main className="w-full flex flex-col items-start lg:items-center justify-start lg:justify-center gap-6">
             <MotionScrollInView className="w-full">
-               <Pageh3Title title="How To Make An Appointment" className="border-b border-coffee-dark text-coffee-dark w-full max-w-6xl lg:mx-auto" />
+               <Pageh3Title title={t('title')} className="border-b border-coffee-dark text-coffee-dark w-full max-w-6xl lg:mx-auto" />
             </MotionScrollInView>
             <div className="w-full max-w-full xl:max-w-6xl mx-auto grid grid-cols-3 gap-3 lg:gap-6">
                {appointmentSteps.map((step) => (
@@ -133,13 +135,11 @@ export default function HowToAppointment({ isContactPage, className }) {
                <MotionScrollInView className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:items-center gap-6">
                   <article className="group flex flex-col items-start gap-3.75 text-coffee-dark">
                      <h3 className="text-[32px] leading-9">
-                        Hair Transplantation in
-                        <br /> Istanbul, Turkey
+                        {t.rich('clinicHeading', {
+                           br: () => <br />,
+                        })}
                      </h3>
-                     <p className="max-w-full lg:max-w-141">
-                        Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a
-                        dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.
-                     </p>
+                     <p className="max-w-full lg:max-w-141">{t('clinicDescription')}</p>
                   </article>
                   <a
                      href="https://wa.me/905304141313"
@@ -147,10 +147,10 @@ export default function HowToAppointment({ isContactPage, className }) {
                      className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5 cursor-pointer"
                   >
                      <span className="opacity-0 lg:opacity-100 lg:group-hover:opacity-0 transition-opacity duration-300 uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">
-                        Contact US
+                        {t('contact')}
                      </span>
                      <div className="w-fit flex flex-col items-center justify-center gap-2 absolute left-1/2 top-1/2 -translate-1/2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300">
-                        <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">Contact US</span>
+                        <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">{t('contact')}</span>
                         <div className="flex flex-col items-center justify-center text-[23px] sm:text-[28px] lg:text-[32px]">
                            <span>info@ozlembicer.com</span>
                            <span>+90 (530) 414 13 13</span>

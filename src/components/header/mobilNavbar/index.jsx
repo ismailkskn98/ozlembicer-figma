@@ -3,12 +3,15 @@ import React, { useState } from 'react';
 import { Sheet, SheetClose, SheetContent, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { Link } from '@/i18n/navigation';
 import { MdExpandMore } from 'react-icons/md';
-import { navigationMenu } from '../navigationMenu';
-import TemporaryLanguageChange from '../temporaryLanguageChange';
+import { getNavigationMenu } from '../navigationMenu';
+import LanguageChange from '../languageChange';
 import Image from 'next/image';
 import { IoCloseOutline } from 'react-icons/io5';
+import { useTranslations } from 'next-intl';
 
 export default function MobilNavbar({ children }) {
+   const t = useTranslations('Header');
+   const navigationMenu = getNavigationMenu((key) => t(`navigation.${key}`));
    const [expandedMenu, setExpandedMenu] = useState(null);
 
    const toggleExpanded = (item) => {
@@ -19,12 +22,12 @@ export default function MobilNavbar({ children }) {
       <Sheet>
          <SheetTrigger asChild>{children}</SheetTrigger>
          <SheetContent showCloseButton={false} side="right" className="bg-coffee-dark border-gold p-0">
-            <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+            <SheetTitle className="sr-only">{t('mobileNavigationTitle')}</SheetTitle>
             <main className="flex flex-col h-full">
                <header className="w-full flex items-center justify-between gap-3 px-6 py-4 border-b border-gold min-h-20">
                   <SheetClose asChild>
                      <Link href={'/'} className="h-fit w-fit cursor-pointer">
-                        <Image src="/images/logo.webp" alt="ozlembicer logo" width={150} height={100} className="object-contain object-center w-fit min-w-25 h-8" />
+                        <Image src="/images/logo.webp" alt={t('alt1')} width={150} height={100} className="object-contain object-center w-fit min-w-25 h-8" />
                      </Link>
                   </SheetClose>
                   <SheetClose asChild>
@@ -135,8 +138,7 @@ export default function MobilNavbar({ children }) {
                         +90 (530) 414 13 13
                      </a>
                   </article>
-                  {/* <LanguageChange /> */}
-                  <TemporaryLanguageChange />
+                  <LanguageChange />
                </footer>
             </main>
          </SheetContent>

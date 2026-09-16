@@ -2,13 +2,15 @@ import React from 'react';
 import Image from 'next/image';
 import MotionScrollInView from '@/components/common/motionScrollInView';
 import HowToAppointment from '@/components/common/howToAppointment';
+import { useTranslations } from 'next-intl';
 
 const hairWashVideo = {
    videoId: 'G_oVzeLZNLU',
-   title: 'Hair Washing After Hair Transplantation',
 };
 
 export default function HairWashMain() {
+   const t = useTranslations('Content.transplantation.hairWash');
+   const videoTitle = t('videoTitle');
    return (
       <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft via-90% to-stone-beige">
          <section className="relative w-full fluid gridContainer">
@@ -20,10 +22,10 @@ export default function HairWashMain() {
                >
                   <div className="w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0" />
                   <section className="w-full max-w-full xl:max-w-6xl mx-auto flex items-center justify-between gap-4">
-                     <h1 className="flex flex-col text-[28px] sm:text-[32px] leading-tight">{hairWashVideo.title}</h1>
+                     <h1 className="flex flex-col text-[28px] sm:text-[32px] leading-tight">{videoTitle}</h1>
                      <Image
                         src="/images/gallery/Informative-Videos.svg"
-                        alt="Hair wash video"
+                        alt={t('alt1')}
                         width={120}
                         height={120}
                         className="object-contain w-12 min-[330px]:w-14 sm:w-18 lg:w-22.5 h-12 min-[330px]:h-14 sm:h-18 lg:h-22.5"
@@ -37,7 +39,7 @@ export default function HairWashMain() {
                   <div className="relative w-full aspect-video overflow-hidden rounded-[5px] bg-coffee-dark">
                      <iframe
                         src={`https://www.youtube-nocookie.com/embed/${hairWashVideo.videoId}?rel=0&modestbranding=1&playsinline=1`}
-                        title={hairWashVideo.title}
+                        title={videoTitle}
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
                         allowFullScreen
                         loading="lazy"

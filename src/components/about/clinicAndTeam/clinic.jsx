@@ -4,14 +4,16 @@ import PhotoGallery from './clinicGallery';
 import MotionRightView from '@/components/common/motionRightView';
 import MotionLeftView from '@/components/common/motionLeftView';
 import ClinicVideo from './clinicVideo';
+import { useTranslations } from 'next-intl';
 
 export default function Clinic() {
+   const t = useTranslations('Content.about.clinicAndTeam.clinic');
    return (
       <section className="relative fluid gridContainer w-full bg-wine-brown pt-12 sm:pt-18.25 pb-20 sm:pb-25 lg:pb-36">
          <div className="w-full fluid absolute inset-x-0 top-0 h-0.5 bg-gold z-0" />
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0" />
          <main className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-4">
-            <h2 className="text-ivory-soft text-[32px]">Clinic</h2>
+            <h2 className="text-ivory-soft text-[32px]">{t('heading1')}</h2>
             <div className="w-full grid lg:grid-cols-2 justify-items-stretch gap-12 xl:gap-32 overflow-hidden">
                <MotionLeftView className="order-2 lg:order-1 flex-1 w-full lg:max-w-120 flex">
                   <PhotoGallery />

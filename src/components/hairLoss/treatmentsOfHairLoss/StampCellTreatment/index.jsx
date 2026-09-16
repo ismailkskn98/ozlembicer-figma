@@ -8,15 +8,27 @@ import StampCellTreatmentDoesItWork from './StampCellTreatmentDoesItWork';
 import SectionWrapper from '@/components/transplantation/hairTransplant/common/sectionWrapper';
 import HowDoesItWork from '@/components/transplantation/hairTransplant/common/howDoesItWork';
 import DeneyTitleImage from '@/components/common/titleImages/deney';
+import { useTranslations } from 'next-intl';
 
-const linksItems = [
-   { label: 'Hair Mesotherapy', href: '/hair-loss/treatments-of-hair-loss/hair-mesotherapy' },
-   { label: 'PRP Hair Treatment', href: '/hair-loss/treatments-of-hair-loss/prp-hair-treatment' },
-   { label: 'Stamp Cell Treatment', href: '#' },
-   { label: 'Trichopat Treatment', href: '/hair-loss/treatments-of-hair-loss/trichopat-treatment' },
+const linksItemConfig = [
+   {
+      "href": "/hair-loss/treatments-of-hair-loss/hair-mesotherapy"
+   },
+   {
+      "href": "/hair-loss/treatments-of-hair-loss/prp-hair-treatment"
+   },
+   {
+      "href": "#"
+   },
+   {
+      "href": "/hair-loss/treatments-of-hair-loss/trichopat-treatment"
+   }
 ];
 
 export default function StampCellTreatmentMain({ children }) {
+   const t = useTranslations('Content.hairLoss.treatmentsOfHairLoss.stampCellTreatment');
+   const linkLabels = t.raw('links');
+   const linksItems = linksItemConfig.map((item, index) => ({ ...item, label: linkLabels[index] }));
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <CustomBreadCrumb links={linksItems} />
@@ -30,7 +42,7 @@ export default function StampCellTreatmentMain({ children }) {
             </SectionWrapper>
             {children}
             <DeneyTitleImage />
-            <PatientResults title="Patient Results" />
+            <PatientResults title={t('title1')} />
             <div className="-mt-10 lg:mt-0">
                <HowToAppointment />
             </div>

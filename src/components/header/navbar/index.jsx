@@ -1,9 +1,12 @@
 'use client';
 import { HoveredLink, Menu, MenuItem, NestedHoveredLink } from '@/components/ui/navbar-menu';
 import React, { useState } from 'react';
-import { navigationMenu } from '../navigationMenu';
+import { getNavigationMenu } from '../navigationMenu';
+import { useTranslations } from 'next-intl';
 
 export default function Navbar() {
+   const t = useTranslations('Header.navigation');
+   const navigationMenu = getNavigationMenu(t);
    const [active, setActive] = useState(null);
    return (
       <nav className="w-full flex items-center text-nowrap bg-transparent text-ivory-soft text-sm capitalize">

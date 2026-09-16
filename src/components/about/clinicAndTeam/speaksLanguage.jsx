@@ -7,17 +7,19 @@ import React, { useState, useTransition } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { useSearchParams } from 'next/navigation';
+import Pageh3Title from '@/components/common/pageh3Title';
 
-const localeMap = {
-   English: 'en',
-   Italiano: 'it',
-   Français: 'fr',
-   Deutsch: 'de',
-};
+const languageConfig = [
+   { locale: 'en', flag: '/images/about/united-states.png' },
+   { locale: 'it', flag: '/images/about/italy.png' },
+   { locale: 'fr', flag: '/images/about/franc.png' },
+   { locale: 'de', flag: '/images/about/germany.png' },
+];
 
 export default function SpeaksLanguage() {
    const t = useTranslations('SpeaksLanguage');
    const tModal = useTranslations('LanguageModal');
+   const tCommon = useTranslations('Common');
 
    const router = useRouter();
    const pathname = usePathname();
@@ -28,15 +30,14 @@ export default function SpeaksLanguage() {
    const [isDialogOpen, setIsDialogOpen] = useState(false);
    const [pendingLang, setPendingLang] = useState(null); // { name, locale }
 
-   const languages = [
-      { flag: '/images/about/united-states.png', name: 'English', alt: 'English Support' },
-      { flag: '/images/about/italy.png', name: 'Italiano', alt: 'Italian Support' },
-      { flag: '/images/about/franc.png', name: 'Français', alt: 'French Support' },
-      { flag: '/images/about/germany.png', name: 'Deutsch', alt: 'German Support' },
-   ];
+   const languages = languageConfig.map((language) => ({
+      ...language,
+      name: tCommon(`languages.${language.locale}.name`),
+      alt: tCommon(`languages.${language.locale}.supportAlt`),
+   }));
 
    const handleCardClick = (lang) => {
-      const targetLocale = localeMap[lang.name];
+      const targetLocale = lang.locale;
       if (!targetLocale || targetLocale === locale) return;
       setPendingLang({ name: lang.name, locale: targetLocale });
       setIsDialogOpen(true);
@@ -61,12 +62,15 @@ export default function SpeaksLanguage() {
 
    return (
       <>
-         <section className="fluid gridContainer w-full pb-2 sm:pb-10 pt-10">
-            <main className="relative w-full max-w-full xl:max-w-6xl mx-auto bg-linear-to-br from-coffee-dark via-wine-brown to-coffee-dark py-12 sm:py-16 px-6 sm:px-12 rounded-4xl shadow-xl">
+         <section className="fluid gridContainer w-full pb-2 pt-10">
+            <main className="relative w-full max-w-full xl:max-w-6xl mx-auto bg-linear-to-br from-coffee-dark via-wine-brown to-coffee-dark py-10 sm:py-16 px-6 sm:px-12 rounded-4xl shadow-xl">
                <div className='absolute z-0 inset-0 w-full h-full rounded-4xl bg-[url("/images/world.svg")] bg-center bg-cover bg-fixed bg-no-repeat opacity-20' />
                <MotionScrollInView className="relative z-20 text-center mb-8">
-                  <h2 className="text-ivory-soft text-2xl sm:text-4xl font-semibold mb-3 sm:mb-4">{t('heading')}</h2>
-                  <p className="text-ivory-soft/80 text-base sm:text-xl max-w-2xl mx-auto">{t('subheading')}</p>
+                  <Pageh3Title
+                     title={t('heading')}
+                     className="text-ivory-soft font-semibold mb-2 sm:mb-3 2xl:text-3xl"
+                  />
+                  <p className="text-ivory-soft/80 text-sm lg:text-base max-w-2xl mx-auto">{t('subheading')}</p>
                </MotionScrollInView>
 
                <MotionScrollInViewVariant
@@ -74,19 +78,19 @@ export default function SpeaksLanguage() {
                   childClassname="group"
                >
                   {languages.map((lang, index) => {
-                     const isActive = localeMap[lang.name] === locale;
+                     const isActive = lang.locale === locale;
                      return (
                         <div
                            key={index}
                            onClick={() => handleCardClick(lang)}
-                           className={`flex flex-col items-center gap-4 p-4 sm:p-6 backdrop-blur-sm rounded-2xl border transition-all duration-300 hover:scale-105 hover:shadow-xl
+                           className={`flex flex-col items-center gap-3 sm:gap-4 p-3 sm:p-6 backdrop-blur-sm rounded-2xl border transition-all duration-300 hover:scale-105 hover:shadow-xl
                                         ${
                                            isActive
                                               ? 'bg-white/15 border-gold/50 ring-1 ring-gold/30 cursor-default'
                                               : 'bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20 cursor-pointer'
                                         }`}
                         >
-                           <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden shadow-lg ring-2 ring-white/20 group-hover:ring-white/40 transition-all">
+                           <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-xl overflow-hidden shadow-lg ring-2 ring-white/20 group-hover:ring-white/40 transition-all">
                               <Image
                                  src={lang.flag}
                                  alt={lang.alt}

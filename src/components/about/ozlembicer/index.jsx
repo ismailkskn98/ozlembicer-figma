@@ -7,14 +7,24 @@ import ProfessionalAffiliations from './professionalAffiliations';
 import Certifications from './certifications';
 import Awards from './awards';
 import HowToAppointment from '@/components/common/howToAppointment';
+import { useTranslations } from 'next-intl';
 
-const linksItems = [
-   { label: 'About Dr. Ozlem Bicer', href: '#' },
-   { label: 'Clinic & Team', href: '/about-us/clinic-team' },
-   { label: 'Pricing', href: '/about-us/pricing' },
+const linksItemConfig = [
+   {
+      "href": "#"
+   },
+   {
+      "href": "/about-us/clinic-team"
+   },
+   {
+      "href": "/about-us/pricing"
+   }
 ];
 
 export default function OzlemBicerMain({ children }) {
+   const t = useTranslations('Content.about.ozlembicer');
+   const linkLabels = t.raw('links');
+   const linksItems = linksItemConfig.map((item, index) => ({ ...item, label: linkLabels[index] }));
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <CustomBreadCrumb links={linksItems} />

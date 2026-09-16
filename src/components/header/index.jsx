@@ -1,16 +1,17 @@
 import { Link } from '@/i18n/navigation';
 import React from 'react';
 import Navbar from './navbar';
-// import LanguageChange from './languageChange'
-import TemporaryLanguageChange from './temporaryLanguageChange';
+import LanguageChange from './languageChange';
 import MotionScrollInViewOpacity from '../common/motionScrollInViewOpacity';
 import { SlMenu } from 'react-icons/sl';
 import MobilNavbar from './mobilNavbar';
 import HeaderLogo from './headerLogo';
 import { CiSearch } from 'react-icons/ci';
 import SearchMain from './searchMain';
+import { useTranslations } from 'next-intl';
 
 export default function Header() {
+   const t = useTranslations('Content.header');
    return (
       <main className="fixed inset-x-0 top-0 z-9999 w-full gridContainer">
          <header className="w-full fluid gridContainer bg-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 border-b border-gold">
@@ -20,7 +21,7 @@ export default function Header() {
                   <main className="hidden md:flex items-center">
                      <Navbar />
                      <div className="w-fit h-fit hidden md:flex items-center justify-center gap-3 lg:gap-4 pl-2 lg:pl-4 lg:pr-5">
-                        <TemporaryLanguageChange />
+                        <LanguageChange />
                         <SearchMain>
                            <button type="button" className="uppercase font-bold text-xl lg:text-2xl w-full text-left cursor-pointer">
                               <CiSearch className="text-ivory-soft!" />
@@ -31,7 +32,7 @@ export default function Header() {
                         href="/contact-us"
                         className="group hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] text-ivory-soft text-sm bg-wine-brown border border-wine-brown transition-all duration-300"
                      >
-                        <span className="group-hover:opacity-70 transition-all duration-200">info@ozlembicer.com</span>
+                        <span className="group-hover:opacity-70 transition-all duration-200">{t('span1')}</span>
                         <span className="group-hover:opacity-70 transition-all duration-200">+90 (530) 414 13 13</span>
                      </Link>
                   </main>
@@ -42,7 +43,7 @@ export default function Header() {
                         </button>
                      </SearchMain>
                      <article className="md:hidden flex items-center gap-4">
-                        <TemporaryLanguageChange />
+                        <LanguageChange />
                         <MobilNavbar>
                            <SlMenu size={24} className="cursor-pointer text-ivory-soft" />
                         </MobilNavbar>
@@ -54,7 +55,7 @@ export default function Header() {
          <section className="lg:hidden fluid gridContainer w-full max-w-full lg:max-w-6xl mx-auto py-1 bg-coffee-dark">
             <main className="w-full flex items-center justify-center">
                <Link href="/contact-us" className="flex items-center justify-center gap-1 text-ivory-soft px-2.5 py-0.5 rounded-sm text-xs sm:text-sm">
-                  <span>info@ozlembicer.com</span>
+                  <span>{t('span2')}</span>
                   <span>-</span>
                   <span>+90 (530) 414 13 13</span>
                </Link>

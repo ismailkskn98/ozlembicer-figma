@@ -11,17 +11,33 @@ import DomLoaded from '../../common/domLoaded';
 import HowToAppointment from '../../common/howToAppointment';
 import HowDoesItWorkLong from './longHair/howDoesItWorkLong';
 import HowDoesItWorkFut from './futHair/howDoesItWorkFut';
+import { useTranslations } from 'next-intl';
 
-const linksItems = [
-   { label: 'FUE (Micro Motor)', href: '/hair-transplant#fue-micro-motor' },
-   { label: 'FUE (Manuel)', href: '/hair-transplant#fue-manuel' },
-   { label: 'BHT (Body Hair Transplant)', href: '/hair-transplant#body-hair-transplant' },
-   { label: 'Reconstructive Hair Transplant', href: '/hair-transplant#reconstructive-hair-transplant' },
-   { label: 'Long Hair (Unshaven)', href: '/hair-transplant#long-hair' },
-   { label: 'FUT', href: '/hair-transplant#fut' },
+const linksItemConfig = [
+   {
+      "href": "/hair-transplant#fue-micro-motor"
+   },
+   {
+      "href": "/hair-transplant#fue-manuel"
+   },
+   {
+      "href": "/hair-transplant#body-hair-transplant"
+   },
+   {
+      "href": "/hair-transplant#reconstructive-hair-transplant"
+   },
+   {
+      "href": "/hair-transplant#long-hair"
+   },
+   {
+      "href": "/hair-transplant#fut"
+   }
 ];
 
 export default function HairTransplantMain() {
+   const t = useTranslations('Content.transplantation.hairTransplant');
+   const linkLabels = t.raw('links');
+   const linksItems = linksItemConfig.map((item, index) => ({ ...item, label: linkLabels[index] }));
    return (
       <>
          <CustomBreadCrumb links={linksItems} isButton={true} />
@@ -31,11 +47,11 @@ export default function HairTransplantMain() {
             <SectionWrapper
                linksItems={linksItems}
                id="fue-micro-motor"
-               title="FUE"
-               subtitle="(Micro Motor)"
+               title={t('title1')}
+               subtitle={t('subtitle1')}
                imageUrl="/images/hair-transplant/fue-micro-motor-nobg.svg"
                generalInfoProps={{
-                  title: 'What Is',
+                  title: t('title2'),
                   boldTitle: 'FUE Hair Transplant?',
                   description1:
                      'FUE hair transplant (Follicular Unit Extraction) is a modern and minimally invasive hair restoration technique used to treat hair loss in both men and women. In this method, individual hair follicles—called follicular units—are extracted one by one from the donor area, usually the back and sides of the scalp, and transplanted into areas affected by hair loss.',
@@ -44,96 +60,96 @@ export default function HairTransplantMain() {
                }}
             >
                <HowDoesItWork
-                  title={['What Are the Steps of', 'FUE Hair Transplantation?']}
+                  title={[t('title3'), t('title4')]}
                   content={[
-                     { type: 'heading', value: '1. Initial Contact & Consultation' },
+                     { type: 'heading', value: t('value1') },
                      {
                         type: 'paragraph',
-                        value: 'You first contact the clinic, and one of our consultants and interpreters will guide you through the entire process in your native language.',
+                        value: t('value2'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'You will complete a consultation form and send your photographs and videos to Dr. Biçer. After evaluating your case and estimating the required graft number, Dr. Biçer will provide general information. If she needs further details, she may request an online consultation.',
+                        value: t('value3'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Following this evaluation, a personalized treatment offer will be sent to you. If you decide to proceed with surgery, your consultant will provide suitable dates. Once the advance payment is received, your surgery will be scheduled.',
+                        value: t('value4'),
                      },
-                     { type: 'heading', value: '2. Preoperative Evaluation (One Day Before Surgery)' },
+                     { type: 'heading', value: t('value5') },
                      {
                         type: 'paragraph',
-                        value: 'We strongly recommend arriving at the clinic one day before surgery. During this visit:',
+                        value: t('value6'),
                      },
                      {
                         type: 'list',
-                        value: ['Medical photographs are taken', 'Blood tests are performed', 'Electrocardiography (ECG) is completed', 'Trichoscopic examination is conducted'],
+                        value: [t('value7'), t('value8'), t('value9'), t('value10')],
                      },
                      {
                         type: 'paragraph',
-                        value: 'You will also complete the necessary medical forms and have a face-to-face consultation with Dr. Biçer. This step is extremely important, as your expectations, donor capacity, and final graft number are clarified, and the surgical plan is finalized.',
+                        value: t('value11'),
                      },
-                     { type: 'heading', value: '3. Surgery Day – Planning & Preparation' },
+                     { type: 'heading', value: t('value12') },
                      {
                         type: 'paragraph',
-                        value: 'On the day of surgery, you should arrive at the clinic at 08:00 a.m.',
-                     },
-                     {
-                        type: 'paragraph',
-                        value: 'Dr. Biçer reviews all details again and designs your hairline together with you. Hairline design is a critical step for achieving natural-looking results and ensuring long-term planning.',
+                        value: t('value13'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Depending on the chosen technique, your hair will be shaved if required, and your scalp will be washed with a disinfectant shampoo. The hairline is then cleaned again.',
+                        value: t('value14'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Dr. Biçer explains each step of the procedure in detail before surgery begins.',
+                        value: t('value15'),
                      },
-                     { type: 'heading', value: '4. Local Anesthesia' },
                      {
                         type: 'paragraph',
-                        value: 'Needle-free local anesthesia is administered. During this phase, you remain awake and are continuously monitored to ensure your comfort and safety.',
+                        value: t('value16'),
                      },
-                     { type: 'heading', value: '5. Graft Extraction' },
+                     { type: 'heading', value: t('value17') },
                      {
                         type: 'paragraph',
-                        value: 'In the second stage of surgery, Dr. Biçer performs the graft harvesting, while trained nurses collect, count, and examine the grafts under the microscope.',
+                        value: t('value18'),
                      },
-                     { type: 'paragraph', value: 'Punch sizes of 0.7–0.9 mm are used:' },
+                     { type: 'heading', value: t('value19') },
+                     {
+                        type: 'paragraph',
+                        value: t('value20'),
+                     },
+                     { type: 'paragraph', value: t('value21') },
                      {
                         type: 'list',
                         value: [
-                           'When these punches are used with a micromotor, the technique is called micromotor FUE',
-                           'When used manually, without electricity or machines, the technique is called manual FUE',
+                           t('value22'),
+                           t('value23'),
                         ],
                      },
-                     { type: 'heading', value: '6. Recipient Site Creation' },
+                     { type: 'heading', value: t('value24') },
                      {
                         type: 'paragraph',
-                        value: 'In the third stage, Dr. Biçer creates the recipient incisions, determining the direction, angle, and density of the transplanted hair.',
+                        value: t('value25'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Titanium or sapphire blades are used for this step. Technically, there is no difference in results between these two blade types when properly applied.',
+                        value: t('value26'),
                      },
-                     { type: 'heading', value: '7. Graft Implantation' },
+                     { type: 'heading', value: t('value27') },
                      {
                         type: 'paragraph',
-                        value: 'In the final stage, three nurses carefully place the grafts into the recipient area. Dr. Biçer remains at the clinic throughout this process.',
+                        value: t('value28'),
                      },
-                     { type: 'heading', value: '8. Postoperative Follow-Up' },
-                     { type: 'paragraph', value: 'The day after surgery, you return to the clinic for:' },
+                     { type: 'heading', value: t('value29') },
+                     { type: 'paragraph', value: t('value30') },
                      {
                         type: 'list',
-                        value: ['Removal of bandages', 'Medical examination by Dr. Biçer', 'Postoperative photographs'],
+                        value: [t('value31'), t('value32'), t('value33')],
                      },
                      {
                         type: 'paragraph',
-                        value: 'Once everything is confirmed to be progressing well, you are free to return to your country.',
+                        value: t('value34'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'However, the process does not end there. Dr. Biçer and her interpreters continue to follow your progress for at least one year after the surgery.',
+                        value: t('value35'),
                      },
                   ]}
                >
@@ -145,11 +161,11 @@ export default function HairTransplantMain() {
             <SectionWrapper
                linksItems={linksItems}
                id="fue-manuel"
-               title="FUE"
-               subtitle="(Manual)"
+               title={t('title5')}
+               subtitle={t('subtitle2')}
                imageUrl="/images/hair-transplant/FUE-Manual.svg"
                generalInfoProps={{
-                  title: 'What Is',
+                  title: t('title6'),
                   boldTitle: 'FUE Hair Transplant?',
                   description1:
                      'FUE hair transplant (Follicular Unit Extraction) is a modern and minimally invasive hair restoration technique used to treat hair loss in both men and women. In this method, individual hair follicles—called follicular units—are extracted one by one from the donor area, usually the back and sides of the scalp, and transplanted into areas affected by hair loss.',
@@ -158,96 +174,96 @@ export default function HairTransplantMain() {
                }}
             >
                <HowDoesItWork
-                  title={['What Are the Steps of', 'FUE Hair Transplantation?']}
+                  title={[t('title7'), t('title8')]}
                   content={[
-                     { type: 'heading', value: '1. Initial Contact & Consultation' },
+                     { type: 'heading', value: t('value36') },
                      {
                         type: 'paragraph',
-                        value: 'You first contact the clinic, and one of our consultants and interpreters will guide you through the entire process in your native language.',
+                        value: t('value37'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'You will complete a consultation form and send your photographs and videos to Dr. Biçer. After evaluating your case and estimating the required graft number, Dr. Biçer will provide general information. If she needs further details, she may request an online consultation.',
+                        value: t('value38'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Following this evaluation, a personalized treatment offer will be sent to you. If you decide to proceed with surgery, your consultant will provide suitable dates. Once the advance payment is received, your surgery will be scheduled.',
+                        value: t('value39'),
                      },
-                     { type: 'heading', value: '2. Preoperative Evaluation (One Day Before Surgery)' },
+                     { type: 'heading', value: t('value40') },
                      {
                         type: 'paragraph',
-                        value: 'We strongly recommend arriving at the clinic one day before surgery. During this visit:',
+                        value: t('value41'),
                      },
                      {
                         type: 'list',
-                        value: ['Medical photographs are taken', 'Blood tests are performed', 'Electrocardiography (ECG) is completed', 'Trichoscopic examination is conducted'],
+                        value: [t('value42'), t('value43'), t('value44'), t('value45')],
                      },
                      {
                         type: 'paragraph',
-                        value: 'You will also complete the necessary medical forms and have a face-to-face consultation with Dr. Biçer. This step is extremely important, as your expectations, donor capacity, and final graft number are clarified, and the surgical plan is finalized.',
+                        value: t('value46'),
                      },
-                     { type: 'heading', value: '3. Surgery Day – Planning & Preparation' },
+                     { type: 'heading', value: t('value47') },
                      {
                         type: 'paragraph',
-                        value: 'On the day of surgery, you should arrive at the clinic at 08:00 a.m.',
-                     },
-                     {
-                        type: 'paragraph',
-                        value: 'Dr. Biçer reviews all details again and designs your hairline together with you. Hairline design is a critical step for achieving natural-looking results and ensuring long-term planning.',
+                        value: t('value48'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Depending on the chosen technique, your hair will be shaved if required, and your scalp will be washed with a disinfectant shampoo. The hairline is then cleaned again.',
+                        value: t('value49'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Dr. Biçer explains each step of the procedure in detail before surgery begins.',
+                        value: t('value50'),
                      },
-                     { type: 'heading', value: '4. Local Anesthesia' },
                      {
                         type: 'paragraph',
-                        value: 'Needle-free local anesthesia is administered. During this phase, you remain awake and are continuously monitored to ensure your comfort and safety.',
+                        value: t('value51'),
                      },
-                     { type: 'heading', value: '5. Graft Extraction' },
+                     { type: 'heading', value: t('value52') },
                      {
                         type: 'paragraph',
-                        value: 'In the second stage of surgery, Dr. Biçer performs the graft harvesting, while trained nurses collect, count, and examine the grafts under the microscope.',
+                        value: t('value53'),
                      },
-                     { type: 'paragraph', value: 'Punch sizes of 0.7–0.9 mm are used:' },
+                     { type: 'heading', value: t('value54') },
+                     {
+                        type: 'paragraph',
+                        value: t('value55'),
+                     },
+                     { type: 'paragraph', value: t('value56') },
                      {
                         type: 'list',
                         value: [
-                           'When these punches are used with a micromotor, the technique is called micromotor FUE',
-                           'When used manually, without electricity or machines, the technique is called manual FUE',
+                           t('value57'),
+                           t('value58'),
                         ],
                      },
-                     { type: 'heading', value: '6. Recipient Site Creation' },
+                     { type: 'heading', value: t('value59') },
                      {
                         type: 'paragraph',
-                        value: 'In the third stage, Dr. Biçer creates the recipient incisions, determining the direction, angle, and density of the transplanted hair.',
+                        value: t('value60'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Titanium or sapphire blades are used for this step. Technically, there is no difference in results between these two blade types when properly applied.',
+                        value: t('value61'),
                      },
-                     { type: 'heading', value: '7. Graft Implantation' },
+                     { type: 'heading', value: t('value62') },
                      {
                         type: 'paragraph',
-                        value: 'In the final stage, three nurses carefully place the grafts into the recipient area. Dr. Biçer remains at the clinic throughout this process.',
+                        value: t('value63'),
                      },
-                     { type: 'heading', value: '8. Postoperative Follow-Up' },
-                     { type: 'paragraph', value: 'The day after surgery, you return to the clinic for:' },
+                     { type: 'heading', value: t('value64') },
+                     { type: 'paragraph', value: t('value65') },
                      {
                         type: 'list',
-                        value: ['WRemoval of bandages', 'Medical examination by Dr. Biçer', 'Postoperative photographs'],
+                        value: [t('value66'), t('value67'), t('value68')],
                      },
                      {
                         type: 'paragraph',
-                        value: 'Once everything is confirmed to be progressing well, you are free to return to your country.',
+                        value: t('value69'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'However, the process does not end there. Dr. Biçer and her interpreters continue to follow your progress for at least one year after the surgery.',
+                        value: t('value70'),
                      },
                   ]}
                >
@@ -255,27 +271,27 @@ export default function HairTransplantMain() {
                </HowDoesItWork>
                <section className="w-full max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-5 justify-items-center gap-2 sm:gap-3 md:gap-6">
                   <article className="w-36 sm:w-43 h-36 sm:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base">
-                     {['Minimally', 'Invasive', 'Technique'].map((text, index) => (
+                     {t.raw('titleLines1').map((text, index) => (
                         <span key={index}>{text}</span>
                      ))}
                   </article>
                   <article className="w-36 sm:w-43 h-36 sm:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base">
-                     {['No', 'Linear', 'Scar'].map((text, index) => (
+                     {t.raw('titleLines2').map((text, index) => (
                         <span key={index}>{text}</span>
                      ))}
                   </article>
                   <article className="col-span-2 md:col-span-1 w-36 sm:w-43 h-36 sm:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base">
-                     {['Natural', 'Looking', 'Results'].map((text, index) => (
+                     {t.raw('titleLines3').map((text, index) => (
                         <span key={index}>{text}</span>
                      ))}
                   </article>
                   <article className="w-36 sm:w-43 h-36 sm:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base">
-                     {['Short', 'Recovery', 'Time'].map((text, index) => (
+                     {t.raw('titleLines4').map((text, index) => (
                         <span key={index}>{text}</span>
                      ))}
                   </article>
                   <article className="w-36 sm:w-43 h-36 sm:h-43 bg-linear-to-r from-wine-brown to-coffee-dark rounded-full flex flex-col items-center justify-center text-ivory-soft text-base md:text-xs lg:text-base">
-                     {['Suitable', 'For', 'Man&Woman'].map((text, index) => (
+                     {t.raw('titleLines5').map((text, index) => (
                         <span key={index}>{text}</span>
                      ))}
                   </article>
@@ -286,11 +302,11 @@ export default function HairTransplantMain() {
             <SectionWrapper
                linksItems={linksItems}
                id="body-hair-transplant"
-               title="BHT"
-               subtitle="(Body Hair Transplant)"
+               title={t('title9')}
+               subtitle={t('subtitle3')}
                imageUrl="/images/home-accordion/new-bht.svg"
                generalInfoProps={{
-                  title: 'What Is',
+                  title: t('title10'),
                   boldTitle: 'Body Hair Transplant?',
                   description1:
                      'Body Hair Transplantation (BHT) is an advanced hair restoration technique used when the scalp does not provide enough suitable donor hair for a standard hair transplant. In a conventional hair transplant, hair follicles are typically harvested from the back and sides of the scalp. However, some patients have a limited or depleted scalp donor area, making additional donor sources necessary.',
@@ -301,25 +317,25 @@ export default function HairTransplantMain() {
             >
                <HowDoesItWork
                   videos={[
-                     { videoId: 'TOFFQj26QVk', alt: 'Body Hair Transplant', title: 'Everything you need to know about body hair transplantation (BHT)' },
-                     { videoId: 'HQa-LIH3QqA', alt: 'Body Hair Transplant 2', title: 'What is BHT?' },
+                     { videoId: 'TOFFQj26QVk', alt: t('alt1'), title: t('title11') },
+                     { videoId: 'HQa-LIH3QqA', alt: t('alt2'), title: t('title12') },
                   ]}
-                  title={['When Is Body Hair', 'Transplantation Recommended?']}
+                  title={[t('title13'), t('title14')]}
                   content={[
-                     { type: 'paragraph', value: 'BHT may be considered in the following situations:' },
+                     { type: 'paragraph', value: t('value71') },
                      {
                         type: 'list',
                         value: [
-                           'Severely limited scalp donor area, such as advanced hair loss (Norwood Grade VI–VII)',
-                           'Patients who have undergone previous hair transplant procedures and have depleted donor reserves',
-                           'Cases where higher graft numbers are required but scalp donor capacity is insufficient',
-                           'Scarring alopecia, burns, or trauma-related hair loss',
-                           'To increase overall density, particularly in combination with scalp hair grafts',
+                           t('value72'),
+                           t('value73'),
+                           t('value74'),
+                           t('value75'),
+                           t('value76'),
                         ],
                      },
                      {
                         type: 'paragraph',
-                        value: 'Beard hair is generally preferred over chest hair due to its stronger structure and more consistent growth characteristics.',
+                        value: t('value77'),
                      },
                   ]}
                >
@@ -331,11 +347,11 @@ export default function HairTransplantMain() {
             <SectionWrapper
                linksItems={linksItems}
                id="reconstructive-hair-transplant"
-               title="Reconstructive Hair Transplantation"
+               title={t('title15')}
                subtitle=""
                imageUrl="/images/hair-transplant/reconstruct-ve-Hair-Transplantation.svg"
                generalInfoProps={{
-                  title: 'What Is',
+                  title: t('title16'),
                   boldTitle: 'Reconstructive Hair Transplantation?',
                   description1:
                      'Reconstructive hair transplantation is a specialized field of hair restoration focused on correcting hair loss or aesthetic problems caused by previous hair transplant procedures, trauma, burns, scars, medical conditions, or congenital factors.',
@@ -346,31 +362,31 @@ export default function HairTransplantMain() {
             >
                <HowDoesItWork
                   videos={[
-                     { videoId: 'sHLV0jLvKVs', alt: 'Reconstructive Hair Transplant', title: 'Reconstruction Hair Transplantation - 01' },
-                     { videoId: 'WB0I5IlAqjg', alt: 'Reconstructive Hair Transplant 2', title: 'Reconstruction Hair Transplantation - 02' },
-                     { videoId: 'twv7tvc9kLk', alt: 'Reconstructive Hair Transplant 3', title: 'Reconstruction Hair Transplantation - 03' },
+                     { videoId: 'sHLV0jLvKVs', alt: t('alt3'), title: t('title17') },
+                     { videoId: 'WB0I5IlAqjg', alt: t('alt4'), title: t('title18') },
+                     { videoId: 'twv7tvc9kLk', alt: t('alt5'), title: t('title19') },
                   ]}
-                  title={['Who Needs', 'Reconstructive Hair Transplantation?']}
+                  title={[t('title20'), t('title21')]}
                   content={[
                      {
                         type: 'paragraph',
-                        value: 'Reconstructive hair transplantation may be recommended for patients who experience:',
+                        value: t('value78'),
                      },
                      {
                         type: 'list',
                         value: [
-                           'Unnatural or poorly designed hairlines',
-                           'Visible scarring from previous hair transplant procedures (FUE or FUT)',
-                           'Asymmetry or incorrect hair direction',
-                           'Low or uneven hair density',
-                           'Hair loss due to burns, accidents, surgery, or trauma',
-                           'Scarring alopecia or certain medical conditions',
-                           'Failed or unsatisfactory results from previous hair transplants',
+                           t('value79'),
+                           t('value80'),
+                           t('value81'),
+                           t('value82'),
+                           t('value83'),
+                           t('value84'),
+                           t('value85'),
                         ],
                      },
                      {
                         type: 'paragraph',
-                        value: 'Each reconstructive case is unique and requires an individualized treatment plan.',
+                        value: t('value86'),
                      },
                   ]}
                >
@@ -382,11 +398,11 @@ export default function HairTransplantMain() {
             <SectionWrapper
                linksItems={linksItems}
                id="long-hair"
-               title="Long Hair"
-               subtitle="(Unshaven)"
+               title={t('title22')}
+               subtitle={t('subtitle4')}
                imageUrl="/images/hair-transplant/long-hair-nobg.svg"
                generalInfoProps={{
-                  title: 'What Is',
+                  title: t('title23'),
                   boldTitle: 'Long Hair Transplant?',
                   description1:
                      'Long hair transplantation is an advanced hair transplant technique in which hair follicles are extracted and implanted without shaving the donor or recipient areas. Although the procedure is technically the same as the classic micromotor FUE technique, special punches are used to avoid cutting the hair shaft, allowing the hair to remain long during extraction and implantation.',
@@ -396,25 +412,25 @@ export default function HairTransplantMain() {
                }}
             >
                <HowDoesItWork
-                  title={['Who Needs', 'Long Hair Transplantation?']}
+                  title={[t('title24'), t('title25')]}
                   content={[
-                     { type: 'paragraph', value: 'Long hair transplantation may be recommended for individuals who:' },
+                     { type: 'paragraph', value: t('value87') },
                      {
                         type: 'list',
                         value: [
-                           'Have unnatural, poorly designed, or unsatisfactory hairlines from previous procedures and want an immediate, natural-looking improvement',
-                           'Experience visible scarring caused by earlier hair transplant techniques (FUE or FUT) and prefer better camouflage',
-                           'Suffer from asymmetry or incorrect hair growth direction that requires precise correction',
-                           'Have low or uneven hair density and wish to see instant volume without waiting months for growth',
-                           'Have hair loss resulting from burns, accidents, surgery, or trauma, where aesthetic restoration is critical',
-                           'Are affected by scarring alopecia or certain medical conditions that limit conventional transplant options',
-                           'Have had failed or disappointing hair transplant results and seek an advanced corrective solution',
-                           'Prefer a technique that provides immediate cosmetic results, especially for social or professional reasons',
+                           t('value88'),
+                           t('value89'),
+                           t('value90'),
+                           t('value91'),
+                           t('value92'),
+                           t('value93'),
+                           t('value94'),
+                           t('value95'),
                         ],
                      },
                      {
                         type: 'paragraph',
-                        value: 'Each long hair transplantation case is unique and requires a fully individualized treatment plan based on the patient’s hair characteristics, expectations, and medical background.',
+                        value: t('value96'),
                      },
                   ]}
                >
@@ -426,11 +442,11 @@ export default function HairTransplantMain() {
             <SectionWrapper
                linksItems={linksItems}
                id="fut"
-               title="FUT"
-               subtitle="(Follicular Unit Transplantation)"
+               title={t('title26')}
+               subtitle={t('subtitle5')}
                imageUrl="/images/hair-transplant/FUE-Strip.svg"
                generalInfoProps={{
-                  title: 'What Is',
+                  title: t('title27'),
                   boldTitle: 'FUT Hair Transplant?',
                   description1: 'FUT (Follicular Unit Transplantation)—also known as strip hair transplantation—is one of the most established hair transplant techniques. ',
                   description2:
@@ -442,72 +458,72 @@ export default function HairTransplantMain() {
                   videos={[
                      {
                         videoId: 'idSIhdT5B_U',
-                        alt: 'FUT Step 1',
-                        title: 'What is FUT hair transplantation? - Dr. Özlem Biçer, MD',
+                        alt: t('alt6'),
+                        title: t('title28'),
                      },
-                     { videoId: 'O8c5cTp9xv0', alt: 'FUT Step 2', title: 'FUT transplant?' },
-                     { videoId: 'jOdV8KsQeFQ', alt: 'FUT Step 3', title: 'FUT TECHNICH' },
+                     { videoId: 'O8c5cTp9xv0', alt: t('alt7'), title: t('title29') },
+                     { videoId: 'jOdV8KsQeFQ', alt: t('alt8'), title: t('title30') },
                   ]}
-                  title={['Stages of FUT', 'Hair Transplantation']}
+                  title={[t('title31'), t('title32')]}
                   content={[
-                     { type: 'heading', value: '1. Initial Contact & Consultation' },
+                     { type: 'heading', value: t('value97') },
                      {
                         type: 'paragraph',
-                        value: 'The process begins by contacting the clinic. One of our experienced consultants and interpreters will guide you through every step in your native language. You will be asked to complete a consultation form and submit photographs and videos, which are reviewed by Dr. Biçer. Based on this evaluation, you will receive preliminary information, including an estimated graft number. If necessary, Dr. Biçer may request an online consultation for further assessment. Following this, a personalized treatment plan and offer will be prepared and sent to you.',
+                        value: t('value98'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Once you decide to proceed with surgery, your consultant will help you select suitable dates. After the advance payment is completed, your surgery will be officially scheduled.',
+                        value: t('value99'),
                      },
-                     { type: 'heading', value: '2. Preoperative Day (One Day Before Surgery)' },
+                     { type: 'heading', value: t('value100') },
                      {
                         type: 'paragraph',
-                        value: 'We strongly recommend arriving at the clinic one day before the surgery. On this day, professional photographs are taken and medical evaluations are performed, including blood tests, electrocardiography (ECG), and trichoscopic examination. You will then have a face-to-face consultation with Dr. Biçer.',
-                     },
-                     {
-                        type: 'paragraph',
-                        value: 'This step is extremely important, as your expectations, donor capacity, scalp laxity, and final graft number are clearly determined, and the surgical plan is finalized.',
-                     },
-                     { type: 'heading', value: '3. Surgery Day' },
-                     {
-                        type: 'paragraph',
-                        value: 'On the day of surgery, you should arrive at the clinic at 08:00 AM. Dr. Biçer will once again review all details with you and carefully design and draw your hairline. Hairline design is a critical step for achieving a natural appearance and long-term aesthetic success.',
+                        value: t('value101'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'According to the FUT technique, the hair is not shaved. Your hair will be washed with a disinfectant shampoo, and the hairline area will be prepared once more. You will be fully informed about each stage of the procedure.',
+                        value: t('value102'),
                      },
-                     { type: 'heading', value: '4. Donor Strip (Flap) Extraction' },
+                     { type: 'heading', value: t('value103') },
                      {
                         type: 'paragraph',
-                        value: 'Dr. Biçer measures donor area elasticity and scalp laxity, then marks the strip excision line. Needle-free local anesthesia is administered, and you remain awake and continuously monitored for safety.',
-                     },
-                     {
-                        type: 'paragraph',
-                        value: 'After anesthesia, Dr. Biçer performs the strip (flap) excision. Typically, 1,500–2,500 grafts are obtained from a single strip. The donor area is then closed using an aesthetic trichophytic suture. Meanwhile, the medical team carefully dissects the grafts into single, double, or multiple follicular units under a microscope.',
-                     },
-                     { type: 'heading', value: '5. Recipient Area Incisions' },
-                     {
-                        type: 'paragraph',
-                        value: 'In the third stage, Dr. Biçer creates the recipient incisions, determining the correct angle, direction, and density of the transplanted hair to ensure a natural result.',
-                     },
-                     { type: 'heading', value: '6. Graft Placement' },
-                     {
-                        type: 'paragraph',
-                        value: 'In the final stage, a specialized nursing team places the grafts into the recipient area. During this phase, Dr. Biçer remains present in the clinic, supervising the procedure.',
-                     },
-                     { type: 'heading', value: '7. Postoperative Follow-Up' },
-                     {
-                        type: 'paragraph',
-                        value: 'The day after surgery, you will return to the clinic for bandage removal and postoperative evaluation. New photographs are taken after Dr. Biçer confirms that healing is progressing normally.',
+                        value: t('value104'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'The aesthetic sutures placed in the donor area should be removed 15 days after surgery by a physician. If you are still in the country, this can be done at our clinic; otherwise, it can safely be removed in your home country.',
+                        value: t('value105'),
+                     },
+                     { type: 'heading', value: t('value106') },
+                     {
+                        type: 'paragraph',
+                        value: t('value107'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'Our care does not end after the procedure. Dr. Biçer and her medical team continue to follow your progress for at least one year, providing ongoing support and guidance throughout your recovery and hair growth journey.',
+                        value: t('value108'),
+                     },
+                     { type: 'heading', value: t('value109') },
+                     {
+                        type: 'paragraph',
+                        value: t('value110'),
+                     },
+                     { type: 'heading', value: t('value111') },
+                     {
+                        type: 'paragraph',
+                        value: t('value112'),
+                     },
+                     { type: 'heading', value: t('value113') },
+                     {
+                        type: 'paragraph',
+                        value: t('value114'),
+                     },
+                     {
+                        type: 'paragraph',
+                        value: t('value115'),
+                     },
+                     {
+                        type: 'paragraph',
+                        value: t('value116'),
                      },
                   ]}
                >

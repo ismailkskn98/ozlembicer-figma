@@ -5,8 +5,10 @@ import SectionWrapper from '../hairTransplant/common/sectionWrapper';
 import HowDoesItWork from '../hairTransplant/common/howDoesItWork';
 import EyebrownHero from './eyebrownHero';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 export default function EyebrownTransplant() {
+   const t = useTranslations('Content.transplantation.eyebrownTransplant');
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <EyebrownHero />
@@ -16,138 +18,135 @@ export default function EyebrownTransplant() {
                <SectionWrapper>
                   <HowDoesItWork
                      className="text-ivory-soft"
-                     title={['Why Do People Choose', 'Eyebrow Transplantation?']}
+                     title={[t('title1'), t('title2')]}
                      content={[
                         {
                            type: 'paragraph',
-                           value: 'Cosmetic solutions such as eyebrow pencils or powders only provide a temporary, two-dimensional appearance and require frequent reapplication. They cannot fully replicate the natural texture or direction of real eyebrow hair.',
+                           value: t('value1'),
                         },
                         {
                            type: 'paragraph',
-                           value: 'Eyebrow transplantation offers a permanent, three-dimensional solution, allowing men and women to achieve fuller, well-defined eyebrows that grow naturally.',
+                           value: t('value2'),
                         },
                      ]}
                   >
                      <main className="grid grid-cols-1 sm:grid-cols-2 w-full border-t border-ivory-soft/15 place-content-stretch place-items-stretch text-ivory-soft">
                         <article className="sm:border-r border-b border-ivory-soft/15 flex flex-col gap-9 py-5 sm:pr-4">
                            <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-                              {['Causes of', 'Eyebrow Hair Loss'].map((text, index) => (
+                              {t.raw('titleLines1').map((text, index) => (
                                  <span key={index}>{text}</span>
                               ))}
                            </h4>
                            <div className="w-full flex flex-col items-start gap-4 text-ivory-soft text-sm lg:text-base">
-                              <p>Eyebrow hair loss or thinning may be caused by:</p>
+                              <p>{t('paragraph1')}</p>
                               <ul className="list-disc list-outside pl-5">
-                                 <li>Genetic factors</li>
-                                 <li>Trichotillomania (a compulsive hair-pulling disorder)</li>
-                                 <li>Systemic or autoimmune diseases</li>
-                                 <li>Excessive or long-term plucking</li>
-                                 <li>Chemotherapy or radiation therapy</li>
-                                 <li>Skin injuries caused by burns, trauma, piercings, or tattoos</li>
+                                 <li>{t('listItem1')}</li>
+                                 <li>{t('listItem2')}</li>
+                                 <li>{t('listItem3')}</li>
+                                 <li>{t('listItem4')}</li>
+                                 <li>{t('listItem5')}</li>
+                                 <li>{t('listItem6')}</li>
                               </ul>
                               <p>
-                                 Some patients seek eyebrow transplantation to restore full, thick eyebrows, while others prefer subtle enhancement or scar coverage. Each treatment plan is
-                                 individualized.
+                                 {t('paragraph2')}
                               </p>
                            </div>
                         </article>
                         <article className="border-b border-ivory-soft/15 flex flex-col gap-9 py-5 sm:pl-4">
                            <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-                              {['Donor Hair for', 'Eyebrow Transplantation'].map((text, index) => (
+                              {t.raw('titleLines2').map((text, index) => (
                                  <span key={index}>{text}</span>
                               ))}
                            </h4>
                            <div className="w-full flex flex-col items-start gap-4 text-ivory-soft text-sm lg:text-base">
-                              <p>Donor hair is typically harvested from the scalp, as scalp hair follicles are genetically programmed for lifelong growth.</p>
-                              <p>Once transplanted, eyebrow hairs will continue to grow and usually require trimming approximately once per month, which is normal and expected.</p>
-                              <p>To achieve a natural appearance:</p>
+                              <p>{t('paragraph3')}</p>
+                              <p>{t('paragraph4')}</p>
+                              <p>{t('paragraph5')}</p>
                               <ul className="list-disc list-outside pl-5">
-                                 <li>Hair is implanted one by one</li>
-                                 <li>In some areas, hairs may be placed in one or two rows, mimicking natural eyebrow growth</li>
-                                 <li>Extremely fine incisions are used to allow precise placement</li>
+                                 <li>{t('listItem7')}</li>
+                                 <li>{t('listItem8')}</li>
+                                 <li>{t('listItem9')}</li>
                               </ul>
                            </div>
                         </article>
 
                         <article className="sm:border-r border-b border-ivory-soft/15 flex flex-col gap-9 py-5 sm:pr-4">
                            <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-                              {['Eyebrow Transplant', 'Techniques: FUE & FUT'].map((text, index) => (
+                              {t.raw('titleLines3').map((text, index) => (
                                  <span key={index}>{text}</span>
                               ))}
                            </h4>
                            <div className="w-full flex flex-col items-start gap-4 text-ivory-soft text-sm lg:text-base">
                               <p>
-                                 Eyebrow transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on patient
-                                 preferences, donor area characteristics, and surgical planning.
+                                 {t('paragraph6')}
                               </p>
                               <ul className="list-disc list-outside pl-5">
-                                 <li>FUE involves individual follicle extraction and is often preferred by patients who wish to avoid a linear scar</li>
-                                 <li>FUT involves harvesting a small donor strip and is more commonly used in women, as the scar is easily concealed by longer hair</li>
+                                 <li>{t('listItem10')}</li>
+                                 <li>{t('listItem11')}</li>
                               </ul>
-                              <p>All grafts are microscopically prepared to allow implantation into the smallest possible incisions.</p>
+                              <p>{t('paragraph7')}</p>
                            </div>
                         </article>
                         <article className="border-b border-ivory-soft/15 flex flex-col gap-9 py-5 sm:pl-4">
                            <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-                              {['Procedure &', 'Duration'].map((text, index) => (
+                              {t.raw('titleLines4').map((text, index) => (
                                  <span key={index}>{text}</span>
                               ))}
                            </h4>
                            <div className="w-full flex flex-col items-start gap-4 text-ivory-soft text-sm lg:text-base">
-                              <p>The eyebrow transplant procedure typically lasts 3 to 5 hours, depending on the number of grafts required and the desired eyebrow shape and density.</p>
-                              <p>Step-by-Step Overview:</p>
+                              <p>{t('paragraph8')}</p>
+                              <p>{t('paragraph9')}</p>
                               <ul className="list-disc list-outside pl-5">
-                                 <li>Healthy hair follicles are harvested from the donor area at the back of the scalp</li>
-                                 <li>Local anesthesia is administered before follicle harvesting and implantation</li>
-                                 <li>Grafts are carefully prepared under magnification</li>
-                                 <li>The desired eyebrow shape is drawn and confirmed with the patient</li>
-                                 <li>Hair follicles are implanted with meticulous attention to angle, direction, and depth</li>
+                                 <li>{t('listItem12')}</li>
+                                 <li>{t('listItem13')}</li>
+                                 <li>{t('listItem14')}</li>
+                                 <li>{t('listItem15')}</li>
+                                 <li>{t('listItem16')}</li>
                               </ul>
-                              <p>Once the donor incision is closed, it generally heals quickly and becomes barely noticeable within a few days.</p>
+                              <p>{t('paragraph10')}</p>
                            </div>
                         </article>
 
                         <article className="border-b sm:border-r border-ivory-soft/15 flex flex-col gap-9 py-5 sm:pr-4">
                            <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-                              {['Number of', 'Grafts Used'].map((text, index) => (
+                              {t.raw('titleLines5').map((text, index) => (
                                  <span key={index}>{text}</span>
                               ))}
                            </h4>
                            <div className="w-full flex flex-col items-start gap-4 text-ivory-soft text-sm lg:text-base">
-                              <p>At the Dr. Özlem Biçer Clinic:</p>
-                              <p>Approximately 250 to 750 hairs are transplanted per eyebrow, depending on:</p>
+                              <p>{t('paragraph11')}</p>
+                              <p>{t('paragraph12')}</p>
                               <ul className="list-disc list-outside pl-5">
-                                 <li>Existing eyebrow hair</li>
-                                 <li>Desired fullness</li>
-                                 <li>Facial anatomy</li>
-                                 <li>Scar coverage needs</li>
+                                 <li>{t('listItem17')}</li>
+                                 <li>{t('listItem18')}</li>
+                                 <li>{t('listItem19')}</li>
+                                 <li>{t('listItem20')}</li>
                               </ul>
-                              <p>The exact number of grafts is determined during the consultation.</p>
+                              <p>{t('paragraph13')}</p>
                            </div>
                         </article>
                         <article className="border-b border-ivory-soft/15 flex flex-col gap-9 py-5 sm:pl-4">
                            <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-                              {['Results', '& Permanence'].map((text, index) => (
+                              {t.raw('titleLines6').map((text, index) => (
                                  <span key={index}>{text}</span>
                               ))}
                            </h4>
                            <div className="w-full flex flex-col items-start gap-0.5 text-ivory-soft text-sm lg:text-base">
-                              <p>Eyebrow transplantation provides long-lasting and permanent results.</p>
+                              <p>{t('paragraph14')}</p>
                               <ul className="list-disc list-outside pl-5">
-                                 <li>Mild redness and swelling usually resolve within a few days</li>
-                                 <li>Transplanted hairs may shed temporarily in the first weeks</li>
-                                 <li>New growth typically begins after 3–4 months</li>
-                                 <li>Final results are usually visible within 9–12 months</li>
+                                 <li>{t('listItem21')}</li>
+                                 <li>{t('listItem22')}</li>
+                                 <li>{t('listItem23')}</li>
+                                 <li>{t('listItem24')}</li>
                               </ul>
-                              <p>Because eyebrow transplantation requires extreme precision, surgeon experience plays a critical role in achieving natural results.</p>
+                              <p>{t('paragraph15')}</p>
                            </div>
                         </article>
 
                         <section className="col-span-1 sm:col-span-2 w-full flex flex-col items-start gap-4 mt-6 text-sm lg:text-base">
-                           <h4 className="font-bold text-[20px]">Important Note for Patients</h4>
+                           <h4 className="font-bold text-[20px]">{t('heading1')}</h4>
                            <p>
-                              Eyebrow transplantation is a highly specialized procedure, and results may vary depending on individual healing capacity, hair characteristics, and medical
-                              history. A detailed consultation is essential to ensure realistic expectations and optimal outcomes.
+                              {t('paragraph16')}
                            </p>
                         </section>
                      </main>

@@ -2,8 +2,10 @@ import React from 'react';
 import MotionLeftView from '../../../common/motionLeftView';
 import Image from 'next/image';
 import MotionRightView from '../../../common/motionRightView';
+import { useTranslations } from 'next-intl';
 
 export default function HairMesotherapyHero() {
+   const t = useTranslations('Content.hairLoss.treatmentsOfHairLoss.hairMesotherapy.hairMesotherapyHero');
    return (
       <main className="relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-12 lg:pt-25 pb-50 overflow-hidden">
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0" />
@@ -11,31 +13,26 @@ export default function HairMesotherapyHero() {
             <MotionLeftView className="order-2 lg:order-1 w-full max-w-full lg:max-w-141">
                <article className="w-full flex flex-col items-start gap-6 lg:gap-7.5 text-ivory-soft">
                   <h1 className="text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-16 flex flex-col items-start">
-                     Hair <span className="font-bold">Mesotherapy</span>
+                     {t('heading1')} <span className="font-bold">{t('span1')}</span>
                   </h1>
                   <div className="w-full flex flex-col items-start gap-4">
                      <p className="text-sm sm:text-base">
-                        Mesotherapy is a technique in which microscopic amounts of drugs, vitamins, minerals and amino acids (Vasodilator and DHT Blockers) are administered to the upper and
-                        middle layers of the scalp skin to treat hair loss and increase the quality of existing hair by stimulating hair regeneration.
+                        {t('paragraph1')}
                      </p>
                      <p className="text-sm sm:text-base">
-                        This method has obtained special recognition in the field of aesthetic medicine as it is one of the most effective non-surgical techniques for treating the scalp. In
-                        fact, no cream or serum can deliver the biological active ingredients into the cells of the scalp and activate the hair metabolism as effectively as mesotherapy.
+                        {t('paragraph2')}
                      </p>
                      <p className="text-sm sm:text-base">
-                        The technique of micro injections with mesotherapy This technique consists in the administration of a mesotherapy cocktail by means of intra-dermal micro injections,
-                        placing the nutrients directly in the dermal tissues.
+                        {t('paragraph3')}
                      </p>
                      <p className="text-sm sm:text-base">
-                        The needle also creates micro perforations that induce the tissues involved in a healing process, which stimulates the scalp to produce collagen and elastin, two of
-                        the main building blocks of the skin.
+                        {t('paragraph4')}
                      </p>
                      <p className="text-sm sm:text-base">
-                        The procedure takes about 10 sessions of 15 minutes each to achieve the desired effects. What are the recovery times after the treatment? The treatment does not
-                        require any recovery time.
+                        {t('paragraph5')}
                      </p>
                      <p className="text-sm sm:text-base">
-                        Most people undergoing this treatment in fact immediately return to their normal activities after the procedure without any side effects.
+                        {t('paragraph6')}
                      </p>
                   </div>
                </article>
@@ -43,7 +40,7 @@ export default function HairMesotherapyHero() {
             <MotionRightView className="relative order-1 lg:order-2 w-full max-w-full lg:max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
                <Image
                   src="/images/hair-loss/hair-mesotherapy.jpg"
-                  alt="Dr. Özlem Bicer"
+                  alt={t('alt1')}
                   fill
                   unoptimized
                   className="object-cover object-center mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"

@@ -2,8 +2,10 @@ import React from 'react';
 import MotionLeftView from '../../../common/motionLeftView';
 import Image from 'next/image';
 import MotionRightView from '../../../common/motionRightView';
+import { useTranslations } from 'next-intl';
 
 export default function MaleHairLossHero() {
+   const t = useTranslations('Content.hairLoss.cousesOfHairLoss.maleHairLoss.maleHairLossHero');
    return (
       <main className="relative fluid gridContainer w-full bg-radial from-coffee-dark to-wine-brown pt-12 lg:pt-25 pb-50 overflow-hidden">
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-0.5 bg-gold z-0" />
@@ -11,33 +13,31 @@ export default function MaleHairLossHero() {
             <MotionLeftView className="order-2 lg:order-1 w-full max-w-full lg:max-w-141">
                <article className="w-full flex flex-col items-start gap-6 lg:gap-7.5 text-ivory-soft">
                   <h1 className="text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-16 flex flex-col items-start">
-                     Male <span className="font-bold">Hair Loss</span>
+                     {t('heading1')} <span className="font-bold">{t('span1')}</span>
                   </h1>
                   <p className="text-sm sm:text-base">
-                     Hair loss in men is a very common condition and can have many different causes. Before starting any treatment, it is essential to determine the underlying reason for the
-                     hair loss so that the most appropriate and effective solution can be chosen.
+                     {t('paragraph1')}
                   </p>
                   <p className="text-sm sm:text-base">
-                     For example, if a patient has a hormonal disorder such as hyperthyroidism, this medical condition should be treated first. In other cases, vitamin or mineral
-                     deficiencies may contribute to hair loss and can be managed with proper supplementation.
+                     {t('paragraph2')}
                   </p>
-                  <p className="text-sm sm:text-base">There are several medical and supportive treatments for male hair loss, including:</p>
+                  <p className="text-sm sm:text-base">{t('paragraph3')}</p>
                   <ul className="list-disc list-inside pl-3 text-sm sm:text-base">
-                     <li>PRP (Platelet-Rich Plasma) therapy</li>
-                     <li>Mesotherapy</li>
-                     <li>Medications such as topical minoxidil or oral finasteride</li>
-                     <li>Nutritional and hormonal support</li>
-                     <li>Stamp Cell Therapies</li>
-                     <li>Exosome</li>
+                     <li>{t('listItem1')}</li>
+                     <li>{t('listItem2')}</li>
+                     <li>{t('listItem3')}</li>
+                     <li>{t('listItem4')}</li>
+                     <li>{t('listItem5')}</li>
+                     <li>{t('listItem6')}</li>
                   </ul>
-                  <p className="text-sm sm:text-base">However, it is important to understand that:</p>
-                  <p className="text-sm sm:text-base">Hair transplantation does not stop or cure hair loss. It is a reconstructive procedure performed only when hair loss has stabilized.</p>
+                  <p className="text-sm sm:text-base">{t('paragraph4')}</p>
+                  <p className="text-sm sm:text-base">{t('paragraph5')}</p>
                </article>
             </MotionLeftView>
             <MotionRightView className="relative order-1 lg:order-2 w-full max-w-full lg:max-w-140.5 h-100 sm:h-130 md:h-150 lg:h-197.5">
                <Image
                   src="/images/male-hair-hero.jpg"
-                  alt="Dr. Özlem Bicer"
+                  alt={t('alt1')}
                   fill
                   unoptimized
                   className="object-cover object-center mx-auto w-full max-w-full lg:max-w-135 2xl:max-w-140.5 rounded-2xl lg:rounded-4xl"

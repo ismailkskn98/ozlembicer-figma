@@ -12,123 +12,94 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/grid';
 import { DialogDescription, DialogTitle } from '@radix-ui/react-dialog';
+import { useTranslations } from 'next-intl';
 
 const localCarouselItems = [
    {
       beforeImage: '/images/patient-results/dA8T22ACZUQ-before.png',
       afterImage: '/images/patient-results/dA8T22ACZUQ-after.png',
       videoId: 'dA8T22ACZUQ',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/DOSoDn9jTik-before.png',
       afterImage: '/images/patient-results/DOSoDn9jTik-after.png',
       videoId: 'DOSoDn9jTik',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/eJfmg7s300I-before.png',
       afterImage: '/images/patient-results/eJfmg7s300I-after.png',
       videoId: 'eJfmg7s300I',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/XfbQBWUzApg-before.png',
       afterImage: '/images/patient-results/XfbQBWUzApg-after.png',
       videoId: 'XfbQBWUzApg',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/YPsYtiYt4pU-before.png',
       afterImage: '/images/patient-results/YPsYtiYt4pU-after.png',
       videoId: 'YPsYtiYt4pU',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/VHkHD-hfHJw-before.png',
       afterImage: '/images/patient-results/VHkHD-hfHJw-after.png',
       videoId: 'VHkHD-hfHJw',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/sHLV0jLvKVs-before.png',
       afterImage: '/images/patient-results/sHLV0jLvKVs-after.png',
       videoId: 'sHLV0jLvKVs',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/WB0I5IlAqjg-before.png',
       afterImage: '/images/patient-results/WB0I5IlAqjg-after.png',
       videoId: 'WB0I5IlAqjg',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/twv7tvc9kLk-before.png',
       afterImage: '/images/patient-results/twv7tvc9kLk-after.png',
       videoId: 'twv7tvc9kLk',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/flJH-2Ubx6w-before.png',
       afterImage: '/images/patient-results/flJH-2Ubx6w-after.png',
       videoId: 'flJH-2Ubx6w',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/ruQQ42ZlJVc-before.png',
       afterImage: '/images/patient-results/ruQQ42ZlJVc-after.png',
       videoId: 'ruQQ42ZlJVc',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
    {
       beforeImage: '/images/patient-results/_ZO8FfnygbM-before.png',
       afterImage: '/images/patient-results/_ZO8FfnygbM-after.png',
       videoId: '_ZO8FfnygbM',
-      technique1: 'FUE',
-      technique2: '(Micro Motor)',
       grafts: '3.200',
-      afterMonths: '12 Months',
    },
 ];
 
 export default function PatientResultCarousel({ carouselItems = [], showNavigation = true, delay = 4000, slidesPerView = 3, rows = 1 }) {
+   const t = useTranslations('PatientResults');
    const id = useId();
    const prevId = `patient-prev-${id}`;
    const nextId = `patient-next-${id}`;
-   const defaultCarouselItems = carouselItems.length > 0 ? carouselItems : localCarouselItems;
+   const defaultCarouselItems = (carouselItems.length > 0 ? carouselItems : localCarouselItems).map((item) => ({
+      ...item,
+      technique1: item.technique1 ?? t('fue'),
+      technique2: item.technique2 ?? t('microMotor'),
+      afterMonths: item.afterMonths ?? t('months', { count: 12 }),
+   }));
    const [selectedItem, setSelectedItem] = useState(null);
    const [selectedIndex, setSelectedIndex] = useState(null);
 
@@ -219,7 +190,7 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
                               <div className="relative w-full aspect-274/240 rounded-[5px] overflow-hidden bg-black">
                                  <iframe
                                     src={`https://www.youtube-nocookie.com/embed/${selectedItem.videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1`}
-                                    title="Patient result video"
+                                    title={t('videoTitle')}
                                     allow="autoplay; fullscreen; picture-in-picture"
                                     allowFullScreen
                                     className="absolute inset-0 w-full h-full border-0"
@@ -227,8 +198,8 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
                               </div>
                               <article className="w-full grid grid-cols-3 place-content-stretch justify-items-stretch bg-coffee-dark text-ivory-soft rounded-[5px] px-4 py-3 min-h-96px">
                                  <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                                    <h5 className="font-bold text-sm md:text-base">TECHNIQUE</h5>
-                                    <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className="h-fit object-contain object-center w-16" />
+                                    <h5 className="font-bold text-sm md:text-base">{t('technique')}</h5>
+                                    <Image src="/images/heroCard-line.webp" alt={t('lineAlt')} width={60} height={5} className="h-fit object-contain object-center w-16" />
                                     <p className="text-xs md:text-sm">
                                        {selectedItem.technique1}
                                        <br />
@@ -236,13 +207,13 @@ export default function PatientResultCarousel({ carouselItems = [], showNavigati
                                     </p>
                                  </div>
                                  <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                                    <h5 className="font-bold text-sm md:text-base">GRAFTS</h5>
-                                    <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className="h-fit object-contain object-center w-16" />
+                                    <h5 className="font-bold text-sm md:text-base">{t('grafts')}</h5>
+                                    <Image src="/images/heroCard-line.webp" alt={t('lineAlt')} width={60} height={5} className="h-fit object-contain object-center w-16" />
                                     <p className="text-xs md:text-sm">{selectedItem.grafts}</p>
                                  </div>
                                  <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                                    <h5 className="font-bold text-sm md:text-base">AFTER</h5>
-                                    <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className="h-fit object-contain object-center w-16" />
+                                    <h5 className="font-bold text-sm md:text-base">{t('after')}</h5>
+                                    <Image src="/images/heroCard-line.webp" alt={t('lineAlt')} width={60} height={5} className="h-fit object-contain object-center w-16" />
                                     <p className="text-xs md:text-sm">{selectedItem.afterMonths}</p>
                                  </div>
                               </article>

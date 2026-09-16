@@ -1,115 +1,115 @@
 import Image from 'next/image';
 import React from 'react';
+import { useTranslations } from 'next-intl';
 
 export default function HowDoesItWorkBodyHair() {
+   const t = useTranslations('Content.transplantation.hairTransplant.bodyHair.howDoesItWorkBodyHair');
    return (
       <main className="grid grid-cols-1 sm:grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark">
          <article className="sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Who Is a Suitable', 'Candidate for BHT?'].map((text, index) => (
+               {t.raw('titleLines1').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Body Hair Transplantation is usually considered for patients who:</p>
+               <p>{t('paragraph1')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Have a weak or insufficient scalp donor area</li>
-                  <li>Have had multiple previous hair transplants</li>
-                  <li>Have certain forms of alopecia or scarring hair loss</li>
+                  <li>{t('listItem1')}</li>
+                  <li>{t('listItem2')}</li>
+                  <li>{t('listItem3')}</li>
                </ul>
                <p>
-                  However, it is important to understand that if both scalp and body donor hair quality is weak, the final outcome may be limited.Patients with insufficient donor hair overall may not
-                  be suitable candidates for any form of hair transplantation.
+                  {t('paragraph2')}
                </p>
             </div>
          </article>
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Differences Between', 'BHT-FUE and Conventional FUE'].map((text, index) => (
+               {t.raw('titleLines2').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Both conventional FUE and BHT use the Follicular Unit Extraction (FUE) technique, meaning hair follicles are harvested one by one, without removing a strip of skin.</p>
-               <p>Key differences include:</p>
+               <p>{t('paragraph3')}</p>
+               <p>{t('paragraph4')}</p>
                <ul className="list-disc list-outside pl-5">
                   <li>
-                     <span>Conventional FUE:</span>
+                     <span>{t('span1')}</span>
                      <ul className="list-disc list-inside pl-5">
-                        <li>Donor hair is taken exclusively from the scalp</li>
-                        <li>Hair characteristics closely match recipient scalp hair</li>
+                        <li>{t('listItem4')}</li>
+                        <li>{t('listItem5')}</li>
                      </ul>
                   </li>
                   <li>
-                     <span>BHT-FUE:</span>
+                     <span>{t('span2')}</span>
                      <ul className="list-disc list-inside pl-5">
-                        <li>Donor hair is harvested from body areas such as the beard or chest</li>
-                        <li>Used when scalp donor hair is insufficient</li>
-                        <li>Body hair has different growth cycles and texture compared to scalp hair</li>
+                        <li>{t('listItem6')}</li>
+                        <li>{t('listItem7')}</li>
+                        <li>{t('listItem8')}</li>
                      </ul>
                   </li>
                </ul>
                <p>
-                  BHT grafts may grow at different rates and may not achieve the same length as scalp hair, which is why they are often used strategically—for example, to increase density rather than
-                  create the hairline.
+                  {t('paragraph5')}
                </p>
             </div>
          </article>
          <article className="sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['How Is Body Hair', 'Transplantation Performed?'].map((text, index) => (
+               {t.raw('titleLines3').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Body hair transplantation is usually performed using the FUE technique, which avoids linear scarring.</p>
-               <p>The process includes:</p>
+               <p>{t('paragraph6')}</p>
+               <p>{t('paragraph7')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Careful selection of suitable body donor areas</li>
-                  <li>Extraction of follicular units using micro punches</li>
-                  <li>Proper hydration and storage of grafts</li>
-                  <li>Strategic implantation into the scalp to ensure natural blending</li>
+                  <li>{t('listItem9')}</li>
+                  <li>{t('listItem10')}</li>
+                  <li>{t('listItem11')}</li>
+                  <li>{t('listItem12')}</li>
                </ul>
-               <p>If all physiological and medical requirements are met, body hair follicles can be successfully transferred to the scalp.</p>
+               <p>{t('paragraph8')}</p>
             </div>
          </article>
 
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Important Considerations', 'About BHT'].map((text, index) => (
+               {t.raw('titleLines4').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Body Hair Transplantation requires high surgical expertise due to the unique characteristics of body hair.</p>
-               <p>Key factors for success include:</p>
+               <p>{t('paragraph9')}</p>
+               <p>{t('paragraph10')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Surgeon experience, as body hair differs significantly from scalp hair</li>
-                  <li>Team expertise, especially in handling varying hair directions and textures</li>
-                  <li>Proper extraction, storage, and hydration of body hair grafts</li>
-                  <li>Precise creation of recipient sites to control angle and direction</li>
-                  <li>Minimal follicle transection rate (FTR) to protect graft survival</li>
-                  <li>Careful mixing of body hair with scalp hair for a natural appearance</li>
+                  <li>{t('listItem13')}</li>
+                  <li>{t('listItem14')}</li>
+                  <li>{t('listItem15')}</li>
+                  <li>{t('listItem16')}</li>
+                  <li>{t('listItem17')}</li>
+                  <li>{t('listItem18')}</li>
                </ul>
-               <p>Because body hair behaves differently from scalp hair, BHT should always be performed conservatively and selectively.</p>
+               <p>{t('paragraph11')}</p>
             </div>
          </article>
 
          <article className="sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Is Body Hair', 'Transplant Permanent?'].map((text, index) => (
+               {t.raw('titleLines5').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Body hair follicles retain many of their original growth characteristics after transplantation.</p>
-               <p>This means:</p>
+               <p>{t('paragraph12')}</p>
+               <p>{t('paragraph13')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Growth cycles may differ from scalp hair</li>
-                  <li>Hair length and texture may not fully match scalp hair</li>
-                  <li>Results can be permanent, but growth behavior may vary between patients</li>
+                  <li>{t('listItem19')}</li>
+                  <li>{t('listItem20')}</li>
+                  <li>{t('listItem21')}</li>
                </ul>
-               <p>For this reason, BHT is most effective when used as a complementary technique rather than a standalone solution</p>
+               <p>{t('paragraph14')}</p>
             </div>
          </article>
       </main>

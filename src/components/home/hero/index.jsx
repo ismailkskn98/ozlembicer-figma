@@ -8,65 +8,67 @@ import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { cn } from '@/lib/utils';
+import { useTranslations } from 'next-intl';
 
-const heroSlideItems = [
+const heroSlideConfig = [
    {
-      title: ['Your', 'Expectations Are', 'Our Priority'],
-      mobileTitle: ['Your', 'Expectations Are', 'Our Priority'],
-      description:
-         'According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.',
+      id: 'priority',
       imageSrc: '/images/hero-carousel/hero-1.png',
-      imageAlt: 'hero ozlem bicer',
       links: [
          {
             href: '/hair-transplant',
-            text: 'Read More About Hair Transplant',
+            textKey: 'primaryLink',
          },
          {
             href: '/contact-us',
-            text: 'Book an Appointment',
+            textKey: 'appointmentLink',
          },
       ],
    },
    {
-      title: ['An Experienced', 'Doctor And', 'Medical Team'],
-      mobileTitle: ['An Experienced', 'Doctor And', 'Medical Team'],
-      description:
-         'According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.',
+      id: 'team',
       imageSrc: '/images/hero-carousel/hero-2.png',
-      imageAlt: 'hero ozlem bicer team',
       links: [
          {
             href: '/about-us/clinic-team',
-            text: 'Read More About Clinic & Team',
+            textKey: 'primaryLink',
          },
          {
             href: '/contact-us',
-            text: 'Book an Appointment',
+            textKey: 'appointmentLink',
          },
       ],
    },
    {
-      title: ['Internationally', 'Acclaimed', 'Faculty Member'],
-      mobileTitle: ['Internationally', 'Acclaimed', 'Faculty Member'],
-      description:
-         'According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.',
+      id: 'faculty',
       imageSrc: '/images/hero-carousel/hero-3-dene.png',
-      imageAlt: 'hero ozlem bicer 2',
       links: [
          {
             href: '/about-us/dr-ozlem-bicer',
-            text: 'Read More About Dr. Ozlem Bicer',
+            textKey: 'primaryLink',
          },
          {
             href: '/contact-us',
-            text: 'Book an Appointment',
+            textKey: 'appointmentLink',
          },
       ],
    },
 ];
 
 export default function Hero() {
+   const t = useTranslations('HomePage.hero');
+   const heroSlideItems = heroSlideConfig.map((slide) => ({
+      ...slide,
+      title: [1, 2, 3].map((line) => t(`slides.${slide.id}.desktopTitle.line${line}`)),
+      mobileTitle: [1, 2, 3].map((line) => t(`slides.${slide.id}.mobileTitle.line${line}`)),
+      description: t(`slides.${slide.id}.description`),
+      imageAlt: t(`slides.${slide.id}.imageAlt`),
+      links: slide.links.map((link) => ({
+         ...link,
+         text: t(`slides.${slide.id}.${link.textKey}`),
+      })),
+   }));
+
    return (
       <section className="relative fluid gridContainer bg-radial to-wine-brown from-20% from-coffee-dark pt-12 sm:pt-12 lg:pt-16 xl:pt-25 pb-52 md:pb-40 xl:pb-50">
          <div className="w-full fluid absolute inset-x-0 bottom-0 h-px bg-gold z-0" />
@@ -77,7 +79,7 @@ export default function Hero() {
                slidesPerView={1}
                loop={true}
                autoplay={{
-                  delay: 5000,
+                  delay: 50000,
                   disableOnInteraction: false,
                }}
             >

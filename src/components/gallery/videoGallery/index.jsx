@@ -4,61 +4,131 @@ import CustomBreadCrumb from '@/components/common/customBreadCrumb';
 // import HeroLogoCarousel from '@/components/common/logoCarousel'; // Logo carousel – hazır, henüz kullanılmıyor
 import VideoGallerySection from './videoGallerySection';
 import HowToAppointment from '@/components/common/howToAppointment';
+import { useTranslations } from 'next-intl';
 
-const linksItems = [
-   { label: 'Informative Videos', href: '/gallery#informative-videos' },
-   { label: 'Patient Reviews', href: '/gallery#patient-reviews' },
-   { label: 'Interviews with Dr. Bicer', href: '/gallery#interviews' },
+const linksItemConfig = [
+   {
+      "href": "/gallery#informative-videos"
+   },
+   {
+      "href": "/gallery#patient-reviews"
+   },
+   {
+      "href": "/gallery#interviews"
+   }
 ];
 
 // ─── Video Data ───────────────────────────────────────────────────────────────
 // Her video için: { videoId: 'YOUTUBE_ID', title: 'Başlık' }
 // thumbnail isteğe bağlı; verilmezse YouTube'dan otomatik alınır
 
-const informativeVideos = [{ videoId: '7W5NbnGj1Kk', title: 'Is There a Best Hair Transplant Technique? FUE vs FUT Explained by Dr. Özlem Biçer' }];
-
-const patientReviewVideos = [
-   { videoId: 'jex7fml6vk4', title: 'Patient Review - 001' },
-   { videoId: 's2CCNSOGiNs', title: 'Patient Review - 002' },
-   { videoId: 'HYrl6Nrhr8o', title: 'Patient Review - 003' },
-   { videoId: 'hjLIRke806s', title: 'Patient Review - 004' },
-   { videoId: 'HFb9qo_x8B8', title: 'Patient Review - 005' },
-   { videoId: 'eQoOm8QJHJ4', title: 'Patient Review - 006' },
-   { videoId: 'RcjaAvfbTao', title: 'Patient Review - 007' },
-   { videoId: 'RE5fwBTyf3o', title: 'Patient Review - 008' },
-   { videoId: 'TxJprd8-fGw', title: 'Patient Review - 009' },
-   { videoId: 'bpcIgjqSuSo', title: 'Patient Review - 010' },
-   { videoId: '5EkjXK5rr4o', title: 'Patient Review - 011' },
-   { videoId: 'c2fG_l053KQ', title: 'Patient Review - 012' },
-   { videoId: '_BVbowfjfng', title: 'Patient Review - 013' },
-   { videoId: 'LJxYAQZlosc', title: 'Patient Review - 014' },
-   { videoId: 'CfAbvOSWmu0', title: 'Patient Review - 015' },
-   { videoId: 'mDYd8785-4U', title: 'Patient Review - 016' },
-   { videoId: 'r1xjdb79XgU', title: 'Patient Review - 017' },
-   { videoId: 'Te4mZp35DI4', title: 'Patient Review - 018' },
-   { videoId: 'xZoQAuUvNBg', title: 'Patient Review - 035' },
+const informativeVideosConfig = [
+   {
+      "videoId": "7W5NbnGj1Kk"
+   }
 ];
 
-const interviewVideos = [
-   { videoId: 'mFw-JO60E5Q', title: 'I want to talk about the successful hair restaration.' },
-   { videoId: 'cuofVq0bqNQ', title: 'Dr Özlem Biçer an experienced hair transplant surgeon in Istanbul' },
-   { videoId: 'NXlBPho9wsc', title: 'The Bald Truth: Get Your Questions Answered About Hair Loss & Hair Transplants' },
-   { videoId: 'y_pSSZ0IHUc', title: 'Interview with Hair Transplant Network' },
-   { videoId: 'JvnZG2mp4O0', title: 'Balld and Truth Patient Review' },
-   { videoId: 'SttInH-uu1s', title: 'Bellicapelli Forum' },
+const patientReviewVideosConfig = [
+   {
+      "videoId": "jex7fml6vk4"
+   },
+   {
+      "videoId": "s2CCNSOGiNs"
+   },
+   {
+      "videoId": "HYrl6Nrhr8o"
+   },
+   {
+      "videoId": "hjLIRke806s"
+   },
+   {
+      "videoId": "HFb9qo_x8B8"
+   },
+   {
+      "videoId": "eQoOm8QJHJ4"
+   },
+   {
+      "videoId": "RcjaAvfbTao"
+   },
+   {
+      "videoId": "RE5fwBTyf3o"
+   },
+   {
+      "videoId": "TxJprd8-fGw"
+   },
+   {
+      "videoId": "bpcIgjqSuSo"
+   },
+   {
+      "videoId": "5EkjXK5rr4o"
+   },
+   {
+      "videoId": "c2fG_l053KQ"
+   },
+   {
+      "videoId": "_BVbowfjfng"
+   },
+   {
+      "videoId": "LJxYAQZlosc"
+   },
+   {
+      "videoId": "CfAbvOSWmu0"
+   },
+   {
+      "videoId": "mDYd8785-4U"
+   },
+   {
+      "videoId": "r1xjdb79XgU"
+   },
+   {
+      "videoId": "Te4mZp35DI4"
+   },
+   {
+      "videoId": "xZoQAuUvNBg"
+   }
+];
+
+const interviewVideosConfig = [
+   {
+      "videoId": "mFw-JO60E5Q"
+   },
+   {
+      "videoId": "cuofVq0bqNQ"
+   },
+   {
+      "videoId": "NXlBPho9wsc"
+   },
+   {
+      "videoId": "y_pSSZ0IHUc"
+   },
+   {
+      "videoId": "JvnZG2mp4O0"
+   },
+   {
+      "videoId": "SttInH-uu1s"
+   }
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function VideoGalleryMain() {
+   const t = useTranslations('Content.gallery.videoGallery');
+   const informativeVideosTitles = t.raw('informativeVideos');
+   const informativeVideos = informativeVideosConfig.map((item, index) => ({ ...item, title: informativeVideosTitles[index] }));
+   const patientReviewVideosTitles = t.raw('patientReviewVideos');
+   const patientReviewVideos = patientReviewVideosConfig.map((item, index) => ({ ...item, title: patientReviewVideosTitles[index] }));
+   const interviewVideosTitles = t.raw('interviewVideos');
+   const interviewVideos = interviewVideosConfig.map((item, index) => ({ ...item, title: interviewVideosTitles[index] }));
+   const linkLabels = t.raw('links');
+   const linksItems = linksItemConfig.map((item, index) => ({ ...item, label: linkLabels[index] }));
    return (
       <>
          <CustomBreadCrumb links={linksItems} isButton={true} />
          {/* <GalleryHero /> */}
          {/* <HeroLogoCarousel /> */}
          <main className="relative fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft via-90% to-stone-beige">
-            <VideoGallerySection id="informative-videos" title="Informative Videos" videos={informativeVideos} iconSrc="/images/gallery/Informative-Videos.svg" />
-            <VideoGallerySection id="patient-reviews" title="Patient Reviews" videos={patientReviewVideos} iconSrc="/images/gallery/Patient-Reviews.svg" />
-            <VideoGallerySection id="interviews" title="Interviews with Dr. Bicer" videos={interviewVideos} iconSrc="/images/gallery/Interviews-with-Dr-Bicer.svg" />
+            <VideoGallerySection id="informative-videos" title={t('title1')} videos={informativeVideos} iconSrc="/images/gallery/Informative-Videos.svg" />
+            <VideoGallerySection id="patient-reviews" title={t('title2')} videos={patientReviewVideos} iconSrc="/images/gallery/Patient-Reviews.svg" />
+            <VideoGallerySection id="interviews" title={t('title3')} videos={interviewVideos} iconSrc="/images/gallery/Interviews-with-Dr-Bicer.svg" />
             <HowToAppointment className="pt-0 pb-15" />
          </main>
       </>

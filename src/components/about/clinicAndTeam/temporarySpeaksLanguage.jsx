@@ -7,76 +7,33 @@ import React, { useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import Pageh3Title from '@/components/common/pageh3Title';
 
-const modalMessages = {
-   en: {
-      title: 'Change Language',
-      description: (lang) => `Would you like to switch to ${lang}?`,
-      confirm: 'Yes, switch',
-      cancel: 'Cancel',
-   },
-   de: {
-      title: 'Sprache wechseln',
-      description: (lang) => `Möchten Sie zu ${lang} wechseln?`,
-      confirm: 'Ja, wechseln',
-      cancel: 'Abbrechen',
-   },
-   fr: {
-      title: 'Changer de langue',
-      description: (lang) => `Souhaitez-vous passer en ${lang} ?`,
-      confirm: 'Oui, changer',
-      cancel: 'Annuler',
-   },
-   it: {
-      title: 'Cambia lingua',
-      description: (lang) => `Vuoi passare a ${lang}?`,
-      confirm: 'Sì, cambia',
-      cancel: 'Annulla',
-   },
-};
-
-const comingSoonMessages = {
-   en: {
-      title: 'Coming Soon',
-      message: 'This section is under construction. Thank you for your understanding.',
-   },
-   de: {
-      title: 'Demnächst verfügbar',
-      message: 'Dieser Bereich befindet sich im Aufbau. Vielen Dank für Ihr Verständnis.',
-   },
-   fr: {
-      title: 'Prochainement disponible',
-      message: 'Cette section est en construction. Merci de votre compréhension.',
-   },
-   it: {
-      title: 'Prossimamente disponibile',
-      message: 'Questa sezione è in costruzione. Grazie per la vostra comprensione.',
-   },
-};
-
-const localeMap = {
-   English: 'en',
-   Italiano: 'it',
-   Français: 'fr',
-   Deutsch: 'de',
-};
+const languageConfig = [
+   { locale: 'en', flag: '/images/about/united-states.png' },
+   { locale: 'it', flag: '/images/about/italy.png' },
+   { locale: 'fr', flag: '/images/about/franc.png' },
+   { locale: 'de', flag: '/images/about/germany.png' },
+];
 
 export default function TemporarySpeaksLanguage() {
    const t = useTranslations('SpeaksLanguage');
+   const tCommon = useTranslations('Common');
+   const tTemporary = useTranslations('TemporaryLanguage');
    const locale = useLocale();
+   const modalMessages = tTemporary.raw('modalMessages');
+   const comingSoonMessages = tTemporary.raw('comingSoonMessages');
 
    const [confirmOpen, setConfirmOpen] = useState(false);
    const [comingSoonOpen, setComingSoonOpen] = useState(false);
    const [pendingLang, setPendingLang] = useState(null);
 
-   const languages = [
-      { flag: '/images/about/united-states.png', name: 'English', alt: 'English Support' },
-      { flag: '/images/about/italy.png', name: 'Italiano', alt: 'Italian Support' },
-      { flag: '/images/about/franc.png', name: 'Français', alt: 'French Support' },
-      { flag: '/images/about/germany.png', name: 'Deutsch', alt: 'German Support' },
-   ];
+   const languages = languageConfig.map((language) => ({
+      ...language,
+      name: tCommon(`languages.${language.locale}.name`),
+      alt: tCommon(`languages.${language.locale}.supportAlt`),
+   }));
 
    const handleCardClick = (lang) => {
-      const targetLocale = localeMap[lang.name];
+      const targetLocale = lang.locale;
       if (!targetLocale || targetLocale === locale) return;
       setPendingLang({ name: lang.name, locale: targetLocale });
       setConfirmOpen(true);
@@ -115,7 +72,7 @@ export default function TemporarySpeaksLanguage() {
                   childClassname="group"
                >
                   {languages.map((lang, index) => {
-                     const isActive = localeMap[lang.name] === locale;
+                     const isActive = lang.locale === locale;
                      return (
                         <div
                            key={index}
@@ -152,7 +109,7 @@ export default function TemporarySpeaksLanguage() {
                      {modalMessages[pendingLang?.locale ?? locale]?.title}
                   </DialogTitle>
                   <DialogDescription className="text-ivory-soft/80 text-sm pt-2">
-                     {modalMessages[pendingLang?.locale ?? locale]?.description(pendingLang?.name ?? '')}
+                     {modalMessages[pendingLang?.locale ?? locale]?.description.replace('{language}', pendingLang?.name ?? '')}
                   </DialogDescription>
                </DialogHeader>
                <div className="flex justify-end gap-3 pt-4">
@@ -187,7 +144,7 @@ export default function TemporarySpeaksLanguage() {
                      onClick={handleComingSoonClose}
                      className="px-5 py-1.5 bg-ivory-soft hover:bg-ivory-soft/80 text-coffee-dark rounded-sm transition-colors duration-200 cursor-pointer text-sm"
                   >
-                     OK
+                     {tTemporary('ok')}
                   </button>
                </div>
             </DialogContent>

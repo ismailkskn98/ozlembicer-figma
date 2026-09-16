@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import { Play } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export default function PatientResultCard({ item, index, large = false }) {
+   const t = useTranslations('PatientResults');
    return (
       <section
          className={`bg-linear-to-b from-stone-beige to-ivory-soft
@@ -12,12 +14,12 @@ export default function PatientResultCard({ item, index, large = false }) {
          <div className={`w-full h-full flex flex-col items-center justify-between rounded-[10px] ${large ? 'gap-4 md:gap-6' : 'gap-2 sm:gap-3.5 xl:gap-5'}`}>
             <div className={`relative w-full flex items-center gap-1.25 ${large ? 'aspect-auto' : 'aspect-7/6'}`}>
                <div className="relative w-full aspect-137/240 rounded-[5px] overflow-hidden">
-                  <Image src={item.beforeImage} alt={`Patient before ${index + 1}`} fill className="w-full h-full object-cover object-center rounded-[5px]" />
+                  <Image src={item.beforeImage} alt={t('beforeAlt', { number: index + 1 })} fill className="w-full h-full object-cover object-center rounded-[5px]" />
                </div>
                <div className="relative w-full aspect-137/240 rounded-[5px] overflow-hidden">
                   <Image
                      src={item.afterImage}
-                     alt={`Patient after ${index + 1}`}
+                     alt={t('afterAlt', { number: index + 1 })}
                      fill
                      sizes="(max-width: 640px) 150px, (max-width: 900px) 200px, 250px"
                      className="w-full h-full object-cover object-center rounded-[5px]"
@@ -40,8 +42,8 @@ export default function PatientResultCard({ item, index, large = false }) {
                `}
             >
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(8px,0.5vw,10px)]'}`}>TECHNIQUE</h5>
-                  <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
+                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(8px,0.5vw,10px)]'}`}>{t('technique')}</h5>
+                  <Image src="/images/heroCard-line.webp" alt={t('lineAlt')} width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
                   <p className={large ? 'text-xs md:text-sm' : 'text-[clamp(9px,1vw,10px)]'}>
                      {item.technique1}
                      <br />
@@ -50,7 +52,7 @@ export default function PatientResultCard({ item, index, large = false }) {
                   {!large && (
                      <Image
                         src="/images/heroCard-line.webp"
-                        alt="line"
+                        alt={t('lineAlt')}
                         width={50}
                         height={5}
                         className="absolute top-1/2 -translate-y-1/2 left-full -translate-x-1/2 -rotate-90 object-contain object-center w-10.5 h-4"
@@ -59,13 +61,13 @@ export default function PatientResultCard({ item, index, large = false }) {
                </div>
 
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(9px,1vw,10px)]'}`}>GRAFTS</h5>
-                  <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
+                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(9px,1vw,10px)]'}`}>{t('grafts')}</h5>
+                  <Image src="/images/heroCard-line.webp" alt={t('lineAlt')} width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
                   <p className={large ? 'text-xs md:text-sm' : 'text-[clamp(9px,1vw,10px)]'}>{item.grafts}</p>
                   {!large && (
                      <Image
                         src="/images/heroCard-line.webp"
-                        alt="line"
+                        alt={t('lineAlt')}
                         width={50}
                         height={5}
                         className="absolute top-1/2 -translate-y-1/2 left-full -translate-x-1/2 -rotate-90 object-contain object-center w-10.5 h-4"
@@ -74,8 +76,8 @@ export default function PatientResultCard({ item, index, large = false }) {
                </div>
 
                <div className="relative flex flex-col items-center justify-center text-center gap-px">
-                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(8px,2vw,10px)]'}`}>AFTER</h5>
-                  <Image src="/images/heroCard-line.webp" alt="line" width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
+                  <h5 className={`font-bold ${large ? 'text-sm md:text-base' : 'text-[clamp(8px,2vw,10px)]'}`}>{t('after')}</h5>
+                  <Image src="/images/heroCard-line.webp" alt={t('lineAlt')} width={60} height={5} className={`h-fit object-contain object-center ${large ? 'w-16' : 'w-12.75'}`} />
                   <p className={large ? 'text-xs md:text-sm' : 'text-[clamp(9px,1vw,10px)]'}>{item.afterMonths}</p>
                </div>
             </article>

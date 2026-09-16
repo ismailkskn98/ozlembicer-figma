@@ -2,36 +2,13 @@
 import React, { useState } from 'react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import { useLocale } from 'next-intl';
-
-const languageMap = {
-   en: { full: 'English', short: 'ENG' },
-   de: { full: 'Deutsch', short: 'DEUT' },
-   fr: { full: 'Français', short: 'FRAN' },
-   it: { full: 'Italiano', short: 'ITAL' },
-};
-
-const comingSoonMessages = {
-   en: {
-      title: 'Coming Soon',
-      message: 'This section is under construction. Thank you for your understanding.',
-   },
-   de: {
-      title: 'Demnächst verfügbar',
-      message: 'Dieser Bereich befindet sich im Aufbau. Vielen Dank für Ihr Verständnis.',
-   },
-   fr: {
-      title: 'Prochainement disponible',
-      message: 'Cette section est en construction. Merci de votre compréhension.',
-   },
-   it: {
-      title: 'Prossimamente disponibile',
-      message: 'Questa sezione è in costruzione. Grazie per la vostra comprensione.',
-   },
-};
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function TemporaryLanguageChange() {
    const locale = useLocale();
+   const tCommon = useTranslations('Common');
+   const tTemporary = useTranslations('TemporaryLanguage');
+   const comingSoonMessages = tTemporary.raw('comingSoonMessages');
    const [isDialogOpen, setIsDialogOpen] = useState(false);
    const [selectedLanguage, setSelectedLanguage] = useState(null);
 
@@ -47,28 +24,28 @@ export default function TemporaryLanguageChange() {
          <article className="w-fit flex items-center">
             <Select value={locale} onValueChange={handleLanguageChange}>
                <SelectTrigger className="border-none ring-0 focus-visible:ring-0 focus-visible:border-0 focus-visible:outline-0 justify-start cursor-pointer transition-all duration-200 w-fit h-fit pr-0 px-0 py-2.5 shadow-none gap-0.5 md:gap-1 text-ivory-soft uppercase">
-                  <span className="text-xs lg:text-sm">{languageMap[locale]?.short}</span>
+                  <span className="text-xs lg:text-sm">{tCommon(`languages.${locale}.short`)}</span>
                </SelectTrigger>
 
                <SelectContent className="bg-coffee-dark border-gold/30 text-ivory-soft">
                   <SelectItem value="en" className="cursor-pointer hover:bg-wine-brown! hover:text-ivory-soft! transition-all duration-200">
                      <span className="flex items-center gap-1.5 text-xs">
-                        <span>English</span>
+                        <span>{tCommon('languages.en.name')}</span>
                      </span>
                   </SelectItem>
                   <SelectItem value="de" className="cursor-pointer hover:bg-wine-brown! hover:text-ivory-soft! transition-all duration-200">
                      <span className="flex items-center gap-1.5 text-xs">
-                        <span>Deutsch</span>
+                        <span>{tCommon('languages.de.name')}</span>
                      </span>
                   </SelectItem>
                   <SelectItem value="fr" className="cursor-pointer hover:bg-wine-brown! hover:text-ivory-soft! transition-all duration-200">
                      <span className="flex items-center gap-1.5 text-xs">
-                        <span>Français</span>
+                        <span>{tCommon('languages.fr.name')}</span>
                      </span>
                   </SelectItem>
                   <SelectItem value="it" className="cursor-pointer hover:bg-wine-brown! hover:text-ivory-soft! transition-all duration-200">
                      <span className="flex items-center gap-1.5 text-xs">
-                        <span>Italiano</span>
+                        <span>{tCommon('languages.it.name')}</span>
                      </span>
                   </SelectItem>
                </SelectContent>
@@ -86,7 +63,7 @@ export default function TemporaryLanguageChange() {
                      onClick={() => setIsDialogOpen(false)}
                      className="px-5 py-1.5 bg-ivory-soft hover:bg-ivory-soft/80 text-coffee-dark rounded-sm transition-colors duration-200 cursor-pointer text-sm"
                   >
-                     OK
+                     {tTemporary('ok')}
                   </button>
                </div>
             </DialogContent>

@@ -5,16 +5,30 @@ import SectionWrapper from '@/components/transplantation/hairTransplant/common/s
 import HowDoesItWork from '@/components/transplantation/hairTransplant/common/howDoesItWork';
 import BeforeHairTransplantationHero from './beforeHairTransplantationHero';
 import BeforeHairTransplantationDoesItWork from './beforeHairTransplantationDoesItWork';
+import { useTranslations } from 'next-intl';
 
-const linksItems = [
-   { label: 'Before Hair Transplantation', href: '#' },
-   { label: 'After Hair Transplantation', href: '#' },
-   { label: 'Technology & Hair Transplantation', href: '#' },
-   { label: 'Complications of Hair Surgery', href: '#' },
-   { label: 'Frequently Asked Questions', href: '#' },
+const linksItemConfig = [
+   {
+      "href": "#"
+   },
+   {
+      "href": "#"
+   },
+   {
+      "href": "#"
+   },
+   {
+      "href": "#"
+   },
+   {
+      "href": "#"
+   }
 ];
 
 export default function BeforeHairTransplantationMain({ children }) {
+   const t = useTranslations('Content.guides.beforeHairTransplantation');
+   const linkLabels = t.raw('links');
+   const linksItems = linksItemConfig.map((item, index) => ({ ...item, label: linkLabels[index] }));
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <CustomBreadCrumb links={linksItems} />
@@ -23,11 +37,11 @@ export default function BeforeHairTransplantationMain({ children }) {
             <SectionWrapper>
                <HowDoesItWork
                   images={[
-                     { src: '/howwork-1.webp', alt: 'FUE Step 1' },
-                     { src: '/howwork-2.webp', alt: 'FUE Step 2' },
-                     { src: '/howwork-3.webp', alt: 'FUE Step 3' },
-                     { src: '/howwork-4.webp', alt: 'FUE Step 4' },
-                     { src: '/howwork-5.webp', alt: 'FUE Step 5' },
+                     { src: '/howwork-1.webp', alt: t('alt1') },
+                     { src: '/howwork-2.webp', alt: t('alt2') },
+                     { src: '/howwork-3.webp', alt: t('alt3') },
+                     { src: '/howwork-4.webp', alt: t('alt4') },
+                     { src: '/howwork-5.webp', alt: t('alt5') },
                   ]}
                >
                   <BeforeHairTransplantationDoesItWork />

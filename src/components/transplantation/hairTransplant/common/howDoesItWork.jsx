@@ -5,8 +5,10 @@ import { cn } from '@/lib/utils';
 import { Play, X } from 'lucide-react';
 import { Dialog, DialogClose, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import HowDoesItWorksMobilCarousel from './howDoesItWorksMobilCarousel';
+import { useTranslations } from 'next-intl';
 
 export default function HowDoesItWork({ images = [], videos = [], title = [], content = [], children, className }) {
+   const t = useTranslations('Content.transplantation.hairTransplant.common.howDoesItWork');
    const [activeVideoId, setActiveVideoId] = useState(null);
 
    const RecursiveList = ({ items }) => {
@@ -69,7 +71,7 @@ export default function HowDoesItWork({ images = [], videos = [], title = [], co
                   {activeVideoId && (
                      <iframe
                         src={`https://www.youtube-nocookie.com/embed/${activeVideoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1`}
-                        title="Video"
+                        title={t('title1')}
                         allow="autoplay; fullscreen; picture-in-picture"
                         allowFullScreen
                         className="size-full rounded-lg border-0"

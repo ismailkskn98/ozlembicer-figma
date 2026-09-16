@@ -6,13 +6,21 @@ import PatientResults from '../../../common/patientResults';
 import HowToAppointment from '../../../common/howToAppointment';
 import FemaleContent from './femaleContent';
 import DeneyTitleImage from '@/components/common/titleImages/deney';
+import { useTranslations } from 'next-intl';
 
-const linksItems = [
-   { label: 'Male Hair Loss', href: '/hair-loss/couses-of-hair-loss/male-hair-loss' },
-   { label: 'Female Hair Loss', href: '#' },
+const linksItemConfig = [
+   {
+      "href": "/hair-loss/couses-of-hair-loss/male-hair-loss"
+   },
+   {
+      "href": "#"
+   }
 ];
 
 export default function FemaleHairLossMain({ children }) {
+   const t = useTranslations('Content.hairLoss.cousesOfHairLoss.femaleHairLoss');
+   const linkLabels = t.raw('links');
+   const linksItems = linksItemConfig.map((item, index) => ({ ...item, label: linkLabels[index] }));
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <CustomBreadCrumb links={linksItems} />
@@ -22,7 +30,7 @@ export default function FemaleHairLossMain({ children }) {
             <FemaleContent />
             {children}
             <DeneyTitleImage />
-            <PatientResults title="Patient Results" />
+            <PatientResults title={t('title1')} />
             <div className="-mt-10 lg:mt-0">
                <HowToAppointment />
             </div>

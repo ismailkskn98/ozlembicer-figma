@@ -6,7 +6,230 @@
     "keywords": "hair transplant Istanbul, FUE hair transplant, hair loss treatment, Dr. Ozlem Bicer, hair clinic Turkey, beard transplant, eyebrow transplant, PRP hair treatment"
   },
   "HomePage": {
-    "title": "Hello world!"
+    "title": "Hello world!",
+    "hero": {
+      "slides": {
+        "priority": {
+          "desktopTitle": {
+            "line1": "Your",
+            "line2": "Expectations Are",
+            "line3": "Our Priority"
+          },
+          "mobileTitle": {
+            "line1": "Your",
+            "line2": "Expectations Are",
+            "line3": "Our Priority"
+          },
+          "description": "According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.",
+          "imageAlt": "hero ozlem bicer",
+          "primaryLink": "Read More About Hair Transplant",
+          "appointmentLink": "Book an Appointment"
+        },
+        "team": {
+          "desktopTitle": {
+            "line1": "An Experienced",
+            "line2": "Doctor And",
+            "line3": "Medical Team"
+          },
+          "mobileTitle": {
+            "line1": "An Experienced",
+            "line2": "Doctor And",
+            "line3": "Medical Team"
+          },
+          "description": "According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.",
+          "imageAlt": "hero ozlem bicer team",
+          "primaryLink": "Read More About Clinic & Team",
+          "appointmentLink": "Book an Appointment"
+        },
+        "faculty": {
+          "desktopTitle": {
+            "line1": "Internationally",
+            "line2": "Acclaimed",
+            "line3": "Faculty Member"
+          },
+          "mobileTitle": {
+            "line1": "Internationally",
+            "line2": "Acclaimed",
+            "line3": "Faculty Member"
+          },
+          "description": "According to our philosophy, hair surgery is not only science, art, technology, or numbers.Hair restoration is more than a surgery.  We know that it also directly affects the patient’s emotions. Therefore, your expectations and your emotions are extremely valuable to us.",
+          "imageAlt": "hero ozlem bicer 2",
+          "primaryLink": "Read More About Dr. Ozlem Bicer",
+          "appointmentLink": "Book an Appointment"
+        }
+      }
+    },
+    "logoCarousel": {
+      "heading": "<bold>Trusted by Leading Associations</bold> Worldwide",
+      "logoAlt": "Logo {number}"
+    },
+    "heroCards": {
+      "onlyOne": {
+        "line1": "Only One",
+        "line2": "Patient a Day"
+      },
+      "experience": {
+        "line1": "28 Years",
+        "line2": "of Experience"
+      },
+      "licensedClinic": {
+        "line1": "Licenced",
+        "line2": "Clinic"
+      },
+      "americanBoard": {
+        "line1": "Member Of",
+        "line2": "American Board"
+      },
+      "imageAlt": "hero card {number}",
+      "lineAlt": "hero card line",
+      "gapLineAlt": "hero card gap line"
+    },
+    "services": {
+      "hairTransplant": {
+        "title": "Hair Transplantation",
+        "label": "Hair Transplantation",
+        "description": "At Dr. Biçer’s clinic, all hair transplantation procedures are personally performed by Dr. Biçer, ensuring each patient is evaluated objectively and treated with a fully tailored approach. Hair transplantation is not a cure, but a highly effective way to restore a natural appearance and confidence when carefully planned. Using advanced techniques such as FUE, patients benefit from minimally invasive treatment and faster recovery. However, the right solution depends on individual factors and requires expert assessment—discover what is best suited for you."
+      },
+      "beardTransplant": {
+        "title": "Beard Transplantation",
+        "label": "Beard Transplantation",
+        "description": "At Dr. Özlem Biçer’s clinic, beard transplantation is personally performed with her experienced medical team, ensuring a precise and individualized approach for each patient. This specialized procedure is designed to enhance beard density, improve shape and symmetry, and address patchy growth or hair loss caused by scarring or medical conditions. As facial hair transplantation requires advanced surgical expertise and refined aesthetic planning, every detail is carefully considered to achieve natural and balanced results. Discover how this tailored approach can redefine your facial appearance."
+      },
+      "eyebrowTransplant": {
+        "title": "Eyebrow Transplantation",
+        "label": "Eyebrow Transplantation",
+        "description": "At Dr. Özlem Biçer’s clinic, eyebrow transplantation is personally performed with a meticulous and individualized approach, recognizing the essential role eyebrows play in facial expression and overall aesthetics. This procedure is designed to restore natural shape and density, whether due to long-term over-plucking, traction damage, or naturally sparse or absent brows. Using the long hair FUE technique and carefully selected fine donor hairs, each graft is placed with precise angle and direction to achieve soft, natural, and harmonious results. Discover how a tailored approach can restore balance and definition to your face."
+      },
+      "femaleHairTransplant": {
+        "title": "Female Hair Transplantation",
+        "label": "Female Hair Transplantation",
+        "description": "At Dr. Özlem Biçer’s clinic, female hair transplantation is personally performed with a sensitive and individualized approach, recognizing the significant emotional and aesthetic impact of hair loss in women. As hair loss can arise from different causes—such as androgenetic alopecia, telogen effluvium, or other conditions—each patient undergoes a detailed evaluation to determine the most appropriate treatment. When transplantation is indicated, techniques without full shaving are preferred to maintain discretion and comfort. Discover a tailored solution designed to restore both your hair and confidence."
+      },
+      "learnMore": "Learn More"
+    },
+    "videos": {
+      "title": "Videos & Tutorials"
+    },
+    "aestheticAndArt": {
+      "headingLine1": "Aesthetic Is",
+      "headingLine2": "Where Art and",
+      "headingLine3": "Medicine Meets",
+      "paragraph1": "Since 1998, I have been dedicated to the field of hair restoration and hair transplantation. At my clinic, we provide a high standard of medical care and professional expertise, with a clear focus on achieving natural, healthy, and long-lasting results for our patients.",
+      "paragraph2": "Our approach is not limited to the day of the procedure alone. Each patient is carefully evaluated and guided before the treatment, and then closely followed for at least one year after the procedure to ensure optimal healing, hair growth, and long-term success.",
+      "paragraph3": "Over the years, we have built a strong reputation by combining surgical experience, advanced technology, and strict adherence to safe and ethical medical practices. Every treatment is carefully planned and tailored to the individual needs of each patient.",
+      "paragraph4": "If you are seeking a world-class hair transplant clinic that prioritizes medical excellence, natural outcomes, and comprehensive patient care, my experienced medical team and I are here to guide you through every step of your journey.",
+      "signature": "Özlem Biçer, M.D.",
+      "doctorLink": "Read More About Dr.Bicer",
+      "appointmentLink": "Book an Appointment",
+      "imageAlt": "aesthetic and art"
+    },
+    "appointment": {
+      "title": "How To Make An Appointment",
+      "steps": {
+        "contact": {
+          "title": "Contact From",
+          "titleBr": "WhatsApp",
+          "hoverTitle": "Fill Application",
+          "hoverTitleBr": "Form",
+          "imageAlt": "whatsapp",
+          "description": "Reach out to us on WhatsApp and get connected with a dedicated patient consultant who speaks your language. Fill out the form provided by your consultant and schedule your online consultation with Dr. Biçer."
+        },
+        "consultation": {
+          "title": "Get Online",
+          "titleBr": "Consultation",
+          "hoverTitle": "Fill Application",
+          "hoverTitleBr": "Form",
+          "imageAlt": "consultation",
+          "description": "Have a one-on-one online consultation with Dr. Biçer to receive a personalized assessment and detailed information about your treatment and process. Together with your consultant, proceed with planning the next steps."
+        },
+        "complete": {
+          "title": "Complete Your",
+          "titleBr": "Appointment",
+          "hoverTitle": "Fill Application",
+          "hoverTitleBr": "Form",
+          "imageAlt": "appointment",
+          "description": "Finalize your treatment plan and confirm your appointment with the guidance of your consultant. After your procedure, your patient consultant will stay in continuous contact with you for one year, closely monitoring your progress, providing updates, and supporting you throughout your entire recovery journey."
+        }
+      },
+      "clinicHeading": "Hair Transplantation in<br></br>Istanbul, Turkey",
+      "clinicDescription": "Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.",
+      "contact": "Contact US"
+    }
+  },
+  "Header": {
+    "navigation": {
+      "about": "About Us",
+      "doctor": "Dr. Ozlem Bicer",
+      "clinicTeam": "Clinic & Team",
+      "pricing": "Pricing",
+      "hairLoss": "Hair Loss",
+      "causes": "Couses of Hair Loss",
+      "maleHairLoss": "Hair Loss in Male",
+      "femaleHairLoss": "Hair Loss in Female",
+      "treatments": "Treatments of Hair Loss",
+      "hairMesotherapy": "Hair Mesotherapy",
+      "prp": "PRP Hair Treatment",
+      "stampCell": "Stamp Cell Treatment",
+      "trichopat": "Trichopat Treatment",
+      "transplantation": "Transplantation",
+      "hairTransplant": "Hair Transplantat",
+      "fueMicroMotor": "FUE (Micro Motor)",
+      "fueManual": "FUE (Manuel)",
+      "bodyHair": "Body Hair Transplantation",
+      "reconstructive": "Reconstructive Hair Transp.",
+      "longHair": "Long Hair (Unshaven)",
+      "fut": "FUT",
+      "hairWash": "Hair Wash",
+      "beard": "Beard Transplantation",
+      "eyebrow": "Eyebrow Transplant",
+      "gallery": "Gallery",
+      "beforeAfter": "Before & After Images",
+      "videoGallery": "Video Gallery",
+      "informativeVideos": "Informative Videos",
+      "patientReviews": "Patient Reviews",
+      "interviews": "Interviews with Dr. Bicer"
+    },
+    "mobileNavigationTitle": "Navigation Menu",
+    "search": {
+      "title": "Search",
+      "placeholder": "Search...",
+      "escape": "ESC",
+      "noResults": "No results found.",
+      "pages": "Pages"
+    },
+    "alt1": "ozlembicer logo"
+  },
+  "Footer": {
+    "logoAlt": "Dr.Bicer Logo",
+    "addressLabel": "Adress:",
+    "address": "Istanbul/Turkey",
+    "mobileLabel": "Mobile & WhatsApp:",
+    "emailLabel": "E-Mail:",
+    "workingHours": "Working Hours",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "closed": "Closed",
+    "copyright": "Dr.Bicer 2026 - All Rights Reserved."
+  },
+  "PatientResults": {
+    "title": "Patient Results",
+    "beforeAlt": "Patient before {number}",
+    "afterAlt": "Patient after {number}",
+    "videoTitle": "Patient result video",
+    "technique": "TECHNIQUE",
+    "grafts": "GRAFTS",
+    "after": "AFTER",
+    "fue": "FUE",
+    "microMotor": "(Micro Motor)",
+    "months": "{count} Months",
+    "lineAlt": "line"
   },
   "LanguageModal": {
     "title": "Change Language",
@@ -18,10 +241,2262 @@
     "heading": "Multilingual Support",
     "subheading": "Contact Directly Someone Who Speaks Your Language"
   },
+  "Common": {
+    "languages": {
+      "en": {
+        "name": "English",
+        "short": "ENG",
+        "supportAlt": "English Support"
+      },
+      "it": {
+        "name": "Italiano",
+        "short": "ITAL",
+        "supportAlt": "Italian Support"
+      },
+      "fr": {
+        "name": "Français",
+        "short": "FRAN",
+        "supportAlt": "French Support"
+      },
+      "de": {
+        "name": "Deutsch",
+        "short": "DEUT",
+        "supportAlt": "German Support"
+      }
+    },
+    "accessibility": {
+      "breadcrumb": "breadcrumb",
+      "more": "More",
+      "close": "Close"
+    }
+  },
+  "TemporaryLanguage": {
+    "modalMessages": {
+      "en": {
+        "title": "Change Language",
+        "description": "Would you like to switch to {language}?",
+        "confirm": "Yes, switch",
+        "cancel": "Cancel"
+      },
+      "de": {
+        "title": "Sprache wechseln",
+        "description": "Möchten Sie zu {language} wechseln?",
+        "confirm": "Ja, wechseln",
+        "cancel": "Abbrechen"
+      },
+      "fr": {
+        "title": "Changer de langue",
+        "description": "Souhaitez-vous passer en {language} ?",
+        "confirm": "Oui, changer",
+        "cancel": "Annuler"
+      },
+      "it": {
+        "title": "Cambia lingua",
+        "description": "Vuoi passare a {language}?",
+        "confirm": "Sì, cambia",
+        "cancel": "Annulla"
+      }
+    },
+    "comingSoonMessages": {
+      "en": {
+        "title": "Coming Soon",
+        "message": "This section is under construction. Thank you for your understanding."
+      },
+      "de": {
+        "title": "Demnächst verfügbar",
+        "message": "Dieser Bereich befindet sich im Aufbau. Vielen Dank für Ihr Verständnis."
+      },
+      "fr": {
+        "title": "Prochainement disponible",
+        "message": "Cette section est en construction. Merci de votre compréhension."
+      },
+      "it": {
+        "title": "Prossimamente disponibile",
+        "message": "Questa sezione è in costruzione. Grazie per la vostra comprensione."
+      }
+    },
+    "ok": "OK"
+  },
   "NotFound": {
     "title": "Page Not Found",
     "description": "The page you are looking for may have been moved or no longer exists. Let us help you find your way.",
     "home": "Back to Home",
     "contact": "Book an Appointment"
+  },
+  "Content": {
+    "about": {
+      "ozlembicer": {
+        "doctorProfile": {
+          "heading1": "Medical Philosophy",
+          "paragraph1": "Throughout her medical career, patient care has always been Dr. Biçer’s highest priority. She believes that ethical practice, professional responsibility, and continuous education are essential to achieving successful and sustainable outcomes.",
+          "paragraph2": "According to her philosophy, hair surgery is not only science, art, technology, or numbers. Hair restoration is more than a surgical procedure—it has a direct impact on a patient’s emotions, confidence, and quality of life. For this reason, each patient’s expectations and emotional well-being are considered extremely valuable and are carefully respected throughout the treatment process.",
+          "paragraph3": "To ensure full focus and the highest standard of care, Dr. Biçer performs only one hair transplant procedure per day, allowing her to dedicate her complete attention to each patient. She also considers it important to serve as an ethical and professional role model for younger physicians entering the field.",
+          "paragraph4": "Her extensive experience has enabled her to develop strong clinical, surgical, and communication skills, covering routine medical practice, surgical procedures, and emergency situations.",
+          "heading2": "Professional Experience & Academic Involvement",
+          "paragraph5": "Dr. Biçer is actively involved in the international hair restoration community. She regularly participates in scientific meetings and conferences worldwide, taking part as a speaker, trainer, and member of professional hair restoration societies. Her continuous academic involvement and professional experience allow her to stay at the forefront of the latest developments in hair restoration.",
+          "paragraph6": "At Dr. Biçer’s clinic, all hair restoration techniques are personally performed by Dr. Biçer. This comprehensive expertise gives her the ability to objectively evaluate each case and select the most appropriate technique for every patient, based solely on medical needs and expected outcomes.",
+          "paragraph7": "Her areas of professional focus include:",
+          "listItem1": "FUT and FUE techniques",
+          "listItem2": "Micromotor and manual FUE",
+          "listItem3": "Unshaven long-hair FUE",
+          "listItem4": "Reconstructive hair transplant",
+          "listItem5": "FUE with implanters",
+          "listItem6": "Hair loss treatments",
+          "listItem7": "Regenerative medicine",
+          "listItem8": "Dermatopathology of the scalp",
+          "paragraph8": "In addition to hair transplantation, Dr. Biçer provides individualized hair loss treatments, including PRP, mesotherapy, and regenerative medicine–based therapies, tailored to each patient’s clinical needs.",
+          "heading3": "Teamwork, & Personal Values",
+          "paragraph9": "Dr. Biçer values multidisciplinary collaboration and actively contributes to patient care whenever necessary. She describes herself as solution-oriented, disciplined, motivated, and committed to working alongside colleagues for the benefit of patients and society. Sharing experience, mentoring team members, and motivating colleagues toward shared goals are central to her professional approach.",
+          "paragraph10": "She performs surgical procedures together with a licensed medical team with 28 years of experience, a factor that clearly contributes to positive and consistent treatment results.",
+          "paragraph11": "Dr. Biçer speaks English fluently. She is also the author of a poetry book, with all proceeds donated to support the education of orphaned children. She has been married for 30 years and is the mother of a son."
+        },
+        "awards": {
+          "heading1": "Awards",
+          "paragraph1": "FUE Europe Annual Fue Hands-on Ankara, 2020",
+          "paragraph2": "Masters of Beauty, 2021",
+          "paragraph3": "2nd International Medical Aesthetic Congress",
+          "paragraph4": "Dr. Ufuk Alatekin Academy “Those who add value to beauty” 2021",
+          "paragraph5": "Medical Aesthetic Symposium",
+          "paragraph6": "Mezoder, Mesotherapy Congress",
+          "paragraph7": "Los Angles Hair Restoration Courses, Live Surgery Workshop"
+        },
+        "certifications": {
+          "heading1": "Other Education & Training Programs",
+          "items": [
+            {
+              "title": "Certificate of Bio Cosmetics",
+              "location": "Istanbul, Turkey",
+              "date": "March 2000"
+            },
+            {
+              "title": "Enseignement International de Mesotherapie",
+              "location": "France",
+              "date": "October 2002"
+            },
+            {
+              "title": "Allergan, Excellence",
+              "location": "Istanbul, Turkey",
+              "date": "December 2002"
+            },
+            {
+              "title": "5th Dermatology and Dermatopathology in Anatolia",
+              "location": "Istanbul, Turkey",
+              "date": "September 2003"
+            },
+            {
+              "title": "Flavius, FUE and Single Strip Technique",
+              "location": "Istanbul, Turkey",
+              "date": "June 2004"
+            },
+            {
+              "title": "1st Medical Aesthetic, Mesotherapy",
+              "location": "Antalya, Turkey",
+              "date": "December 2004"
+            },
+            {
+              "title": "Botox and Natural Look Seminar",
+              "location": "Sao Paulo, Brazil",
+              "date": "March 2005"
+            },
+            {
+              "title": "Allergan Medical Aesthetics Academy – Master Academy for Excellence",
+              "location": "",
+              "date": "May 2010"
+            },
+            {
+              "title": "Fotona Medical Technology Trainer Workshop",
+              "location": "",
+              "date": "September 2011"
+            },
+            {
+              "title": "Regional Theoretical–Practical Sessions (Bio Revitalization to Contour Correction)",
+              "location": "Istanbul, Turkey",
+              "date": "October 2011"
+            },
+            {
+              "title": "Hipokrat, Genesis Diagnostics Completion",
+              "location": "Istanbul, Turkey",
+              "date": "December 2011"
+            },
+            {
+              "title": "Mezoklinik, Promitalia",
+              "location": "Istanbul, Turkey",
+              "date": "May 2012"
+            },
+            {
+              "title": "Seltek, Facial Redensity I and Mesotherapy Applications",
+              "location": "Istanbul, Turkey",
+              "date": "September 2012"
+            },
+            {
+              "title": "Regional Bio-Revolumetry in Medical Aesthetic Medicine",
+              "location": "Istanbul",
+              "date": "December 2012"
+            },
+            {
+              "title": "Allergan Medical Institute – Putting the Codes into Practice",
+              "location": "",
+              "date": "June 2015"
+            },
+            {
+              "title": "Mezoklinik, Perfectha and Ellanse Training",
+              "location": "Istanbul, Turkey",
+              "date": "September 2015"
+            },
+            {
+              "title": "Mester, Medical Aesthetic Face Cadaver",
+              "location": "Edirne, Turkey",
+              "date": "May 2016"
+            },
+            {
+              "title": "TC Health Ministry Mesotherapy Applications",
+              "location": "Ankara, Turkey",
+              "date": "April 2016"
+            },
+            {
+              "title": "Mester, Medical Aesthetic Complication Management",
+              "location": "Cyprus",
+              "date": "January 2017"
+            },
+            {
+              "title": "TC Health Ministry Ozon Applications",
+              "location": "Ankara, Turkey",
+              "date": "April 2017"
+            },
+            {
+              "title": "15th Aesthetic and Anti-Aging Medicines, AMWC",
+              "location": "Monaco",
+              "date": "April 2017"
+            },
+            {
+              "title": "AAAM, Aesthetic Medicine",
+              "location": "Pennsylvania, USA",
+              "date": "August 2017"
+            },
+            {
+              "title": "TED1 Teoxane Expert Day",
+              "location": "Istanbul",
+              "date": "September 2017"
+            },
+            {
+              "title": "21st World Congress of Aesthetic Medicine",
+              "location": "Istanbul, Turkey",
+              "date": "October 2017"
+            },
+            {
+              "title": "Mezoklinik, Sterile Separation PRP",
+              "location": "Istanbul, Turkey",
+              "date": "2017"
+            },
+            {
+              "title": "2nd National Medical Aesthetic Congress",
+              "location": "",
+              "date": "January 2018"
+            },
+            {
+              "title": "TED3 Teoxane Expert Days, Middle East",
+              "location": "Dubai",
+              "date": "March 2018"
+            },
+            {
+              "title": "Mester, Medical Aesthetic Complication Management",
+              "location": "Ankara, Turkey",
+              "date": "May 2018"
+            },
+            {
+              "title": "TTB Expertise in Medicine",
+              "location": "",
+              "date": "September 2018"
+            },
+            {
+              "title": "Mester, Hair Restoration Methods",
+              "location": "Antalya, Turkey",
+              "date": "December 2018"
+            },
+            {
+              "title": "Mezoklinik Ellanse Theoretical and Practical Filler",
+              "location": "Istanbul",
+              "date": "March 2019"
+            },
+            {
+              "title": "Bio Revolumetria Master Course",
+              "location": "Istanbul, Turkey",
+              "date": "April 2019"
+            },
+            {
+              "title": "National Mesotherapy Community",
+              "location": "",
+              "date": "March 2020"
+            },
+            {
+              "title": "Annual FUE Europe Hands-On Course",
+              "location": "Ankara, Turkey",
+              "date": "September 2020"
+            },
+            {
+              "title": "ISHR, 28th World Congress",
+              "location": "Online",
+              "date": "October 2020"
+            },
+            {
+              "title": "Global Hair Loss Summit – Speaker",
+              "location": "Online",
+              "date": "2020"
+            },
+            {
+              "title": "Annual FUE Europe Meeting",
+              "location": "",
+              "date": "September 2021"
+            },
+            {
+              "title": "Mester, International Medical Aesthetic Symposium",
+              "location": "Antalya, Turkey",
+              "date": "October 2021"
+            },
+            {
+              "title": "ISHR, 29th World Congress",
+              "location": "Lisbon",
+              "date": "October 2021"
+            },
+            {
+              "title": "Global Hair Loss Summit – Speaker",
+              "location": "Online",
+              "date": "2021"
+            },
+            {
+              "title": "USHRS Congress",
+              "location": "Ukraine (Online)",
+              "date": "February 2022"
+            },
+            {
+              "title": "Los Angeles Hair Restoration Course",
+              "location": "Los Angeles, USA",
+              "date": "March 2022"
+            }
+          ]
+        },
+        "ozlemBicerHero": {
+          "heading1": "Who Is",
+          "span1": "Dr. Ozlem Bicer",
+          "paragraph1": "Dr. Özlem Biçer was born in 1973 in İstanbul. She completed her secondary education at Anakent College in 1991 and graduated from the Faculty of Medicine at Trakya University in 1998. Following her medical degree, she completed a certified training program in hair surgery organized by the Ministry of Health of the Republic of Turkey and received official authorization to perform hair transplantation procedures.",
+          "paragraph2": "In 2002, Dr. Biçer further expanded her expertise through advanced training in France, focusing on hair loss treatments, mesotherapy, and medical aesthetics.",
+          "paragraph3": "Dr. Biçer is a hair transplant surgeon with over 25 years of medical experience. She has been performing both FUE (Follicular Unit Extraction) and FUT (Follicular Unit Transplantation) procedures throughout her career. Between 1999 and 2002, she worked in several private clinics in İstanbul, specializing in aesthetic medicine and hair surgery. Since 2002, she has been performing hair transplantation procedures at her own licensed and authorized clinic.",
+          "alt1": "Dr. Özlem Bicer",
+          "title1": "Dr. Özlem Biçer Video"
+        },
+        "professionalAffiliations": {
+          "heading1": "Professional Affiliations",
+          "heading2": "Diplomatic Roles",
+          "paragraph1": "ABHRS",
+          "heading3": "Board Memberships",
+          "paragraph2": "AAAM, TSHRS, MESTDER",
+          "heading4": "Educator Roles",
+          "paragraph3": "Turkish Ministry of Health, ABHRS, ISHRS, IAHRS",
+          "heading5": "Professional Memberships",
+          "paragraph4": "TBB, FUE EUROPE, AAAM, TSHRS, MESTDER, MED, MS, TTB"
+        },
+        "links": [
+          "About Dr. Ozlem Bicer",
+          "Clinic & Team",
+          "Pricing"
+        ]
+      },
+      "clinicAndTeam": {
+        "clinic": {
+          "heading1": "Clinic"
+        },
+        "clinicTeamHero": {
+          "heading1": "An Experienced",
+          "span1": "Doctor and Medical Team",
+          "paragraph1": "Our clinic is supported by a highly experienced and dedicated hair transplant team, recognized for its medical expertise and patient-centered approach. Dr. Özlem Biçer has over 28 years of experience in hair restoration surgery and is a proud member of the International Society of Hair Restoration Surgery (ISHRS). She is assisted by a team of carefully selected, highly trained, and experienced medical nurses who work together with precision and consistency.",
+          "paragraph2": "Unlike many hair transplant centers, we believe that hair transplantation is a medical procedure that should be performed under the direct responsibility of a licensed physician. Our clinic operates in accordance with medical regulations and professional standards, and is among a limited number of licensed hair transplant clinics in Turkey.",
+          "paragraph3": "To ensure the highest level of care, we treat only one patient per day. The same experienced medical team assists Dr. Biçer in every procedure, allowing for full focus, continuity, and personalized attention. This approach enables us to maintain strict quality control, provide attentive patient care, and strive for natural, reliable results in every case.",
+          "alt1": "Dr. Özlem Bicer"
+        },
+        "clinicVideo": {
+          "alt1": "Clinic"
+        },
+        "title1": "Patient Results",
+        "links": [
+          "About Dr. Ozlem Bicer",
+          "Clinic & Team",
+          "Pricing"
+        ]
+      },
+      "pricing": {
+        "pricingHero": {
+          "heading1": "Pricing",
+          "items": [
+            {
+              "title": "FUE Automated",
+              "paragraphs": [
+                {
+                  "text": "3€ per Graft"
+                },
+                {
+                  "text": "Up To 4.000 Grafts In One Session"
+                }
+              ]
+            },
+            {
+              "title": "FUE Manual",
+              "paragraphs": [
+                {
+                  "text": "4€ per Graft"
+                },
+                {
+                  "text": "(Up to 2.000 Grafts In One Session)"
+                },
+                {
+                  "text": "For FUE sessions, the price has plus/minus 200 grafts range."
+                }
+              ]
+            },
+            {
+              "title": "FUT (Strip)",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Beard Transplant",
+              "paragraphs": [
+                {
+                  "text": "From Scalp To Beard: 6.000-9.000€ (Related With Graft Count)"
+                },
+                {
+                  "text": "From Beard To Scalp: 6.000€ (Unrelated With Graft Count)"
+                }
+              ]
+            },
+            {
+              "title": "Eyebrow Transplant",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Body Hair Transplant",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Scalp Micro-Pigmentation (SMP)",
+              "paragraphs": [
+                {
+                  "text": "500€ – 1000€"
+                }
+              ]
+            },
+            {
+              "title": "PRP Treatment",
+              "paragraphs": [
+                {
+                  "text": "Free With Certain Surgeries"
+                }
+              ]
+            },
+            {
+              "title": "Consultation",
+              "paragraphs": [
+                {
+                  "parts": [
+                    "In person: 100€",
+                    "Online: Free"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Touch-Up Terms and Conditions",
+              "paragraphs": [
+                {
+                  "text": "Sessions are planned by approval of Dr.Bicer. They are planned 1-2 times in a year. More than 2 sessions can be planned on the same day."
+                },
+                {
+                  "text": "Free touch up for 50-200 grafts (Sessions are planned to eliminate problems caused by improper washing, head traumas…)"
+                },
+                {
+                  "text": "Up to 1000 grafts: 2000€"
+                }
+              ]
+            },
+            {
+              "title": "Discount Terms and Conditions",
+              "paragraphs": [
+                {
+                  "text": "Medical Doctor/Team :%10"
+                },
+                {
+                  "text": "Student: %10 (for students who do not work)"
+                },
+                {
+                  "text": "Group patients: %10 for Each"
+                },
+                {
+                  "text": "2 BHT sessions: %15 (If two sessions are done in one day)"
+                },
+                {
+                  "text": "Last minute appointments:1000€ (For appointments for a specific day which is less than ten days away. To be able to tolerate expensive flight prices at last minute)"
+                },
+                {
+                  "text": "Last minute appointments:500€ (for 10-15 days)"
+                },
+                {
+                  "text": "For publication of media (photos & videos) in scientific studies, presentations, congress and articles: 20% (Dr.Bicer makes her own decision for this discount type in consultation if the patient is suitable for this case Ex: Burn Reconstruction)"
+                },
+                {
+                  "text": "Only one type discount type is applied and total discount cannot be more than %20"
+                }
+              ]
+            }
+          ]
+        },
+        "title1": "Patient Results",
+        "links": [
+          "About Dr. Ozlem Bicer",
+          "Clinic & Team",
+          "Pricing"
+        ]
+      }
+    },
+    "contact": {
+      "contactCards": {
+        "heading1": "How To Make An Appointment",
+        "paragraph1": "Schedule an",
+        "paragraph2": "Appointment",
+        "paragraph3": "Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices.",
+        "paragraph4": "Ozlem Bicer, M.D.",
+        "paragraph5": "Get Online",
+        "paragraph6": "Consultation",
+        "paragraph7": "Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices.",
+        "paragraph8": "Ozlem Bicer, M.D.",
+        "paragraph9": "Complete Your",
+        "paragraph10": "Appointment",
+        "paragraph11": "Since 1998, I have worked on hair restoration and hair transplants. My clinic provides the highest level of service and expertise to turn our patients’ dreams into reality. We have built an unmatched reputation by offering our patients superior results while utilizing the best technology and adhering to the safest medical practices.",
+        "paragraph12": "Ozlem Bicer, M.D."
+      },
+      "contactForm": {
+        "paragraph1": "Adress:",
+        "paragraph2": "Istanbul / Turkey",
+        "paragraph3": "Mobile & Whats App:",
+        "paragraph4": "E-Mail:",
+        "paragraph5": "info@ozlembicer.com",
+        "heading1": "Hair Transplantation in",
+        "heading2": "Istanbul, Turkey",
+        "paragraph6": "Dr. Özlem Bicer brings over 25 years of experience and is an esteemed member of the International Society of Hair Restoration Surgery (ISHRS). She is supported by a dedicated team of highly trained nurses, making us one of the most reputable and experienced hair transplant teams worldwide.",
+        "span1": "Contact US",
+        "span2": "Contact US",
+        "link1": "info@ozlembicer.com"
+      }
+    },
+    "gallery": {
+      "beforeAfterImages": {
+        "beforeAfterHero": {
+          "heading1": "Patient Results",
+          "span1": "Before & After",
+          "paragraph1": "As a clinic we give importance to post pre and post operation follow up is one of the most important part of hair transplantation. The surgery is just a single part of hair transplantation process and after the process using right medications and providing good care for recipient and donor are is another important part of the process. During this period it is important for us to move forward with our patients and providing one to one follow up is very curutial part of our clinic. Trough our pollicy we compleate the years with over 250 satisfied patient for 28 years.",
+          "alt1": "Dr. Özlem Bicer"
+        },
+        "heading1": "Before & After",
+        "alt1": "before after icon"
+      },
+      "videoGallery": {
+        "title1": "Informative Videos",
+        "title2": "Patient Reviews",
+        "title3": "Interviews with Dr. Bicer",
+        "links": [
+          "Informative Videos",
+          "Patient Reviews",
+          "Interviews with Dr. Bicer"
+        ],
+        "informativeVideos": [
+          "Is There a Best Hair Transplant Technique? FUE vs FUT Explained by Dr. Özlem Biçer"
+        ],
+        "patientReviewVideos": [
+          "Patient Review - 001",
+          "Patient Review - 002",
+          "Patient Review - 003",
+          "Patient Review - 004",
+          "Patient Review - 005",
+          "Patient Review - 006",
+          "Patient Review - 007",
+          "Patient Review - 008",
+          "Patient Review - 009",
+          "Patient Review - 010",
+          "Patient Review - 011",
+          "Patient Review - 012",
+          "Patient Review - 013",
+          "Patient Review - 014",
+          "Patient Review - 015",
+          "Patient Review - 016",
+          "Patient Review - 017",
+          "Patient Review - 018",
+          "Patient Review - 035"
+        ],
+        "interviewVideos": [
+          "I want to talk about the successful hair restaration.",
+          "Dr Özlem Biçer an experienced hair transplant surgeon in Istanbul",
+          "The Bald Truth: Get Your Questions Answered About Hair Loss & Hair Transplants",
+          "Interview with Hair Transplant Network",
+          "Balld and Truth Patient Review",
+          "Bellicapelli Forum"
+        ]
+      }
+    },
+    "guides": {
+      "afterHairTransplantation": {
+        "afterHairTransplantationDoesItWork": {
+          "heading1": "Main Medical Causes of Hair Loss in Men",
+          "paragraph1": "Androgenetic alopecia is a genetically inherited form of hair loss caused by the activity of 5-alpha reductase type I and type II enzymes, which convert testosterone into dihydrotestosterone (DHT). In genetically predisposed individuals, DHT binds to sensitive hair follicles, leading to progressive follicular miniaturization and hair loss over time.",
+          "paragraph2": "Typical signs include:",
+          "listItem1": "Receding hairline:",
+          "listItem2": "Thinning at the crown",
+          "listItem3": "Gradual loss of density over time",
+          "paragraph3": "This condition can begin shortly after puberty and progresses with age if left untreated.",
+          "paragraph4": "Alopecia areata is an autoimmune disease in which the body’s immune system attacks the hair follicles. It causes sudden, round patches of hair loss on the scalp or beard.",
+          "listItem4": "It can occur at any age",
+          "listItem5": "Hair may regrow, but the condition can recur",
+          "listItem6": "Hair transplantation is not recommended during the active phase of this condition",
+          "paragraph5": "Scarring alopecia occurs when hair follicles are permanently damaged and replaced by scar tissue. This can result from:",
+          "listItem7": "Burns or trauma",
+          "listItem8": "Surgical scars",
+          "listItem9": "Infections",
+          "listItem10": "Certain inflammatory skin diseases (LPP, FFA, SLE, Acne, Keloides, Nucha, etc. )",
+          "paragraph6": "Hair transplantation into scar tissue may be possible, but graft survival can be lower because scar tissue has reduced blood circulation. We have no chance to perform hair transplantation to the patient who have active cicatricial alopecia.",
+          "paragraph7": "Telogen effluvium is a temporary form of hair loss that happens when stress, illness, or hormonal imbalance causes a large number of hair follicles to enter the resting phase.",
+          "paragraph8": "This leads to diffuse thinning across the scalp. Once the cause is treated, hair typically regrows naturally.",
+          "paragraph9": "If you experience sudden or rapid hair loss, or notice bald patches forming, you should seek medical advice. Hair loss can sometimes be associated with underlying medical or autoimmune conditions that require proper diagnosis and treatment.",
+          "paragraph10": "To receive a precise evaluation of your hair loss stage and treatment options, you can consult Dr. Özlem Biçer and her experienced medical team. A professional diagnosis ensures that the most suitable therapy or reconstructive approach is selected for your individual case.",
+          "titleLines1": [
+            "A) Androgenetic",
+            "Alopecia"
+          ],
+          "titleLines2": [
+            "B) Alopecia",
+            "Areata"
+          ],
+          "titleLines3": [
+            "C) Cicatricial",
+            "Alopecia"
+          ],
+          "titleLines4": [
+            "D) Telogen",
+            "Effluvium"
+          ],
+          "titleLines5": [
+            "Sudden",
+            "Hair Loss"
+          ],
+          "titleLines6": [
+            "Professional Hair ",
+            "Loss Assessment"
+          ]
+        },
+        "afterHairTransplantationHero": {
+          "heading1": "Guide",
+          "span1": "After Hair Transplantation",
+          "paragraph1": "As a clinic we give importance to post pre and post operation follow up is one of the most important part of hair transplantation. The surgery is just a single part of hair transplantation process and after the process using right medications and providing good care for recipient and donor are is another important part of the process. During this period it is important for us to move forward with our patients and providing one to one follow up is very curutial part of our clinic. Trough our pollicy we compleate the years with over 250 satisfied patient for 28 years."
+        },
+        "alt1": "FUE Step 1",
+        "alt2": "FUE Step 2",
+        "alt3": "FUE Step 3",
+        "alt4": "FUE Step 4",
+        "alt5": "FUE Step 5",
+        "title1": "How Much",
+        "title2": "Hair Loss Is Normal?",
+        "value1": "It is completely normal to lose some hair every day as part of the natural hair growth cycle.",
+        "value2": "A healthy person can lose up to 100 hairs per day, and this hair is normally replaced by new growth.",
+        "value3": "If you notice persistent and increased shedding or visible thinning, it is recommended to consult a qualified hair restoration specialist for evaluation.",
+        "links": [
+          "Before Hair Transplantation",
+          "After Hair Transplantation",
+          "Technology & Hair Transplantation",
+          "Complications of Hair Surgery",
+          "Frequently Asked Questions"
+        ]
+      },
+      "beforeHairTransplantation": {
+        "beforeHairTransplantationDoesItWork": {
+          "paragraph1": "Before scheduling surgery, every patient must undergo a detailed medical evaluation, including:",
+          "listItem1": "Review of medical history",
+          "listItem2": "Assessment of hair loss type and stage",
+          "listItem3": "Evaluation of donor area capacity",
+          "listItem4": "Trichoscopic examination, if required",
+          "listItem5": "Blood tests (as requested by the clinic)",
+          "paragraph2": "Please inform your doctor if you have:",
+          "listItem6": "Chronic illnesses (diabetes, heart disease, autoimmune disorders)",
+          "listItem7": "Bleeding disorders",
+          "listItem8": "Allergies",
+          "listItem9": "History of poor wound healing",
+          "listItem10": "Previous hair transplant procedures",
+          "paragraph3": "Accurate medical information is critical for your safety.",
+          "paragraph4": "Medications to Stop (If Approved by Your Doctor)",
+          "listItem11": "Aspirin and blood thinners: stop at least 7–10 days before surgery",
+          "listItem12": "Anti-inflammatory drugs (NSAIDs): stop 5–7 days before",
+          "listItem13": "Vitamin E, Omega-3, ginkgo biloba, ginseng, garlic supplements: stop 7 days before",
+          "listItem14": "Herbal supplements: stop 7–10 days before",
+          "listItem15": "⚠️ Do not stop prescribed medications without medical approval.",
+          "listItem16": "Smoking should be stopped at least 7 days before surgery (ideally 2–4 weeks for best results)",
+          "listItem17": "Alcohol must be avoided for at least 3 days before surgery",
+          "paragraph5": "Smoking and alcohol significantly reduce blood circulation, increase bleeding risk, and negatively affect graft survival.",
+          "listItem18": "Wash your hair the night before or the morning of surgery using a mild shampoo",
+          "paragraph6": "Do not apply:",
+          "listItem19": "Hair gel",
+          "listItem20": "Wax",
+          "listItem21": "Spray",
+          "listItem22": "Oils or lotions",
+          "listItem23": "Do not dye your hair within 7 days before surgery",
+          "listItem24": "Avoid scalp treatments or aggressive massage before surgery",
+          "paragraph7": "If you are undergoing unshaven or long hair transplantation, follow the clinic’s specific instructions.",
+          "listItem25": "Eat a light but nutritious meal on the morning of surgery",
+          "listItem26": "Avoid heavy, fatty, or spicy foods",
+          "listItem27": "Drink sufficient water, but avoid excessive caffeine",
+          "listItem28": "Do not come fasting unless specifically instructed",
+          "listItem29": "Proper hydration helps maintain stable blood pressure and circulation during the procedure.",
+          "listItem30": "Wear comfortable, loose-fitting clothes",
+          "listItem31": "Choose button-down or zip-up tops (avoid clothing that must be pulled over the head)",
+          "listItem32": "Do not bring valuables to the clinic",
+          "paragraph8": "Remove:",
+          "listItem33": "Jewelry",
+          "listItem34": "Piercings",
+          "listItem35": "Contact lenses (if advised)",
+          "listItem36": "Arrange your travel so you arrive at least one day before surgery, if possible",
+          "paragraph9": "Ensure accommodation allows you to:",
+          "listItem37": "Sleep comfortably with head elevation",
+          "listItem38": "Rest for the first few days",
+          "listItem39": "Do not plan long flights immediately after surgery unless approved",
+          "listItem40": "Get a good night’s sleep before the procedure",
+          "listItem41": "Avoid intense physical exercise 48 hours before surgery",
+          "listItem42": "Reduce stress as much as possible",
+          "listItem43": "Being well-rested improves healing and overall comfort.",
+          "listItem44": "Arrive at the clinic on time",
+          "listItem45": "Hairline design and final planning will be done with your doctor",
+          "listItem46": "You will receive detailed information about the procedure steps",
+          "listItem47": "Local anesthesia will be applied",
+          "listItem48": "The procedure is performed while you are awake and comfortable",
+          "listItem49": "Hair transplantation is a medical procedure",
+          "paragraph10": "Results depend on:",
+          "listItem50": "Genetics",
+          "listItem51": "Hair loss progression",
+          "listItem52": "Donor capacity",
+          "listItem53": "Postoperative care",
+          "listItem54": "Immediate cosmetic appearance does not reflect final results",
+          "listItem55": "Final growth is evaluated after 12–15 months",
+          "listItem56": "Following pre-operative instructions strictly is one of the most important factors in achieving a successful and natural outcome.",
+          "titleLines1": [
+            "1. Medical Evaluation",
+            "& Consultation"
+          ],
+          "titleLines2": [
+            "2. Medications",
+            "& Supplements"
+          ],
+          "titleLines3": [
+            "3. Smoking",
+            "& Alcohol"
+          ],
+          "titleLines4": [
+            "4. Hair &",
+            "Scalp Preparation"
+          ],
+          "titleLines5": [
+            "5. Nutrition",
+            "& Hydration"
+          ],
+          "titleLines6": [
+            "6. Clothing",
+            "& Personal Items"
+          ],
+          "titleLines7": [
+            "7. Travel",
+            "& Accommodation Planning"
+          ],
+          "titleLines8": [
+            "8. Sleep",
+            "& Lifestyle Before Surgery"
+          ],
+          "titleLines9": [
+            "9. Day of Surgery",
+            "What to Expect?"
+          ],
+          "titleLines10": [
+            "10. Important",
+            "Final Notes"
+          ]
+        },
+        "beforeHairTransplantationHero": {
+          "heading1": "Guide",
+          "span1": "Before Hair Transplantation",
+          "paragraph1": "Proper preparation before hair transplantation is essential for patient safety, graft survival, and optimal results. Please read and follow the instructions below carefully."
+        },
+        "alt1": "FUE Step 1",
+        "alt2": "FUE Step 2",
+        "alt3": "FUE Step 3",
+        "alt4": "FUE Step 4",
+        "alt5": "FUE Step 5",
+        "links": [
+          "Before Hair Transplantation",
+          "After Hair Transplantation",
+          "Technology & Hair Transplantation",
+          "Complications of Hair Surgery",
+          "Frequently Asked Questions"
+        ]
+      }
+    },
+    "hairLoss": {
+      "cousesOfHairLoss": {
+        "femaleHairLoss": {
+          "femaleContent": {
+            "heading1": "PREGNANCY",
+            "paragraph1": "Pregnancy is one of the greatest stressful situations a woman can inflict on your body. During this time, hormone levels are completely different from normal times and cause many changes in the body – and your hair does not gain immunity from this effect.",
+            "paragraph2": "During pregnancy, there is an increased level of the hormone estrogen. Estrogen causes your hair to remain in the growing stage of the hair growth cycle, as well as stimulating hair to grow if it’s not already. While you are pregnant, you should expect to have a full, luscious head of hair.",
+            "paragraph3": "During pregnancy, the level of estrogen hormones is increased. When you are pregnant, estrogen works by keeping your hair in the extension phase of the hair growth cycle and promoting hair growth when it is not already at that level. You expect your hair to look voluminous and attractive even during your pregnancy.",
+            "paragraph4": "But things change after birth. When your hormones return to normal, your body will be in shock and you will experience severe hair loss.",
+            "paragraph5": "This then means that all the estrogen that prevented hair loss disappears and in that case the hair loss begins. This can be unfortunate because 60% of the hair can go into dormancy at the same time and too much hair can suddenly fall off, but the hair will grow back again. Hair loss caused by pregnancy is a special form of telogen effluvium.",
+            "heading2": "POLYCYSTIC OVAR SYNDROME",
+            "paragraph6": "Polycystic Ovary Syndrome – or PKOS – especially effective on your hormonal balance – causes hormonal imbalances as it is a hormonal disorder. Women with PKOS have high levels of androgen, testosterone, and dihydrotestosterone (DHT). Hair loss caused by DHT is common in women with PKOS.",
+            "paragraph7": "When high levels of androgens – specifically DHT – are on the hair follicles, they begin to affect the hair, causing hair loss. DHT can clog the hair follicle and prevent new hair from forming. This is essentially another form of androgenetic alopecia.",
+            "heading3": "MENOPAUSE",
+            "paragraph8": "Menopause has a myriad of effects on your body and hair, resulting in a decrease in estrogen levels. In addition to hot flashes, expect mood swings and sudden increases in facial hair – hairline retraction and increase in hair loss. This is due to decreased levels of estrogen. Since estrogen keeps your hair in its growth phase, low levels cause the hair to shorten its growth cycle and clumps of hair to fall off before they reach the attainable length.",
+            "heading4": "ANEMIA",
+            "paragraph9": "Anemia is a blood disorder caused by iron deficiency. Iron is an incredibly important nutrient for your hair. Anemia is typically caused by a lack of iron-rich food in your diet or when your cells do not absorb iron properly. If you’ve noticed that you have thinning hair, it may be worth speaking to your doctor first to see if you are anemic to any degree. Iron levels can be corrected through some form of iron supplement and dietary change.",
+            "paragraph10": "Iron is important for hair because it contains ferritin, a stored iron that helps produce hair cell proteins. The right ferritin levels will also maximize the analgenic (growth) phase of your hair and encourage hair growth to the correct length.",
+            "heading5": "Other Causes Of The Hair Loss",
+            "paragraph11": "To learn more about the type of hair loss you may experience and the solutions available to you, book a consultation for a detailed assessment.",
+            "heading6": "What is the Ludwig Scale",
+            "paragraph12": "Pattern of female pattern baldness",
+            "paragraph13": "Clinicians use the Ludwig classification to describe hair loss in women. Type I is a minimal dilution that can be camouflaged using hair styling techniques. Type II is characterized by a smaller volume and a significant spread of the midline part. Type III describes diffuse thinning with a see-through appearance on the top of the scalp.",
+            "heading7": "Tips To Help Women Spot The First Signs",
+            "paragraph14": "Hair falls more than usual for more than two months – maybe when washing, brushing, or on pillows and clothes. It’s normal to lose up to 100 hairs a day, so if you leave more days between hair washes than you normally do, the amount of hair loss you see will be more noticeable.",
+            "paragraph15": "Thin ponytail.",
+            "paragraph16": "The scalp becomes more visible or the hair has less volume than before.",
+            "paragraph17": "The hair doesn’t grow as long as it used to.",
+            "paragraph18": "The ends are finer than usual, but it doesn’t break. Many new hairs can also grow out of the scalp in varying lengths.",
+            "paragraph19": "Your hair will gradually become finer in the front, crown, or temple areas of your scalp.",
+            "paragraph20": "Excessive hair growth on other parts of the body, such as the face, chest, or arms.",
+            "heading8": "Hair Transplant In Women",
+            "paragraph21": "Hair loss and baldness are problems that women also suffer from. Hair transplant is one of the possible solution for these problems. However, hair transplantation would not be the first solution for women. Because the cause of hair loss in women would not be androgenetic alopecia which is the main cause of baldness in men, but would have hormonal and dietary imbalances or autoimmune diseases. Baldness caused by hormonal changes, on the other hand, is more common than androgenetic alopecia. For this reason, before planning hair transplant surgery, an analysis must be performed to see the values ​​of the hormones that affect the hair and scalp. If a hormonal cause is not observed and the result of the analysis indicates androgenetic alopecia. The patient is suitable for undergoing hair transplant surgery. At this point the most important factor to pay attention to is the hair transplant method performed on women. The most used and preferred method by women is hair transplant without shaving. In this method there are three options offered to the patient; hair transplant with partial shaving, FUT or FUE without shaving. Each of these methods has drawbacks and advantages. For example in the FUT method the number of extracted grafts is more limited than in FUE. In hair transplantation with partial shaving, the patient has to wait for the shaved hair to grow back to reach the length of the unshaven hair. This period would be unpleasant. Although unshaved hair transplantation is a more preferred method for women, it is a more expensive procedure and would have a risk of infection. In all types of operations, the doctor must minimize the risks and complications.",
+            "alt1": "female hair loss girls",
+            "alt2": "female ludwig scale",
+            "alt3": "female hair loss girls"
+          },
+          "femaleHairLossHero": {
+            "heading1": "Female",
+            "span1": "Hair Loss",
+            "paragraph1": "About a third of women will experience hair loss (alopecia) at some point in their life; After menopause, two thirds of women experience hair thinning or bald spots on their heads. In contrast to men, hair loss is very effective in women because it is less socially acceptable for women. Alopecia can seriously affect a woman’s emotional health and quality of life.",
+            "paragraph2": "At Doctor Özlem Biçer’s clinic, we understand how much a woman’s self-confidence is caused by hair loss. But before starting the journey of regaining self-confidence, it is important to determine what type of hair loss you are facing. After determining the nature of your exposure, your doctor will begin considering treatment and, in some cases, considering having a hair transplant. In order to protect the emotional health of the patient, the hair transplant performed by Doctor Özlem Biçer is performed without a full head shave. It is therefore incomprehensible that you have had a hair transplant.",
+            "paragraph3": "There are generally three types of hair loss in women. These are grouped into the following three categories – androgenetic alopecia, telogen effluvium, and abnormal hair loss. Androgenetic alopecia is the leading cause of hair loss in women and in this case, hair loss in women is less predictable than it is in men. Telogen effluvium can be triggered by drug consumption, diet, and stress. Then there are the other rare types of hair loss that fall into the non-normal hair loss category.",
+            "paragraph4": "The causes of hair loss in women",
+            "alt1": "Dr. Özlem Bicer"
+          },
+          "title1": "Patient Results",
+          "links": [
+            "Male Hair Loss",
+            "Female Hair Loss"
+          ]
+        },
+        "maleHairLoss": {
+          "maleHairDoesItWork": {
+            "heading1": "Main Medical Causes of Hair Loss in Men",
+            "paragraph1": "Androgenetic alopecia is a genetically inherited form of hair loss caused by the activity of 5-alpha reductase type I and type II enzymes, which convert testosterone into dihydrotestosterone (DHT). In genetically predisposed individuals, DHT binds to sensitive hair follicles, leading to progressive follicular miniaturization and hair loss over time.",
+            "paragraph2": "Typical signs include:",
+            "listItem1": "Receding hairline",
+            "listItem2": "Thinning at the crown",
+            "listItem3": "Gradual loss of density over time",
+            "paragraph3": "This condition can begin shortly after puberty and progresses with age if left untreated.",
+            "paragraph4": "Alopecia areata is an autoimmune disease in which the body’s immune system attacks the hair follicles. It causes sudden, round patches of hair loss on the scalp or beard.",
+            "listItem4": "It can occur at any age",
+            "listItem5": "Hair may regrow, but the condition can recur",
+            "listItem6": "Hair transplantation is not recommended during the active phase of this condition",
+            "paragraph5": "Scarring alopecia occurs when hair follicles are permanently damaged and replaced by scar tissue. This can result from:",
+            "listItem7": "Burns or trauma",
+            "listItem8": "Surgical scars",
+            "listItem9": "Infections",
+            "listItem10": "Certain inflammatory skin diseases (LPP, FFA, SLE, Acne, Keloides, Nucha, etc. )",
+            "paragraph6": "Hair transplantation into scar tissue may be possible, but graft survival can be lower because scar tissue has reduced blood circulation. We have no chance to perform hair transplantation to the patient who have active cicatricial alopecia.",
+            "paragraph7": "Telogen effluvium is a temporary form of hair loss that happens when stress, illness, or hormonal imbalance causes a large number of hair follicles to enter the resting phase.",
+            "paragraph8": "This leads to diffuse thinning across the scalp. Once the cause is treated, hair typically regrows naturally.",
+            "paragraph9": "If you experience sudden or rapid hair loss, or notice bald patches forming, you should seek medical advice. Hair loss can sometimes be associated with underlying medical or autoimmune conditions that require proper diagnosis and treatment.",
+            "paragraph10": "To receive a precise evaluation of your hair loss stage and treatment options, you can consult Dr. Özlem Biçer and her experienced medical team. A professional diagnosis ensures that the most suitable therapy or reconstructive approach is selected for your individual case.",
+            "titleLines1": [
+              "A) Androgenetic",
+              "Alopecia"
+            ],
+            "titleLines2": [
+              "B) Alopecia",
+              "Areata"
+            ],
+            "titleLines3": [
+              "C) Cicatricial",
+              "Alopecia"
+            ],
+            "titleLines4": [
+              "D) Telogen",
+              "Effluvium"
+            ],
+            "titleLines5": [
+              "Sudden",
+              "Hair Loss"
+            ],
+            "titleLines6": [
+              "Professional Hair",
+              "Loss Assessment"
+            ]
+          },
+          "maleHairLossHero": {
+            "heading1": "Male",
+            "span1": "Hair Loss",
+            "paragraph1": "Hair loss in men is a very common condition and can have many different causes. Before starting any treatment, it is essential to determine the underlying reason for the hair loss so that the most appropriate and effective solution can be chosen.",
+            "paragraph2": "For example, if a patient has a hormonal disorder such as hyperthyroidism, this medical condition should be treated first. In other cases, vitamin or mineral deficiencies may contribute to hair loss and can be managed with proper supplementation.",
+            "paragraph3": "There are several medical and supportive treatments for male hair loss, including:",
+            "listItem1": "PRP (Platelet-Rich Plasma) therapy",
+            "listItem2": "Mesotherapy",
+            "listItem3": "Medications such as topical minoxidil or oral finasteride",
+            "listItem4": "Nutritional and hormonal support",
+            "listItem5": "Stamp Cell Therapies",
+            "listItem6": "Exosome",
+            "paragraph4": "However, it is important to understand that:",
+            "paragraph5": "Hair transplantation does not stop or cure hair loss. It is a reconstructive procedure performed only when hair loss has stabilized.",
+            "alt1": "Dr. Özlem Bicer"
+          },
+          "norwoodScale": {
+            "heading1": "Norwood Scale",
+            "paragraph1": "Measuring Male Pattern Baldness",
+            "paragraph2": "The Norwood Scale is the most widely used tool to evaluate and classify male pattern baldness, also known as androgenetic alopecia. It helps both doctors and patients understand the severity and progression of hair loss in men.",
+            "paragraph3": "Previously referred to as the Hamilton–Norwood Scale, it is now commonly known simply as the Norwood Scale.",
+            "paragraph4": "The classification system was originally introduced by Dr. James Hamilton in the 1950s. It was later refined and expanded by Dr. O’Tar Norwood in the 1970s, who adapted the scale specifically for the assessment of male pattern hair loss.",
+            "paragraph5": "Today, it remains the standard reference for diagnosing the stage of androgenetic alopecia.",
+            "paragraph6": "The Norwood Scale is used to determine how advanced a patient’s hair loss is. It provides a visual and clinical reference, allowing both the physician and the patient to compare the hairline and crown with standardized stages.",
+            "paragraph7": "The scale classifies hair loss into seven main stages (Type I to Type VII), ranging from:",
+            "listItem1": "Minimal or no hair loss to severe hair loss affecting the entire top of the scalp",
+            "paragraph8": "A mirror or professional evaluation is recommended to accurately compare your hair to the scale.",
+            "alt1": "male hair table",
+            "titleLines1": [
+              "What Is",
+              "Norwood Scale?"
+            ],
+            "titleLines2": [
+              "Who Developed",
+              "The Norwood Scale?"
+            ],
+            "titleLines3": [
+              "How Is The",
+              "Norwood Scale Used?"
+            ]
+          },
+          "title1": "How Much",
+          "title2": "Hair Loss Is Normal?",
+          "value1": "It is completely normal to lose some hair every day as part of the natural hair growth cycle.",
+          "value2": "A healthy person can lose up to 100 hairs per day, and this hair is normally replaced by new growth.",
+          "value3": "If you notice persistent and increased shedding or visible thinning, it is recommended to consult a qualified hair restoration specialist for evaluation.",
+          "title3": "Patient Results",
+          "links": [
+            "Male Hair Loss",
+            "Female Hair Loss"
+          ]
+        }
+      },
+      "treatmentsOfHairLoss": {
+        "hairMesotherapy": {
+          "hairMesotherapyDoesItWork": {
+            "paragraph1": "The results last, however we recommend regular maintenance treatments.",
+            "paragraph2": "Capillary mesotherapy stops hair loss. The quality of the hair will improve dramatically.",
+            "heading1": "Why Choose Capillary Mesotherapy?",
+            "paragraph3": "It gives progressive results and is very effective It is safe, with no side effects. It requires little or no post-treatment recovery time (redness caused by micro injections can last for up to a day).",
+            "titleLines1": [
+              "Will The",
+              "Result Last?"
+            ],
+            "titleLines2": [
+              "What Are The Results",
+              "Of Capillary Mesotherapy?"
+            ]
+          },
+          "hairMesotherapyHero": {
+            "heading1": "Hair",
+            "span1": "Mesotherapy",
+            "paragraph1": "Mesotherapy is a technique in which microscopic amounts of drugs, vitamins, minerals and amino acids (Vasodilator and DHT Blockers) are administered to the upper and middle layers of the scalp skin to treat hair loss and increase the quality of existing hair by stimulating hair regeneration.",
+            "paragraph2": "This method has obtained special recognition in the field of aesthetic medicine as it is one of the most effective non-surgical techniques for treating the scalp. In fact, no cream or serum can deliver the biological active ingredients into the cells of the scalp and activate the hair metabolism as effectively as mesotherapy.",
+            "paragraph3": "The technique of micro injections with mesotherapy This technique consists in the administration of a mesotherapy cocktail by means of intra-dermal micro injections, placing the nutrients directly in the dermal tissues.",
+            "paragraph4": "The needle also creates micro perforations that induce the tissues involved in a healing process, which stimulates the scalp to produce collagen and elastin, two of the main building blocks of the skin.",
+            "paragraph5": "The procedure takes about 10 sessions of 15 minutes each to achieve the desired effects. What are the recovery times after the treatment? The treatment does not require any recovery time.",
+            "paragraph6": "Most people undergoing this treatment in fact immediately return to their normal activities after the procedure without any side effects.",
+            "alt1": "Dr. Özlem Bicer"
+          },
+          "title1": "Patient Results",
+          "links": [
+            "Hair Mesotherapy",
+            "PRP Hair Treatment",
+            "Stamp Cell Treatment",
+            "Trichopat Treatment"
+          ]
+        },
+        "prpHair": {
+          "prpHairDoesItWork": {
+            "alt1": "FUE Hair Transplant",
+            "benefits": {
+              "title": [
+                "Benefits Of",
+                "PRP Therapy"
+              ],
+              "content": [
+                {
+                  "type": "paragraph",
+                  "value": "There are countless reasons why an increasing number of people are opting for PRP therapy and why doctors are also suggesting the same thing. These are:"
+                },
+                {
+                  "type": "list",
+                  "value": [
+                    "The serum that is injected into the scalp is made using your own blood, which is why you really have nothing to fear. Since your own blood is used, the chances of the body rejecting it are minimal and this is also why the chances of success are higher.",
+                    "Since your blood will be used, there is no chance of infection or allergy, which exponentially increases the chances of success.",
+                    "The procedure involves a series of scalp injections administered according to the treatment plan. Local anesthesia may be used based on the patient’s needs and the physician’s assessment.",
+                    "Even if the therapy may not give you the kind of results you would have expected, surely thanks to this therapy you will not experience further hair loss."
+                  ]
+                }
+              ]
+            },
+            "procedure": {
+              "title": [
+                "Procedure Of",
+                "PRP Therapy"
+              ],
+              "content": [
+                {
+                  "type": "paragraph",
+                  "value": "When you are looking for an effective method for hair augmentation, a transplant may be the best solution, but PRP therapy can certainly be useful in the long term.Injections can support hair growth and ensure that there is proper collagen production."
+                },
+                {
+                  "type": "paragraph",
+                  "value": "The procedure is quite simple: the blood is drawn from your body and placed in a centrifuge, in which the platelet-rich plasma is separated from the rest of the elements. This plasma is then treated with growth factors and ready to be injected."
+                }
+              ]
+            }
+          },
+          "prpHairHero": {
+            "heading1": "What Is",
+            "span1": "PRP?",
+            "paragraph1": "Platelet-Rich Plasma (PRP) is a non-surgical, autologous treatment used to support hair health and slow down hair loss, especially in patients who are not yet ready for hair transplantation or who wish to enhance treatment outcomes. PRP is prepared from the patient’s own blood and contains a high concentration of platelets and growth factors that play a key role in tissue healing and regeneration.",
+            "paragraph2": "PRP therapy has shown promising results in patients with early-stage or ongoing hair loss, where hair thinning has begun but complete baldness has not yet developed. As a standalone hair loss treatment, PRP is typically performed once a month for three consecutive sessions.",
+            "paragraph3": "Platelets contain important intracellular components such as alpha granules, lysosomes, and glycogen, which release growth factors that stimulate cellular repair, improve blood supply, and support follicular activity. For this reason, PRP is also highly valuable during hair transplantation. At Dr. Özlem Biçer’s Clinic, PRP is used as a holding solution for follicular units during the transfer phase, helping to minimize graft dehydration, shorten out-of-body time, and increase graft survival rates.",
+            "paragraph4": "PRP is a safe and effective supportive treatment when performed under medical supervision and is often combined with hair transplantation to optimize healing and long-term results.",
+            "alt1": "Dr. Özlem Bicer"
+          },
+          "title1": "Patient Results",
+          "links": [
+            "Hair Mesotherapy",
+            "PRP Hair Treatment",
+            "Stamp Cell Treatment",
+            "Trichopat Treatment"
+          ]
+        },
+        "stampCellTreatment": {
+          "stampCellTreatmentDoesItWork": {
+            "paragraph1": "Stem cell–based treatments offer multiple biological benefits for both transplanted and existing hair:",
+            "listItem1": "Improves scalp vascularization and oxygenation",
+            "listItem2": "Stimulates follicular regeneration and repair",
+            "listItem3": "Prolongs the anagen (growth) phase of hair",
+            "listItem4": "Reduces hair shedding",
+            "listItem5": "Increases hair thickness and quality",
+            "listItem6": "Supports faster healing after hair transplantation",
+            "listItem7": "Enhances graft survival and overall transplant outcomes",
+            "listItem8": "Uses the patient’s own biological material, minimizing allergy risk",
+            "paragraph2": "Stem cell therapy is considered a biological booster, not a replacement for hair transplantation in advanced baldness.",
+            "paragraph3": "Stem cells release a wide range of growth factors, cytokines, and signaling molecules that influence hair follicle activity. When applied to the scalp, these bioactive substances:",
+            "listItem9": "Activate hair follicle stem cells",
+            "listItem10": "Stimulate dermal papilla cells",
+            "listItem11": "Increase collagen and extracellular matrix production",
+            "listItem12": "Improve blood supply around hair follicles",
+            "listItem13": "Support tissue repair and reduce inflammation",
+            "paragraph4": "In hair transplantation, stem cell therapy helps create a healthier scalp environment, which is critical for long-term hair growth and graft survival.:",
+            "paragraph5": "The procedure generally includes the following steps:",
+            "listItem14": "Harvesting",
+            "paragraph6": "A small amount of tissue (commonly adipose tissue or stem cell–rich follicular material) is collected under sterile conditions.",
+            "listItem15": "Processing",
+            "paragraph7": "The sample is processed to isolate stem cell–rich fractions or regenerative cellular components.",
+            "listItem16": "Application",
+            "paragraph8": "The prepared solution is applied or injected into targeted scalp areas or used during hair transplantation to support grafts and recipient tissue.",
+            "paragraph9": "The procedure is minimally invasive and performed under medical supervision.",
+            "paragraph10": "Stem cell therapy provides long-term biological support, but results are not permanent because hair loss is often progressive and genetically driven.",
+            "listItem17": "Initial improvement is typically observed within 3–6 months",
+            "listItem18": "Results may last 12–24 months",
+            "paragraph11": "Maintenance sessions may be recommended depending on:",
+            "listItem19": "Hair loss type",
+            "listItem20": "Genetic predisposition",
+            "listItem21": "Combination with medical treatments",
+            "paragraph12": "A personalized follow-up plan is essential.",
+            "paragraph13": "Stem cell therapy is most suitable for patients who:",
+            "listItem22": "Have early to moderate hair thinning",
+            "listItem23": "Want to slow down hair loss",
+            "listItem24": "Wish to strengthen existing hair",
+            "listItem25": "Are planning a hair transplant and want to optimize results",
+            "listItem26": "Have undergone hair transplantation and want additional support",
+            "listItem27": "Prefer biological and regenerative treatments",
+            "paragraph14": "It is not effective as a standalone solution for completely bald areas with no viable follicles.",
+            "paragraph15": "Yes. Stem cell therapy is frequently used:",
+            "listItem28": "Before surgery to improve scalp condition",
+            "listItem29": "During surgery to support graft survival",
+            "listItem30": "After surgery to accelerate healing and enhance growth",
+            "listItem31": "Alongside PRP or medical treatments for synergistic effects",
+            "paragraph16": "This combined approach helps achieve more natural, durable, and higher-quality results.",
+            "titleLines1": [
+              "Benefits of",
+              "Stem Cell Therapy for Hair Loss"
+            ],
+            "titleLines2": [
+              "How Does",
+              "Stem Cell Therapy Work?"
+            ],
+            "titleLines3": [
+              "How Is Stem Cell",
+              "Therapy Performed?"
+            ],
+            "titleLines4": [
+              "How Long",
+              "Stem Cell Last?"
+            ],
+            "titleLines5": [
+              "Who Is a Good Candidate for",
+              "Stem Cell Hair Therapy?"
+            ],
+            "titleLines6": [
+              "Can Stem Cell Therapy Be Combined ",
+              "with Hair Transplantation?"
+            ]
+          },
+          "stampCellTreatmentHero": {
+            "heading1": "What Is",
+            "span1": "Stamp Cell?",
+            "paragraph1": "Stem cell therapy in hair transplantation is a regenerative, supportive treatment designed to improve scalp health, strengthen existing hair follicles, and enhance the results of hair restoration procedures. In clinical hair practice, this therapy does not involve embryonic stem cells; instead, it uses autologous adult stem cells obtained from the patient’s own tissues, most commonly from adipose (fat) tissue or bone marrow, or stem cell–rich extracts derived from hair follicles.",
+            "paragraph2": "The main goal of stem cell therapy is to stimulate dormant or weakened hair follicles, improve the scalp microenvironment, and support natural hair growth and graft survival.",
+            "alt1": "Dr. Özlem Bicer"
+          },
+          "title1": "Patient Results",
+          "links": [
+            "Hair Mesotherapy",
+            "PRP Hair Treatment",
+            "Stamp Cell Treatment",
+            "Trichopat Treatment"
+          ]
+        },
+        "trichopatTreatment": {
+          "trichopatTreatmentDoesItWork": {
+            "paragraph1": "TRICOPAT® offers multiple clinically proven benefits:",
+            "listItem1": "Reduces hair shedding",
+            "listItem2": "Increases hair density and hair shaft diameter",
+            "listItem3": "Improves scalp microcirculation and oxygenation",
+            "listItem4": "Stimulates cellular metabolism and follicle regeneration",
+            "listItem5": "Supports and prolongs the anagen (growth) phase of hair",
+            "listItem6": "Needle-free application",
+            "listItem7": "Suitable for both men and women",
+            "listItem8": "Can be used alone or as an adjunct to medical therapy or hair transplantation",
+            "paragraph2": "Clinical studies have shown significant improvement after only four sessions, with excellent patient satisfaction and no serious side effects reported.",
+            "paragraph3": "TRICOPAT® combines several advanced technologies in a single device:",
+            "span1": "Controlled micro-dermal incision (Skin Patting®)",
+            "paragraph4": "Creates very superficial microchannels (0.25 mm) that activate the skin without causing scarring or trauma to surrounding mechanisms without causing scarring.",
+            "span2": "Pressure waves",
+            "paragraph5": "Trigger scalp microcirculation, tissue oxygenation, and cellular metabolism.",
+            "span3": "Iontophoresis",
+            "paragraph6": "Uses a mild electrical current to deliver preformed growth factors deep into the hair follicles, increasing their effectiveness.",
+            "span4": "Electrostimulation and LED photo stimulation",
+            "paragraph7": "Support fibroblast activation, collagen and elastin synthesis, and provide an anti-inflammatory effect.",
+            "paragraph8": "Together, these mechanisms allow growth factors to reach the follicle efficiently, resulting in reduced hair loss and stronger, thicker hair.",
+            "paragraph9": "The standard TRICOPAT® protocol consists of:",
+            "listItem9": "4 sessions",
+            "listItem10": "Performed once every 3 weeks",
+            "listItem11": "Each session lasts approximately 20–25 minutes",
+            "paragraph10": "This protocol has been shown to produce visible clinical and trichoscopic improvement in both men and women.",
+            "paragraph11": "TRICOPAT® results are long-lasting but not permanent, as hair loss is often a progressive condition.",
+            "paragraph12": "Most patients maintain their results with:",
+            "listItem12": "Periodic maintenance sessions, or",
+            "listItem13": "Combination with medical treatments (such as topical or oral therapies)",
+            "paragraph13": "Your physician will design a personalized maintenance plan based on your diagnosis and hair loss pattern.",
+            "paragraph14": "TRICOPAT® is especially suitable for patients who:",
+            "listItem14": "Are in the early or moderate stages of hair loss",
+            "listItem15": "Experience telogen effluvium",
+            "listItem16": "Have androgenetic alopecia (male or female)",
+            "listItem17": "Want a non-invasive, injection-free treatment",
+            "listItem18": "Wish to enhance the results of medical therapy or hair transplantation",
+            "paragraph15": "A detailed medical and trichoscopic evaluation is essential to determine candidacy.",
+            "paragraph16": "Yes. TRICOPAT® can be used:",
+            "listItem19": "Before hair transplantation to improve scalp quality",
+            "listItem20": "After hair transplantation to support healing and graft vitality",
+            "listItem21": "As a long-term supportive therapy to protect native hair",
+            "titleLines1": [
+              "What Are the",
+              "Benefits of TRICOPAT®?"
+            ],
+            "titleLines2": [
+              "How Does",
+              "TRICOPAT® Work?"
+            ],
+            "titleLines3": [
+              "How Many",
+              "Sessions Are Needed?"
+            ],
+            "titleLines4": [
+              "How Long",
+              "Do the Results Last?"
+            ],
+            "titleLines5": [
+              "Who Is a Good",
+              "Candidate for TRICOPAT®?"
+            ],
+            "titleLines6": [
+              "Can TRICOPAT® Be Combined",
+              "with Hair Transplantation?"
+            ]
+          },
+          "trichopatTreatmentHero": {
+            "heading1": "What Is",
+            "span1": "Tricopat?",
+            "paragraph1": "TRICOPAT® is a patented, non-invasive medical device developed in Italy for the treatment of hair loss and scalp disorders. It is scientifically validated for both male and female patients and is used in conditions such as androgenetic alopecia and telogen effluvium. The technology is based on the TRICOGENESI® protocol, which delivers growth factors into the scalp without injections or surgery, making it a comfortable alternative or supportive treatment to medical therapy and hair transplantation .",
+            "alt1": "Dr. Özlem Bicer"
+          },
+          "title1": "Patient Results",
+          "links": [
+            "Hair Mesotherapy",
+            "PRP Hair Treatment",
+            "Stamp Cell Treatment",
+            "Trichopat Treatment"
+          ]
+        }
+      }
+    },
+    "header": {
+      "headerLogo": {
+        "alt1": "ozlembicer logo"
+      },
+      "span1": "info@ozlembicer.com",
+      "span2": "info@ozlembicer.com"
+    },
+    "transplantation": {
+      "beardTransplantation": {
+        "beardHero": {
+          "heading1": "Beard",
+          "span1": "Transplant",
+          "heading2": "What Is",
+          "span2": "Beard Transplant?",
+          "paragraph1": "Beard transplantation is a specialized hair restoration procedure designed to improve beard density, shape, and symmetry. At our clinic, Dr. Özlem Biçer and her experienced medical team perform facial hair transplants for men who wish to enhance thin areas, correct patchy growth, or restore hair loss caused by scarring or medical conditions.",
+          "paragraph2": "Facial hair transplantation is technically more demanding than scalp hair transplantation and requires advanced surgical experience and precise artistic planning. The procedure can be performed to restore:",
+          "listItem1": "Beard density",
+          "listItem2": "Mustache growth",
+          "listItem3": "Sideburns",
+          "listItem4": "Facial scars",
+          "alt1": "Dr. Özlem Bicer"
+        },
+        "paragraph1": "Beard hair loss or absence may result from:",
+        "listItem1": "Genetic factors",
+        "listItem2": "Burns, scars, or skin injuries",
+        "listItem3": "Previous surgical procedures",
+        "listItem4": "Radiation therapy",
+        "listItem5": "Certain systemic diseases",
+        "listItem6": "Trichotillomania (a compulsive hair-pulling disorder)",
+        "paragraph2": "A detailed consultation is essential to determine the underlying cause and suitability for treatment.",
+        "paragraph3": "Beard and mustache hairs naturally grow as single-hair follicular units, which is critical for achieving a natural appearance.",
+        "paragraph4": "Each follicle must be implanted individually, with precise attention to:",
+        "listItem7": "Direction",
+        "listItem8": "Angle",
+        "listItem9": "Depth",
+        "listItem10": "Spacing",
+        "paragraph5": "This meticulous approach ensures that the transplanted beard blends seamlessly with existing facial hair.",
+        "paragraph6": "Approximate Graft Requirements",
+        "listItem11": "1,200–1,500 grafts for a goatee",
+        "listItem12": "2,500–3,000 grafts for a full beard",
+        "paragraph7": "The exact number of grafts varies depending on facial structure, desired density, and existing hair.",
+        "paragraph8": "The donor hair is typically harvested from the scalp, as scalp hair follicles are genetically programmed to grow long-term even after being transplanted to the beard area.",
+        "paragraph9": "Beard transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on the patient’s donor area, graft requirements, and surgical plan.",
+        "listItem13": "FUE involves the individual extraction of hair follicles using micro punches",
+        "listItem14": "FUT involves removing a thin strip of scalp, followed by microscopic graft preparation",
+        "paragraph10": "After extraction, grafts are carefully cleaned, refined, and prepared for implantation into the beard area.",
+        "paragraph11": "A beard transplant provides long-lasting and permanent results, as transplanted scalp hair follicles continue to grow in their new location.",
+        "listItem15": "Initial healing occurs within days",
+        "listItem16": "Temporary shedding may occur within the first few weeks",
+        "listItem17": "New growth typically begins after 3–4 months",
+        "listItem18": "Final results are usually evaluated after 9–12 months",
+        "paragraph12": "An immediate visual improvement may be noticeable after the procedure, but full maturation takes time.",
+        "paragraph13": "The cost of a beard transplant varies depending on:",
+        "listItem19": "The size of the treatment area",
+        "listItem20": "The number of grafts required",
+        "listItem21": "The technique used",
+        "paragraph14": "Prices generally range between USD 2,500 and USD 4,500, but an exact cost can only be determined after a personalizedn consultation.",
+        "paragraph15": "For a personalized evaluation, you may contact us via email or WhatsApp to arrange a free consultation with Dr. Özlem Biçer.",
+        "heading1": "Important Note for Patients",
+        "paragraph16": "Beard transplantation is a medical procedure, and results vary depending on individual healing capacity, hair characteristics, and surgical planning. A thorough consultation is essential to set realistic expectations and achieve the best possible outcome.",
+        "title1": "Who Is a Candidate for",
+        "title2": "Beard Transplantation?",
+        "value1": "Nearly half of all men experience uneven or patchy beard growth, often due to genetic factors. Beard transplantation may be a suitable solution for men who:",
+        "value2": "Cannot grow a full beard naturally",
+        "value3": "Have thin or patchy areas",
+        "value4": "Wish to define sharper beard contours",
+        "value5": "Have facial scars from injury, burns, surgery, or acne",
+        "value6": "Even mild facial hair loss can benefit from a beard transplant, depending on the patient’s expectations and facial structure.",
+        "titleLines1": [
+          "Causes of",
+          "Beard Hair Loss"
+        ],
+        "titleLines2": [
+          "How Does a Beard",
+          "Transplant Work?"
+        ],
+        "titleLines3": [
+          "Beard Transplantation",
+          "Methods"
+        ],
+        "titleLines4": [
+          "FUE & FUT",
+          "Techniques"
+        ],
+        "titleLines5": [
+          "Results &",
+          "Permanence"
+        ],
+        "titleLines6": [
+          "Beard",
+          "Transplant Cost"
+        ]
+      },
+      "eyebrownTransplant": {
+        "eyebrownHero": {
+          "heading1": "Eyebrown",
+          "span1": "Transplant",
+          "heading2": "What Is",
+          "span2": "Eyebrow Transplant?",
+          "paragraph1": "Eyebrows play a critical role in facial expression and overall appearance. Their shape and density can significantly influence how the face is perceived, making it appear more attractive, more feminine, or even more assertive.",
+          "paragraph2": "Trends in fashion also affect eyebrow preferences. At different times, patients may prefer thin, thick, or contoured eyebrows. Repeated plucking, shaping, or waxing over long periods can cause chronic traction damage, leading to permanent loss of eyebrow hairs that may no longer regrow naturally. When patients wish to restore their original eyebrow shape and density, eyebrow transplantation becomes an effective solution.",
+          "paragraph3": "In rare cases, some patients may have congenital absence or very sparse eyebrows, and eyebrow transplantation is also a suitable option for these individuals.",
+          "paragraph4": "For eyebrow transplantation, we prefer the long hair FUE technique and use fine hairs harvested from the lower safe donor zone. This approach allows us to select softer, thinner hairs and implant them with precise angles and directions, ensuring a natural and aesthetically harmonious eyebrow result.",
+          "alt1": "Dr. Özlem Bicer"
+        },
+        "paragraph1": "Eyebrow hair loss or thinning may be caused by:",
+        "listItem1": "Genetic factors",
+        "listItem2": "Trichotillomania (a compulsive hair-pulling disorder)",
+        "listItem3": "Systemic or autoimmune diseases",
+        "listItem4": "Excessive or long-term plucking",
+        "listItem5": "Chemotherapy or radiation therapy",
+        "listItem6": "Skin injuries caused by burns, trauma, piercings, or tattoos",
+        "paragraph2": "Some patients seek eyebrow transplantation to restore full, thick eyebrows, while others prefer subtle enhancement or scar coverage. Each treatment plan is individualized.",
+        "paragraph3": "Donor hair is typically harvested from the scalp, as scalp hair follicles are genetically programmed for lifelong growth.",
+        "paragraph4": "Once transplanted, eyebrow hairs will continue to grow and usually require trimming approximately once per month, which is normal and expected.",
+        "paragraph5": "To achieve a natural appearance:",
+        "listItem7": "Hair is implanted one by one",
+        "listItem8": "In some areas, hairs may be placed in one or two rows, mimicking natural eyebrow growth",
+        "listItem9": "Extremely fine incisions are used to allow precise placement",
+        "paragraph6": "Eyebrow transplantation can be performed using either FUE (Follicular Unit Extraction) or FUT (Follicular Unit Transplantation), depending on patient preferences, donor area characteristics, and surgical planning.",
+        "listItem10": "FUE involves individual follicle extraction and is often preferred by patients who wish to avoid a linear scar",
+        "listItem11": "FUT involves harvesting a small donor strip and is more commonly used in women, as the scar is easily concealed by longer hair",
+        "paragraph7": "All grafts are microscopically prepared to allow implantation into the smallest possible incisions.",
+        "paragraph8": "The eyebrow transplant procedure typically lasts 3 to 5 hours, depending on the number of grafts required and the desired eyebrow shape and density.",
+        "paragraph9": "Step-by-Step Overview:",
+        "listItem12": "Healthy hair follicles are harvested from the donor area at the back of the scalp",
+        "listItem13": "Local anesthesia is administered before follicle harvesting and implantation",
+        "listItem14": "Grafts are carefully prepared under magnification",
+        "listItem15": "The desired eyebrow shape is drawn and confirmed with the patient",
+        "listItem16": "Hair follicles are implanted with meticulous attention to angle, direction, and depth",
+        "paragraph10": "Once the donor incision is closed, it generally heals quickly and becomes barely noticeable within a few days.",
+        "paragraph11": "At the Dr. Özlem Biçer Clinic:",
+        "paragraph12": "Approximately 250 to 750 hairs are transplanted per eyebrow, depending on:",
+        "listItem17": "Existing eyebrow hair",
+        "listItem18": "Desired fullness",
+        "listItem19": "Facial anatomy",
+        "listItem20": "Scar coverage needs",
+        "paragraph13": "The exact number of grafts is determined during the consultation.",
+        "paragraph14": "Eyebrow transplantation provides long-lasting and permanent results.",
+        "listItem21": "Mild redness and swelling usually resolve within a few days",
+        "listItem22": "Transplanted hairs may shed temporarily in the first weeks",
+        "listItem23": "New growth typically begins after 3–4 months",
+        "listItem24": "Final results are usually visible within 9–12 months",
+        "paragraph15": "Because eyebrow transplantation requires extreme precision, surgeon experience plays a critical role in achieving natural results.",
+        "heading1": "Important Note for Patients",
+        "paragraph16": "Eyebrow transplantation is a highly specialized procedure, and results may vary depending on individual healing capacity, hair characteristics, and medical history. A detailed consultation is essential to ensure realistic expectations and optimal outcomes.",
+        "title1": "Why Do People Choose",
+        "title2": "Eyebrow Transplantation?",
+        "value1": "Cosmetic solutions such as eyebrow pencils or powders only provide a temporary, two-dimensional appearance and require frequent reapplication. They cannot fully replicate the natural texture or direction of real eyebrow hair.",
+        "value2": "Eyebrow transplantation offers a permanent, three-dimensional solution, allowing men and women to achieve fuller, well-defined eyebrows that grow naturally.",
+        "titleLines1": [
+          "Causes of",
+          "Eyebrow Hair Loss"
+        ],
+        "titleLines2": [
+          "Donor Hair for",
+          "Eyebrow Transplantation"
+        ],
+        "titleLines3": [
+          "Eyebrow Transplant",
+          "Techniques: FUE & FUT"
+        ],
+        "titleLines4": [
+          "Procedure &",
+          "Duration"
+        ],
+        "titleLines5": [
+          "Number of",
+          "Grafts Used"
+        ],
+        "titleLines6": [
+          "Results",
+          "& Permanence"
+        ]
+      },
+      "hairTransplant": {
+        "bodyHair": {
+          "howDoesItWorkBodyHair": {
+            "paragraph1": "Body Hair Transplantation is usually considered for patients who:",
+            "listItem1": "Have a weak or insufficient scalp donor area",
+            "listItem2": "Have had multiple previous hair transplants",
+            "listItem3": "Have certain forms of alopecia or scarring hair loss",
+            "paragraph2": "However, it is important to understand that if both scalp and body donor hair quality is weak, the final outcome may be limited.Patients with insufficient donor hair overall may not be suitable candidates for any form of hair transplantation.",
+            "paragraph3": "Both conventional FUE and BHT use the Follicular Unit Extraction (FUE) technique, meaning hair follicles are harvested one by one, without removing a strip of skin.",
+            "paragraph4": "Key differences include:",
+            "span1": "Conventional FUE:",
+            "listItem4": "Donor hair is taken exclusively from the scalp",
+            "listItem5": "Hair characteristics closely match recipient scalp hair",
+            "span2": "BHT-FUE:",
+            "listItem6": "Donor hair is harvested from body areas such as the beard or chest",
+            "listItem7": "Used when scalp donor hair is insufficient",
+            "listItem8": "Body hair has different growth cycles and texture compared to scalp hair",
+            "paragraph5": "BHT grafts may grow at different rates and may not achieve the same length as scalp hair, which is why they are often used strategically—for example, to increase density rather than create the hairline.",
+            "paragraph6": "Body hair transplantation is usually performed using the FUE technique, which avoids linear scarring.",
+            "paragraph7": "The process includes:",
+            "listItem9": "Careful selection of suitable body donor areas",
+            "listItem10": "Extraction of follicular units using micro punches",
+            "listItem11": "Proper hydration and storage of grafts",
+            "listItem12": "Strategic implantation into the scalp to ensure natural blending",
+            "paragraph8": "If all physiological and medical requirements are met, body hair follicles can be successfully transferred to the scalp.",
+            "paragraph9": "Body Hair Transplantation requires high surgical expertise due to the unique characteristics of body hair.",
+            "paragraph10": "Key factors for success include:",
+            "listItem13": "Surgeon experience, as body hair differs significantly from scalp hair",
+            "listItem14": "Team expertise, especially in handling varying hair directions and textures",
+            "listItem15": "Proper extraction, storage, and hydration of body hair grafts",
+            "listItem16": "Precise creation of recipient sites to control angle and direction",
+            "listItem17": "Minimal follicle transection rate (FTR) to protect graft survival",
+            "listItem18": "Careful mixing of body hair with scalp hair for a natural appearance",
+            "paragraph11": "Because body hair behaves differently from scalp hair, BHT should always be performed conservatively and selectively.",
+            "paragraph12": "Body hair follicles retain many of their original growth characteristics after transplantation.",
+            "paragraph13": "This means:",
+            "listItem19": "Growth cycles may differ from scalp hair",
+            "listItem20": "Hair length and texture may not fully match scalp hair",
+            "listItem21": "Results can be permanent, but growth behavior may vary between patients",
+            "paragraph14": "For this reason, BHT is most effective when used as a complementary technique rather than a standalone solution",
+            "titleLines1": [
+              "Who Is a Suitable",
+              "Candidate for BHT?"
+            ],
+            "titleLines2": [
+              "Differences Between",
+              "BHT-FUE and Conventional FUE"
+            ],
+            "titleLines3": [
+              "How Is Body Hair",
+              "Transplantation Performed?"
+            ],
+            "titleLines4": [
+              "Important Considerations",
+              "About BHT"
+            ],
+            "titleLines5": [
+              "Is Body Hair",
+              "Transplant Permanent?"
+            ]
+          }
+        },
+        "common": {
+          "howDoesItWork": {
+            "title1": "Video"
+          }
+        },
+        "fueMicroMotor": {
+          "fueDoesItWorkFAQs": {
+            "paragraph1": "Androgenetic alopecia is a permanent and progressive condition, meaning that hair loss continues over time. Although the safe donor area is generally resistant to androgenetic alopecia, this resistance cannot be guaranteed for every patient for a lifetime.",
+            "paragraph2": "Ultimately, transplanted hair follicles also cannot be guaranteed to remain in the recipient area for the patient’s entire life.",
+            "paragraph3": "FUE involves creating tiny incisions in both the donor and recipient areas.",
+            "listItem1": "Scars are usually not noticeable if the patient use donor hairs less than 2cm length.",
+            "listItem2": "Donor-area marks are typically hidden by surrounding hair",
+            "listItem3": "If the hair is shaved very short, small dot scars may become visible, which is a known and normal characteristic of the FUE technique",
+            "paragraph4": "An FUE hair transplant procedure typically lasts between 4 and 12 hours, depending on:",
+            "listItem4": "The number of grafts required",
+            "listItem5": "Hair thickness and density",
+            "listItem6": "Individual scalp characteristics",
+            "paragraph5": "Hair Growth Timeline After FUE",
+            "listItem7": "First shedding: 2–6 weeks (normal and temporary)",
+            "listItem8": "New hair growth begins: around 3–4 months",
+            "listItem9": "Noticeable improvement: 6–9 months",
+            "listItem10": "Final results: after 12-18 months",
+            "paragraph6": "Not all transplanted follicles grow at the same time, as some remain temporarily in the resting (telogen) phase. Overall graft survival rates of up to 90–95% are commonly reported under optimal conditions.",
+            "paragraph7": "After extraction, the hair follicles are carefully stored in sterile containers. In some cases, grafts may be preserved in a solution enriched with the patient’s own Platelet-Rich Plasma (PRP), which may help support graft survival.",
+            "paragraph8": "Once the extraction phase is completed, microscopic channels are created in the recipient area. Each follicular unit is then implanted individually.",
+            "paragraph9": "The angle, direction, and depth of each graft are carefully planned to match natural hair growth, especially in the hairline area, to achieve a natural and aesthetically pleasing result.",
+            "paragraph10": "We use a needle-free anesthesia machine. During the first two to three minutes of local anesthesia, you may feel mild and tolerable discomfort. Once the anesthesia takes effect, the procedure continues under local anesthesia with patient comfort monitored throughout.",
+            "paragraph11": "Each patient’s comfort and response to anesthesia are assessed individually throughout FUE hair transplantation.",
+            "listItem11": "Mild discomfort may be felt during the first few minutes of local anesthesia",
+            "listItem12": "Local anesthesia is used during the procedure",
+            "listItem13": "Patients may feel tired from sitting for several hours, but regular breaks are provided",
+            "paragraph12": "During the procedure, patients can usually:",
+            "listItem14": "Watch TV",
+            "listItem15": "Listen to music",
+            "listItem16": "Relax comfortably",
+            "paragraph13": "After the operation, temporary tightness or sensitivity may occur. The care team provides individualized aftercare instructions and may recommend appropriate medication when needed.",
+            "paragraph14": "Minimally invasive technique",
+            "paragraph15": "No linear scar",
+            "paragraph16": "Natural-looking results",
+            "paragraph17": "Short recovery time",
+            "paragraph18": "Suitable for men and women",
+            "titleLines1": [
+              "Is Androgenetic Alopecia",
+              "Permanent?"
+            ],
+            "titleLines2": [
+              "Will There Be",
+              "Scarring After FUE?"
+            ],
+            "titleLines3": [
+              "How Long Does an",
+              "FUE Hair Transplant Take?"
+            ],
+            "titleLines4": [
+              "Graft Preservation",
+              "& Implantation"
+            ],
+            "titleLines5": [
+              "Anesthesia &",
+              "Patient Comfort"
+            ],
+            "titleLines6": [
+              "Why Choose",
+              "FUE Hair Transplant?"
+            ]
+          }
+        },
+        "futHair": {
+          "howDoesItWorkFut": {
+            "paragraph1": "Although there is extensive information available online about FUT and FUE techniques, many patients are not fully aware of how these procedures are actually performed.",
+            "paragraph2": "In FUT, once the donor strip is removed, it is dissected under a microscope into very fine follicular units. The donor area is then carefully sutured, which results in a linear scar.",
+            "paragraph3": "Dr. Özlem Biçer uses meticulous suturing techniques to ensure that the scar remains as thin and discreet as possible.",
+            "paragraph4": "The primary goal of FUT is to transfer hair from the most stable donor zone to areas where hair loss is most pronounced.",
+            "paragraph5": "For patient comfort, local anesthesia is administered to the donor and recipient areas.",
+            "listItem1": "A mild burning sensation may be felt during the first 5 minutes",
+            "listItem2": "Patients typically experience minimal discomfort during or after surgery",
+            "paragraph6": "The surgeon performs a precise horizontal incision to remove a strip of scalp containing healthy hair follicles from the donor area.",
+            "paragraph7": "Correct donor area selection is essential, as long-term hair growth depends on harvesting follicles from the genetically stable zone.",
+            "paragraph8": "To achieve a finer scar, Dr. Özlem Biçer uses the trichophytic closure technique, which allows hair to grow through the scar and helps make it less visible.",
+            "paragraph9": "The recipient area is one of the most critical stages, as it determines the final aesthetic outcome.",
+            "listItem3": "Microscopic incisions are created using fine blades",
+            "listItem4": "Hair direction and angle are carefully planned",
+            "listItem5": "Different blade sizes are used according to graft size",
+            "paragraph10": "To achieve a natural appearance, the surgeon ensures that transplanted hair follows the patient’s natural growth pattern.",
+            "paragraph11": "The harvested strip is first divided into thin sections called “slivers.” Excess tissue is removed from these slivers, and individual follicular units are carefully separated.",
+            "paragraph12": "Each graft is prepared individually to ensure minimal trauma and optimal survival.",
+            "paragraph13": "Once the strip is removed, it is placed in the patient’s own Platelet-Rich Plasma (PRP).",
+            "paragraph14": "PRP may help maintain graft hydration and viability during preparation, while also allowing time for careful closure of the donor wound.",
+            "paragraph15": "Once the recipient sites are prepared, the follicular units are implanted into the incisions.",
+            "paragraph16": "At the end of the procedure:",
+            "listItem6": "Each graft is checked individually",
+            "listItem7": "Postoperative care instructions are explained in detail",
+            "listItem8": "Patients receive a printed aftercare guide",
+            "paragraph17": "A headband or medical cap may be used to protect the treated area.",
+            "paragraph18": "FUT Scarn",
+            "paragraph19": "After FUT, a linear scar will remain in the donor area.",
+            "listItem9": "The scar heals over time and is usually thin and discreet",
+            "listItem10": "In most patients, the scar is concealed once the hair reaches a certain length",
+            "listItem11": "If the hair is shaved very short, the scar may become visible",
+            "paragraph20": "The visibility of the scar largely depends on surgical technique, scalp characteristics, and healing response.",
+            "titleLines1": [
+              "FUT",
+              "Hair Transplantation"
+            ],
+            "titleLines2": [
+              "Local",
+              "Anesthesia"
+            ],
+            "titleLines3": [
+              "Donor Tissue",
+              "(Strip Harvesting)"
+            ],
+            "titleLines4": [
+              "Preparation of",
+              "the Recipient Area"
+            ],
+            "titleLines5": [
+              "Graft Dissection",
+              "& Preparation"
+            ],
+            "titleLines6": [
+              "Preservation of",
+              "Donor Tissue"
+            ],
+            "titleLines7": [
+              "Transplantation & Completion",
+              "of the Procedure"
+            ],
+            "titleLines8": [
+              "Important Information",
+              "About FUT Hair Transplantation"
+            ]
+          }
+        },
+        "hairTransplantHero": {
+          "heading1": "Hair",
+          "span1": "Transplant",
+          "paragraph1": "At Dr. Biçer’s clinic, all hair restoration techniques are personally performed by Dr. Biçer. This allows her to objectively evaluate each patient and select the most appropriate technique based solely on medical needs, hair characteristics, and long-term expectations.",
+          "paragraph2": "It is also important to understand that hair transplantation is not a cure for hair loss. It is a highly effective camouflage technique for patients suffering from alopecia, designed to restore a natural appearance and improve self-confidence.",
+          "paragraph3": "Hair replacement surgery can change your appearance dramatically and boost your self-confidence. Among available methods, FUE (Follicular Unit Extraction) is considered the least invasive technique and offers the shortest recovery time.",
+          "paragraph4": "Most people can undergo surgery with little or no complications. However, not everyone is a suitable candidate for hair replacement surgery. Before undergoing any procedure, it is essential to discuss your expectations and undergo a thorough medical evaluation by your surgeon. To determine whether you are a good candidate, the following factors are carefully considered:",
+          "heading2": "OVERALL HEALTH CONDITIONS",
+          "paragraph5": "Are you generally in good health with no contraindications to treatment? Patients with cardiac conditions, congenital bleeding or clotting disorders, or certain skin diseases such as psoriasis are usually advised against surgery.",
+          "heading3": "HAIR LOSS PATTERN",
+          "paragraph6": "Hair transplantation can provide dramatic yet natural results in cases of significant thinning or balding, provided that healthy donor hair is present at the back and sides of the scalp. Patients with male pattern baldness (androgenetic alopecia) are often ideal candidates. For women, however, if hair loss presents as diffuse overall thinning, hair transplantation may not be the most suitable option.",
+          "heading4": "AGE",
+          "paragraph7": "Hair loss should be relatively stabilized before surgery. Very young patients (early 20s) are often advised to wait and consider medical treatments before undergoing a hair transplant.",
+          "heading5": "COSMETIC CONCERNS",
+          "paragraph8": "If avoiding linear scarring is important to you, FUE may be the preferred technique. FUE can also be used to camouflage existing scars from previous surgeries or injuries by transplanting new follicles into those areas.",
+          "ariaLabel1": "Play video",
+          "alt1": "hair-transplant hero item 1",
+          "alt2": "hair-transplant hero item 2",
+          "alt3": "hair-transplant hero item 3",
+          "alt4": "hair-transplant hero item 4",
+          "title1": "Hair Transplant Video"
+        },
+        "longHair": {
+          "howDoesItWorkLong": {
+            "paragraph1": "This technique offers significant benefits for patients who do not want their hair to be shaved, particularly those with an active social or professional life. Long hair transplantation allows patients to undergo the procedure without obvious visual signs of surgery, making it ideal for individuals who prefer to keep their treatment private during the healing period.",
+            "paragraph2": "It is also an excellent option for female patients who wish to preserve their long hair and avoid shaving, while still benefiting from a highly precise and natural-looking hair restoration procedure.",
+            "paragraph3": "Long hair transplantation is a technically demanding and relatively new technique, and its success is closely related to the experience and learning curve of each clinic and surgical team. Because the procedure is more complex, the number of grafts that can be extracted in a single session is usually lower compared to shaved FUE. For patients who require 3,000 grafts or more, the surgery may need to be divided into multiple sessions or days.",
+            "paragraph4": "In addition, long hair transplantation is more time-consuming and requires specialized instruments and expertise, which makes the cost higher than conventional shaved techniques. Postoperative care can also be more challenging for the patient, as managing and cleaning long hair during the healing phase requires extra attention.",
+            "paragraph5": "It is important for patients to understand that although long hairs are transplanted, these hairs will shed within the first month, similar to standard hair transplantation. New, permanent hair growth typically begins around three months after the procedure, following the natural hair growth cycle.",
+            "listItem1": "Mild redness and swelling are common for a few days",
+            "listItem2": "Temporary shedding of transplanted hair may occur",
+            "listItem3": "New hair growth typically begins after 3–4 months",
+            "listItem4": "Final results are usually evaluated after 12 months",
+            "paragraph6": "Healing time may vary depending on scar tissue and previous procedures.",
+            "listItem5": "Personalized surgical planning",
+            "listItem6": "Correction of unnatural results",
+            "listItem7": "Improved facial harmony",
+            "listItem8": "Restoration of confidence",
+            "listItem9": "Advanced techniques tailored to complex cases",
+            "paragraph7": "Reconstructive hair transplantation requires significantly more expertise than standard hair transplantation.",
+            "titleLines1": [
+              "Advantages of",
+              "Long Hair Transplantation"
+            ],
+            "titleLines2": [
+              "Disadvantages of",
+              "Long Hair Transplantation"
+            ],
+            "titleLines3": [
+              "Recovery",
+              "& Results"
+            ],
+            "titleLines4": [
+              "Why Choose",
+              "Long Hair Transplantation?"
+            ]
+          }
+        },
+        "reconstructive": {
+          "howDoesItWorkRecon": {
+            "paragraph1": "Hairline reconstruction focuses on correcting:",
+            "listItem1": "Hairlines placed too low or too high",
+            "listItem2": "Excessive symmetry or unnatural straight lines",
+            "listItem3": "Incorrect angles or directions of implanted hair",
+            "paragraph2": "Natural hairlines require irregularity, proper angulation, and the exclusive use of single-hair grafts in the frontal zone.",
+            "paragraph3": "Corrective hair transplantation may include:",
+            "listItem4": "Removal of poorly placed grafts",
+            "listItem5": "Re-implantation of extracted grafts",
+            "listItem6": "Redistribution of density for a more natural result",
+            "paragraph4": "In some cases, previously transplanted grafts can be safely removed and reused.",
+            "paragraph5": "Hair transplantation can be performed into:",
+            "listItem7": "FUT linear scars",
+            "listItem8": "FUE dot scars",
+            "listItem9": "Scars caused by burns, trauma, or surgery",
+            "paragraph6": "Hair growth in scar tissue may be less predictable due to reduced blood supply, and careful evaluation is essential before treatment.",
+            "paragraph7": "In patients with limited scalp donor hair, Body Hair Transplantation (BHT) may be used as a supportive technique.",
+            "listItem10": "Beard hair is commonly preferred",
+            "listItem11": "Chest hair may be used selectively",
+            "listItem12": "Body hair behaves differently from scalp hair and must be mixed carefully",
+            "paragraph8": "Reconstructive hair transplantation is usually performed using advanced FUE techniques.",
+            "paragraph9": "Key steps include:",
+            "listItem13": "Detailed analysis of facial proportions and existing hair patterns",
+            "listItem14": "Conservative hairline planning",
+            "listItem15": "Careful donor area assessment",
+            "listItem16": "Precision extraction and implantation",
+            "listItem17": "Attention to angle, direction, and density",
+            "paragraph10": "Multiple sessions may be required, depending on the complexity of the case.",
+            "paragraph11": "Reconstructive hair transplant results can be long-lasting and permanent when:",
+            "listItem18": "Donor hair quality is adequate",
+            "listItem19": "Grafts are implanted correctly",
+            "listItem20": "Underlying hair loss is properly managed",
+            "paragraph12": "However, expectations must be realistic, especially in cases involving scarring or multiple previous surgeries.",
+            "listItem21": "Mild redness and swelling are common for a few days",
+            "listItem22": "Temporary shedding of transplanted hair may occur",
+            "listItem23": "New hair growth typically begins after 3–4 months",
+            "listItem24": "Final results are usually evaluated after 12 months",
+            "paragraph13": "Healing time may vary depending on scar tissue and previous procedures.",
+            "listItem25": "Personalized surgical planning",
+            "listItem26": "Correction of unnatural results",
+            "listItem27": "Improved facial harmony",
+            "listItem28": "Restoration of confidence",
+            "listItem29": "Advanced techniques tailored to complex cases",
+            "paragraph14": "Reconstructive hair transplantation requires significantly more expertise than standard hair transplantation.",
+            "heading1": "Important Note for Patients",
+            "paragraph15": "Not every case can be fully corrected, especially when donor hair is limited or scar tissue is extensive. A detailed consultation is essential to determine realistic outcomes and the best treatment approach.",
+            "titleLines1": [
+              "Hairline",
+              "Reconstruction"
+            ],
+            "titleLines2": [
+              "Hair Transplant Repair",
+              "(Corrective Hair Transplant)"
+            ],
+            "titleLines3": [
+              "Scar Revision &",
+              "Hair Transplant into Scars"
+            ],
+            "titleLines4": [
+              "Body Hair Transplantationin",
+              "Reconstructive Cases"
+            ],
+            "titleLines5": [
+              "How Is Reconstructive Hair",
+              "Transplantation Performed?"
+            ],
+            "titleLines6": [
+              "Is Reconstructive Hair",
+              "Transplant Permanent?"
+            ],
+            "titleLines7": [
+              "Recovery",
+              "& Results"
+            ],
+            "titleLines8": [
+              "Why Choose Reconstructive",
+              "Hair Transplantation?"
+            ]
+          }
+        },
+        "title1": "FUE",
+        "subtitle1": "(Micro Motor)",
+        "title2": "What Is",
+        "title3": "What Are the Steps of",
+        "title4": "FUE Hair Transplantation?",
+        "value1": "1. Initial Contact & Consultation",
+        "value2": "You first contact the clinic, and one of our consultants and interpreters will guide you through the entire process in your native language.",
+        "value3": "You will complete a consultation form and send your photographs and videos to Dr. Biçer. After evaluating your case and estimating the required graft number, Dr. Biçer will provide general information. If she needs further details, she may request an online consultation.",
+        "value4": "Following this evaluation, a personalized treatment offer will be sent to you. If you decide to proceed with surgery, your consultant will provide suitable dates. Once the advance payment is received, your surgery will be scheduled.",
+        "value5": "2. Preoperative Evaluation (One Day Before Surgery)",
+        "value6": "We strongly recommend arriving at the clinic one day before surgery. During this visit:",
+        "value7": "Medical photographs are taken",
+        "value8": "Blood tests are performed",
+        "value9": "Electrocardiography (ECG) is completed",
+        "value10": "Trichoscopic examination is conducted",
+        "value11": "You will also complete the necessary medical forms and have a face-to-face consultation with Dr. Biçer. This step is extremely important, as your expectations, donor capacity, and final graft number are clarified, and the surgical plan is finalized.",
+        "value12": "3. Surgery Day – Planning & Preparation",
+        "value13": "On the day of surgery, you should arrive at the clinic at 08:00 a.m.",
+        "value14": "Dr. Biçer reviews all details again and designs your hairline together with you. Hairline design is a critical step for achieving natural-looking results and ensuring long-term planning.",
+        "value15": "Depending on the chosen technique, your hair will be shaved if required, and your scalp will be washed with a disinfectant shampoo. The hairline is then cleaned again.",
+        "value16": "Dr. Biçer explains each step of the procedure in detail before surgery begins.",
+        "value17": "4. Local Anesthesia",
+        "value18": "Needle-free local anesthesia is administered. During this phase, you remain awake and are continuously monitored to ensure your comfort and safety.",
+        "value19": "5. Graft Extraction",
+        "value20": "In the second stage of surgery, Dr. Biçer performs the graft harvesting, while trained nurses collect, count, and examine the grafts under the microscope.",
+        "value21": "Punch sizes of 0.7–0.9 mm are used:",
+        "value22": "When these punches are used with a micromotor, the technique is called micromotor FUE",
+        "value23": "When used manually, without electricity or machines, the technique is called manual FUE",
+        "value24": "6. Recipient Site Creation",
+        "value25": "In the third stage, Dr. Biçer creates the recipient incisions, determining the direction, angle, and density of the transplanted hair.",
+        "value26": "Titanium or sapphire blades are used for this step. Technically, there is no difference in results between these two blade types when properly applied.",
+        "value27": "7. Graft Implantation",
+        "value28": "In the final stage, three nurses carefully place the grafts into the recipient area. Dr. Biçer remains at the clinic throughout this process.",
+        "value29": "8. Postoperative Follow-Up",
+        "value30": "The day after surgery, you return to the clinic for:",
+        "value31": "Removal of bandages",
+        "value32": "Medical examination by Dr. Biçer",
+        "value33": "Postoperative photographs",
+        "value34": "Once everything is confirmed to be progressing well, you are free to return to your country.",
+        "value35": "However, the process does not end there. Dr. Biçer and her interpreters continue to follow your progress for at least one year after the surgery.",
+        "title5": "FUE",
+        "subtitle2": "(Manual)",
+        "title6": "What Is",
+        "title7": "What Are the Steps of",
+        "title8": "FUE Hair Transplantation?",
+        "value36": "1. Initial Contact & Consultation",
+        "value37": "You first contact the clinic, and one of our consultants and interpreters will guide you through the entire process in your native language.",
+        "value38": "You will complete a consultation form and send your photographs and videos to Dr. Biçer. After evaluating your case and estimating the required graft number, Dr. Biçer will provide general information. If she needs further details, she may request an online consultation.",
+        "value39": "Following this evaluation, a personalized treatment offer will be sent to you. If you decide to proceed with surgery, your consultant will provide suitable dates. Once the advance payment is received, your surgery will be scheduled.",
+        "value40": "2. Preoperative Evaluation (One Day Before Surgery)",
+        "value41": "We strongly recommend arriving at the clinic one day before surgery. During this visit:",
+        "value42": "Medical photographs are taken",
+        "value43": "Blood tests are performed",
+        "value44": "Electrocardiography (ECG) is completed",
+        "value45": "Trichoscopic examination is conducted",
+        "value46": "You will also complete the necessary medical forms and have a face-to-face consultation with Dr. Biçer. This step is extremely important, as your expectations, donor capacity, and final graft number are clarified, and the surgical plan is finalized.",
+        "value47": "3. Surgery Day – Planning & Preparation",
+        "value48": "On the day of surgery, you should arrive at the clinic at 08:00 a.m.",
+        "value49": "Dr. Biçer reviews all details again and designs your hairline together with you. Hairline design is a critical step for achieving natural-looking results and ensuring long-term planning.",
+        "value50": "Depending on the chosen technique, your hair will be shaved if required, and your scalp will be washed with a disinfectant shampoo. The hairline is then cleaned again.",
+        "value51": "Dr. Biçer explains each step of the procedure in detail before surgery begins.",
+        "value52": "4. Local Anesthesia",
+        "value53": "Needle-free local anesthesia is administered. During this phase, you remain awake and are continuously monitored to ensure your comfort and safety.",
+        "value54": "5. Graft Extraction",
+        "value55": "In the second stage of surgery, Dr. Biçer performs the graft harvesting, while trained nurses collect, count, and examine the grafts under the microscope.",
+        "value56": "Punch sizes of 0.7–0.9 mm are used:",
+        "value57": "When these punches are used with a micromotor, the technique is called micromotor FUE",
+        "value58": "When used manually, without electricity or machines, the technique is called manual FUE",
+        "value59": "6. Recipient Site Creation",
+        "value60": "In the third stage, Dr. Biçer creates the recipient incisions, determining the direction, angle, and density of the transplanted hair.",
+        "value61": "Titanium or sapphire blades are used for this step. Technically, there is no difference in results between these two blade types when properly applied.",
+        "value62": "7. Graft Implantation",
+        "value63": "In the final stage, three nurses carefully place the grafts into the recipient area. Dr. Biçer remains at the clinic throughout this process.",
+        "value64": "8. Postoperative Follow-Up",
+        "value65": "The day after surgery, you return to the clinic for:",
+        "value66": "WRemoval of bandages",
+        "value67": "Medical examination by Dr. Biçer",
+        "value68": "Postoperative photographs",
+        "value69": "Once everything is confirmed to be progressing well, you are free to return to your country.",
+        "value70": "However, the process does not end there. Dr. Biçer and her interpreters continue to follow your progress for at least one year after the surgery.",
+        "title9": "BHT",
+        "subtitle3": "(Body Hair Transplant)",
+        "title10": "What Is",
+        "alt1": "Body Hair Transplant",
+        "title11": "Everything you need to know about body hair transplantation (BHT)",
+        "alt2": "Body Hair Transplant 2",
+        "title12": "What is BHT?",
+        "title13": "When Is Body Hair",
+        "title14": "Transplantation Recommended?",
+        "value71": "BHT may be considered in the following situations:",
+        "value72": "Severely limited scalp donor area, such as advanced hair loss (Norwood Grade VI–VII)",
+        "value73": "Patients who have undergone previous hair transplant procedures and have depleted donor reserves",
+        "value74": "Cases where higher graft numbers are required but scalp donor capacity is insufficient",
+        "value75": "Scarring alopecia, burns, or trauma-related hair loss",
+        "value76": "To increase overall density, particularly in combination with scalp hair grafts",
+        "value77": "Beard hair is generally preferred over chest hair due to its stronger structure and more consistent growth characteristics.",
+        "title15": "Reconstructive Hair Transplantation",
+        "title16": "What Is",
+        "alt3": "Reconstructive Hair Transplant",
+        "title17": "Reconstruction Hair Transplantation - 01",
+        "alt4": "Reconstructive Hair Transplant 2",
+        "title18": "Reconstruction Hair Transplantation - 02",
+        "alt5": "Reconstructive Hair Transplant 3",
+        "title19": "Reconstruction Hair Transplantation - 03",
+        "title20": "Who Needs",
+        "title21": "Reconstructive Hair Transplantation?",
+        "value78": "Reconstructive hair transplantation may be recommended for patients who experience:",
+        "value79": "Unnatural or poorly designed hairlines",
+        "value80": "Visible scarring from previous hair transplant procedures (FUE or FUT)",
+        "value81": "Asymmetry or incorrect hair direction",
+        "value82": "Low or uneven hair density",
+        "value83": "Hair loss due to burns, accidents, surgery, or trauma",
+        "value84": "Scarring alopecia or certain medical conditions",
+        "value85": "Failed or unsatisfactory results from previous hair transplants",
+        "value86": "Each reconstructive case is unique and requires an individualized treatment plan.",
+        "title22": "Long Hair",
+        "subtitle4": "(Unshaven)",
+        "title23": "What Is",
+        "title24": "Who Needs",
+        "title25": "Long Hair Transplantation?",
+        "value87": "Long hair transplantation may be recommended for individuals who:",
+        "value88": "Have unnatural, poorly designed, or unsatisfactory hairlines from previous procedures and want an immediate, natural-looking improvement",
+        "value89": "Experience visible scarring caused by earlier hair transplant techniques (FUE or FUT) and prefer better camouflage",
+        "value90": "Suffer from asymmetry or incorrect hair growth direction that requires precise correction",
+        "value91": "Have low or uneven hair density and wish to see instant volume without waiting months for growth",
+        "value92": "Have hair loss resulting from burns, accidents, surgery, or trauma, where aesthetic restoration is critical",
+        "value93": "Are affected by scarring alopecia or certain medical conditions that limit conventional transplant options",
+        "value94": "Have had failed or disappointing hair transplant results and seek an advanced corrective solution",
+        "value95": "Prefer a technique that provides immediate cosmetic results, especially for social or professional reasons",
+        "value96": "Each long hair transplantation case is unique and requires a fully individualized treatment plan based on the patient’s hair characteristics, expectations, and medical background.",
+        "title26": "FUT",
+        "subtitle5": "(Follicular Unit Transplantation)",
+        "title27": "What Is",
+        "alt6": "FUT Step 1",
+        "title28": "What is FUT hair transplantation? - Dr. Özlem Biçer, MD",
+        "alt7": "FUT Step 2",
+        "title29": "FUT transplant?",
+        "alt8": "FUT Step 3",
+        "title30": "FUT TECHNICH",
+        "title31": "Stages of FUT",
+        "title32": "Hair Transplantation",
+        "value97": "1. Initial Contact & Consultation",
+        "value98": "The process begins by contacting the clinic. One of our experienced consultants and interpreters will guide you through every step in your native language. You will be asked to complete a consultation form and submit photographs and videos, which are reviewed by Dr. Biçer. Based on this evaluation, you will receive preliminary information, including an estimated graft number. If necessary, Dr. Biçer may request an online consultation for further assessment. Following this, a personalized treatment plan and offer will be prepared and sent to you.",
+        "value99": "Once you decide to proceed with surgery, your consultant will help you select suitable dates. After the advance payment is completed, your surgery will be officially scheduled.",
+        "value100": "2. Preoperative Day (One Day Before Surgery)",
+        "value101": "We strongly recommend arriving at the clinic one day before the surgery. On this day, professional photographs are taken and medical evaluations are performed, including blood tests, electrocardiography (ECG), and trichoscopic examination. You will then have a face-to-face consultation with Dr. Biçer.",
+        "value102": "This step is extremely important, as your expectations, donor capacity, scalp laxity, and final graft number are clearly determined, and the surgical plan is finalized.",
+        "value103": "3. Surgery Day",
+        "value104": "On the day of surgery, you should arrive at the clinic at 08:00 AM. Dr. Biçer will once again review all details with you and carefully design and draw your hairline. Hairline design is a critical step for achieving a natural appearance and long-term aesthetic success.",
+        "value105": "According to the FUT technique, the hair is not shaved. Your hair will be washed with a disinfectant shampoo, and the hairline area will be prepared once more. You will be fully informed about each stage of the procedure.",
+        "value106": "4. Donor Strip (Flap) Extraction",
+        "value107": "Dr. Biçer measures donor area elasticity and scalp laxity, then marks the strip excision line. Needle-free local anesthesia is administered, and you remain awake and continuously monitored for safety.",
+        "value108": "After anesthesia, Dr. Biçer performs the strip (flap) excision. Typically, 1,500–2,500 grafts are obtained from a single strip. The donor area is then closed using an aesthetic trichophytic suture. Meanwhile, the medical team carefully dissects the grafts into single, double, or multiple follicular units under a microscope.",
+        "value109": "5. Recipient Area Incisions",
+        "value110": "In the third stage, Dr. Biçer creates the recipient incisions, determining the correct angle, direction, and density of the transplanted hair to ensure a natural result.",
+        "value111": "6. Graft Placement",
+        "value112": "In the final stage, a specialized nursing team places the grafts into the recipient area. During this phase, Dr. Biçer remains present in the clinic, supervising the procedure.",
+        "value113": "7. Postoperative Follow-Up",
+        "value114": "The day after surgery, you will return to the clinic for bandage removal and postoperative evaluation. New photographs are taken after Dr. Biçer confirms that healing is progressing normally.",
+        "value115": "The aesthetic sutures placed in the donor area should be removed 15 days after surgery by a physician. If you are still in the country, this can be done at our clinic; otherwise, it can safely be removed in your home country.",
+        "value116": "Our care does not end after the procedure. Dr. Biçer and her medical team continue to follow your progress for at least one year, providing ongoing support and guidance throughout your recovery and hair growth journey.",
+        "links": [
+          "FUE (Micro Motor)",
+          "FUE (Manuel)",
+          "BHT (Body Hair Transplant)",
+          "Reconstructive Hair Transplant",
+          "Long Hair (Unshaven)",
+          "FUT"
+        ],
+        "titleLines1": [
+          "Minimally",
+          "Invasive",
+          "Technique"
+        ],
+        "titleLines2": [
+          "No",
+          "Linear",
+          "Scar"
+        ],
+        "titleLines3": [
+          "Natural",
+          "Looking",
+          "Results"
+        ],
+        "titleLines4": [
+          "Short",
+          "Recovery",
+          "Time"
+        ],
+        "titleLines5": [
+          "Suitable",
+          "For",
+          "Man&Woman"
+        ]
+      },
+      "hairWash": {
+        "alt1": "Hair wash video",
+        "videoTitle": "Hair Washing After Hair Transplantation"
+      }
+    }
+  },
+  "SearchData": {
+    "items": [
+      {
+        "title": "Home",
+        "category": "Page",
+        "keywords": [
+          "home",
+          "main",
+          "ana sayfa"
+        ]
+      },
+      {
+        "title": "About Us",
+        "category": "Page",
+        "keywords": [
+          "about",
+          "hakkında",
+          "ozlem",
+          "bicer",
+          "doctor"
+        ]
+      },
+      {
+        "title": "Dr. Özlem Bicer",
+        "category": "About Us",
+        "keywords": [
+          "doctor",
+          "doktor",
+          "ozlem",
+          "bicer",
+          "surgeon"
+        ]
+      },
+      {
+        "title": "Clinic & Team",
+        "category": "About Us",
+        "keywords": [
+          "clinic",
+          "team",
+          "staff",
+          "klinik",
+          "ekip"
+        ]
+      },
+      {
+        "title": "Pricing",
+        "category": "About Us",
+        "keywords": [
+          "price",
+          "pricing",
+          "fiyat",
+          "cost",
+          "fee"
+        ]
+      },
+      {
+        "title": "Hair Loss",
+        "category": "Page",
+        "keywords": [
+          "hair loss",
+          "saç dökülmesi",
+          "alopecia"
+        ]
+      },
+      {
+        "title": "Hair Loss in Male",
+        "category": "Hair Loss",
+        "keywords": [
+          "male",
+          "erkek",
+          "hair loss",
+          "saç dökülmesi",
+          "men"
+        ]
+      },
+      {
+        "title": "Hair Loss in Female",
+        "category": "Hair Loss",
+        "keywords": [
+          "female",
+          "kadın",
+          "hair loss",
+          "saç dökülmesi",
+          "women"
+        ]
+      },
+      {
+        "title": "Hair Mesotherapy",
+        "category": "Treatments",
+        "keywords": [
+          "mesotherapy",
+          "mezoterapi",
+          "treatment",
+          "tedavi"
+        ]
+      },
+      {
+        "title": "PRP Hair Treatment",
+        "category": "Treatments",
+        "keywords": [
+          "prp",
+          "treatment",
+          "tedavi",
+          "platelet"
+        ]
+      },
+      {
+        "title": "Stamp Cell Treatment",
+        "category": "Treatments",
+        "keywords": [
+          "stamp cell",
+          "stem cell",
+          "kök hücre",
+          "treatment"
+        ]
+      },
+      {
+        "title": "Trichopat Treatment",
+        "category": "Treatments",
+        "keywords": [
+          "trichopat",
+          "treatment",
+          "tedavi"
+        ]
+      },
+      {
+        "title": "Hair Transplant",
+        "category": "Transplantation",
+        "keywords": [
+          "hair transplant",
+          "saç ekimi",
+          "fue",
+          "fut"
+        ]
+      },
+      {
+        "title": "FUE (Micro Motor)",
+        "category": "Hair Transplant",
+        "keywords": [
+          "fue",
+          "micro motor",
+          "hair transplant",
+          "saç ekimi"
+        ]
+      },
+      {
+        "title": "FUE (Manuel)",
+        "category": "Hair Transplant",
+        "keywords": [
+          "fue",
+          "manuel",
+          "manual",
+          "hair transplant"
+        ]
+      },
+      {
+        "title": "Body Hair Transplantation",
+        "category": "Hair Transplant",
+        "keywords": [
+          "body hair",
+          "bht",
+          "transplant",
+          "saç ekimi"
+        ]
+      },
+      {
+        "title": "Reconstructive Hair Transplant",
+        "category": "Hair Transplant",
+        "keywords": [
+          "reconstructive",
+          "rekonstrüktif",
+          "repair",
+          "hair transplant"
+        ]
+      },
+      {
+        "title": "Long Hair (Unshaven)",
+        "category": "Hair Transplant",
+        "keywords": [
+          "long hair",
+          "unshaven",
+          "uzun saç",
+          "hair transplant"
+        ]
+      },
+      {
+        "title": "FUT",
+        "category": "Hair Transplant",
+        "keywords": [
+          "fut",
+          "follicular unit",
+          "strip",
+          "hair transplant"
+        ]
+      },
+      {
+        "title": "Beard Transplantation",
+        "category": "Transplantation",
+        "keywords": [
+          "beard",
+          "sakal",
+          "transplant",
+          "ekimi"
+        ]
+      },
+      {
+        "title": "Eyebrow Transplant",
+        "category": "Transplantation",
+        "keywords": [
+          "eyebrow",
+          "kaş",
+          "transplant",
+          "ekimi"
+        ]
+      },
+      {
+        "title": "Gallery",
+        "category": "Page",
+        "keywords": [
+          "gallery",
+          "galeri",
+          "video",
+          "photos",
+          "results"
+        ]
+      },
+      {
+        "title": "Before & After Images",
+        "category": "Gallery",
+        "keywords": [
+          "gallery",
+          "galeri",
+          "before after",
+          "önce sonra",
+          "results",
+          "photos"
+        ]
+      },
+      {
+        "title": "Causes of Hair Loss",
+        "category": "Hair Loss",
+        "keywords": [
+          "causes",
+          "nedenler",
+          "hair loss",
+          "saç dökülmesi"
+        ]
+      },
+      {
+        "title": "Treatments of Hair Loss",
+        "category": "Hair Loss",
+        "keywords": [
+          "treatment",
+          "tedavi",
+          "hair loss",
+          "saç dökülmesi"
+        ]
+      },
+      {
+        "title": "Guides",
+        "category": "Page",
+        "keywords": [
+          "guide",
+          "rehber",
+          "instructions",
+          "talimat"
+        ]
+      },
+      {
+        "title": "Before Hair Transplantation",
+        "category": "Guides",
+        "keywords": [
+          "before",
+          "öncesi",
+          "guide",
+          "rehber",
+          "hair transplant",
+          "saç ekimi"
+        ]
+      },
+      {
+        "title": "After Hair Transplantation",
+        "category": "Guides",
+        "keywords": [
+          "after",
+          "sonrası",
+          "guide",
+          "rehber",
+          "hair transplant",
+          "saç ekimi"
+        ]
+      },
+      {
+        "title": "Contact Us",
+        "category": "Page",
+        "keywords": [
+          "contact",
+          "iletişim",
+          "email",
+          "phone",
+          "appointment",
+          "randevu"
+        ]
+      },
+      {
+        "title": "Hair Washing After Hair Transplantation",
+        "category": "Transplantation",
+        "keywords": [
+          "hair wash",
+          "washing",
+          "after hair transplantation",
+          "hair transplant",
+          "saç yıkama",
+          "saç ekimi sonrası"
+        ]
+      }
+    ]
   }
 }

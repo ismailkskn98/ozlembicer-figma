@@ -3,9 +3,11 @@ import { Slot } from '@radix-ui/react-slot';
 import { ChevronRight, MoreHorizontal } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
+import { useTranslations } from 'next-intl';
 
 function Breadcrumb({ ...props }) {
-   return <nav aria-label="breadcrumb" data-slot="breadcrumb" {...props} />;
+   const t = useTranslations('Common.accessibility');
+   return <nav aria-label={t('breadcrumb')} data-slot="breadcrumb" {...props} />;
 }
 
 function BreadcrumbList({ className, ...props }) {
@@ -35,10 +37,11 @@ function BreadcrumbSeparator({ children, className, ...props }) {
 }
 
 function BreadcrumbEllipsis({ className, ...props }) {
+   const t = useTranslations('Common.accessibility');
    return (
       <span data-slot="breadcrumb-ellipsis" role="presentation" aria-hidden="true" className={cn('flex size-9 items-center justify-center', className)} {...props}>
          <MoreHorizontal className="size-4" />
-         <span className="sr-only">More</span>
+         <span className="sr-only">{t('more')}</span>
       </span>
    );
 }

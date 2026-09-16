@@ -4,71 +4,36 @@ import React, { useEffect, useRef, useState } from 'react';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
-const titleItemsData = [
+const titleItemsConfig = [
    {
       value: 'hair-transplant',
-      title: 'Hair Transplantation',
+      messageKey: 'hairTransplant',
       href: '/hair-transplant',
       image: '/images/home-accordion/hair-transplant.jpg',
       icon: '/images/hair-transplant/fue-micro-motor-nobg.svg',
-      content: {
-         title: 'Hair Transplantation',
-         items: [
-            {
-               type: 'paragraph',
-               text: 'At Dr. Biçer’s clinic, all hair transplantation procedures are personally performed by Dr. Biçer, ensuring each patient is evaluated objectively and treated with a fully tailored approach. Hair transplantation is not a cure, but a highly effective way to restore a natural appearance and confidence when carefully planned. Using advanced techniques such as FUE, patients benefit from minimally invasive treatment and faster recovery. However, the right solution depends on individual factors and requires expert assessment—discover what is best suited for you.',
-            },
-         ],
-      },
    },
    {
       value: 'beard-transplant',
-      title: 'Beard Transplantation',
+      messageKey: 'beardTransplant',
       href: '/beard-transplantation',
       image: '/images/home-accordion/beard-transplant.jpg',
       icon: '/images/hair-transplant/new-beard-transplantation.svg',
-      content: {
-         title: 'Beard Transplantation',
-         items: [
-            {
-               type: 'paragraph',
-               text: 'At Dr. Özlem Biçer’s clinic, beard transplantation is personally performed with her experienced medical team, ensuring a precise and individualized approach for each patient. This specialized procedure is designed to enhance beard density, improve shape and symmetry, and address patchy growth or hair loss caused by scarring or medical conditions. As facial hair transplantation requires advanced surgical expertise and refined aesthetic planning, every detail is carefully considered to achieve natural and balanced results. Discover how this tailored approach can redefine your facial appearance.',
-            },
-         ],
-      },
    },
    {
       value: 'eyebrow-transplant',
-      title: 'Eyebrow Transplantation',
+      messageKey: 'eyebrowTransplant',
       href: '/eyebrown-transplant',
       image: '/images/eyebrown-hero.jpg',
       icon: '/images/hair-transplant/new-eyebrow-transplantation.svg',
-      content: {
-         title: 'Eyebrow Transplantation',
-         items: [
-            {
-               type: 'paragraph',
-               text: 'At Dr. Özlem Biçer’s clinic, eyebrow transplantation is personally performed with a meticulous and individualized approach, recognizing the essential role eyebrows play in facial expression and overall aesthetics. This procedure is designed to restore natural shape and density, whether due to long-term over-plucking, traction damage, or naturally sparse or absent brows. Using the long hair FUE technique and carefully selected fine donor hairs, each graft is placed with precise angle and direction to achieve soft, natural, and harmonious results. Discover how a tailored approach can restore balance and definition to your face.',
-            },
-         ],
-      },
    },
    {
       value: 'female-hair-transplant',
-      title: 'Female Hair Transplantation',
+      messageKey: 'femaleHairTransplant',
       href: '/hair-transplant',
       image: '/images/home-accordion/Female-Hair-Transplantation.jpg',
       icon: '/images/hair-transplant/female-hair.svg',
-      content: {
-         title: 'Female Hair Transplantation',
-         items: [
-            {
-               type: 'paragraph',
-               text: 'At Dr. Özlem Biçer’s clinic, female hair transplantation is personally performed with a sensitive and individualized approach, recognizing the significant emotional and aesthetic impact of hair loss in women. As hair loss can arise from different causes—such as androgenetic alopecia, telogen effluvium, or other conditions—each patient undergoes a detailed evaluation to determine the most appropriate treatment. When transplantation is indicated, techniques without full shaving are preferred to maintain discretion and comfort. Discover a tailored solution designed to restore both your hair and confidence.',
-            },
-         ],
-      },
    },
 ];
 
@@ -102,6 +67,15 @@ function MobileContent({ isOpen, onClick, children }) {
 }
 
 export default function DeneyTitleImage() {
+   const t = useTranslations('HomePage.services');
+   const titleItemsData = titleItemsConfig.map((item) => ({
+      ...item,
+      title: t(`${item.messageKey}.title`),
+      content: {
+         title: t(`${item.messageKey}.label`),
+         items: [{ type: 'paragraph', text: t(`${item.messageKey}.description`) }],
+      },
+   }));
    const [selectedItem, setSelectedItem] = useState('');
    const [isDesktop, setIsDesktop] = useState(false);
 
@@ -194,7 +168,7 @@ export default function DeneyTitleImage() {
                                        onClick={(e) => e.stopPropagation()}
                                        className="inline-flex items-center gap-1.5 text-sm text-ivory-soft/80 hover:text-ivory-soft border border-ivory-soft/40 hover:border-ivory-soft/80 rounded-full px-4 py-1.5 transition-all duration-200"
                                     >
-                                       Learn More
+                                       {t('learnMore')}
                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5">
                                           <path
                                              fillRule="evenodd"
@@ -242,7 +216,7 @@ export default function DeneyTitleImage() {
                                        onClick={(e) => e.stopPropagation()}
                                        className="inline-flex items-center gap-1.5 text-sm text-ivory-soft/80 hover:text-ivory-soft border border-ivory-soft/40 hover:border-ivory-soft/80 rounded-full px-4 py-1.5 transition-all duration-200"
                                     >
-                                       Learn More
+                                       {t('learnMore')}
                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5">
                                           <path
                                              fillRule="evenodd"

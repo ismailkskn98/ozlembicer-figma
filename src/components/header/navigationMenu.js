@@ -1,54 +1,55 @@
-export const navigationMenu = [
+export function getNavigationMenu(t) {
+  return [
    {
-      item: 'About Us',
+      item: t('about'),
       href: '/about-us/dr-ozlem-bicer',
       links: [
-         { href: '/about-us/dr-ozlem-bicer', label: 'Dr. Ozlem Bicer' },
-         { href: '/about-us/clinic-team', label: 'Clinic & Team' },
-         { href: '/about-us/pricing', label: 'Pricing' },
+         { href: '/about-us/dr-ozlem-bicer', label: t('doctor') },
+         { href: '/about-us/clinic-team', label: t('clinicTeam') },
+         { href: '/about-us/pricing', label: t('pricing') },
       ],
    },
    {
-      item: 'Hair Loss',
+      item: t('hairLoss'),
       links: [
          {
             href: '#',
-            label: 'Couses of Hair Loss',
+            label: t('causes'),
             submenu: [
-               { href: '/hair-loss/couses-of-hair-loss/male-hair-loss', label: 'Hair Loss in Male' },
-               { href: '/hair-loss/couses-of-hair-loss/female-hair-loss', label: 'Hair Loss in Female' },
+               { href: '/hair-loss/couses-of-hair-loss/male-hair-loss', label: t('maleHairLoss') },
+               { href: '/hair-loss/couses-of-hair-loss/female-hair-loss', label: t('femaleHairLoss') },
             ],
          },
          {
             href: '#',
-            label: 'Treatments of Hair Loss',
+            label: t('treatments'),
             submenu: [
-               { href: '/hair-loss/treatments-of-hair-loss/hair-mesotherapy', label: 'Hair Mesotherapy' },
-               { href: '/hair-loss/treatments-of-hair-loss/prp-hair-treatment', label: 'PRP Hair Treatment' },
-               { href: '/hair-loss/treatments-of-hair-loss/stamp-cell-treatment', label: 'Stamp Cell Treatment' },
-               { href: '/hair-loss/treatments-of-hair-loss/trichopat-treatment', label: 'Trichopat Treatment' },
+               { href: '/hair-loss/treatments-of-hair-loss/hair-mesotherapy', label: t('hairMesotherapy') },
+               { href: '/hair-loss/treatments-of-hair-loss/prp-hair-treatment', label: t('prp') },
+               { href: '/hair-loss/treatments-of-hair-loss/stamp-cell-treatment', label: t('stampCell') },
+               { href: '/hair-loss/treatments-of-hair-loss/trichopat-treatment', label: t('trichopat') },
             ],
          },
       ],
    },
    {
-      item: 'Transplantation',
+      item: t('transplantation'),
       links: [
          {
             href: '/hair-transplant',
-            label: 'Hair Transplantat',
+            label: t('hairTransplant'),
             submenu: [
-               { href: '/hair-transplant#fue-micro-motor', label: 'FUE (Micro Motor)' },
-               { href: '/hair-transplant#fue-manuel', label: 'FUE (Manuel)' },
-               { href: '/hair-transplant#body-hair-transplant', label: 'Body Hair Transplantation' },
-               { href: '/hair-transplant#reconstructive-hair-transplant', label: 'Reconstructive Hair Transp.' },
-               { href: '/hair-transplant#long-hair', label: 'Long Hair (Unshaven)' },
-               { href: '/hair-transplant#fut', label: 'FUT' },
+               { href: '/hair-transplant#fue-micro-motor', label: t('fueMicroMotor') },
+               { href: '/hair-transplant#fue-manuel', label: t('fueManual') },
+               { href: '/hair-transplant#body-hair-transplant', label: t('bodyHair') },
+               { href: '/hair-transplant#reconstructive-hair-transplant', label: t('reconstructive') },
+               { href: '/hair-transplant#long-hair', label: t('longHair') },
+               { href: '/hair-transplant#fut', label: t('fut') },
             ],
          },
-         { href: '/hair-wash', label: 'Hair Wash' },
-         { href: '/beard-transplantation', label: 'Beard Transplantation' },
-         { href: '/eyebrown-transplant', label: 'Eyebrow Transplant' },
+         { href: '/hair-wash', label: t('hairWash') },
+         { href: '/beard-transplantation', label: t('beard') },
+         { href: '/eyebrown-transplant', label: t('eyebrow') },
       ],
    },
    // {
@@ -62,19 +63,20 @@ export const navigationMenu = [
    //   ],
    // },
    {
-      item: 'Gallery',
+      item: t('gallery'),
       links: [
-         { href: '/gallery/before-after-images', label: 'Before & After Images' },
+         { href: '/gallery/before-after-images', label: t('beforeAfter') },
          {
             href: '/gallery',
-            label: 'Video Gallery',
+            label: t('videoGallery'),
             submenu: [
-               { href: '/gallery#informative-videos', label: 'Informative Videos' },
-               { href: '/gallery#patient-reviews', label: 'Patient Reviews' },
-               { href: '/gallery#interviews', label: 'Interviews with Dr. Bicer' },
+               { href: '/gallery#informative-videos', label: t('informativeVideos') },
+               { href: '/gallery#patient-reviews', label: t('patientReviews') },
+               { href: '/gallery#interviews', label: t('interviews') },
             ],
          },
       ],
    },
    // { item: 'Contact Us', href: '/contact-us' },
-];
+  ];
+}

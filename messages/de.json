@@ -3,10 +3,233 @@
     "siteName": "Dr. Özlem Biçer – Haartransplantation & Haarausfall-Spezialistin",
     "defaultTitle": "Dr. Özlem Biçer | Haartransplantationsklinik Istanbul",
     "defaultDescription": "Dr. Özlem Biçer ist eine Haartransplantationsspezialistin mit über 25 Jahren Erfahrung in FUE- und FUT-Verfahren. Standort: Istanbul, Türkei. Vereinbaren Sie noch heute eine kostenlose Beratung.",
-    "keywords": "Haartransplantation Istanbul, FUE Haartransplantation, Haarausfall Behandlung, Dr. Ozlem Bicer, Haarklinik Türkei, Barttransplantation, Augenbrauentransplantation, PRP Haarbehandlung"
+    "keywords": "Haartransplantation Istanbul, FUE Haartransplantation, Haarausfall Behandlung, Dr. Özlem Biçer, Haarklinik Türkei, Barttransplantation, Augenbrauentransplantation, PRP Haarbehandlung"
   },
   "HomePage": {
-    "title": "Hallo Welt!"
+    "title": "Hallo Welt!",
+    "hero": {
+      "slides": {
+        "priority": {
+          "desktopTitle": {
+            "line1": "Ihre",
+            "line2": "Erwartungen haben",
+            "line3": "für uns Priorität"
+          },
+          "mobileTitle": {
+            "line1": "Ihre",
+            "line2": "Erwartungen haben",
+            "line3": "für uns Priorität"
+          },
+          "description": "Nach unserer Philosophie ist Haarchirurgie nicht nur Wissenschaft, Kunst, Technologie oder Zahlen. Haarwiederherstellung ist mehr als eine Operation. Wir wissen, dass es auch die Emotionen des Patienten direkt beeinflusst. Daher sind Ihre Erwartungen und Ihre Emotionen für uns äußerst wertvoll.",
+          "imageAlt": "Dr. Özlem Biçer",
+          "primaryLink": "Lesen Sie mehr über Haartransplantation",
+          "appointmentLink": "Buchen Sie einen Termin"
+        },
+        "team": {
+          "desktopTitle": {
+            "line1": "Eine erfahrene",
+            "line2": "Ärztin und ein",
+            "line3": "medizinisches Team"
+          },
+          "mobileTitle": {
+            "line1": "Eine erfahrene",
+            "line2": "Ärztin und ein",
+            "line3": "medizinisches Team"
+          },
+          "description": "Nach unserer Philosophie ist Haarchirurgie nicht nur Wissenschaft, Kunst, Technologie oder Zahlen. Haarwiederherstellung ist mehr als eine Operation. Wir wissen, dass es auch die Emotionen des Patienten direkt beeinflusst. Daher sind Ihre Erwartungen und Ihre Emotionen für uns äußerst wertvoll.",
+          "imageAlt": "Dr. Özlem Biçer und ihr medizinisches Team",
+          "primaryLink": "Lesen Sie mehr über Klinik & Team",
+          "appointmentLink": "Buchen Sie einen Termin"
+        },
+        "faculty": {
+          "desktopTitle": {
+            "line1": "International",
+            "line2": "anerkanntes",
+            "line3": "Fakultätsmitglied"
+          },
+          "mobileTitle": {
+            "line1": "International",
+            "line2": "anerkanntes",
+            "line3": "Fakultätsmitglied"
+          },
+          "description": "Nach unserer Philosophie ist Haarchirurgie nicht nur Wissenschaft, Kunst, Technologie oder Zahlen. Haarwiederherstellung ist mehr als eine Operation. Wir wissen, dass es auch die Emotionen des Patienten direkt beeinflusst. Daher sind Ihre Erwartungen und Ihre Emotionen für uns äußerst wertvoll.",
+          "imageAlt": "Dr. Özlem Biçer als international anerkanntes Fakultätsmitglied",
+          "primaryLink": "Weiterlesen über Dr. Özlem Biçer",
+          "appointmentLink": "Buchen Sie einen Termin"
+        }
+      }
+    },
+    "logoCarousel": {
+      "heading": "<bold>Von führenden Verbänden anerkannt</bold> – weltweit",
+      "logoAlt": "Logo {number}"
+    },
+    "heroCards": {
+      "onlyOne": {
+        "line1": "Nur ein",
+        "line2": "Patient pro Tag"
+      },
+      "experience": {
+        "line1": "28 Jahre",
+        "line2": "Erfahrung"
+      },
+      "licensedClinic": {
+        "line1": "Lizenzierte",
+        "line2": "Klinik"
+      },
+      "americanBoard": {
+        "line1": "Mitglied des",
+        "line2": "American Board"
+      },
+      "imageAlt": "Informationskarte {number}",
+      "lineAlt": "Trennlinie",
+      "gapLineAlt": "Heldenkartenlücke"
+    },
+    "services": {
+      "hairTransplant": {
+        "title": "Haartransplantation",
+        "label": "Haartransplantation",
+        "description": "In der Klinik von Dr. Biçer werden alle Haartransplantationsverfahren persönlich von Dr. Biçer durchgeführt, um sicherzustellen, dass jeder Patient objektiv bewertet und mit einem vollständig maßgeschneiderten Ansatz behandelt wird. Haartransplantation ist keine Heilung, sondern eine hochwirksame Möglichkeit, bei sorgfältiger Planung ein natürliches Aussehen und Selbstvertrauen wiederherzustellen. Mit fortschrittlichen Techniken wie FUE profitieren Patienten von einer minimalinvasiven Behandlung und einer schnelleren Genesung. Die richtige Lösung hängt jedoch von individuellen Faktoren ab und erfordert eine Experteneinschätzung - entdecken Sie, was für Sie am besten geeignet ist."
+      },
+      "beardTransplant": {
+        "title": "Barttransplantation",
+        "label": "Barttransplantation",
+        "description": "In der Klinik von Dr. Özlem Biçer wird die Barttransplantation mit ihrem erfahrenen medizinischen Team persönlich durchgeführt, um einen präzisen und individuellen Ansatz für jeden Patienten zu gewährleisten. Dieses spezielle Verfahren wurde entwickelt, um die Bartdichte zu verbessern, Form und Symmetrie zu verbessern und fleckiges Wachstum oder Haarausfall durch Narbenbildung oder medizinische Bedingungen zu behandeln. Da die Gesichtshaartransplantation fortgeschrittenes chirurgisches Fachwissen und eine raffinierte ästhetische Planung erfordert, wird jedes Detail sorgfältig berücksichtigt, um natürliche und ausgewogene Ergebnisse zu erzielen. Entdecken Sie, wie dieser maßgeschneiderte Ansatz Ihr Gesichtsbild neu definieren kann."
+      },
+      "eyebrowTransplant": {
+        "title": "Augenbrauentransplantation",
+        "label": "Augenbrauentransplantation",
+        "description": "In der Klinik von Dr. Özlem Biçer wird die Augenbrauentransplantation persönlich mit einem sorgfältigen und individualisierten Ansatz durchgeführt, wobei die wesentliche Rolle der Augenbrauen im Gesichtsausdruck und in der gesamten Ästhetik anerkannt wird. Dieses Verfahren wurde entwickelt, um die natürliche Form und Dichte wiederherzustellen, sei es durch langfristiges Überrupfen, Traktionsschäden oder natürlich spärliche oder fehlende Brauen. Mit der FUE-Technik für lange Haare und sorgfältig ausgewählten feinen Spenderhaaren wird jedes Transplantat mit präzisem Winkel und Richtung platziert, um weiche, natürliche und harmonische Ergebnisse zu erzielen. Entdecken Sie, wie ein maßgeschneiderter Ansatz das Gleichgewicht und die Definition in Ihrem Gesicht wiederherstellen kann."
+      },
+      "femaleHairTransplant": {
+        "title": "Haartransplantation für Frauen",
+        "label": "Haartransplantation für Frauen",
+        "description": "In der Klinik von Dr. Özlem Biçer wird die weibliche Haartransplantation persönlich mit einem sensiblen und individualisierten Ansatz durchgeführt, der die signifikanten emotionalen und ästhetischen Auswirkungen von Haarausfall bei Frauen erkennt. Da Haarausfall aus verschiedenen Ursachen wie androgenetische Alopezie, Telogen Effluvium oder anderen Erkrankungen entstehen kann, wird jeder Patient einer detaillierten Bewertung unterzogen, um die am besten geeignete Behandlung zu bestimmen. Wenn eine Transplantation angezeigt wird, werden Techniken ohne vollständige Rasur bevorzugt, um Diskretion und Komfort zu wahren. Entdecken Sie eine maßgeschneiderte Lösung, die sowohl Ihr Haar als auch Ihr Selbstvertrauen wiederherstellt."
+      },
+      "learnMore": "Mehr erfahren"
+    },
+    "videos": {
+      "title": "Videos & Anleitungen"
+    },
+    "aestheticAndArt": {
+      "headingLine1": "Ästhetik ist",
+      "headingLine2": "wo Kunst auf",
+      "headingLine3": "Medizin trifft",
+      "paragraph1": "Seit 1998 widme ich mich dem Bereich der Haarwiederherstellung und Haartransplantation. In meiner Klinik bieten wir einen hohen Standard an medizinischer Versorgung und professionellem Fachwissen mit einem klaren Fokus auf natürliche, gesunde und dauerhafte Ergebnisse für unsere Patienten.",
+      "paragraph2": "Unser Ansatz beschränkt sich nicht nur auf den Tag des Verfahrens. Jeder Patient wird vor der Behandlung sorgfältig bewertet und geführt und dann mindestens ein Jahr nach dem Eingriff genau verfolgt, um eine optimale Heilung, Haarwachstum und langfristigen Erfolg zu gewährleisten.",
+      "paragraph3": "Im Laufe der Jahre haben wir einen guten Ruf aufgebaut, indem wir chirurgische Erfahrung, fortschrittliche Technologie und die strikte Einhaltung sicherer und ethischer medizinischer Praktiken kombiniert haben. Jede Behandlung wird sorgfältig geplant und auf die individuellen Bedürfnisse jedes Patienten zugeschnitten.",
+      "paragraph4": "Wenn Sie eine Weltklasse-Haartransplantationsklinik suchen, die medizinische Exzellenz, natürliche Ergebnisse und umfassende Patientenversorgung priorisiert, sind mein erfahrenes medizinisches Team und ich hier, um Sie durch jeden Schritt Ihrer Reise zu führen.",
+      "signature": "Özlem Biçer, M.D.",
+      "doctorLink": "Lesen Sie mehr über Dr. Biçer",
+      "appointmentLink": "Buchen Sie einen Termin",
+      "imageAlt": "Ästhetik und Kunst"
+    },
+    "appointment": {
+      "title": "So vereinbaren Sie einen Termin",
+      "steps": {
+        "contact": {
+          "title": "Kontakt per",
+          "titleBr": "WhatsApp",
+          "hoverTitle": "Formular",
+          "hoverTitleBr": "ausfüllen",
+          "imageAlt": "WhatsApp",
+          "description": "Kontaktieren Sie uns auf WhatsApp und verbinden Sie sich mit einem engagierten Patientenberater, der Ihre Sprache spricht. Füllen Sie das von Ihrem Berater bereitgestellte Formular aus und planen Sie Ihre Online-Beratung mit Dr. Biçer."
+        },
+        "consultation": {
+          "title": "Online-",
+          "titleBr": "Beratung",
+          "hoverTitle": "Formular",
+          "hoverTitleBr": "ausfüllen",
+          "imageAlt": "Online-Beratung",
+          "description": "Führen Sie eine persönliche Online-Beratung mit Dr. Biçer durch, um eine personalisierte Bewertung und detaillierte Informationen zu Ihrer Behandlung und Ihrem Prozess zu erhalten. Fahren Sie mit Ihrem Berater mit der Planung der nächsten Schritte fort."
+        },
+        "complete": {
+          "title": "Termin",
+          "titleBr": "abschließen",
+          "hoverTitle": "Formular",
+          "hoverTitleBr": "ausfüllen",
+          "imageAlt": "Termin",
+          "description": "Schließen Sie Ihren Behandlungsplan ab und bestätigen Sie Ihren Termin mit der Anleitung Ihres Beraters. Nach Ihrem Eingriff bleibt Ihr Patientenberater ein Jahr lang in ständigem Kontakt mit Ihnen, überwacht Ihre Fortschritte genau, stellt Updates bereit und unterstützt Sie während Ihrer gesamten Genesungsreise."
+        }
+      },
+      "clinicHeading": "Haartransplantation in<br></br>Istanbul, Türkei",
+      "clinicDescription": "Dr. Özlem Biçer bringt über 25 Jahre Erfahrung mit und ist ein geschätztes Mitglied der International Society of Hair Restoration Surgery (ISHRS). Sie wird von einem engagierten Team von hochqualifizierten Krankenschwestern unterstützt, was uns zu einem der renommiertesten und erfahrensten Haartransplantationsteams weltweit macht.",
+      "contact": "Kontaktieren Sie uns"
+    }
+  },
+  "Header": {
+    "navigation": {
+      "about": "Über uns",
+      "doctor": "Dr. Özlem Biçer",
+      "clinicTeam": "Klinik & Team",
+      "pricing": "Preise",
+      "hairLoss": "Haarausfall",
+      "causes": "Ursachen von Haarausfall",
+      "maleHairLoss": "Haarausfall bei Männern",
+      "femaleHairLoss": "Haarausfall bei Frauen",
+      "treatments": "Behandlungen gegen Haarausfall",
+      "hairMesotherapy": "Haarmesotherapie",
+      "prp": "PRP-Haarbehandlung",
+      "stampCell": "Stammzellbehandlung",
+      "trichopat": "TRICOPAT-Behandlung",
+      "transplantation": "Transplantationen",
+      "hairTransplant": "Haartransplantation",
+      "fueMicroMotor": "FUE (Mikromotor)",
+      "fueManual": "FUE (manuell)",
+      "bodyHair": "Körperhaartransplantation",
+      "reconstructive": "Rekonstruktive Haartranspl.",
+      "longHair": "Langhaar (unrasiert)",
+      "fut": "FUT",
+      "hairWash": "Haarwäsche",
+      "beard": "Barttransplantation",
+      "eyebrow": "Augenbrauentransplantation",
+      "gallery": "Galerie",
+      "beforeAfter": "Vorher-Nachher-Bilder",
+      "videoGallery": "Videogalerie",
+      "informativeVideos": "Informationsvideos",
+      "patientReviews": "Patientenbewertungen",
+      "interviews": "Interviews mit Dr. Biçer"
+    },
+    "mobileNavigationTitle": "Navigationsmenü",
+    "search": {
+      "title": "Suche",
+      "placeholder": "Suchen ...",
+      "escape": "ESC",
+      "noResults": "Keine Ergebnisse gefunden.",
+      "pages": "Seiten"
+    },
+    "alt1": "Ozlembicer-Logo"
+  },
+  "Footer": {
+    "logoAlt": "Logo von Dr. Biçer",
+    "addressLabel": "Adresse:",
+    "address": "Istanbul/Türkei",
+    "mobileLabel": "Mobil & WhatsApp:",
+    "emailLabel": "E-Mail:",
+    "workingHours": "Öffnungszeiten",
+    "days": {
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag"
+    },
+    "closed": "Geschlossen",
+    "copyright": "Dr. Biçer 2026 – Alle Rechte vorbehalten."
+  },
+  "PatientResults": {
+    "title": "Patientenergebnisse",
+    "beforeAlt": "Patient vorher {number}",
+    "afterAlt": "Patient nachher {number}",
+    "videoTitle": "Patientenergebnis Video",
+    "technique": "TECHNIK",
+    "grafts": "TRANSPLANTATE",
+    "after": "NACHHER",
+    "fue": "FUE",
+    "microMotor": "(Mikromotor)",
+    "months": "{count} Monate",
+    "lineAlt": "Linie"
   },
   "LanguageModal": {
     "title": "Sprache wechseln",
@@ -18,10 +241,2262 @@
     "heading": "Mehrsprachiger Support",
     "subheading": "Kontaktieren Sie direkt jemanden, der Ihre Sprache spricht"
   },
+  "Common": {
+    "languages": {
+      "en": {
+        "name": "English",
+        "short": "ENG",
+        "supportAlt": "Englische Unterstützung"
+      },
+      "it": {
+        "name": "Italiano",
+        "short": "ITAL",
+        "supportAlt": "Italienische Unterstützung"
+      },
+      "fr": {
+        "name": "Français",
+        "short": "FRAN",
+        "supportAlt": "Französische Unterstützung"
+      },
+      "de": {
+        "name": "Deutsch",
+        "short": "DEUT",
+        "supportAlt": "Deutsche Unterstützung"
+      }
+    },
+    "accessibility": {
+      "breadcrumb": "Brotkrume",
+      "more": "Mehr",
+      "close": "Schließen"
+    }
+  },
+  "TemporaryLanguage": {
+    "modalMessages": {
+      "en": {
+        "title": "Change Language",
+        "description": "Would you like to switch to {language}?",
+        "confirm": "Yes, switch",
+        "cancel": "Cancel"
+      },
+      "de": {
+        "title": "Sprache wechseln",
+        "description": "Möchten Sie zu {language} wechseln?",
+        "confirm": "Ja, wechseln",
+        "cancel": "Abbrechen"
+      },
+      "fr": {
+        "title": "Changer de langue",
+        "description": "Souhaitez-vous passer en {language} ?",
+        "confirm": "Oui, changer",
+        "cancel": "Annuler"
+      },
+      "it": {
+        "title": "Cambia lingua",
+        "description": "Vuoi passare a {language}?",
+        "confirm": "Sì, cambia",
+        "cancel": "Annulla"
+      }
+    },
+    "comingSoonMessages": {
+      "en": {
+        "title": "Coming Soon",
+        "message": "This section is under construction. Thank you for your understanding."
+      },
+      "de": {
+        "title": "Demnächst verfügbar",
+        "message": "Dieser Bereich befindet sich im Aufbau. Vielen Dank für Ihr Verständnis."
+      },
+      "fr": {
+        "title": "Prochainement disponible",
+        "message": "Cette section est en construction. Merci de votre compréhension."
+      },
+      "it": {
+        "title": "Prossimamente disponibile",
+        "message": "Questa sezione è in costruzione. Grazie per la vostra comprensione."
+      }
+    },
+    "ok": "OK"
+  },
   "NotFound": {
     "title": "Seite nicht gefunden",
     "description": "Die gesuchte Seite wurde möglicherweise verschoben oder existiert nicht mehr. Wir helfen Ihnen gerne weiter.",
     "home": "Zur Startseite",
     "contact": "Termin vereinbaren"
+  },
+  "Content": {
+    "about": {
+      "ozlembicer": {
+        "doctorProfile": {
+          "heading1": "Medizinische Philosophie",
+          "paragraph1": "Während ihrer gesamten medizinischen Karriere war die Patientenversorgung immer die höchste Priorität von Dr. Biçer. Sie glaubt, dass ethische Praxis, berufliche Verantwortung und kontinuierliche Bildung unerlässlich sind, um erfolgreiche und nachhaltige Ergebnisse zu erzielen.",
+          "paragraph2": "Nach ihrer Philosophie ist Haarchirurgie nicht nur Wissenschaft, Kunst, Technologie oder Zahlen. Die Haarwiederherstellung ist mehr als ein chirurgischer Eingriff - sie hat direkte Auswirkungen auf die Emotionen, das Selbstvertrauen und die Lebensqualität eines Patienten. Aus diesem Grund werden die Erwartungen und das emotionale Wohlbefinden jedes Patienten als äußerst wertvoll angesehen und während des gesamten Behandlungsprozesses sorgfältig respektiert.",
+          "paragraph3": "Um die volle Konzentration und den höchsten Standard der Pflege zu gewährleisten, führt Dr. Biçer nur eine Haartransplantation pro Tag durch, so dass sie ihre volle Aufmerksamkeit jedem Patienten widmen kann. Sie hält es auch für wichtig, als ethisches und professionelles Vorbild für jüngere Ärzte zu dienen, die das Feld betreten.",
+          "paragraph4": "Ihre umfangreiche Erfahrung hat es ihr ermöglicht, starke klinische, chirurgische und Kommunikationsfähigkeiten zu entwickeln, die routinemäßige medizinische Praxis, chirurgische Verfahren und Notfallsituationen abdecken.",
+          "heading2": "Berufserfahrung & akademische Beteiligung",
+          "paragraph5": "Dr. Biçer engagiert sich aktiv in der internationalen Haarrestaurierungsgemeinschaft. Sie nimmt regelmäßig an wissenschaftlichen Treffen und Konferenzen weltweit teil und nimmt als Referentin, Trainerin und Mitglied von professionellen Haarrestaurierungsgesellschaften teil. Ihre kontinuierliche akademische Beteiligung und Berufserfahrung ermöglichen es ihr, an der Spitze der neuesten Entwicklungen in der Haarwiederherstellung zu bleiben.",
+          "paragraph6": "In der Klinik von Dr. Biçer werden alle Haarwiederherstellungstechniken persönlich von Dr. Biçer durchgeführt. Diese umfassende Expertise gibt ihr die Möglichkeit, jeden Fall objektiv zu bewerten und die für jeden Patienten am besten geeignete Technik auszuwählen, die ausschließlich auf medizinischen Bedürfnissen und erwarteten Ergebnissen basiert.",
+          "paragraph7": "Ihre beruflichen Schwerpunkte umfassen:",
+          "listItem1": "FUT und FUE Techniken",
+          "listItem2": "Mikromotor und manuelle FUE",
+          "listItem3": "Unrasiertes Langhaar FUE",
+          "listItem4": "Rekonstruktive Haartransplantation",
+          "listItem5": "FUE mit Implantaten",
+          "listItem6": "Behandlung von Haarausfall",
+          "listItem7": "Regenerative Medizin",
+          "listItem8": "Dermatopathologie der Kopfhaut",
+          "paragraph8": "Zusätzlich zur Haartransplantation bietet Dr. Biçer individualisierte Haarausfallbehandlungen an, einschließlich PRP, Mesotherapie und regenerative Medizin-basierte Therapien, die auf die klinischen Bedürfnisse jedes Patienten zugeschnitten sind.",
+          "heading3": "Teamwork und persönliche Werte",
+          "paragraph9": "Dr. Biçer legt Wert auf multidisziplinäre Zusammenarbeit und trägt aktiv zur Patientenversorgung bei, wann immer dies notwendig ist. Sie beschreibt sich selbst als lösungsorientiert, diszipliniert, motiviert und engagiert für die Zusammenarbeit mit Kollegen zum Wohle der Patienten und der Gesellschaft. Der Austausch von Erfahrungen, die Betreuung von Teammitgliedern und die Motivation von Kollegen zu gemeinsamen Zielen sind für ihren professionellen Ansatz von zentraler Bedeutung.",
+          "paragraph10": "Sie führt chirurgische Eingriffe zusammen mit einem lizenzierten medizinischen Team mit 28 Jahren Erfahrung durch, ein Faktor, der eindeutig zu positiven und konsistenten Behandlungsergebnissen beiträgt.",
+          "paragraph11": "Dr. Biçer spricht fließend Englisch. Sie ist auch die Autorin eines Gedichtbuches, mit dem alle Erlöse gespendet werden, um die Bildung von verwaisten Kindern zu unterstützen. Sie ist seit 30 Jahren verheiratet und Mutter eines Sohnes."
+        },
+        "awards": {
+          "heading1": "Auszeichnungen",
+          "paragraph1": "FUE Europe Annual Fue Hands-on Ankara, 2020",
+          "paragraph2": "Meister der Schönheit, 2021",
+          "paragraph3": "2. Internationaler Medizinischer Ästhetischer Kongress",
+          "paragraph4": "Dr. Ufuk Alatekin Akademie „Diejenigen, die der Schönheit einen Mehrwert verleihen 2021",
+          "paragraph5": "Medizinisches Ästhetisches Symposium",
+          "paragraph6": "Mezoder, Kongress für Mesotherapie",
+          "paragraph7": "Los Angles Haarwiederherstellungskurse, Live Surgery Workshop"
+        },
+        "certifications": {
+          "heading1": "Sonstige Bildungs- und Ausbildungsprogramme",
+          "items": [
+            {
+              "title": "Zertifikat für Bio-Kosmetik",
+              "location": "Istanbul, Türkei",
+              "date": "März 2000"
+            },
+            {
+              "title": "Enseignement International de Mesotherapie",
+              "location": "Frankreich",
+              "date": "Oktober 2002"
+            },
+            {
+              "title": "Allergan, Exzellenz",
+              "location": "Istanbul, Türkei",
+              "date": "Dezember 2002"
+            },
+            {
+              "title": "5. Dermatologie und Dermatopathologie in Anatolien",
+              "location": "Istanbul, Türkei",
+              "date": "September 2003"
+            },
+            {
+              "title": "Flavius, FUE und Single Strip Technik",
+              "location": "Istanbul, Türkei",
+              "date": "Juni 2004"
+            },
+            {
+              "title": "1. Medizinische Ästhetik, Mesotherapie",
+              "location": "Antalya, Türkei",
+              "date": "Dezember 2004"
+            },
+            {
+              "title": "Botox und Natural Look Seminar",
+              "location": "Sao Paulo, Brasilien",
+              "date": "März 2005"
+            },
+            {
+              "title": "Allergan Medical Aesthetics Academy - Master Academy für Exzellenz",
+              "location": "",
+              "date": "Mai 2010"
+            },
+            {
+              "title": "Fotona Medical Technology Trainer Workshop",
+              "location": "",
+              "date": "September 2011"
+            },
+            {
+              "title": "Regionale theoretisch-praktische Sitzungen (Bio-Revitalisierung zur Konturkorrektur)",
+              "location": "Istanbul, Türkei",
+              "date": "Oktober 2011"
+            },
+            {
+              "title": "Hipokrat, Genesis Diagnostics Abschluss",
+              "location": "Istanbul, Türkei",
+              "date": "Dezember 2011"
+            },
+            {
+              "title": "Mezoklinik, Promitalia",
+              "location": "Istanbul, Türkei",
+              "date": "Mai 2012"
+            },
+            {
+              "title": "Seltek, Facial Redensity I und Mesotherapie-Anwendungen",
+              "location": "Istanbul, Türkei",
+              "date": "September 2012"
+            },
+            {
+              "title": "Regionale Biorevolumetrie in der Medizinischen Ästhetischen Medizin",
+              "location": "Istanbul",
+              "date": "Dezember 2012"
+            },
+            {
+              "title": "Allergan Medical Institute – Die Codes in die Praxis umsetzen",
+              "location": "",
+              "date": "Juni 2015"
+            },
+            {
+              "title": "Mezoklinik, Perfectha und Ellanse Training",
+              "location": "Istanbul, Türkei",
+              "date": "September 2015"
+            },
+            {
+              "title": "Mester, Medical Aesthetic Face Cadaver",
+              "location": "Edirne, Türkei",
+              "date": "Mai 2016"
+            },
+            {
+              "title": "TC Gesundheitsministerium Mesotherapie-Anwendungen",
+              "location": "Ankara, Türkei",
+              "date": "April 2016"
+            },
+            {
+              "title": "Mester, Medical Aesthetic Complication Management",
+              "location": "Zypern",
+              "date": "Januar 2017"
+            },
+            {
+              "title": "TC Gesundheitsministerium Ozon Anwendungen",
+              "location": "Ankara, Türkei",
+              "date": "April 2017"
+            },
+            {
+              "title": "15. Ästhetische und Anti-Aging-Medikamente, AMWC",
+              "location": "Monaco",
+              "date": "April 2017"
+            },
+            {
+              "title": "AAAM, Ästhetische Medizin",
+              "location": "Pennsylvania, USA",
+              "date": "August 2017"
+            },
+            {
+              "title": "TED1 Teoxane Expertentag",
+              "location": "Istanbul",
+              "date": "September 2017"
+            },
+            {
+              "title": "21. Weltkongress der Ästhetischen Medizin",
+              "location": "Istanbul, Türkei",
+              "date": "Oktober 2017"
+            },
+            {
+              "title": "Mezoklinik, Sterile Separation PRP",
+              "location": "Istanbul, Türkei",
+              "date": "2017"
+            },
+            {
+              "title": "Zweiter Nationaler Medizinischer Ästhetischer Kongress",
+              "location": "",
+              "date": "Januar 2018"
+            },
+            {
+              "title": "TED3 Teoxane Expert Days, Naher Osten",
+              "location": "Dubai",
+              "date": "März 2018"
+            },
+            {
+              "title": "Mester, Medical Aesthetic Complication Management",
+              "location": "Ankara, Türkei",
+              "date": "Mai 2018"
+            },
+            {
+              "title": "TTB Expertise in der Medizin",
+              "location": "",
+              "date": "September 2018"
+            },
+            {
+              "title": "Mester, Haarwiederherstellungsmethoden",
+              "location": "Antalya, Türkei",
+              "date": "Dezember 2018"
+            },
+            {
+              "title": "Mezoklinik Ellanse Theoretische und praktische Füllstoffe",
+              "location": "Istanbul",
+              "date": "März 2019"
+            },
+            {
+              "title": "Masterstudiengang Bio Revolumetria",
+              "location": "Istanbul, Türkei",
+              "date": "April 2019"
+            },
+            {
+              "title": "Nationale Mesotherapie-Gemeinschaft",
+              "location": "",
+              "date": "März 2020"
+            },
+            {
+              "title": "Jährlicher FUE Europe Hands-On Kurs",
+              "location": "Ankara, Türkei",
+              "date": "September 2020"
+            },
+            {
+              "title": "ISHR, 28. Weltkongress",
+              "location": "Online",
+              "date": "Oktober 2020"
+            },
+            {
+              "title": "Global Haarausfall Summit – Sprecher",
+              "location": "Online",
+              "date": "2020"
+            },
+            {
+              "title": "Jährliches FUE Europe Meeting",
+              "location": "",
+              "date": "September 2021"
+            },
+            {
+              "title": "Mester, Internationales Medizinisches Ästhetisches Symposium",
+              "location": "Antalya, Türkei",
+              "date": "Oktober 2021"
+            },
+            {
+              "title": "ISHR, 29. Weltkongress",
+              "location": "Lissabon",
+              "date": "Oktober 2021"
+            },
+            {
+              "title": "Global Haarausfall Summit – Sprecher",
+              "location": "Online",
+              "date": "2021"
+            },
+            {
+              "title": "USHRS-Kongress",
+              "location": "Ukraine (Online)",
+              "date": "Februar 2022"
+            },
+            {
+              "title": "Kurs zur Haarwiederherstellung in Los Angeles",
+              "location": "Los Angeles, USA",
+              "date": "März 2022"
+            }
+          ]
+        },
+        "ozlemBicerHero": {
+          "heading1": "Wer ist",
+          "span1": "Dr. Özlem Biçer",
+          "paragraph1": "Dr. Özlem Biçer wurde 1973 in Istanbul geboren. Sie absolvierte 1991 ihre Sekundarstufe am Anakent College und schloss 1998 die Medizinische Fakultät der Trakya University ab. Nach ihrem medizinischen Abschluss absolvierte sie ein zertifiziertes Trainingsprogramm in Haarchirurgie, das vom Gesundheitsministerium der Republik Türkei organisiert wurde, und erhielt die offizielle Genehmigung zur Durchführung von Haartransplantationsverfahren.",
+          "paragraph2": "Im Jahr 2002 erweiterte Dr. Biçer ihr Fachwissen durch eine Weiterbildung in Frankreich mit Schwerpunkt auf Haarausfallbehandlungen, Mesotherapie und medizinischer Ästhetik.",
+          "paragraph3": "Dr. Biçer ist ein Haartransplantationschirurg mit über 25 Jahren medizinischer Erfahrung. Sie hat während ihrer gesamten Karriere sowohl FUE (Follicular Unit Extraction) als auch FUT (Follicular Unit Transplantation) durchgeführt. Zwischen 1999 und 2002 arbeitete sie in mehreren Privatkliniken in Istanbul, spezialisiert auf ästhetische Medizin und Haarchirurgie. Seit 2002 führt sie Haartransplantationsverfahren in ihrer eigenen lizenzierten und autorisierten Klinik durch.",
+          "alt1": "Dr. Özlem Biçer",
+          "title1": "Dr. Özlem Biçer Video"
+        },
+        "professionalAffiliations": {
+          "heading1": "Berufszugehörigkeit",
+          "heading2": "Diplomatische Rollen",
+          "paragraph1": "ABHRS",
+          "heading3": "Mitglieder des Verwaltungsrats",
+          "paragraph2": "AAAM, TSHRS, MESTDER",
+          "heading4": "Erzieherrollen",
+          "paragraph3": "Türkisches Gesundheitsministerium, ABHRS, ISHRS, IAHRS",
+          "heading5": "Berufliche Mitgliedschaften",
+          "paragraph4": "TBB, FUE EUROPE, AAAM, TSHRS, MESTDER, MED, MS, TTB"
+        },
+        "links": [
+          "Über Dr. Özlem Biçer",
+          "Klinik & Team",
+          "Preisgestaltung"
+        ]
+      },
+      "clinicAndTeam": {
+        "clinic": {
+          "heading1": "Klinik"
+        },
+        "clinicTeamHero": {
+          "heading1": "Ein erfahrener",
+          "span1": "Arzt und medizinisches Team",
+          "paragraph1": "Unsere Klinik wird von einem sehr erfahrenen und engagierten Haartransplantationsteam unterstützt, das für seine medizinische Expertise und seinen patientenzentrierten Ansatz anerkannt ist. Dr. Özlem Biçer hat über 28 Jahre Erfahrung in der Haarwiederherstellungschirurgie und ist stolzes Mitglied der International Society of Hair Restoration Surgery (ISHRS). Sie wird von einem Team sorgfältig ausgewählter, gut ausgebildeter und erfahrener medizinischer Krankenschwestern unterstützt, die mit Präzision und Konsistenz zusammenarbeiten.",
+          "paragraph2": "Im Gegensatz zu vielen Haartransplantationszentren glauben wir, dass Haartransplantation ein medizinisches Verfahren ist, das unter der direkten Verantwortung eines lizenzierten Arztes durchgeführt werden sollte. Unsere Klinik arbeitet in Übereinstimmung mit medizinischen Vorschriften und professionellen Standards und gehört zu einer begrenzten Anzahl von lizenzierten Haartransplantationskliniken in der Türkei.",
+          "paragraph3": "Um ein Höchstmaß an Pflege zu gewährleisten, behandeln wir nur einen Patienten pro Tag. Das gleiche erfahrene medizinische Team unterstützt Dr. Biçer bei jedem Eingriff und ermöglicht volle Konzentration, Kontinuität und persönliche Aufmerksamkeit. Dieser Ansatz ermöglicht es uns, eine strenge Qualitätskontrolle zu gewährleisten, eine aufmerksame Patientenversorgung zu gewährleisten und in jedem Fall nach natürlichen, zuverlässigen Ergebnissen zu streben.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "clinicVideo": {
+          "alt1": "Klinik"
+        },
+        "title1": "Patientenergebnisse",
+        "links": [
+          "Über Dr. Özlem Biçer",
+          "Klinik & Team",
+          "Preisgestaltung"
+        ]
+      },
+      "pricing": {
+        "pricingHero": {
+          "heading1": "Preisgestaltung",
+          "items": [
+            {
+              "title": "FUE automatisiert",
+              "paragraphs": [
+                {
+                  "text": "3 € pro Transplantat"
+                },
+                {
+                  "text": "Bis zu 4.000 Transplantate in einer Sitzung"
+                }
+              ]
+            },
+            {
+              "title": "FUE-Handbuch",
+              "paragraphs": [
+                {
+                  "text": "4 € pro Transplantat"
+                },
+                {
+                  "text": "(Bis zu 2.000 Transplantate in einer Sitzung)"
+                },
+                {
+                  "text": "Für FUE-Sitzungen hat der Preis plus / minus 200 Transplantate Bereich."
+                }
+              ]
+            },
+            {
+              "title": "FUT (Streifen)",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Barttransplantation",
+              "paragraphs": [
+                {
+                  "text": "Von der Kopfhaut zum Bart: 6.000–9.000 € (abhängig von der Anzahl der Transplantate)"
+                },
+                {
+                  "text": "Vom Bart zur Kopfhaut: 6.000 € (unabhängig von der Anzahl der Transplantate)"
+                }
+              ]
+            },
+            {
+              "title": "Augenbrauentransplantation",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Körperhaartransplantation",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Mikrofermentation der Kopfhaut (SMP)",
+              "paragraphs": [
+                {
+                  "text": "500€ – 1000€"
+                }
+              ]
+            },
+            {
+              "title": "PRP-Behandlung",
+              "paragraphs": [
+                {
+                  "text": "Frei mit bestimmten Operationen"
+                }
+              ]
+            },
+            {
+              "title": "Konsultation",
+              "paragraphs": [
+                {
+                  "parts": [
+                    "In Person: 100€",
+                    "Online: Kostenlos"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Touch-Up Bedingungen und Konditionen",
+              "paragraphs": [
+                {
+                  "text": "Die Sitzungen werden mit Genehmigung von Dr. Biçer geplant. Sie sind 1-2 Mal in einem Jahr geplant. Mehr als 2 Sitzungen können am selben Tag geplant werden."
+                },
+                {
+                  "text": "Kostenlose Nachbesserung für 50-200 Transplantate (Sessionen sind geplant, um Probleme durch unsachgemäßes Waschen, Kopftrauma ... zu beseitigen)"
+                },
+                {
+                  "text": "Bis zu 1000 Transplantate: 2000€"
+                }
+              ]
+            },
+            {
+              "title": "Rabattbedingungen",
+              "paragraphs": [
+                {
+                  "text": "Arzt/Team:%10"
+                },
+                {
+                  "text": "Student: %10 (für Studenten, die nicht arbeiten)"
+                },
+                {
+                  "text": "Gruppenpatienten: %10 für jeden"
+                },
+                {
+                  "text": "2 BHT-Sitzungen: %15 (Wenn zwei Sitzungen an einem Tag durchgeführt werden)"
+                },
+                {
+                  "text": "Last-Minute-Termine: 1000 € (Für Termine für einen bestimmten Tag, der weniger als zehn Tage entfernt ist). Um teure Flugpreise in letzter Minute tolerieren zu können"
+                },
+                {
+                  "text": "Last Minute Termine: 500 € (für 10-15 Tage)"
+                },
+                {
+                  "text": "Für die Veröffentlichung von Medien (Fotos & Videos) in wissenschaftlichen Studien, Präsentationen, Kongressen und Artikeln: 20% (Dr. Biçer trifft ihre eigene Entscheidung für diese Rabattart in Absprache, wenn der Patient für diesen Fall geeignet ist Ex: Rekonstruktion nach Verbrennungen)"
+                },
+                {
+                  "text": "Es wird nur ein Typ-Rabatttyp angewendet und der Gesamtrabatt kann nicht mehr als % betragen20"
+                }
+              ]
+            }
+          ]
+        },
+        "title1": "Patientenergebnisse",
+        "links": [
+          "Über Dr. Özlem Biçer",
+          "Klinik & Team",
+          "Preisgestaltung"
+        ]
+      }
+    },
+    "contact": {
+      "contactCards": {
+        "heading1": "So vereinbaren Sie einen Termin",
+        "paragraph1": "Termin",
+        "paragraph2": "vereinbaren",
+        "paragraph3": "Seit 1998 arbeite ich an Haarwiederherstellung und Haartransplantationen. Meine Klinik bietet das höchste Maß an Service und Fachwissen, um die Träume unserer Patienten in die Realität umzusetzen. Wir haben einen unübertroffenen Ruf aufgebaut, indem wir unseren Patienten überlegene Ergebnisse bieten, während wir die beste Technologie nutzen und uns an die sichersten Arztpraxen halten.",
+        "paragraph4": "Özlem Biçer, M.D.",
+        "paragraph5": "Online-",
+        "paragraph6": "Beratung",
+        "paragraph7": "Seit 1998 arbeite ich an Haarwiederherstellung und Haartransplantationen. Meine Klinik bietet das höchste Maß an Service und Fachwissen, um die Träume unserer Patienten in die Realität umzusetzen. Wir haben einen unübertroffenen Ruf aufgebaut, indem wir unseren Patienten überlegene Ergebnisse bieten, während wir die beste Technologie nutzen und uns an die sichersten Arztpraxen halten.",
+        "paragraph8": "Özlem Biçer, M.D.",
+        "paragraph9": "Termin",
+        "paragraph10": "abschließen",
+        "paragraph11": "Seit 1998 arbeite ich an Haarwiederherstellung und Haartransplantationen. Meine Klinik bietet das höchste Maß an Service und Fachwissen, um die Träume unserer Patienten in die Realität umzusetzen. Wir haben einen unübertroffenen Ruf aufgebaut, indem wir unseren Patienten überlegene Ergebnisse bieten, während wir die beste Technologie nutzen und uns an die sichersten Arztpraxen halten.",
+        "paragraph12": "Özlem Biçer, M.D."
+      },
+      "contactForm": {
+        "paragraph1": "Adresse:",
+        "paragraph2": "Istanbul / Türkei",
+        "paragraph3": "Mobil & WhatsApp:",
+        "paragraph4": "E-Mail:",
+        "paragraph5": "info@ozlembicer.com",
+        "heading1": "Haartransplantation in",
+        "heading2": "Istanbul, Türkei",
+        "paragraph6": "Dr. Özlem Biçer bringt über 25 Jahre Erfahrung mit und ist ein geschätztes Mitglied der International Society of Hair Restoration Surgery (ISHRS). Sie wird von einem engagierten Team von hochqualifizierten Krankenschwestern unterstützt, was uns zu einem der renommiertesten und erfahrensten Haartransplantationsteams weltweit macht.",
+        "span1": "KONTAKTIEREN SIE UNS",
+        "span2": "KONTAKTIEREN SIE UNS",
+        "link1": "info@ozlembicer.com"
+      }
+    },
+    "gallery": {
+      "beforeAfterImages": {
+        "beforeAfterHero": {
+          "heading1": "Patientenergebnisse",
+          "span1": "Vorher & Nachher",
+          "paragraph1": "Als Klinik legen wir Wert auf Post-Pre- und Post-Operation-Follow-up ist einer der wichtigsten Teile der Haartransplantation. Die Operation ist nur ein einziger Teil des Haartransplantationsprozesses und nach dem Prozess mit den richtigen Medikamenten und der guten Versorgung von Empfänger und Spender ist ein weiterer wichtiger Teil des Prozesses. Während dieser Zeit ist es wichtig für uns, mit unseren Patienten voranzukommen und eins zu eins Follow-up ist sehr curutial Teil unserer Klinik. Durch unsere Pollicy vervollständigen wir die Jahre mit über 250 zufriedenen Patienten für 28 Jahre.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "heading1": "Vorher & Nachher",
+        "alt1": "Vorher-Nachher-Symbol"
+      },
+      "videoGallery": {
+        "title1": "Informationsvideos",
+        "title2": "Patientenbewertungen",
+        "title3": "Interviews mit Dr. Biçer",
+        "links": [
+          "Informationsvideos",
+          "Patientenbewertungen",
+          "Interviews mit Dr. Biçer"
+        ],
+        "informativeVideos": [
+          "Gibt es eine beste Haartransplantationstechnik? FUE vs FUT erklärt von Dr. Özlem Biçer"
+        ],
+        "patientReviewVideos": [
+          "Patientenbewertung - 001",
+          "Patientenbewertung - 002",
+          "Patientenbewertung - 003",
+          "Patientenbewertung - 004",
+          "Patientenbewertung - 005",
+          "Patientenbewertung - 006",
+          "Patientenbewertung - 007",
+          "Patientenbewertung - 008",
+          "Patientenbewertung - 009",
+          "Patientenbewertung - 010",
+          "Patientenbewertung - 011",
+          "Patientenbewertung - 012",
+          "Patientenbewertung - 013",
+          "Patientenbewertung - 014",
+          "Patientenbewertung - 015",
+          "Patientenbewertung - 016",
+          "Patientenbewertung - 017",
+          "Patientenbewertung - 018",
+          "Patientenbewertung - 035"
+        ],
+        "interviewVideos": [
+          "Ich möchte über die erfolgreiche Haarrestauration sprechen.",
+          "Dr. Özlem Biçer, ein erfahrener Haartransplantationschirurg in Istanbul",
+          "Die kahle Wahrheit: Erhalten Sie Ihre Fragen über Haarausfall und Haartransplantationen beantwortet",
+          "Interview mit Haartransplantations Network",
+          "The Bald Truth – Patientenbericht",
+          "Bellicapelli Forum"
+        ]
+      }
+    },
+    "guides": {
+      "afterHairTransplantation": {
+        "afterHairTransplantationDoesItWork": {
+          "heading1": "Hauptursachen für Haarausfall bei Männern",
+          "paragraph1": "Androgenetische Alopezie ist eine genetisch vererbte Form von Haarausfall, die durch die Aktivität von 5-alpha-Reduktase Typ I und Typ II-Enzymen verursacht wird, die Testosteron in Dihydrotestosteron (DHT) umwandeln. Bei genetisch prädisponierten Personen bindet DHT an empfindliche Haarfollikel, was zu einer fortschreitenden follikulären Miniaturisierung und Haarausfall im Laufe der Zeit führt.",
+          "paragraph2": "Typische Zeichen sind:",
+          "listItem1": "Zurückgehender Haaransatz:",
+          "listItem2": "Ausdünnung an der Krone",
+          "listItem3": "Allmählicher Verlust der Dichte im Laufe der Zeit",
+          "paragraph3": "Dieser Zustand kann kurz nach der Pubertät beginnen und mit dem Alter fortschreiten, wenn er unbehandelt bleibt.",
+          "paragraph4": "Alopecia areata ist eine Autoimmunerkrankung, bei der das Immunsystem des Körpers die Haarfollikel angreift. Es verursacht plötzliche, runde Flecken von Haarausfall auf der Kopfhaut oder Bart.",
+          "listItem4": "Es kann in jedem Alter auftreten",
+          "listItem5": "Haare können nachwachsen, aber der Zustand kann wieder auftreten",
+          "listItem6": "Haartransplantation wird während der aktiven Phase dieser Erkrankung nicht empfohlen",
+          "paragraph5": "Narben-Alopezie tritt auf, wenn Haarfollikel dauerhaft beschädigt und durch Narbengewebe ersetzt werden. Dies kann sich ergeben aus:",
+          "listItem7": "Verbrennungen oder Trauma",
+          "listItem8": "Chirurgische Narben",
+          "listItem9": "Infektionen",
+          "listItem10": "Bestimmte entzündliche Hauterkrankungen (LPP, FFA, SLE, Akne, Keloides, Nucha, etc.)",
+          "paragraph6": "Haartransplantation in Narbengewebe kann möglich sein, aber Transplantat Überleben kann niedriger sein, weil Narbengewebe Blutzirkulation reduziert hat. Wir haben keine Chance, eine Haartransplantation bei Patienten durchzuführen, die eine aktive Zikatrien-Alopezie haben.",
+          "paragraph7": "Telogen Effluvium ist eine vorübergehende Form von Haarausfall, die auftritt, wenn Stress, Krankheit oder hormonelles Ungleichgewicht dazu führen, dass eine große Anzahl von Haarfollikeln in die Ruhephase eintritt.",
+          "paragraph8": "Dies führt zu einer diffusen Ausdünnung über die Kopfhaut. Sobald die Ursache behandelt wird, wachsen die Haare normalerweise auf natürliche Weise nach.",
+          "paragraph9": "Wenn Sie plötzlichen oder schnellen Haarausfall erleben oder bemerken, dass sich kahle Flecken bilden, sollten Sie einen Arzt aufsuchen. Haarausfall kann manchmal mit zugrunde liegenden medizinischen oder Autoimmunerkrankungen verbunden sein, die eine ordnungsgemäße Diagnose und Behandlung erfordern.",
+          "paragraph10": "Um eine genaue Bewertung Ihres Haarausfalls Stadium und Behandlungsmöglichkeiten zu erhalten, können Sie Dr. Özlem Biçer und ihr erfahrenes medizinisches Team konsultieren. Eine professionelle Diagnose stellt sicher, dass der am besten geeignete Therapie- oder Rekonstruktivansatz für Ihren individuellen Fall ausgewählt wird.",
+          "titleLines1": [
+            "A) Androgenetische",
+            "Alopezie"
+          ],
+          "titleLines2": [
+            "B) Alopecia",
+            "areata"
+          ],
+          "titleLines3": [
+            "C) Vernarbende",
+            "Alopezie"
+          ],
+          "titleLines4": [
+            "D) Telogenes",
+            "Effluvium"
+          ],
+          "titleLines5": [
+            "Plötzlicher",
+            "Haarausfall"
+          ],
+          "titleLines6": [
+            "Professionelle",
+            "Beurteilung des Haarausfalls"
+          ]
+        },
+        "afterHairTransplantationHero": {
+          "heading1": "Führung",
+          "span1": "Nach der Haartransplantation",
+          "paragraph1": "Als Klinik legen wir Wert auf Post-Pre- und Post-Operation-Follow-up ist einer der wichtigsten Teile der Haartransplantation. Die Operation ist nur ein einziger Teil des Haartransplantationsprozesses und nach dem Prozess mit den richtigen Medikamenten und der guten Versorgung von Empfänger und Spender ist ein weiterer wichtiger Teil des Prozesses. Während dieser Zeit ist es wichtig für uns, mit unseren Patienten voranzukommen und eins zu eins Follow-up ist sehr curutial Teil unserer Klinik. Durch unsere Pollicy vervollständigen wir die Jahre mit über 250 zufriedenen Patienten für 28 Jahre."
+        },
+        "alt1": "FUE Schritt 1",
+        "alt2": "FUE Schritt 2",
+        "alt3": "FUE Schritt 3",
+        "alt4": "FUE Schritt 4",
+        "alt5": "FUE Schritt 5",
+        "title1": "Wie viel",
+        "title2": "Haarausfall ist normal?",
+        "value1": "Es ist völlig normal, jeden Tag einige Haare als Teil des natürlichen Haarwachstumszyklus zu verlieren.",
+        "value2": "Eine gesunde Person kann bis zu 100 Haare pro Tag verlieren, und dieses Haar wird normalerweise durch neues Wachstum ersetzt.",
+        "value3": "Wenn Sie anhaltende und erhöhte Ausscheidung oder sichtbare Ausdünnung bemerken, wird empfohlen, einen qualifizierten Haarwiederherstellungsspezialisten zur Bewertung zu konsultieren.",
+        "links": [
+          "Vor der Haartransplantation",
+          "Nach der Haartransplantation",
+          "Technologie & Haartransplantation",
+          "Komplikationen der Haarchirurgie",
+          "Häufig gestellte Fragen"
+        ]
+      },
+      "beforeHairTransplantation": {
+        "beforeHairTransplantationDoesItWork": {
+          "paragraph1": "Vor der Planung der Operation muss sich jeder Patient einer detaillierten medizinischen Untersuchung unterziehen, einschließlich:",
+          "listItem1": "Überprüfung der Krankengeschichte",
+          "listItem2": "Bewertung von Haarausfall Art und Stadium",
+          "listItem3": "Bewertung der Kapazität des Gebergebiets",
+          "listItem4": "Trichoskopische Untersuchung, falls erforderlich",
+          "listItem5": "Blutuntersuchungen (wie von der Klinik angefordert)",
+          "paragraph2": "Bitte informieren Sie Ihren Arzt, wenn Sie:",
+          "listItem6": "Chronische Erkrankungen (Diabetes, Herzerkrankungen, Autoimmunerkrankungen)",
+          "listItem7": "Blutungsstörungen",
+          "listItem8": "Allergien",
+          "listItem9": "Geschichte der schlechten Wundheilung",
+          "listItem10": "Frühere Haartransplantationen",
+          "paragraph3": "Genaue medizinische Informationen sind entscheidend für Ihre Sicherheit.",
+          "paragraph4": "Medikamente zu stoppen (wenn von Ihrem Arzt genehmigt)",
+          "listItem11": "Aspirin und Blutverdünner: Stopp mindestens 7-10 Tage vor der Operation",
+          "listItem12": "Entzündungshemmende Medikamente (NSAIDs): Stoppen Sie 5-7 Tage vorher",
+          "listItem13": "Vitamin E, Omega-3, Ginkgo biloba, Ginseng, Knoblauchpräparate: 7 Tage vorher absetzen",
+          "listItem14": "Kräuterergänzungen: Stoppen Sie 7-10 Tage vorher",
+          "listItem15": "Stoppen Sie die verschriebenen Medikamente nicht ohne ärztliche Genehmigung.",
+          "listItem16": "Rauchen sollte mindestens 7 Tage vor der Operation gestoppt werden (idealerweise 2-4 Wochen für beste Ergebnisse)",
+          "listItem17": "Alkohol muss mindestens 3 Tage vor der Operation vermieden werden",
+          "paragraph5": "Rauchen und Alkohol reduzieren die Durchblutung signifikant, erhöhen das Blutungsrisiko und beeinflussen das Transplantatüberleben negativ.",
+          "listItem18": "Waschen Sie Ihre Haare in der Nacht vor oder am Morgen der Operation mit einem milden Shampoo",
+          "paragraph6": "Nicht anwendbar:",
+          "listItem19": "Haargel",
+          "listItem20": "Wachs",
+          "listItem21": "Spray",
+          "listItem22": "Öle oder Lotionen",
+          "listItem23": "Färben Sie Ihre Haare nicht innerhalb von 7 Tagen vor der Operation",
+          "listItem24": "Vermeiden Sie Kopfhautbehandlungen oder aggressive Massage vor der Operation",
+          "paragraph7": "Wenn Sie sich einer unrasierten oder langen Haartransplantation unterziehen, befolgen Sie die spezifischen Anweisungen der Klinik.",
+          "listItem25": "Essen Sie eine leichte, aber nahrhafte Mahlzeit am Morgen der Operation",
+          "listItem26": "Vermeiden Sie schwere, fettige oder würzige Lebensmittel",
+          "listItem27": "Trinken Sie ausreichend Wasser, aber vermeiden Sie übermäßiges Koffein",
+          "listItem28": "Kommen Sie nicht fasten, es sei denn, speziell angewiesen",
+          "listItem29": "Die richtige Hydratation hilft, den Blutdruck und die Zirkulation während des Verfahrens stabil zu halten.",
+          "listItem30": "Tragen Sie bequeme, lockere Kleidung",
+          "listItem31": "Wählen Sie Button-Down- oder Zip-Up-Tops (Vermeiden Sie Kleidung, die über den Kopf gezogen werden muss)",
+          "listItem32": "Bringen Sie keine Wertsachen in die Klinik",
+          "paragraph8": "Entfernen:",
+          "listItem33": "Schmuck",
+          "listItem34": "Piercings",
+          "listItem35": "Kontaktlinsen (falls empfohlen)",
+          "listItem36": "Vereinbaren Sie Ihre Reise so, dass Sie mindestens einen Tag vor der Operation ankommen, wenn möglich",
+          "paragraph9": "Stellen Sie sicher, dass die Unterkunft Ihnen ermöglicht:",
+          "listItem37": "Schlafen Sie bequem mit Kopfhöhe",
+          "listItem38": "Ruhe für die ersten paar Tage",
+          "listItem39": "Planen Sie keine langen Flüge unmittelbar nach der Operation, sofern nicht genehmigt",
+          "listItem40": "Holen Sie sich einen guten Schlaf vor dem Eingriff",
+          "listItem41": "Vermeiden Sie intensive körperliche Bewegung 48 Stunden vor der Operation",
+          "listItem42": "Stress so weit wie möglich reduzieren",
+          "listItem43": "Gut ausgeruht zu sein, verbessert die Heilung und den allgemeinen Komfort.",
+          "listItem44": "Ankunft in der Klinik pünktlich",
+          "listItem45": "Hairline Design und endgültige Planung werden mit Ihrem Arzt durchgeführt",
+          "listItem46": "Sie erhalten detaillierte Informationen zu den Verfahrensschritten",
+          "listItem47": "Lokalanästhesie wird angewendet",
+          "listItem48": "Das Verfahren wird durchgeführt, während Sie wach und bequem sind",
+          "listItem49": "Haartransplantation ist ein medizinisches Verfahren",
+          "paragraph10": "Die Ergebnisse hängen ab von:",
+          "listItem50": "Genetik",
+          "listItem51": "Progression des Haarausfalls",
+          "listItem52": "Geberkapazität",
+          "listItem53": "Postoperative Versorgung",
+          "listItem54": "Sofortige kosmetische Erscheinung spiegelt nicht die endgültigen Ergebnisse",
+          "listItem55": "Endgültiges Wachstum wird nach 12-15 Monaten bewertet",
+          "listItem56": "Die strikte Einhaltung präoperativer Anweisungen ist einer der wichtigsten Faktoren, um ein erfolgreiches und natürliches Ergebnis zu erzielen.",
+          "titleLines1": [
+            "1. Medizinische Untersuchung",
+            "& Beratung"
+          ],
+          "titleLines2": [
+            "2. Medikamente",
+            "& Nahrungsergänzungsmittel"
+          ],
+          "titleLines3": [
+            "3. Rauchen",
+            "& Alkohol"
+          ],
+          "titleLines4": [
+            "4. Haare &",
+            "Vorbereitung der Kopfhaut"
+          ],
+          "titleLines5": [
+            "5. Ernährung",
+            "& Flüssigkeitszufuhr"
+          ],
+          "titleLines6": [
+            "6. Kleidung",
+            "& persönliche Gegenstände"
+          ],
+          "titleLines7": [
+            "7. Reise-",
+            "& Unterkunftsplanung"
+          ],
+          "titleLines8": [
+            "8. Schlaf",
+            "& Lebensstil vor der Operation"
+          ],
+          "titleLines9": [
+            "9. Operationstag",
+            "Was ist zu erwarten?"
+          ],
+          "titleLines10": [
+            "10. Wichtige",
+            "abschließende Hinweise"
+          ]
+        },
+        "beforeHairTransplantationHero": {
+          "heading1": "Führung",
+          "span1": "Vor der Haartransplantation",
+          "paragraph1": "Die richtige Vorbereitung vor der Haartransplantation ist für die Patientensicherheit, das Transplantatüberleben und optimale Ergebnisse unerlässlich. Bitte lesen und befolgen Sie die folgenden Anweisungen sorgfältig."
+        },
+        "alt1": "FUE Schritt 1",
+        "alt2": "FUE Schritt 2",
+        "alt3": "FUE Schritt 3",
+        "alt4": "FUE Schritt 4",
+        "alt5": "FUE Schritt 5",
+        "links": [
+          "Vor der Haartransplantation",
+          "Nach der Haartransplantation",
+          "Technologie & Haartransplantation",
+          "Komplikationen der Haarchirurgie",
+          "Häufig gestellte Fragen"
+        ]
+      }
+    },
+    "hairLoss": {
+      "cousesOfHairLoss": {
+        "femaleHairLoss": {
+          "femaleContent": {
+            "heading1": "SCHWANGERSCHAFT",
+            "paragraph1": "Schwangerschaft ist eine der größten stressigen Situationen, die eine Frau Ihrem Körper zufügen kann. Während dieser Zeit sind Hormonspiegel völlig anders als normale Zeiten und verursachen viele Veränderungen im Körper - und Ihr Haar gewinnt keine Immunität von diesem Effekt.",
+            "paragraph2": "Während der Schwangerschaft gibt es einen erhöhten Spiegel des Hormons Östrogen. Östrogen bewirkt, dass Ihr Haar in der Wachstumsphase des Haarwachstumszyklus bleibt, und stimuliert das Haar zu wachsen, wenn es nicht bereits ist. Während Sie schwanger sind, sollten Sie erwarten, einen vollen, üppigen Kopf der Haare zu haben.",
+            "paragraph3": "Während der Schwangerschaft ist das Niveau der Östrogenhormone erhöht. Wenn Sie schwanger sind, wirkt Östrogen, indem Sie Ihr Haar in der Verlängerungsphase des Haarwachstumszyklus halten und das Haarwachstum fördern, wenn es nicht bereits auf diesem Niveau ist. Sie erwarten, dass Ihr Haar auch während Ihrer Schwangerschaft voluminös und attraktiv aussieht.",
+            "paragraph4": "Aber die Dinge ändern sich nach der Geburt. Wenn Ihre Hormone wieder normal werden, wird Ihr Körper unter Schock stehen und Sie werden schweren Haarausfall erleben.",
+            "paragraph5": "Dies bedeutet dann, dass das gesamte Östrogen, das den Haarausfall verhindert hat, verschwindet und in diesem Fall beginnt der Haarausfall. Dies kann unglücklich sein, weil 60% der Haare gleichzeitig in Ruhe gehen können und zu viel Haar plötzlich abfallen kann, aber das Haar wird wieder wachsen. Haarausfall durch Schwangerschaft ist eine spezielle Form von Telogen Effluvium.",
+            "heading2": "POLYZYSTISCHES OVARIALSYNDROM",
+            "paragraph6": "Polyzystisches Eierstocksyndrom - oder PKOS - besonders wirksam auf Ihr hormonelles Gleichgewicht - verursacht hormonelle Ungleichgewichte, da es sich um eine hormonelle Störung handelt. Frauen mit PKOS haben hohe Werte von Androgen, Testosteron und Dihydrotestosteron (DHT). Haarausfall durch DHT ist bei Frauen mit PKOS häufig.",
+            "paragraph7": "Wenn hohe Androgene - insbesondere DHT - auf den Haarfollikeln sind, beginnen sie, das Haar zu beeinflussen, was zu Haarausfall führt. DHT kann den Haarfollikel verstopfen und die Bildung neuer Haare verhindern. Dies ist im Wesentlichen eine andere Form der androgenetischen Alopezie.",
+            "heading3": "MENOPAUSE",
+            "paragraph8": "Die Menopause hat eine Vielzahl von Auswirkungen auf Körper und Haare, was zu einer Abnahme des Östrogenspiegels führt. Zusätzlich zu Hitzewallungen erwarten Sie Stimmungsschwankungen und plötzliche Zunahmen der Gesichtsbehaarung - Haarlinienrückzug und Zunahme des Haarausfalls. Dies ist auf verringerte Östrogenspiegel zurückzuführen. Da Östrogen Ihr Haar in seiner Wachstumsphase hält, führen niedrige Spiegel dazu, dass das Haar seinen Wachstumszyklus verkürzt und Haarklumpen abfallen, bevor sie die erreichbare Länge erreichen.",
+            "heading4": "ANÄMIE",
+            "paragraph9": "Anämie ist eine Bluterkrankung, die durch Eisenmangel verursacht wird. Eisen ist ein unglaublich wichtiger Nährstoff für Ihr Haar. Anämie wird typischerweise durch einen Mangel an eisenreicher Nahrung in Ihrer Ernährung verursacht oder wenn Ihre Zellen Eisen nicht richtig aufnehmen. Wenn Sie bemerkt haben, dass Sie dünner werdendes Haar haben, kann es sich lohnen, zuerst mit Ihrem Arzt zu sprechen, um zu sehen, ob Sie zu irgendeinem Grad anämisch sind. Eisenspiegel können durch irgendeine Form von Eisenergänzung und Ernährungsumstellung korrigiert werden.",
+            "paragraph10": "Eisen ist wichtig für das Haar, weil es Ferritin enthält, ein gespeichertes Eisen, das hilft, Haarzellproteine zu produzieren. Der richtige Ferritinspiegel maximiert auch die analgene (Wachstums-) Phase Ihres Haares und fördert das Haarwachstum auf die richtige Länge.",
+            "heading5": "Andere Ursachen des Haarausfalls",
+            "paragraph11": "Um mehr über die Art des Haarausfalls, den Sie möglicherweise erleben, und die Ihnen zur Verfügung stehenden Lösungen zu erfahren, buchen Sie eine Beratung für eine detaillierte Bewertung.",
+            "heading6": "Was ist die Ludwig Skala",
+            "paragraph12": "Muster weiblicher Haarausfall",
+            "paragraph13": "Kliniker verwenden die Ludwig-Klassifikation, um Haarausfall bei Frauen zu beschreiben. Typ I ist eine minimale Verdünnung, die mit Haarstyling-Techniken getarnt werden kann. Typ II zeichnet sich durch ein kleineres Volumen und eine signifikante Ausbreitung des Mittellinienteils aus. Typ III beschreibt eine diffuse Verdünnung mit einem durchsichtigen Erscheinungsbild auf der Oberseite der Kopfhaut.",
+            "heading7": "Tipps, um Frauen zu helfen, die ersten Anzeichen zu erkennen",
+            "paragraph14": "Haare fallen mehr als zwei Monate lang mehr als üblich - vielleicht beim Waschen, Bürsten oder auf Kissen und Kleidung. Es ist normal, bis zu 100 Haare pro Tag zu verlieren, wenn Sie also mehr Tage zwischen den Haarwäschen lassen, als Sie es normalerweise tun, wird die Menge an Haarausfall, die Sie sehen, auffälliger sein.",
+            "paragraph15": "Dünner Pferdeschwanz.",
+            "paragraph16": "Die Kopfhaut wird sichtbarer oder das Haar hat weniger Volumen als zuvor.",
+            "paragraph17": "Die Haare wachsen nicht mehr so lange wie früher.",
+            "paragraph18": "Die Enden sind feiner als gewöhnlich, aber es bricht nicht. Viele neue Haare können auch in unterschiedlicher Länge aus der Kopfhaut wachsen.",
+            "paragraph19": "Ihr Haar wird allmählich feiner in den vorderen, Kronen- oder Tempelbereichen Ihrer Kopfhaut.",
+            "paragraph20": "Übermäßiges Haarwachstum an anderen Körperteilen, wie Gesicht, Brust oder Armen.",
+            "heading8": "Haartransplantation bei Frauen",
+            "paragraph21": "Haarausfall und Glatze sind Probleme, unter denen auch Frauen leiden. Haartransplantation ist eine der möglichen Lösungen für diese Probleme. Eine Haartransplantation wäre jedoch nicht die erste Lösung für Frauen. Denn die Ursache für Haarausfall bei Frauen wäre nicht die androgenetische Alopezie, die bei Männern die Hauptursache für Kahlheit ist, sondern hormonelle und diätetische Ungleichgewichte oder Autoimmunerkrankungen. Kahlheit, die durch hormonelle Veränderungen verursacht wird, ist dagegen häufiger als androgenetische Alopezie. Aus diesem Grund muss vor der Planung einer Haartransplantation eine Analyse durchgeführt werden, um die Werte der Hormone zu sehen, die das Haar und die Kopfhaut beeinflussen. Wenn eine hormonelle Ursache nicht beobachtet wird und das Ergebnis der Analyse androgenetische Alopezie anzeigt. Der Patient ist für eine Haartransplantation geeignet. An dieser Stelle ist der wichtigste Faktor, auf den man achten sollte, die Haartransplantationsmethode, die bei Frauen durchgeführt wird. Die am häufigsten verwendete und bevorzugte Methode von Frauen ist Haartransplantation ohne Rasur. Bei dieser Methode werden dem Patienten drei Optionen angeboten: Haartransplantation mit teilweiser Rasur, FUT oder FUE ohne Rasur. Jedes dieser Verfahren hat Nachteile und Vorteile. Zum Beispiel ist bei der FUT-Methode die Anzahl der extrahierten Transplantate begrenzter als bei FUE. Bei der Haartransplantation mit teilweiser Rasur muss der Patient warten, bis das rasierte Haar nachwächst, um die Länge des unrasierten Haares zu erreichen. Diese Zeit wäre unangenehm. Obwohl unrasierte Haartransplantation eine bevorzugte Methode für Frauen ist, ist es ein teureres Verfahren und hätte ein Infektionsrisiko. Bei allen Arten von Operationen muss der Arzt die Risiken und Komplikationen minimieren.",
+            "alt1": "Frau mit Haarausfall",
+            "alt2": "Ludwig-Skala für weiblichen Haarausfall",
+            "alt3": "Frau mit Haarausfall"
+          },
+          "femaleHairLossHero": {
+            "heading1": "Weiblich",
+            "span1": "Haarausfall",
+            "paragraph1": "Etwa ein Drittel der Frauen wird irgendwann in ihrem Leben Haarausfall (Alopezie) erfahren; Nach der Menopause erleben zwei Drittel der Frauen Haarausfall oder kahlen Flecken auf dem Kopf. Im Gegensatz zu Männern ist Haarausfall bei Frauen sehr effektiv, weil er für Frauen weniger sozial akzeptabel ist. Alopezie kann die emotionale Gesundheit und Lebensqualität einer Frau ernsthaft beeinträchtigen.",
+            "paragraph2": "In der Klinik von Dr. Özlem Biçer verstehen wir, wie sehr das Selbstvertrauen einer Frau durch Haarausfall verursacht wird. Aber bevor Sie die Reise der Wiederherstellung des Selbstvertrauens beginnen, ist es wichtig zu bestimmen, welche Art von Haarausfall Sie konfrontiert sind. Nachdem Sie die Art Ihrer Exposition bestimmt haben, wird Ihr Arzt eine Behandlung in Betracht ziehen und in einigen Fällen eine Haartransplantation in Betracht ziehen. Um die emotionale Gesundheit des Patienten zu schützen, wird die von Dr. Özlem Biçer durchgeführte Haartransplantation ohne vollständige Kopfrasierung durchgeführt. Es ist daher unverständlich, dass Sie eine Haartransplantation hatten.",
+            "paragraph3": "Es gibt im Allgemeinen drei Arten von Haarausfall bei Frauen. Diese werden in die folgenden drei Kategorien eingeteilt - androgenetische Alopezie, Telogeneffluvium und abnormaler Haarausfall. Androgenetische Alopezie ist die Hauptursache für Haarausfall bei Frauen und in diesem Fall ist Haarausfall bei Frauen weniger vorhersehbar als bei Männern. Telogen Effluvium kann durch Drogenkonsum, Ernährung und Stress ausgelöst werden. Dann gibt es die anderen seltenen Arten von Haarausfall, die in die nicht-normale Haarausfall Kategorie fallen.",
+            "paragraph4": "Die Ursachen von Haarausfall bei Frauen",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Patientenergebnisse",
+          "links": [
+            "Männlicher Haarausfall",
+            "Weiblicher Haarausfall"
+          ]
+        },
+        "maleHairLoss": {
+          "maleHairDoesItWork": {
+            "heading1": "Hauptursachen für Haarausfall bei Männern",
+            "paragraph1": "Androgenetische Alopezie ist eine genetisch vererbte Form von Haarausfall, die durch die Aktivität von 5-alpha-Reduktase Typ I und Typ II-Enzymen verursacht wird, die Testosteron in Dihydrotestosteron (DHT) umwandeln. Bei genetisch prädisponierten Personen bindet DHT an empfindliche Haarfollikel, was zu einer fortschreitenden follikulären Miniaturisierung und Haarausfall im Laufe der Zeit führt.",
+            "paragraph2": "Typische Zeichen sind:",
+            "listItem1": "Zurückgehender Haaransatz",
+            "listItem2": "Ausdünnung an der Krone",
+            "listItem3": "Allmählicher Verlust der Dichte im Laufe der Zeit",
+            "paragraph3": "Dieser Zustand kann kurz nach der Pubertät beginnen und mit dem Alter fortschreiten, wenn er unbehandelt bleibt.",
+            "paragraph4": "Alopecia areata ist eine Autoimmunerkrankung, bei der das Immunsystem des Körpers die Haarfollikel angreift. Es verursacht plötzliche, runde Flecken von Haarausfall auf der Kopfhaut oder Bart.",
+            "listItem4": "Es kann in jedem Alter auftreten",
+            "listItem5": "Haare können nachwachsen, aber der Zustand kann wieder auftreten",
+            "listItem6": "Haartransplantation wird während der aktiven Phase dieser Erkrankung nicht empfohlen",
+            "paragraph5": "Narben-Alopezie tritt auf, wenn Haarfollikel dauerhaft beschädigt und durch Narbengewebe ersetzt werden. Dies kann sich ergeben aus:",
+            "listItem7": "Verbrennungen oder Trauma",
+            "listItem8": "Chirurgische Narben",
+            "listItem9": "Infektionen",
+            "listItem10": "Bestimmte entzündliche Hauterkrankungen (LPP, FFA, SLE, Akne, Keloides, Nucha, etc.)",
+            "paragraph6": "Haartransplantation in Narbengewebe kann möglich sein, aber Transplantat Überleben kann niedriger sein, weil Narbengewebe Blutzirkulation reduziert hat. Wir haben keine Chance, eine Haartransplantation bei Patienten durchzuführen, die eine aktive Zikatrien-Alopezie haben.",
+            "paragraph7": "Telogen Effluvium ist eine vorübergehende Form von Haarausfall, die auftritt, wenn Stress, Krankheit oder hormonelles Ungleichgewicht dazu führen, dass eine große Anzahl von Haarfollikeln in die Ruhephase eintritt.",
+            "paragraph8": "Dies führt zu einer diffusen Ausdünnung über die Kopfhaut. Sobald die Ursache behandelt wird, wachsen die Haare normalerweise auf natürliche Weise nach.",
+            "paragraph9": "Wenn Sie plötzlichen oder schnellen Haarausfall erleben oder bemerken, dass sich kahle Flecken bilden, sollten Sie einen Arzt aufsuchen. Haarausfall kann manchmal mit zugrunde liegenden medizinischen oder Autoimmunerkrankungen verbunden sein, die eine ordnungsgemäße Diagnose und Behandlung erfordern.",
+            "paragraph10": "Um eine genaue Bewertung Ihres Haarausfalls Stadium und Behandlungsmöglichkeiten zu erhalten, können Sie Dr. Özlem Biçer und ihr erfahrenes medizinisches Team konsultieren. Eine professionelle Diagnose stellt sicher, dass der am besten geeignete Therapie- oder Rekonstruktivansatz für Ihren individuellen Fall ausgewählt wird.",
+            "titleLines1": [
+              "A) Androgenetische",
+              "Alopezie"
+            ],
+            "titleLines2": [
+              "B) Alopecia",
+              "areata"
+            ],
+            "titleLines3": [
+              "C) Vernarbende",
+              "Alopezie"
+            ],
+            "titleLines4": [
+              "D) Telogenes",
+              "Effluvium"
+            ],
+            "titleLines5": [
+              "Plötzlicher",
+              "Haarausfall"
+            ],
+            "titleLines6": [
+              "Professionelle",
+              "Beurteilung des Haarausfalls"
+            ]
+          },
+          "maleHairLossHero": {
+            "heading1": "männlich",
+            "span1": "Haarausfall",
+            "paragraph1": "Haarausfall bei Männern ist eine sehr häufige Erkrankung und kann viele verschiedene Ursachen haben. Vor Beginn einer Behandlung ist es wichtig, den zugrunde liegenden Grund für den Haarausfall zu bestimmen, damit die am besten geeignete und effektivste Lösung gewählt werden kann.",
+            "paragraph2": "Zum Beispiel, wenn ein Patient eine hormonelle Störung wie Hyperthyreose hat, sollte dieser medizinische Zustand zuerst behandelt werden. In anderen Fällen kann Vitamin- oder Mineralstoffmangel zum Haarausfall beitragen und kann mit der richtigen Ergänzung behandelt werden.",
+            "paragraph3": "Es gibt mehrere medizinische und unterstützende Behandlungen für männlichen Haarausfall, einschließlich:",
+            "listItem1": "PRP (plättchenreiches Plasma) Therapie",
+            "listItem2": "Mesotherapie",
+            "listItem3": "Medikamente wie topisches Minoxidil oder orales Finasterid",
+            "listItem4": "Ernährungs- und Hormonunterstützung",
+            "listItem5": "Stammzelltherapien",
+            "listItem6": "Exosom",
+            "paragraph4": "Es ist jedoch wichtig zu verstehen, dass:",
+            "paragraph5": "Die Haartransplantation stoppt oder heilt den Haarausfall nicht. Es ist ein rekonstruktives Verfahren, das nur durchgeführt wird, wenn sich der Haarausfall stabilisiert hat.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "norwoodScale": {
+            "heading1": "Norwood Scale",
+            "paragraph1": "Messung der Kahlheit männlicher Muster",
+            "paragraph2": "Die Norwood-Skala ist das am häufigsten verwendete Werkzeug zur Bewertung und Klassifizierung männlicher Haarausfall, auch bekannt als androgenetische Alopezie. Es hilft sowohl Ärzten als auch Patienten, die Schwere und das Fortschreiten des Haarausfalls bei Männern zu verstehen.",
+            "paragraph3": "Früher als Hamilton-Norwood-Skala bezeichnet, ist sie heute allgemein als Norwood-Skala bekannt.",
+            "paragraph4": "Das Klassifizierungssystem wurde ursprünglich von Dr. James Hamilton in den 1950er Jahren eingeführt. Es wurde später von Dr. O'Tar Norwood in den 1970er Jahren verfeinert und erweitert, der die Skala speziell für die Beurteilung des männlichen Haarausfalls anpasste.",
+            "paragraph5": "Heute bleibt es die Standardreferenz für die Diagnose des Stadiums der androgenetischen Alopezie.",
+            "paragraph6": "Die Norwood-Skala wird verwendet, um zu bestimmen, wie fortgeschritten der Haarausfall eines Patienten ist. Es bietet eine visuelle und klinische Referenz, so dass sowohl der Arzt als auch der Patient den Haaransatz und die Krone mit standardisierten Stadien vergleichen können.",
+            "paragraph7": "Die Skala klassifiziert Haarausfall in sieben Hauptstufen (Typ I bis Typ VII), von:",
+            "listItem1": "Minimaler oder kein Haarausfall bis hin zu starkem Haarausfall, der die gesamte Oberseite der Kopfhaut beeinflusst",
+            "paragraph8": "Ein Spiegel oder eine professionelle Bewertung wird empfohlen, um Ihr Haar genau mit der Waage zu vergleichen.",
+            "alt1": "Norwood-Skala für männlichen Haarausfall",
+            "titleLines1": [
+              "Was ist die",
+              "Norwood-Skala?"
+            ],
+            "titleLines2": [
+              "Wer entwickelte",
+              "die Norwood-Skala?"
+            ],
+            "titleLines3": [
+              "Wie wird die",
+              "Norwood-Skala verwendet?"
+            ]
+          },
+          "title1": "Wie viel",
+          "title2": "Haarausfall ist normal?",
+          "value1": "Es ist völlig normal, jeden Tag einige Haare als Teil des natürlichen Haarwachstumszyklus zu verlieren.",
+          "value2": "Eine gesunde Person kann bis zu 100 Haare pro Tag verlieren, und dieses Haar wird normalerweise durch neues Wachstum ersetzt.",
+          "value3": "Wenn Sie anhaltende und erhöhte Ausscheidung oder sichtbare Ausdünnung bemerken, wird empfohlen, einen qualifizierten Haarwiederherstellungsspezialisten zur Bewertung zu konsultieren.",
+          "title3": "Patientenergebnisse",
+          "links": [
+            "Männlicher Haarausfall",
+            "Weiblicher Haarausfall"
+          ]
+        }
+      },
+      "treatmentsOfHairLoss": {
+        "hairMesotherapy": {
+          "hairMesotherapyDoesItWork": {
+            "paragraph1": "Die Ergebnisse dauern, aber wir empfehlen regelmäßige Wartungsbehandlungen.",
+            "paragraph2": "Kapillare Mesotherapie stoppt Haarausfall. Die Qualität der Haare wird sich dramatisch verbessern.",
+            "heading1": "Warum Kapillar-Mesotherapie wählen?",
+            "paragraph3": "Es liefert progressive Ergebnisse und ist sehr effektiv Es ist sicher, ohne Nebenwirkungen. Es erfordert wenig oder keine Erholungszeit nach der Behandlung (Rötungen, die durch Mikroinjektionen verursacht werden, können bis zu einem Tag dauern).",
+            "titleLines1": [
+              "Sind die",
+              "Ergebnisse dauerhaft?"
+            ],
+            "titleLines2": [
+              "Welche Ergebnisse bietet",
+              "die Haarmesotherapie?"
+            ]
+          },
+          "hairMesotherapyHero": {
+            "heading1": "Haar",
+            "span1": "Mesotherapie",
+            "paragraph1": "Mesotherapie ist eine Technik, bei der mikroskopische Mengen von Medikamenten, Vitaminen, Mineralstoffen und Aminosäuren (Vasodilatator und DHT-Blocker) an die oberen und mittleren Schichten der Kopfhaut verabreicht werden, um Haarausfall zu behandeln und die Qualität bestehender Haare durch Stimulation der Haarregeneration zu erhöhen.",
+            "paragraph2": "Diese Methode hat besondere Anerkennung auf dem Gebiet der ästhetischen Medizin erhalten, da es eine der effektivsten nicht-chirurgischen Techniken zur Behandlung der Kopfhaut ist. Tatsächlich kann keine Creme oder kein Serum die biologischen Wirkstoffe in die Zellen der Kopfhaut abgeben und den Haarstoffwechsel so effektiv aktivieren wie die Mesotherapie.",
+            "paragraph3": "Die Technik der Mikro-Injektionen mit Mesotherapie Diese Technik besteht in der Verabreichung eines Mesotherapie-Cocktails mittels intradermaler Mikroinjektionen, wobei die Nährstoffe direkt in das Hautgewebe gegeben werden.",
+            "paragraph4": "Die Nadel erzeugt auch Mikroperforationen, die die an einem Heilungsprozess beteiligten Gewebe induzieren, was die Kopfhaut dazu anregt, Kollagen und Elastin zu produzieren, zwei der Hauptbausteine der Haut.",
+            "paragraph5": "Das Verfahren dauert etwa 10 Sitzungen von jeweils 15 Minuten, um die gewünschten Effekte zu erzielen. Wie hoch sind die Erholungszeiten nach der Behandlung? Die Behandlung erfordert keine Erholungszeit.",
+            "paragraph6": "Die meisten Menschen, die sich dieser Behandlung unterziehen, kehren nach dem Eingriff tatsächlich sofort zu ihren normalen Aktivitäten ohne Nebenwirkungen zurück.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Patientenergebnisse",
+          "links": [
+            "Haarmesotherapie",
+            "PRP Haarbehandlung",
+            "Stammzellbehandlung",
+            "Trichopat-Behandlung"
+          ]
+        },
+        "prpHair": {
+          "prpHairDoesItWork": {
+            "alt1": "FUE Haartransplantation",
+            "benefits": {
+              "title": [
+                "Vorteile von",
+                "PRP Therapie"
+              ],
+              "content": [
+                {
+                  "type": "Absatz",
+                  "value": "Es gibt unzählige Gründe, warum sich immer mehr Menschen für eine PRP-Therapie entscheiden und warum Ärzte dasselbe vorschlagen. Diese sind:"
+                },
+                {
+                  "type": "Liste",
+                  "value": [
+                    "Das Serum, das in die Kopfhaut injiziert wird, wird mit Ihrem eigenen Blut hergestellt, weshalb Sie wirklich nichts zu befürchten haben. Da Ihr eigenes Blut verwendet wird, sind die Chancen des Körpers, es abzulehnen, minimal und dies ist auch der Grund, warum die Erfolgschancen höher sind.",
+                    "Da Ihr Blut verwendet wird, besteht keine Chance auf eine Infektion oder Allergie, was die Erfolgschancen exponentiell erhöht.",
+                    "Das Verfahren beinhaltet eine Reihe von Kopfhautinjektionen, die gemäß dem Behandlungsplan verabreicht werden. Lokalanästhesie kann auf der Grundlage der Bedürfnisse des Patienten und der Beurteilung des Arztes verwendet werden.",
+                    "Auch wenn die Therapie Ihnen möglicherweise nicht die Art von Ergebnissen liefert, die Sie erwartet hätten, werden Sie dank dieser Therapie sicherlich keinen weiteren Haarausfall erleben."
+                  ]
+                }
+              ]
+            },
+            "procedure": {
+              "title": [
+                "Verfahrensweise",
+                "PRP Therapie"
+              ],
+              "content": [
+                {
+                  "type": "Absatz",
+                  "value": "Wenn Sie nach einer effektiven Methode zur Haarvergrößerung suchen, kann eine Transplantation die beste Lösung sein, aber eine PRP-Therapie kann langfristig sicherlich nützlich sein. Injektionen können das Haarwachstum unterstützen und die richtige Kollagenproduktion sicherstellen."
+                },
+                {
+                  "type": "Absatz",
+                  "value": "Das Verfahren ist ganz einfach: Das Blut wird aus Ihrem Körper entnommen und in eine Zentrifuge gegeben, in der das plättchenreiche Plasma vom Rest der Elemente getrennt wird. Dieses Plasma wird dann mit Wachstumsfaktoren behandelt und kann injiziert werden."
+                }
+              ]
+            }
+          },
+          "prpHairHero": {
+            "heading1": "Was ist",
+            "span1": "PRP?",
+            "paragraph1": "plättchenreiches Plasma (PRP) ist eine nicht-chirurgische, autologe Behandlung zur Unterstützung der Haargesundheit und zur Verlangsamung des Haarausfalls, insbesondere bei Patienten, die noch nicht bereit für eine Haartransplantation sind oder die Behandlungsergebnisse verbessern möchten. PRP wird aus dem eigenen Blut des Patienten hergestellt und enthält eine hohe Konzentration an Blutplättchen und Wachstumsfaktoren, die eine Schlüsselrolle bei der Heilung und Regeneration von Gewebe spielen.",
+            "paragraph2": "Die PRP-Therapie hat bei Patienten mit frühzeitigem oder anhaltendem Haarausfall vielversprechende Ergebnisse gezeigt, bei denen die Haarverdünnung begonnen hat, sich jedoch noch keine vollständige Glatze entwickelt hat. Als eigenständige Behandlung von Haarausfall wird PRP typischerweise einmal im Monat für drei aufeinanderfolgende Sitzungen durchgeführt.",
+            "paragraph3": "Blutplättchen enthalten wichtige intrazelluläre Komponenten wie Alpha-Granulat, Lysosomen und Glykogen, die Wachstumsfaktoren freisetzen, die die Zellreparatur stimulieren, die Blutversorgung verbessern und die follikuläre Aktivität unterstützen. Aus diesem Grund ist PRP auch während der Haartransplantation sehr wertvoll. In der Klinik von Dr. Özlem Biçer wird PRP als Haltelösung für follikuläre Einheiten während der Transferphase verwendet, um die Transplantatdehydratation zu minimieren, die Zeit außerhalb des Körpers zu verkürzen und die Transplantatüberlebensrate zu erhöhen.",
+            "paragraph4": "PRP ist eine sichere und wirksame unterstützende Behandlung, wenn sie unter ärztlicher Aufsicht durchgeführt wird und wird oft mit einer Haartransplantation kombiniert, um die Heilung und die Langzeitergebnisse zu optimieren.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Patientenergebnisse",
+          "links": [
+            "Haarmesotherapie",
+            "PRP Haarbehandlung",
+            "Stammzellbehandlung",
+            "Trichopat-Behandlung"
+          ]
+        },
+        "stampCellTreatment": {
+          "stampCellTreatmentDoesItWork": {
+            "paragraph1": "Stammzellbasierte Behandlungen bieten mehrere biologische Vorteile sowohl für transplantierte als auch für bestehende Haare:",
+            "listItem1": "Verbessert die Kopfhautvaskularisierung und Sauerstoffversorgung",
+            "listItem2": "Stimuliert die follikuläre Regeneration und Reparatur",
+            "listItem3": "Verlängert die anagen (Wachstum) Phase der Haare",
+            "listItem4": "Reduziert Haarausfall",
+            "listItem5": "Erhöht die Haardicke und -qualität",
+            "listItem6": "Unterstützt eine schnellere Heilung nach der Haartransplantation",
+            "listItem7": "Verbessert das Transplantatüberleben und die gesamten Transplantationsergebnisse",
+            "listItem8": "Verwendet das eigene biologische Material des Patienten und minimiert das Allergierisiko",
+            "paragraph2": "Die Stammzelltherapie gilt als biologischer Booster, nicht als Ersatz für die Haartransplantation bei fortgeschrittener Glatze.",
+            "paragraph3": "Stammzellen setzen eine Vielzahl von Wachstumsfaktoren, Zytokinen und Signalmolekülen frei, die die Aktivität der Haarfollikel beeinflussen. Bei der Anwendung auf die Kopfhaut, diese bioaktiven Substanzen:",
+            "listItem9": "Haarfollikel-Stammzellen aktivieren",
+            "listItem10": "Stimulierung dermaler Papillenzellen",
+            "listItem11": "Steigerung der Produktion von Kollagen und extrazellulärer Matrix",
+            "listItem12": "Verbessern Sie die Blutversorgung um Haarfollikel",
+            "listItem13": "Unterstützen Sie die Reparatur von Gewebe und reduzieren Sie Entzündungen",
+            "paragraph4": "Bei der Haartransplantation hilft die Stammzelltherapie, eine gesündere Kopfhautumgebung zu schaffen, die für das langfristige Haarwachstum und das Transplantatüberleben entscheidend ist.",
+            "paragraph5": "Das Verfahren umfasst im Allgemeinen die folgenden Schritte:",
+            "listItem14": "Ernte",
+            "paragraph6": "Eine kleine Menge Gewebe (üblicherweise Fettgewebe oder stammzellreiches follikuläres Material) wird unter sterilen Bedingungen gesammelt.",
+            "listItem15": "Verarbeitung",
+            "paragraph7": "Die Probe wird verarbeitet, um stammzellreiche Fraktionen oder regenerative Zellbestandteile zu isolieren.",
+            "listItem16": "Antrag",
+            "paragraph8": "Die vorbereitete Lösung wird in gezielte Kopfhautbereiche aufgetragen oder injiziert oder während der Haartransplantation verwendet, um Transplantate und Empfängergewebe zu unterstützen.",
+            "paragraph9": "Das Verfahren ist minimal invasiv und wird unter ärztlicher Aufsicht durchgeführt.",
+            "paragraph10": "Die Stammzelltherapie bietet langfristige biologische Unterstützung, aber die Ergebnisse sind nicht dauerhaft, da der Haarausfall oft progressiv und genetisch bedingt ist.",
+            "listItem17": "Erste Verbesserung wird typischerweise innerhalb von 3-6 Monaten beobachtet",
+            "listItem18": "Ergebnisse können 12-24 Monate dauern",
+            "paragraph11": "Wartungssitzungen können empfohlen werden, abhängig von:",
+            "listItem19": "Art des Haarausfalls",
+            "listItem20": "Genetische Veranlagung",
+            "listItem21": "Kombination mit medizinischen Behandlungen",
+            "paragraph12": "Ein personalisierter Follow-up-Plan ist unerlässlich.",
+            "paragraph13": "Die Stammzelltherapie ist am besten für Patienten geeignet, die:",
+            "listItem22": "Frühe bis mäßige Haarverdünnung",
+            "listItem23": "Möchten Sie den Haarausfall verlangsamen",
+            "listItem24": "Wollen bestehende Haare stärken",
+            "listItem25": "Planen eine Haartransplantation und wollen die Ergebnisse optimieren",
+            "listItem26": "Haartransplantation durchlaufen haben und zusätzliche Unterstützung wünschen",
+            "listItem27": "Bevorzugt biologische und regenerative Behandlungen",
+            "paragraph14": "Es ist nicht als eigenständige Lösung für völlig kahle Bereiche ohne lebensfähige Follikel wirksam.",
+            "paragraph15": "Ja. Die Stammzelltherapie wird häufig angewendet:",
+            "listItem28": "Vor der Operation zur Verbesserung der Kopfhaut Zustand",
+            "listItem29": "Während der Operation zur Unterstützung des Transplantatüberlebens",
+            "listItem30": "Nach der Operation, um die Heilung zu beschleunigen und das Wachstum zu verbessern",
+            "listItem31": "Neben PRP oder medizinischen Behandlungen für synergistische Effekte",
+            "paragraph16": "Dieser kombinierte Ansatz trägt dazu bei, natürlichere, langlebigere und qualitativ hochwertigere Ergebnisse zu erzielen.",
+            "titleLines1": [
+              "Vorteile der",
+              "Stammzelltherapie bei Haarausfall"
+            ],
+            "titleLines2": [
+              "Wie funktioniert",
+              "die Stammzelltherapie?"
+            ],
+            "titleLines3": [
+              "Wie wird die",
+              "Stammzelltherapie durchgeführt?"
+            ],
+            "titleLines4": [
+              "Wie lange hält",
+              "die Wirkung an?"
+            ],
+            "titleLines5": [
+              "Wer ist geeignet für",
+              "die Stammzelltherapie?"
+            ],
+            "titleLines6": [
+              "Kann die Stammzelltherapie",
+              "mit einer Haartransplantation kombiniert werden?"
+            ]
+          },
+          "stampCellTreatmentHero": {
+            "heading1": "Was ist",
+            "span1": "Stammzelle?",
+            "paragraph1": "Die Stammzelltherapie bei der Haartransplantation ist eine regenerative, unterstützende Behandlung, die die Gesundheit der Kopfhaut verbessern, bestehende Haarfollikel stärken und die Ergebnisse von Haarwiederherstellungsverfahren verbessern soll. In der klinischen Haarpraxis beinhaltet diese Therapie keine embryonalen Stammzellen; stattdessen verwendet sie autologe adulte Stammzellen, die aus dem eigenen Gewebe des Patienten gewonnen werden, am häufigsten aus Fettgewebe (Fett) oder Knochenmark, oder stammzellreiche Extrakte aus Haarfollikeln.",
+            "paragraph2": "Das Hauptziel der Stammzelltherapie ist es, ruhende oder geschwächte Haarfollikel zu stimulieren, die Mikroumgebung der Kopfhaut zu verbessern und das natürliche Haarwachstum und das Transplantatüberleben zu unterstützen.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Patientenergebnisse",
+          "links": [
+            "Haarmesotherapie",
+            "PRP Haarbehandlung",
+            "Stammzellbehandlung",
+            "Trichopat-Behandlung"
+          ]
+        },
+        "trichopatTreatment": {
+          "trichopatTreatmentDoesItWork": {
+            "paragraph1": "TRICOPAT® bietet mehrere klinisch nachgewiesene Vorteile:",
+            "listItem1": "Reduziert Haarausfall",
+            "listItem2": "Erhöht die Haardichte und den Haarschaftdurchmesser",
+            "listItem3": "Verbessert die Mikrozirkulation und Sauerstoffversorgung der Kopfhaut",
+            "listItem4": "Stimuliert den Zellstoffwechsel und die Follikelregeneration",
+            "listItem5": "Unterstützt und verlängert die anagen (Wachstum) Phase der Haare",
+            "listItem6": "Nadelfreie Anwendung",
+            "listItem7": "Geeignet für Männer und Frauen",
+            "listItem8": "Kann allein oder als Ergänzung zur medizinischen Therapie oder Haartransplantation verwendet werden",
+            "paragraph2": "Klinische Studien haben nach nur vier Sitzungen eine signifikante Verbesserung gezeigt, wobei eine ausgezeichnete Patientenzufriedenheit und keine ernsthaften Nebenwirkungen berichtet wurden.",
+            "paragraph3": "TRICOPAT® kombiniert mehrere fortschrittliche Technologien in einem einzigen Gerät:",
+            "span1": "Kontrollierter mikrodermaler Schnitt (Skin Patting®)",
+            "paragraph4": "Erzeugt sehr oberflächliche Mikrokanäle (0,25 mm), die die Haut aktivieren, ohne Narben zu verursachen oder umgebende Mechanismen zu traumatisieren, ohne Narben zu verursachen.",
+            "span2": "Druckwellen",
+            "paragraph5": "Trigger Kopfhautmikrozirkulation, Gewebeoxygenierung und Zellstoffwechsel.",
+            "span3": "Iontophorese",
+            "paragraph6": "Verwendet einen milden elektrischen Strom, um vorgeformte Wachstumsfaktoren tief in die Haarfollikel zu liefern und ihre Wirksamkeit zu erhöhen.",
+            "span4": "Elektrostimulation und LED-Fotostimulation",
+            "paragraph7": "Unterstützen Sie die Fibroblastenaktivierung, Kollagen- und Elastinsynthese und bieten eine entzündungshemmende Wirkung.",
+            "paragraph8": "Zusammen ermöglichen diese Mechanismen, dass Wachstumsfaktoren den Follikel effizient erreichen, was zu reduziertem Haarausfall und stärkerem, dickerem Haar führt.",
+            "paragraph9": "Das Standard TRICOPAT® Protokoll besteht aus:",
+            "listItem9": "4 Sitzungen",
+            "listItem10": "Durchführung einmal alle 3 Wochen",
+            "listItem11": "Jede Sitzung dauert ca. 20-25 Minuten",
+            "paragraph10": "Es wurde gezeigt, dass dieses Protokoll eine sichtbare klinische und trichoskopische Verbesserung bei Männern und Frauen bewirkt.",
+            "paragraph11": "TRICOPAT®-Ergebnisse sind langlebig, aber nicht dauerhaft, da Haarausfall oft eine fortschreitende Erkrankung ist.",
+            "paragraph12": "Die meisten Patienten behalten ihre Ergebnisse mit:",
+            "listItem12": "regelmäßige Wartungssitzungen oder",
+            "listItem13": "Kombination mit medizinischen Behandlungen (wie topische oder orale Therapien)",
+            "paragraph13": "Ihr Arzt wird einen personalisierten Wartungsplan erstellen, der auf Ihrer Diagnose und Ihrem Haarausfallmuster basiert.",
+            "paragraph14": "TRICOPAT® eignet sich besonders für Patienten, die:",
+            "listItem14": "Sind in den frühen oder moderaten Stadien des Haarausfalls",
+            "listItem15": "Erfahrung telogen effluvium",
+            "listItem16": "Androgenetische Alopezie (männlich oder weiblich)",
+            "listItem17": "Wollen Sie eine nicht-invasive, injektionsfreie Behandlung",
+            "listItem18": "Möchten Sie die Ergebnisse der medizinischen Therapie oder Haartransplantation verbessern",
+            "paragraph15": "Eine detaillierte medizinische und trichoskopische Bewertung ist unerlässlich, um die Kandidatur zu bestimmen.",
+            "paragraph16": "Ja. TRICOPAT® kann verwendet werden:",
+            "listItem19": "Vor der Haartransplantation zur Verbesserung der Kopfhautqualität",
+            "listItem20": "Nach der Haartransplantation zur Unterstützung der Heilung und Transplantation Vitalität",
+            "listItem21": "Als langfristige unterstützende Therapie zum Schutz der einheimischen Haare",
+            "titleLines1": [
+              "Welche Vorteile bietet",
+              "TRICOPAT®?"
+            ],
+            "titleLines2": [
+              "Wie funktioniert",
+              "TRICOPAT®?"
+            ],
+            "titleLines3": [
+              "Wie viele",
+              "Sitzungen sind erforderlich?"
+            ],
+            "titleLines4": [
+              "Wie lange halten",
+              "die Ergebnisse an?"
+            ],
+            "titleLines5": [
+              "Wer eignet sich für",
+              "TRICOPAT®?"
+            ],
+            "titleLines6": [
+              "Kann TRICOPAT®",
+              "mit einer Haartransplantation kombiniert werden?"
+            ]
+          },
+          "trichopatTreatmentHero": {
+            "heading1": "Was ist",
+            "span1": "Tricopat?",
+            "paragraph1": "TRICOPAT® ist ein patentiertes, nicht-invasives medizinisches Gerät, das in Italien zur Behandlung von Haarausfall und Kopfhauterkrankungen entwickelt wurde. Es ist wissenschaftlich validiert für männliche und weibliche Patienten und wird unter Bedingungen wie androgenetische Alopezie und Telogen Effluvium verwendet. Die Technologie basiert auf dem TRICOGENESI®-Protokoll, das Wachstumsfaktoren ohne Injektionen oder Operationen in die Kopfhaut liefert und somit eine komfortable Alternative oder unterstützende Behandlung zur medizinischen Therapie und Haartransplantation darstellt.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Patientenergebnisse",
+          "links": [
+            "Haarmesotherapie",
+            "PRP Haarbehandlung",
+            "Stammzellbehandlung",
+            "Trichopat-Behandlung"
+          ]
+        }
+      }
+    },
+    "header": {
+      "headerLogo": {
+        "alt1": "Ozlembicer-Logo"
+      },
+      "span1": "info@ozlembicer.com",
+      "span2": "info@ozlembicer.com"
+    },
+    "transplantation": {
+      "beardTransplantation": {
+        "beardHero": {
+          "heading1": "Bart",
+          "span1": "Transplantation",
+          "heading2": "Was ist",
+          "span2": "Barttransplantation?",
+          "paragraph1": "Barttransplantation ist ein spezielles Haarwiederherstellungsverfahren, das entwickelt wurde, um Bartdichte, Form und Symmetrie zu verbessern. In unserer Klinik führen Dr. Özlem Biçer und ihr erfahrenes medizinisches Team Gesichtshaartransplantationen für Männer durch, die dünne Bereiche verbessern, fleckiges Wachstum korrigieren oder Haarausfall durch Narbenbildung oder medizinische Bedingungen wiederherstellen möchten.",
+          "paragraph2": "Gesichtshaartransplantation ist technisch anspruchsvoller als Kopfhauthaartransplantation und erfordert fortgeschrittene chirurgische Erfahrung und präzise künstlerische Planung. Das Verfahren kann durchgeführt werden, um wiederherzustellen:",
+          "listItem1": "Bartdichte",
+          "listItem2": "Schnurrbartwachstum",
+          "listItem3": "Koteletten",
+          "listItem4": "Gesichtsnarben",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "paragraph1": "Bart Haarausfall oder Abwesenheit kann resultieren aus:",
+        "listItem1": "Genetische Faktoren",
+        "listItem2": "Verbrennungen, Narben oder Hautverletzungen",
+        "listItem3": "Frühere chirurgische Eingriffe",
+        "listItem4": "Strahlentherapie",
+        "listItem5": "Bestimmte systemische Erkrankungen",
+        "listItem6": "Trichotillomanie (eine zwanghafte haarziehende Störung)",
+        "paragraph2": "Eine ausführliche Konsultation ist unerlässlich, um die zugrunde liegende Ursache und die Eignung für die Behandlung zu bestimmen.",
+        "paragraph3": "Bart- und Schnurrbarthaare wachsen auf natürliche Weise als einhaarige follikuläre Einheiten, was für ein natürliches Aussehen entscheidend ist.",
+        "paragraph4": "Jeder Follikel muss einzeln implantiert werden, mit genauer Aufmerksamkeit auf:",
+        "listItem7": "Richtung",
+        "listItem8": "Winkel",
+        "listItem9": "Tiefe",
+        "listItem10": "Abstand",
+        "paragraph5": "Dieser akribische Ansatz stellt sicher, dass sich der transplantierte Bart nahtlos mit vorhandenen Gesichtshaaren verbindet.",
+        "paragraph6": "Ungefähre Transplantatanforderungen",
+        "listItem11": "1.200-1.500 Transplantate für einen Ziegenbart",
+        "listItem12": "2.500–3.000 Transplantate für einen vollen Bart",
+        "paragraph7": "Die genaue Anzahl der Transplantate variiert je nach Gesichtsstruktur, gewünschter Dichte und vorhandenem Haar.",
+        "paragraph8": "Das Spenderhaar wird typischerweise von der Kopfhaut geerntet, da die Haarfollikel der Kopfhaut genetisch so programmiert sind, dass sie auch nach der Transplantation in den Bartbereich langfristig wachsen.",
+        "paragraph9": "Die Barttransplantation kann entweder mit FUE (Follicular Unit Extraction) oder FUT (Follicular Unit Transplantation) durchgeführt werden, abhängig vom Spenderbereich des Patienten, den Transplantationsanforderungen und dem Operationsplan.",
+        "listItem13": "FUE beinhaltet die individuelle Extraktion von Haarfollikeln mit Mikrostanzen",
+        "listItem14": "FUT beinhaltet das Entfernen eines dünnen Kopfhautstreifens, gefolgt von einer mikroskopischen Transplantatpräparation",
+        "paragraph10": "Nach der Extraktion werden die Transplantate sorgfältig gereinigt, verfeinert und für die Implantation in den Bartbereich vorbereitet.",
+        "paragraph11": "Eine Barttransplantation liefert langlebige und dauerhafte Ergebnisse, da die transplantierten Haarfollikel der Kopfhaut an ihrem neuen Standort weiter wachsen.",
+        "listItem15": "Erste Heilung erfolgt innerhalb von Tagen",
+        "listItem16": "Vorübergehendes Ausscheiden kann innerhalb der ersten Wochen auftreten",
+        "listItem17": "Neues Wachstum beginnt typischerweise nach 3-4 Monaten",
+        "listItem18": "Endergebnisse werden in der Regel nach 9-12 Monaten ausgewertet",
+        "paragraph12": "Eine sofortige visuelle Verbesserung kann nach dem Eingriff spürbar sein, aber die volle Reifung braucht Zeit.",
+        "paragraph13": "Die Kosten für eine Barttransplantation variieren je nach:",
+        "listItem19": "Die Größe der Behandlungsfläche",
+        "listItem20": "Anzahl der benötigten Transplantate",
+        "listItem21": "Die angewandte Technik",
+        "paragraph14": "Die Preise liegen in der Regel zwischen USD 2.500 und USD 4.500, aber ein genauer Preis kann nur nach einer personalisierten Beratung ermittelt werden.",
+        "paragraph15": "Für eine personalisierte Bewertung können Sie uns per E-Mail oder WhatsApp kontaktieren, um eine kostenlose Beratung mit Dr. Özlem Biçer zu vereinbaren.",
+        "heading1": "Wichtiger Hinweis für Patienten",
+        "paragraph16": "Die Barttransplantation ist ein medizinisches Verfahren, und die Ergebnisse variieren je nach individueller Heilungsfähigkeit, Haareigenschaften und chirurgischer Planung. Eine gründliche Konsultation ist unerlässlich, um realistische Erwartungen zu setzen und das bestmögliche Ergebnis zu erzielen.",
+        "title1": "Wer ist ein Kandidat für",
+        "title2": "Barttransplantation?",
+        "value1": "Fast die Hälfte aller Männer erleben ein ungleichmäßiges oder lückenhaftes Bartwachstum, oft aufgrund genetischer Faktoren. Barttransplantation kann eine geeignete Lösung für Männer sein, die:",
+        "value2": "Kann nicht wachsen einen vollen Bart natürlich",
+        "value3": "Dünne oder fleckige Bereiche haben",
+        "value4": "Möchten Sie schärfere Bartkonturen definieren",
+        "value5": "Haben Gesichtsnarben von Verletzungen, Verbrennungen, Chirurgie oder Akne",
+        "value6": "Selbst ein leichter Haarausfall im Gesicht kann von einer Barttransplantation profitieren, abhängig von den Erwartungen des Patienten und der Gesichtsstruktur.",
+        "titleLines1": [
+          "Ursachen für",
+          "Barthaarverlust"
+        ],
+        "titleLines2": [
+          "Wie funktioniert eine",
+          "Barttransplantation?"
+        ],
+        "titleLines3": [
+          "Methoden der",
+          "Barttransplantation"
+        ],
+        "titleLines4": [
+          "FUE- & FUT-",
+          "Techniken"
+        ],
+        "titleLines5": [
+          "Ergebnisse &",
+          "Dauerhaftigkeit"
+        ],
+        "titleLines6": [
+          "Kosten einer",
+          "Barttransplantation"
+        ]
+      },
+      "eyebrownTransplant": {
+        "eyebrownHero": {
+          "heading1": "Augenbraun",
+          "span1": "Transplantation",
+          "heading2": "Was ist",
+          "span2": "Augenbrauentransplantation?",
+          "paragraph1": "Augenbrauen spielen eine entscheidende Rolle in Gesichtsausdruck und Gesamterscheinung. Ihre Form und Dichte können erheblich beeinflussen, wie das Gesicht wahrgenommen wird, so dass es attraktiver, weiblicher oder sogar durchsetzungsfähiger erscheint.",
+          "paragraph2": "Trends in der Mode beeinflussen auch die Präferenzen der Augenbrauen. Zu verschiedenen Zeiten können Patienten dünne, dicke oder konturierte Augenbrauen bevorzugen. Wiederholtes Zupfen, Formen oder Wachsen über lange Zeiträume kann zu chronischen Traktionsschäden führen, was zu einem dauerhaften Verlust von Augenbrauenhaaren führt, die möglicherweise nicht mehr auf natürliche Weise nachwachsen. Wenn Patienten ihre ursprüngliche Augenbrauenform und -dichte wiederherstellen möchten, wird die Augenbrauentransplantation zu einer effektiven Lösung.",
+          "paragraph3": "In seltenen Fällen können einige Patienten angeborene Abwesenheit oder sehr spärliche Augenbrauen haben, und Augenbrauentransplantation ist auch eine geeignete Option für diese Personen.",
+          "paragraph4": "Für die Augenbrauentransplantation bevorzugen wir die FUE-Technik für lange Haare und verwenden feine Haare, die aus der unteren sicheren Spenderzone geerntet wurden. Dieser Ansatz ermöglicht es uns, weichere, dünnere Haare auszuwählen und sie mit präzisen Winkeln und Richtungen zu implantieren, um ein natürliches und ästhetisch harmonisches Augenbrauenergebnis zu gewährleisten.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "paragraph1": "Haarausfall oder Ausdünnung der Augenbrauen können verursacht werden durch:",
+        "listItem1": "Genetische Faktoren",
+        "listItem2": "Trichotillomanie (eine zwanghafte haarziehende Störung)",
+        "listItem3": "Systemische oder Autoimmunerkrankungen",
+        "listItem4": "Übermäßiges oder langfristiges Zupfen",
+        "listItem5": "Chemotherapie oder Strahlentherapie",
+        "listItem6": "Hautverletzungen durch Verbrennungen, Trauma, Piercings oder Tattoos",
+        "paragraph2": "Einige Patienten suchen eine Augenbrauentransplantation, um volle, dicke Augenbrauen wiederherzustellen, während andere eine subtile Verbesserung oder Narbenabdeckung bevorzugen. Jeder Behandlungsplan ist individualisiert.",
+        "paragraph3": "Spenderhaare werden typischerweise von der Kopfhaut geerntet, da die Haarfollikel der Kopfhaut genetisch für lebenslanges Wachstum programmiert sind.",
+        "paragraph4": "Nach der Transplantation wachsen die Augenbrauenhaare weiter und müssen in der Regel etwa einmal im Monat geschnitten werden, was normal und erwartet ist.",
+        "paragraph5": "Um ein natürliches Aussehen zu erreichen:",
+        "listItem7": "Haar wird eins nach dem anderen implantiert",
+        "listItem8": "In einigen Bereichen können Haare in einer oder zwei Reihen platziert werden, was das natürliche Augenbrauenwachstum nachahmt",
+        "listItem9": "Extrem feine Schnitte werden verwendet, um eine präzise Platzierung zu ermöglichen",
+        "paragraph6": "Die Augenbrauentransplantation kann entweder mit FUE (Follicular Unit Extraction) oder FUT (Follicular Unit Transplantation) durchgeführt werden, abhängig von den Präferenzen des Patienten, den Eigenschaften des Spenderbereichs und der chirurgischen Planung.",
+        "listItem10": "FUE beinhaltet die individuelle Follikelextraktion und wird oft von Patienten bevorzugt, die eine lineare Narbe vermeiden möchten",
+        "listItem11": "FUT beinhaltet die Ernte eines kleinen Spenderstreifens und wird häufiger bei Frauen verwendet, da die Narbe leicht durch längere Haare verdeckt wird.",
+        "paragraph7": "Alle Transplantate werden mikroskopisch hergestellt, um eine Implantation in möglichst kleine Einschnitte zu ermöglichen.",
+        "paragraph8": "Die Augenbrauentransplantation dauert typischerweise 3 bis 5 Stunden, abhängig von der Anzahl der erforderlichen Transplantate und der gewünschten Augenbrauenform und -dichte.",
+        "paragraph9": "Schritt-für-Schritt-Übersicht:",
+        "listItem12": "Gesunde Haarfollikel werden aus dem Spenderbereich auf der Rückseite der Kopfhaut geerntet",
+        "listItem13": "Lokale Anästhesie wird vor Follikelernte und Implantation verabreicht",
+        "listItem14": "Transplantate werden unter Vergrößerung sorgfältig zubereitet",
+        "listItem15": "Die gewünschte Augenbrauenform wird gezeichnet und mit dem Patienten bestätigt",
+        "listItem16": "Haarfollikel werden mit sorgfältiger Aufmerksamkeit auf Winkel, Richtung und Tiefe implantiert",
+        "paragraph10": "Sobald der Spenderschnitt geschlossen ist, heilt er im Allgemeinen schnell und wird innerhalb weniger Tage kaum bemerkbar.",
+        "paragraph11": "In der Klinik Dr. Özlem Biçer:",
+        "paragraph12": "Etwa 250 bis 750 Haare werden pro Augenbraue transplantiert, abhängig von:",
+        "listItem17": "Bestehende Augenbrauenhaare",
+        "listItem18": "Gewünschte Fülle",
+        "listItem19": "Gesichtsanatomie",
+        "listItem20": "Bedarf an Narbenabdeckung",
+        "paragraph13": "Die genaue Anzahl der Transplantate wird während der Konsultation bestimmt.",
+        "paragraph14": "Die Augenbrauentransplantation liefert dauerhafte und dauerhafte Ergebnisse.",
+        "listItem21": "Leichte Rötungen und Schwellungen lösen sich normalerweise innerhalb weniger Tage auf",
+        "listItem22": "Transplantierte Haare können in den ersten Wochen vorübergehend abfallen",
+        "listItem23": "Neues Wachstum beginnt typischerweise nach 3-4 Monaten",
+        "listItem24": "Endergebnisse sind in der Regel innerhalb von 9-12 Monaten sichtbar",
+        "paragraph15": "Da die Augenbrauentransplantation extreme Präzision erfordert, spielt die Erfahrung des Chirurgen eine entscheidende Rolle bei der Erzielung natürlicher Ergebnisse.",
+        "heading1": "Wichtiger Hinweis für Patienten",
+        "paragraph16": "Die Augenbrauentransplantation ist ein hochspezialisiertes Verfahren, und die Ergebnisse können je nach individueller Heilungsfähigkeit, Haareigenschaften und Anamnese variieren. Eine ausführliche Konsultation ist unerlässlich, um realistische Erwartungen und optimale Ergebnisse zu gewährleisten.",
+        "title1": "Warum Menschen wählen",
+        "title2": "Augenbrauentransplantation?",
+        "value1": "Kosmetische Lösungen wie Augenbrauenstifte oder Puder bieten nur ein temporäres, zweidimensionales Erscheinungsbild und erfordern eine häufige erneute Anwendung. Sie können die natürliche Textur oder Richtung des echten Augenbrauenhaars nicht vollständig replizieren.",
+        "value2": "Die Augenbrauentransplantation bietet eine dauerhafte, dreidimensionale Lösung, mit der Männer und Frauen vollere, gut definierte Augenbrauen erzielen können, die natürlich wachsen.",
+        "titleLines1": [
+          "Ursachen für",
+          "Augenbrauenverlust"
+        ],
+        "titleLines2": [
+          "Spenderhaar für die",
+          "Augenbrauentransplantation"
+        ],
+        "titleLines3": [
+          "Techniken der Augenbrauentransplantation",
+          "FUE & FUT"
+        ],
+        "titleLines4": [
+          "Ablauf &",
+          "Dauer"
+        ],
+        "titleLines5": [
+          "Anzahl der",
+          "verwendeten Transplantate"
+        ],
+        "titleLines6": [
+          "Ergebnisse",
+          "& Dauerhaftigkeit"
+        ]
+      },
+      "hairTransplant": {
+        "bodyHair": {
+          "howDoesItWorkBodyHair": {
+            "paragraph1": "Körperhaartransplantation wird normalerweise für Patienten in Betracht gezogen, die:",
+            "listItem1": "Haben Sie einen schwachen oder unzureichenden Kopfhautspenderbereich",
+            "listItem2": "Haben mehrere vorherige Haartransplantationen gehabt",
+            "listItem3": "Haben Sie bestimmte Formen von Alopezie oder Narben Haarausfall",
+            "paragraph2": "Es ist jedoch wichtig zu verstehen, dass, wenn sowohl die Haarqualität der Kopfhaut als auch der Körperspender schwach ist, das Endergebnis begrenzt sein kann. Patienten mit insgesamt unzureichendem Spenderhaar sind möglicherweise keine geeigneten Kandidaten für irgendeine Form der Haartransplantation.",
+            "paragraph3": "Sowohl herkömmliche FUE als auch BHT verwenden die FUE-Technik (Follicular Unit Extraction), was bedeutet, dass Haarfollikel einzeln geerntet werden, ohne einen Hautstreifen zu entfernen.",
+            "paragraph4": "Die wichtigsten Unterschiede sind:",
+            "span1": "Konventionelle FUE:",
+            "listItem4": "Spenderhaare werden ausschließlich von der Kopfhaut genommen",
+            "listItem5": "Haarmerkmale stimmen eng mit dem Empfängerkopfhaar überein",
+            "span2": "BHT-FUE:",
+            "listItem6": "Spenderhaare werden aus Körperbereichen wie Bart oder Brust geerntet",
+            "listItem7": "Wird verwendet, wenn die Haare der Kopfhautspender nicht ausreichen",
+            "listItem8": "Körperbehaarung hat unterschiedliche Wachstumszyklen und Textur im Vergleich zu Kopfhauthaaren",
+            "paragraph5": "BHT-Transplantate können unterschiedlich schnell wachsen und nicht die gleiche Länge wie Kopfhaare erreichen, weshalb sie oft strategisch verwendet werden - zum Beispiel, um die Dichte zu erhöhen, anstatt den Haaransatz zu erzeugen.",
+            "paragraph6": "Die Körperhaartransplantation wird normalerweise mit der FUE-Technik durchgeführt, die lineare Narben vermeidet.",
+            "paragraph7": "Der Prozess umfasst:",
+            "listItem9": "Sorgfältige Auswahl geeigneter Körperspenderbereiche",
+            "listItem10": "Extraktion von Follikeleinheiten mit Mikrostanzen",
+            "listItem11": "Richtige Hydratation und Lagerung von Transplantate",
+            "listItem12": "Strategische Implantation in die Kopfhaut, um eine natürliche Vermischung zu gewährleisten",
+            "paragraph8": "Wenn alle physiologischen und medizinischen Anforderungen erfüllt sind, können Körperhaarfollikel erfolgreich auf die Kopfhaut übertragen werden.",
+            "paragraph9": "Die Körperhaartransplantation erfordert aufgrund der einzigartigen Eigenschaften von Körperhaaren ein hohes chirurgisches Fachwissen.",
+            "paragraph10": "Zu den Schlüsselfaktoren für den Erfolg gehören:",
+            "listItem13": "Chirurgenerfahrung, da sich Körperhaare signifikant von Kopfhaaren unterscheiden",
+            "listItem14": "Teamkompetenz, insbesondere im Umgang mit unterschiedlichen Haarrichtungen und Texturen",
+            "listItem15": "Die richtige Extraktion, Lagerung und Hydratation von Körperhaartransplantaten",
+            "listItem16": "Präzise Erstellung von Empfängerseiten zur Steuerung von Winkel und Richtung",
+            "listItem17": "Minimale Follikeltransektionsrate (FTR) zum Schutz des Transplantatüberlebens",
+            "listItem18": "Sorgfältiges Mischen von Körperhaaren mit Kopfhaaren für ein natürliches Aussehen",
+            "paragraph11": "Da sich Körperhaare anders als Kopfhaare verhalten, sollte BHT immer konservativ und selektiv durchgeführt werden.",
+            "paragraph12": "Körperhaarfollikel behalten viele ihrer ursprünglichen Wachstumseigenschaften nach der Transplantation.",
+            "paragraph13": "Dies bedeutet:",
+            "listItem19": "Wachstumszyklen können sich von Kopfhauthaaren unterscheiden",
+            "listItem20": "Haarlänge und Textur stimmen möglicherweise nicht vollständig mit dem Kopfhaar überein",
+            "listItem21": "Die Ergebnisse können dauerhaft sein, aber das Wachstumsverhalten kann zwischen den Patienten variieren",
+            "paragraph14": "Aus diesem Grund ist BHT am effektivsten, wenn es als komplementäre Technik und nicht als eigenständige Lösung verwendet wird.",
+            "titleLines1": [
+              "Wer eignet sich",
+              "für BHT?"
+            ],
+            "titleLines2": [
+              "Unterschiede zwischen",
+              "BHT-FUE und konventioneller FUE"
+            ],
+            "titleLines3": [
+              "Wie wird eine Körperhaar-",
+              "transplantation durchgeführt?"
+            ],
+            "titleLines4": [
+              "Wichtige Hinweise",
+              "zu BHT"
+            ],
+            "titleLines5": [
+              "Ist eine Körperhaar-",
+              "transplantation dauerhaft?"
+            ]
+          }
+        },
+        "common": {
+          "howDoesItWork": {
+            "title1": "Video"
+          }
+        },
+        "fueMicroMotor": {
+          "fueDoesItWorkFAQs": {
+            "paragraph1": "Androgenetische Alopezie ist eine dauerhafte und fortschreitende Erkrankung, was bedeutet, dass der Haarausfall im Laufe der Zeit anhält. Obwohl der sichere Spenderbereich im Allgemeinen resistent gegen androgenetische Alopezie ist, kann diese Resistenz nicht für jeden Patienten ein Leben lang garantiert werden.",
+            "paragraph2": "Letztlich kann auch nicht garantiert werden, dass transplantierte Haarfollikel während des gesamten Lebens des Patienten im Empfängerbereich verbleiben.",
+            "paragraph3": "FUE beinhaltet die Schaffung winziger Einschnitte sowohl im Spender- als auch im Empfängerbereich.",
+            "listItem1": "Narben sind normalerweise nicht bemerkbar, wenn der Patient Spenderhaare von weniger als 2 cm Länge verwendet.",
+            "listItem2": "Geberbereichsmarkierungen werden typischerweise durch umgebende Haare verborgen",
+            "listItem3": "Wenn das Haar sehr kurz rasiert wird, können kleine Punktnarben sichtbar werden, was ein bekanntes und normales Merkmal der FUE-Technik ist.",
+            "paragraph4": "Eine FUE-Haartransplantation dauert typischerweise zwischen 4 und 12 Stunden, abhängig von:",
+            "listItem4": "Anzahl der benötigten Transplantate",
+            "listItem5": "Haardicke und -dichte",
+            "listItem6": "Individuelle Kopfhautmerkmale",
+            "paragraph5": "Haarwachstum Timeline nach FUE",
+            "listItem7": "Erstes Ausscheiden: 2-6 Wochen (normal und vorübergehend)",
+            "listItem8": "Neues Haarwachstum beginnt: etwa 3-4 Monate",
+            "listItem9": "Bemerkenswerte Verbesserung: 6-9 Monate",
+            "listItem10": "Endergebnisse: nach 12-18 Monaten",
+            "paragraph6": "Nicht alle transplantierten Follikel wachsen gleichzeitig, da einige vorübergehend in der Ruhephase bleiben. Insgesamt werden Transplantatüberlebensraten von bis zu 90-95% unter optimalen Bedingungen berichtet.",
+            "paragraph7": "Nach der Extraktion werden die Haarfollikel sorgfältig in sterilen Behältern gelagert. In einigen Fällen können Transplantate in einer Lösung konserviert werden, die mit dem eigenen plättchenreichen Plasma (PRP) des Patienten angereichert ist, was das Transplantatüberleben unterstützen kann.",
+            "paragraph8": "Sobald die Extraktionsphase abgeschlossen ist, werden mikroskopische Kanäle im Empfängerbereich erstellt. Jede follikuläre Einheit wird dann einzeln implantiert.",
+            "paragraph9": "Der Winkel, die Richtung und die Tiefe jedes Transplantats werden sorgfältig geplant, um das natürliche Haarwachstum, insbesondere im Haarbereich, anzupassen, um ein natürliches und ästhetisch ansprechendes Ergebnis zu erzielen.",
+            "paragraph10": "Wir verwenden eine nadelfreie Anästhesiemaschine. Während der ersten zwei bis drei Minuten der Lokalanästhesie können Sie leichte und erträgliche Beschwerden fühlen. Sobald die Anästhesie wirksam wird, wird das Verfahren unter lokaler Anästhesie fortgesetzt, wobei der Komfort des Patienten durchgehend überwacht wird.",
+            "paragraph11": "Der Komfort und die Reaktion jedes Patienten auf die Anästhesie werden während der gesamten FUE-Haartransplantation individuell bewertet.",
+            "listItem11": "Leichte Beschwerden können in den ersten Minuten der Lokalanästhesie gefühlt werden",
+            "listItem12": "Lokale Anästhesie wird während des Verfahrens verwendet",
+            "listItem13": "Patienten können sich müde fühlen, wenn sie mehrere Stunden sitzen, aber regelmäßige Pausen sind vorgesehen",
+            "paragraph12": "Während des Verfahrens können Patienten in der Regel:",
+            "listItem14": "TV schauen",
+            "listItem15": "Musik hören",
+            "listItem16": "Entspannung bequem",
+            "paragraph13": "Nach der Operation kann eine vorübergehende Dichtigkeit oder Empfindlichkeit auftreten. Das Pflegeteam bietet individuelle Nachsorge-Anweisungen und kann bei Bedarf geeignete Medikamente empfehlen.",
+            "paragraph14": "Minimal-invasive Technik",
+            "paragraph15": "Keine lineare Narbe",
+            "paragraph16": "Natürlich aussehende Ergebnisse",
+            "paragraph17": "Kurze Erholungszeit",
+            "paragraph18": "Geeignet für Männer und Frauen",
+            "titleLines1": [
+              "Ist androgenetische Alopezie",
+              "dauerhaft?"
+            ],
+            "titleLines2": [
+              "Entstehen",
+              "Narben nach FUE?"
+            ],
+            "titleLines3": [
+              "Wie lange dauert eine",
+              "FUE-Haartransplantation?"
+            ],
+            "titleLines4": [
+              "Aufbewahrung der Transplantate",
+              "& Implantation"
+            ],
+            "titleLines5": [
+              "Anästhesie &",
+              "Patientenkomfort"
+            ],
+            "titleLines6": [
+              "Warum eine",
+              "FUE-Haartransplantation?"
+            ]
+          }
+        },
+        "futHair": {
+          "howDoesItWorkFut": {
+            "paragraph1": "Obwohl es online umfangreiche Informationen über FUT- und FUE-Techniken gibt, sind sich viele Patienten nicht vollständig bewusst, wie diese Verfahren tatsächlich durchgeführt werden.",
+            "paragraph2": "In FUT wird der Spenderstreifen, sobald er entfernt ist, unter einem Mikroskop in sehr feine follikuläre Einheiten zerlegt. Der Spenderbereich wird dann sorgfältig vernäht, was zu einer linearen Narbe führt.",
+            "paragraph3": "Dr. Özlem Biçer verwendet sorgfältige Nahttechniken, um sicherzustellen, dass die Narbe so dünn und diskret wie möglich bleibt.",
+            "paragraph4": "Das primäre Ziel von FUT ist es, Haare von der stabilsten Spenderzone in Bereiche zu übertragen, in denen der Haarausfall am stärksten ausgeprägt ist.",
+            "paragraph5": "Für den Komfort des Patienten wird den Spender- und Empfängerbereichen eine lokale Anästhesie verabreicht.",
+            "listItem1": "Ein leichtes Brennen kann während der ersten 5 Minuten gefühlt werden",
+            "listItem2": "Patienten erleben typischerweise minimale Beschwerden während oder nach der Operation",
+            "paragraph6": "Der Chirurg führt einen präzisen horizontalen Schnitt durch, um einen Kopfhautstreifen mit gesunden Haarfollikeln aus dem Spenderbereich zu entfernen.",
+            "paragraph7": "Die richtige Auswahl des Spendergebiets ist wichtig, da das langfristige Haarwachstum von der Ernte von Follikeln aus der genetisch stabilen Zone abhängt.",
+            "paragraph8": "Um eine feinere Narbe zu erreichen, verwendet Dr. Özlem Biçer die trichophytische Verschlusstechnik, die es dem Haar ermöglicht, durch die Narbe zu wachsen und es weniger sichtbar zu machen.",
+            "paragraph9": "Der Empfängerbereich ist eine der kritischsten Phasen, da er das endgültige ästhetische Ergebnis bestimmt.",
+            "listItem3": "Mikroskopische Einschnitte werden mit feinen Klingen erzeugt",
+            "listItem4": "Haarrichtung und -winkel werden sorgfältig geplant",
+            "listItem5": "Verschiedene Klingengrößen werden je nach Transplantatgröße verwendet",
+            "paragraph10": "Um ein natürliches Aussehen zu erreichen, stellt der Chirurg sicher, dass transplantierte Haare dem natürlichen Wachstumsmuster des Patienten folgen.",
+            "paragraph11": "Der geerntete Streifen wird zunächst in dünne Abschnitte unterteilt, die als \"Splitter\" bezeichnet werden. Überschüssiges Gewebe wird aus diesen Bändern entfernt, und einzelne follikuläre Einheiten werden sorgfältig getrennt.",
+            "paragraph12": "Jedes Transplantat wird individuell vorbereitet, um ein minimales Trauma und ein optimales Überleben zu gewährleisten.",
+            "paragraph13": "Sobald der Streifen entfernt wurde, wird er in das eigene plättchenreiche Plasma (PRP) des Patienten gelegt.",
+            "paragraph14": "PRP kann dazu beitragen, die Transplantationshydratation und Lebensfähigkeit während der Vorbereitung aufrechtzuerhalten, während gleichzeitig Zeit für die sorgfältige Schließung der Spenderwunde bleibt.",
+            "paragraph15": "Sobald die Empfängerstellen vorbereitet sind, werden die follikulären Einheiten in die Einschnitte implantiert.",
+            "paragraph16": "Am Ende des Verfahrens:",
+            "listItem6": "Jedes Transplantat wird individuell überprüft",
+            "listItem7": "Postoperative Pflegehinweise werden ausführlich erläutert",
+            "listItem8": "Patienten erhalten einen gedruckten Nachsorgeleitfaden",
+            "paragraph17": "Ein Stirnband oder medizinische Kappe kann verwendet werden, um den behandelten Bereich zu schützen.",
+            "paragraph18": "FUT vernarbt",
+            "paragraph19": "Nach FUT verbleibt eine lineare Narbe im Spenderbereich.",
+            "listItem9": "Die Narbe heilt mit der Zeit und ist normalerweise dünn und diskret",
+            "listItem10": "Bei den meisten Patienten wird die Narbe verdeckt, sobald das Haar eine bestimmte Länge erreicht hat.",
+            "listItem11": "Wenn das Haar sehr kurz rasiert ist, kann die Narbe sichtbar werden",
+            "paragraph20": "Die Sichtbarkeit der Narbe hängt weitgehend von der chirurgischen Technik, den Kopfhauteigenschaften und der Heilungsreaktion ab.",
+            "titleLines1": [
+              "FUT",
+              "Haartransplantation"
+            ],
+            "titleLines2": [
+              "Lokale",
+              "Anästhesie"
+            ],
+            "titleLines3": [
+              "Spendergewebe",
+              "(Streifenentnahme)"
+            ],
+            "titleLines4": [
+              "Vorbereitung des",
+              "Empfängerbereichs"
+            ],
+            "titleLines5": [
+              "Präparation der Transplantate",
+              "& Vorbereitung"
+            ],
+            "titleLines6": [
+              "Konservierung des",
+              "Spendergewebes"
+            ],
+            "titleLines7": [
+              "Transplantation & Abschluss",
+              "des Eingriffs"
+            ],
+            "titleLines8": [
+              "Wichtige Informationen",
+              "zur FUT-Haartransplantation"
+            ]
+          }
+        },
+        "hairTransplantHero": {
+          "heading1": "Haar",
+          "span1": "Transplantation",
+          "paragraph1": "In der Klinik von Dr. Biçer werden alle Haarwiederherstellungstechniken persönlich von Dr. Biçer durchgeführt. Dies ermöglicht es ihr, jeden Patienten objektiv zu bewerten und die am besten geeignete Technik auszuwählen, die ausschließlich auf medizinischen Bedürfnissen, Haareigenschaften und langfristigen Erwartungen basiert.",
+          "paragraph2": "Es ist auch wichtig zu verstehen, dass Haartransplantation keine Heilung für Haarausfall ist. Es ist eine hochwirksame Tarntechnik für Patienten, die an Alopezie leiden, um ein natürliches Aussehen wiederherzustellen und das Selbstvertrauen zu verbessern.",
+          "paragraph3": "Haarersatzchirurgie kann Ihr Aussehen dramatisch verändern und Ihr Selbstvertrauen stärken. Unter den verfügbaren Methoden gilt FUE (Follicular Unit Extraction) als die am wenigsten invasive Technik und bietet die kürzeste Erholungszeit.",
+          "paragraph4": "Die meisten Menschen können sich einer Operation mit wenig oder keinen Komplikationen unterziehen. Allerdings ist nicht jeder ein geeigneter Kandidat für Haarersatzchirurgie. Bevor Sie sich einem Eingriff unterziehen, ist es wichtig, Ihre Erwartungen zu besprechen und sich einer gründlichen medizinischen Untersuchung durch Ihren Chirurgen zu unterziehen. Um festzustellen, ob Sie ein guter Kandidat sind, werden die folgenden Faktoren sorgfältig berücksichtigt:",
+          "heading2": "ALLGEMEINER GESUNDHEITSZUSTAND",
+          "paragraph5": "Sind Sie in der Regel in guter Gesundheit ohne Kontraindikationen für die Behandlung? Patienten mit Herzerkrankungen, angeborenen Blutungen oder Gerinnungsstörungen oder bestimmten Hauterkrankungen wie Psoriasis wird in der Regel von einer Operation abgeraten.",
+          "heading3": "HAARAUSFALLMUSTER",
+          "paragraph6": "Haartransplantation kann dramatische, aber natürliche Ergebnisse in Fällen von signifikanter Ausdünnung oder Glatze liefern, vorausgesetzt, dass gesunde Spenderhaare auf der Rückseite und den Seiten der Kopfhaut vorhanden sind. Patienten mit männlicher Haarausfall (androgenetische Alopezie) sind oft ideale Kandidaten. Für Frauen jedoch, wenn Haarausfall als diffuse Gesamtverdünnung präsentiert, ist die Haartransplantation möglicherweise nicht die am besten geeignete Option.",
+          "heading4": "ALTER",
+          "paragraph7": "Haarausfall sollte vor der Operation relativ stabilisiert werden. Sehr jungen Patienten (Anfang 20) wird oft geraten, zu warten und medizinische Behandlungen in Betracht zu ziehen, bevor sie sich einer Haartransplantation unterziehen.",
+          "heading5": "ÄSTHETISCHE ASPEKTE",
+          "paragraph8": "Wenn die Vermeidung von linearen Narben für Sie wichtig ist, kann FUE die bevorzugte Technik sein. FUE kann auch verwendet werden, um bestehende Narben aus früheren Operationen oder Verletzungen zu tarnen, indem neue Follikel in diese Bereiche transplantiert werden.",
+          "ariaLabel1": "Videowiedergabe",
+          "alt1": "Artikel zur Haartransplantation 1",
+          "alt2": "Artikel zur Haartransplantation 2",
+          "alt3": "Artikel zur Haartransplantation 3",
+          "alt4": "Artikel zur Haartransplantation 4",
+          "title1": "Haartransplantation Video"
+        },
+        "longHair": {
+          "howDoesItWorkLong": {
+            "paragraph1": "Diese Technik bietet erhebliche Vorteile für Patienten, die nicht wollen, dass ihre Haare rasiert werden, insbesondere diejenigen mit einem aktiven sozialen oder beruflichen Leben. Eine lange Haartransplantation ermöglicht es Patienten, sich dem Eingriff ohne offensichtliche visuelle Anzeichen einer Operation zu unterziehen, was es ideal für Personen macht, die ihre Behandlung während der Heilungsphase privat halten möchten.",
+            "paragraph2": "Es ist auch eine ausgezeichnete Option für weibliche Patienten, die ihre langen Haare erhalten und die Rasur vermeiden möchten, während sie dennoch von einem hochpräzisen und natürlich aussehenden Haarwiederherstellungsverfahren profitieren.",
+            "paragraph3": "Langhaartransplantation ist eine technisch anspruchsvolle und relativ neue Technik, und ihr Erfolg hängt eng mit der Erfahrung und Lernkurve jeder Klinik und jedes chirurgischen Teams zusammen. Da das Verfahren komplexer ist, ist die Anzahl der Transplantate, die in einer einzigen Sitzung extrahiert werden können, im Vergleich zu rasiertem FUE normalerweise niedriger. Bei Patienten, die 3.000 Transplantate oder mehr benötigen, muss die Operation möglicherweise in mehrere Sitzungen oder Tage unterteilt werden.",
+            "paragraph4": "Darüber hinaus ist eine lange Haartransplantation zeitaufwendiger und erfordert spezielle Instrumente und Fachwissen, was die Kosten gegenüber herkömmlichen rasierten Techniken erhöht. Die postoperative Pflege kann auch für den Patienten schwieriger sein, da die Verwaltung und Reinigung langer Haare während der Heilungsphase zusätzliche Aufmerksamkeit erfordert.",
+            "paragraph5": "Es ist wichtig für Patienten zu verstehen, dass, obwohl lange Haare transplantiert werden, diese Haare innerhalb des ersten Monats vergießen werden, ähnlich wie bei der Standard-Haartransplantation. Neues, dauerhaftes Haarwachstum beginnt typischerweise etwa drei Monate nach dem Eingriff nach dem natürlichen Haarwachstumszyklus.",
+            "listItem1": "Leichte Rötung und Schwellungen sind für ein paar Tage üblich",
+            "listItem2": "Vorübergehendes Ausscheiden von transplantierten Haaren kann auftreten",
+            "listItem3": "Neues Haarwachstum beginnt typischerweise nach 3-4 Monaten",
+            "listItem4": "Endergebnisse werden in der Regel nach 12 Monaten ausgewertet",
+            "paragraph6": "Die Heilungszeit kann je nach Narbengewebe und früheren Verfahren variieren.",
+            "listItem5": "Personalisierte chirurgische Planung",
+            "listItem6": "Korrektur unnatürlicher Ergebnisse",
+            "listItem7": "Verbesserte Gesichtsharmonie",
+            "listItem8": "Wiederherstellung des Vertrauens",
+            "listItem9": "Fortschrittliche Techniken, die auf komplexe Fälle zugeschnitten sind",
+            "paragraph7": "Rekonstruktive Haartransplantation erfordert deutlich mehr Fachwissen als Standard-Haartransplantation.",
+            "titleLines1": [
+              "Vorteile der",
+              "Langhaartransplantation"
+            ],
+            "titleLines2": [
+              "Nachteile der",
+              "Langhaartransplantation"
+            ],
+            "titleLines3": [
+              "Erholung",
+              "& Ergebnisse"
+            ],
+            "titleLines4": [
+              "Warum eine",
+              "Langhaartransplantation?"
+            ]
+          }
+        },
+        "reconstructive": {
+          "howDoesItWorkRecon": {
+            "paragraph1": "Die Haarrekonstruktion konzentriert sich auf die Korrektur:",
+            "listItem1": "Haarlinien zu niedrig oder zu hoch platziert",
+            "listItem2": "Übermäßige Symmetrie oder unnatürliche Geraden",
+            "listItem3": "Falsche Winkel oder Richtungen der implantierten Haare",
+            "paragraph2": "Natürliche Haarlinien erfordern Unregelmäßigkeit, richtige Angulation und die ausschließliche Verwendung von Einzelhaartransplantaten in der Frontalzone.",
+            "paragraph3": "Korrektive Haartransplantation kann umfassen:",
+            "listItem4": "Entfernung schlecht platzierter Transplantate",
+            "listItem5": "Reimplantation extrahierter Transplantate",
+            "listItem6": "Umverteilung der Dichte für ein natürlicheres Ergebnis",
+            "paragraph4": "In einigen Fällen können zuvor transplantierte Transplantate sicher entfernt und wiederverwendet werden.",
+            "paragraph5": "Haartransplantation kann durchgeführt werden in:",
+            "listItem7": "FUT lineare Narben",
+            "listItem8": "FUE Punkt Narben",
+            "listItem9": "Narben, die durch Verbrennungen, Trauma oder Operation verursacht werden",
+            "paragraph6": "Haarwachstum im Narbengewebe kann aufgrund der reduzierten Blutversorgung weniger vorhersehbar sein, und eine sorgfältige Bewertung ist vor der Behandlung unerlässlich.",
+            "paragraph7": "Bei Patienten mit eingeschränktem Kopfhautspenderhaar kann die Körperhaartransplantation (BHT) als unterstützende Technik verwendet werden.",
+            "listItem10": "Barthaare werden häufig bevorzugt",
+            "listItem11": "Brusthaare können selektiv verwendet werden",
+            "listItem12": "Körperbehaarung verhält sich anders als Kopfhaar und muss sorgfältig gemischt werden",
+            "paragraph8": "Rekonstruktive Haartransplantation wird in der Regel mit fortschrittlichen FUE-Techniken durchgeführt.",
+            "paragraph9": "Zu den wichtigsten Schritten gehören:",
+            "listItem13": "Detaillierte Analyse der Gesichtsproportionen und der vorhandenen Haarmuster",
+            "listItem14": "Konservative Haarlinienplanung",
+            "listItem15": "Sorgfältige Beurteilung des Spendergebiets",
+            "listItem16": "Präzisionsextraktion und Implantation",
+            "listItem17": "Aufmerksamkeit auf Winkel, Richtung und Dichte",
+            "paragraph10": "Je nach Komplexität des Falls können mehrere Sitzungen erforderlich sein.",
+            "paragraph11": "Rekonstruktive Haartransplantationsergebnisse können langlebig und dauerhaft sein, wenn:",
+            "listItem18": "Spenderhaarqualität ist ausreichend",
+            "listItem19": "Transplantate werden korrekt implantiert",
+            "listItem20": "Der zugrunde liegende Haarausfall wird richtig verwaltet",
+            "paragraph12": "Die Erwartungen müssen jedoch realistisch sein, insbesondere in Fällen mit Narbenbildung oder mehreren früheren Operationen.",
+            "listItem21": "Leichte Rötung und Schwellungen sind für ein paar Tage üblich",
+            "listItem22": "Vorübergehendes Ausscheiden von transplantierten Haaren kann auftreten",
+            "listItem23": "Neues Haarwachstum beginnt typischerweise nach 3-4 Monaten",
+            "listItem24": "Endergebnisse werden in der Regel nach 12 Monaten ausgewertet",
+            "paragraph13": "Die Heilungszeit kann je nach Narbengewebe und früheren Verfahren variieren.",
+            "listItem25": "Personalisierte chirurgische Planung",
+            "listItem26": "Korrektur unnatürlicher Ergebnisse",
+            "listItem27": "Verbesserte Gesichtsharmonie",
+            "listItem28": "Wiederherstellung des Vertrauens",
+            "listItem29": "Fortschrittliche Techniken, die auf komplexe Fälle zugeschnitten sind",
+            "paragraph14": "Rekonstruktive Haartransplantation erfordert deutlich mehr Fachwissen als Standard-Haartransplantation.",
+            "heading1": "Wichtiger Hinweis für Patienten",
+            "paragraph15": "Nicht jeder Fall kann vollständig korrigiert werden, besonders wenn das Spenderhaar begrenzt ist oder Narbengewebe umfangreich ist. Eine ausführliche Konsultation ist unerlässlich, um realistische Ergebnisse und den besten Behandlungsansatz zu bestimmen.",
+            "titleLines1": [
+              "Haarlinien-",
+              "rekonstruktion"
+            ],
+            "titleLines2": [
+              "Korrektur einer Haartransplantation",
+              "(korrigierende Haartransplantation)"
+            ],
+            "titleLines3": [
+              "Narbenkorrektur &",
+              "Haartransplantation in Narben"
+            ],
+            "titleLines4": [
+              "Körperhaartransplantation",
+              "in rekonstruktiven Fällen"
+            ],
+            "titleLines5": [
+              "Wie wird eine rekonstruktive",
+              "Haartransplantation durchgeführt?"
+            ],
+            "titleLines6": [
+              "Ist eine rekonstruktive",
+              "Haartransplantation dauerhaft?"
+            ],
+            "titleLines7": [
+              "Erholung",
+              "& Ergebnisse"
+            ],
+            "titleLines8": [
+              "Warum eine rekonstruktive",
+              "Haartransplantation?"
+            ]
+          }
+        },
+        "title1": "FUE",
+        "subtitle1": "(Mikromotor)",
+        "title2": "Was ist",
+        "title3": "Was sind die Schritte von",
+        "title4": "FUE Haartransplantation?",
+        "value1": "1. Erstkontakt & Beratung",
+        "value2": "Sie kontaktieren zuerst die Klinik, und einer unserer Berater und Dolmetscher wird Sie durch den gesamten Prozess in Ihrer Muttersprache führen.",
+        "value3": "Sie füllen ein Konsultationsformular aus und senden Ihre Fotos und Videos an Dr. Biçer. Nachdem Sie Ihren Fall bewertet und die erforderliche Anzahl der Transplantate geschätzt haben, wird Dr. Biçer allgemeine Informationen zur Verfügung stellen. Wenn sie weitere Details benötigt, kann sie eine Online-Konsultation beantragen.",
+        "value4": "Nach dieser Auswertung wird Ihnen ein personalisiertes Behandlungsangebot zugesandt. Wenn Sie sich für eine Operation entscheiden, wird Ihr Berater geeignete Termine angeben. Sobald die Vorauszahlung eingegangen ist, wird Ihre Operation geplant.",
+        "value5": "2. Präoperative Evaluation (einen Tag vor der Operation)",
+        "value6": "Wir empfehlen dringend, einen Tag vor der Operation in der Klinik anzukommen. Während dieses Besuchs:",
+        "value7": "Medizinische Fotos werden gemacht",
+        "value8": "Blutuntersuchungen werden durchgeführt",
+        "value9": "Elektrokardiographie (EKG) ist abgeschlossen",
+        "value10": "Trichoskopische Untersuchung wird durchgeführt",
+        "value11": "Sie werden auch die notwendigen medizinischen Formulare ausfüllen und eine persönliche Beratung mit Dr. Biçer haben. Dieser Schritt ist äußerst wichtig, da Ihre Erwartungen, Spenderkapazität und endgültige Anzahl der Transplantate geklärt sind und der Operationsplan abgeschlossen ist.",
+        "value12": "3. Tag der Chirurgie - Planung und Vorbereitung",
+        "value13": "Am Tag der Operation sollten Sie um 08:00 Uhr in der Klinik ankommen.",
+        "value14": "Dr. Biçer überprüft alle Details noch einmal und gestaltet gemeinsam mit Ihnen Ihren Haaransatz. Hairline Design ist ein entscheidender Schritt, um natürlich aussehende Ergebnisse zu erzielen und eine langfristige Planung zu gewährleisten.",
+        "value15": "Abhängig von der gewählten Technik wird Ihr Haar bei Bedarf rasiert und Ihre Kopfhaut mit einem Desinfektionsmittel-Shampoo gewaschen. Der Haaransatz wird dann wieder gereinigt.",
+        "value16": "Dr. Biçer erklärt jeden Schritt des Verfahrens im Detail, bevor die Operation beginnt.",
+        "value17": "4. Lokalanästhesie",
+        "value18": "Es wird nadelfreie Lokalanästhesie verabreicht. Während dieser Phase bleiben Sie wach und werden kontinuierlich überwacht, um Ihren Komfort und Ihre Sicherheit zu gewährleisten.",
+        "value19": "5. Transplantatextraktion",
+        "value20": "In der zweiten Phase der Operation führt Dr. Biçer die Transplantaternte durch, während ausgebildete Krankenschwestern die Transplantate unter dem Mikroskop sammeln, zählen und untersuchen.",
+        "value21": "Es werden Stempelgrößen von 0,7 bis 0,9 mm verwendet:",
+        "value22": "Wenn diese Stempel mit einem Mikromotor verwendet werden, wird die Technik als Mikromotor FUE bezeichnet",
+        "value23": "Bei manueller Anwendung, ohne Strom oder Maschinen, wird die Technik als manuelle FUE bezeichnet.",
+        "value24": "6. Erstellung einer Empfänger-Website",
+        "value25": "In der dritten Phase erzeugt Dr. Biçer die Empfängerschnitte und bestimmt die Richtung, den Winkel und die Dichte der transplantierten Haare.",
+        "value26": "Für diesen Schritt werden Titan- oder Saphirblätter verwendet. Technisch gesehen gibt es keinen Unterschied in den Ergebnissen zwischen diesen beiden Schaufeltypen, wenn sie richtig angewendet werden.",
+        "value27": "7. Transplantationsimplantation",
+        "value28": "In der Endphase legen drei Krankenschwestern die Transplantate sorgfältig in den Empfängerbereich. Dr. Biçer bleibt während dieses Prozesses in der Klinik.",
+        "value29": "8. Postoperatives Follow-up",
+        "value30": "Am Tag nach der Operation kehren Sie in die Klinik zurück für:",
+        "value31": "Entfernung von Bandagen",
+        "value32": "Ärztliche Untersuchung durch Dr. Biçer",
+        "value33": "Postoperative Fotografien",
+        "value34": "Sobald sich bestätigt hat, dass alles gut voranschreitet, steht es Ihnen frei, in Ihr Land zurückzukehren.",
+        "value35": "Der Prozess endet jedoch nicht dort. Dr. Biçer und ihre Dolmetscher verfolgen Ihren Fortschritt mindestens ein Jahr nach der Operation.",
+        "title5": "FUE",
+        "subtitle2": "(Manuell)",
+        "title6": "Was ist",
+        "title7": "Was sind die Schritte von",
+        "title8": "FUE Haartransplantation?",
+        "value36": "1. Erstkontakt & Beratung",
+        "value37": "Sie kontaktieren zuerst die Klinik, und einer unserer Berater und Dolmetscher wird Sie durch den gesamten Prozess in Ihrer Muttersprache führen.",
+        "value38": "Sie füllen ein Konsultationsformular aus und senden Ihre Fotos und Videos an Dr. Biçer. Nachdem Sie Ihren Fall bewertet und die erforderliche Anzahl der Transplantate geschätzt haben, wird Dr. Biçer allgemeine Informationen zur Verfügung stellen. Wenn sie weitere Details benötigt, kann sie eine Online-Konsultation beantragen.",
+        "value39": "Nach dieser Auswertung wird Ihnen ein personalisiertes Behandlungsangebot zugesandt. Wenn Sie sich für eine Operation entscheiden, wird Ihr Berater geeignete Termine angeben. Sobald die Vorauszahlung eingegangen ist, wird Ihre Operation geplant.",
+        "value40": "2. Präoperative Evaluation (einen Tag vor der Operation)",
+        "value41": "Wir empfehlen dringend, einen Tag vor der Operation in der Klinik anzukommen. Während dieses Besuchs:",
+        "value42": "Medizinische Fotos werden gemacht",
+        "value43": "Blutuntersuchungen werden durchgeführt",
+        "value44": "Elektrokardiographie (EKG) ist abgeschlossen",
+        "value45": "Trichoskopische Untersuchung wird durchgeführt",
+        "value46": "Sie werden auch die notwendigen medizinischen Formulare ausfüllen und eine persönliche Beratung mit Dr. Biçer haben. Dieser Schritt ist äußerst wichtig, da Ihre Erwartungen, Spenderkapazität und endgültige Anzahl der Transplantate geklärt sind und der Operationsplan abgeschlossen ist.",
+        "value47": "3. Tag der Chirurgie - Planung und Vorbereitung",
+        "value48": "Am Tag der Operation sollten Sie um 08:00 Uhr in der Klinik ankommen.",
+        "value49": "Dr. Biçer überprüft alle Details noch einmal und gestaltet gemeinsam mit Ihnen Ihren Haaransatz. Hairline Design ist ein entscheidender Schritt, um natürlich aussehende Ergebnisse zu erzielen und eine langfristige Planung zu gewährleisten.",
+        "value50": "Abhängig von der gewählten Technik wird Ihr Haar bei Bedarf rasiert und Ihre Kopfhaut mit einem Desinfektionsmittel-Shampoo gewaschen. Der Haaransatz wird dann wieder gereinigt.",
+        "value51": "Dr. Biçer erklärt jeden Schritt des Verfahrens im Detail, bevor die Operation beginnt.",
+        "value52": "4. Lokalanästhesie",
+        "value53": "Es wird nadelfreie Lokalanästhesie verabreicht. Während dieser Phase bleiben Sie wach und werden kontinuierlich überwacht, um Ihren Komfort und Ihre Sicherheit zu gewährleisten.",
+        "value54": "5. Transplantatextraktion",
+        "value55": "In der zweiten Phase der Operation führt Dr. Biçer die Transplantaternte durch, während ausgebildete Krankenschwestern die Transplantate unter dem Mikroskop sammeln, zählen und untersuchen.",
+        "value56": "Es werden Stempelgrößen von 0,7 bis 0,9 mm verwendet:",
+        "value57": "Wenn diese Stempel mit einem Mikromotor verwendet werden, wird die Technik als Mikromotor FUE bezeichnet",
+        "value58": "Bei manueller Anwendung, ohne Strom oder Maschinen, wird die Technik als manuelle FUE bezeichnet.",
+        "value59": "6. Erstellung einer Empfänger-Website",
+        "value60": "In der dritten Phase erzeugt Dr. Biçer die Empfängerschnitte und bestimmt die Richtung, den Winkel und die Dichte der transplantierten Haare.",
+        "value61": "Für diesen Schritt werden Titan- oder Saphirblätter verwendet. Technisch gesehen gibt es keinen Unterschied in den Ergebnissen zwischen diesen beiden Schaufeltypen, wenn sie richtig angewendet werden.",
+        "value62": "7. Transplantationsimplantation",
+        "value63": "In der Endphase legen drei Krankenschwestern die Transplantate sorgfältig in den Empfängerbereich. Dr. Biçer bleibt während dieses Prozesses in der Klinik.",
+        "value64": "8. Postoperatives Follow-up",
+        "value65": "Am Tag nach der Operation kehren Sie in die Klinik zurück für:",
+        "value66": "W Entfernung von Bandagen",
+        "value67": "Ärztliche Untersuchung durch Dr. Biçer",
+        "value68": "Postoperative Fotografien",
+        "value69": "Sobald sich bestätigt hat, dass alles gut voranschreitet, steht es Ihnen frei, in Ihr Land zurückzukehren.",
+        "value70": "Der Prozess endet jedoch nicht dort. Dr. Biçer und ihre Dolmetscher verfolgen Ihren Fortschritt mindestens ein Jahr nach der Operation.",
+        "title9": "BHT",
+        "subtitle3": "(Körperhaartransplantation)",
+        "title10": "Was ist",
+        "alt1": "Körperhaartransplantation",
+        "title11": "Alles, was Sie über Körperhaartransplantation (BHT) wissen müssen",
+        "alt2": "Körperhaartransplantation 2",
+        "title12": "Was ist BHT?",
+        "title13": "Wann ist Körperhaar",
+        "title14": "Transplantation empfohlen?",
+        "value71": "BHT kann in folgenden Situationen in Betracht gezogen werden:",
+        "value72": "Stark begrenzter Kopfhautspenderbereich, wie fortgeschrittener Haarausfall (Norwood Grade VI-VII)",
+        "value73": "Patienten, die frühere Haartransplantationsverfahren durchlaufen haben und die Spenderreserven erschöpft haben",
+        "value74": "Fälle, in denen höhere Anzahl der Transplantateen erforderlich sind, aber die Kapazität der Kopfhautspender unzureichend ist",
+        "value75": "Narben Alopezie, Verbrennungen oder traumabedingter Haarausfall",
+        "value76": "Zur Erhöhung der Gesamtdichte, insbesondere in Kombination mit Kopfhaartransplantaten",
+        "value77": "Barthaar wird im Allgemeinen wegen seiner stärkeren Struktur und konsistenteren Wachstumseigenschaften gegenüber Brusthaaren bevorzugt.",
+        "title15": "Rekonstruktive Haartransplantation",
+        "title16": "Was ist",
+        "alt3": "Rekonstruktive Haartransplantation",
+        "title17": "Rekonstruktion Haartransplantation - 01",
+        "alt4": "Rekonstruktive Haartransplantation 2",
+        "title18": "Rekonstruktion Haartransplantation - 02",
+        "alt5": "Rekonstruktive Haartransplantation 3",
+        "title19": "Rekonstruktion Haartransplantation - 03",
+        "title20": "Wer braucht",
+        "title21": "Rekonstruktive Haartransplantation?",
+        "value78": "Rekonstruktive Haartransplantation kann für Patienten empfohlen werden, die erleben:",
+        "value79": "Unnatürliche oder schlecht gestaltete Haarlinien",
+        "value80": "Sichtbare Narbenbildung aus früheren Haartransplantationsverfahren (FUE oder FUT)",
+        "value81": "Asymmetrie oder falsche Haarrichtung",
+        "value82": "Niedrige oder ungleichmäßige Haardichte",
+        "value83": "Haarausfall durch Verbrennungen, Unfälle, Operationen oder Traumata",
+        "value84": "Narben Alopezie oder bestimmte medizinische Bedingungen",
+        "value85": "Fehlgeschlagene oder unbefriedigende Ergebnisse aus früheren Haartransplantationen",
+        "value86": "Jeder rekonstruktive Fall ist einzigartig und erfordert einen individuellen Behandlungsplan.",
+        "title22": "Langes Haar",
+        "subtitle4": "(Unrasiert)",
+        "title23": "Was ist",
+        "title24": "Wer braucht",
+        "title25": "Lange Haartransplantation?",
+        "value87": "Lange Haartransplantation kann für Personen empfohlen werden, die:",
+        "value88": "Haben Sie unnatürliche, schlecht gestaltete oder unbefriedigende Haarlinien aus früheren Verfahren und wollen eine sofortige, natürlich aussehende Verbesserung",
+        "value89": "Erleben Sie sichtbare Narben, die durch frühere Haartransplantationstechniken (FUE oder FUT) verursacht wurden, und bevorzugen Sie eine bessere Tarnung",
+        "value90": "Leiden Sie unter Asymmetrie oder falscher Haarwachstumsrichtung, die eine präzise Korrektur erfordert",
+        "value91": "Eine geringe oder ungleichmäßige Haardichte haben und sofortiges Volumen sehen möchten, ohne Monate auf Wachstum zu warten",
+        "value92": "Haarausfall aufgrund von Verbrennungen, Unfällen, Operationen oder Traumata, bei denen die ästhetische Wiederherstellung von entscheidender Bedeutung ist",
+        "value93": "Sind von Narben-Alopezie oder bestimmten medizinischen Bedingungen betroffen, die konventionelle Transplantationsoptionen einschränken",
+        "value94": "Haben fehlgeschlagene oder enttäuschende Haartransplantationsergebnisse gehabt und suchen Sie nach einer fortschrittlichen Korrekturlösung",
+        "value95": "Bevorzugen Sie eine Technik, die sofortige kosmetische Ergebnisse liefert, insbesondere aus sozialen oder beruflichen Gründen",
+        "value96": "Jeder Fall einer langen Haartransplantation ist einzigartig und erfordert einen vollständig individualisierten Behandlungsplan, der auf den Haareigenschaften, Erwartungen und dem medizinischen Hintergrund des Patienten basiert.",
+        "title26": "FUT",
+        "subtitle5": "(Follikuläre Einheit Transplantation)",
+        "title27": "Was ist",
+        "alt6": "FUT Schritt 1",
+        "title28": "Was ist eine FUT Haartransplantation? - Dr. Özlem Biçer, MD",
+        "alt7": "FUT Schritt 2",
+        "title29": "FUT Transplantation?",
+        "alt8": "FUT Schritt 3",
+        "title30": "FUT-TECHNIK",
+        "title31": "Phasen von FUT",
+        "title32": "Haartransplantation",
+        "value97": "1. Erstkontakt & Beratung",
+        "value98": "Der Prozess beginnt mit der Kontaktaufnahme mit der Klinik. Einer unserer erfahrenen Berater und Dolmetscher führt Sie durch jeden Schritt in Ihrer Muttersprache. Sie werden gebeten, ein Konsultationsformular auszufüllen und Fotos und Videos einzureichen, die von Dr. Biçer überprüft werden. Basierend auf dieser Auswertung erhalten Sie vorläufige Informationen, einschließlich einer geschätzten Anzahl der Transplantate. Bei Bedarf kann Dr. Biçer eine Online-Konsultation zur weiteren Beurteilung anfordern. Im Anschluss daran wird ein personalisierter Behandlungsplan und ein Angebot erstellt und Ihnen zugesandt.",
+        "value99": "Sobald Sie sich für eine Operation entschieden haben, hilft Ihnen Ihr Berater bei der Auswahl geeigneter Termine. Nachdem die Vorauszahlung abgeschlossen ist, wird Ihre Operation offiziell geplant.",
+        "value100": "2. Präoperativer Tag (ein Tag vor der Operation)",
+        "value101": "Wir empfehlen dringend, einen Tag vor der Operation in der Klinik anzukommen. An diesem Tag werden professionelle Fotos gemacht und medizinische Untersuchungen durchgeführt, einschließlich Blutuntersuchungen, Elektrokardiographie (EKG) und trichoskopische Untersuchung. Sie werden dann eine persönliche Beratung mit Dr. Biçer haben.",
+        "value102": "Dieser Schritt ist äußerst wichtig, da Ihre Erwartungen, Spenderkapazität, Kopfhautlaxität und endgültige Anzahl der Transplantate eindeutig festgelegt sind und der Operationsplan abgeschlossen ist.",
+        "value103": "3. Tag der Chirurgie",
+        "value104": "Am Tag der Operation sollten Sie um 08:00 Uhr in der Klinik ankommen. Dr. Biçer wird noch einmal alle Details mit Ihnen besprechen und Ihren Haaransatz sorgfältig entwerfen und zeichnen. Hairline Design ist ein entscheidender Schritt, um ein natürliches Aussehen und einen langfristigen ästhetischen Erfolg zu erzielen.",
+        "value105": "Nach der FUT-Technik werden die Haare nicht rasiert. Ihr Haar wird mit einem Desinfektionsmittel-Shampoo gewaschen und der Haarbereich wird noch einmal zubereitet. Sie werden über jede Phase des Verfahrens umfassend informiert.",
+        "value106": "4. Entnahme von Spenderstreifen (Streifen)",
+        "value107": "Dr. Biçer misst die Elastizität des Spenderbereichs und die Laxität der Kopfhaut und markiert dann die Streifenexzision. Nadelfreie Lokalanästhesie wird verabreicht, und Sie bleiben wach und ständig auf Sicherheit überwacht.",
+        "value108": "Nach der Anästhesie führt Dr. Biçer die Streifen Exzision durch. Typischerweise werden 1.500-2.500 Transplantate aus einem einzigen Streifen erhalten. Der Spenderbereich wird dann mit einer ästhetischen trichophytischen Naht verschlossen. Unterdessen seziert das medizinische Team die Transplantate sorgfältig in einzelne, doppelte oder mehrere follikuläre Einheiten unter einem Mikroskop.",
+        "value109": "5. Einschnitte in den Empfängerbereich",
+        "value110": "In der dritten Phase erstellt Dr. Biçer die Empfängerschnitte und bestimmt den richtigen Winkel, die richtige Richtung und die richtige Dichte der transplantierten Haare, um ein natürliches Ergebnis zu gewährleisten.",
+        "value111": "6. Platzierung der Transplantate",
+        "value112": "In der Endphase platziert ein spezialisiertes Pflegeteam die Transplantate in den Empfängerbereich. Während dieser Phase bleibt Dr. Biçer in der Klinik anwesend und überwacht das Verfahren.",
+        "value113": "7. Postoperatives Follow-up",
+        "value114": "Am Tag nach der Operation kehren Sie zur Entfernung des Verbandes und zur postoperativen Untersuchung in die Klinik zurück. Neue Fotos werden aufgenommen, nachdem Dr. Biçer bestätigt hat, dass die Heilung normal voranschreitet.",
+        "value115": "Die im Spenderbereich platzierten ästhetischen Nähte sollten 15 Tage nach der Operation von einem Arzt entfernt werden. Wenn Sie noch im Land sind, kann dies in unserer Klinik erfolgen; Andernfalls kann es in Ihrem Heimatland sicher entfernt werden.",
+        "value116": "Unsere Pflege endet nicht nach dem Eingriff. Dr. Biçer und ihr medizinisches Team verfolgen Ihre Fortschritte mindestens ein Jahr lang und bieten während Ihrer gesamten Genesungs- und Haarwachstumsreise fortlaufende Unterstützung und Anleitung.",
+        "links": [
+          "FUE (Mikromotor)",
+          "FUE (manuell)",
+          "BHT (Körperhaartransplantation)",
+          "Rekonstruktive Haartransplantation",
+          "Langes Haar (unrasiert)",
+          "FUT"
+        ],
+        "titleLines1": [
+          "Minimal",
+          "invasive",
+          "Technik"
+        ],
+        "titleLines2": [
+          "Keine",
+          "lineare",
+          "Narbe"
+        ],
+        "titleLines3": [
+          "Natürlich",
+          "wirkende",
+          "Ergebnisse"
+        ],
+        "titleLines4": [
+          "Kurze",
+          "Erholungs-",
+          "zeit"
+        ],
+        "titleLines5": [
+          "Geeignet",
+          "für",
+          "Männer & Frauen"
+        ]
+      },
+      "hairWash": {
+        "alt1": "Haarwaschvideo",
+        "videoTitle": "Haarwäsche nach der Haartransplantation"
+      }
+    }
+  },
+  "SearchData": {
+    "items": [
+      {
+        "title": "Zuhause",
+        "category": "Seite",
+        "keywords": [
+          "Zuhause",
+          "Hauptbestandteil",
+          "ana sayfa"
+        ]
+      },
+      {
+        "title": "Über uns",
+        "category": "Seite",
+        "keywords": [
+          "über",
+          "Hakkında",
+          "ozlem",
+          "Bicer",
+          "Arzt"
+        ]
+      },
+      {
+        "title": "Dr. Özlem Biçer",
+        "category": "Über uns",
+        "keywords": [
+          "Arzt",
+          "Doktor",
+          "ozlem",
+          "Bicer",
+          "Chirurg"
+        ]
+      },
+      {
+        "title": "Klinik & Team",
+        "category": "Über uns",
+        "keywords": [
+          "Klinik",
+          "Team",
+          "Personal",
+          "Klinik",
+          "ekip"
+        ]
+      },
+      {
+        "title": "Preisgestaltung",
+        "category": "Über uns",
+        "keywords": [
+          "Preis",
+          "Preisgestaltung",
+          "Fiyat",
+          "Kosten",
+          "Gebühr"
+        ]
+      },
+      {
+        "title": "Haarausfall",
+        "category": "Seite",
+        "keywords": [
+          "Haarausfall",
+          "Saç dökülmesi",
+          "Alopezie"
+        ]
+      },
+      {
+        "title": "Haarausfall bei Männern",
+        "category": "Haarausfall",
+        "keywords": [
+          "männlich",
+          "erkek",
+          "Haarausfall",
+          "Saç dökülmesi",
+          "Männer"
+        ]
+      },
+      {
+        "title": "Haarausfall bei Frauen",
+        "category": "Haarausfall",
+        "keywords": [
+          "weiblich",
+          "Kadın",
+          "Haarausfall",
+          "Saç dökülmesi",
+          "Frauen"
+        ]
+      },
+      {
+        "title": "Haarmesotherapie",
+        "category": "Behandlungen",
+        "keywords": [
+          "Mesotherapie",
+          "Mezoterapi",
+          "Behandlung",
+          "Tedavi"
+        ]
+      },
+      {
+        "title": "PRP Haarbehandlung",
+        "category": "Behandlungen",
+        "keywords": [
+          "prp",
+          "Behandlung",
+          "Tedavi",
+          "Plättchen"
+        ]
+      },
+      {
+        "title": "Stammzellbehandlung",
+        "category": "Behandlungen",
+        "keywords": [
+          "Stammzelle",
+          "Stammzelle",
+          "kök hücre",
+          "Behandlung"
+        ]
+      },
+      {
+        "title": "Trichopat-Behandlung",
+        "category": "Behandlungen",
+        "keywords": [
+          "Trichopat",
+          "Behandlung",
+          "Tedavi"
+        ]
+      },
+      {
+        "title": "Haartransplantation",
+        "category": "Transplantationen",
+        "keywords": [
+          "Haartransplantation",
+          "Saç ekimi",
+          "Schleier",
+          "Fut"
+        ]
+      },
+      {
+        "title": "FUE (Mikromotor)",
+        "category": "Haartransplantation",
+        "keywords": [
+          "Schleier",
+          "Mikromotor",
+          "Haartransplantation",
+          "Saç ekimi"
+        ]
+      },
+      {
+        "title": "FUE (manuell)",
+        "category": "Haartransplantation",
+        "keywords": [
+          "Schleier",
+          "Manuel",
+          "Handbuch",
+          "Haartransplantation"
+        ]
+      },
+      {
+        "title": "Körperhaartransplantation",
+        "category": "Haartransplantation",
+        "keywords": [
+          "Körperhaar",
+          "bht",
+          "Transplantation",
+          "Saç ekimi"
+        ]
+      },
+      {
+        "title": "Rekonstruktive Haartransplantation",
+        "category": "Haartransplantation",
+        "keywords": [
+          "Rekonstruktiv",
+          "rekonstrüktif",
+          "Reparatur",
+          "Haartransplantation"
+        ]
+      },
+      {
+        "title": "Langes Haar (unrasiert)",
+        "category": "Haartransplantation",
+        "keywords": [
+          "Langes Haar",
+          "unrasiert",
+          "Uzun Saç",
+          "Haartransplantation"
+        ]
+      },
+      {
+        "title": "FUT",
+        "category": "Haartransplantation",
+        "keywords": [
+          "Fut",
+          "Follikeleinheit",
+          "Streifen",
+          "Haartransplantation"
+        ]
+      },
+      {
+        "title": "Barttransplantation",
+        "category": "Transplantationen",
+        "keywords": [
+          "Bart",
+          "Sakal",
+          "Transplantation",
+          "ekimi"
+        ]
+      },
+      {
+        "title": "Augenbrauentransplantation",
+        "category": "Transplantationen",
+        "keywords": [
+          "Augenbraue",
+          "Kaş",
+          "Transplantation",
+          "ekimi"
+        ]
+      },
+      {
+        "title": "Galerie",
+        "category": "Seite",
+        "keywords": [
+          "Galerie",
+          "Galeri",
+          "Video",
+          "Fotos",
+          "Ergebnisse"
+        ]
+      },
+      {
+        "title": "Vorher & Nachher Bilder",
+        "category": "Galerie",
+        "keywords": [
+          "Galerie",
+          "Galeri",
+          "Vorherig nach",
+          "önce sonra",
+          "Ergebnisse",
+          "Fotos"
+        ]
+      },
+      {
+        "title": "Ursachen für Haarausfall",
+        "category": "Haarausfall",
+        "keywords": [
+          "Ursachen",
+          "Nedenler",
+          "Haarausfall",
+          "Saç dökülmesi"
+        ]
+      },
+      {
+        "title": "Behandlungen von Haarausfall",
+        "category": "Haarausfall",
+        "keywords": [
+          "Behandlung",
+          "Tedavi",
+          "Haarausfall",
+          "Saç dökülmesi"
+        ]
+      },
+      {
+        "title": "Leitfäden",
+        "category": "Seite",
+        "keywords": [
+          "Führung",
+          "Rehber",
+          "Anweisungen",
+          "Talimat"
+        ]
+      },
+      {
+        "title": "Vor der Haartransplantation",
+        "category": "Leitfäden",
+        "keywords": [
+          "vor",
+          "öncesi",
+          "Führung",
+          "Rehber",
+          "Haartransplantation",
+          "Saç ekimi"
+        ]
+      },
+      {
+        "title": "Nach der Haartransplantation",
+        "category": "Leitfäden",
+        "keywords": [
+          "nach",
+          "Sonrasien",
+          "Führung",
+          "Rehber",
+          "Haartransplantation",
+          "Saç ekimi"
+        ]
+      },
+      {
+        "title": "Kontaktieren Sie uns",
+        "category": "Seite",
+        "keywords": [
+          "Kontakt",
+          "iletişim",
+          "E-Mail",
+          "Telefon",
+          "Termin",
+          "Rindevu"
+        ]
+      },
+      {
+        "title": "Haarwäsche nach der Haartransplantation",
+        "category": "Transplantationen",
+        "keywords": [
+          "Haarwäsche",
+          "Waschen",
+          "nach der Haartransplantation",
+          "Haartransplantation",
+          "Saç yıkama",
+          "Saç ekimi sonrası"
+        ]
+      }
+    ]
   }
 }

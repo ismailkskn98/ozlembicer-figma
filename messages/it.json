@@ -3,10 +3,233 @@
     "siteName": "Dr. Özlem Biçer – Specialista in Trapianto di Capelli e Perdita dei Capelli",
     "defaultTitle": "Dr. Özlem Biçer | Clinica per il Trapianto di Capelli a Istanbul",
     "defaultDescription": "Dr. Özlem Biçer è una chirurga specializzata nel trapianto di capelli con oltre 25 anni di esperienza nelle procedure FUE e FUT. Con sede a Istanbul, Turchia. Prenota oggi la tua consulenza gratuita.",
-    "keywords": "trapianto capelli Istanbul, trapianto FUE, trattamento caduta capelli, Dr. Ozlem Bicer, clinica capelli Turchia, trapianto barba, trapianto sopracciglia, trattamento PRP"
+    "keywords": "trapianto capelli Istanbul, trapianto FUE, trattamento caduta capelli, Dr. Özlem Biçer, clinica capelli Turchia, trapianto barba, trapianto sopracciglia, trattamento PRP"
   },
   "HomePage": {
-    "title": "Ciao mondo!"
+    "title": "Ciao mondo!",
+    "hero": {
+      "slides": {
+        "priority": {
+          "desktopTitle": {
+            "line1": "Le vostre",
+            "line2": "aspettative sono",
+            "line3": "la nostra priorità"
+          },
+          "mobileTitle": {
+            "line1": "Le vostre",
+            "line2": "aspettative sono",
+            "line3": "la nostra priorità"
+          },
+          "description": "Secondo la nostra filosofia, la chirurgia dei capelli non è solo scienza, arte, tecnologia, o numeri. Il restauro dei capelli è più di un intervento chirurgico. Sappiamo che colpisce anche direttamente le emozioni del paziente. Pertanto, le vostre aspettative e le vostre emozioni sono estremamente preziose per noi.",
+          "imageAlt": "Dr.ssa Özlem Biçer",
+          "primaryLink": "Leggi di più su Trapianto di capelli",
+          "appointmentLink": "Prenota un Appuntamento"
+        },
+        "team": {
+          "desktopTitle": {
+            "line1": "Una dottoressa",
+            "line2": "esperta e un",
+            "line3": "team medico"
+          },
+          "mobileTitle": {
+            "line1": "Una dottoressa",
+            "line2": "esperta e un",
+            "line3": "team medico"
+          },
+          "description": "Secondo la nostra filosofia, la chirurgia dei capelli non è solo scienza, arte, tecnologia, o numeri. Il restauro dei capelli è più di un intervento chirurgico. Sappiamo che colpisce anche direttamente le emozioni del paziente. Pertanto, le vostre aspettative e le vostre emozioni sono estremamente preziose per noi.",
+          "imageAlt": "Dr.ssa Özlem Biçer e il suo team medico",
+          "primaryLink": "Scopri di più sulla clinica e sul team",
+          "appointmentLink": "Prenota un Appuntamento"
+        },
+        "faculty": {
+          "desktopTitle": {
+            "line1": "Membro della facoltà",
+            "line2": "di fama",
+            "line3": "internazionale"
+          },
+          "mobileTitle": {
+            "line1": "Membro della facoltà",
+            "line2": "di fama",
+            "line3": "internazionale"
+          },
+          "description": "Secondo la nostra filosofia, la chirurgia dei capelli non è solo scienza, arte, tecnologia, o numeri. Il restauro dei capelli è più di un intervento chirurgico. Sappiamo che colpisce anche direttamente le emozioni del paziente. Pertanto, le vostre aspettative e le vostre emozioni sono estremamente preziose per noi.",
+          "imageAlt": "Dr.ssa Özlem Biçer, membro della facoltà di fama internazionale",
+          "primaryLink": "Maggiori informazioni su Dr. Özlem Biçer",
+          "appointmentLink": "Prenota un Appuntamento"
+        }
+      }
+    },
+    "logoCarousel": {
+      "heading": "<bold>Riconosciuta dalle principali associazioni</bold> a livello mondiale",
+      "logoAlt": "Logo {number}"
+    },
+    "heroCards": {
+      "onlyOne": {
+        "line1": "Un solo",
+        "line2": "paziente al giorno"
+      },
+      "experience": {
+        "line1": "28 anni",
+        "line2": "di esperienza"
+      },
+      "licensedClinic": {
+        "line1": "Clinica",
+        "line2": "autorizzata"
+      },
+      "americanBoard": {
+        "line1": "Membro dell’",
+        "line2": "American Board"
+      },
+      "imageAlt": "Scheda informativa {number}",
+      "lineAlt": "Linea divisoria",
+      "gapLineAlt": "eroe carta gap linea"
+    },
+    "services": {
+      "hairTransplant": {
+        "title": "Trapianto di capelli",
+        "label": "Trapianto di capelli",
+        "description": "Nella clinica del Dr. Biçer, tutte le procedure di trapianto di capelli sono eseguite personalmente dal Dr. Biçer, assicurando che ogni paziente sia valutato oggettivamente e trattato con un approccio completamente personalizzato. Il trapianto di capelli non è una cura, ma un modo altamente efficace per ripristinare un aspetto naturale e la fiducia quando accuratamente pianificato. Utilizzando tecniche avanzate come FUE, i pazienti beneficiano di un trattamento minimo invasivo e un recupero più veloce. Tuttavia, la soluzione giusta dipende da fattori individuali e richiede una valutazione esperta—scopri ciò che è più adatto per te."
+      },
+      "beardTransplant": {
+        "title": "Trapianto di barba",
+        "label": "Trapianto di barba",
+        "description": "Nella clinica del Dr. Özlem Biçer, il trapianto di barba viene eseguito personalmente con il suo team medico esperto, garantendo un approccio preciso e individualizzato per ogni paziente. Questa procedura specializzata è progettata per migliorare la densità della barba, migliorare la forma e la simmetria, e affrontare la crescita irregolare o perdita di capelli causati da cicatrici o condizioni mediche. Poiché il trapianto di capelli facciale richiede un'esperienza chirurgica avanzata e una pianificazione estetica raffinata, ogni dettaglio è attentamente considerato per ottenere risultati naturali ed equilibrati. Scopri come questo approccio su misura può ridefinire il tuo aspetto facciale."
+      },
+      "eyebrowTransplant": {
+        "title": "Trapianto di sopracciglia",
+        "label": "Trapianto di sopracciglia",
+        "description": "Nella clinica del Dr. Özlem Biçer, il trapianto di sopracciglia viene eseguito personalmente con un approccio meticoloso e individualizzato, riconoscendo il ruolo essenziale che le sopracciglia giocano nell'espressione del viso e nell'estetica generale. Questa procedura è progettata per ripristinare la forma e la densità naturale, sia a causa di over-plucking a lungo termine, danni alla trazione, o sopracciglia naturalmente sparse o assenti. Utilizzando la tecnica lungo dei capelli FUE e i capelli pregiati accuratamente selezionati, ogni innesto è posto con angolo preciso e direzione per ottenere risultati morbidi, naturali e armoniosi. Scopri come un approccio su misura può ripristinare l'equilibrio e la definizione sul tuo viso."
+      },
+      "femaleHairTransplant": {
+        "title": "Trapianto di capelli femminile",
+        "label": "Trapianto di capelli femminile",
+        "description": "Nella clinica del Dr. Özlem Biçer, il trapianto di capelli femminile viene eseguito personalmente con un approccio sensibile e individualizzato, riconoscendo il significativo impatto emotivo ed estetico della perdita di capelli nelle donne. Poiché la perdita di capelli può derivare da cause diverse, come l'alopecia androgenetica, l'efluvium telonico o altre condizioni, ogni paziente subisce una valutazione dettagliata per determinare il trattamento più appropriato. Quando il trapianto è indicato, le tecniche senza rasatura completa sono preferite per mantenere la discrezione e il comfort. Scopri una soluzione su misura progettata per ripristinare sia i capelli che la fiducia."
+      },
+      "learnMore": "Scopri di più"
+    },
+    "videos": {
+      "title": "Video & tutorial"
+    },
+    "aestheticAndArt": {
+      "headingLine1": "L’estetica è",
+      "headingLine2": "dove l’arte e",
+      "headingLine3": "la medicina si incontrano",
+      "paragraph1": "Dal 1998 sono stato dedicato al settore del restauro dei capelli e del trapianto di capelli. Nella mia clinica, forniamo un elevato standard di assistenza medica e competenza professionale, con una chiara attenzione al raggiungimento dei risultati naturali, sani e duraturi per i nostri pazienti.",
+      "paragraph2": "Il nostro approccio non è limitato al giorno della procedura da solo. Ogni paziente è attentamente valutato e guidato prima del trattamento, e poi seguito da vicino per almeno un anno dopo la procedura per garantire la guarigione ottimale, la crescita dei capelli e il successo a lungo termine.",
+      "paragraph3": "Nel corso degli anni, abbiamo costruito una forte reputazione combinando esperienza chirurgica, tecnologia avanzata e stretta adesione alle pratiche mediche sicure ed etiche. Ogni trattamento è attentamente progettato e personalizzato per le esigenze individuali di ogni paziente.",
+      "paragraph4": "Se siete alla ricerca di una clinica di trapianto di capelli di livello mondiale che privilegia l'eccellenza medica, i risultati naturali, e la cura completa del paziente, il mio team medico esperto e io sono qui per guidarvi attraverso ogni passo del vostro viaggio.",
+      "signature": "Özlem Biçer, M.D.",
+      "doctorLink": "Maggiori informazioni su Dr. Biçer",
+      "appointmentLink": "Prenota un Appuntamento",
+      "imageAlt": "estetica e arte"
+    },
+    "appointment": {
+      "title": "Come fissare un appuntamento",
+      "steps": {
+        "contact": {
+          "title": "Contattaci su",
+          "titleBr": "WhatsApp",
+          "hoverTitle": "Compila il",
+          "hoverTitleBr": "modulo",
+          "imageAlt": "WhatsApp",
+          "description": "Raggiungici su WhatsApp e accedi a un consulente paziente dedicato che parla la tua lingua. Compila il modulo fornito dal tuo consulente e programma la tua consultazione online con il Dr. Biçer."
+        },
+        "consultation": {
+          "title": "Consulenza",
+          "titleBr": "online",
+          "hoverTitle": "Compila il",
+          "hoverTitleBr": "modulo",
+          "imageAlt": "consultazione",
+          "description": "Avere una consulenza online individuale con il Dr. Biçer per ricevere una valutazione personalizzata e informazioni dettagliate sul vostro trattamento e processo. Insieme al vostro consulente, procedere con la pianificazione dei prossimi passi."
+        },
+        "complete": {
+          "title": "Completa il tuo",
+          "titleBr": "appuntamento",
+          "hoverTitle": "Compila il",
+          "hoverTitleBr": "modulo",
+          "imageAlt": "appuntamento",
+          "description": "Finalizzare il vostro piano di trattamento e confermare il vostro appuntamento con la guida del vostro consulente. Dopo la vostra procedura, il vostro consulente paziente rimarrà in contatto continuo con voi per un anno, monitorando attentamente i vostri progressi, fornendo aggiornamenti e sostenendovi durante tutto il vostro viaggio di recupero."
+        }
+      },
+      "clinicHeading": "Trapianto di capelli in<br></br>Istanbul, Turchia",
+      "clinicDescription": "Il Dr. Özlem Biçer porta oltre 25 anni di esperienza ed è un membro stimato della International Society of Hair Restoration Surgery (ISHRS). È sostenuta da un team dedicato di infermiere altamente addestrate, che ci rende una delle squadre di trapianto di capelli più affidabili e con esperienza in tutto il mondo.",
+      "contact": "CONTATTACI"
+    }
+  },
+  "Header": {
+    "navigation": {
+      "about": "Chi siamo",
+      "doctor": "Dr. Özlem Biçer",
+      "clinicTeam": "Clinica & team",
+      "pricing": "Prezzi",
+      "hairLoss": "Perdita di capelli",
+      "causes": "Cause della perdita di capelli",
+      "maleHairLoss": "Perdita di capelli maschile",
+      "femaleHairLoss": "Perdita di capelli femminile",
+      "treatments": "Trattamenti per la perdita di capelli",
+      "hairMesotherapy": "Mesoterapia capillare",
+      "prp": "Trattamento capillare PRP",
+      "stampCell": "Trattamento con cellule staminali",
+      "trichopat": "Trattamento TRICOPAT",
+      "transplantation": "Trapianti",
+      "hairTransplant": "Trapianto di capelli",
+      "fueMicroMotor": "FUE (micromotore)",
+      "fueManual": "FUE (manuale)",
+      "bodyHair": "Trapianto di peli corporei",
+      "reconstructive": "Trapianto capillare ricostruttivo",
+      "longHair": "Capelli lunghi (senza rasatura)",
+      "fut": "FUT",
+      "hairWash": "Lavaggio dei capelli",
+      "beard": "Trapianto di barba",
+      "eyebrow": "Trapianto di sopracciglia",
+      "gallery": "Galleria",
+      "beforeAfter": "Foto prima e dopo",
+      "videoGallery": "Galleria video",
+      "informativeVideos": "Video informativi",
+      "patientReviews": "Recensioni dei pazienti",
+      "interviews": "Interviste con la Dr.ssa Biçer"
+    },
+    "mobileNavigationTitle": "Menu di navigazione",
+    "search": {
+      "title": "Cerca",
+      "placeholder": "Cerca ...",
+      "escape": "ESC",
+      "noResults": "Nessun risultato trovato.",
+      "pages": "Pagine"
+    },
+    "alt1": "logo ozlembicer"
+  },
+  "Footer": {
+    "logoAlt": "Logo della Dr.ssa Biçer",
+    "addressLabel": "Indirizzo:",
+    "address": "Istanbul/Turchia",
+    "mobileLabel": "Cellulare & WhatsApp:",
+    "emailLabel": "E-mail:",
+    "workingHours": "Orari di apertura",
+    "days": {
+      "monday": "Lunedì",
+      "tuesday": "Martedì",
+      "wednesday": "Mercoledì",
+      "thursday": "Giovedì",
+      "friday": "Venerdì",
+      "saturday": "Sabato",
+      "sunday": "Domenica"
+    },
+    "closed": "Chiuso",
+    "copyright": "Dr. Biçer 2026 – Tutti i diritti riservati."
+  },
+  "PatientResults": {
+    "title": "Risultati dei pazienti",
+    "beforeAlt": "Paziente prima {number}",
+    "afterAlt": "Paziente dopo {number}",
+    "videoTitle": "Video del risultato paziente",
+    "technique": "TECNICA",
+    "grafts": "INNESTI",
+    "after": "DOPO",
+    "fue": "FUE",
+    "microMotor": "(Micromotore)",
+    "months": "{count} mesi",
+    "lineAlt": "linea"
   },
   "LanguageModal": {
     "title": "Cambia lingua",
@@ -18,10 +241,2262 @@
     "heading": "Supporto multilingue",
     "subheading": "Contatta direttamente qualcuno che parla la tua lingua"
   },
+  "Common": {
+    "languages": {
+      "en": {
+        "name": "English",
+        "short": "ENG",
+        "supportAlt": "Supporto inglese"
+      },
+      "it": {
+        "name": "Italiano",
+        "short": "ITAL",
+        "supportAlt": "Sostegno italiano"
+      },
+      "fr": {
+        "name": "Français",
+        "short": "FRAN",
+        "supportAlt": "Supporto francese"
+      },
+      "de": {
+        "name": "Deutsch",
+        "short": "DEUT",
+        "supportAlt": "Supporto tedesco"
+      }
+    },
+    "accessibility": {
+      "breadcrumb": "pangrattato",
+      "more": "Altro",
+      "close": "Chiudi"
+    }
+  },
+  "TemporaryLanguage": {
+    "modalMessages": {
+      "en": {
+        "title": "Change Language",
+        "description": "Would you like to switch to {language}?",
+        "confirm": "Yes, switch",
+        "cancel": "Cancel"
+      },
+      "de": {
+        "title": "Sprache wechseln",
+        "description": "Möchten Sie zu {language} wechseln?",
+        "confirm": "Ja, wechseln",
+        "cancel": "Abbrechen"
+      },
+      "fr": {
+        "title": "Changer de langue",
+        "description": "Souhaitez-vous passer en {language} ?",
+        "confirm": "Oui, changer",
+        "cancel": "Annuler"
+      },
+      "it": {
+        "title": "Cambia lingua",
+        "description": "Vuoi passare a {language}?",
+        "confirm": "Sì, cambia",
+        "cancel": "Annulla"
+      }
+    },
+    "comingSoonMessages": {
+      "en": {
+        "title": "Coming Soon",
+        "message": "This section is under construction. Thank you for your understanding."
+      },
+      "de": {
+        "title": "Demnächst verfügbar",
+        "message": "Dieser Bereich befindet sich im Aufbau. Vielen Dank für Ihr Verständnis."
+      },
+      "fr": {
+        "title": "Prochainement disponible",
+        "message": "Cette section est en construction. Merci de votre compréhension."
+      },
+      "it": {
+        "title": "Prossimamente disponibile",
+        "message": "Questa sezione è in costruzione. Grazie per la vostra comprensione."
+      }
+    },
+    "ok": "OK"
+  },
   "NotFound": {
     "title": "Pagina non trovata",
     "description": "La pagina che stai cercando potrebbe essere stata spostata o non esiste più. Lascia che ti aiutiamo a orientarti.",
     "home": "Torna alla home",
     "contact": "Prenota un appuntamento"
+  },
+  "Content": {
+    "about": {
+      "ozlembicer": {
+        "doctorProfile": {
+          "heading1": "Filosofia medica",
+          "paragraph1": "Durante tutta la sua carriera medica, la cura dei pazienti è sempre stata la priorità più alta del Dr. Biçer. Crede che la pratica etica, la responsabilità professionale e l'istruzione continua siano essenziali per ottenere risultati di successo e sostenibili.",
+          "paragraph2": "Secondo la sua filosofia, la chirurgia dei capelli non è solo scienza, arte, tecnologia, o numeri. Il restauro dei capelli è più di una procedura chirurgica – ha un impatto diretto sulle emozioni, la fiducia e la qualità della vita di un paziente. Per questo motivo, le aspettative di ogni paziente e il benessere emotivo sono considerati estremamente preziosi e sono attentamente rispettati durante il processo di trattamento.",
+          "paragraph3": "Per garantire la massima attenzione e il più alto standard di cura, Dr. Biçer esegue una sola procedura di trapianto di capelli al giorno, permettendole di dedicare la sua completa attenzione a ogni paziente. Lei ritiene inoltre importante servire come modello di ruolo etico e professionale per i medici più giovani che entrano nel campo.",
+          "paragraph4": "La sua vasta esperienza le ha permesso di sviluppare forti capacità cliniche, chirurgiche e di comunicazione, coprendo pratiche mediche di routine, procedure chirurgiche e situazioni di emergenza.",
+          "heading2": "Esperienza professionale e coinvolgimento accademico",
+          "paragraph5": "Il Dr. Biçer è attivamente coinvolto nella comunità internazionale di restauro dei capelli. Partecipa regolarmente a incontri scientifici e conferenze in tutto il mondo, partecipando come relatore, formatore e membro di società di restauro professionale dei capelli. Il suo continuo coinvolgimento accademico e l'esperienza professionale le permettono di rimanere in prima linea degli ultimi sviluppi nel restauro dei capelli.",
+          "paragraph6": "Alla clinica del Dr. Biçer, tutte le tecniche di restauro dei capelli sono eseguite personalmente dal Dr. Biçer. Questa esperienza completa le dà la capacità di valutare oggettivamente ogni caso e selezionare la tecnica più appropriata per ogni paziente, basata esclusivamente sulle esigenze mediche e risultati attesi.",
+          "paragraph7": "Le sue aree di attenzione professionale includono:",
+          "listItem1": "Tecniche FUT e FUE",
+          "listItem2": "Micromotore e manuale FUE",
+          "listItem3": "FUE di capelli lunghi senza ombre",
+          "listItem4": "Trapianto di capelli ricostruttivi",
+          "listItem5": "FUE con gli impianti",
+          "listItem6": "Trattamenti per la perdita di capelli",
+          "listItem7": "Medicina rigenerativa",
+          "listItem8": "Dermatopatologia del cuoio capelluto",
+          "paragraph8": "Oltre al trapianto di capelli, Dr. Biçer fornisce trattamenti per la perdita di capelli personalizzati, tra cui PRP, mesoterapia e terapie farmacologiche rigenerative basate, su misura per le esigenze cliniche di ogni paziente.",
+          "heading3": "Lavoro di squadra, & Valori personali",
+          "paragraph9": "Dr. Biçer valorizza la collaborazione multidisciplinare e contribuisce attivamente alla cura del paziente ogni volta che necessario. Si descrive come soluzione orientata, disciplinata, motivata e impegnata a lavorare insieme ai colleghi a beneficio dei pazienti e della società. Condivisione esperienza, mentoring membri del team, e motivare i colleghi verso obiettivi condivisi sono centrali per il suo approccio professionale.",
+          "paragraph10": "Esegue procedure chirurgiche insieme a un team medico con licenza con 28 anni di esperienza, un fattore che contribuisce chiaramente a risultati di trattamento positivi e coerenti.",
+          "paragraph11": "Il dottor Biçer parla fluentemente inglese. È anche l'autore di un libro di poesie, con tutti i proventi donati per sostenere l'educazione dei bambini orfani. È sposata da 30 anni ed è la madre di un figlio."
+        },
+        "awards": {
+          "heading1": "Premi",
+          "paragraph1": "FUE Europe Annual Fue Hands-on Ankara, 2020",
+          "paragraph2": "Maestri della Bellezza, 2021",
+          "paragraph3": "II Congresso Internazionale di Estetica Medica",
+          "paragraph4": "Dr. Ufuk Alatekin Academy “Chi aggiunge valore alla bellezza” 2021",
+          "paragraph5": "Simposio medico estetico",
+          "paragraph6": "Mezoder, Congresso di Mesoterapia",
+          "paragraph7": "Los Angles Hair Restoration Courses, Live Surgery Workshop"
+        },
+        "certifications": {
+          "heading1": "Altri programmi di formazione e formazione",
+          "items": [
+            {
+              "title": "Certificato di Bio Cosmetics",
+              "location": "Istanbul, Turchia",
+              "date": "Marzo 2000"
+            },
+            {
+              "title": "Enseignement International de Mesotherapie",
+              "location": "Francia",
+              "date": "Ottobre 2002"
+            },
+            {
+              "title": "Allergan, Eccellenza",
+              "location": "Istanbul, Turchia",
+              "date": "Dicembre 2002"
+            },
+            {
+              "title": "5o Dermatologia e Dermatopatologia in Anatolia",
+              "location": "Istanbul, Turchia",
+              "date": "Settembre 2003"
+            },
+            {
+              "title": "Tecnica Flavius, FUE e Strip Singola",
+              "location": "Istanbul, Turchia",
+              "date": "Giugno 2004"
+            },
+            {
+              "title": "1 ° Estetico medico, Mesoterapia",
+              "location": "Antalya, Turchia",
+              "date": "Dicembre 2004"
+            },
+            {
+              "title": "Seminario Botox e Natural Look",
+              "location": "San Paolo, Brasile",
+              "date": "Marzo 2005"
+            },
+            {
+              "title": "Allergan Medical Aesthetics Academy – Master Academy for Excellence",
+              "location": "",
+              "date": "Maggio 2010"
+            },
+            {
+              "title": "Fotona Medical Technology Trainer Workshop",
+              "location": "",
+              "date": "Settembre 2011"
+            },
+            {
+              "title": "Sessioni teoretiche-razzistiche regionali (Bio Rivitalizzazione alla Correzione di Contour)",
+              "location": "Istanbul, Turchia",
+              "date": "Ottobre 2011"
+            },
+            {
+              "title": "Hipokrat, Complezione Diagnostica Genesi",
+              "location": "Istanbul, Turchia",
+              "date": "Dicembre 2011"
+            },
+            {
+              "title": "Mezoklinik, Promitalia",
+              "location": "Istanbul, Turchia",
+              "date": "Maggio 2012"
+            },
+            {
+              "title": "Applicazioni Seltek, Redenzione Facciale I e Mesoterapia",
+              "location": "Istanbul, Turchia",
+              "date": "Settembre 2012"
+            },
+            {
+              "title": "Bio-Rivolume regionale in Medicina Estetica Medica",
+              "location": "Istanbul",
+              "date": "Dicembre 2012"
+            },
+            {
+              "title": "Allergan Medical Institute – Mettere in pratica i codici",
+              "location": "",
+              "date": "Giugno 2015"
+            },
+            {
+              "title": "Formazione Mezoklinik, Perfectha e Ellanse",
+              "location": "Istanbul, Turchia",
+              "date": "Settembre 2015"
+            },
+            {
+              "title": "Mester, Cadaver viso estetico medico",
+              "location": "Edirne, Turchia",
+              "date": "Maggio 2016"
+            },
+            {
+              "title": "Applicazioni di Mesoterapia del Ministero della Salute di TC",
+              "location": "Ankara, Turchia",
+              "date": "Aprile 2016"
+            },
+            {
+              "title": "Mester, gestione della complicazione estetica medica",
+              "location": "Cipro",
+              "date": "Gennaio 2017"
+            },
+            {
+              "title": "Applicazioni del Ministero della Salute di TC Ozon",
+              "location": "Ankara, Turchia",
+              "date": "Aprile 2017"
+            },
+            {
+              "title": "15 ° farmaci estetici e anti-invecchiamento, AMWC",
+              "location": "Monaco",
+              "date": "Aprile 2017"
+            },
+            {
+              "title": "AAAM, Medicina Estetica",
+              "location": "Pennsylvania, Stati Uniti",
+              "date": "Agosto 2017"
+            },
+            {
+              "title": "TED1 Teoxane Expert Day",
+              "location": "Istanbul",
+              "date": "Settembre 2017"
+            },
+            {
+              "title": "XXI Congresso Mondiale di Medicina Estetica",
+              "location": "Istanbul, Turchia",
+              "date": "Ottobre 2017"
+            },
+            {
+              "title": "Mezoklinik, Sterile Separation PRP",
+              "location": "Istanbul, Turchia",
+              "date": "2017"
+            },
+            {
+              "title": "II Congresso Nazionale di Estetica Medica",
+              "location": "",
+              "date": "Gennaio 2018"
+            },
+            {
+              "title": "TED3 Teoxane Expert Days, Medio Oriente",
+              "location": "Dubai",
+              "date": "Marzo 2018"
+            },
+            {
+              "title": "Mester, gestione della complicazione estetica medica",
+              "location": "Ankara, Turchia",
+              "date": "Maggio 2018"
+            },
+            {
+              "title": "TTB Expertise in Medicina",
+              "location": "",
+              "date": "Settembre 2018"
+            },
+            {
+              "title": "Mester, metodi di restauro dei capelli",
+              "location": "Antalya, Turchia",
+              "date": "dicembre 2018"
+            },
+            {
+              "title": "Mezoklinik Ellanse Filler teorico e pratico",
+              "location": "Istanbul",
+              "date": "Marzo 2019"
+            },
+            {
+              "title": "Corso di laurea Bio Revolumetria",
+              "location": "Istanbul, Turchia",
+              "date": "Aprile 2019"
+            },
+            {
+              "title": "Comunità di Mesoterapia Nazionale",
+              "location": "",
+              "date": "Marzo 2020"
+            },
+            {
+              "title": "Corso annuale FUE Europe Hands-On",
+              "location": "Ankara, Turchia",
+              "date": "Settembre 2020"
+            },
+            {
+              "title": "ISHR, 28° Congresso Mondiale",
+              "location": "Online",
+              "date": "Ottobre 2020"
+            },
+            {
+              "title": "Global perdita di capelli Summit – Altoparlante",
+              "location": "Online",
+              "date": "2020"
+            },
+            {
+              "title": "Incontro annuale FUE Europe",
+              "location": "",
+              "date": "Settembre 2021"
+            },
+            {
+              "title": "Mester, Simposio Estetico Medico Internazionale",
+              "location": "Antalya, Turchia",
+              "date": "Ottobre 2021"
+            },
+            {
+              "title": "ISHR, 29° Congresso Mondiale",
+              "location": "Lisbona",
+              "date": "Ottobre 2021"
+            },
+            {
+              "title": "Global perdita di capelli Summit – Altoparlante",
+              "location": "Online",
+              "date": "2021"
+            },
+            {
+              "title": "Congresso degli Stati Uniti",
+              "location": "Ucraina (Online)",
+              "date": "Febbraio 2022"
+            },
+            {
+              "title": "Corso di restauro dei capelli di Los Angeles",
+              "location": "Los Angeles, Stati Uniti",
+              "date": "Marzo 2022"
+            }
+          ]
+        },
+        "ozlemBicerHero": {
+          "heading1": "Chi è",
+          "span1": "Dr. Özlem Biçer",
+          "paragraph1": "Il Dr. Özlem Biçer è nato nel 1973 a İstanbul. Ha completato la sua formazione secondaria al Anakent College nel 1991 e si è laureata alla Facoltà di Medicina presso l'Università Trakya nel 1998. Dopo la laurea in medicina, ha completato un programma di formazione certificata in chirurgia dei capelli organizzato dal Ministero della Salute della Repubblica di Turchia e ha ricevuto l'autorizzazione ufficiale per eseguire le procedure di trapianto di capelli.",
+          "paragraph2": "Nel 2002, il Dr. Biçer ha ulteriormente ampliato la sua esperienza attraverso una formazione avanzata in Francia, concentrandosi sui trattamenti per la perdita di capelli, la mesoterapia e l'estetica medica.",
+          "paragraph3": "Il dottor Biçer è un chirurgo per trapianto di capelli con oltre 25 anni di esperienza medica. Ha eseguito entrambe le procedure FUE (Follicular Unit Extraction) e FUT (Follicular Unit Transplantation) durante tutta la sua carriera. Tra il 1999 e il 2002 ha lavorato in diverse cliniche private di İstanbul, specializzandosi in medicina estetica e chirurgia dei capelli. Dal 2002 esegue procedure di trapianto di capelli presso la sua clinica autorizzata e autorizzata.",
+          "alt1": "Dr. Özlem Biçer",
+          "title1": "Dr. Özlem Biçer Video"
+        },
+        "professionalAffiliations": {
+          "heading1": "Affiliazioni professionali",
+          "heading2": "Ruoli diplomatici",
+          "paragraph1": "ABHRS",
+          "heading3": "Abbonamenti",
+          "paragraph2": "AAAM, TSHRS, MESTDER",
+          "heading4": "Educatore Roles",
+          "paragraph3": "Ministero della Salute, ABHRS, ISHRS, IAHRS",
+          "heading5": "Associazioni professionali",
+          "paragraph4": "TBB, FUE EUROPA, AAAM, TSHRS, MESTDER, MED, MS, TTB"
+        },
+        "links": [
+          "Informazioni su Dr. Özlem Biçer",
+          "Clinica & team",
+          "Prezzo"
+        ]
+      },
+      "clinicAndTeam": {
+        "clinic": {
+          "heading1": "Clinica"
+        },
+        "clinicTeamHero": {
+          "heading1": "Un'esperienza",
+          "span1": "Team medico e medico",
+          "paragraph1": "La nostra clinica è supportata da un team di trapianto di capelli altamente esperto e dedicato, riconosciuto per la sua esperienza medica e approccio paziente-centrato. Il Dr. Özlem Biçer ha oltre 28 anni di esperienza nella chirurgia di restauro dei capelli ed è un membro orgoglioso della International Society of Hair Restoration Surgery (ISHRS). È assistita da un team di infermiere mediche accuratamente selezionate, altamente addestrate e con esperienza che lavorano insieme con precisione e consistenza.",
+          "paragraph2": "A differenza di molti centri di trapianto di capelli, crediamo che il trapianto di capelli sia una procedura medica che dovrebbe essere eseguita sotto la responsabilità diretta di un medico autorizzato. La nostra clinica opera secondo le norme mediche e gli standard professionali, ed è tra un numero limitato di cliniche di trapianto di capelli con licenza in Turchia.",
+          "paragraph3": "Per garantire il massimo livello di cura, trattiamo solo un paziente al giorno. Lo stesso team medico esperto assiste il Dr. Biçer in ogni procedura, consentendo la massima attenzione, continuità e attenzione personalizzata. Questo approccio ci permette di mantenere un controllo di qualità rigoroso, fornire un'attenta cura del paziente e cercare risultati naturali e affidabili in ogni caso.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "clinicVideo": {
+          "alt1": "Clinica"
+        },
+        "title1": "Risultati dei pazienti",
+        "links": [
+          "Informazioni su Dr. Özlem Biçer",
+          "Clinica & team",
+          "Prezzo"
+        ]
+      },
+      "pricing": {
+        "pricingHero": {
+          "heading1": "Prezzo",
+          "items": [
+            {
+              "title": "FUE automatizzato",
+              "paragraphs": [
+                {
+                  "text": "3€ per innesto"
+                },
+                {
+                  "text": "Fino a 4.000 innesti in una sessione"
+                }
+              ]
+            },
+            {
+              "title": "Manuale FUE",
+              "paragraphs": [
+                {
+                  "text": "4€ per innesto"
+                },
+                {
+                  "text": "(Up a 2.000 innesti In One Session)"
+                },
+                {
+                  "text": "Per le sessioni FUE, il prezzo ha più/minus 200 innesti gamma."
+                }
+              ]
+            },
+            {
+              "title": "FUT (striscia)",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Trapianto di barba",
+              "paragraphs": [
+                {
+                  "text": "Dal cuoio capelluto alla barba: 6.000–9.000 € (in base al numero di innesti)"
+                },
+                {
+                  "text": "Dalla barba al cuoio capelluto: 6.000 € (indipendentemente dal numero di innesti)"
+                }
+              ]
+            },
+            {
+              "title": "Trapianto di sopracciglio",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Trapianto di peli corporei",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Micro-Pigmentazione scala (SMP)",
+              "paragraphs": [
+                {
+                  "text": "500€ – 1000€"
+                }
+              ]
+            },
+            {
+              "title": "Trattamento PRP",
+              "paragraphs": [
+                {
+                  "text": "Gratis Con Certe Chirurgie"
+                }
+              ]
+            },
+            {
+              "title": "Consultazione",
+              "paragraphs": [
+                {
+                  "parts": [
+                    "In persona: 100€",
+                    "Online: Gratis"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Termini e condizioni",
+              "paragraphs": [
+                {
+                  "text": "Le sessioni sono previste dall'approvazione del Dr. Biçer. Sono previsti 1-2 volte in un anno. Più di 2 sessioni possono essere programmate lo stesso giorno."
+                },
+                {
+                  "text": "Free touch up per 50-200 innesti (le lesioni sono previste per eliminare i problemi causati da lavaggio improprio, traumi della testa...)"
+                },
+                {
+                  "text": "Fino a 1000 innesti: 2000€"
+                }
+              ]
+            },
+            {
+              "title": "Termini e condizioni di sconto",
+              "paragraphs": [
+                {
+                  "text": "Medico/Team:%10"
+                },
+                {
+                  "text": "Studente: %10 (per gli studenti che non lavorano)"
+                },
+                {
+                  "text": "Pazienti di gruppo: %10 per ogni"
+                },
+                {
+                  "text": "2 sessioni BHT: %15 (se due sessioni sono effettuate in un giorno)"
+                },
+                {
+                  "text": "Nomine last minute: 1000€ (Per appuntamenti per un giorno specifico che è a meno di dieci giorni di distanza. Per essere in grado di tollerare i prezzi di volo costosi all'ultimo minuto)"
+                },
+                {
+                  "text": "Nomine last minute:500€ (per 10-15 giorni)"
+                },
+                {
+                  "text": "Per la pubblicazione di media (foto e video) in studi scientifici, presentazioni, congressi e articoli: 20% (Dr. Biçer prende la sua decisione per questo tipo di sconto in consultazione se il paziente è adatto per questo caso Ex: ricostruzione post-ustione)"
+                },
+                {
+                  "text": "Solo un tipo di sconto tipo è applicato e lo sconto totale non può essere superiore a %20"
+                }
+              ]
+            }
+          ]
+        },
+        "title1": "Risultati dei pazienti",
+        "links": [
+          "Informazioni su Dr. Özlem Biçer",
+          "Clinica & team",
+          "Prezzo"
+        ]
+      }
+    },
+    "contact": {
+      "contactCards": {
+        "heading1": "Come fissare un appuntamento",
+        "paragraph1": "Fissa un",
+        "paragraph2": "appuntamento",
+        "paragraph3": "Dal 1998, ho lavorato sul restauro dei capelli e sui trapianti di capelli. La mia clinica fornisce il più alto livello di servizio e competenza per trasformare i sogni dei nostri pazienti in realtà. Abbiamo costruito una reputazione senza pari offrendo ai nostri pazienti risultati superiori, utilizzando la migliore tecnologia e aderendo alle pratiche mediche più sicure.",
+        "paragraph4": "Özlem Biçer, M.D.",
+        "paragraph5": "Consulenza",
+        "paragraph6": "online",
+        "paragraph7": "Dal 1998, ho lavorato sul restauro dei capelli e sui trapianti di capelli. La mia clinica fornisce il più alto livello di servizio e competenza per trasformare i sogni dei nostri pazienti in realtà. Abbiamo costruito una reputazione senza pari offrendo ai nostri pazienti risultati superiori, utilizzando la migliore tecnologia e aderendo alle pratiche mediche più sicure.",
+        "paragraph8": "Özlem Biçer, M.D.",
+        "paragraph9": "Completa il tuo",
+        "paragraph10": "appuntamento",
+        "paragraph11": "Dal 1998, ho lavorato sul restauro dei capelli e sui trapianti di capelli. La mia clinica fornisce il più alto livello di servizio e competenza per trasformare i sogni dei nostri pazienti in realtà. Abbiamo costruito una reputazione senza pari offrendo ai nostri pazienti risultati superiori, utilizzando la migliore tecnologia e aderendo alle pratiche mediche più sicure.",
+        "paragraph12": "Özlem Biçer, M.D."
+      },
+      "contactForm": {
+        "paragraph1": "Indirizzo:",
+        "paragraph2": "Istanbul / Turchia",
+        "paragraph3": "Cellulare & WhatsApp:",
+        "paragraph4": "E-mail:",
+        "paragraph5": "info@ozlembicer.com",
+        "heading1": "Trapianto di capelli a",
+        "heading2": "Istanbul, Turchia",
+        "paragraph6": "Il Dr. Özlem Biçer porta oltre 25 anni di esperienza ed è un membro stimato della International Society of Hair Restoration Surgery (ISHRS). È sostenuta da un team dedicato di infermiere altamente addestrate, che ci rende una delle squadre di trapianto di capelli più affidabili e con esperienza in tutto il mondo.",
+        "span1": "CONTATTACI",
+        "span2": "CONTATTACI",
+        "link1": "info@ozlembicer.com"
+      }
+    },
+    "gallery": {
+      "beforeAfterImages": {
+        "beforeAfterHero": {
+          "heading1": "Risultati dei pazienti",
+          "span1": "Prima e dopo",
+          "paragraph1": "Come clinica diamo importanza per post operazione pre e post seguire è una della parte più importante del trapianto di capelli. L'intervento chirurgico è solo una sola parte del processo di trapianto di capelli e dopo il processo utilizzando farmaci giusti e fornendo buona cura per il destinatario e donatore sono un'altra parte importante del processo. Durante questo periodo è importante per noi andare avanti con i nostri pazienti e fornire uno a uno seguire è parte molto curata della nostra clinica. Attraverso la nostra pollicy siamo conformi agli anni con oltre 250 pazienti soddisfatti per 28 anni.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "heading1": "Prima e dopo",
+        "alt1": "Icona prima e dopo"
+      },
+      "videoGallery": {
+        "title1": "Video informativi",
+        "title2": "Recensioni dei pazienti",
+        "title3": "Interviste con Dr. Biçer",
+        "links": [
+          "Video informativi",
+          "Recensioni dei pazienti",
+          "Interviste con Dr. Biçer"
+        ],
+        "informativeVideos": [
+          "C'è una migliore tecnica di trapianto di capelli? FUE vs FUT Spiegato dal Dr. Özlem Biçer"
+        ],
+        "patientReviewVideos": [
+          "Recensione paziente - 001",
+          "Recensione paziente - 002",
+          "Recensione paziente - 003",
+          "Recensione paziente - 004",
+          "Recensione paziente - 005",
+          "Recensione paziente - 006",
+          "Recensione paziente - 007",
+          "Recensione paziente - 008",
+          "Recensione paziente - 009",
+          "Recensione paziente - 010",
+          "Recensione paziente - 011",
+          "Recensione paziente - 012",
+          "Recensione paziente - 013",
+          "Recensione paziente - 014",
+          "Recensione paziente - 015",
+          "Recensione paziente - 016",
+          "Recensione paziente - 017",
+          "Recensione paziente - 018",
+          "Recensione paziente - 035"
+        ],
+        "interviewVideos": [
+          "Voglio parlare della riaffermazione dei capelli di successo.",
+          "Dr Özlem Biçer un chirurgo esperto di trapianto di capelli a Istanbul",
+          "La Verità Balda: Ricevi le tue domande Risposte su Perdita di Capelli & Trapianti di Capelli",
+          "Intervista a trapianto di capelli Network",
+          "The Bald Truth – recensione di un paziente",
+          "Recensione di Bellicapelli"
+        ]
+      }
+    },
+    "guides": {
+      "afterHairTransplantation": {
+        "afterHairTransplantationDoesItWork": {
+          "heading1": "Principali cause mediche di perdita di capelli negli uomini",
+          "paragraph1": "L'alopecia androgenetica è una forma geneticamente ereditata di perdita di capelli causata dall'attività di 5-alfa reduttasi tipo I e enzimi di tipo II, che convertono il testosterone in diidrotestosterone (DHT). In individui geneticamente predisposti, DHT si lega a follicoli piliferi sensibili, portando a progressiva miniaturizzazione follicolare e perdita di capelli nel tempo.",
+          "paragraph2": "I segni tipici includono:",
+          "listItem1": "Linea di taglio:",
+          "listItem2": "Spezzando alla corona",
+          "listItem3": "Perdita graduale della densità nel tempo",
+          "paragraph3": "Questa condizione può iniziare poco dopo la pubertà e progredisce con l'età se lasciato non trattato.",
+          "paragraph4": "Alopecia areata è una malattia autoimmune in cui il sistema immunitario del corpo attacca i follicoli piliferi. Causa brusche, tonde macchie di perdita di capelli sul cuoio capelluto o barba.",
+          "listItem4": "Può verificarsi a qualsiasi età",
+          "listItem5": "I capelli possono ricrescere, ma la condizione può ricorsi",
+          "listItem6": "Il trapianto di capelli non è raccomandato durante la fase attiva di questa condizione",
+          "paragraph5": "Sciarlare alopecia si verifica quando i follicoli piliferi sono permanentemente danneggiati e sostituiti da tessuto cicatrice. Questo può derivare da:",
+          "listItem7": "Bruciazioni o trauma",
+          "listItem8": "Cicatrici chirurgiche",
+          "listItem9": "Infezioni",
+          "listItem10": "Alcune malattie infiammatorie della pelle (LPP, FFA, SLE, Acne, Keloides, Nucha, ecc.)",
+          "paragraph6": "Il trapianto di capelli nel tessuto cicatriziale può essere possibile, ma la sopravvivenza dell'innesto può essere inferiore perché il tessuto cicatriziale ha ridotto la circolazione sanguigna. Non abbiamo alcuna possibilità di effettuare il trapianto di capelli al paziente che ha alopecia cicatriziale attiva.",
+          "paragraph7": "Telogen effluvium è una forma temporanea di perdita di capelli che accade quando lo stress, la malattia, o squilibrio ormonale provoca un gran numero di follicoli piliferi per entrare nella fase di riposo.",
+          "paragraph8": "Questo porta a diradamento diffuso attraverso il cuoio capelluto. Una volta che la causa è trattata, i capelli tipicamente ricresce naturalmente.",
+          "paragraph9": "Se si verifica la perdita improvvisa o rapida dei capelli, o notare la formazione di patch calvi, si dovrebbe chiedere consiglio medico. La perdita dei capelli può a volte essere associata a condizioni mediche o autoimmuni sottostanti che richiedono una corretta diagnosi e trattamento.",
+          "paragraph10": "Per ricevere una valutazione precisa della vostra fase di perdita dei capelli e opzioni di trattamento, è possibile consultare il Dr. Özlem Biçer e il suo team medico esperto. Una diagnosi professionale assicura che la terapia più adatta o l'approccio ricostruttivo sia selezionato per il vostro caso individuale.",
+          "titleLines1": [
+            "A) Alopecia",
+            "androgenetica"
+          ],
+          "titleLines2": [
+            "B) Alopecia",
+            "areata"
+          ],
+          "titleLines3": [
+            "C) Alopecia",
+            "cicatriziale"
+          ],
+          "titleLines4": [
+            "D) Effluvio",
+            "telogen"
+          ],
+          "titleLines5": [
+            "Perdita di capelli",
+            "improvvisa"
+          ],
+          "titleLines6": [
+            "Valutazione professionale",
+            "della perdita di capelli"
+          ]
+        },
+        "afterHairTransplantationHero": {
+          "heading1": "Guida",
+          "span1": "Dopo Trapianto di capelli",
+          "paragraph1": "Come clinica diamo importanza per post operazione pre e post seguire è una della parte più importante del trapianto di capelli. L'intervento chirurgico è solo una sola parte del processo di trapianto di capelli e dopo il processo utilizzando farmaci giusti e fornendo buona cura per il destinatario e donatore sono un'altra parte importante del processo. Durante questo periodo è importante per noi andare avanti con i nostri pazienti e fornire uno a uno seguire è parte molto curata della nostra clinica. Attraverso la nostra pollicy siamo conformi agli anni con oltre 250 pazienti soddisfatti per 28 anni."
+        },
+        "alt1": "Passo 1",
+        "alt2": "Passo 2",
+        "alt3": "Passo 3",
+        "alt4": "Passo 4",
+        "alt5": "Passo 5",
+        "title1": "Quanto costa",
+        "title2": "La perdita di capelli è normale?",
+        "value1": "È completamente normale perdere alcuni capelli ogni giorno come parte del ciclo naturale di crescita dei capelli.",
+        "value2": "Una persona sana può perdere fino a 100 capelli al giorno, e questo capelli è normalmente sostituito da una nuova crescita.",
+        "value3": "Se si nota persistente e maggiore spargimento o diradamento visibile, si consiglia di consultare uno specialista qualificato per il restauro dei capelli per la valutazione.",
+        "links": [
+          "Prima di Trapianto di capelli",
+          "Dopo Trapianto di capelli",
+          "Tecnologia e Trapianto di capelli",
+          "Complicazioni della chirurgia dei capelli",
+          "Domande frequenti"
+        ]
+      },
+      "beforeHairTransplantation": {
+        "beforeHairTransplantationDoesItWork": {
+          "paragraph1": "Prima dell'intervento chirurgico, ogni paziente deve subire una valutazione medica dettagliata, tra cui:",
+          "listItem1": "Recensione della storia medica",
+          "listItem2": "Valutazione del tipo e della fase di perdita dei capelli",
+          "listItem3": "Valutazione della capacità del donatore",
+          "listItem4": "esame tricoscopico, se richiesto",
+          "listItem5": "Test di sangue (come richiesto dalla clinica)",
+          "paragraph2": "Si prega di informare il medico se avete:",
+          "listItem6": "Malattie croniche (diabeti, malattie cardiache, disturbi autoimmuni)",
+          "listItem7": "Disturbi sanguinanti",
+          "listItem8": "Allergie",
+          "listItem9": "Storia della guarigione delle ferite",
+          "listItem10": "Procedure di trapianto di capelli precedenti",
+          "paragraph3": "Accurate informazioni mediche è fondamentale per la vostra sicurezza.",
+          "paragraph4": "Farmaci da fermare (se approvato dal vostro medico)",
+          "listItem11": "Aspirina e diluenti del sangue: fermare almeno 7-10 giorni prima dell'intervento chirurgico",
+          "listItem12": "Farmaci anti-infiammatori (NSAIDs): stop 5-7 giorni prima",
+          "listItem13": "Vitamina E, Omega-3, ginkgo biloba, ginseng, integratori di aglio: fermarsi 7 giorni prima",
+          "listItem14": "Integratori a base di erbe: stop 7–10 giorni prima",
+          "listItem15": "⚠️ Non interrompere i farmaci prescritti senza approvazione medica.",
+          "listItem16": "Il fumo deve essere fermato almeno 7 giorni prima dell'intervento chirurgico (di solito 2-4 settimane per i migliori risultati)",
+          "listItem17": "L'alcol deve essere evitato per almeno 3 giorni prima dell'intervento chirurgico",
+          "paragraph5": "Il fumo e l'alcol riducono significativamente la circolazione sanguigna, aumentano il rischio di sanguinamento, e influiscono negativamente sulla sopravvivenza dell'innesto.",
+          "listItem18": "Lavare i capelli la notte prima o la mattina della chirurgia utilizzando uno shampoo delicato",
+          "paragraph6": "Non applicare:",
+          "listItem19": "Gel per capelli",
+          "listItem20": "Wax",
+          "listItem21": "Spray",
+          "listItem22": "Oli o lozioni",
+          "listItem23": "Non tingere i capelli entro 7 giorni prima dell'intervento",
+          "listItem24": "Evitare i trattamenti del cuoio capelluto o il massaggio aggressivo prima dell'intervento chirurgico",
+          "paragraph7": "Se si sta subendo un trapianto di capelli non condiviso o lungo, seguire le istruzioni specifiche della clinica.",
+          "listItem25": "Mangiare un pasto leggero ma nutriente la mattina della chirurgia",
+          "listItem26": "Evitare cibi pesanti, grassi o piccanti",
+          "listItem27": "Bere acqua sufficiente, ma evitare caffeina eccessiva",
+          "listItem28": "Non venire digiuno se non specificamente istruito",
+          "listItem29": "L'idratazione corretta aiuta a mantenere la pressione sanguigna stabile e la circolazione durante la procedura.",
+          "listItem30": "Indossare vestiti comodi e sciolti",
+          "listItem31": "Scegliere il tasto-down o zip-up top (evitare indumenti che devono essere tirato sopra la testa)",
+          "listItem32": "Non portare oggetti di valore alla clinica",
+          "paragraph8": "Rimuovi:",
+          "listItem33": "Gioielli",
+          "listItem34": "Piercings",
+          "listItem35": "Lenti a contatto (se consigliato)",
+          "listItem36": "Organizza il tuo viaggio in modo da arrivare almeno un giorno prima dell'intervento chirurgico, se possibile",
+          "paragraph9": "Assicurare l'alloggio ti permette di:",
+          "listItem37": "Dormire comodamente con elevazione della testa",
+          "listItem38": "Riposare per i primi giorni",
+          "listItem39": "Non pianificare i voli lunghi subito dopo l'intervento chirurgico a meno che non approvato",
+          "listItem40": "Ottenere una buona notte di sonno prima della procedura",
+          "listItem41": "Evitare intenso esercizio fisico 48 ore prima della chirurgia",
+          "listItem42": "Ridurre lo stress il più possibile",
+          "listItem43": "Essere ben riposato migliora la guarigione e il comfort generale.",
+          "listItem44": "Arrivo alla clinica in tempo",
+          "listItem45": "Progettazione Hairline e pianificazione finale sarà fatto con il medico",
+          "listItem46": "Riceverai informazioni dettagliate sulle fasi di procedura",
+          "listItem47": "Anestesia locale sarà applicato",
+          "listItem48": "La procedura viene eseguita mentre sei sveglio e confortevole",
+          "listItem49": "Il trapianto di capelli è una procedura medica",
+          "paragraph10": "I risultati dipendono da:",
+          "listItem50": "Genetica",
+          "listItem51": "Progressione della perdita dei capelli",
+          "listItem52": "Capacità del donatore",
+          "listItem53": "Assistenza postoperatoria",
+          "listItem54": "L'aspetto estetico immediato non riflette i risultati finali",
+          "listItem55": "La crescita finale viene valutata dopo 12–15 mesi",
+          "listItem56": "Seguendo rigorosamente le istruzioni preoperative è uno dei fattori più importanti per raggiungere un risultato di successo e naturale.",
+          "titleLines1": [
+            "1. Valutazione medica",
+            "& consulenza"
+          ],
+          "titleLines2": [
+            "2. Farmaci",
+            "& integratori"
+          ],
+          "titleLines3": [
+            "3. Fumo",
+            "& alcol"
+          ],
+          "titleLines4": [
+            "4. Preparazione dei capelli",
+            "& del cuoio capelluto"
+          ],
+          "titleLines5": [
+            "5. Alimentazione",
+            "& idratazione"
+          ],
+          "titleLines6": [
+            "6. Abbigliamento",
+            "& oggetti personali"
+          ],
+          "titleLines7": [
+            "7. Viaggio",
+            "& alloggio"
+          ],
+          "titleLines8": [
+            "8. Sonno",
+            "& stile di vita preoperatorio"
+          ],
+          "titleLines9": [
+            "9. Giorno dell’intervento",
+            "Cosa aspettarsi?"
+          ],
+          "titleLines10": [
+            "10. Note finali",
+            "importanti"
+          ]
+        },
+        "beforeHairTransplantationHero": {
+          "heading1": "Guida",
+          "span1": "Prima di Trapianto di capelli",
+          "paragraph1": "La preparazione corretta prima del trapianto di capelli è essenziale per la sicurezza del paziente, la sopravvivenza dell'innesto e i risultati ottimali. Si prega di leggere e seguire attentamente le istruzioni qui sotto."
+        },
+        "alt1": "Passo 1",
+        "alt2": "Passo 2",
+        "alt3": "Passo 3",
+        "alt4": "Passo 4",
+        "alt5": "Passo 5",
+        "links": [
+          "Prima di Trapianto di capelli",
+          "Dopo Trapianto di capelli",
+          "Tecnologia e Trapianto di capelli",
+          "Complicazioni della chirurgia dei capelli",
+          "Domande frequenti"
+        ]
+      }
+    },
+    "hairLoss": {
+      "cousesOfHairLoss": {
+        "femaleHairLoss": {
+          "femaleContent": {
+            "heading1": "GRAVIDANZA",
+            "paragraph1": "La gravidanza è una delle più grandi situazioni stressanti che una donna può infliggere sul vostro corpo. Durante questo periodo, i livelli di ormone sono completamente diversi dai tempi normali e causano molti cambiamenti nel corpo – e i capelli non guadagnano l'immunità da questo effetto.",
+            "paragraph2": "Durante la gravidanza, c'è un aumento del livello degli estrogeni ormonali. L’estrogeno causa che i capelli rimangano nella fase di crescita del ciclo di crescita dei capelli, così come stimolando i capelli a crescere se non è già. Mentre sei incinta, dovresti aspettarti di avere una testa piena e lussureggiante di capelli.",
+            "paragraph3": "Durante la gravidanza, il livello di ormoni estrogeni è aumentato. Quando sei incinta, estrogeni funziona mantenendo i capelli nella fase di estensione del ciclo di crescita dei capelli e promuovendo la crescita dei capelli quando non è già a quel livello. Ti aspetti che i tuoi capelli sembrino voluminosi e attraenti anche durante la gravidanza.",
+            "paragraph4": "Ma le cose cambiano dopo la nascita. Quando i vostri ormoni ritornano alla normalità, il vostro corpo sarà in shock e si verificherà una grave perdita di capelli.",
+            "paragraph5": "Ciò significa che tutti gli estrogeni che hanno impedito la perdita di capelli scompare e in quel caso la perdita di capelli inizia. Questo può essere sfortunato perché il 60% dei capelli può andare in dormienza allo stesso tempo e troppo capelli possono improvvisamente cadere, ma i capelli ricresceranno di nuovo. La perdita di capelli causata dalla gravidanza è una forma speciale di effluvium telogeno.",
+            "heading2": "SINDROME DELL’OVAIO POLICISTICO",
+            "paragraph6": "Sindrome ovario policistico – o PKOS – particolarmente efficace sul vostro equilibrio ormonale – provoca squilibri ormonali in quanto è un disturbo ormonale. Le donne con PKOS hanno alti livelli di androgeni, testosterone e diidrotestosterone (DHT). La perdita di capelli causata da DHT è comune nelle donne con PKOS.",
+            "paragraph7": "Quando alti livelli di androgeni – specificamente DHT – sono sui follicoli piliferi, iniziano a influenzare i capelli, causando la perdita di capelli. DHT può intasare il follicolo dei capelli e prevenire la formazione di nuovi capelli. Questa è essenzialmente un'altra forma di alopecia androgenetica.",
+            "heading3": "MENOPAUSA",
+            "paragraph8": "Menopausa ha una miriade di effetti sul vostro corpo e capelli, con conseguente diminuzione dei livelli di estrogeni. Oltre a lampi caldi, aspettarsi sbalzi d'umore e aumenti improvvisi di capelli facciali – hairline retraction e aumentare la perdita di capelli. Questo è dovuto a livelli ridotti di estrogeni. Dal momento che l'estrogeno mantiene i capelli nella sua fase di crescita, bassi livelli causano che i capelli per accorciare il suo ciclo di crescita e gocce di capelli cadere fuori prima che raggiungano la lunghezza raggiungibile.",
+            "heading4": "ANEMIA",
+            "paragraph9": "L'anemia è un disturbo del sangue causato dalla carenza di ferro. Il ferro è un nutriente incredibilmente importante per i vostri capelli. L'anemia è in genere causata da una mancanza di cibo ricco di ferro nella vostra dieta o quando le cellule non assorbono il ferro correttamente. Se avete notato che avete capelli diradamento, può essere la pena di parlare al medico prima di vedere se siete anemici a qualsiasi grado. I livelli di ferro possono essere corretti attraverso una qualche forma di supplemento di ferro e cambiamento alimentare.",
+            "paragraph10": "Il ferro è importante per i capelli perché contiene la ferritina, un ferro immagazzinato che aiuta a produrre proteine delle cellule di capelli. I giusti livelli di ferritina massimizzeranno anche la fase analogena (crescita) dei vostri capelli e incoraggeranno la crescita dei capelli alla lunghezza corretta.",
+            "heading5": "Altre cause della perdita dei capelli",
+            "paragraph11": "Per saperne di più sul tipo di perdita di capelli si può sperimentare e le soluzioni a vostra disposizione, prenotare una consultazione per una valutazione dettagliata.",
+            "heading6": "Qual è la Scala di Ludwig",
+            "paragraph12": "Modello di calvizie modello femminile",
+            "paragraph13": "I medici usano la classificazione di Ludwig per descrivere la perdita di capelli nelle donne. Tipo I è una diluizione minima che può essere mimetizzata utilizzando tecniche di styling dei capelli. Il tipo II è caratterizzato da un volume più piccolo e da una diffusione significativa della parte intermedia. Il tipo III descrive un diradamento diffuso con un aspetto trasparente sulla parte superiore del cuoio capelluto.",
+            "heading7": "Consigli per aiutare le donne Spot i primi segni",
+            "paragraph14": "Capelli cade più del solito per più di due mesi – forse quando lava, spazzola, o su cuscini e vestiti. E 'normale perdere fino a 100 capelli al giorno, quindi se si lascia più giorni tra lavaggi di capelli di quanto si fa normalmente, la quantità di perdita di capelli si vede sarà più evidente.",
+            "paragraph15": "Una coda di cavallo.",
+            "paragraph16": "Il cuoio capelluto diventa più visibile o i capelli hanno meno volume che prima.",
+            "paragraph17": "I capelli non crescono fino a quando lo usava.",
+            "paragraph18": "Le estremità sono più sottili del solito, ma non si rompe. Molti nuovi capelli possono anche crescere dal cuoio capelluto in lunghezze variabili.",
+            "paragraph19": "I vostri capelli gradualmente diventeranno più sottili nella parte anteriore, corona, o aree del tempio del vostro cuoio capelluto.",
+            "paragraph20": "Eccessiva crescita dei capelli su altre parti del corpo, come il viso, il torace o le braccia.",
+            "heading8": "Trapianto di capelli nelle donne",
+            "paragraph21": "Perdita di capelli e calvizie sono problemi che le donne soffrono anche. Il trapianto di capelli è una delle possibili soluzioni per questi problemi. Tuttavia, il trapianto di capelli non sarebbe la prima soluzione per le donne. Perché la causa della perdita di capelli nelle donne non sarebbe alopecia androgenetica che è la causa principale della calvizie negli uomini, ma avrebbe squilibri ormonali e dietetici o malattie autoimmuni. Il calvo causato da cambiamenti ormonali, d'altra parte, è più comune dell'alopecia androgenetica. Per questo motivo, prima di pianificare la chirurgia del trapianto di capelli, un'analisi deve essere eseguita per vedere i valori degli ormoni che influenzano i capelli e il cuoio capelluto. Se una causa ormonale non viene osservata e il risultato dell'analisi indica alopecia androgenetica. Il paziente è adatto per l'intervento chirurgico di trapianto di capelli. A questo punto il fattore più importante da prestare attenzione è il metodo di trapianto di capelli eseguito sulle donne. Il metodo più usato e preferito dalle donne è il trapianto di capelli senza rasatura. In questo metodo ci sono tre opzioni offerte al paziente; trapianto di capelli con rasatura parziale, FUT o FUE senza rasatura. Ciascuno di questi metodi ha svantaggi e vantaggi. Per esempio nel metodo FUT il numero di innesti estratti è più limitato rispetto a FUE. Nel trapianto di capelli con rasatura parziale, il paziente deve aspettare che i capelli rasati ricrescere per raggiungere la lunghezza dei capelli non rasati. Questo periodo sarebbe sgradevole. Anche se il trapianto di capelli non rasato è un metodo più preferito per le donne, è una procedura più costosa e avrebbe un rischio di infezione. In tutti i tipi di operazioni, il medico deve ridurre al minimo i rischi e le complicazioni.",
+            "alt1": "Donna con perdita di capelli",
+            "alt2": "Scala Ludwig per la perdita di capelli femminile",
+            "alt3": "Donna con perdita di capelli"
+          },
+          "femaleHairLossHero": {
+            "heading1": "Femmina",
+            "span1": "Perdita di capelli",
+            "paragraph1": "Circa un terzo delle donne sperimenterà la perdita di capelli (alopecia) ad un certo punto della loro vita; Dopo la menopausa, due terzi delle donne sperimentano l'assottigliamento dei capelli o macchie calve sulla testa. A differenza degli uomini, la perdita di capelli è molto efficace nelle donne perché è meno socialmente accettabile per le donne. Alopecia può seriamente influenzare la salute emotiva di una donna e la qualità della vita.",
+            "paragraph2": "Alla clinica del Dottore Özlem Biçer, comprendiamo quanto l'autostima di una donna è causata dalla perdita di capelli. Ma prima di iniziare il viaggio di riconquistare fiducia in se stessi, è importante determinare quale tipo di perdita di capelli si sta affrontando. Dopo aver determinato la natura della vostra esposizione, il medico inizierà a considerare il trattamento e, in alcuni casi, considerando di avere un trapianto di capelli. Al fine di proteggere la salute emotiva del paziente, il trapianto di capelli eseguito dal medico Özlem Biçer viene eseguito senza una rasatura a testa piena. È quindi incomprensibile che abbiate avuto un trapianto di capelli.",
+            "paragraph3": "Ci sono generalmente tre tipi di perdita di capelli nelle donne. Questi sono raggruppati nelle seguenti tre categorie – alopecia androgenetica, effluvium telogeno e perdita di capelli anormale. L'alopecia androgenetica è la causa principale della perdita di capelli nelle donne e in questo caso, la perdita di capelli nelle donne è meno prevedibile che negli uomini. Telogen effluvium può essere innescato da consumo di droga, dieta e stress. Poi ci sono gli altri rari tipi di perdita di capelli che cadono nella categoria di perdita di capelli non normale.",
+            "paragraph4": "Le cause della perdita di capelli nelle donne",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Risultati dei pazienti",
+          "links": [
+            "Perdita di capelli maschili",
+            "Perdita di capelli femminile"
+          ]
+        },
+        "maleHairLoss": {
+          "maleHairDoesItWork": {
+            "heading1": "Principali cause mediche di perdita di capelli negli uomini",
+            "paragraph1": "L'alopecia androgenetica è una forma geneticamente ereditata di perdita di capelli causata dall'attività di 5-alfa reduttasi tipo I e enzimi di tipo II, che convertono il testosterone in diidrotestosterone (DHT). In individui geneticamente predisposti, DHT si lega a follicoli piliferi sensibili, portando a progressiva miniaturizzazione follicolare e perdita di capelli nel tempo.",
+            "paragraph2": "I segni tipici includono:",
+            "listItem1": "Ricreazione dei capelli",
+            "listItem2": "Spezzando alla corona",
+            "listItem3": "Perdita graduale della densità nel tempo",
+            "paragraph3": "Questa condizione può iniziare poco dopo la pubertà e progredisce con l'età se lasciato non trattato.",
+            "paragraph4": "Alopecia areata è una malattia autoimmune in cui il sistema immunitario del corpo attacca i follicoli piliferi. Causa brusche, tonde macchie di perdita di capelli sul cuoio capelluto o barba.",
+            "listItem4": "Può verificarsi a qualsiasi età",
+            "listItem5": "I capelli possono ricrescere, ma la condizione può ricorsi",
+            "listItem6": "Il trapianto di capelli non è raccomandato durante la fase attiva di questa condizione",
+            "paragraph5": "Sciarlare alopecia si verifica quando i follicoli piliferi sono permanentemente danneggiati e sostituiti da tessuto cicatrice. Questo può derivare da:",
+            "listItem7": "Bruciazioni o trauma",
+            "listItem8": "Cicatrici chirurgiche",
+            "listItem9": "Infezioni",
+            "listItem10": "Alcune malattie infiammatorie della pelle (LPP, FFA, SLE, Acne, Keloides, Nucha, ecc.)",
+            "paragraph6": "Il trapianto di capelli nel tessuto cicatriziale può essere possibile, ma la sopravvivenza dell'innesto può essere inferiore perché il tessuto cicatriziale ha ridotto la circolazione sanguigna. Non abbiamo alcuna possibilità di effettuare il trapianto di capelli al paziente che ha alopecia cicatriziale attiva.",
+            "paragraph7": "Telogen effluvium è una forma temporanea di perdita di capelli che accade quando lo stress, la malattia, o squilibrio ormonale provoca un gran numero di follicoli piliferi per entrare nella fase di riposo.",
+            "paragraph8": "Questo porta a diradamento diffuso attraverso il cuoio capelluto. Una volta che la causa è trattata, i capelli tipicamente ricresce naturalmente.",
+            "paragraph9": "Se si verifica la perdita improvvisa o rapida dei capelli, o notare la formazione di patch calvi, si dovrebbe chiedere consiglio medico. La perdita dei capelli può a volte essere associata a condizioni mediche o autoimmuni sottostanti che richiedono una corretta diagnosi e trattamento.",
+            "paragraph10": "Per ricevere una valutazione precisa della vostra fase di perdita dei capelli e opzioni di trattamento, è possibile consultare il Dr. Özlem Biçer e il suo team medico esperto. Una diagnosi professionale assicura che la terapia più adatta o l'approccio ricostruttivo sia selezionato per il vostro caso individuale.",
+            "titleLines1": [
+              "A) Alopecia",
+              "androgenetica"
+            ],
+            "titleLines2": [
+              "B) Alopecia",
+              "areata"
+            ],
+            "titleLines3": [
+              "C) Alopecia",
+              "cicatriziale"
+            ],
+            "titleLines4": [
+              "D) Effluvio",
+              "telogen"
+            ],
+            "titleLines5": [
+              "Perdita di capelli",
+              "improvvisa"
+            ],
+            "titleLines6": [
+              "Valutazione professionale",
+              "della perdita di capelli"
+            ]
+          },
+          "maleHairLossHero": {
+            "heading1": "Maschio",
+            "span1": "Perdita di capelli",
+            "paragraph1": "La perdita di capelli negli uomini è una condizione molto comune e può avere molte cause diverse. Prima di iniziare qualsiasi trattamento, è essenziale determinare il motivo sottostante per la perdita dei capelli in modo che la soluzione più appropriata ed efficace possa essere scelta.",
+            "paragraph2": "Ad esempio, se un paziente ha un disturbo ormonale come l'ipertiroidismo, questa condizione medica deve essere trattata prima. In altri casi, le carenze vitaminiche o minerali possono contribuire alla perdita di capelli e possono essere gestiti con una corretta integrazione.",
+            "paragraph3": "Ci sono diversi trattamenti medici e di supporto per la perdita di capelli maschile, tra cui:",
+            "listItem1": "PRP (plasma ricco di piastrine) terapia",
+            "listItem2": "Mesoterapia",
+            "listItem3": "Farmaci come minoxidil topico o finasteride orale",
+            "listItem4": "Supporto nutrizionale e ormonale",
+            "listItem5": "Terapie di cellule staminali",
+            "listItem6": "Esotico",
+            "paragraph4": "Tuttavia, è importante capire che:",
+            "paragraph5": "Il trapianto di capelli non si ferma o cura la perdita di capelli. Si tratta di una procedura ricostruttiva eseguita solo quando la perdita di capelli si è stabilizzata.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "norwoodScale": {
+            "heading1": "Scala di Norwood",
+            "paragraph1": "Misurazione di calvizie maschile",
+            "paragraph2": "La Scala Norwood è lo strumento più utilizzato per valutare e classificare calvizie maschile, noto anche come alopecia androgenetica. Aiuta sia i medici che i pazienti a capire la gravità e la progressione della perdita di capelli negli uomini.",
+            "paragraph3": "Precedentemente indicato come la scala Hamilton-Norwood, è ora comunemente conosciuto semplicemente come la scala Norwood.",
+            "paragraph4": "Il sistema di classificazione è stato originariamente introdotto dal Dr. James Hamilton negli anni '50. Fu poi affinato e ampliato dal Dr. O’Tar Norwood negli anni '70, che adattava la scala specifica per la valutazione della perdita di capelli maschile.",
+            "paragraph5": "Oggi, rimane il riferimento standard per la diagnosi dello stadio di alopecia androgenetica.",
+            "paragraph6": "La scala Norwood viene utilizzata per determinare quanto sia avanzata la perdita di capelli di un paziente. Fornisce un riferimento visivo e clinico, permettendo sia al medico che al paziente di confrontare la linea di capelli e la corona con fasi standardizzate.",
+            "paragraph7": "La scala classifica la perdita di capelli in sette fasi principali (Tipo I a Tipo VII), che vanno da:",
+            "listItem1": "Minima o nessuna perdita di capelli a grave perdita di capelli che colpisce l'intera parte superiore del cuoio capelluto",
+            "paragraph8": "Si raccomanda una valutazione dello specchio o professionale per confrontare con precisione i capelli alla scala.",
+            "alt1": "Scala Norwood per la perdita di capelli maschile",
+            "titleLines1": [
+              "Cos’è la",
+              "scala Norwood?"
+            ],
+            "titleLines2": [
+              "Chi ha sviluppato",
+              "la scala Norwood?"
+            ],
+            "titleLines3": [
+              "Come viene usata",
+              "la scala Norwood?"
+            ]
+          },
+          "title1": "Quanto costa",
+          "title2": "La perdita di capelli è normale?",
+          "value1": "È completamente normale perdere alcuni capelli ogni giorno come parte del ciclo naturale di crescita dei capelli.",
+          "value2": "Una persona sana può perdere fino a 100 capelli al giorno, e questo capelli è normalmente sostituito da una nuova crescita.",
+          "value3": "Se si nota persistente e maggiore spargimento o diradamento visibile, si consiglia di consultare uno specialista qualificato per il restauro dei capelli per la valutazione.",
+          "title3": "Risultati dei pazienti",
+          "links": [
+            "Perdita di capelli maschili",
+            "Perdita di capelli femminile"
+          ]
+        }
+      },
+      "treatmentsOfHairLoss": {
+        "hairMesotherapy": {
+          "hairMesotherapyDoesItWork": {
+            "paragraph1": "I risultati durano, tuttavia consigliamo trattamenti di manutenzione regolari.",
+            "paragraph2": "La mesoterapia capillare ferma la perdita di capelli. La qualità dei capelli migliorerà drammaticamente.",
+            "heading1": "Perché scegliere la mesoterapia capillare?",
+            "paragraph3": "Dà risultati progressivi ed è molto efficace È sicuro, senza effetti collaterali. Richiede poco o nessun tempo di recupero post-trattamento (il rossore causato da micro iniezioni può durare fino a un giorno).",
+            "titleLines1": [
+              "I risultati",
+              "durano nel tempo?"
+            ],
+            "titleLines2": [
+              "Quali sono i risultati",
+              "della mesoterapia capillare?"
+            ]
+          },
+          "hairMesotherapyHero": {
+            "heading1": "Capelli",
+            "span1": "Mesoterapia",
+            "paragraph1": "La mesoterapia è una tecnica in cui le quantità microscopiche di farmaci, vitamine, minerali e aminoacidi (Vasodilator e DHT Blockers) vengono somministrate agli strati superiori e medi della pelle del cuoio capelluto per trattare la perdita dei capelli e aumentare la qualità dei capelli esistenti stimolando la rigenerazione dei capelli.",
+            "paragraph2": "Questo metodo ha ottenuto un riconoscimento speciale nel campo della medicina estetica in quanto è una delle tecniche non chirurgiche più efficaci per il trattamento del cuoio capelluto. Infatti, nessuna crema o siero puÃ2 fornire i principi attivi biologici nelle cellule del cuoio capelluto e attivare il metabolismo dei capelli in modo efficace come mesoterapia.",
+            "paragraph3": "La tecnica delle microiniezioni con mesoterapia Questa tecnica consiste nell'amministrazione di un cocktail di mesoterapia per mezzo di microiniezioni intradermiche, mettendo i nutrienti direttamente nei tessuti dermici.",
+            "paragraph4": "L'ago crea anche micro perforazioni che inducono i tessuti coinvolti in un processo di guarigione, che stimola il cuoio capelluto a produrre collagene ed elastin, due dei principali blocchi di costruzione della pelle.",
+            "paragraph5": "La procedura richiede circa 10 sessioni di 15 minuti ciascuno per raggiungere gli effetti desiderati. Quali sono i tempi di recupero dopo il trattamento? Il trattamento non richiede alcun tempo di recupero.",
+            "paragraph6": "La maggior parte delle persone che subiscono questo trattamento infatti ritorna immediatamente alle loro normali attività dopo la procedura senza effetti collaterali.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Risultati dei pazienti",
+          "links": [
+            "Mesoterapia dei capelli",
+            "Trattamento dei capelli PRP",
+            "Trattamento delle cellule staminali",
+            "Trattamento Trichopat"
+          ]
+        },
+        "prpHair": {
+          "prpHairDoesItWork": {
+            "alt1": "Trapianto di capelli FUE",
+            "benefits": {
+              "title": [
+                "Benefici di",
+                "PRP Terapia"
+              ],
+              "content": [
+                {
+                  "type": "paragrafo",
+                  "value": "Ci sono innumerevoli motivi per cui un numero crescente di persone sta optando per la terapia PRP e perché i medici stanno anche suggerendo la stessa cosa. Questi sono:"
+                },
+                {
+                  "type": "elenco",
+                  "value": [
+                    "Il siero che viene iniettato nel cuoio capelluto è fatto utilizzando il proprio sangue, ed è per questo che non avete davvero nulla da temere. Dal momento che il proprio sangue viene utilizzato, le probabilità del corpo rifiutando sono minime e questo è anche il motivo per cui le probabilità di successo sono più elevate.",
+                    "Dal momento che il vostro sangue sarà utilizzato, non c'è alcuna possibilità di infezione o allergia, che aumenta esponenzialmente le probabilità di successo.",
+                    "La procedura prevede una serie di iniezioni del cuoio capelluto somministrate secondo il piano di trattamento. L’anestesia locale può essere utilizzata in base alle esigenze del paziente e alla valutazione del medico.",
+                    "Anche se la terapia non può darvi il tipo di risultati che ci si sarebbe aspettato, sicuramente grazie a questa terapia non sperimenterà ulteriore perdita di capelli."
+                  ]
+                }
+              ]
+            },
+            "procedure": {
+              "title": [
+                "Procedura di",
+                "PRP Terapia"
+              ],
+              "content": [
+                {
+                  "type": "paragrafo",
+                  "value": "Quando siete alla ricerca di un metodo efficace per l'aumento dei capelli, un trapianto può essere la soluzione migliore, ma la terapia PRP può certamente essere utile a lungo termine. Le iniezioni possono sostenere la crescita dei capelli e garantire che ci sia una corretta produzione di collagene."
+                },
+                {
+                  "type": "paragrafo",
+                  "value": "La procedura è abbastanza semplice: il sangue viene estratto dal vostro corpo e posto in una centrifuga, in cui il plasma ricco di piastrine è separato dal resto degli elementi. Questo plasma viene quindi trattato con fattori di crescita e pronto per essere iniettato."
+                }
+              ]
+            }
+          },
+          "prpHairHero": {
+            "heading1": "Che cosa è",
+            "span1": "PRP?",
+            "paragraph1": "plasma ricco di piastrine (PRP) è un trattamento non chirurgico, autologo utilizzato per sostenere la salute dei capelli e rallentare la perdita dei capelli, soprattutto nei pazienti che non sono ancora pronti per il trapianto di capelli o che desiderano migliorare i risultati del trattamento. PRP è preparato dal sangue del paziente e contiene un'alta concentrazione di piastrine e fattori di crescita che svolgono un ruolo chiave nella guarigione e nella rigenerazione dei tessuti.",
+            "paragraph2": "La terapia PRP ha dimostrato risultati promettenti in pazienti con perdita precoce o continua dei capelli, dove la diradamento dei capelli è iniziata ma la calvizie completa non è ancora stata sviluppata. Come trattamento standalone di perdita dei capelli, PRP viene tipicamente eseguita una volta al mese per tre sessioni consecutive.",
+            "paragraph3": "Le piastrine contengono importanti componenti intracellulari come granuli alfa, lisomi e glicogeno, che rilasciano i fattori di crescita che stimolano la riparazione cellulare, migliorano l'alimentazione del sangue e supportano l'attività follicolare. Per questo motivo, PRP è anche altamente prezioso durante il trapianto di capelli. Nella Clinica del Dr. Özlem Biçer, PRP è utilizzato come soluzione di supporto per le unità follicolari durante la fase di trasferimento, contribuendo a ridurre al minimo la disidratazione dell'innesto, ridurre il tempo fuori del corpo e aumentare i tassi di sopravvivenza dell'innesto.",
+            "paragraph4": "PRP è un trattamento di supporto sicuro ed efficace quando eseguito sotto supervisione medica ed è spesso combinato con il trapianto di capelli per ottimizzare i risultati di guarigione e a lungo termine.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Risultati dei pazienti",
+          "links": [
+            "Mesoterapia dei capelli",
+            "Trattamento dei capelli PRP",
+            "Trattamento delle cellule staminali",
+            "Trattamento Trichopat"
+          ]
+        },
+        "stampCellTreatment": {
+          "stampCellTreatmentDoesItWork": {
+            "paragraph1": "I trattamenti a base di cellule staminali offrono molteplici benefici biologici sia per i capelli trapiantati che per quelli esistenti:",
+            "listItem1": "Migliora la vascolarizzazione del cuoio capelluto e l'ossigenazione",
+            "listItem2": "Stimola la rigenerazione follicolare e la riparazione",
+            "listItem3": "Prolunga la fase anagen (crescita) dei capelli",
+            "listItem4": "Riduce il taglio dei capelli",
+            "listItem5": "Aumenta lo spessore e la qualità dei capelli",
+            "listItem6": "Supporta la guarigione più veloce dopo il trapianto di capelli",
+            "listItem7": "Migliora la sopravvivenza degli innesti e i risultati del trapianto generale",
+            "listItem8": "Utilizza il proprio materiale biologico del paziente, riducendo al minimo il rischio di allergia",
+            "paragraph2": "La terapia con cellule staminali è considerata un booster biologico, non una sostituzione per il trapianto di capelli in calvizie avanzate.",
+            "paragraph3": "Le cellule staminali rilasciano una vasta gamma di fattori di crescita, citochine, e le molecole di segnalazione che influenzano l'attività dei follicoli piliferi. Quando applicato al cuoio capelluto, queste sostanze bioattive:",
+            "listItem9": "Attivare le cellule staminali follicoli piliferi",
+            "listItem10": "Cellule di papilla dermica",
+            "listItem11": "Aumentare la produzione di collagene e matrice extracellulare",
+            "listItem12": "Migliorare l'alimentazione del sangue intorno ai follicoli piliferi",
+            "listItem13": "Sostenere la riparazione del tessuto e ridurre l'infiammazione",
+            "paragraph4": "Nel trapianto di capelli, la terapia con cellule staminali aiuta a creare un ambiente più sano del cuoio capelluto, che è fondamentale per la crescita dei capelli a lungo termine e la sopravvivenza dell'innesto.",
+            "paragraph5": "La procedura include generalmente i seguenti passaggi:",
+            "listItem14": "Vendemmia",
+            "paragraph6": "Una piccola quantità di tessuto (comune tessuto adiposo o materiale follicolare ricco di cellule staminali) è raccolta in condizioni sterili.",
+            "listItem15": "Trattamento",
+            "paragraph7": "Il campione viene elaborato per isolare le frazioni di cellule staminali o i componenti cellulari rigenerativi.",
+            "listItem16": "Applicazione",
+            "paragraph8": "La soluzione preparata viene applicata o iniettata in aree del cuoio capelluto mirate o utilizzata durante il trapianto di capelli per sostenere innesti e tessuti del destinatario.",
+            "paragraph9": "La procedura è minimamente invasiva e eseguita sotto supervisione medica.",
+            "paragraph10": "La terapia con cellule staminali fornisce supporto biologico a lungo termine, ma i risultati non sono permanenti perché la perdita di capelli è spesso progressiva e geneticamente guidata.",
+            "listItem17": "Il miglioramento iniziale è tipicamente osservato in 3–6 mesi",
+            "listItem18": "I risultati possono durare 12-24 mesi",
+            "paragraph11": "Le sessioni di manutenzione possono essere consigliate in base a:",
+            "listItem19": "Tipo di perdita di capelli",
+            "listItem20": "predisposizione genetica",
+            "listItem21": "Combinazione con trattamenti medici",
+            "paragraph12": "Un piano di follow-up personalizzato è essenziale.",
+            "paragraph13": "La terapia con cellule staminali è più adatta ai pazienti che:",
+            "listItem22": "Avere i capelli presto a moderata diradamento",
+            "listItem23": "Vuoi rallentare la perdita di capelli",
+            "listItem24": "Desideri rafforzare i capelli esistenti",
+            "listItem25": "Stanno pianificando un trapianto di capelli e vogliono ottimizzare i risultati",
+            "listItem26": "Hanno subito il trapianto di capelli e vogliono un ulteriore supporto",
+            "listItem27": "Preferire trattamenti biologici e rigenerativi",
+            "paragraph14": "Non è efficace come soluzione standalone per aree completamente calvizie senza follicoli vivi.",
+            "paragraph15": "Si'. La terapia con cellule staminali è spesso usata:",
+            "listItem28": "Prima dell'intervento chirurgico per migliorare la condizione del cuoio capelluto",
+            "listItem29": "Durante l'intervento chirurgico per sostenere la sopravvivenza dell'innesto",
+            "listItem30": "Dopo l'intervento chirurgico per accelerare la guarigione e migliorare la crescita",
+            "listItem31": "Oltre a PRP o trattamenti medici per effetti sinergici",
+            "paragraph16": "Questo approccio combinato aiuta a raggiungere risultati più naturali, durevoli e di qualità superiore.",
+            "titleLines1": [
+              "Benefici della",
+              "terapia con cellule staminali"
+            ],
+            "titleLines2": [
+              "Come funziona",
+              "la terapia con cellule staminali?"
+            ],
+            "titleLines3": [
+              "Come viene eseguita",
+              "la terapia con cellule staminali?"
+            ],
+            "titleLines4": [
+              "Quanto durano",
+              "i risultati?"
+            ],
+            "titleLines5": [
+              "A chi è adatta",
+              "la terapia con cellule staminali?"
+            ],
+            "titleLines6": [
+              "La terapia con cellule staminali",
+              "può essere abbinata al trapianto di capelli?"
+            ]
+          },
+          "stampCellTreatmentHero": {
+            "heading1": "Che cosa è",
+            "span1": "cellule staminali?",
+            "paragraph1": "La terapia con cellule staminali nel trapianto di capelli è un trattamento rigenerativo e di supporto progettato per migliorare la salute del cuoio capelluto, rafforzare i follicoli piliferi esistenti e migliorare i risultati delle procedure di ripristino dei capelli. Nella pratica clinica dei capelli, questa terapia non comporta cellule staminali embrionali; invece, utilizza cellule staminali adulte autologo ottenute dai tessuti propri del paziente, più comunemente dal midollo osseo (grasso) o dal midollo osseo, o estratti ricchi di cellule staminali derivati dai follicoli piliferi.",
+            "paragraph2": "L'obiettivo principale della terapia con cellule staminali è quello di stimolare follicoli piliferi dormienti o indeboliti, migliorare il microambiente del cuoio capelluto e sostenere la crescita naturale dei capelli e la sopravvivenza dell'innesto.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Risultati dei pazienti",
+          "links": [
+            "Mesoterapia dei capelli",
+            "Trattamento dei capelli PRP",
+            "Trattamento delle cellule staminali",
+            "Trattamento Trichopat"
+          ]
+        },
+        "trichopatTreatment": {
+          "trichopatTreatmentDoesItWork": {
+            "paragraph1": "TRICOPAT® offre molteplici vantaggi clinicamente dimostrati:",
+            "listItem1": "Riduce il taglio dei capelli",
+            "listItem2": "Aumenta la densità dei capelli e il diametro dell'albero dei capelli",
+            "listItem3": "Migliora la microcircolazione e l'ossigenazione del cuoio capelluto",
+            "listItem4": "Stimola il metabolismo cellulare e la rigenerazione follicolare",
+            "listItem5": "Supporta e prolunga la fase anagena (crescita) dei capelli",
+            "listItem6": "Applicazione senza aghi",
+            "listItem7": "Adatto sia per uomini che per donne",
+            "listItem8": "Può essere usato da solo o come un insieme alla terapia medica o il trapianto di capelli",
+            "paragraph2": "Studi clinici hanno mostrato un miglioramento significativo dopo solo quattro sessioni, con un'eccellente soddisfazione del paziente e senza gravi effetti collaterali segnalati.",
+            "paragraph3": "TRICOPAT® combina diverse tecnologie avanzate in un unico dispositivo:",
+            "span1": "Incisione microdermica controllata (Skin Patting®)",
+            "paragraph4": "Crea microcanali molto superficiali (0,25 mm) che attivano la pelle senza causare cicatrici o traumi ai meccanismi circostanti senza causare cicatrici.",
+            "span2": "Onde di pressione",
+            "paragraph5": "Microcircolo del cuoio capelluto, ossigenazione del tessuto e metabolismo cellulare.",
+            "span3": "Iontophoresis",
+            "paragraph6": "Utilizza una corrente elettrica mite per fornire fattori di crescita preformati in profondità nei follicoli piliferi, aumentando la loro efficacia.",
+            "span4": "Elettrostimolazione e stimolazione foto LED",
+            "paragraph7": "Supporta l'attivazione fibroblasta, il collagene e la sintesi di elastin, e forniscono un effetto antinfiammatorio.",
+            "paragraph8": "Insieme, questi meccanismi permettono la crescita fattori per raggiungere il follicolo in modo efficiente, con conseguente riduzione della perdita di capelli e capelli più forti e più spessi.",
+            "paragraph9": "Il protocollo TRICOPAT® standard consiste in:",
+            "listItem9": "4 sessioni",
+            "listItem10": "Eseguita una volta ogni 3 settimane",
+            "listItem11": "Ogni sessione dura circa 20–25 minuti",
+            "paragraph10": "Questo protocollo ha dimostrato di produrre un miglioramento clinico e tricoscopico visibile sia negli uomini che nelle donne.",
+            "paragraph11": "I risultati TRICOPAT® sono duraturi ma non permanenti, poiché la perdita di capelli è spesso una condizione progressiva.",
+            "paragraph12": "La maggior parte dei pazienti mantiene i loro risultati con:",
+            "listItem12": "Sessioni periodiche di manutenzione, o",
+            "listItem13": "Combinazione con trattamenti medici (come terapie topice o orali)",
+            "paragraph13": "Il medico designerà un piano di manutenzione personalizzato in base alla vostra diagnosi e ciclo di perdita di capelli.",
+            "paragraph14": "TRICOPAT® è particolarmente indicato per i pazienti che:",
+            "listItem14": "Sono nelle fasi iniziali o moderate di perdita di capelli",
+            "listItem15": "Esperienza telogen effluvium",
+            "listItem16": "Avere alopecia androgenetica (maschio o femmina)",
+            "listItem17": "Vuoi un trattamento non invasivo e senza iniezione",
+            "listItem18": "Desideri migliorare i risultati della terapia medica o del trapianto di capelli",
+            "paragraph15": "Una valutazione medica e tricoscopica dettagliata è essenziale per determinare la candidatura.",
+            "paragraph16": "Si'. TRICOPAT® può essere utilizzato:",
+            "listItem19": "Prima del trapianto di capelli per migliorare la qualità del cuoio capelluto",
+            "listItem20": "Dopo il trapianto di capelli per sostenere la guarigione e la vitalità innesto",
+            "listItem21": "Come terapia di supporto a lungo termine per proteggere i capelli nativi",
+            "titleLines1": [
+              "Quali sono i",
+              "benefici di TRICOPAT®?"
+            ],
+            "titleLines2": [
+              "Come funziona",
+              "TRICOPAT®?"
+            ],
+            "titleLines3": [
+              "Quante",
+              "sedute sono necessarie?"
+            ],
+            "titleLines4": [
+              "Quanto durano",
+              "i risultati?"
+            ],
+            "titleLines5": [
+              "A chi è adatto",
+              "TRICOPAT®?"
+            ],
+            "titleLines6": [
+              "TRICOPAT® può essere abbinato",
+              "al trapianto di capelli?"
+            ]
+          },
+          "trichopatTreatmentHero": {
+            "heading1": "Che cosa è",
+            "span1": "Tricopat?",
+            "paragraph1": "TRICOPAT® è un dispositivo medico brevettato e non invasivo sviluppato in Italia per il trattamento della perdita di capelli e disturbi del cuoio capelluto. È convalidato scientificamente sia per i pazienti maschi che per le donne ed è utilizzato in condizioni come l'alopecia androgenetica e l'efluvium telogeno. La tecnologia si basa sul protocollo TRICOGENESI®, che fornisce fattori di crescita nel cuoio capelluto senza iniezioni o interventi chirurgici, rendendolo un comodo trattamento alternativo o di supporto alla terapia medica e al trapianto di capelli.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Risultati dei pazienti",
+          "links": [
+            "Mesoterapia dei capelli",
+            "Trattamento dei capelli PRP",
+            "Trattamento delle cellule staminali",
+            "Trattamento Trichopat"
+          ]
+        }
+      }
+    },
+    "header": {
+      "headerLogo": {
+        "alt1": "logo ozlembicer"
+      },
+      "span1": "info@ozlembicer.com",
+      "span2": "info@ozlembicer.com"
+    },
+    "transplantation": {
+      "beardTransplantation": {
+        "beardHero": {
+          "heading1": "Trapianto di",
+          "span1": "barba",
+          "heading2": "Che cos’è",
+          "span2": "il trapianto di barba?",
+          "paragraph1": "Il trapianto di barba è una procedura di restauro di capelli specializzata progettata per migliorare la densità, la forma e la simmetria della barba. Nella nostra clinica, il Dr. Özlem Biçer e la sua esperta squadra medica effettuano trapianti di capelli facciali per gli uomini che desiderano migliorare le aree sottili, corretta crescita irregolare, o ripristinare la perdita di capelli causati da cicatrici o condizioni mediche.",
+          "paragraph2": "Il trapianto di capelli facciali è tecnicamente più esigente del trapianto di capelli del cuoio capelluto e richiede esperienza chirurgica avanzata e pianificazione artistica precisa. La procedura può essere eseguita per ripristinare:",
+          "listItem1": "Densità della barba",
+          "listItem2": "Crescita dei baffi",
+          "listItem3": "Basette",
+          "listItem4": "Cicatrici facciali",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "paragraph1": "La perdita o l’assenza dei peli della barba può dipendere da:",
+        "listItem1": "Fattori genetici",
+        "listItem2": "Ustioni, cicatrici o lesioni cutanee",
+        "listItem3": "Procedure chirurgiche precedenti",
+        "listItem4": "Terapia di radiazione",
+        "listItem5": "Alcune malattie sistemiche",
+        "listItem6": "Tricotillomania (disturbo compulsivo di strapparsi i peli)",
+        "paragraph2": "Una consultazione dettagliata è essenziale per determinare la causa sottostante e l'idoneità per il trattamento.",
+        "paragraph3": "I peli di barba e baffi crescono naturalmente come unità follicolari monopelo, che è fondamentale per ottenere un aspetto naturale.",
+        "paragraph4": "Ogni follicolo deve essere impiantato singolarmente, con una precisa attenzione a:",
+        "listItem7": "Direzione",
+        "listItem8": "Angolo",
+        "listItem9": "Profondità",
+        "listItem10": "Spaziatura",
+        "paragraph5": "Questo approccio meticoloso assicura che la barba trapiantata si fonde perfettamente con i capelli facciali esistenti.",
+        "paragraph6": "Numero approssimativo di innesti",
+        "listItem11": "1.200–1.500 innesti per un pizzetto",
+        "listItem12": "2.500-3.000 innesti per una barba completa",
+        "paragraph7": "Il numero esatto di innesti varia a seconda della struttura del viso, della densità desiderata e dei capelli esistenti.",
+        "paragraph8": "I capelli donatori sono tipicamente raccolti dal cuoio capelluto, come i follicoli piliferi del cuoio capelluto sono geneticamente programmati per crescere a lungo termine anche dopo essere stati trapiantati nella zona della barba.",
+        "paragraph9": "Il trapianto del barba può essere eseguito utilizzando FUE (Follicular Unit Extraction) o FUT (Follicular Unit Transplantation), a seconda della zona del donatore del paziente, requisiti di innesto e piano chirurgico.",
+        "listItem13": "FUE coinvolge l'estrazione individuale di follicoli piliferi utilizzando micro punzoni",
+        "listItem14": "FUT prevede la rimozione di una sottile striscia di cuoio capelluto, seguita dalla preparazione microscopica dell'innesto",
+        "paragraph10": "Dopo l'estrazione, gli innesti vengono accuratamente puliti, raffinati e preparati per l'impianto nell'area della barba.",
+        "paragraph11": "Un trapianto di barba fornisce risultati duraturi e permanenti, come i follicoli piliferi del cuoio capelluto trapiantati continuano a crescere nella loro nuova posizione.",
+        "listItem15": "La guarigione iniziale avviene in pochi giorni",
+        "listItem16": "Nelle prime settimane può verificarsi una caduta temporanea",
+        "listItem17": "La nuova crescita inizia tipicamente dopo 3-4 mesi",
+        "listItem18": "I risultati finali sono di solito valutati dopo 9-12 mesi",
+        "paragraph12": "Un immediato miglioramento visivo può essere evidente dopo la procedura, ma la maturazione completa richiede tempo.",
+        "paragraph13": "Il costo di un trapianto di barba varia a seconda di:",
+        "listItem19": "La dimensione della zona di trattamento",
+        "listItem20": "Il numero di innesti richiesti",
+        "listItem21": "La tecnica utilizzata",
+        "paragraph14": "I prezzi variano generalmente tra 2.500 USD e 4.500 USD, ma un costo esatto può essere determinato solo dopo una consultazione personalizzata.",
+        "paragraph15": "Per una valutazione personalizzata, potete contattarci via e-mail o WhatsApp per organizzare una consultazione gratuita con il Dr. Özlem Biçer.",
+        "heading1": "Nota importante per i pazienti",
+        "paragraph16": "Il trapianto di barba è una procedura medica e i risultati variano a seconda della capacità di guarigione individuale, delle caratteristiche dei capelli e della pianificazione chirurgica. Una consultazione approfondita è essenziale per fissare aspettative realistiche e raggiungere il miglior risultato possibile.",
+        "title1": "Chi è un candidato per",
+        "title2": "trapianto di barba?",
+        "value1": "Quasi la metà di tutti gli uomini sperimentano una crescita irregolare o a chiazze barba, spesso a causa di fattori genetici. Il trapianto di barba può essere una soluzione adatta per gli uomini che:",
+        "value2": "Non riescono a far crescere naturalmente una barba folta",
+        "value3": "Presentano aree rade o a chiazze",
+        "value4": "Desideri definire contorni di barba più nitidi",
+        "value5": "Avere cicatrici facciali da lesioni, ustioni, chirurgia o acne",
+        "value6": "Anche la lieve perdita di capelli facciali può beneficiare di un trapianto di barba, a seconda delle aspettative del paziente e della struttura del viso.",
+        "titleLines1": [
+          "Cause della",
+          "perdita di barba"
+        ],
+        "titleLines2": [
+          "Come funziona un",
+          "trapianto di barba?"
+        ],
+        "titleLines3": [
+          "Metodi di",
+          "trapianto di barba"
+        ],
+        "titleLines4": [
+          "Tecniche",
+          "FUE & FUT"
+        ],
+        "titleLines5": [
+          "Risultati &",
+          "durata"
+        ],
+        "titleLines6": [
+          "Costo del",
+          "trapianto di barba"
+        ]
+      },
+      "eyebrownTransplant": {
+        "eyebrownHero": {
+          "heading1": "Sopracciglia",
+          "span1": "Trapianto",
+          "heading2": "Che cosa è",
+          "span2": "Trapianto di sopracciglio?",
+          "paragraph1": "Le sopracciglia giocano un ruolo critico nell'espressione del viso e nell'aspetto generale. La loro forma e la loro densità possono influenzare in modo significativo come il volto è percepito, rendendolo più attraente, più femminile, o ancora più assertivo.",
+          "paragraph2": "Le tendenze della moda influiscono anche sulle preferenze del sopracciglio. In tempi diversi, i pazienti possono preferire sopracciglia sottili, spesse o sagomate. Plucking ripetuti, modellazione, o ceretta durante lunghi periodi possono causare danni alla trazione cronica, portando alla perdita permanente dei capelli del sopracciglio che non possono più ricrescere naturalmente. Quando i pazienti desiderano ripristinare la loro forma e densità del sopracciglio originale, il trapianto di sopracciglio diventa una soluzione efficace.",
+          "paragraph3": "In rari casi, alcuni pazienti possono avere assenza congenita o sopracciglia molto sparse, e il trapianto di sopracciglia è anche un'opzione adatta per questi individui.",
+          "paragraph4": "Per il trapianto di sopracciglia, preferiamo la tecnica lungo dei capelli FUE e usiamo i peli fini raccolti dalla zona di donatore sicura inferiore. Questo approccio ci permette di selezionare capelli più morbidi e sottili e impiantarli con angoli e direzioni precisi, garantendo un risultato naturale ed esteticamente armonioso del sopracciglio.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "paragraph1": "Perdita di capelli sopracciglia o diradamento può essere causato da:",
+        "listItem1": "Fattori genetici",
+        "listItem2": "Trichotillomania (un disturbo compulsivo per capelli)",
+        "listItem3": "Malattie sistemiche o autoimmuni",
+        "listItem4": "Plucking eccessivo o a lungo termine",
+        "listItem5": "Chemioterapia o radioterapia",
+        "listItem6": "Ferite cutanee causate da ustioni, traumi, piercing o tatuaggi",
+        "paragraph2": "Alcuni pazienti cercano il trapianto di sopracciglia per ripristinare le sopracciglia piene e spesse, mentre altri preferiscono il miglioramento sottile o la copertura della cicatrice. Ogni piano di trattamento è individualizzato.",
+        "paragraph3": "I capelli donatori sono tipicamente raccolti dal cuoio capelluto, poiché i follicoli dei capelli del cuoio capelluto sono geneticamente programmati per la crescita per tutta la vita.",
+        "paragraph4": "Una volta trapiantati, i capelli del sopracciglio continueranno a crescere e di solito richiedono la rifilatura approssimativamente una volta al mese, che è normale e previsto.",
+        "paragraph5": "Per ottenere un aspetto naturale:",
+        "listItem7": "I capelli sono impiantati uno per uno",
+        "listItem8": "In alcune aree, i capelli possono essere collocati in una o due file, imitando la crescita naturale del sopracciglio",
+        "listItem9": "Le incisioni estremamente sottili sono utilizzate per consentire un posizionamento preciso",
+        "paragraph6": "Il trapianto di sopracciglia può essere eseguito utilizzando FUE (Follicular Unit Extraction) o FUT (Follicular Unit Transplantation), a seconda delle preferenze del paziente, delle caratteristiche dell'area del donatore e della pianificazione chirurgica.",
+        "listItem10": "FUE coinvolge l'estrazione individuale del follicolo ed è spesso preferita dai pazienti che desiderano evitare una cicatrice lineare",
+        "listItem11": "FUT coinvolge la raccolta di una piccola striscia di donatore ed è più comunemente usato nelle donne, come la cicatrice è facilmente nascosta da capelli più lunghi",
+        "paragraph7": "Tutti gli innesti sono microscopicamente preparati per consentire l'impianto nelle più piccole incisioni possibili.",
+        "paragraph8": "La procedura di trapianto di sopracciglio dura tipicamente da 3 a 5 ore, a seconda del numero di innesti richiesti e della forma e della densità del sopracciglio desiderata.",
+        "paragraph9": "Panoramica passo-passo:",
+        "listItem12": "I follicoli piliferi sani vengono raccolti dalla zona donatrice sul retro del cuoio capelluto",
+        "listItem13": "L'anestesia locale viene somministrata prima della raccolta follicolare e dell'impianto",
+        "listItem14": "I fusti sono accuratamente preparati in ingrandimento",
+        "listItem15": "La forma del sopracciglio desiderata viene disegnata e confermata con il paziente",
+        "listItem16": "I follicoli piliferi sono impiantati con meticolosa attenzione all'angolo, alla direzione e alla profondità",
+        "paragraph10": "Una volta che l'incisione del donatore è chiusa, generalmente guarisce rapidamente e diventa appena evidente entro pochi giorni.",
+        "paragraph11": "Alla clinica Dr. Özlem Biçer:",
+        "paragraph12": "Circa 250 a 750 capelli sono trapiantati per sopracciglio, a seconda di:",
+        "listItem17": "Capelli sopracciglia esistenti",
+        "listItem18": "Pieta' desiderata",
+        "listItem19": "Anatomia facciale",
+        "listItem20": "esigenze di copertura",
+        "paragraph13": "Il numero esatto di innesti è determinato durante la consultazione.",
+        "paragraph14": "Il trapianto di sopracciglia fornisce risultati duraturi e permanenti.",
+        "listItem21": "Rosso lieve e gonfiore di solito si risolvono entro pochi giorni",
+        "listItem22": "I capelli trapiantati possono sciogliersi temporaneamente nelle prime settimane",
+        "listItem23": "La nuova crescita inizia tipicamente dopo 3-4 mesi",
+        "listItem24": "I risultati finali sono di solito visibili entro 9-12 mesi",
+        "paragraph15": "Poiché il trapianto di sopracciglia richiede estrema precisione, l'esperienza del chirurgo svolge un ruolo fondamentale nel raggiungimento dei risultati naturali.",
+        "heading1": "Nota importante per i pazienti",
+        "paragraph16": "Il trapianto di sopracciglia è una procedura altamente specializzata, e i risultati possono variare a seconda della capacità di guarigione individuale, delle caratteristiche dei capelli e della storia medica. Una consultazione dettagliata è essenziale per garantire aspettative realistiche e risultati ottimali.",
+        "title1": "Perché la gente sceglie",
+        "title2": "Trapianto di sopracciglio?",
+        "value1": "Soluzioni cosmetiche come matite di sopracciglio o polveri forniscono solo un aspetto temporaneo, bidimensionale e richiedono frequenti applicazioni. Non possono replicare completamente la consistenza naturale o la direzione di capelli veri sopracciglia.",
+        "value2": "Il trapianto di sopracciglia offre una soluzione permanente e tridimensionale, permettendo agli uomini e alle donne di ottenere sopracciglia più complete e ben definite che crescono naturalmente.",
+        "titleLines1": [
+          "Cause della",
+          "perdita delle sopracciglia"
+        ],
+        "titleLines2": [
+          "Capelli donatori per il",
+          "trapianto di sopracciglia"
+        ],
+        "titleLines3": [
+          "Tecniche di trapianto sopracciglia",
+          "FUE & FUT"
+        ],
+        "titleLines4": [
+          "Procedura &",
+          "durata"
+        ],
+        "titleLines5": [
+          "Numero di",
+          "innesti utilizzati"
+        ],
+        "titleLines6": [
+          "Risultati",
+          "& durata"
+        ]
+      },
+      "hairTransplant": {
+        "bodyHair": {
+          "howDoesItWorkBodyHair": {
+            "paragraph1": "Trapianto di capelli del corpo è generalmente considerato per i pazienti che:",
+            "listItem1": "Avere una zona debole o insufficiente del donatore del cuoio capelluto",
+            "listItem2": "Hanno avuto più trapianti di capelli precedenti",
+            "listItem3": "Avere alcune forme di alopecia o la perdita di capelli cicatrici",
+            "paragraph2": "Tuttavia, è importante capire che se la qualità dei capelli sia del cuoio capelluto che del donatore del corpo è debole, il risultato finale può essere limitato. I pazienti con capelli donatori insufficienti nel complesso non possono essere candidati adatti per qualsiasi forma di trapianto di capelli.",
+            "paragraph3": "Sia FUE convenzionale che BHT utilizzano la tecnica di estrazione dell'unità follicolare (FUE), il che significa che i follicoli piliferi sono raccolti uno per uno, senza rimuovere una striscia di pelle.",
+            "paragraph4": "Le differenze chiave includono:",
+            "span1": "FUE convenzionale:",
+            "listItem4": "I capelli donatori sono presi esclusivamente dal cuoio capelluto",
+            "listItem5": "Caratteristiche dei capelli strettamente corrispondono ai capelli del cuoio capelluto",
+            "span2": "BHT-FUE:",
+            "listItem6": "I capelli del donatore sono raccolti da aree del corpo come la barba o il torace",
+            "listItem7": "Utilizzato quando i capelli del donatore del cuoio capelluto sono insufficienti",
+            "listItem8": "I capelli del corpo hanno diversi cicli di crescita e consistenza rispetto ai capelli del cuoio capelluto",
+            "paragraph5": "Gli innesti BHT possono crescere a tassi diversi e non possono raggiungere la stessa lunghezza dei capelli del cuoio capelluto, motivo per cui sono spesso utilizzati strategicamente - per esempio, per aumentare la densità piuttosto che creare la linea di capelli.",
+            "paragraph6": "Il trapianto di peli corporei viene solitamente eseguito utilizzando la tecnica FUE, che evita la cicatrice lineare.",
+            "paragraph7": "Il processo comprende:",
+            "listItem9": "Selezione accurata delle aree di donatore del corpo adatte",
+            "listItem10": "Estrazione di unità follicolari utilizzando micro punzoni",
+            "listItem11": "Idratazione corretta e stoccaggio degli innesti",
+            "listItem12": "Impiantazione strategica nel cuoio capelluto per garantire la miscelazione naturale",
+            "paragraph8": "Se tutte le esigenze fisiologiche e mediche sono soddisfatte, i follicoli per capelli del corpo possono essere trasferiti con successo al cuoio capelluto.",
+            "paragraph9": "trapianto di peli corporei richiede alta esperienza chirurgica a causa delle caratteristiche uniche dei capelli corporei.",
+            "paragraph10": "I fattori chiave per il successo includono:",
+            "listItem13": "Esperienza di chirurgia, come i capelli del corpo differiscono significativamente dai capelli del cuoio capelluto",
+            "listItem14": "Competenze di squadra, soprattutto nella gestione di diverse direzioni e texture dei capelli",
+            "listItem15": "Estrazione corretta, stoccaggio e idratazione di innesti di capelli del corpo",
+            "listItem16": "Creazione precisa dei siti destinatari per controllare l'angolo e la direzione",
+            "listItem17": "Tasso di trazione follicolare minimo (FTR) per proteggere la sopravvivenza dell'innesto",
+            "listItem18": "Accurata miscelazione di capelli del corpo con capelli del cuoio capelluto per un aspetto naturale",
+            "paragraph11": "Poiché i capelli del corpo si comportano diversamente dai capelli del cuoio capelluto, BHT dovrebbe sempre essere eseguita in modo conservativo e selettivo.",
+            "paragraph12": "I follicoli piliferi del corpo conservano molte delle loro caratteristiche di crescita originali dopo il trapianto.",
+            "paragraph13": "Questo significa:",
+            "listItem19": "I cicli di crescita possono differire dai capelli del cuoio capelluto",
+            "listItem20": "La lunghezza dei capelli e la consistenza potrebbero non corrispondere completamente ai capelli del cuoio capelluto",
+            "listItem21": "I risultati possono essere permanenti, ma il comportamento di crescita può variare tra i pazienti",
+            "paragraph14": "Per questo motivo, BHT è più efficace se usato come tecnica complementare piuttosto che come soluzione standalone",
+            "titleLines1": [
+              "Chi è idoneo",
+              "alla BHT?"
+            ],
+            "titleLines2": [
+              "Differenze tra",
+              "BHT-FUE e FUE tradizionale"
+            ],
+            "titleLines3": [
+              "Come si esegue il trapianto",
+              "di peli corporei?"
+            ],
+            "titleLines4": [
+              "Considerazioni importanti",
+              "sulla BHT"
+            ],
+            "titleLines5": [
+              "Il trapianto di peli corporei",
+              "è permanente?"
+            ]
+          }
+        },
+        "common": {
+          "howDoesItWork": {
+            "title1": "Video"
+          }
+        },
+        "fueMicroMotor": {
+          "fueDoesItWorkFAQs": {
+            "paragraph1": "L'alopecia androgenetica è una condizione permanente e progressiva, il che significa che la perdita di capelli continua nel tempo. Anche se l'area di donatore sicura è generalmente resistente all'alopecia androgenetica, questa resistenza non può essere garantita per ogni paziente per tutta la vita.",
+            "paragraph2": "In definitiva, i follicoli piliferi trapiantati non possono essere garantiti di rimanere nell’area destinataria per tutta la vita del paziente.",
+            "paragraph3": "FUE prevede la creazione di piccole incisioni sia nelle aree donatori che nei destinatari.",
+            "listItem1": "Le cicatrici di solito non sono evidenti se il paziente usa capelli donatori di lunghezza inferiore a 2 cm.",
+            "listItem2": "I segni Donor-area sono tipicamente nascosti dai capelli circostanti",
+            "listItem3": "Se i capelli sono rasati molto breve, piccole cicatrici a punti possono diventare visibili, che è una caratteristica nota e normale della tecnica FUE",
+            "paragraph4": "Una procedura di trapianto di capelli FUE dura tipicamente tra 4 e 12 ore, a seconda di:",
+            "listItem4": "Il numero di innesti richiesti",
+            "listItem5": "Spessore dei capelli e densità",
+            "listItem6": "Caratteristiche del cuoio capelluto individuale",
+            "paragraph5": "Crescita dei capelli Timeline dopo FUE",
+            "listItem7": "Primo spargimento: 2–6 settimane (normale e temporaneo)",
+            "listItem8": "Nuova crescita dei capelli: circa 3–4 mesi",
+            "listItem9": "Miglioramento notevole: 6–9 mesi",
+            "listItem10": "Risultati finali: dopo 12-18 mesi",
+            "paragraph6": "Non tutti i follicoli trapiantati crescono allo stesso tempo, come alcuni rimangono temporaneamente nella fase di riposo (telogen). I tassi di sopravvivenza complessivi dell'innesto fino al 90-95% sono comunemente riportati in condizioni ottimali.",
+            "paragraph7": "Dopo l'estrazione, i follicoli piliferi vengono accuratamente conservati in contenitori sterili. In alcuni casi, gli innesti possono essere conservati in una soluzione arricchita con il proprio plasma ricco di piastrine (PRP), che può aiutare a sostenere la sopravvivenza degli innesti.",
+            "paragraph8": "Una volta completata la fase di estrazione, i canali microscopici vengono creati nell'area destinataria. Ogni unità follicolare viene poi impiantata singolarmente.",
+            "paragraph9": "L'angolo, la direzione e la profondità di ogni innesto sono accuratamente progettati per abbinare la crescita naturale dei capelli, soprattutto nella zona della linea di capelli, per ottenere un risultato naturale ed esteticamente piacevole.",
+            "paragraph10": "Usiamo una macchina anestesia senza ago. Durante i primi due o tre minuti di anestesia locale, si può sentire disagio lieve e tollerabile. Una volta che l'anestesia ha effetto, la procedura continua sotto anestesia locale con il comfort del paziente monitorato in tutto.",
+            "paragraph11": "Il comfort e la risposta di ciascun paziente all’anestesia sono valutati individualmente durante il trapianto di capelli FUE.",
+            "listItem11": "Un lieve disagio può essere sentito durante i primi minuti di anestesia locale",
+            "listItem12": "L'anestesia locale viene utilizzata durante la procedura",
+            "listItem13": "I pazienti possono sentirsi stanchi di sedersi per diverse ore, ma le pause regolari sono fornite",
+            "paragraph12": "Durante la procedura, i pazienti possono di solito:",
+            "listItem14": "Guarda la TV",
+            "listItem15": "Ascolta la musica",
+            "listItem16": "Rilassati comodamente",
+            "paragraph13": "Dopo l'operazione, la tenuta temporanea o la sensibilità possono verificarsi. Il team di assistenza fornisce istruzioni di assistenza personalizzata e può consigliare farmaci appropriati quando necessario.",
+            "paragraph14": "Tecnica minimamente invasiva",
+            "paragraph15": "Nessuna cicatrice lineare",
+            "paragraph16": "Risultati dall'aspetto naturale",
+            "paragraph17": "Tempo di recupero breve",
+            "paragraph18": "Adatto per uomini e donne",
+            "titleLines1": [
+              "L’alopecia androgenetica è",
+              "permanente?"
+            ],
+            "titleLines2": [
+              "Rimarranno",
+              "cicatrici dopo la FUE?"
+            ],
+            "titleLines3": [
+              "Quanto dura un",
+              "trapianto di capelli FUE?"
+            ],
+            "titleLines4": [
+              "Conservazione degli innesti",
+              "& impianto"
+            ],
+            "titleLines5": [
+              "Anestesia &",
+              "comfort del paziente"
+            ],
+            "titleLines6": [
+              "Perché scegliere",
+              "un trapianto FUE?"
+            ]
+          }
+        },
+        "futHair": {
+          "howDoesItWorkFut": {
+            "paragraph1": "Anche se ci sono ampie informazioni disponibili online sulle tecniche FUT e FUE, molti pazienti non sono pienamente consapevoli di come queste procedure sono effettivamente eseguite.",
+            "paragraph2": "In FUT, una volta che la striscia del donatore viene rimosso, viene dissezionato sotto un microscopio in unità follicolari molto sottili. L'area del donatore viene poi accuratamente suturata, che si traduce in una cicatrice lineare.",
+            "paragraph3": "Il Dr. Özlem Biçer utilizza tecniche di sutura meticolose per garantire che la cicatrice resti il più sottile e discreto possibile.",
+            "paragraph4": "L'obiettivo primario di FUT è quello di trasferire i capelli dalla zona donatrice più stabile alle aree in cui la perdita dei capelli è più pronunciata.",
+            "paragraph5": "Per il comfort del paziente, l'anestesia locale viene somministrata alle aree donatori e destinatari.",
+            "listItem1": "Una lieve sensazione di bruciore può essere avvertita durante i primi 5 minuti",
+            "listItem2": "I pazienti tipicamente sperimentano il disagio minimo durante o dopo l'intervento chirurgico",
+            "paragraph6": "Il chirurgo esegue una precisa incisione orizzontale per rimuovere una striscia di cuoio capelluto contenente follicoli piliferi sani dalla zona del donatore.",
+            "paragraph7": "La corretta selezione dell'area del donatore è essenziale, poiché la crescita dei capelli a lungo termine dipende dalla raccolta dei follicoli dalla zona geneticamente stabile.",
+            "paragraph8": "Per ottenere una cicatrice più fine, il Dr. Özlem Biçer utilizza la tecnica di chiusura tricofita, che consente ai capelli di crescere attraverso la cicatrice e aiuta a renderlo meno visibile.",
+            "paragraph9": "L'area destinataria è una delle fasi più critiche, in quanto determina il risultato estetico finale.",
+            "listItem3": "Incisioni microscopiche vengono create utilizzando lame sottili",
+            "listItem4": "La direzione e l'angolo dei capelli sono accuratamente pianificati",
+            "listItem5": "Le diverse dimensioni della lama sono utilizzate in base alle dimensioni dell'innesto",
+            "paragraph10": "Per ottenere un aspetto naturale, il chirurgo assicura che i capelli trapiantati seguano il modello di crescita naturale del paziente.",
+            "paragraph11": "La striscia raccolta è suddivisa per la prima volta in sezioni sottili chiamate “slivers”. Il tessuto di eccesso viene rimosso da questi slivers, e singole unità follicolari sono accuratamente separati.",
+            "paragraph12": "Ogni innesto è preparato individualmente per garantire un trauma minimo e una sopravvivenza ottimale.",
+            "paragraph13": "Una volta che la striscia viene rimossa, viene posta nella propria plasma ricco di piastrine (PRP).",
+            "paragraph14": "PRP può aiutare a mantenere l'idratazione dell'innesto e la fattibilità durante la preparazione, consentendo anche il tempo per un'attenta chiusura della ferita del donatore.",
+            "paragraph15": "Una volta che i siti destinatari sono preparati, le unità follicolari vengono impiantate nelle incisioni.",
+            "paragraph16": "Al termine della procedura:",
+            "listItem6": "Ogni innesto viene controllato singolarmente",
+            "listItem7": "Le istruzioni per la cura postoperatoria sono spiegate in dettaglio",
+            "listItem8": "I pazienti ricevono una guida post-assistenza stampata",
+            "paragraph17": "Un copricapo o un tappo medico possono essere utilizzati per proteggere l'area trattata.",
+            "paragraph18": "Cicatrice FUT",
+            "paragraph19": "Dopo FUT, una cicatrice lineare rimarrà nella zona del donatore.",
+            "listItem9": "La cicatrice guarisce nel tempo ed è di solito sottile e discreto",
+            "listItem10": "Nella maggior parte dei pazienti, la cicatrice è nascosta una volta che i capelli raggiungono una certa lunghezza",
+            "listItem11": "Se i capelli sono rasati molto breve, la cicatrice può diventare visibile",
+            "paragraph20": "La visibilità della cicatrice dipende in gran parte dalla tecnica chirurgica, dalle caratteristiche del cuoio capelluto e dalla risposta curativa.",
+            "titleLines1": [
+              "FUT",
+              "Trapianto di capelli"
+            ],
+            "titleLines2": [
+              "Anestesia",
+              "locale"
+            ],
+            "titleLines3": [
+              "Tessuto donatore",
+              "(prelievo della striscia)"
+            ],
+            "titleLines4": [
+              "Preparazione",
+              "dell’area ricevente"
+            ],
+            "titleLines5": [
+              "Dissezione degli innesti",
+              "& preparazione"
+            ],
+            "titleLines6": [
+              "Conservazione del",
+              "tessuto donatore"
+            ],
+            "titleLines7": [
+              "Trapianto & completamento",
+              "della procedura"
+            ],
+            "titleLines8": [
+              "Informazioni importanti",
+              "sul trapianto FUT"
+            ]
+          }
+        },
+        "hairTransplantHero": {
+          "heading1": "Capelli",
+          "span1": "Trapianto",
+          "paragraph1": "Alla clinica del Dr. Biçer, tutte le tecniche di restauro dei capelli sono eseguite personalmente dal Dr. Biçer. Questo le permette di valutare oggettivamente ogni paziente e selezionare la tecnica più appropriata basata esclusivamente su esigenze mediche, caratteristiche dei capelli e aspettative a lungo termine.",
+          "paragraph2": "È anche importante capire che il trapianto di capelli non è una cura per la perdita di capelli. È una tecnica mimetica altamente efficace per i pazienti affetti da alopecia, progettata per ripristinare un aspetto naturale e migliorare la fiducia in se stessi.",
+          "paragraph3": "Chirurgia di sostituzione dei capelli può cambiare il vostro aspetto drammaticamente e aumentare la vostra autostima. Tra i metodi disponibili, FUE (Follicular Unit Extraction) è considerata la tecnica meno invasiva e offre il tempo di recupero più breve.",
+          "paragraph4": "La maggior parte delle persone può subire un intervento chirurgico con piccole o senza complicazioni. Tuttavia, non tutti è un candidato adatto per la chirurgia di sostituzione dei capelli. Prima di sottoporsi a qualsiasi procedura, è essenziale discutere le vostre aspettative e sottoporsi a una valutazione medica approfondita dal vostro chirurgo. Per determinare se sei un buon candidato, i seguenti fattori sono attentamente considerati:",
+          "heading2": "CONDIZIONI GENERALI DI SALUTE",
+          "paragraph5": "Sei generalmente in buona salute senza controindicazioni al trattamento? I pazienti con condizioni cardiache, disordini di sanguinamento congenito o di coagulazione, o alcune malattie della pelle come la psoriasi sono di solito consigliati contro l'intervento chirurgico.",
+          "heading3": "TIPO DI PERDITA DEI CAPELLI",
+          "paragraph6": "Il trapianto di capelli può fornire risultati drammatici ma naturali in caso di significativa diradamento o calvizie, a condizione che i capelli donatori sani sono presenti sul retro e sui lati del cuoio capelluto. I pazienti con calvizie maschile (androgenetica alopecia) sono spesso candidati ideali. Per le donne, tuttavia, se la perdita di capelli presenta come diradamento generale diffuso, il trapianto di capelli potrebbe non essere l'opzione più adatta.",
+          "heading4": "ETÀ",
+          "paragraph7": "La perdita di capelli dovrebbe essere relativamente stabilizzata prima dell'intervento chirurgico. I pazienti molto giovani (circa 20 anni) sono spesso consigliati di aspettare e considerare i trattamenti medici prima di subire un trapianto di capelli.",
+          "heading5": "ESIGENZE ESTETICHE",
+          "paragraph8": "Se evitare cicatrici lineari è importante per voi, FUE può essere la tecnica preferita. FUE può anche essere utilizzato per camuffare cicatrici esistenti da interventi chirurgici o lesioni precedenti trapiantando nuovi follicoli in quelle aree.",
+          "ariaLabel1": "Gioca video",
+          "alt1": "Articolo sul trapianto di capelli 1",
+          "alt2": "Articolo sul trapianto di capelli 2",
+          "alt3": "Articolo sul trapianto di capelli 3",
+          "alt4": "Articolo sul trapianto di capelli 4",
+          "title1": "Video trapianto di capelli"
+        },
+        "longHair": {
+          "howDoesItWorkLong": {
+            "paragraph1": "Questa tecnica offre vantaggi significativi per i pazienti che non vogliono che i loro capelli siano rasati, in particolare quelli con una vita sociale o professionale attiva. Trapianto di capelli lunghi permette ai pazienti di sottoporsi alla procedura senza evidenti segni visivi di intervento chirurgico, rendendolo ideale per le persone che preferiscono mantenere il loro trattamento privato durante il periodo di guarigione.",
+            "paragraph2": "E 'anche un'ottima opzione per le pazienti donne che desiderano preservare i loro capelli lunghi e evitare la rasatura, pur beneficiando di una procedura di restauro capelli altamente precisa e naturale.",
+            "paragraph3": "Il trapianto di capelli lungo è una tecnica tecnicamente impegnativa e relativamente nuova, e il suo successo è strettamente legato all'esperienza e alla curva di apprendimento di ogni clinica e squadra chirurgica. Poiché la procedura è più complessa, il numero di innesti che possono essere estratti in una singola sessione è di solito inferiore rispetto al FUE rasato. Per i pazienti che richiedono 3.000 innesti o più, l'intervento chirurgico può essere diviso in più sessioni o giorni.",
+            "paragraph4": "Inoltre, il trapianto di capelli lungo è più richiede tempo e richiede strumenti e competenze specializzati, che rende il costo più alto rispetto alle tecniche rasate convenzionali. La cura postoperatoria può anche essere più impegnativa per il paziente, come la gestione e la pulizia dei capelli lunghi durante la fase di guarigione richiede un'attenzione extra.",
+            "paragraph5": "È importante per i pazienti capire che anche se i capelli lunghi sono trapiantati, questi capelli si scioglieranno entro il primo mese, simile al trapianto di capelli standard. La nuova crescita permanente dei capelli inizia tipicamente circa tre mesi dopo la procedura, seguendo il ciclo naturale di crescita dei capelli.",
+            "listItem1": "Rosso lieve e gonfiore sono comuni per alcuni giorni",
+            "listItem2": "Possono verificarsi perdite temporanee di capelli trapiantati",
+            "listItem3": "La crescita dei capelli inizia tipicamente dopo 3–4 mesi",
+            "listItem4": "I risultati finali sono di solito valutati dopo 12 mesi",
+            "paragraph6": "Il tempo di guarigione può variare a seconda del tessuto cicatriziale e delle procedure precedenti.",
+            "listItem5": "Pianificazione chirurgica personalizzata",
+            "listItem6": "Correzione di risultati innaturali",
+            "listItem7": "Migliorata armonia facciale",
+            "listItem8": "Restauro di fiducia",
+            "listItem9": "Tecniche avanzate su misura per casi complessi",
+            "paragraph7": "Il trapianto di capelli ricostruttivo richiede una maggiore esperienza rispetto al trapianto di capelli standard.",
+            "titleLines1": [
+              "Vantaggi del",
+              "trapianto di capelli lunghi"
+            ],
+            "titleLines2": [
+              "Svantaggi del",
+              "trapianto di capelli lunghi"
+            ],
+            "titleLines3": [
+              "Recupero",
+              "& risultati"
+            ],
+            "titleLines4": [
+              "Perché scegliere",
+              "il trapianto di capelli lunghi?"
+            ]
+          }
+        },
+        "reconstructive": {
+          "howDoesItWorkRecon": {
+            "paragraph1": "La ricostruzione dei capelli si concentra sulla correzione:",
+            "listItem1": "Hairlines posto troppo basso o troppo alto",
+            "listItem2": "Simmetria eccessiva o linee rette innaturali",
+            "listItem3": "angoli errati o direzioni di capelli impiantati",
+            "paragraph2": "Le linee di capelli naturali richiedono irregolarità, corretta angolazione, e l'uso esclusivo di innesti a pelo singolo nella zona frontale.",
+            "paragraph3": "Il trapianto di capelli correttivo può includere:",
+            "listItem4": "Rimozione degli innesti poveri",
+            "listItem5": "Reimpianto di innesti estratti",
+            "listItem6": "Ridistribuzione della densità per un risultato più naturale",
+            "paragraph4": "In alcuni casi, innesti precedentemente trapiantati possono essere rimossi e riutilizzati in modo sicuro.",
+            "paragraph5": "Il trapianto di capelli può essere effettuato in:",
+            "listItem7": "Cicatrici lineari FUT",
+            "listItem8": "Cicatrici a punto FUE",
+            "listItem9": "Cicatrici causate da ustioni, traumi o interventi chirurgici",
+            "paragraph6": "La crescita dei capelli nel tessuto cicatriziale può essere meno prevedibile a causa della riduzione dell'apporto di sangue, e la valutazione attenta è essenziale prima del trattamento.",
+            "paragraph7": "Nei pazienti con capelli donatori limitati del cuoio capelluto, il trapianto di capelli del corpo (BHT) può essere utilizzato come tecnica di supporto.",
+            "listItem10": "I capelli del barba sono comunemente preferiti",
+            "listItem11": "I capelli di petto possono essere utilizzati selettivamente",
+            "listItem12": "I capelli del corpo si comportano diversamente dai capelli del cuoio capelluto e devono essere mescolati accuratamente",
+            "paragraph8": "Il trapianto di capelli ricostruttivo viene solitamente eseguito utilizzando tecniche avanzate FUE.",
+            "paragraph9": "I passaggi chiave includono:",
+            "listItem13": "Analisi dettagliata delle proporzioni del viso e dei modelli di capelli esistenti",
+            "listItem14": "Pianificazione della linea di capelli conservativa",
+            "listItem15": "Valutazione dell'area del donatore",
+            "listItem16": "Estrazione e impianto di precisione",
+            "listItem17": "Attenzione ad angolo, direzione e densità",
+            "paragraph10": "Possono essere richieste più sessioni, a seconda della complessità del caso.",
+            "paragraph11": "I risultati del trapianto di capelli ricostruttivi possono essere duraturi e permanenti quando:",
+            "listItem18": "La qualità dei capelli donatori è adeguata",
+            "listItem19": "I fusti sono impiantati correttamente",
+            "listItem20": "La perdita di capelli è correttamente gestita",
+            "paragraph12": "Tuttavia, le aspettative devono essere realistiche, soprattutto nei casi che coinvolgono la cicatrice o più interventi chirurgici precedenti.",
+            "listItem21": "Rosso lieve e gonfiore sono comuni per alcuni giorni",
+            "listItem22": "Possono verificarsi perdite temporanee di capelli trapiantati",
+            "listItem23": "La crescita dei capelli inizia tipicamente dopo 3–4 mesi",
+            "listItem24": "I risultati finali sono di solito valutati dopo 12 mesi",
+            "paragraph13": "Il tempo di guarigione può variare a seconda del tessuto cicatriziale e delle procedure precedenti.",
+            "listItem25": "Pianificazione chirurgica personalizzata",
+            "listItem26": "Correzione di risultati innaturali",
+            "listItem27": "Migliorata armonia facciale",
+            "listItem28": "Restauro di fiducia",
+            "listItem29": "Tecniche avanzate su misura per casi complessi",
+            "paragraph14": "Il trapianto di capelli ricostruttivo richiede una maggiore esperienza rispetto al trapianto di capelli standard.",
+            "heading1": "Nota importante per i pazienti",
+            "paragraph15": "Non tutti i casi possono essere completamente corretti, soprattutto quando i capelli donatori sono limitati o tessuto cicatriziale è esteso. Una consultazione dettagliata è essenziale per determinare risultati realistici e il miglior approccio al trattamento.",
+            "titleLines1": [
+              "Ricostruzione",
+              "dell’attaccatura"
+            ],
+            "titleLines2": [
+              "Riparazione di un trapianto",
+              "(trapianto correttivo)"
+            ],
+            "titleLines3": [
+              "Revisione delle cicatrici &",
+              "trapianto di capelli nelle cicatrici"
+            ],
+            "titleLines4": [
+              "Trapianto di peli corporei",
+              "nei casi ricostruttivi"
+            ],
+            "titleLines5": [
+              "Come si esegue un trapianto",
+              "capillare ricostruttivo?"
+            ],
+            "titleLines6": [
+              "Il trapianto capillare ricostruttivo",
+              "è permanente?"
+            ],
+            "titleLines7": [
+              "Recupero",
+              "& risultati"
+            ],
+            "titleLines8": [
+              "Perché scegliere un trapianto",
+              "capillare ricostruttivo?"
+            ]
+          }
+        },
+        "title1": "FUE",
+        "subtitle1": "(Micromotore)",
+        "title2": "Che cosa è",
+        "title3": "Quali sono i passi di",
+        "title4": "Trapianto di capelli FUE?",
+        "value1": "1. Contatto iniziale & consultazione",
+        "value2": "Prima contatti la clinica, e uno dei nostri consulenti e interpreti ti guiderà attraverso l'intero processo nella tua lingua madre.",
+        "value3": "Completa un modulo di consultazione e invia le tue fotografie e video al Dr. Biçer. Dopo aver valutato il suo caso e stimando il numero di innesto richiesto, il Dr. Biçer fornirà informazioni generali. Se ha bisogno di ulteriori dettagli, può richiedere una consultazione online.",
+        "value4": "A seguito di questa valutazione, verrà inviata una offerta di trattamento personalizzata. Se decidete di procedere con la chirurgia, il vostro consulente fornirà le date adeguate. Una volta ricevuto il pagamento anticipato, il vostro intervento sarà programmato.",
+        "value5": "2. Valutazione preoperatoria (un giorno prima della chirurgia)",
+        "value6": "Consigliamo vivamente di arrivare alla clinica un giorno prima dell'intervento chirurgico. Durante questa visita:",
+        "value7": "Le fotografie mediche sono scattate",
+        "value8": "I test del sangue vengono eseguiti",
+        "value9": "L'elettrocardiografia (ECG) è completata",
+        "value10": "L'esame tricoscopico è condotto",
+        "value11": "Si completerà anche le forme mediche necessarie e avrà una consultazione faccia a faccia con il Dr. Biçer. Questo passo è estremamente importante, come le vostre aspettative, capacità di donatore e numero di innesti finale sono chiariti, e il piano chirurgico è finalizzato.",
+        "value12": "3. Giorno di chirurgia – Pianificazione e preparazione",
+        "value13": "Il giorno della chirurgia, si dovrebbe arrivare alla clinica alle 08:00 del mattino.",
+        "value14": "Dr. Biçer rivede tutti i dettagli e progetta la vostra linea di capelli insieme a voi. Il design dei capelli è un passo fondamentale per ottenere risultati naturali e garantire una pianificazione a lungo termine.",
+        "value15": "A seconda della tecnica scelta, i capelli saranno rasati se necessario, e il cuoio capelluto sarà lavato con uno shampoo disinfettante. La linea di capelli viene poi ripulita di nuovo.",
+        "value16": "Il dottor Biçer spiega ogni fase della procedura in dettaglio prima dell'inizio dell'intervento.",
+        "value17": "4. Anestesia locale",
+        "value18": "Viene somministrata anestesia locale senza aghi. Durante questa fase, si rimane svegli e vengono continuamente monitorati per garantire il comfort e la sicurezza.",
+        "value19": "5. Estrazione degli innesti",
+        "value20": "Nella seconda fase di chirurgia, il Dr. Biçer esegue la raccolta degli innesti, mentre le infermiere addestrate raccolgono, contano ed esaminano gli innesti sotto il microscopio.",
+        "value21": "Le misure di punzonatura di 0.7–0.9 mm sono utilizzate:",
+        "value22": "Quando questi pugni vengono utilizzati con un micromotore, la tecnica viene chiamata micromotore FUE",
+        "value23": "Quando utilizzato manualmente, senza elettricità o macchine, la tecnica viene chiamata manuale FUE",
+        "value24": "6. Creazione del sito sensibile",
+        "value25": "Nella terza fase, il Dr. Biçer crea le incisioni del destinatario, determinando la direzione, l'angolo e la densità dei capelli trapiantati.",
+        "value26": "Le lame di titanio o zaffiro sono utilizzate per questo passaggio. Tecnicamente, non vi è alcuna differenza di risultati tra questi due tipi di lama quando correttamente applicato.",
+        "value27": "7. Impianto",
+        "value28": "Nella fase finale, tre infermiere posizionano accuratamente gli innesti nell'area destinataria. Il dottor Biçer rimane in clinica durante questo processo.",
+        "value29": "8. Seguito postoperatorio",
+        "value30": "Il giorno dopo l'intervento, torna alla clinica per:",
+        "value31": "Rimozione delle bende",
+        "value32": "Esame medico del Dr. Biçer",
+        "value33": "Fotografie postoperative",
+        "value34": "Una volta che tutto è confermato per essere progredito bene, siete liberi di tornare nel vostro paese.",
+        "value35": "Tuttavia, il processo non finisce lì. La dottoressa Biçer e i suoi interpreti continuano a seguire i suoi progressi per almeno un anno dopo l'intervento.",
+        "title5": "FUE",
+        "subtitle2": "(Manuale)",
+        "title6": "Che cosa è",
+        "title7": "Quali sono i passi di",
+        "title8": "Trapianto di capelli FUE?",
+        "value36": "1. Contatto iniziale & consultazione",
+        "value37": "Prima contatti la clinica, e uno dei nostri consulenti e interpreti ti guiderà attraverso l'intero processo nella tua lingua madre.",
+        "value38": "Completa un modulo di consultazione e invia le tue fotografie e video al Dr. Biçer. Dopo aver valutato il suo caso e stimando il numero di innesto richiesto, il Dr. Biçer fornirà informazioni generali. Se ha bisogno di ulteriori dettagli, può richiedere una consultazione online.",
+        "value39": "A seguito di questa valutazione, verrà inviata una offerta di trattamento personalizzata. Se decidete di procedere con la chirurgia, il vostro consulente fornirà le date adeguate. Una volta ricevuto il pagamento anticipato, il vostro intervento sarà programmato.",
+        "value40": "2. Valutazione preoperatoria (un giorno prima della chirurgia)",
+        "value41": "Consigliamo vivamente di arrivare alla clinica un giorno prima dell'intervento chirurgico. Durante questa visita:",
+        "value42": "Le fotografie mediche sono scattate",
+        "value43": "I test del sangue vengono eseguiti",
+        "value44": "L'elettrocardiografia (ECG) è completata",
+        "value45": "L'esame tricoscopico è condotto",
+        "value46": "Si completerà anche le forme mediche necessarie e avrà una consultazione faccia a faccia con il Dr. Biçer. Questo passo è estremamente importante, come le vostre aspettative, capacità di donatore e numero di innesti finale sono chiariti, e il piano chirurgico è finalizzato.",
+        "value47": "3. Giorno di chirurgia – Pianificazione e preparazione",
+        "value48": "Il giorno della chirurgia, si dovrebbe arrivare alla clinica alle 08:00 del mattino.",
+        "value49": "Dr. Biçer rivede tutti i dettagli e progetta la vostra linea di capelli insieme a voi. Il design dei capelli è un passo fondamentale per ottenere risultati naturali e garantire una pianificazione a lungo termine.",
+        "value50": "A seconda della tecnica scelta, i capelli saranno rasati se necessario, e il cuoio capelluto sarà lavato con uno shampoo disinfettante. La linea di capelli viene poi ripulita di nuovo.",
+        "value51": "Il dottor Biçer spiega ogni fase della procedura in dettaglio prima dell'inizio dell'intervento.",
+        "value52": "4. Anestesia locale",
+        "value53": "Viene somministrata anestesia locale senza aghi. Durante questa fase, si rimane svegli e vengono continuamente monitorati per garantire il comfort e la sicurezza.",
+        "value54": "5. Estrazione degli innesti",
+        "value55": "Nella seconda fase di chirurgia, il Dr. Biçer esegue la raccolta degli innesti, mentre le infermiere addestrate raccolgono, contano ed esaminano gli innesti sotto il microscopio.",
+        "value56": "Le misure di punzonatura di 0.7–0.9 mm sono utilizzate:",
+        "value57": "Quando questi pugni vengono utilizzati con un micromotore, la tecnica viene chiamata micromotore FUE",
+        "value58": "Quando utilizzato manualmente, senza elettricità o macchine, la tecnica viene chiamata manuale FUE",
+        "value59": "6. Creazione del sito sensibile",
+        "value60": "Nella terza fase, il Dr. Biçer crea le incisioni del destinatario, determinando la direzione, l'angolo e la densità dei capelli trapiantati.",
+        "value61": "Le lame di titanio o zaffiro sono utilizzate per questo passaggio. Tecnicamente, non vi è alcuna differenza di risultati tra questi due tipi di lama quando correttamente applicato.",
+        "value62": "7. Impianto",
+        "value63": "Nella fase finale, tre infermiere posizionano accuratamente gli innesti nell'area destinataria. Il dottor Biçer rimane in clinica durante questo processo.",
+        "value64": "8. Seguito postoperatorio",
+        "value65": "Il giorno dopo l'intervento, torna alla clinica per:",
+        "value66": "WRemoval delle bende",
+        "value67": "Esame medico del Dr. Biçer",
+        "value68": "Fotografie postoperative",
+        "value69": "Una volta che tutto è confermato per essere progredito bene, siete liberi di tornare nel vostro paese.",
+        "value70": "Tuttavia, il processo non finisce lì. La dottoressa Biçer e i suoi interpreti continuano a seguire i suoi progressi per almeno un anno dopo l'intervento.",
+        "title9": "BHT",
+        "subtitle3": "(Trapianto di peli corporei)",
+        "title10": "Che cosa è",
+        "alt1": "Trapianto di peli corporei",
+        "title11": "Tutto quello che devi sapere sul trapianto di peli corporei (BHT)",
+        "alt2": "Trapianto di peli corporei 2",
+        "title12": "Cos'è BHT?",
+        "title13": "Quando è il corpo capelli",
+        "title14": "Trapianto Consigliato?",
+        "value71": "BHT può essere considerato nelle seguenti situazioni:",
+        "value72": "Area del donatore del cuoio capelluto molto limitata, come la perdita di capelli avanzata (Norwood Grade VI-VII)",
+        "value73": "I pazienti che hanno subito precedenti procedure di trapianto di capelli e hanno esaurito le riserve di donatore",
+        "value74": "Casi in cui sono richiesti più alti numeri di innesto, ma la capacità di donatore del cuoio capelluto è insufficiente",
+        "value75": "Spaventare alopecia, ustioni o perdita di capelli legata al trauma",
+        "value76": "Per aumentare la densità complessiva, in particolare in combinazione con innesti per capelli del cuoio capelluto",
+        "value77": "I capelli del barba sono generalmente preferiti sopra i capelli del torace a causa della sua struttura più forte e delle caratteristiche di crescita più coerenti.",
+        "title15": "Trapianto di capelli ricostruttivo",
+        "title16": "Che cosa è",
+        "alt3": "Trapianto di capelli ricostruttivo",
+        "title17": "Ricostruzione Capelli Trapianto - 01",
+        "alt4": "Trapianto di capelli ricostruttivo 2",
+        "title18": "Ricostruzione Capelli Trapianto - 02",
+        "alt5": "Trapianto di capelli ricostruttivo 3",
+        "title19": "Ricostruzione Capelli Trapianto - 03",
+        "title20": "Chi ha bisogno",
+        "title21": "Trapianto di capelli ricostruttivo?",
+        "value78": "Il trapianto di capelli ricostruttivo può essere raccomandato per i pazienti che sperimentano:",
+        "value79": "Capelli innaturali o poco progettati",
+        "value80": "Cicatrice visibile dalle precedenti procedure di trapianto di capelli (FUE o FUT)",
+        "value81": "Asimmetria o direzione sbagliata dei capelli",
+        "value82": "Densità di capelli bassa o irregolare",
+        "value83": "Perdita di capelli a causa di ustioni, incidenti, chirurgia o trauma",
+        "value84": "Scarichi l'alopecia o determinate condizioni mediche",
+        "value85": "Risultati insoddisfatti o insoddisfatti dei precedenti trapianti di capelli",
+        "value86": "Ogni caso ricostruttivo è unico e richiede un piano di trattamento individualizzato.",
+        "title22": "Capelli lunghi",
+        "subtitle4": "(Senza rasatura)",
+        "title23": "Che cosa è",
+        "title24": "Chi ha bisogno",
+        "title25": "Trapianto di capelli lunghi?",
+        "value87": "Trapianto di capelli lunghi può essere raccomandato per gli individui che:",
+        "value88": "Avere capelli innaturali, poco progettati o insoddisfacenti dalle procedure precedenti e vogliono un miglioramento immediato, naturale",
+        "value89": "Esperienza cicatrice visibile causata da precedenti tecniche di trapianto di capelli (FUE o FUT) e preferiscono migliore camuffamento",
+        "value90": "Soffrire da asimmetria o direzione di crescita errata dei capelli che richiede una correzione precisa",
+        "value91": "Avere una densità di capelli bassa o irregolare e desidera vedere il volume immediato senza mesi di attesa per la crescita",
+        "value92": "Avere perdita di capelli derivanti da ustioni, incidenti, chirurgia o trauma, dove il restauro estetico è critico",
+        "value93": "Sono colpiti dalla cicatrice di alopecia o da determinate condizioni mediche che limitano le opzioni di trapianto convenzionali",
+        "value94": "Hanno fallito o deludente i risultati del trapianto di capelli e cercare una soluzione correttiva avanzata",
+        "value95": "Preferire una tecnica che fornisce risultati cosmetici immediati, soprattutto per motivi sociali o professionali",
+        "value96": "Ogni caso di trapianto di capelli lungo è unico e richiede un piano di trattamento completamente individualizzato basato sulle caratteristiche dei capelli del paziente, le aspettative e lo sfondo medico.",
+        "title26": "FUT",
+        "subtitle5": "(Trapianto di unità follicolari)",
+        "title27": "Che cosa è",
+        "alt6": "Passo 1",
+        "title28": "Cos'è il trapianto di capelli FUT? - Dr. Özlem Biçer, MD",
+        "alt7": "Passo 2",
+        "title29": "Trapianto di FUT?",
+        "alt8": "Passo 3",
+        "title30": "TECNICA FUT",
+        "title31": "Fasi di FUT",
+        "title32": "Trapianto di capelli",
+        "value97": "1. Contatto iniziale & consultazione",
+        "value98": "Il processo inizia contattando la clinica. Uno dei nostri consulenti e interpreti esperti vi guiderà attraverso ogni passo nella vostra lingua madre. Ti verrà chiesto di compilare un modulo di consultazione e di inviare fotografie e video, che sono recensiti dal Dr. Biçer. In base a questa valutazione, riceverai informazioni preliminari, tra cui un numero stimato di innesti. Se necessario, Dr. Biçer può richiedere una consultazione online per ulteriori valutazioni. A seguito di questo, un piano di trattamento personalizzato e offerta saranno preparati e inviati a voi.",
+        "value99": "Una volta deciso di procedere con la chirurgia, il vostro consulente vi aiuterà a selezionare le date adatte. Dopo che il pagamento anticipato è completato, l'intervento sarà ufficialmente programmato.",
+        "value100": "2. Giorno preoperativo (un giorno prima della chirurgia)",
+        "value101": "Consigliamo vivamente di arrivare alla clinica un giorno prima dell'intervento. In questo giorno vengono scattate fotografie professionali e vengono eseguite valutazioni mediche, tra cui esami del sangue, elettrocardiografia (ECG), e esame tricoscopico. Avrete poi una consultazione faccia a faccia con il dottor Biçer.",
+        "value102": "Questo passo è estremamente importante, come le vostre aspettative, capacità di donatore, lassità del cuoio capelluto e numero finale sono chiaramente determinati, e il piano chirurgico è finalizzato.",
+        "value103": "3. Giorno di chirurgia",
+        "value104": "Il giorno della chirurgia, si dovrebbe arrivare alla clinica alle 08:00 AM. Dr. Biçer rivedere ancora una volta tutti i dettagli con voi e accuratamente progettare e disegnare la vostra linea di capelli. Il design dei capelli è un passo critico per ottenere un aspetto naturale e un successo estetico a lungo termine.",
+        "value105": "Secondo la tecnica FUT, i capelli non sono rasati. I vostri capelli saranno lavati con uno shampoo disinfettante, e l'area della linea di capelli sarà preparato ancora una volta. Sarete pienamente informati su ogni fase della procedura.",
+        "value106": "4. Estrazione della striscia della zona donatrice",
+        "value107": "Dr. Biçer misura l'elasticità della zona del donatore e la lassità del cuoio capelluto, quindi segna la linea di escissione della striscia. Viene somministrata anestesia locale senza aghi, e si rimane svegli e monitorati continuamente per la sicurezza.",
+        "value108": "Dopo l'anestesia, il dottor Biçer esegue l'escisione della striscia. Tipicamente, 1.500–2,500 innesti sono ottenuti da una singola striscia. L'area del donatore viene poi chiusa utilizzando una sutura estetica tricofitica. Nel frattempo, la squadra medica disseziona accuratamente gli innesti in unità follicolari singole, doppie o multiple sotto un microscopio.",
+        "value109": "5. Incisioni dell'area sensibile",
+        "value110": "Nella terza fase, Dr. Biçer crea le incisioni del destinatario, determinando l'angolo corretto, la direzione e la densità dei capelli trapiantati per garantire un risultato naturale.",
+        "value111": "6. Posizionamento del fusto",
+        "value112": "Nella fase finale, un team specializzato di cura mette gli innesti nella zona destinataria. Durante questa fase, il dottor Biçer rimane presente nella clinica, supervisionando la procedura.",
+        "value113": "7. Seguito postoperatorio",
+        "value114": "Il giorno dopo l'intervento chirurgico, tornerete alla clinica per la rimozione della benda e la valutazione postoperatoria. Nuove fotografie vengono scattate dopo che il dottor Biçer conferma che la guarigione sta progredendo normalmente.",
+        "value115": "Le suture estetiche poste nella zona del donatore devono essere rimosse 15 giorni dopo l'intervento di un medico. Se siete ancora nel paese, questo può essere fatto presso la nostra clinica; altrimenti, può tranquillamente essere rimosso nel vostro paese di origine.",
+        "value116": "La nostra cura non finisce dopo la procedura. Dr. Biçer e il suo team medico continuano a seguire i vostri progressi per almeno un anno, fornendo supporto e guida in corso durante il vostro viaggio di recupero e crescita dei capelli.",
+        "links": [
+          "FUE (micromotore)",
+          "FUE (manuale)",
+          "BHT (trapianto di capelli calda)",
+          "Trapianto di capelli ricostruttivo",
+          "Capelli lunghi (senza rasatura)",
+          "FUT"
+        ],
+        "titleLines1": [
+          "Tecnica",
+          "minimamente",
+          "invasiva"
+        ],
+        "titleLines2": [
+          "Nessuna",
+          "cicatrice",
+          "lineare"
+        ],
+        "titleLines3": [
+          "Risultati",
+          "dall’aspetto",
+          "naturale"
+        ],
+        "titleLines4": [
+          "Tempi di",
+          "recupero",
+          "brevi"
+        ],
+        "titleLines5": [
+          "Adatto",
+          "a",
+          "uomini e donne"
+        ]
+      },
+      "hairWash": {
+        "alt1": "Video di lavaggio dei capelli",
+        "videoTitle": "Lavaggio dei capelli Dopo Trapianto di capelli"
+      }
+    }
+  },
+  "SearchData": {
+    "items": [
+      {
+        "title": "Home page",
+        "category": "Pagina",
+        "keywords": [
+          "casa",
+          "principale",
+          "ana sayfa"
+        ]
+      },
+      {
+        "title": "Informazioni su di noi",
+        "category": "Pagina",
+        "keywords": [
+          "circa",
+          "Hakkında",
+          "Ozio",
+          "bizzarro",
+          "medico"
+        ]
+      },
+      {
+        "title": "Dr. Özlem Biçer",
+        "category": "Informazioni su di noi",
+        "keywords": [
+          "medico",
+          "Doktor",
+          "Ozio",
+          "bizzarro",
+          "chirurgo"
+        ]
+      },
+      {
+        "title": "Clinica & team",
+        "category": "Informazioni su di noi",
+        "keywords": [
+          "clinica",
+          "squadra",
+          "personale",
+          "Klinik",
+          "Ekip"
+        ]
+      },
+      {
+        "title": "Prezzo",
+        "category": "Informazioni su di noi",
+        "keywords": [
+          "prezzo",
+          "prezzi",
+          "Fiyat",
+          "costo",
+          "a pagamento"
+        ]
+      },
+      {
+        "title": "Perdita di capelli",
+        "category": "Pagina",
+        "keywords": [
+          "perdita di capelli",
+          "QUESTIONE",
+          "alopecia"
+        ]
+      },
+      {
+        "title": "Perdita di capelli in maschio",
+        "category": "Perdita di capelli",
+        "keywords": [
+          "maschio",
+          "Erkek",
+          "perdita di capelli",
+          "QUESTIONE",
+          "uomini"
+        ]
+      },
+      {
+        "title": "Perdita di capelli in Femmina",
+        "category": "Perdita di capelli",
+        "keywords": [
+          "femmina",
+          "Kadın",
+          "perdita di capelli",
+          "QUESTIONE",
+          "donna"
+        ]
+      },
+      {
+        "title": "Mesoterapia dei capelli",
+        "category": "Trattamenti",
+        "keywords": [
+          "mesoterapia",
+          "mezoterapi",
+          "trattamento",
+          "Condividi su Twitter"
+        ]
+      },
+      {
+        "title": "Trattamento dei capelli PRP",
+        "category": "Trattamenti",
+        "keywords": [
+          "potatura",
+          "trattamento",
+          "Condividi su Twitter",
+          "piatto"
+        ]
+      },
+      {
+        "title": "Trattamento delle cellule staminali",
+        "category": "Trattamenti",
+        "keywords": [
+          "timbro cellulare",
+          "cellula staminale",
+          "Kök hüc",
+          "trattamento"
+        ]
+      },
+      {
+        "title": "Trattamento Trichopat",
+        "category": "Trattamenti",
+        "keywords": [
+          "Trichopat",
+          "trattamento",
+          "Condividi su Twitter"
+        ]
+      },
+      {
+        "title": "Trapianto di capelli",
+        "category": "Trapianto",
+        "keywords": [
+          "trapianto di capelli",
+          "Saç ekimi",
+          "Fuee",
+          "Fut."
+        ]
+      },
+      {
+        "title": "FUE (micromotore)",
+        "category": "Trapianto di capelli",
+        "keywords": [
+          "Fuee",
+          "motore micro",
+          "trapianto di capelli",
+          "Saç ekimi"
+        ]
+      },
+      {
+        "title": "FUE (manuale)",
+        "category": "Trapianto di capelli",
+        "keywords": [
+          "Fuee",
+          "Manuel",
+          "manuale",
+          "trapianto di capelli"
+        ]
+      },
+      {
+        "title": "Trapianto di peli corporei",
+        "category": "Trapianto di capelli",
+        "keywords": [
+          "capelli corpo",
+          "#",
+          "trapianto",
+          "Saç ekimi"
+        ]
+      },
+      {
+        "title": "Trapianto di capelli ricostruttivo",
+        "category": "Trapianto di capelli",
+        "keywords": [
+          "ricostruttivo",
+          "Resynch:",
+          "riparazione",
+          "trapianto di capelli"
+        ]
+      },
+      {
+        "title": "Capelli lunghi (senza rasatura)",
+        "category": "Trapianto di capelli",
+        "keywords": [
+          "capelli lunghi",
+          "non condiviso",
+          "uzun saç",
+          "trapianto di capelli"
+        ]
+      },
+      {
+        "title": "FUT",
+        "category": "Trapianto di capelli",
+        "keywords": [
+          "Fut.",
+          "Unità follicolare",
+          "striscia",
+          "trapianto di capelli"
+        ]
+      },
+      {
+        "title": "Trapianto di barba",
+        "category": "Trapianto",
+        "keywords": [
+          "barbabietola",
+          "Sakal",
+          "trapianto",
+          "Ekimi"
+        ]
+      },
+      {
+        "title": "Trapianto di sopracciglio",
+        "category": "Trapianto",
+        "keywords": [
+          "sopracciglia",
+          "#",
+          "trapianto",
+          "Ekimi"
+        ]
+      },
+      {
+        "title": "Galleria",
+        "category": "Pagina",
+        "keywords": [
+          "galleria",
+          "Condividi su Google",
+          "video video",
+          "foto foto",
+          "risultati"
+        ]
+      },
+      {
+        "title": "Prima e dopo le immagini",
+        "category": "Galleria",
+        "keywords": [
+          "galleria",
+          "Condividi su Google",
+          "prima dopo",
+          "önce sonra",
+          "risultati",
+          "foto foto"
+        ]
+      },
+      {
+        "title": "Cause di perdita di capelli",
+        "category": "Perdita di capelli",
+        "keywords": [
+          "cause",
+          "Nedentario",
+          "perdita di capelli",
+          "QUESTIONE"
+        ]
+      },
+      {
+        "title": "Trattamenti di perdita di capelli",
+        "category": "Perdita di capelli",
+        "keywords": [
+          "trattamento",
+          "Condividi su Twitter",
+          "perdita di capelli",
+          "QUESTIONE"
+        ]
+      },
+      {
+        "title": "Guide",
+        "category": "Pagina",
+        "keywords": [
+          "guida",
+          "rehber",
+          "istruzioni",
+          "Tali"
+        ]
+      },
+      {
+        "title": "Prima di Trapianto di capelli",
+        "category": "Guide",
+        "keywords": [
+          "prima",
+          "öncesi",
+          "guida",
+          "rehber",
+          "trapianto di capelli",
+          "Saç ekimi"
+        ]
+      },
+      {
+        "title": "Dopo Trapianto di capelli",
+        "category": "Guide",
+        "keywords": [
+          "dopo",
+          "Traduzione:",
+          "guida",
+          "rehber",
+          "trapianto di capelli",
+          "Saç ekimi"
+        ]
+      },
+      {
+        "title": "Contattaci",
+        "category": "Pagina",
+        "keywords": [
+          "contatto",
+          "il tuo nome",
+          "email",
+          "telefono",
+          "appuntamento",
+          "?"
+        ]
+      },
+      {
+        "title": "Lavaggio dei capelli Dopo Trapianto di capelli",
+        "category": "Trapianto",
+        "keywords": [
+          "lavaggio capelli",
+          "lavaggio",
+          "dopo il trapianto di capelli",
+          "trapianto di capelli",
+          "Saç yıkama",
+          "Saç ekimi sonras"
+        ]
+      }
+    ]
   }
 }

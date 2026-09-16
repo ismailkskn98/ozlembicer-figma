@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
+import { useTranslations } from 'next-intl';
 
 export default function PrpHairDoesItWork() {
+   const t = useTranslations('Content.hairLoss.treatmentsOfHairLoss.prpHair.prpHairDoesItWork');
    const RecursiveList = ({ items }) => {
       return (
          <ul className="list-disc list-outside pl-5 text-sm lg:text-base space-y-4.5">
@@ -15,39 +17,16 @@ export default function PrpHairDoesItWork() {
       );
    };
 
-   const title1 = ['Benefits Of', 'PRP Therapy'];
-   const content1 = [
-      {
-         type: 'paragraph',
-         value: 'There are countless reasons why an increasing number of people are opting for PRP therapy and why doctors are also suggesting the same thing. These are:',
-      },
-      {
-         type: 'list',
-         value: [
-            'The serum that is injected into the scalp is made using your own blood, which is why you really have nothing to fear. Since your own blood is used, the chances of the body rejecting it are minimal and this is also why the chances of success are higher.',
-            'Since your blood will be used, there is no chance of infection or allergy, which exponentially increases the chances of success.',
-            'The procedure involves a series of scalp injections administered according to the treatment plan. Local anesthesia may be used based on the patient’s needs and the physician’s assessment.',
-            'Even if the therapy may not give you the kind of results you would have expected, surely thanks to this therapy you will not experience further hair loss.',
-         ],
-      },
-   ];
-   const title2 = ['Procedure Of', 'PRP Therapy'];
-   const content2 = [
-      {
-         type: 'paragraph',
-         value: 'When you are looking for an effective method for hair augmentation, a transplant may be the best solution, but PRP therapy can certainly be useful in the long term.Injections can support hair growth and ensure that there is proper collagen production.',
-      },
-      {
-         type: 'paragraph',
-         value: 'The procedure is quite simple: the blood is drawn from your body and placed in a centrifuge, in which the platelet-rich plasma is separated from the rest of the elements. This plasma is then treated with growth factors and ready to be injected.',
-      },
-   ];
+   const title1 = t.raw('benefits.title');
+   const content1 = t.raw('benefits.content');
+   const title2 = t.raw('procedure.title');
+   const content2 = t.raw('procedure.content');
 
    return (
       <main className="grid grid-cols-1 lg:grid-cols-3 w-full max-w-6xl mx-auto place-content-stretch place-items-stretch text-coffee-dark gap-6 py-10 sm:py-16 lg:py-25">
          <Image
             src="/images/hair-loss/hair-prp-section.jpg"
-            alt="FUE Hair Transplant"
+            alt={t('alt1')}
             width={900}
             height={1100}
             unoptimized

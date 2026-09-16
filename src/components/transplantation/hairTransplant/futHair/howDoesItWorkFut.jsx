@@ -1,133 +1,133 @@
 import Image from 'next/image';
 import React from 'react';
+import { useTranslations } from 'next-intl';
 
 export default function HowDoesItWorkFut() {
+   const t = useTranslations('Content.transplantation.hairTransplant.futHair.howDoesItWorkFut');
    return (
       <main className="grid grid-cols-1 sm:grid-cols-2 w-full border-t border-coffee-dark/15 place-content-stretch place-items-stretch text-coffee-dark">
          <article className="border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['FUT', 'Hair Transplantation'].map((text, index) => (
+               {t.raw('titleLines1').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Although there is extensive information available online about FUT and FUE techniques, many patients are not fully aware of how these procedures are actually performed.</p>
+               <p>{t('paragraph1')}</p>
                <p>
-                  In FUT, once the donor strip is removed, it is dissected under a microscope into very fine follicular units. The donor area is then carefully sutured, which results in a
-                  linear scar.
+                  {t('paragraph2')}
                </p>
-               <p>Dr. Özlem Biçer uses meticulous suturing techniques to ensure that the scar remains as thin and discreet as possible.</p>
-               <p>The primary goal of FUT is to transfer hair from the most stable donor zone to areas where hair loss is most pronounced.</p>
+               <p>{t('paragraph3')}</p>
+               <p>{t('paragraph4')}</p>
             </div>
          </article>
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Local', 'Anesthesia'].map((text, index) => (
+               {t.raw('titleLines2').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>For patient comfort, local anesthesia is administered to the donor and recipient areas.</p>
+               <p>{t('paragraph5')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>A mild burning sensation may be felt during the first 5 minutes</li>
-                  <li>Patients typically experience minimal discomfort during or after surgery</li>
+                  <li>{t('listItem1')}</li>
+                  <li>{t('listItem2')}</li>
                </ul>
             </div>
          </article>
 
          <article className="border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Donor Tissue', '(Strip Harvesting)'].map((text, index) => (
+               {t.raw('titleLines3').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
 
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>The surgeon performs a precise horizontal incision to remove a strip of scalp containing healthy hair follicles from the donor area.</p>
-               <p>Correct donor area selection is essential, as long-term hair growth depends on harvesting follicles from the genetically stable zone.</p>
-               <p>To achieve a finer scar, Dr. Özlem Biçer uses the trichophytic closure technique, which allows hair to grow through the scar and helps make it less visible.</p>
+               <p>{t('paragraph6')}</p>
+               <p>{t('paragraph7')}</p>
+               <p>{t('paragraph8')}</p>
             </div>
          </article>
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Preparation of', 'the Recipient Area'].map((text, index) => (
+               {t.raw('titleLines4').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>The recipient area is one of the most critical stages, as it determines the final aesthetic outcome.</p>
+               <p>{t('paragraph9')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Microscopic incisions are created using fine blades</li>
-                  <li>Hair direction and angle are carefully planned</li>
-                  <li>Different blade sizes are used according to graft size</li>
+                  <li>{t('listItem3')}</li>
+                  <li>{t('listItem4')}</li>
+                  <li>{t('listItem5')}</li>
                </ul>
-               <p>To achieve a natural appearance, the surgeon ensures that transplanted hair follows the patient’s natural growth pattern.</p>
+               <p>{t('paragraph10')}</p>
             </div>
          </article>
 
          <article className="border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Graft Dissection', '& Preparation'].map((text, index) => (
+               {t.raw('titleLines5').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
 
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
                <p>
-                  The harvested strip is first divided into thin sections called “slivers.” Excess tissue is removed from these slivers, and individual follicular units are carefully
-                  separated.
+                  {t('paragraph11')}
                </p>
-               <p>Each graft is prepared individually to ensure minimal trauma and optimal survival.</p>
+               <p>{t('paragraph12')}</p>
             </div>
          </article>
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Preservation of', 'Donor Tissue'].map((text, index) => (
+               {t.raw('titleLines6').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Once the strip is removed, it is placed in the patient’s own Platelet-Rich Plasma (PRP).</p>
-               <p>PRP may help maintain graft hydration and viability during preparation, while also allowing time for careful closure of the donor wound.</p>
+               <p>{t('paragraph13')}</p>
+               <p>{t('paragraph14')}</p>
             </div>
          </article>
 
          <article className="border-b sm:border-b-0 border-r-0 sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Transplantation & Completion', 'of the Procedure'].map((text, index) => (
+               {t.raw('titleLines7').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
 
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
                <p>
-                  Once the recipient sites are prepared, the follicular units are implanted into the incisions.
+                  {t('paragraph15')}
                   <br />
-                  At the end of the procedure:
+                  {t('paragraph16')}
                </p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Each graft is checked individually</li>
-                  <li>Postoperative care instructions are explained in detail</li>
-                  <li>Patients receive a printed aftercare guide</li>
+                  <li>{t('listItem6')}</li>
+                  <li>{t('listItem7')}</li>
+                  <li>{t('listItem8')}</li>
                </ul>
-               <p>A headband or medical cap may be used to protect the treated area.</p>
+               <p>{t('paragraph17')}</p>
             </div>
          </article>
          <article className=" flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Important Information', 'About FUT Hair Transplantation'].map((text, index) => (
+               {t.raw('titleLines8').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>FUT Scarn</p>
-               <p>After FUT, a linear scar will remain in the donor area.</p>
+               <p>{t('paragraph18')}</p>
+               <p>{t('paragraph19')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>The scar heals over time and is usually thin and discreet</li>
-                  <li>In most patients, the scar is concealed once the hair reaches a certain length</li>
-                  <li>If the hair is shaved very short, the scar may become visible</li>
+                  <li>{t('listItem9')}</li>
+                  <li>{t('listItem10')}</li>
+                  <li>{t('listItem11')}</li>
                </ul>
-               <p>The visibility of the scar largely depends on surgical technique, scalp characteristics, and healing response.</p>
+               <p>{t('paragraph20')}</p>
             </div>
          </article>
       </main>

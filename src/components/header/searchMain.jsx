@@ -4,11 +4,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { Search } from 'lucide-react';
 import { useDebouncedCallback } from 'use-debounce';
-import { searchData } from '@/lib/searchData';
+import { getSearchData } from '@/lib/searchData';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
-
-const pages = searchData.filter((item) => item.type === 'page');
+import { useTranslations } from 'next-intl';
 
 function ResultItem({ item, onClose }) {
    return (
@@ -23,6 +22,10 @@ function ResultItem({ item, onClose }) {
 }
 
 export default function SearchMain({ children }) {
+   const t = useTranslations('Header.search');
+   const searchT = useTranslations('SearchData');
+   const searchData = getSearchData(searchT);
+   const pages = searchData.filter((item) => item.type === 'page');
    const [open, setOpen] = useState(false);
    const [searchValue, setSearchValue] = useState('');
    const [results, setResults] = useState(null);
@@ -67,7 +70,7 @@ export default function SearchMain({ children }) {
                   maxHeight: 'min(70vh, calc(100svh - 9rem))',
                }}
             >
-               <DialogPrimitive.Title className="sr-only">Search</DialogPrimitive.Title>
+               <DialogPrimitive.Title className="sr-only">{t('title')}</DialogPrimitive.Title>
 
                {/* Search input */}
                <div className="flex items-center py-2 px-3 shrink-0">
@@ -80,7 +83,7 @@ export default function SearchMain({ children }) {
                      }}
                      value={searchValue}
                      type="text"
-                     placeholder="Search..."
+                     placeholder={t('placeholder')}
                      className="w-full outline-none border-none pl-2 text-sm py-2.5 bg-transparent placeholder:text-ivory-soft/60"
                      style={{ color: '#eee6db60' }}
                   />
@@ -89,21 +92,21 @@ export default function SearchMain({ children }) {
                      className="uppercase text-[10px] rounded-lg px-2.5 py-2 border text-ivory-soft hover:bg-wine-brown/30 transition-all duration-150 cursor-pointer shrink-0"
                      style={{ border: '1px solid #eee6db60' }}
                   >
-                     ESC
+                     {t('escape')}
                   </span>
                </div>
 
                {/* Results */}
                <div data-lenis-prevent className="border-t flex-1 min-h-0 overflow-y-auto overscroll-contain touch-pan-y" style={{ borderTop: '1px solid #b99f6c60' }}>
                   <div className="px-4 py-4 flex flex-col gap-1 min-h-0">
-                     {results !== null && results.length === 0 && <p className="text-sm text-stone-beige/60 py-2 px-2">No results found.</p>}
+                     {results !== null && results.length === 0 && <p className="text-sm text-stone-beige/60 py-2 px-2">{t('noResults')}</p>}
 
                      {results !== null && results.length > 0 && results.map((item) => <ResultItem key={item.id} item={item} onClose={handleClose} />)}
 
                      {results === null && (
                         <>
                            <p className="text-xs font-semibold text-gold uppercase tracking-wider px-2 pb-1" style={{ color: '#b99f6c' }}>
-                              Pages
+                              {t('pages')}
                            </p>
                            {pages.map((item) => (
                               <ResultItem key={item.id} item={item} onClose={handleClose} />

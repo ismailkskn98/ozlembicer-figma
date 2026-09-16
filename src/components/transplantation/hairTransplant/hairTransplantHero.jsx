@@ -5,10 +5,12 @@ import MotionScrollInView from '@/components/common/motionScrollInView';
 import { Play } from 'lucide-react';
 import { X } from 'lucide-react';
 import { Dialog, DialogContent, DialogClose, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+import { useTranslations } from 'next-intl';
 
 const VIDEO_ID = '4m9to1KGCx0';
 
 export default function HairTransplantHero() {
+   const t = useTranslations('Content.transplantation.hairTransplant.hairTransplantHero');
    const [open, setOpen] = useState(false);
 
    return (
@@ -17,11 +19,11 @@ export default function HairTransplantHero() {
          <section className="w-full max-w-full xl:max-w-6xl mx-auto flex flex-col items-start gap-8 sm:gap-12 xl:gap-16.25">
             <article className="w-full max-w-140.5 text-ivory-soft">
                <h1 className="text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-16 flex flex-col items-start">
-                  Hair <span className="font-bold">Transplant</span>
+                  {t('heading1')} <span className="font-bold">{t('span1')}</span>
                </h1>
             </article>
             <MotionScrollInView className="w-full group relative grid grid-cols-2 sm:grid-cols-4 gap-1.5 sm:gap-2.5 rounded-xl sm:rounded-4xl h-full max-h-full sm:max-h-130 lg:max-h-157.5 cursor-pointer">
-               <button type="button" onClick={() => setOpen(true)} className="absolute inset-0 z-20 w-full h-full cursor-pointer" aria-label="Play video" />
+               <button type="button" onClick={() => setOpen(true)} className="absolute inset-0 z-20 w-full h-full cursor-pointer" aria-label={t('ariaLabel1')} />
                <div className="absolute left-1/2 top-1/2 -translate-1/2 z-10 flex scale-[0.9] items-center justify-center rounded-2xl transition-all duration-200 ease-out group-hover:scale-100 ">
                   <div className="bg-wine-brown/50 group-hover:scale-105 group-hover:bg-wine-brown/80 transition-all duration-200 flex size-24 items-center justify-center rounded-full">
                      <Play className="size-8 scale-110 stroke-ivory-soft/60 transition-transform duration-200 ease-out group-hover:scale-115" />
@@ -29,7 +31,7 @@ export default function HairTransplantHero() {
                </div>
                <Image
                   src="/images/hair-transplant/hero-item-1.jpg"
-                  alt="hair-transplant hero item 1"
+                  alt={t('alt1')}
                   width={880}
                   height={1180}
                   unoptimized
@@ -37,7 +39,7 @@ export default function HairTransplantHero() {
                />
                <Image
                   src="/images/hair-transplant/hero-item-2.jpg"
-                  alt="hair-transplant hero item 2"
+                  alt={t('alt2')}
                   width={880}
                   height={1180}
                   unoptimized
@@ -45,7 +47,7 @@ export default function HairTransplantHero() {
                />
                <Image
                   src="/images/hair-transplant/hero-item-3.jpg"
-                  alt="hair-transplant hero item 3"
+                  alt={t('alt3')}
                   width={880}
                   height={1180}
                   unoptimized
@@ -53,7 +55,7 @@ export default function HairTransplantHero() {
                />
                <Image
                   src="/images/hair-transplant/hero-item-4.jpg"
-                  alt="hair-transplant hero item 4"
+                  alt={t('alt4')}
                   width={880}
                   height={1180}
                   unoptimized
@@ -77,7 +79,7 @@ export default function HairTransplantHero() {
                      {open && (
                         <iframe
                            src={`https://www.youtube-nocookie.com/embed/${VIDEO_ID}?autoplay=1&rel=0&modestbranding=1&playsinline=1`}
-                           title="Hair Transplant Video"
+                           title={t('title1')}
                            allow="autoplay; fullscreen; picture-in-picture"
                            allowFullScreen
                            className="size-full rounded-lg border-0"
@@ -89,49 +91,39 @@ export default function HairTransplantHero() {
 
             <article className="w-full flex flex-col items-start gap-4 text-ivory-soft text-[14px]">
                <p>
-                  At Dr. Biçer’s clinic, all hair restoration techniques are personally performed by Dr. Biçer. This allows her to objectively evaluate each patient and select the most
-                  appropriate technique based solely on medical needs, hair characteristics, and long-term expectations.
+                  {t('paragraph1')}
                </p>
                <p>
-                  It is also important to understand that hair transplantation is not a cure for hair loss. It is a highly effective camouflage technique for patients suffering from
-                  alopecia, designed to restore a natural appearance and improve self-confidence.
+                  {t('paragraph2')}
                </p>
                <p>
-                  Hair replacement surgery can change your appearance dramatically and boost your self-confidence. Among available methods, FUE (Follicular Unit Extraction) is considered the
-                  least invasive technique and offers the shortest recovery time.
+                  {t('paragraph3')}
                </p>
                <p>
-                  Most people can undergo surgery with little or no complications. However, not everyone is a suitable candidate for hair replacement surgery. Before undergoing any
-                  procedure, it is essential to discuss your expectations and undergo a thorough medical evaluation by your surgeon. To determine whether you are a good candidate, the
-                  following factors are carefully considered:
+                  {t('paragraph4')}
                </p>
                <div className="w-full flex flex-col items-start">
-                  <h3 className="font-bold">OVERALL HEALTH CONDITIONS</h3>
+                  <h3 className="font-bold">{t('heading2')}</h3>
                   <p>
-                     Are you generally in good health with no contraindications to treatment? Patients with cardiac conditions, congenital bleeding or clotting disorders, or certain skin
-                     diseases such as psoriasis are usually advised against surgery.
+                     {t('paragraph5')}
                   </p>
                </div>
                <div className="w-full flex flex-col items-start">
-                  <h3 className="font-bold">HAIR LOSS PATTERN</h3>
+                  <h3 className="font-bold">{t('heading3')}</h3>
                   <p>
-                     Hair transplantation can provide dramatic yet natural results in cases of significant thinning or balding, provided that healthy donor hair is present at the back and
-                     sides of the scalp. Patients with male pattern baldness (androgenetic alopecia) are often ideal candidates. For women, however, if hair loss presents as diffuse overall
-                     thinning, hair transplantation may not be the most suitable option.
+                     {t('paragraph6')}
                   </p>
                </div>
                <div className="w-full flex flex-col items-start">
-                  <h3 className="font-bold">AGE</h3>
+                  <h3 className="font-bold">{t('heading4')}</h3>
                   <p>
-                     Hair loss should be relatively stabilized before surgery. Very young patients (early 20s) are often advised to wait and consider medical treatments before undergoing a
-                     hair transplant.
+                     {t('paragraph7')}
                   </p>
                </div>
                <div className="w-full flex flex-col items-start">
-                  <h3 className="font-bold">COSMETIC CONCERNS</h3>
+                  <h3 className="font-bold">{t('heading5')}</h3>
                   <p>
-                     If avoiding linear scarring is important to you, FUE may be the preferred technique. FUE can also be used to camouflage existing scars from previous surgeries or
-                     injuries by transplanting new follicles into those areas.
+                     {t('paragraph8')}
                   </p>
                </div>
             </article>

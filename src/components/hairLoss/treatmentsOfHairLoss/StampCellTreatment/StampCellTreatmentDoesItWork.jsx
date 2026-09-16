@@ -1,128 +1,130 @@
 import Image from 'next/image';
 import React from 'react';
+import { useTranslations } from 'next-intl';
 
 export default function StampCellTreatmentDoesItWork() {
+   const t = useTranslations('Content.hairLoss.treatmentsOfHairLoss.stampCellTreatment.stampCellTreatmentDoesItWork');
    return (
       <main className="grid grid-cols-1 sm:grid-cols-2 w-full place-content-stretch place-items-stretch text-coffee-dark">
          <article className="border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Benefits of', 'Stem Cell Therapy for Hair Loss'].map((text, index) => (
+               {t.raw('titleLines1').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Stem cell–based treatments offer multiple biological benefits for both transplanted and existing hair:</p>
+               <p>{t('paragraph1')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Improves scalp vascularization and oxygenation</li>
-                  <li>Stimulates follicular regeneration and repair</li>
-                  <li>Prolongs the anagen (growth) phase of hair</li>
-                  <li>Reduces hair shedding</li>
-                  <li>Increases hair thickness and quality</li>
-                  <li>Supports faster healing after hair transplantation</li>
-                  <li>Enhances graft survival and overall transplant outcomes</li>
-                  <li>Uses the patient’s own biological material, minimizing allergy risk</li>
+                  <li>{t('listItem1')}</li>
+                  <li>{t('listItem2')}</li>
+                  <li>{t('listItem3')}</li>
+                  <li>{t('listItem4')}</li>
+                  <li>{t('listItem5')}</li>
+                  <li>{t('listItem6')}</li>
+                  <li>{t('listItem7')}</li>
+                  <li>{t('listItem8')}</li>
                </ul>
-               <p>Stem cell therapy is considered a biological booster, not a replacement for hair transplantation in advanced baldness.</p>
+               <p>{t('paragraph2')}</p>
             </div>
          </article>
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['How Does', 'Stem Cell Therapy Work?'].map((text, index) => (
+               {t.raw('titleLines2').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
                <p>
-                  Stem cells release a wide range of growth factors, cytokines, and signaling molecules that influence hair follicle activity. When applied to the scalp, these bioactive substances:
+                  {t('paragraph3')}
                </p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Activate hair follicle stem cells</li>
-                  <li>Stimulate dermal papilla cells</li>
-                  <li>Increase collagen and extracellular matrix production</li>
-                  <li>Improve blood supply around hair follicles</li>
-                  <li>Support tissue repair and reduce inflammation</li>
+                  <li>{t('listItem9')}</li>
+                  <li>{t('listItem10')}</li>
+                  <li>{t('listItem11')}</li>
+                  <li>{t('listItem12')}</li>
+                  <li>{t('listItem13')}</li>
                </ul>
-               <p>In hair transplantation, stem cell therapy helps create a healthier scalp environment, which is critical for long-term hair growth and graft survival.:</p>
+               <p>{t('paragraph4')}</p>
             </div>
          </article>
 
          <article className="border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['How Is Stem Cell', 'Therapy Performed?'].map((text, index) => (
+               {t.raw('titleLines3').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
 
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>The procedure generally includes the following steps:</p>
+               <p>{t('paragraph5')}</p>
                <ul className="list-decimal list-outside pl-5">
-                  <li className="font-bold">Harvesting</li>
-                  <p className="mb-2">A small amount of tissue (commonly adipose tissue or stem cell–rich follicular material) is collected under sterile conditions.</p>
-                  <li className="font-bold">Processing</li>
-                  <p className="mb-2">The sample is processed to isolate stem cell–rich fractions or regenerative cellular components.</p>
-                  <li className="font-bold">Application</li>
-                  <p className="mb-2">The prepared solution is applied or injected into targeted scalp areas or used during hair transplantation to support grafts and recipient tissue.</p>
+                  <li className="font-bold">{t('listItem14')}</li>
+                  <p className="mb-2">{t('paragraph6')}</p>
+                  <li className="font-bold">{t('listItem15')}</li>
+                  <p className="mb-2">{t('paragraph7')}</p>
+                  <li className="font-bold">{t('listItem16')}</li>
+                  <p className="mb-2">{t('paragraph8')}</p>
                </ul>
-               <p>The procedure is minimally invasive and performed under medical supervision.</p>
+               <p>{t('paragraph9')}</p>
             </div>
          </article>
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['How Long', 'Stem Cell Last?'].map((text, index) => (
+               {t.raw('titleLines4').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Stem cell therapy provides long-term biological support, but results are not permanent because hair loss is often progressive and genetically driven.</p>
+               <p>{t('paragraph10')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Initial improvement is typically observed within 3–6 months</li>
-                  <li>Results may last 12–24 months</li>
+                  <li>{t('listItem17')}</li>
+                  <li>{t('listItem18')}</li>
                   <li>
-                     <p>Maintenance sessions may be recommended depending on:</p>
+                     <p>{t('paragraph11')}</p>
                      <ul className="list-disc list-outside pl-5">
-                        <li>Hair loss type</li>
-                        <li>Genetic predisposition</li>
-                        <li>Combination with medical treatments</li>
+                        <li>{t('listItem19')}</li>
+                        <li>{t('listItem20')}</li>
+                        <li>{t('listItem21')}</li>
                      </ul>
                   </li>
                </ul>
-               <p>A personalized follow-up plan is essential.</p>
+               <p>{t('paragraph12')}</p>
             </div>
          </article>
 
          <article className="border-b sm:border-b-0 border-r-0 sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 lg:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Who Is a Good Candidate for', 'Stem Cell Hair Therapy?'].map((text, index) => (
+               {t.raw('titleLines5').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>Stem cell therapy is most suitable for patients who:</p>
+               <p>{t('paragraph13')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Have early to moderate hair thinning</li>
-                  <li>Want to slow down hair loss</li>
-                  <li>Wish to strengthen existing hair</li>
-                  <li>Are planning a hair transplant and want to optimize results</li>
-                  <li>Have undergone hair transplantation and want additional support</li>
-                  <li>Prefer biological and regenerative treatments</li>
+                  <li>{t('listItem22')}</li>
+                  <li>{t('listItem23')}</li>
+                  <li>{t('listItem24')}</li>
+                  <li>{t('listItem25')}</li>
+                  <li>{t('listItem26')}</li>
+                  <li>{t('listItem27')}</li>
                </ul>
-               <p>It is not effective as a standalone solution for completely bald areas with no viable follicles.</p>
+               <p>{t('paragraph14')}</p>
             </div>
          </article>
          <article className="flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4 text-sm lg:text-base">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Can Stem Cell Therapy Be Combined ', 'with Hair Transplantation?'].map((text, index) => (
+               {t.raw('titleLines6').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
-            <p>Yes. Stem cell therapy is frequently used:</p>
+            <p>{t('paragraph15')}</p>
             <ul className="list-disc list-outside pl-5">
-               <li>Before surgery to improve scalp condition</li>
-               <li>During surgery to support graft survival</li>
-               <li>After surgery to accelerate healing and enhance growth</li>
-               <li>Alongside PRP or medical treatments for synergistic effects</li>
+               <li>{t('listItem28')}</li>
+               <li>{t('listItem29')}</li>
+               <li>{t('listItem30')}</li>
+               <li>{t('listItem31')}</li>
             </ul>
-            <p>This combined approach helps achieve more natural, durable, and higher-quality results.</p>
+            <p>{t('paragraph16')}</p>
          </article>
       </main>
    );

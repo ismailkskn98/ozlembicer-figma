@@ -2,8 +2,10 @@
 
 import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 export default function ClinicVideo() {
+   const t = useTranslations('Content.about.clinicAndTeam.clinicVideo');
    const videoRef = useRef(null);
 
    const [hasPlayed, setHasPlayed] = useState(false);
@@ -60,7 +62,7 @@ export default function ClinicVideo() {
             <source src="/videos/clinic-video.mp4" type="video/mp4" />
          </video>
 
-         {showImage && <Image src="/images/about/clinic-gallery-right.png" alt="Clinic" fill className="object-cover rounded-[5px] transition-opacity duration-700 opacity-100" />}
+         {showImage && <Image src="/images/about/clinic-gallery-right.png" alt={t('alt1')} fill className="object-cover rounded-[5px] transition-opacity duration-700 opacity-100" />}
 
          {showImage && (
             <button onClick={handleReplay} className="absolute inset-0 flex items-center justify-center group cursor-pointer">

@@ -1,123 +1,125 @@
 import Image from 'next/image';
 import React from 'react';
+import { useTranslations } from 'next-intl';
 
 export default function TrichopatTreatmentDoesItWork() {
+   const t = useTranslations('Content.hairLoss.treatmentsOfHairLoss.trichopatTreatment.trichopatTreatmentDoesItWork');
    return (
       <main className="grid grid-cols-1 sm:grid-cols-2 w-full place-content-stretch place-items-stretch text-coffee-dark">
          <article className="border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['What Are the', 'Benefits of TRICOPAT®?'].map((text, index) => (
+               {t.raw('titleLines1').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>TRICOPAT® offers multiple clinically proven benefits:</p>
+               <p>{t('paragraph1')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Reduces hair shedding</li>
-                  <li>Increases hair density and hair shaft diameter</li>
-                  <li>Improves scalp microcirculation and oxygenation</li>
-                  <li>Stimulates cellular metabolism and follicle regeneration</li>
-                  <li>Supports and prolongs the anagen (growth) phase of hair</li>
-                  <li>Needle-free application</li>
-                  <li>Suitable for both men and women</li>
-                  <li>Can be used alone or as an adjunct to medical therapy or hair transplantation</li>
+                  <li>{t('listItem1')}</li>
+                  <li>{t('listItem2')}</li>
+                  <li>{t('listItem3')}</li>
+                  <li>{t('listItem4')}</li>
+                  <li>{t('listItem5')}</li>
+                  <li>{t('listItem6')}</li>
+                  <li>{t('listItem7')}</li>
+                  <li>{t('listItem8')}</li>
                </ul>
-               <p>Clinical studies have shown significant improvement after only four sessions, with excellent patient satisfaction and no serious side effects reported.</p>
+               <p>{t('paragraph2')}</p>
             </div>
          </article>
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['How Does', 'TRICOPAT® Work?'].map((text, index) => (
+               {t.raw('titleLines2').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>TRICOPAT® combines several advanced technologies in a single device:</p>
+               <p>{t('paragraph3')}</p>
                <ul className="list-decimal list-outside pl-5">
                   <li>
-                     <span>Controlled micro-dermal incision (Skin Patting®)</span>
-                     <p>Creates very superficial microchannels (0.25 mm) that activate the skin without causing scarring or trauma to surrounding mechanisms without causing scarring.</p>
+                     <span>{t('span1')}</span>
+                     <p>{t('paragraph4')}</p>
                   </li>
                   <li>
-                     <span>Pressure waves</span>
-                     <p>Trigger scalp microcirculation, tissue oxygenation, and cellular metabolism.</p>
+                     <span>{t('span2')}</span>
+                     <p>{t('paragraph5')}</p>
                   </li>
                   <li>
-                     <span>Iontophoresis</span>
-                     <p>Uses a mild electrical current to deliver preformed growth factors deep into the hair follicles, increasing their effectiveness.</p>
+                     <span>{t('span3')}</span>
+                     <p>{t('paragraph6')}</p>
                   </li>
                   <li>
-                     <span>Electrostimulation and LED photo stimulation</span>
-                     <p>Support fibroblast activation, collagen and elastin synthesis, and provide an anti-inflammatory effect.</p>
+                     <span>{t('span4')}</span>
+                     <p>{t('paragraph7')}</p>
                   </li>
                </ul>
-               <p>Together, these mechanisms allow growth factors to reach the follicle efficiently, resulting in reduced hair loss and stronger, thicker hair.</p>
+               <p>{t('paragraph8')}</p>
             </div>
          </article>
 
          <article className="border-r-0 sm:border-r border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['How Many', 'Sessions Are Needed?'].map((text, index) => (
+               {t.raw('titleLines3').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
 
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>The standard TRICOPAT® protocol consists of:</p>
+               <p>{t('paragraph9')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>4 sessions</li>
-                  <li>Performed once every 3 weeks</li>
-                  <li>Each session lasts approximately 20–25 minutes</li>
+                  <li>{t('listItem9')}</li>
+                  <li>{t('listItem10')}</li>
+                  <li>{t('listItem11')}</li>
                </ul>
-               <p>This protocol has been shown to produce visible clinical and trichoscopic improvement in both men and women.</p>
+               <p>{t('paragraph10')}</p>
             </div>
          </article>
          <article className="border-b border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['How Long', 'Do the Results Last?'].map((text, index) => (
+               {t.raw('titleLines4').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>TRICOPAT® results are long-lasting but not permanent, as hair loss is often a progressive condition.</p>
-               <p>Most patients maintain their results with:</p>
+               <p>{t('paragraph11')}</p>
+               <p>{t('paragraph12')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Periodic maintenance sessions, or</li>
-                  <li>Combination with medical treatments (such as topical or oral therapies)</li>
+                  <li>{t('listItem12')}</li>
+                  <li>{t('listItem13')}</li>
                </ul>
-               <p>Your physician will design a personalized maintenance plan based on your diagnosis and hair loss pattern.</p>
+               <p>{t('paragraph13')}</p>
             </div>
          </article>
 
          <article className="border-b sm:border-b-0 border-r-0 sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 lg:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Who Is a Good', 'Candidate for TRICOPAT®?'].map((text, index) => (
+               {t.raw('titleLines5').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
-               <p>TRICOPAT® is especially suitable for patients who:</p>
+               <p>{t('paragraph14')}</p>
                <ul className="list-disc list-outside pl-5">
-                  <li>Are in the early or moderate stages of hair loss</li>
-                  <li>Experience telogen effluvium</li>
-                  <li>Have androgenetic alopecia (male or female)</li>
-                  <li>Want a non-invasive, injection-free treatment</li>
-                  <li>Wish to enhance the results of medical therapy or hair transplantation</li>
+                  <li>{t('listItem14')}</li>
+                  <li>{t('listItem15')}</li>
+                  <li>{t('listItem16')}</li>
+                  <li>{t('listItem17')}</li>
+                  <li>{t('listItem18')}</li>
                </ul>
-               <p>A detailed medical and trichoscopic evaluation is essential to determine candidacy.</p>
+               <p>{t('paragraph15')}</p>
             </div>
          </article>
          <article className="flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4 text-sm lg:text-base">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Can TRICOPAT® Be Combined', 'with Hair Transplantation?'].map((text, index) => (
+               {t.raw('titleLines6').map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
-            <p>Yes. TRICOPAT® can be used:</p>
+            <p>{t('paragraph16')}</p>
             <ul className="list-disc list-outside pl-5">
-               <li>Before hair transplantation to improve scalp quality</li>
-               <li>After hair transplantation to support healing and graft vitality</li>
-               <li>As a long-term supportive therapy to protect native hair</li>
+               <li>{t('listItem19')}</li>
+               <li>{t('listItem20')}</li>
+               <li>{t('listItem21')}</li>
             </ul>
          </article>
       </main>

@@ -3,10 +3,233 @@
     "siteName": "Dr. Özlem Biçer – Spécialiste en Greffe de Cheveux & Perte de Cheveux",
     "defaultTitle": "Dr. Özlem Biçer | Clinique de Greffe de Cheveux à Istanbul",
     "defaultDescription": "Dr. Özlem Biçer est une chirurgienne spécialisée dans la greffe de cheveux avec plus de 25 ans d'expérience en techniques FUE et FUT. Basée à Istanbul, Turquie. Réservez votre consultation gratuite dès aujourd'hui.",
-    "keywords": "greffe de cheveux Istanbul, greffe FUE, traitement perte de cheveux, Dr. Ozlem Bicer, clinique capillaire Turquie, greffe de barbe, greffe de sourcils, traitement PRP"
+    "keywords": "greffe de cheveux Istanbul, greffe FUE, traitement perte de cheveux, Dr. Özlem Biçer, clinique capillaire Turquie, greffe de barbe, greffe de sourcils, traitement PRP"
   },
   "HomePage": {
-    "title": "Bonjour le monde !"
+    "title": "Bonjour le monde !",
+    "hero": {
+      "slides": {
+        "priority": {
+          "desktopTitle": {
+            "line1": "Vos",
+            "line2": "attentes sont",
+            "line3": "notre priorité"
+          },
+          "mobileTitle": {
+            "line1": "Vos",
+            "line2": "attentes sont",
+            "line3": "notre priorité"
+          },
+          "description": "Selon notre philosophie, la chirurgie capillaire n'est pas seulement la science, l'art, la technologie ou les chiffres. La restauration des cheveux est plus qu'une opération. Nous savons que cela affecte aussi directement les émotions du patient. Par conséquent, vos attentes et vos émotions nous sont extrêmement précieuses.",
+          "imageAlt": "Dre Özlem Biçer",
+          "primaryLink": "En savoir plus sur la greffe de cheveux",
+          "appointmentLink": "Prendre rendez-vous"
+        },
+        "team": {
+          "desktopTitle": {
+            "line1": "Une chirurgienne",
+            "line2": "expérimentée et son",
+            "line3": "équipe médicale"
+          },
+          "mobileTitle": {
+            "line1": "Une chirurgienne",
+            "line2": "expérimentée et son",
+            "line3": "équipe médicale"
+          },
+          "description": "Selon notre philosophie, la chirurgie capillaire n'est pas seulement la science, l'art, la technologie ou les chiffres. La restauration des cheveux est plus qu'une opération. Nous savons que cela affecte aussi directement les émotions du patient. Par conséquent, vos attentes et vos émotions nous sont extrêmement précieuses.",
+          "imageAlt": "Dre Özlem Biçer et son équipe médicale",
+          "primaryLink": "En savoir plus sur la clinique et l'équipe",
+          "appointmentLink": "Prendre rendez-vous"
+        },
+        "faculty": {
+          "desktopTitle": {
+            "line1": "Membre du corps",
+            "line2": "enseignant reconnue",
+            "line3": "à l’international"
+          },
+          "mobileTitle": {
+            "line1": "Membre du corps",
+            "line2": "enseignant reconnue",
+            "line3": "à l’international"
+          },
+          "description": "Selon notre philosophie, la chirurgie capillaire n'est pas seulement la science, l'art, la technologie ou les chiffres. La restauration des cheveux est plus qu'une opération. Nous savons que cela affecte aussi directement les émotions du patient. Par conséquent, vos attentes et vos émotions nous sont extrêmement précieuses.",
+          "imageAlt": "Dre Özlem Biçer, membre du corps enseignant reconnue à l’international",
+          "primaryLink": "En savoir plus sur le Dr. Özlem Biçer",
+          "appointmentLink": "Prendre rendez-vous"
+        }
+      }
+    },
+    "logoCarousel": {
+      "heading": "<bold>Reconnue par les principales associations</bold> dans le monde entier",
+      "logoAlt": "Logo {number}"
+    },
+    "heroCards": {
+      "onlyOne": {
+        "line1": "Un seul",
+        "line2": "patient par jour"
+      },
+      "experience": {
+        "line1": "28 ans",
+        "line2": "d’expérience"
+      },
+      "licensedClinic": {
+        "line1": "Clinique",
+        "line2": "agréée"
+      },
+      "americanBoard": {
+        "line1": "Membre de",
+        "line2": "l’American Board"
+      },
+      "imageAlt": "Carte d’information {number}",
+      "lineAlt": "Ligne de séparation",
+      "gapLineAlt": "ligne d'écart de carte héros"
+    },
+    "services": {
+      "hairTransplant": {
+        "title": "Greffe de cheveux",
+        "label": "Greffe de cheveux",
+        "description": "À la clinique du Dr Biçer, toutes les procédures de greffe de cheveux sont personnellement effectuées par le Dr Biçer, assurant que chaque patient est évalué objectivement et traité selon une approche entièrement adaptée. La greffe de cheveux n'est pas un remède, mais un moyen très efficace de restaurer une apparence naturelle et la confiance lorsque soigneusement planifié. À l'aide de techniques de pointe telles que le FUE, les patients bénéficient d'un traitement minimal invasif et d'une récupération plus rapide. Cependant, la bonne solution dépend de facteurs individuels et nécessite une expertise – découvrez ce qui vous convient le mieux."
+      },
+      "beardTransplant": {
+        "title": "Greffe de barbe",
+        "label": "Greffe de barbe",
+        "description": "À la clinique du Dr Özlem Biçer, la transplantation de barbe est effectuée personnellement avec son équipe médicale expérimentée, assurant une approche précise et individualisée pour chaque patient. Cette procédure spécialisée est conçue pour améliorer la densité de la barbe, améliorer la forme et la symétrie, et traiter la croissance irrégulière ou la perte de cheveux causée par les cicatrices ou les conditions médicales. Comme la transplantation faciale nécessite une expertise chirurgicale avancée et une planification esthétique raffinée, chaque détail est soigneusement considéré pour obtenir des résultats naturels et équilibrés. Découvrez comment cette approche sur mesure peut redéfinir votre apparence faciale."
+      },
+      "eyebrowTransplant": {
+        "title": "Greffe de sourcils",
+        "label": "Greffe de sourcils",
+        "description": "À la clinique du Dr Özlem Biçer, la transplantation des sourcils est effectuée personnellement avec une approche méticuleuse et individualisée, reconnaissant le rôle essentiel que jouent les sourcils dans l'expression faciale et l'esthétique générale. Cette procédure est conçue pour restaurer la forme et la densité naturelles, qu'elles soient dues à des épilations excessives répétées, à des dommages de traction ou à des sourcils naturellement clairsemés ou absents. À l'aide de la technique FUE à cheveux longs et des poils fins sélectionnés avec soin, chaque greffon est placé avec un angle et une direction précis pour obtenir des résultats doux, naturels et harmonieux. Découvrez comment une approche sur mesure peut restaurer l'équilibre et la définition à votre visage."
+      },
+      "femaleHairTransplant": {
+        "title": "Greffe de cheveux pour femmes",
+        "label": "Greffe de cheveux pour femmes",
+        "description": "À la clinique du Dr Özlem Biçer, la greffe de cheveux féminins est effectuée personnellement avec une approche sensible et individualisée, reconnaissant l'impact émotionnel et esthétique significatif de la perte de cheveux chez les femmes. Comme la perte de cheveux peut provenir de différentes causes, telles que l'alopécie androgénétique, l'effluvium télogène ou d'autres affections, chaque patient subit une évaluation détaillée pour déterminer le traitement le plus approprié. Lorsque la transplantation est indiquée, les techniques sans rasage complet sont préférées pour maintenir discrétion et confort. Découvrez une solution sur mesure conçue pour restaurer vos cheveux et votre confiance."
+      },
+      "learnMore": "En savoir plus"
+    },
+    "videos": {
+      "title": "Vidéos & tutoriels"
+    },
+    "aestheticAndArt": {
+      "headingLine1": "L’esthétique est",
+      "headingLine2": "là où l’art et",
+      "headingLine3": "la médecine se rencontrent",
+      "paragraph1": "Depuis 1998, je me consacre à la restauration des cheveux et à la greffe de cheveux. À ma clinique, nous fournissons un haut niveau de soins médicaux et d'expertise professionnelle, en mettant clairement l'accent sur l'obtention de résultats naturels, sains et durables pour nos patients.",
+      "paragraph2": "Notre approche ne se limite pas au seul jour de la procédure. Chaque patient est soigneusement évalué et guidé avant le traitement, puis suivi de près pendant au moins un an après la procédure pour assurer une guérison optimale, la croissance des cheveux et le succès à long terme.",
+      "paragraph3": "Au fil des ans, nous avons acquis une solide réputation en combinant l'expérience chirurgicale, la technologie de pointe et le strict respect des pratiques médicales sûres et éthiques. Chaque traitement est soigneusement planifié et adapté aux besoins individuels de chaque patient.",
+      "paragraph4": "Si vous êtes à la recherche d'une clinique de greffe de cheveux de classe mondiale qui priorise l'excellence médicale, les résultats naturels et les soins complets des patients, mon équipe médicale expérimentée et moi sommes ici pour vous guider à chaque étape de votre voyage.",
+      "signature": "Özlem Biçer, M.D.",
+      "doctorLink": "En savoir plus sur le Dr Bicer",
+      "appointmentLink": "Prendre rendez-vous",
+      "imageAlt": "esthétique et artistique"
+    },
+    "appointment": {
+      "title": "Comment prendre rendez-vous",
+      "steps": {
+        "contact": {
+          "title": "Contactez-nous sur",
+          "titleBr": "WhatsApp",
+          "hoverTitle": "Remplir le",
+          "hoverTitleBr": "formulaire",
+          "imageAlt": "WhatsApp",
+          "description": "Contactez-nous sur WhatsApp et connectez-vous à un consultant spécialisé qui parle votre langue. Remplissez le formulaire fourni par votre consultant et planifiez votre consultation en ligne avec le Dr Biçer."
+        },
+        "consultation": {
+          "title": "Consultation",
+          "titleBr": "en ligne",
+          "hoverTitle": "Remplir le",
+          "hoverTitleBr": "formulaire",
+          "imageAlt": "consultation",
+          "description": "Faites une consultation individuelle en ligne avec le Dr Biçer afin de recevoir une évaluation personnalisée et des renseignements détaillés sur votre traitement et votre processus. Avec votre consultant, procédez à la planification des prochaines étapes."
+        },
+        "complete": {
+          "title": "Finalisez votre",
+          "titleBr": "rendez-vous",
+          "hoverTitle": "Remplir le",
+          "hoverTitleBr": "formulaire",
+          "imageAlt": "Rendez-vous",
+          "description": "Finaliser votre plan de traitement et confirmer votre rendez-vous avec les conseils de votre consultant. Après votre intervention, votre consultant restera en contact permanent avec vous pendant un an, suivra de près vos progrès, vous fournira des mises à jour et vous accompagnera tout au long de votre parcours de rétablissement."
+        }
+      },
+      "clinicHeading": "Greffe de cheveux<br></br>Istanbul (Turquie)",
+      "clinicDescription": "Le Dr. Özlem Biçer apporte plus de 25 ans d'expérience et est un membre estimé de la Société internationale de chirurgie de la restauration des cheveux (ISHRS). Elle est soutenue par une équipe dévouée d'infirmières hautement qualifiées, ce qui fait de nous l'une des équipes de greffe de cheveux les plus réputées et les plus expérimentées du monde.",
+      "contact": "CONTACTEZ-NOUS"
+    }
+  },
+  "Header": {
+    "navigation": {
+      "about": "À propos",
+      "doctor": "Dr. Özlem Biçer",
+      "clinicTeam": "Clinique & équipe",
+      "pricing": "Tarifs",
+      "hairLoss": "Perte de cheveux",
+      "causes": "Causes de la perte de cheveux",
+      "maleHairLoss": "Perte de cheveux chez l’homme",
+      "femaleHairLoss": "Perte de cheveux chez la femme",
+      "treatments": "Traitements de la perte de cheveux",
+      "hairMesotherapy": "Mésothérapie capillaire",
+      "prp": "Traitement capillaire PRP",
+      "stampCell": "Traitement par cellules souches",
+      "trichopat": "Traitement TRICOPAT",
+      "transplantation": "Greffes",
+      "hairTransplant": "Greffe de cheveux",
+      "fueMicroMotor": "FUE (micromoteur)",
+      "fueManual": "FUE (manuelle)",
+      "bodyHair": "Greffe de poils corporels",
+      "reconstructive": "Greffe capillaire reconstructive",
+      "longHair": "Cheveux longs (sans rasage)",
+      "fut": "FUT",
+      "hairWash": "Lavage des cheveux",
+      "beard": "Greffe de barbe",
+      "eyebrow": "Greffe de sourcils",
+      "gallery": "Galerie",
+      "beforeAfter": "Photos avant/après",
+      "videoGallery": "Galerie vidéo",
+      "informativeVideos": "Vidéos informatives",
+      "patientReviews": "Avis des patients",
+      "interviews": "Entretiens avec la Dre Biçer"
+    },
+    "mobileNavigationTitle": "Menu de navigation",
+    "search": {
+      "title": "Recherche",
+      "placeholder": "Rechercher ...",
+      "escape": "ESC",
+      "noResults": "Aucun résultat trouvé.",
+      "pages": "Pages"
+    },
+    "alt1": "logo ozlembicer"
+  },
+  "Footer": {
+    "logoAlt": "Logo de la Dre Biçer",
+    "addressLabel": "Adresse :",
+    "address": "Istanbul/Turquie",
+    "mobileLabel": "Mobile & WhatsApp :",
+    "emailLabel": "E-mail :",
+    "workingHours": "Horaires d’ouverture",
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    },
+    "closed": "Fermé",
+    "copyright": "Dr. Biçer 2026 – Tous droits réservés."
+  },
+  "PatientResults": {
+    "title": "Résultats des patients",
+    "beforeAlt": "Patient avant {number}",
+    "afterAlt": "Patient après {number}",
+    "videoTitle": "Vidéo résultat patient",
+    "technique": "TECHNIQUE",
+    "grafts": "GREFFONS",
+    "after": "APRÈS",
+    "fue": "FUE",
+    "microMotor": "(Micromoteur)",
+    "months": "{count} mois",
+    "lineAlt": "ligne"
   },
   "LanguageModal": {
     "title": "Changer de langue",
@@ -18,10 +241,2262 @@
     "heading": "Support multilingue",
     "subheading": "Contactez directement quelqu'un qui parle votre langue"
   },
+  "Common": {
+    "languages": {
+      "en": {
+        "name": "English",
+        "short": "ENG",
+        "supportAlt": "Appui anglais"
+      },
+      "it": {
+        "name": "Italiano",
+        "short": "ITAL",
+        "supportAlt": "Soutien italien"
+      },
+      "fr": {
+        "name": "Français",
+        "short": "FRAN",
+        "supportAlt": "Soutien français"
+      },
+      "de": {
+        "name": "Deutsch",
+        "short": "DEUT",
+        "supportAlt": "Soutien allemand"
+      }
+    },
+    "accessibility": {
+      "breadcrumb": "chapelure",
+      "more": "Plus",
+      "close": "Fermer"
+    }
+  },
+  "TemporaryLanguage": {
+    "modalMessages": {
+      "en": {
+        "title": "Change Language",
+        "description": "Would you like to switch to {language}?",
+        "confirm": "Yes, switch",
+        "cancel": "Cancel"
+      },
+      "de": {
+        "title": "Sprache wechseln",
+        "description": "Möchten Sie zu {language} wechseln?",
+        "confirm": "Ja, wechseln",
+        "cancel": "Abbrechen"
+      },
+      "fr": {
+        "title": "Changer de langue",
+        "description": "Souhaitez-vous passer en {language} ?",
+        "confirm": "Oui, changer",
+        "cancel": "Annuler"
+      },
+      "it": {
+        "title": "Cambia lingua",
+        "description": "Vuoi passare a {language}?",
+        "confirm": "Sì, cambia",
+        "cancel": "Annulla"
+      }
+    },
+    "comingSoonMessages": {
+      "en": {
+        "title": "Coming Soon",
+        "message": "This section is under construction. Thank you for your understanding."
+      },
+      "de": {
+        "title": "Demnächst verfügbar",
+        "message": "Dieser Bereich befindet sich im Aufbau. Vielen Dank für Ihr Verständnis."
+      },
+      "fr": {
+        "title": "Prochainement disponible",
+        "message": "Cette section est en construction. Merci de votre compréhension."
+      },
+      "it": {
+        "title": "Prossimamente disponibile",
+        "message": "Questa sezione è in costruzione. Grazie per la vostra comprensione."
+      }
+    },
+    "ok": "OK"
+  },
   "NotFound": {
     "title": "Page introuvable",
     "description": "La page que vous recherchez a peut-être été déplacée ou n'existe plus. Laissez-nous vous guider.",
     "home": "Retour à l'accueil",
     "contact": "Prendre rendez-vous"
+  },
+  "Content": {
+    "about": {
+      "ozlembicer": {
+        "doctorProfile": {
+          "heading1": "Philosophie médicale",
+          "paragraph1": "Tout au long de sa carrière médicale, les soins aux patients ont toujours été la priorité absolue du Dr Biçer. Elle estime que la pratique éthique, la responsabilité professionnelle et l'éducation continue sont essentielles pour obtenir des résultats fructueux et durables.",
+          "paragraph2": "Selon sa philosophie, la chirurgie capillaire n'est pas seulement la science, l'art, la technologie ou les chiffres. La restauration des cheveux est plus qu'une intervention chirurgicale – elle a un impact direct sur les émotions, la confiance et la qualité de vie du patient. Pour cette raison, les attentes et le bien-être émotionnel de chaque patient sont considérés comme extrêmement précieux et sont soigneusement respectés tout au long du traitement.",
+          "paragraph3": "Afin d'assurer la pleine concentration et la plus haute qualité de soins, la Dre Biçer effectue une seule greffe de cheveux par jour, ce qui lui permet de consacrer toute son attention à chaque patient. Elle estime également qu'il est important de servir de modèle éthique et professionnel pour les jeunes médecins qui entrent sur le terrain.",
+          "paragraph4": "Sa vaste expérience lui a permis de développer de solides compétences cliniques, chirurgicales et de communication, couvrant la pratique médicale courante, les interventions chirurgicales et les situations d'urgence.",
+          "heading2": "Expérience professionnelle et participation académique",
+          "paragraph5": "Le Dr Biçer participe activement à la communauté internationale de la restauration des cheveux. Elle participe régulièrement à des réunions scientifiques et à des conférences dans le monde entier, en tant que conférenciere, formatrice et membre de sociétés professionnelles de restauration des cheveux. Son engagement académique continu et son expérience professionnelle lui permettent de rester à l'avant-garde des derniers développements dans la restauration des cheveux.",
+          "paragraph6": "À la clinique du Dr Biçer, toutes les techniques de restauration des cheveux sont personnellement réalisées par le Dr Biçer. Cette expertise complète lui permet d'évaluer objectivement chaque cas et de choisir la technique la plus appropriée pour chaque patient, uniquement en fonction des besoins médicaux et des résultats attendus.",
+          "paragraph7": "Ses domaines d'intérêt professionnel comprennent :",
+          "listItem1": "Techniques FUT et FUE",
+          "listItem2": "Micromoteur et FUE manuel",
+          "listItem3": "FEU de cheveux longs non rasé",
+          "listItem4": "Transplantation reconstructive des cheveux",
+          "listItem5": "FUE avec implants",
+          "listItem6": "Traitements de perte de cheveux",
+          "listItem7": "Médecine régénératrice",
+          "listItem8": "Dermatopathologie du cuir chevelu",
+          "paragraph8": "En plus de la greffe de cheveux, le Dr Biçer fournit des traitements individualisés de perte de cheveux, y compris PRP, mésothérapie et thérapies à base de médecine régénérative, adaptés aux besoins cliniques de chaque patient.",
+          "heading3": "Travail d'équipe et valeurs personnelles",
+          "paragraph9": "Le Dr Biçer apprécie la collaboration multidisciplinaire et contribue activement aux soins aux patients lorsque cela est nécessaire. Elle se décrit comme une solution, disciplinée, motivée et engagée à travailler avec ses collègues pour le bien des patients et de la société. Le partage d'expérience, le mentorat des membres de l'équipe et la motivation de ses collègues à atteindre des objectifs communs sont au cœur de son approche professionnelle.",
+          "paragraph10": "Elle effectue des interventions chirurgicales avec une équipe médicale agréée avec 28 ans d'expérience, un facteur qui contribue clairement aux résultats positifs et cohérents du traitement.",
+          "paragraph11": "Le Dr Biçer parle couramment l'anglais. Elle est également l'auteur d'un livre de poésie, avec tous les profits donnés pour soutenir l'éducation des enfants orphelins. Elle est mariée depuis 30 ans et est la mère d'un fils."
+        },
+        "awards": {
+          "heading1": "Prix",
+          "paragraph1": "FUE Europe Annual Fue Hand-on Ankara, 2020",
+          "paragraph2": "Maîtres de beauté, 2021",
+          "paragraph3": "2ème Congrès international d'esthétique médicale",
+          "paragraph4": "M. Ufuk Alatekin Academy Ceux qui ajoutent de la valeur à la beauté",
+          "paragraph5": "Symposium d'esthétique médicale",
+          "paragraph6": "Mezoder, Congrès de Mésothérapie",
+          "paragraph7": "Cours de restauration des cheveux Los Angles, atelier de chirurgie en direct"
+        },
+        "certifications": {
+          "heading1": "Autres programmes d'éducation et de formation",
+          "items": [
+            {
+              "title": "Certificat de Bio Cosmétiques",
+              "location": "Istanbul (Turquie)",
+              "date": "Mars 2000"
+            },
+            {
+              "title": "Enseignement International de Mesotherapie",
+              "location": "France",
+              "date": "Octobre 2002"
+            },
+            {
+              "title": "Allergan, Excellence",
+              "location": "Istanbul (Turquie)",
+              "date": "Décembre 2002"
+            },
+            {
+              "title": "5ème dermatologie et dermatopathologie en Anatolie",
+              "location": "Istanbul (Turquie)",
+              "date": "Septembre 2003"
+            },
+            {
+              "title": "Flavius, FUE et technique à bande unique",
+              "location": "Istanbul (Turquie)",
+              "date": "Juin 2004"
+            },
+            {
+              "title": "1ère Esthétique Médicale, Mésothérapie",
+              "location": "Antalya, Turquie",
+              "date": "Décembre 2004"
+            },
+            {
+              "title": "Séminaire Botox et Natural Look",
+              "location": "Sao Paulo (Brésil)",
+              "date": "Mars 2005"
+            },
+            {
+              "title": "Allergan Medical Esthetics Academy – Master Academy for Excellence",
+              "location": "",
+              "date": "Mai 2010"
+            },
+            {
+              "title": "Atelier de formateur en technologie médicale de Fotona",
+              "location": "",
+              "date": "Septembre 2011"
+            },
+            {
+              "title": "Sessions théoriques et pratiques régionales (revitalisation de la transition vers la correction)",
+              "location": "Istanbul (Turquie)",
+              "date": "Octobre 2011"
+            },
+            {
+              "title": "Hipokrat, fin des diagnostics de Genèse",
+              "location": "Istanbul (Turquie)",
+              "date": "Décembre 2011"
+            },
+            {
+              "title": "Mezoklinik, Promitalia",
+              "location": "Istanbul (Turquie)",
+              "date": "Mai 2012"
+            },
+            {
+              "title": "Seltek, Redensité faciale I et applications de mésothérapie",
+              "location": "Istanbul (Turquie)",
+              "date": "Septembre 2012"
+            },
+            {
+              "title": "Biorevolontaire régionale en médecine esthétique médicale",
+              "location": "Istanbul",
+              "date": "Décembre 2012"
+            },
+            {
+              "title": "Institut médical Allergan – Mettre les codes en pratique",
+              "location": "",
+              "date": "Juin 2015"
+            },
+            {
+              "title": "Formation Mezoklinik, Perfectha et Ellanse",
+              "location": "Istanbul (Turquie)",
+              "date": "Septembre 2015"
+            },
+            {
+              "title": "Mester, Le visage esthétique médical Cadaver",
+              "location": "Edirne, Turquie",
+              "date": "Mai 2016"
+            },
+            {
+              "title": "Demandes de mésothérapie du ministère de la Santé de TC",
+              "location": "Ankara (Turquie)",
+              "date": "Avril 2016"
+            },
+            {
+              "title": "Mester, Gestion des complications esthétiques médicales",
+              "location": "Chypre",
+              "date": "Janvier 2017"
+            },
+            {
+              "title": "TC Ministère de la Santé Demandes Ozon",
+              "location": "Ankara (Turquie)",
+              "date": "Avril 2017"
+            },
+            {
+              "title": "15ème médicaments esthétiques et anti-âge, AMWC",
+              "location": "Monaco",
+              "date": "Avril 2017"
+            },
+            {
+              "title": "AAAM, médecine esthétique",
+              "location": "Pennsylvanie, États-Unis",
+              "date": "Août 2017"
+            },
+            {
+              "title": "TED1 Journée des experts en teoxane",
+              "location": "Istanbul",
+              "date": "Septembre 2017"
+            },
+            {
+              "title": "21e Congrès mondial de médecine esthétique",
+              "location": "Istanbul (Turquie)",
+              "date": "Octobre 2017"
+            },
+            {
+              "title": "Mezoklinik, PRP de séparation stérile",
+              "location": "Istanbul (Turquie)",
+              "date": "2017"
+            },
+            {
+              "title": "2e Congrès national d'esthétique médicale",
+              "location": "",
+              "date": "Janvier 2018"
+            },
+            {
+              "title": "Journées d'experts TED3 Teoxane, Moyen-Orient",
+              "location": "Dubaï",
+              "date": "Mars 2018"
+            },
+            {
+              "title": "Mester, Gestion des complications esthétiques médicales",
+              "location": "Ankara (Turquie)",
+              "date": "Mai 2018"
+            },
+            {
+              "title": "ATB Expertise en médecine",
+              "location": "",
+              "date": "Septembre 2018"
+            },
+            {
+              "title": "Mester, méthodes de restauration des cheveux",
+              "location": "Antalya, Turquie",
+              "date": "Décembre 2018"
+            },
+            {
+              "title": "Mezoklinik Ellanse Theorical and Practical Filler",
+              "location": "Istanbul",
+              "date": "Mars 2019"
+            },
+            {
+              "title": "Cours de Master Bio Revolettria",
+              "location": "Istanbul (Turquie)",
+              "date": "Avril 2019"
+            },
+            {
+              "title": "Communauté nationale de mésothérapie",
+              "location": "",
+              "date": "Mars 2020"
+            },
+            {
+              "title": "Cours de pratique annuel FUE Europe",
+              "location": "Ankara (Turquie)",
+              "date": "Septembre 2020"
+            },
+            {
+              "title": "ISHR, 28e Congrès mondial",
+              "location": "En ligne",
+              "date": "Octobre 2020"
+            },
+            {
+              "title": "Global perte de cheveux Summit – Conférencier",
+              "location": "En ligne",
+              "date": "2020"
+            },
+            {
+              "title": "Réunion annuelle de FUE Europe",
+              "location": "",
+              "date": "Septembre 2021"
+            },
+            {
+              "title": "Mester, Symposium international sur l'esthétique médicale",
+              "location": "Antalya, Turquie",
+              "date": "Octobre 2021"
+            },
+            {
+              "title": "ISHR, 29e Congrès mondial",
+              "location": "Lisbonne",
+              "date": "Octobre 2021"
+            },
+            {
+              "title": "Global perte de cheveux Summit – Conférencier",
+              "location": "En ligne",
+              "date": "2021"
+            },
+            {
+              "title": "Congrès de l'USHRS",
+              "location": "Ukraine (en ligne)",
+              "date": "Février 2022"
+            },
+            {
+              "title": "Cours de restauration des cheveux de Los Angeles",
+              "location": "Los Angeles, États-Unis",
+              "date": "Mars 2022"
+            }
+          ]
+        },
+        "ozlemBicerHero": {
+          "heading1": "Qui est",
+          "span1": "Dr. Özlem Biçer",
+          "paragraph1": "Le Dr Özlem Biçer est né en 1973 à Istanbul. Elle a terminé ses études secondaires au Collège Anakent en 1991 et a obtenu un diplôme de la Faculté de médecine de l'Université Trakya en 1998. Après son diplôme médical, elle a suivi un programme de formation certifié en chirurgie capillaire organisé par le Ministère de la santé de la République de Turquie et a reçu l'autorisation officielle d'effectuer des opérations de transplantation capillaire.",
+          "paragraph2": "En 2002, la Dre Biçer a développé son expertise par une formation avancée en France, axée sur les traitements de la perte de cheveux, la mésothérapie et l'esthétique médicale.",
+          "paragraph3": "Le Dr Biçer est un chirurgien greffé de cheveux ayant plus de 25 ans d'expérience médicale. Elle a effectué des interventions FUE (Follicular Unit Extraction) et FUT (Follicular Unit Transplantation) tout au long de sa carrière. Entre 1999 et 2002, elle a travaillé dans plusieurs cliniques privées à Istanbul, spécialisée dans la médecine esthétique et la chirurgie capillaire. Depuis 2002, elle effectue des opérations de greffe de cheveux dans sa propre clinique autorisée et autorisée.",
+          "alt1": "Dr. Özlem Biçer",
+          "title1": "Vidéo du Dr Özlem Biçer"
+        },
+        "professionalAffiliations": {
+          "heading1": "Affiliations professionnelles",
+          "heading2": "Rôles diplomatiques",
+          "paragraph1": "ABHRS",
+          "heading3": "Membres du Conseil",
+          "paragraph2": "AAAM, TSHRS, MESTDER",
+          "heading4": "Rôles des éducateurs",
+          "paragraph3": "Ministère turc de la santé, ABHRS, ISHRS, IAHRS",
+          "heading5": "Membres professionnels",
+          "paragraph4": "TBB, FUE EUROPE, AAAM, TSHRS, MESTDER, MED, MS, TTB"
+        },
+        "links": [
+          "À propos du Dr. Özlem Biçer",
+          "Clinique et équipe",
+          "Prix"
+        ]
+      },
+      "clinicAndTeam": {
+        "clinic": {
+          "heading1": "Clinique"
+        },
+        "clinicTeamHero": {
+          "heading1": "Une expérience",
+          "span1": "Équipe médicale et médicale",
+          "paragraph1": "Notre clinique est soutenue par une équipe hautement expérimentée et dévouée de greffe de cheveux, reconnue pour son expertise médicale et son approche centrée sur le patient. Le Dr Özlem Biçer a plus de 28 ans d'expérience en chirurgie de restauration des cheveux et est un membre fier de la Société internationale de chirurgie de restauration des cheveux (ISHRS). Elle est assistée par une équipe d'infirmières médicales soigneusement sélectionnées, hautement formées et expérimentées qui travaillent ensemble avec précision et cohérence.",
+          "paragraph2": "Contrairement à de nombreux centres de greffe de cheveux, nous croyons que la greffe de cheveux est une procédure médicale qui devrait être effectuée sous la responsabilité directe d'un médecin autorisé. Notre clinique fonctionne conformément à la réglementation médicale et aux normes professionnelles, et fait partie d'un nombre limité de cliniques de greffe de cheveux agréées en Turquie.",
+          "paragraph3": "Pour assurer le plus haut niveau de soins, nous ne traitons qu'un seul patient par jour. La même équipe médicale expérimentée assiste le Dr Biçer dans toutes les procédures, ce qui lui permet de se concentrer, de poursuivre et d'accorder une attention personnalisée. Cette approche nous permet de maintenir un contrôle de qualité rigoureux, de fournir des soins attentifs aux patients et de rechercher des résultats naturels et fiables dans tous les cas.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "clinicVideo": {
+          "alt1": "Clinique"
+        },
+        "title1": "Résultats des patients",
+        "links": [
+          "À propos du Dr. Özlem Biçer",
+          "Clinique et équipe",
+          "Prix"
+        ]
+      },
+      "pricing": {
+        "pricingHero": {
+          "heading1": "Prix",
+          "items": [
+            {
+              "title": "FUE automatisée",
+              "paragraphs": [
+                {
+                  "text": "3 € par greffon"
+                },
+                {
+                  "text": "Jusqu'à 4.000 greffons en une séance"
+                }
+              ]
+            },
+            {
+              "title": "Manuel FUE",
+              "paragraphs": [
+                {
+                  "text": "4€ par greffon"
+                },
+                {
+                  "text": "(jusqu'à 2 000 greffons en une seule séance)"
+                },
+                {
+                  "text": "Pour les séances FUE, le prix a plus/moins 200 greffons."
+                }
+              ]
+            },
+            {
+              "title": "FUT (bandelette)",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Transplantation de la barbe",
+              "paragraphs": [
+                {
+                  "text": "Du cuir chevelu à la barbe : 6 000–9 000 € (selon le nombre de greffons)"
+                },
+                {
+                  "text": "De la barbe au cuir chevelu : 6 000 € (quel que soit le nombre de greffons)"
+                }
+              ]
+            },
+            {
+              "title": "Transplantation des sourcils",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Greffe de cheveux du corps",
+              "paragraphs": [
+                {
+                  "text": "6.000€"
+                }
+              ]
+            },
+            {
+              "title": "Micro-Pigmentation de cuir chevelu (SMP)",
+              "paragraphs": [
+                {
+                  "text": "500€ – 1000€"
+                }
+              ]
+            },
+            {
+              "title": "Traitement PRP",
+              "paragraphs": [
+                {
+                  "text": "Exemptes de certaines chirurgies"
+                }
+              ]
+            },
+            {
+              "title": "Consultation",
+              "paragraphs": [
+                {
+                  "parts": [
+                    "En personne: 100€",
+                    "En ligne : Gratuit"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Modalités et conditions de mise à jour",
+              "paragraphs": [
+                {
+                  "text": "Les séances sont prévues sur approbation du Dr Bicer. Ils sont prévus 1-2 fois par an. Plus de 2 séances peuvent être prévues le même jour."
+                },
+                {
+                  "text": "Retouche libre pour 50-200 greffons (Il est prévu d'éliminer les problèmes causés par un mauvais lavage, des traumatismes crâniens...)"
+                },
+                {
+                  "text": "Jusqu'à 1000 greffons: 2000€"
+                }
+              ]
+            },
+            {
+              "title": "Conditions générales de réduction",
+              "paragraphs": [
+                {
+                  "text": "Médecin/équipe :%10"
+                },
+                {
+                  "text": "Étudiant : %10 (pour les étudiants qui ne travaillent pas)"
+                },
+                {
+                  "text": "Patients du groupe : %10 pour chaque patient"
+                },
+                {
+                  "text": "2 sessions BHT: %15 (si deux sessions sont faites en une journée)"
+                },
+                {
+                  "text": "Rendez-vous de dernière minute:1000€ (Pour les rendez-vous pour un jour spécifique qui est à moins de dix jours. Pour pouvoir supporter des prix de vol chers à la dernière minute)"
+                },
+                {
+                  "text": "Rendez-vous de dernière minute:500€ (pour 10-15 jours)"
+                },
+                {
+                  "text": "Pour la publication des médias (photos et vidéos) dans les études scientifiques, présentations, congrès et articles: 20% (Dr Bicer prend sa propre décision pour ce type de rabais en consultation si le patient est adapté pour ce cas Ex: reconstruction après brûlure)"
+                },
+                {
+                  "text": "Un seul type de rabais est appliqué et le rabais total ne peut pas être supérieur à %20"
+                }
+              ]
+            }
+          ]
+        },
+        "title1": "Résultats des patients",
+        "links": [
+          "À propos du Dr. Özlem Biçer",
+          "Clinique et équipe",
+          "Prix"
+        ]
+      }
+    },
+    "contact": {
+      "contactCards": {
+        "heading1": "Comment prendre rendez-vous",
+        "paragraph1": "Planifier un",
+        "paragraph2": "rendez-vous",
+        "paragraph3": "Depuis 1998, j'ai travaillé sur la restauration des cheveux et les transplantations de cheveux. Ma clinique offre le plus haut niveau de service et d'expertise pour transformer nos patients en réalité. Nous avons bâti une réputation inégalée en offrant à nos patients des résultats supérieurs tout en utilisant la meilleure technologie et en respectant les pratiques médicales les plus sûres.",
+        "paragraph4": "Özlem Biçer, M.D.",
+        "paragraph5": "Consultation",
+        "paragraph6": "en ligne",
+        "paragraph7": "Depuis 1998, j'ai travaillé sur la restauration des cheveux et les transplantations de cheveux. Ma clinique offre le plus haut niveau de service et d'expertise pour transformer nos patients en réalité. Nous avons bâti une réputation inégalée en offrant à nos patients des résultats supérieurs tout en utilisant la meilleure technologie et en respectant les pratiques médicales les plus sûres.",
+        "paragraph8": "Özlem Biçer, M.D.",
+        "paragraph9": "Finalisez votre",
+        "paragraph10": "rendez-vous",
+        "paragraph11": "Depuis 1998, j'ai travaillé sur la restauration des cheveux et les transplantations de cheveux. Ma clinique offre le plus haut niveau de service et d'expertise pour transformer nos patients en réalité. Nous avons bâti une réputation inégalée en offrant à nos patients des résultats supérieurs tout en utilisant la meilleure technologie et en respectant les pratiques médicales les plus sûres.",
+        "paragraph12": "Özlem Biçer, M.D."
+      },
+      "contactForm": {
+        "paragraph1": "Adresse :",
+        "paragraph2": "Istanbul / Turquie",
+        "paragraph3": "Mobile & WhatsApp :",
+        "paragraph4": "E-mail :",
+        "paragraph5": "info@ozlembicer.com",
+        "heading1": "Greffe de cheveux à",
+        "heading2": "Istanbul, Turquie",
+        "paragraph6": "Le Dr. Özlem Biçer apporte plus de 25 ans d'expérience et est un membre estimé de la Société internationale de chirurgie de la restauration des cheveux (ISHRS). Elle est soutenue par une équipe dévouée d'infirmières hautement qualifiées, ce qui fait de nous l'une des équipes de greffe de cheveux les plus réputées et les plus expérimentées du monde.",
+        "span1": "CONTACTEZ-NOUS",
+        "span2": "CONTACTEZ-NOUS",
+        "link1": "info@ozlembicer.com"
+      }
+    },
+    "gallery": {
+      "beforeAfterImages": {
+        "beforeAfterHero": {
+          "heading1": "Résultats des patients",
+          "span1": "Avant et après",
+          "paragraph1": "En tant que clinique, nous accordons de l'importance au suivi post-opératoire et post-opératoire est l'une des parties les plus importantes de la transplantation capillaire. La chirurgie n'est qu'une partie du processus de greffe de cheveux et après le processus utilisant les bons médicaments et fournissant de bons soins pour le receveur et le donneur sont une autre partie importante du processus. Pendant cette période, il est important pour nous d'aller de l'avant avec nos patients et de fournir un à un suivi est une partie très curtuelle de notre clinique. Avec plus de 250 patients satisfaits pendant 28 ans, nous complétons notre pollinisation.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "heading1": "Avant et après",
+        "alt1": "Icône avant-après"
+      },
+      "videoGallery": {
+        "title1": "Vidéos informatives",
+        "title2": "Examens des patients",
+        "title3": "Entretiens avec le Dr Bicer",
+        "links": [
+          "Vidéos informatives",
+          "Examens des patients",
+          "Entretiens avec le Dr Bicer"
+        ],
+        "informativeVideos": [
+          "Existe-t-il une meilleure technique de greffe de cheveux? FUE vs FUT expliqué par le Dr Özlem Biçer"
+        ],
+        "patientReviewVideos": [
+          "Examen des patients - 001",
+          "Examen des patients - 002",
+          "Examen des patients - 003",
+          "Examen des patients - 004",
+          "Examen des patients - 005",
+          "Examen des patients - 006",
+          "Examen des patients - 007",
+          "Examen des patients - 008",
+          "Examen des patients - 009",
+          "Examen des patients - 010",
+          "Examen des patients - 011",
+          "Examen des patients - 012",
+          "Examen des patients - 013",
+          "Examen des patients - 014",
+          "Examen des patients - 015",
+          "Examen des patients - 016",
+          "Examen des patients - 017",
+          "Examen des patients - 018",
+          "Examen des patients - 035"
+        ],
+        "interviewVideos": [
+          "Je veux parler de la restauration des cheveux réussie.",
+          "Dr Özlem Biçer, chirurgien expérimenté en greffe de cheveux à Istanbul",
+          "La vérité chauve : répondez à vos questions sur la perte de cheveux et les transplantations de cheveux",
+          "Entretien avec greffe de cheveux Network",
+          "The Bald Truth – témoignage d’un patient",
+          "Forum Bellicapelli"
+        ]
+      }
+    },
+    "guides": {
+      "afterHairTransplantation": {
+        "afterHairTransplantationDoesItWork": {
+          "heading1": "Principales causes médicales de la perte de cheveux chez les hommes",
+          "paragraph1": "L'alopécie androgénétique est une forme génétique de perte de cheveux causée par l'activité des enzymes 5-alpha réductase de type I et de type II, qui transforment la testostérone en dihydrotestostérone (DHT). Chez les individus génétiquement prédisposés, la DHT se lie aux follicules capillaires sensibles, ce qui entraîne une miniaturisation folliculaire progressive et une perte de cheveux au fil du temps.",
+          "paragraph2": "Les signes typiques sont:",
+          "listItem1": "Ligne de cheveux en retrait:",
+          "listItem2": "Finir la couronne",
+          "listItem3": "Perte progressive de densité dans le temps",
+          "paragraph3": "Cette condition peut commencer peu après la puberté et progresse avec l'âge si elle n'est pas traitée.",
+          "paragraph4": "L'alopécie est une maladie auto-immune dans laquelle le système immunitaire du corps attaque les follicules pileux. Il provoque soudain des taches rondes de perte de cheveux sur le cuir chevelu ou la barbe.",
+          "listItem4": "Il peut se produire à tout âge",
+          "listItem5": "Les cheveux peuvent regrow, mais l'état peut réapparaître",
+          "listItem6": "La greffe de cheveux n'est pas recommandée pendant la phase active de cette affection",
+          "paragraph5": "Une alopécie écarlate survient lorsque les follicules pileux sont endommagés de façon permanente et remplacés par des tissus cicatriciels. Cela peut résulter de:",
+          "listItem7": "Brûlures ou traumatismes",
+          "listItem8": "cicatrices chirurgicales",
+          "listItem9": "Infections",
+          "listItem10": "Certaines maladies inflammatoires de la peau (LPP, FFA, SLE, Acné, Kéloïdes, Nucha, etc.)",
+          "paragraph6": "Une greffe de cheveux dans le tissu cicatriciel peut être possible, mais la survie du greffon peut être plus faible parce que le tissu cicatriciel a réduit la circulation sanguine. Nous n'avons aucune chance d'effectuer une greffe de cheveux au patient qui a une alopécie cicatricielle active.",
+          "paragraph7": "Telogeneffluvium est une forme temporaire de perte de cheveux qui se produit lorsque le stress, la maladie, ou le déséquilibre hormonal provoque un grand nombre de follicules pileux à entrer dans la phase de repos.",
+          "paragraph8": "Cela conduit à une éclaircie diffuse à travers le cuir chevelu. Une fois la cause traitée, les cheveux regrows naturellement.",
+          "paragraph9": "Si vous ressentez une perte soudaine ou rapide de cheveux, ou si vous remarquez la formation de taches chauves, vous devez consulter un médecin. La perte de cheveux peut parfois être associée à des conditions médicales ou auto-immunes sous-jacentes qui nécessitent un diagnostic et un traitement appropriés.",
+          "paragraph10": "Pour obtenir une évaluation précise de votre stade de perte de cheveux et des options de traitement, vous pouvez consulter le Dr Özlem Biçer et son équipe médicale expérimentée. Un diagnostic professionnel garantit que la thérapie ou l'approche de reconstruction la plus appropriée est choisie pour votre cas individuel.",
+          "titleLines1": [
+            "A) Alopécie",
+            "androgénétique"
+          ],
+          "titleLines2": [
+            "B) Alopécie",
+            "areata"
+          ],
+          "titleLines3": [
+            "C) Alopécie",
+            "cicatricielle"
+          ],
+          "titleLines4": [
+            "D) Effluvium",
+            "télogène"
+          ],
+          "titleLines5": [
+            "Chute de cheveux",
+            "soudaine"
+          ],
+          "titleLines6": [
+            "Évaluation professionnelle",
+            "de la chute des cheveux"
+          ]
+        },
+        "afterHairTransplantationHero": {
+          "heading1": "Guide",
+          "span1": "Après la greffe de cheveux",
+          "paragraph1": "En tant que clinique, nous accordons de l'importance au suivi post-opératoire et post-opératoire est l'une des parties les plus importantes de la transplantation capillaire. La chirurgie n'est qu'une partie du processus de greffe de cheveux et après le processus utilisant les bons médicaments et fournissant de bons soins pour le receveur et le donneur sont une autre partie importante du processus. Pendant cette période, il est important pour nous d'aller de l'avant avec nos patients et de fournir un à un suivi est une partie très curtuelle de notre clinique. Avec plus de 250 patients satisfaits pendant 28 ans, nous complétons notre pollinisation."
+        },
+        "alt1": "Étape FUE 1",
+        "alt2": "Étape FUE 2",
+        "alt3": "Étape FUE 3",
+        "alt4": "Étape FUE 4",
+        "alt5": "Étape FUE 5",
+        "title1": "Combien",
+        "title2": "La perte de cheveux est normale ?",
+        "value1": "Il est complètement normal de perdre certains cheveux chaque jour dans le cadre du cycle de croissance des cheveux naturels.",
+        "value2": "Une personne en bonne santé peut perdre jusqu'à 100 poils par jour, et ces cheveux sont normalement remplacés par une nouvelle croissance.",
+        "value3": "Si vous remarquez une excrétion persistante et accrue ou une éclaircie visible, il est recommandé de consulter un spécialiste qualifié de la restauration des cheveux pour l'évaluation.",
+        "links": [
+          "Avant la greffe de cheveux",
+          "Après la greffe de cheveux",
+          "Technologie et greffe de cheveux",
+          "Complications de la chirurgie capillaire",
+          "Foire aux questions"
+        ]
+      },
+      "beforeHairTransplantation": {
+        "beforeHairTransplantationDoesItWork": {
+          "paragraph1": "Avant de programmer l'opération, chaque patient doit subir une évaluation médicale détaillée comprenant :",
+          "listItem1": "Examen des antécédents médicaux",
+          "listItem2": "Évaluation du type et du stade de la perte de cheveux",
+          "listItem3": "Évaluation des capacités des donateurs",
+          "listItem4": "Examen trichoscopique, si nécessaire",
+          "listItem5": "Tests sanguins (à la demande de la clinique)",
+          "paragraph2": "Veuillez informer votre médecin si vous avez:",
+          "listItem6": "Maladies chroniques (diabète, cardiopathie, troubles auto-immuns)",
+          "listItem7": "Affections hématologiques",
+          "listItem8": "Allergies",
+          "listItem9": "Histoire de la mauvaise guérison des plaies",
+          "listItem10": "Procédures antérieures de greffe de cheveux",
+          "paragraph3": "Une information médicale précise est essentielle à votre sécurité.",
+          "paragraph4": "Médicaments à arrêter (s'ils sont approuvés par votre médecin)",
+          "listItem11": "Aspirine et diluants sanguins : arrêter au moins 7 à 10 jours avant la chirurgie",
+          "listItem12": "Anti-inflammatoires (AINS): arrêter 5 à 7 jours avant",
+          "listItem13": "Vitamine E, Oméga-3, ginkgo biloba, ginseng, suppléments d'ail: arrêt 7 jours avant",
+          "listItem14": "Suppléments à base de plantes: arrêt 7-10 jours avant",
+          "listItem15": "Ne pas arrêter les médicaments prescrits sans approbation médicale.",
+          "listItem16": "Fumer doit être arrêté au moins 7 jours avant la chirurgie (idéalement 2 à 4 semaines pour les meilleurs résultats)",
+          "listItem17": "L'alcool doit être évité pendant au moins 3 jours avant l'opération.",
+          "paragraph5": "Le tabagisme et l'alcool réduisent significativement la circulation sanguine, augmentent le risque de saignement et affectent négativement la survie du greffon.",
+          "listItem18": "Laver vos cheveux la nuit avant ou le matin de la chirurgie en utilisant un shampooing doux",
+          "paragraph6": "Ne pas appliquer:",
+          "listItem19": "Gel capillaire",
+          "listItem20": "La cire",
+          "listItem21": "Vaporisateur",
+          "listItem22": "Huiles ou lotions",
+          "listItem23": "Ne pas teindre vos cheveux dans les 7 jours avant la chirurgie",
+          "listItem24": "Évitez les traitements du cuir chevelu ou les massages agressifs avant la chirurgie",
+          "paragraph7": "Si vous subissez une greffe de cheveux non évanouie ou longue, suivez les instructions spécifiques de la clinique.",
+          "listItem25": "Mangez un repas léger mais nutritif le matin de la chirurgie",
+          "listItem26": "Évitez les aliments lourds, gras ou épicés",
+          "listItem27": "Buvez suffisamment d'eau, mais évitez la caféine excessive",
+          "listItem28": "Ne pas venir jeûner à moins d'instructions spécifiques",
+          "listItem29": "Une bonne hydratation permet de maintenir une tension artérielle et une circulation stables pendant la procédure.",
+          "listItem30": "Portez des vêtements confortables et souples",
+          "listItem31": "Choisissez des boutons vers le bas ou des zip-ups (éviter les vêtements qui doivent être tirés sur la tête)",
+          "listItem32": "Ne pas apporter de valeur à la clinique",
+          "paragraph8": "Supprimer :",
+          "listItem33": "Bijoux",
+          "listItem34": "Piercings",
+          "listItem35": "Verres de contact (le cas échéant)",
+          "listItem36": "Organisez votre voyage pour arriver au moins un jour avant l'opération, si possible",
+          "paragraph9": "Assurez-vous que l'hébergement vous permet :",
+          "listItem37": "Dormir confortablement avec l'élévation de la tête",
+          "listItem38": "Repos pour les premiers jours",
+          "listItem39": "Ne planifiez pas de longs vols immédiatement après l'opération, sauf si approuvé",
+          "listItem40": "Passez une bonne nuit à dormir avant la procédure",
+          "listItem41": "Évitez l'exercice physique intense 48 heures avant la chirurgie",
+          "listItem42": "Réduire le stress autant que possible",
+          "listItem43": "Être bien reposé améliore la guérison et le confort général.",
+          "listItem44": "Arrivée à la clinique à l'heure",
+          "listItem45": "La conception des lignes de cheveux et la planification finale seront faites avec votre médecin",
+          "listItem46": "Vous recevrez des informations détaillées sur les étapes de la procédure",
+          "listItem47": "Une anesthésie locale sera appliquée",
+          "listItem48": "La procédure est exécutée pendant que vous êtes éveillé et confortable",
+          "listItem49": "La greffe de cheveux est une procédure médicale",
+          "paragraph10": "Les résultats dépendent de:",
+          "listItem50": "Génétique",
+          "listItem51": "Progression de la perte de cheveux",
+          "listItem52": "Capacité des donateurs",
+          "listItem53": "Soins postopératoires",
+          "listItem54": "L'aspect cosmétique immédiat ne reflète pas les résultats finaux",
+          "listItem55": "La croissance finale est évaluée après 12-15 mois",
+          "listItem56": "Suivre strictement les instructions préopératoires est l'un des facteurs les plus importants pour parvenir à un résultat naturel et réussi.",
+          "titleLines1": [
+            "1. Évaluation médicale",
+            "& consultation"
+          ],
+          "titleLines2": [
+            "2. Médicaments",
+            "& compléments"
+          ],
+          "titleLines3": [
+            "3. Tabac",
+            "& alcool"
+          ],
+          "titleLines4": [
+            "4. Préparation des cheveux",
+            "& du cuir chevelu"
+          ],
+          "titleLines5": [
+            "5. Nutrition",
+            "& hydratation"
+          ],
+          "titleLines6": [
+            "6. Vêtements",
+            "& effets personnels"
+          ],
+          "titleLines7": [
+            "7. Voyage",
+            "& hébergement"
+          ],
+          "titleLines8": [
+            "8. Sommeil",
+            "& hygiène de vie avant l’intervention"
+          ],
+          "titleLines9": [
+            "9. Jour de l’intervention",
+            "À quoi s’attendre ?"
+          ],
+          "titleLines10": [
+            "10. Remarques",
+            "finales importantes"
+          ]
+        },
+        "beforeHairTransplantationHero": {
+          "heading1": "Guide",
+          "span1": "Avant la greffe de cheveux",
+          "paragraph1": "Une bonne préparation avant la greffe de cheveux est essentielle pour la sécurité du patient, la survie du greffon et des résultats optimaux. Veuillez lire et suivre attentivement les instructions ci-dessous."
+        },
+        "alt1": "Étape FUE 1",
+        "alt2": "Étape FUE 2",
+        "alt3": "Étape FUE 3",
+        "alt4": "Étape FUE 4",
+        "alt5": "Étape FUE 5",
+        "links": [
+          "Avant la greffe de cheveux",
+          "Après la greffe de cheveux",
+          "Technologie et greffe de cheveux",
+          "Complications de la chirurgie capillaire",
+          "Foire aux questions"
+        ]
+      }
+    },
+    "hairLoss": {
+      "cousesOfHairLoss": {
+        "femaleHairLoss": {
+          "femaleContent": {
+            "heading1": "GROSSESSE",
+            "paragraph1": "La grossesse est l'une des plus grandes situations stressantes qu'une femme peut infliger à votre corps. Pendant ce temps, les niveaux d'hormones sont complètement différents des temps normaux et causent de nombreux changements dans le corps – et vos cheveux ne gagnent pas l'immunité de cet effet.",
+            "paragraph2": "Pendant la grossesse, il y a une augmentation de l'œstrogène hormonal. L'estrogène fait que vos cheveux restent au stade de croissance du cycle de croissance des cheveux, ainsi que stimuler les cheveux à croître si ce n'est pas déjà. Pendant que vous êtes enceinte, vous devriez vous attendre à avoir une tête pleine, plaisante de cheveux.",
+            "paragraph3": "Pendant la grossesse, le taux d'hormones œstrogènes est augmenté. Lorsque vous êtes enceinte, l'œstrogène fonctionne en gardant vos cheveux dans la phase d'extension du cycle de croissance des cheveux et en favorisant la croissance des cheveux quand il n'est pas déjà à ce niveau. Vous vous attendez à ce que vos cheveux soient volumineux et attrayants même pendant votre grossesse.",
+            "paragraph4": "Mais les choses changent après la naissance. Lorsque vos hormones reviennent à la normale, votre corps sera en état de choc et vous subirez une perte de cheveux sévère.",
+            "paragraph5": "Cela signifie alors que tous les œstrogènes qui ont empêché la perte de cheveux disparaissent et dans ce cas la perte de cheveux commence. Cela peut être malheureux parce que 60% des cheveux peuvent aller dans la dormance en même temps et trop de cheveux peuvent soudainement tomber, mais les cheveux vont pousser de nouveau. La perte de cheveux causée par la grossesse est une forme spéciale d'effluvium télogène.",
+            "heading2": "SYNDROME DES OVAIRES POLYKYSTIQUES",
+            "paragraph6": "Le syndrome d'ovaire polykystique – ou PKOS – particulièrement efficace sur votre équilibre hormonal – provoque des déséquilibres hormonaux car il s'agit d'un trouble hormonal. Les femmes atteintes de PKOS présentent des taux élevés d'androgène, de testostérone et de dihydrotestostérone (DHT). La perte de cheveux causée par le DHT est fréquente chez les femmes avec le PKOS.",
+            "paragraph7": "Lorsque des niveaux élevés d'androgènes – en particulier le DHT – sont sur les follicules capillaires, ils commencent à affecter les cheveux, causant une perte de cheveux. DHT peut obstruer le follicule pileux et empêcher la formation de nouveaux cheveux. C'est essentiellement une autre forme d'alopécie androgénétique.",
+            "heading3": "MÉNOPAUSE",
+            "paragraph8": "La ménopause a une myriade d'effets sur votre corps et les cheveux, entraînant une diminution des niveaux d'œstrogènes. En plus des éclairs chauds, attendez-vous à des sautes d'humeur et des augmentations soudaines des cheveux du visage – rétractation de la ligne de cheveux et augmentation de la perte de cheveux. Ceci est dû à une diminution des concentrations d'œstrogènes. Puisque l'œstrogène maintient vos cheveux dans sa phase de croissance, de faibles niveaux font que les cheveux raccourcissent son cycle de croissance et des touffes de cheveux à tomber avant qu'ils atteignent la longueur réalisable.",
+            "heading4": "ANÉMIE",
+            "paragraph9": "L'anémie est un trouble du sang causé par une carence en fer. Le fer est un nutriment incroyablement important pour vos cheveux. L'anémie est généralement causée par un manque d'aliments riches en fer dans votre alimentation ou lorsque vos cellules n'absorbent pas le fer correctement. Si vous avez remarqué que vous avez des cheveux éclaircis, il peut être utile de parler à votre médecin d'abord pour voir si vous êtes anémique à quelque degré que ce soit. Les niveaux de fer peuvent être corrigés par une forme de supplément de fer et de changement alimentaire.",
+            "paragraph10": "Le fer est important pour les cheveux car il contient de la ferritine, un fer stocké qui aide à produire des protéines de cellules capillaires. Les niveaux de ferritine droite maximiseront également la phase analgénique (croissance) de vos cheveux et encourageront la croissance des cheveux à la bonne longueur.",
+            "heading5": "Autres causes de la perte de cheveux",
+            "paragraph11": "Pour en savoir plus sur le type de perte de cheveux que vous pouvez vivre et les solutions disponibles, réservez une consultation pour une évaluation détaillée.",
+            "heading6": "Qu'est-ce que l'échelle Ludwig",
+            "paragraph12": "Motif de la calvitie du motif féminin",
+            "paragraph13": "Les cliniciens utilisent la classification Ludwig pour décrire la perte de cheveux chez les femmes. Type I est une dilution minimale qui peut être camouflée en utilisant des techniques de coiffure. Le type II se caractérise par un volume plus petit et une diffusion significative de la partie médiane. Type III décrit l'éclaircie diffuse avec un aspect transparent sur le dessus du cuir chevelu.",
+            "heading7": "Conseils pour aider les femmes à repérer les premiers signes",
+            "paragraph14": "Les cheveux tombent plus que d'habitude pendant plus de deux mois – peut-être lors du lavage, du brossage ou sur les oreillers et les vêtements. Il est normal de perdre jusqu'à 100 cheveux par jour, donc si vous laissez plus de jours entre les lavages de cheveux que vous le faites normalement, la quantité de perte de cheveux que vous voyez sera plus notable.",
+            "paragraph15": "De la queue de cheval.",
+            "paragraph16": "Le cuir chevelu devient plus visible ou les cheveux ont moins de volume qu'avant.",
+            "paragraph17": "Les cheveux ne poussent pas aussi longtemps qu'auparavant.",
+            "paragraph18": "Les extrémités sont plus fines que d'habitude, mais elles ne se brisent pas. Beaucoup de nouveaux poils peuvent également pousser hors du cuir chevelu en différentes longueurs.",
+            "paragraph19": "Vos cheveux deviendront progressivement plus fins dans les zones avant, couronne ou temple de votre cuir chevelu.",
+            "paragraph20": "Croissance excessive des cheveux sur d'autres parties du corps, comme le visage, la poitrine ou les bras.",
+            "heading8": "Greffe de cheveux chez les femmes",
+            "paragraph21": "La perte de cheveux et la calvitie sont des problèmes dont souffrent également les femmes. La greffe de cheveux est l'une des solutions possibles pour ces problèmes. Cependant, la greffe de cheveux ne serait pas la première solution pour les femmes. Parce que la cause de la perte de cheveux chez les femmes ne serait pas l'alopécie androgénétique qui est la principale cause de calvitie chez les hommes, mais aurait des déséquilibres hormonaux et alimentaires ou des maladies auto-immunes. La calvitie causée par les changements hormonaux, par contre, est plus fréquente que l'alopécie androgénétique. Pour cette raison, avant de planifier la greffe de cheveux, une analyse doit être effectuée pour voir les valeurs des hormones qui affectent les cheveux et le cuir chevelu. Si une cause hormonale n'est pas observée et que le résultat de l'analyse indique une alopécie androgénétique. Le patient est apte à subir une greffe de cheveux. À ce stade, le facteur le plus important à prêter attention à est la méthode de greffe de cheveux effectuée sur les femmes. La méthode la plus utilisée et préférée par les femmes est la greffe de cheveux sans rasage. Dans cette méthode, il y a trois options offertes au patient : greffe de cheveux avec rasage partiel, FUT ou FUE sans rasage. Chacune de ces méthodes présente des inconvénients et des avantages. Par exemple, dans la méthode FUT, le nombre de greffons extraits est plus limité que dans la méthode FUE. Dans la greffe de cheveux avec rasage partiel, le patient doit attendre que les cheveux rasés repoussent pour atteindre la longueur des cheveux non rasés. Cette période serait désagréable. Bien que la greffe de cheveux non rasés soit une méthode plus préférée pour les femmes, il s'agit d'une procédure plus coûteuse et présenterait un risque d'infection. Dans tous les types d'opérations, le médecin doit minimiser les risques et les complications.",
+            "alt1": "Femme souffrant de perte de cheveux",
+            "alt2": "Échelle de Ludwig pour la perte de cheveux féminine",
+            "alt3": "Femme souffrant de perte de cheveux"
+          },
+          "femaleHairLossHero": {
+            "heading1": "Femmes",
+            "span1": "Perte de cheveux",
+            "paragraph1": "Environ un tiers des femmes subiront une perte de cheveux (alopécie) à un moment donné de leur vie; Après la ménopause, les deux tiers des femmes ont des taches d'éclaircissement ou de calvitie sur la tête. Contrairement aux hommes, la perte de cheveux est très efficace chez les femmes parce qu'elle est moins socialement acceptable pour les femmes. L'alopécie peut affecter sérieusement la santé émotionnelle et la qualité de vie d'une femme.",
+            "paragraph2": "À la clinique du docteur Özlem Biçer, nous comprenons combien une femme a confiance en soi est causée par la perte de cheveux. Mais avant de commencer le voyage de retrouver la confiance en soi, il est important de déterminer quel type de perte de cheveux vous faites face. Après avoir déterminé la nature de votre exposition, votre médecin commencera à envisager un traitement et, dans certains cas, une greffe de cheveux. Afin de protéger la santé émotionnelle du patient, la greffe de cheveux effectuée par le docteur Özlem Biçer est effectuée sans rasage complet de la tête. Il est donc incompréhensible que vous ayez eu une greffe de cheveux.",
+            "paragraph3": "Il existe généralement trois types de perte de cheveux chez les femmes. Ceux-ci sont regroupés en trois catégories : alopécie androgénétique, effluvie télogène et perte anormale de cheveux. L'alopécie androgénétique est la principale cause de perte de cheveux chez les femmes et dans ce cas, la perte de cheveux chez les femmes est moins prévisible que chez les hommes. L'effluvium télogène peut être déclenché par la consommation de médicaments, le régime alimentaire et le stress. Ensuite, il y a les autres types rares de perte de cheveux qui tombent dans la catégorie de la perte de cheveux non normale.",
+            "paragraph4": "Les causes de la perte de cheveux chez les femmes",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Résultats des patients",
+          "links": [
+            "Perte de cheveux chez les hommes",
+            "Perte de cheveux féminine"
+          ]
+        },
+        "maleHairLoss": {
+          "maleHairDoesItWork": {
+            "heading1": "Principales causes médicales de la perte de cheveux chez les hommes",
+            "paragraph1": "L'alopécie androgénétique est une forme génétique de perte de cheveux causée par l'activité des enzymes 5-alpha réductase de type I et de type II, qui transforment la testostérone en dihydrotestostérone (DHT). Chez les individus génétiquement prédisposés, la DHT se lie aux follicules capillaires sensibles, ce qui entraîne une miniaturisation folliculaire progressive et une perte de cheveux au fil du temps.",
+            "paragraph2": "Les signes typiques sont:",
+            "listItem1": "Relèvement de la ligne de cheveux",
+            "listItem2": "Finir la couronne",
+            "listItem3": "Perte progressive de densité dans le temps",
+            "paragraph3": "Cette condition peut commencer peu après la puberté et progresse avec l'âge si elle n'est pas traitée.",
+            "paragraph4": "L'alopécie est une maladie auto-immune dans laquelle le système immunitaire du corps attaque les follicules pileux. Il provoque soudain des taches rondes de perte de cheveux sur le cuir chevelu ou la barbe.",
+            "listItem4": "Il peut se produire à tout âge",
+            "listItem5": "Les cheveux peuvent regrow, mais l'état peut réapparaître",
+            "listItem6": "La greffe de cheveux n'est pas recommandée pendant la phase active de cette affection",
+            "paragraph5": "Une alopécie écarlate survient lorsque les follicules pileux sont endommagés de façon permanente et remplacés par des tissus cicatriciels. Cela peut résulter de:",
+            "listItem7": "Brûlures ou traumatismes",
+            "listItem8": "cicatrices chirurgicales",
+            "listItem9": "Infections",
+            "listItem10": "Certaines maladies inflammatoires de la peau (LPP, FFA, SLE, Acné, Kéloïdes, Nucha, etc.)",
+            "paragraph6": "Une greffe de cheveux dans le tissu cicatriciel peut être possible, mais la survie du greffon peut être plus faible parce que le tissu cicatriciel a réduit la circulation sanguine. Nous n'avons aucune chance d'effectuer une greffe de cheveux au patient qui a une alopécie cicatricielle active.",
+            "paragraph7": "Telogeneffluvium est une forme temporaire de perte de cheveux qui se produit lorsque le stress, la maladie, ou le déséquilibre hormonal provoque un grand nombre de follicules pileux à entrer dans la phase de repos.",
+            "paragraph8": "Cela conduit à une éclaircie diffuse à travers le cuir chevelu. Une fois la cause traitée, les cheveux regrows naturellement.",
+            "paragraph9": "Si vous ressentez une perte soudaine ou rapide de cheveux, ou si vous remarquez la formation de taches chauves, vous devez consulter un médecin. La perte de cheveux peut parfois être associée à des conditions médicales ou auto-immunes sous-jacentes qui nécessitent un diagnostic et un traitement appropriés.",
+            "paragraph10": "Pour obtenir une évaluation précise de votre stade de perte de cheveux et des options de traitement, vous pouvez consulter le Dr Özlem Biçer et son équipe médicale expérimentée. Un diagnostic professionnel garantit que la thérapie ou l'approche de reconstruction la plus appropriée est choisie pour votre cas individuel.",
+            "titleLines1": [
+              "A) Alopécie",
+              "androgénétique"
+            ],
+            "titleLines2": [
+              "B) Alopécie",
+              "areata"
+            ],
+            "titleLines3": [
+              "C) Alopécie",
+              "cicatricielle"
+            ],
+            "titleLines4": [
+              "D) Effluvium",
+              "télogène"
+            ],
+            "titleLines5": [
+              "Chute de cheveux",
+              "soudaine"
+            ],
+            "titleLines6": [
+              "Évaluation professionnelle",
+              "de la chute des cheveux"
+            ]
+          },
+          "maleHairLossHero": {
+            "heading1": "Hommes",
+            "span1": "Perte de cheveux",
+            "paragraph1": "La perte de cheveux chez les hommes est une condition très commune et peut avoir de nombreuses causes différentes. Avant de commencer tout traitement, il est essentiel de déterminer la raison sous-jacente de la perte de cheveux afin que la solution la plus appropriée et efficace puisse être choisie.",
+            "paragraph2": "Par exemple, si un patient a un trouble hormonal tel que l'hyperthyroïdie, cette condition médicale doit être traitée en premier. Dans d'autres cas, les carences en vitamines ou minéraux peuvent contribuer à la perte de cheveux et peuvent être gérées avec une supplémentation appropriée.",
+            "paragraph3": "Il existe plusieurs traitements médicaux et de soutien pour la perte de cheveux masculine, y compris:",
+            "listItem1": "Traitement PRP (plasme plaquettaire-rich)",
+            "listItem2": "Mésothérapie",
+            "listItem3": "Médicaments tels que le minoxidil topique ou le finastéride oral",
+            "listItem4": "Soutien nutritionnel et hormonal",
+            "listItem5": "Thérapies de cellules souches",
+            "listItem6": "Exosome",
+            "paragraph4": "Toutefois, il est important de comprendre que:",
+            "paragraph5": "La greffe de cheveux n'arrête pas ou ne guérit pas la perte de cheveux. C'est une procédure de reconstruction effectuée seulement lorsque la perte de cheveux s'est stabilisée.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "norwoodScale": {
+            "heading1": "Échelle Norwood",
+            "paragraph1": "Mesure de la calvitie masculine",
+            "paragraph2": "L'échelle Norwood est l'outil le plus utilisé pour évaluer et classer la calvitie masculine, aussi connue sous le nom d'alopécie androgénétique. Il aide les médecins et les patients à comprendre la gravité et la progression de la perte de cheveux chez les hommes.",
+            "paragraph3": "Auparavant appelée échelle Hamilton–Norwood, elle est maintenant connue sous le nom d'échelle Norwood.",
+            "paragraph4": "Le système de classification a été introduit par le Dr James Hamilton dans les années 1950. Il a ensuite été affiné et élargi par le Dr. O=Tar Norwood dans les années 1970, qui a adapté l'échelle spécifiquement pour l'évaluation de la perte de cheveux de motif masculin.",
+            "paragraph5": "Aujourd'hui, elle demeure la référence standard pour le diagnostic du stade de l'alopécie androgénétique.",
+            "paragraph6": "L'échelle Norwood est utilisée pour déterminer à quel point une perte de cheveux patient est avancée. Il fournit une référence visuelle et clinique, permettant au médecin et au patient de comparer la ligne de cheveux et la couronne avec des stades normalisés.",
+            "paragraph7": "L'échelle classe la perte de cheveux en sept étapes principales (type I à type VII), allant de:",
+            "listItem1": "Perte minimale ou aucune perte de cheveux grave affectant le haut entier du cuir chevelu",
+            "paragraph8": "Un miroir ou une évaluation professionnelle est recommandé pour comparer avec précision vos cheveux à l'échelle.",
+            "alt1": "Échelle de Norwood pour la perte de cheveux masculine",
+            "titleLines1": [
+              "Qu’est-ce que",
+              "l’échelle de Norwood ?"
+            ],
+            "titleLines2": [
+              "Qui a développé",
+              "l’échelle de Norwood ?"
+            ],
+            "titleLines3": [
+              "Comment utilise-t-on",
+              "l’échelle de Norwood ?"
+            ]
+          },
+          "title1": "Combien",
+          "title2": "La perte de cheveux est normale ?",
+          "value1": "Il est complètement normal de perdre certains cheveux chaque jour dans le cadre du cycle de croissance des cheveux naturels.",
+          "value2": "Une personne en bonne santé peut perdre jusqu'à 100 poils par jour, et ces cheveux sont normalement remplacés par une nouvelle croissance.",
+          "value3": "Si vous remarquez une excrétion persistante et accrue ou une éclaircie visible, il est recommandé de consulter un spécialiste qualifié de la restauration des cheveux pour l'évaluation.",
+          "title3": "Résultats des patients",
+          "links": [
+            "Perte de cheveux chez les hommes",
+            "Perte de cheveux féminine"
+          ]
+        }
+      },
+      "treatmentsOfHairLoss": {
+        "hairMesotherapy": {
+          "hairMesotherapyDoesItWork": {
+            "paragraph1": "Les résultats durent, cependant nous recommandons des traitements d'entretien réguliers.",
+            "paragraph2": "La mésothérapie capillaire arrête la perte de cheveux. La qualité des cheveux s'améliorera considérablement.",
+            "heading1": "Pourquoi choisir la mésothérapie capillaire?",
+            "paragraph3": "Il donne des résultats progressifs et est très efficace Il est sûr, sans effets secondaires. Il faut peu ou pas de temps de récupération après le traitement (la rougeur causée par les microinjections peut durer jusqu'à un jour).",
+            "titleLines1": [
+              "Les résultats sont-ils",
+              "durables ?"
+            ],
+            "titleLines2": [
+              "Quels sont les résultats",
+              "de la mésothérapie capillaire ?"
+            ]
+          },
+          "hairMesotherapyHero": {
+            "heading1": "Cheveux",
+            "span1": "Mésothérapie",
+            "paragraph1": "La mésothérapie est une technique dans laquelle des quantités microscopiques de médicaments, vitamines, minéraux et acides aminés (Vasodilatateur et DHT Blockers) sont administrés aux couches supérieure et moyenne de la peau du cuir chevelu pour traiter la perte de cheveux et augmenter la qualité des cheveux existants en stimulant la régénération des cheveux.",
+            "paragraph2": "Cette méthode a obtenu une reconnaissance spéciale dans le domaine de la médecine esthétique car elle est l'une des techniques non chirurgicales les plus efficaces pour traiter le cuir chevelu. En fait, aucune crème ou sérum ne peut fournir les ingrédients actifs biologiques dans les cellules du cuir chevelu et activer le métabolisme des cheveux aussi efficacement que la mésothérapie.",
+            "paragraph3": "La technique des micro-injections avec mésothérapie Cette technique consiste en l'administration d'un cocktail mésothérapie au moyen de microinjections intra-dermiques, plaçant les nutriments directement dans les tissus dermiques.",
+            "paragraph4": "L'aiguille crée également des micro perforations qui induisent les tissus impliqués dans un processus de guérison, qui stimule le cuir chevelu à produire du collagène et de l'élastine, deux des principaux éléments constitutifs de la peau.",
+            "paragraph5": "La procédure prend environ 10 séances de 15 minutes chacune pour obtenir les effets souhaités. Quelles sont les périodes de récupération après le traitement? Le traitement ne nécessite aucun temps de récupération.",
+            "paragraph6": "La plupart des personnes qui suivent ce traitement reviennent immédiatement à leurs activités normales après l'intervention sans aucun effet indésirable.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Résultats des patients",
+          "links": [
+            "Mésothérapie des cheveux",
+            "Traitement des cheveux PRP",
+            "Traitement des cellules souches",
+            "Traitement par Trichopat"
+          ]
+        },
+        "prpHair": {
+          "prpHairDoesItWork": {
+            "alt1": "Greffe de cheveux FUE",
+            "benefits": {
+              "title": [
+                "Avantages",
+                "PRP Traitement"
+              ],
+              "content": [
+                {
+                  "type": "paragraphe",
+                  "value": "Il y a d'innombrables raisons pour lesquelles un nombre croissant de personnes optent pour la thérapie PRP et pourquoi les médecins suggèrent également la même chose. Ce sont :"
+                },
+                {
+                  "type": "liste",
+                  "value": [
+                    "Le sérum injecté dans le cuir chevelu est fait en utilisant votre propre sang, c'est pourquoi vous n'avez vraiment rien à craindre. Puisque votre propre sang est utilisé, les chances du corps de le rejeter sont minimes et c'est aussi pourquoi les chances de succès sont plus élevées.",
+                    "Puisque votre sang sera utilisé, il n'y a aucune chance d'infection ou d'allergie, ce qui augmente exponentiellement les chances de succès.",
+                    "La procédure implique une série d'injections de cuir chevelu administrées selon le plan de traitement. L'anesthésie locale peut être utilisée en fonction des besoins du patient et de l'évaluation du médecin.",
+                    "Même si la thérapie ne peut pas vous donner le genre de résultats que vous auriez attendus, sûrement grâce à cette thérapie, vous n'aurez pas d'autres pertes de cheveux."
+                  ]
+                }
+              ]
+            },
+            "procedure": {
+              "title": [
+                "Procédure des",
+                "PRP Traitement"
+              ],
+              "content": [
+                {
+                  "type": "paragraphe",
+                  "value": "Lorsque vous cherchez une méthode efficace pour l'augmentation des cheveux, une transplantation peut être la meilleure solution, mais la thérapie PRP peut certainement être utile à long terme. Les injections peuvent favoriser la croissance des cheveux et assurer une production adéquate de collagène."
+                },
+                {
+                  "type": "paragraphe",
+                  "value": "La procédure est assez simple: le sang est prélevé de votre corps et placé dans une centrifugeuse, dans laquelle le plasma riche en plaquettes est séparé du reste des éléments. Ce plasma est ensuite traité avec des facteurs de croissance et prêt à être injecté."
+                }
+              ]
+            }
+          },
+          "prpHairHero": {
+            "heading1": "Ce qui est",
+            "span1": "PRP ?",
+            "paragraph1": "plasma riche en plaquettes (PRP) est un traitement non chirurgical, autologue utilisé pour soutenir la santé des cheveux et ralentir la perte de cheveux, en particulier chez les patients qui ne sont pas encore prêts pour la greffe de cheveux ou qui souhaitent améliorer les résultats du traitement. Le PRP est préparé à partir du sang du patient et contient une forte concentration de plaquettes et de facteurs de croissance qui jouent un rôle clé dans la guérison et la régénération des tissus.",
+            "paragraph2": "Le traitement par PRP a montré des résultats prometteurs chez les patients présentant une perte de cheveux au début ou en cours, où l'amincissement des cheveux a commencé mais une calvitie complète n'a pas encore évolué. En tant que traitement autonome de la perte de cheveux, PRP est généralement effectué une fois par mois pendant trois sessions consécutives.",
+            "paragraph3": "Les plaquettes contiennent d'importants composants intracellulaires tels que les granules alpha, les lysosomes et le glycogène, qui libèrent des facteurs de croissance qui stimulent la réparation cellulaire, améliorent l'approvisionnement en sang et soutiennent l'activité folliculaire. Pour cette raison, PRP est également très précieux lors de la greffe de cheveux. À la clinique du Dr Özlem Biçer, PRP est utilisé comme solution de maintien pour les unités folliculaires pendant la phase de transfert, aidant à minimiser la déshydratation du greffon, raccourcir le temps hors du corps et augmenter les taux de survie du greffon.",
+            "paragraph4": "PRP est un traitement de soutien sûr et efficace lorsqu'il est effectué sous surveillance médicale et est souvent combiné avec la greffe de cheveux pour optimiser la guérison et les résultats à long terme.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Résultats des patients",
+          "links": [
+            "Mésothérapie des cheveux",
+            "Traitement des cheveux PRP",
+            "Traitement des cellules souches",
+            "Traitement par Trichopat"
+          ]
+        },
+        "stampCellTreatment": {
+          "stampCellTreatmentDoesItWork": {
+            "paragraph1": "Les traitements à base de cellules souches offrent de multiples avantages biologiques pour les cheveux transplantés et existants:",
+            "listItem1": "Améliore la vascularisation et l'oxygénation du cuir chevelu",
+            "listItem2": "Stimule la régénération et la réparation folliculaires",
+            "listItem3": "Prolonge la phase anagène (croissance) des cheveux",
+            "listItem4": "Réduit la perte de cheveux",
+            "listItem5": "Augmente l'épaisseur et la qualité des cheveux",
+            "listItem6": "Soutient la guérison plus rapide après la greffe de cheveux",
+            "listItem7": "Améliore la survie et les résultats globaux de la transplantation",
+            "listItem8": "Utilise le matériel biologique propre au patient, minimisant le risque d'allergie",
+            "paragraph2": "La thérapie par cellules souches est considérée comme un rappel biologique, et non comme un substitut de la transplantation capillaire dans la calvitie avancée.",
+            "paragraph3": "Les cellules souches libèrent un large éventail de facteurs de croissance, de cytokines et de molécules signalantes qui influencent l'activité folliculaire des cheveux. Lorsqu'elles sont appliquées sur le cuir chevelu, ces substances bioactives:",
+            "listItem9": "Activer les cellules souches du follicule pileux",
+            "listItem10": "Stimuler les cellules papillaires cutanées",
+            "listItem11": "Augmenter la production de collagène et de matrice extracellulaire",
+            "listItem12": "Améliorer l'approvisionnement en sang autour des follicules capillaires",
+            "listItem13": "Soutenir la réparation des tissus et réduire l'inflammation",
+            "paragraph4": "Dans la greffe de cheveux, la thérapie des cellules souches contribue à créer un environnement cuir chevelu plus sain, qui est essentiel pour la croissance à long terme des cheveux et la survie du greffon.",
+            "paragraph5": "La procédure comprend généralement les étapes suivantes:",
+            "listItem14": "Récolte",
+            "paragraph6": "Une petite quantité de tissu (généralement du tissu adipeux ou du matériel folliculaire riche en cellules souches) est recueillie dans des conditions stériles.",
+            "listItem15": "Traitement",
+            "paragraph7": "L'échantillon est traité pour isoler les fractions riches en cellules souches ou les composants cellulaires régénératifs.",
+            "listItem16": "Demande",
+            "paragraph8": "La solution préparée est appliquée ou injectée dans des zones cibles du cuir chevelu ou utilisée pendant la greffe de cheveux pour soutenir les greffes et les tissus receveurs.",
+            "paragraph9": "La procédure est minimalement invasive et effectuée sous surveillance médicale.",
+            "paragraph10": "La thérapie par cellules souches fournit un soutien biologique à long terme, mais les résultats ne sont pas permanents parce que la perte de cheveux est souvent progressive et génétique.",
+            "listItem17": "Une amélioration initiale est généralement observée dans les 3 à 6 mois",
+            "listItem18": "Les résultats peuvent durer de 12 à 24 mois",
+            "paragraph11": "Les séances d'entretien peuvent être recommandées selon:",
+            "listItem19": "Type de perte de cheveux",
+            "listItem20": "Prédisposition génétique",
+            "listItem21": "Combinaison avec des traitements médicaux",
+            "paragraph12": "Un plan de suivi personnalisé est essentiel.",
+            "paragraph13": "La thérapie par cellules souches convient le mieux aux patients qui:",
+            "listItem22": "Avoir tôt à modéré éclaircissement des cheveux",
+            "listItem23": "Voulez ralentir la perte de cheveux",
+            "listItem24": "Désirent renforcer les cheveux existants",
+            "listItem25": "Prévoyez une greffe de cheveux et souhaitez optimiser les résultats",
+            "listItem26": "Ont subi une greffe de cheveux et veulent un soutien supplémentaire",
+            "listItem27": "Préférez les traitements biologiques et régénératifs",
+            "paragraph14": "Il n'est pas efficace en tant que solution autonome pour les zones complètement chauves sans follicules viables.",
+            "paragraph15": "Oui. Le traitement par cellules souches est fréquemment utilisé:",
+            "listItem28": "Avant la chirurgie pour améliorer l'état du cuir chevelu",
+            "listItem29": "Pendant la chirurgie pour soutenir la survie du greffon",
+            "listItem30": "Après la chirurgie pour accélérer la guérison et améliorer la croissance",
+            "listItem31": "A côté du PRP ou des traitements médicaux pour effets synergiques",
+            "paragraph16": "Cette approche combinée permet d'obtenir des résultats plus naturels, durables et de meilleure qualité.",
+            "titleLines1": [
+              "Avantages de la",
+              "thérapie par cellules souches"
+            ],
+            "titleLines2": [
+              "Comment fonctionne",
+              "la thérapie par cellules souches ?"
+            ],
+            "titleLines3": [
+              "Comment est réalisée",
+              "la thérapie par cellules souches ?"
+            ],
+            "titleLines4": [
+              "Combien de temps durent",
+              "les résultats ?"
+            ],
+            "titleLines5": [
+              "À qui convient",
+              "la thérapie par cellules souches ?"
+            ],
+            "titleLines6": [
+              "Peut-on associer la thérapie par cellules souches",
+              "à une greffe de cheveux ?"
+            ]
+          },
+          "stampCellTreatmentHero": {
+            "heading1": "Ce qui est",
+            "span1": "Une cellule souches ?",
+            "paragraph1": "La thérapie par cellules souches dans la transplantation capillaire est un traitement régénératif et de soutien conçu pour améliorer la santé du cuir chevelu, renforcer les follicules capillaires existants et améliorer les résultats des procédures de restauration capillaire. Dans la pratique clinique des cheveux, cette thérapie n'implique pas de cellules souches embryonnaires; elle utilise plutôt des cellules souches adultes autologues obtenues à partir des propres tissus du patient, le plus souvent à partir de tissus adipeux (graisses) ou de moelle osseuse, ou des extraits riches en cellules souches dérivés de follicules pileux.",
+            "paragraph2": "L'objectif principal de la thérapie des cellules souches est de stimuler les follicules capillaires dormants ou affaiblis, d'améliorer le microenvironnement du cuir chevelu et de soutenir la croissance naturelle des cheveux et la survie du greffon.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Résultats des patients",
+          "links": [
+            "Mésothérapie des cheveux",
+            "Traitement des cheveux PRP",
+            "Traitement des cellules souches",
+            "Traitement par Trichopat"
+          ]
+        },
+        "trichopatTreatment": {
+          "trichopatTreatmentDoesItWork": {
+            "paragraph1": "TRICOPAT® offre plusieurs avantages cliniquement prouvés:",
+            "listItem1": "Réduit la perte de cheveux",
+            "listItem2": "Augmente la densité des cheveux et le diamètre de l'arbre des cheveux",
+            "listItem3": "Améliore la microcirculation et l'oxygénation du cuir chevelu",
+            "listItem4": "Stimule le métabolisme cellulaire et la régénération des follicules",
+            "listItem5": "Soutient et prolonge la phase de croissance des cheveux",
+            "listItem6": "Application sans aiguille",
+            "listItem7": "Convient aux hommes et aux femmes",
+            "listItem8": "Peut être utilisé seul ou en association avec une thérapie médicale ou une greffe de cheveux",
+            "paragraph2": "Les études cliniques ont montré une amélioration significative après seulement quatre séances, avec une excellente satisfaction du patient et aucun effet indésirable grave rapporté.",
+            "paragraph3": "TRICOPAT® combine plusieurs technologies de pointe en un seul appareil :",
+            "span1": "Incision microdermique contrôlée (Skin Patting®)",
+            "paragraph4": "Crée des microcanaux très superficiels (0.25 mm) qui activent la peau sans causer de cicatrices ou de traumatismes aux mécanismes environnants sans causer de cicatrices.",
+            "span2": "Ondes de pression",
+            "paragraph5": "Microcirculation du cuir chevelu, oxygénation tissulaire et métabolisme cellulaire.",
+            "span3": "Iontophorèse",
+            "paragraph6": "Utilise un courant électrique doux pour fournir des facteurs de croissance préformés profondément dans les follicules pileux, augmentant ainsi leur efficacité.",
+            "span4": "Électrostimulation et stimulation photo LED",
+            "paragraph7": "Soutenir l'activation des fibroblastes, la synthèse du collagène et de l'élastine, et fournir un effet anti-inflammatoire.",
+            "paragraph8": "Ensemble, ces mécanismes permettent aux facteurs de croissance d'atteindre efficacement le follicule, ce qui réduit la perte de cheveux et renforce les cheveux plus épais.",
+            "paragraph9": "Le protocole TRICOPAT® standard comprend:",
+            "listItem9": "Quatre sessions",
+            "listItem10": "Une fois toutes les 3 semaines",
+            "listItem11": "Chaque session dure environ 20 à 25 minutes.",
+            "paragraph10": "Il a été démontré que ce protocole produit une amélioration clinique et trichoscopique visible chez les hommes et les femmes.",
+            "paragraph11": "Les résultats TRICOPAT® sont durables mais non permanents, car la perte de cheveux est souvent progressive.",
+            "paragraph12": "La plupart des patients maintiennent leurs résultats avec:",
+            "listItem12": "sessions d'entretien périodiques, ou",
+            "listItem13": "Combinaison avec des traitements médicaux (tels que thérapies topiques ou orales)",
+            "paragraph13": "Votre médecin va concevoir un plan d'entretien personnalisé basé sur votre diagnostic et la perte de cheveux.",
+            "paragraph14": "TRICOPAT® convient particulièrement aux patients qui:",
+            "listItem14": "Sont aux premiers ou modérés stades de la perte de cheveux",
+            "listItem15": "Expérience de l'effluvium télogène",
+            "listItem16": "Avoir une alopécie androgénétique (mâle ou femelle)",
+            "listItem17": "Vous souhaitez un traitement non invasif sans injection",
+            "listItem18": "Désirez améliorer les résultats de la thérapie médicale ou de la greffe de cheveux",
+            "paragraph15": "Une évaluation médicale et trichoscopique détaillée est essentielle pour déterminer la candidature.",
+            "paragraph16": "Oui. TRICOPAT® peut être utilisé:",
+            "listItem19": "Avant la greffe de cheveux pour améliorer la qualité du cuir chevelu",
+            "listItem20": "Après greffe de cheveux pour soutenir la guérison et la vitalité du greffon",
+            "listItem21": "En tant que thérapie de soutien à long terme pour protéger les cheveux indigènes",
+            "titleLines1": [
+              "Quels sont les",
+              "avantages de TRICOPAT® ?"
+            ],
+            "titleLines2": [
+              "Comment fonctionne",
+              "TRICOPAT® ?"
+            ],
+            "titleLines3": [
+              "Combien de",
+              "séances sont nécessaires ?"
+            ],
+            "titleLines4": [
+              "Combien de temps durent",
+              "les résultats ?"
+            ],
+            "titleLines5": [
+              "À qui convient",
+              "TRICOPAT® ?"
+            ],
+            "titleLines6": [
+              "Peut-on associer TRICOPAT®",
+              "à une greffe de cheveux ?"
+            ]
+          },
+          "trichopatTreatmentHero": {
+            "heading1": "Ce qui est",
+            "span1": "Tricopat ?",
+            "paragraph1": "TRICOPAT® est un dispositif médical breveté et non invasif développé en Italie pour le traitement de la perte de cheveux et des troubles du cuir chevelu. Il est validé scientifiquement pour les patients hommes et femmes et est utilisé dans des conditions telles que l'alopécie androgénétique et l'effluvium télogène. La technologie est basée sur le protocole TRICOGENESI®, qui fournit des facteurs de croissance dans le cuir chevelu sans injection ni chirurgie, en faisant un traitement confortable alternative ou de soutien à la thérapie médicale et la greffe de cheveux.",
+            "alt1": "Dr. Özlem Biçer"
+          },
+          "title1": "Résultats des patients",
+          "links": [
+            "Mésothérapie des cheveux",
+            "Traitement des cheveux PRP",
+            "Traitement des cellules souches",
+            "Traitement par Trichopat"
+          ]
+        }
+      }
+    },
+    "header": {
+      "headerLogo": {
+        "alt1": "logo ozlembicer"
+      },
+      "span1": "info@ozlembicer.com",
+      "span2": "info@ozlembicer.com"
+    },
+    "transplantation": {
+      "beardTransplantation": {
+        "beardHero": {
+          "heading1": "Barbe",
+          "span1": "Transplantation",
+          "heading2": "Ce qui est",
+          "span2": "Une greffe de barbe ?",
+          "paragraph1": "La transplantation de barbe est une procédure spécialisée de restauration des cheveux conçue pour améliorer la densité, la forme et la symétrie de la barbe. À notre clinique, la Dre Özlem Biçer et son équipe médicale expérimentée effectuent des greffes de cheveux pour les hommes qui souhaitent améliorer les zones minces, corriger la croissance irrégulière, ou restaurer la perte de cheveux causée par les cicatrices ou les conditions médicales.",
+          "paragraph2": "La transplantation faciale des cheveux est techniquement plus exigeante que la transplantation du cuir chevelu et nécessite une expérience chirurgicale avancée et une planification artistique précise. La procédure peut être exécutée pour restaurer:",
+          "listItem1": "Densité de la barbe",
+          "listItem2": "Croissance des moustaches",
+          "listItem3": "Brûlures latérales",
+          "listItem4": "cicatrices faciales",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "paragraph1": "La perte ou l'absence de cheveux de la barbe peut résulter:",
+        "listItem1": "Facteurs génétiques",
+        "listItem2": "Brûlures, cicatrices ou lésions cutanées",
+        "listItem3": "Procédures chirurgicales antérieures",
+        "listItem4": "Radiothérapie",
+        "listItem5": "Certaines maladies systémiques",
+        "listItem6": "Trichotillomanie (un trouble compulsif des cheveux)",
+        "paragraph2": "Une consultation détaillée est essentielle pour déterminer la cause sous-jacente et l'aptitude au traitement.",
+        "paragraph3": "Les poils de la barbe et de la moustache poussent naturellement en unités folliculaires à un seul poil, ce qui est essentiel pour obtenir une apparence naturelle.",
+        "paragraph4": "Chaque follicule doit être implanté individuellement, avec une attention précise à:",
+        "listItem7": "Direction",
+        "listItem8": "Angle",
+        "listItem9": "Profondeur",
+        "listItem10": "Espacement",
+        "paragraph5": "Cette approche méticuleuse garantit que la barbe transplantée se marie parfaitement avec les cheveux du visage existants.",
+        "paragraph6": "Exigences approximatives en matière de graisse",
+        "listItem11": "1 200 à 1 500 greffons pour une chèvre",
+        "listItem12": "2 500 à 3 000 greffons pour une barbe complète",
+        "paragraph7": "Le nombre exact de greffons varie selon la structure faciale, la densité désirée et les cheveux existants.",
+        "paragraph8": "Les cheveux donneurs sont généralement récoltés à partir du cuir chevelu, car les follicules du cuir chevelu sont génétiquement programmés pour se développer à long terme même après avoir été transplantés dans la zone de la barbe.",
+        "paragraph9": "La transplantation de la barbe peut être effectuée en utilisant soit FUE (extraction d'unité folliculaire) ou FUT (transplantation d'unité folliculaire), selon la zone du donneur du patient, les besoins en greffe et le plan chirurgical.",
+        "listItem13": "FUE implique l'extraction individuelle de follicules pileux à l'aide de micro poinçons",
+        "listItem14": "FUT consiste à enlever une mince bande de cuir chevelu, suivie d'une préparation de greffe microscopique",
+        "paragraph10": "Après extraction, les greffons sont soigneusement nettoyés, raffinés et préparés pour être implantés dans la zone de la barbe.",
+        "paragraph11": "Une greffe de barbe donne des résultats durables et permanents, car les follicules du cuir chevelu transplantés continuent de croître dans leur nouvel emplacement.",
+        "listItem15": "La guérison initiale survient en quelques jours",
+        "listItem16": "L'effacement temporaire peut survenir dans les premières semaines",
+        "listItem17": "Une nouvelle croissance commence généralement après 3-4 mois",
+        "listItem18": "Les résultats finaux sont généralement évalués après 9 à 12 mois",
+        "paragraph12": "Une amélioration visuelle immédiate peut être perceptible après la procédure, mais la maturation complète prend du temps.",
+        "paragraph13": "Le coût d'une greffe de barbe varie selon:",
+        "listItem19": "La taille de la zone de traitement",
+        "listItem20": "Nombre de greffons requis",
+        "listItem21": "La technique utilisée",
+        "paragraph14": "Les prix varient généralement entre 2 500 et 4 500 USD, mais un coût exact ne peut être déterminé qu'après une consultation personnalisée.",
+        "paragraph15": "Pour une évaluation personnalisée, vous pouvez nous contacter par email ou par WhatsApp pour organiser une consultation gratuite avec le Dr Özlem Biçer.",
+        "heading1": "Note importante pour les patients",
+        "paragraph16": "La transplantation de la barbe est une procédure médicale, et les résultats varient selon la capacité de guérison individuelle, les caractéristiques des cheveux et la planification chirurgicale. Une consultation approfondie est essentielle pour établir des attentes réalistes et obtenir le meilleur résultat possible.",
+        "title1": "Qui est candidat",
+        "title2": "La transplantation de la barbe ?",
+        "value1": "Près de la moitié des hommes présentent une croissance inégale ou inégale de la barbe, souvent en raison de facteurs génétiques. La transplantation de la barbe peut être une solution appropriée pour les hommes qui:",
+        "value2": "Ne peut pas pousser une barbe pleine naturellement",
+        "value3": "Avoir des zones minces ou inégales",
+        "value4": "Désirez définir des contours de barbe plus précis",
+        "value5": "Avoir des cicatrices faciales de blessures, brûlures, chirurgie ou acné",
+        "value6": "Même la légère perte de cheveux du visage peut bénéficier d'une greffe de barbe, selon les attentes du patient et la structure du visage.",
+        "titleLines1": [
+          "Causes de la",
+          "perte de poils de barbe"
+        ],
+        "titleLines2": [
+          "Comment fonctionne une",
+          "greffe de barbe ?"
+        ],
+        "titleLines3": [
+          "Méthodes de",
+          "greffe de barbe"
+        ],
+        "titleLines4": [
+          "Techniques",
+          "FUE & FUT"
+        ],
+        "titleLines5": [
+          "Résultats &",
+          "durabilité"
+        ],
+        "titleLines6": [
+          "Coût d’une",
+          "greffe de barbe"
+        ]
+      },
+      "eyebrownTransplant": {
+        "eyebrownHero": {
+          "heading1": "Oeil brun",
+          "span1": "Transplantation",
+          "heading2": "Ce qui est",
+          "span2": "Transplantation des sourcils ?",
+          "paragraph1": "Les sourcils jouent un rôle critique dans l'expression faciale et l'apparence générale. Leur forme et leur densité peuvent influencer significativement la perception du visage, le rendant plus attrayant, plus féminin ou encore plus affirmé.",
+          "paragraph2": "Les tendances de la mode affectent également les préférences des sourcils. À différents moments, les patients peuvent préférer les sourcils minces, épais ou contournés. L'épilation, le façonnage ou l'épilation répétés sur de longues périodes peuvent causer des dommages chroniques à la traction, entraînant une perte permanente des poils des sourcils qui ne peuvent plus s'accumuler naturellement. Lorsque les patients souhaitent rétablir leur forme et leur densité de sourcils d'origine, la transplantation de sourcils devient une solution efficace.",
+          "paragraph3": "Dans de rares cas, certains patients peuvent présenter une absence congénitale ou des sourcils très clairsemés, et la transplantation de sourcils est également une option appropriée pour ces personnes.",
+          "paragraph4": "Pour la transplantation des sourcils, nous préférons la technique FUE à cheveux longs et utiliser les poils fins récoltés dans la zone de donneurs moins sûr. Cette approche nous permet de sélectionner des cheveux plus doux et plus fins et de les implanter avec des angles et des directions précis, assurant un résultat de sourcils naturel et esthétiquement harmonieux.",
+          "alt1": "Dr. Özlem Biçer"
+        },
+        "paragraph1": "La perte ou l'amincissement des sourcils peut être causé par:",
+        "listItem1": "Facteurs génétiques",
+        "listItem2": "Trichotillomanie (un trouble compulsif des cheveux)",
+        "listItem3": "Maladies systémiques ou auto-immunes",
+        "listItem4": "Accrochement excessif ou à long terme",
+        "listItem5": "Chimiothérapie ou radiothérapie",
+        "listItem6": "Blessures cutanées causées par des brûlures, des traumatismes, des piercings ou des tatouages",
+        "paragraph2": "Certains patients cherchent une transplantation des sourcils pour rétablir des sourcils pleins et épais, tandis que d'autres préfèrent une amélioration subtile ou une couverture des cicatrices. Chaque plan de traitement est individualisé.",
+        "paragraph3": "Les cheveux donneurs sont généralement récoltés sur le cuir chevelu, car les follicules du cuir chevelu sont génétiquement programmés pour une croissance continue.",
+        "paragraph4": "Une fois transplantés, les poils des sourcils continueront de croître et nécessitent habituellement une coupe d'environ une fois par mois, ce qui est normal et attendu.",
+        "paragraph5": "Pour obtenir une apparence naturelle :",
+        "listItem7": "Les cheveux sont implantés un par un",
+        "listItem8": "Dans certaines régions, les poils peuvent être placés dans une ou deux rangées, mimant la croissance naturelle des sourcils",
+        "listItem9": "Des incisions extrêmement fines sont utilisées pour permettre un placement précis",
+        "paragraph6": "La transplantation des sourcils peut être effectuée en utilisant soit le FUE (extraction d'unités folliculaires) ou le FUT (transplantation d'unités folliculaires), selon les préférences du patient, les caractéristiques de la zone du donneur et la planification chirurgicale.",
+        "listItem10": "FUE implique l'extraction individuelle des follicules et est souvent préféré par les patients qui souhaitent éviter une cicatrice linéaire",
+        "listItem11": "FUT consiste à récolter une petite bande de donneur et est plus couramment utilisé chez les femmes, car la cicatrice est facilement cachée par les cheveux plus longs",
+        "paragraph7": "Tous les greffons sont préparés au microscope pour permettre l'implantation dans les plus petites incisions possibles.",
+        "paragraph8": "La transplantation des sourcils dure généralement de 3 à 5 heures, selon le nombre de greffes requis et la forme et la densité des sourcils souhaitées.",
+        "paragraph9": "Aperçu étape par étape :",
+        "listItem12": "Follicules de cheveux sains sont récoltés dans la zone donneur à l'arrière du cuir chevelu",
+        "listItem13": "Une anesthésie locale est administrée avant la récolte et l'implantation des follicules",
+        "listItem14": "Les greffons sont soigneusement préparés sous grossissement",
+        "listItem15": "La forme souhaitée des sourcils est dessinée et confirmée avec le patient",
+        "listItem16": "Les follicules pileux sont implantés avec une attention méticuleuse à l'angle, la direction et la profondeur",
+        "paragraph10": "Une fois l'incision du donneur fermée, elle guérit généralement rapidement et devient à peine perceptible en quelques jours.",
+        "paragraph11": "À la clinique du Dr Özlem Biçer :",
+        "paragraph12": "Environ 250 à 750 poils sont transplantés par sourcil, selon:",
+        "listItem17": "Cheveux des sourcils existants",
+        "listItem18": "Pleine volonté",
+        "listItem19": "Anatomie faciale",
+        "listItem20": "Besoins en matière de couverture des cicatrices",
+        "paragraph13": "Le nombre exact de greffes est déterminé au cours de la consultation.",
+        "paragraph14": "La transplantation des sourcils donne des résultats durables et permanents.",
+        "listItem21": "Rougeur légère et gonflement disparaissent généralement en quelques jours",
+        "listItem22": "Les poils transplantés peuvent être versés temporairement dans les premières semaines.",
+        "listItem23": "Une nouvelle croissance commence généralement après 3-4 mois",
+        "listItem24": "Les résultats finaux sont généralement visibles dans les 9-12 mois",
+        "paragraph15": "Comme la transplantation des sourcils exige une extrême précision, l'expérience du chirurgien joue un rôle essentiel dans l'obtention de résultats naturels.",
+        "heading1": "Note importante pour les patients",
+        "paragraph16": "La transplantation des sourcils est une procédure hautement spécialisée, et les résultats peuvent varier selon la capacité de guérison individuelle, les caractéristiques des cheveux et les antécédents médicaux. Une consultation détaillée est essentielle pour garantir des attentes réalistes et des résultats optimaux.",
+        "title1": "Pourquoi choisir",
+        "title2": "La transplantation des sourcils ?",
+        "value1": "Les solutions cosmétiques telles que les crayons à sourcils ou les poudres ne procurent qu'un aspect temporaire et bidimensionnel et nécessitent une réapplication fréquente. Ils ne peuvent pas reproduire complètement la texture naturelle ou la direction des vrais cheveux sourcils.",
+        "value2": "La transplantation des sourcils offre une solution permanente en trois dimensions, permettant aux hommes et aux femmes d'obtenir des sourcils plus pleins et bien définis qui se développent naturellement.",
+        "titleLines1": [
+          "Causes de la",
+          "perte des sourcils"
+        ],
+        "titleLines2": [
+          "Cheveux donneurs pour la",
+          "greffe de sourcils"
+        ],
+        "titleLines3": [
+          "Techniques de greffe de sourcils",
+          "FUE & FUT"
+        ],
+        "titleLines4": [
+          "Procédure &",
+          "durée"
+        ],
+        "titleLines5": [
+          "Nombre de",
+          "greffons utilisés"
+        ],
+        "titleLines6": [
+          "Résultats",
+          "& durabilité"
+        ]
+      },
+      "hairTransplant": {
+        "bodyHair": {
+          "howDoesItWorkBodyHair": {
+            "paragraph1": "La greffe de cheveux est généralement envisagée pour les patients qui:",
+            "listItem1": "Avoir une zone de donneur de cuir chevelu faible ou insuffisante",
+            "listItem2": "Ont eu plusieurs greffes de cheveux antérieures",
+            "listItem3": "Avoir certaines formes d'alopécie ou de cicatrice perte de cheveux",
+            "paragraph2": "Cependant, il est important de comprendre que si la qualité des cheveux du cuir chevelu et du donneur corporel est faible, le résultat final peut être limité. Les patients dont les cheveux sont insuffisants dans l'ensemble peuvent ne pas être des candidats appropriés pour toute forme de greffe de cheveux.",
+            "paragraph3": "Le FUE classique et le BHT utilisent la technique d'extraction d'unités folliculaires (FUE), ce qui signifie que les follicules pileux sont récoltés un par un, sans enlever une bande de peau.",
+            "paragraph4": "Les principales différences sont les suivantes :",
+            "span1": "FUE classique:",
+            "listItem4": "Les cheveux donneurs sont pris exclusivement du cuir chevelu",
+            "listItem5": "Caractéristiques des cheveux correspondent étroitement aux cheveux du cuir chevelu",
+            "span2": "BHT-FUE:",
+            "listItem6": "Les poils de donneur sont récoltés dans des zones du corps telles que la barbe ou la poitrine",
+            "listItem7": "Utilisé lorsque les cheveux du donneur de cuir chevelu sont insuffisants",
+            "listItem8": "Cheveux du corps a différents cycles de croissance et texture par rapport aux cheveux du cuir chevelu",
+            "paragraph5": "Les greffons BHT peuvent croître à des taux différents et ne pas atteindre la même longueur que les cheveux du cuir chevelu, c'est pourquoi ils sont souvent utilisés stratégiquement – par exemple, pour augmenter la densité plutôt que de créer la ligne de cheveux.",
+            "paragraph6": "La greffe de cheveux est généralement effectuée en utilisant la technique FUE, qui évite les cicatrices linéaires.",
+            "paragraph7": "Le processus comprend :",
+            "listItem9": "Sélection soigneuse des zones de donneurs appropriés",
+            "listItem10": "Extraction d'unités folliculaires à l'aide de micropouces",
+            "listItem11": "Hydratation et stockage appropriés des greffons",
+            "listItem12": "Implantation stratégique dans le cuir chevelu pour assurer le mélange naturel",
+            "paragraph8": "Si toutes les exigences physiologiques et médicales sont satisfaites, les follicules du corps peuvent être transférés avec succès sur le cuir chevelu.",
+            "paragraph9": "La greffe de cheveux du corps nécessite une expertise chirurgicale élevée en raison des caractéristiques uniques des cheveux du corps.",
+            "paragraph10": "Les principaux facteurs de succès sont les suivants :",
+            "listItem13": "Expérience de chirurgien, car les cheveux du corps diffèrent significativement des cheveux du cuir chevelu",
+            "listItem14": "Expertise de l'équipe, en particulier dans la manipulation de différentes directions et textures de cheveux",
+            "listItem15": "Extraction, stockage et hydratation appropriés des greffes de cheveux du corps",
+            "listItem16": "Création précise de sites de réception pour contrôler l'angle et la direction",
+            "listItem17": "Taux minimal de transection folliculaire (TFR) pour protéger la survie du greffon",
+            "listItem18": "Mélanger soigneusement les cheveux du corps avec les cheveux du cuir chevelu pour une apparence naturelle",
+            "paragraph11": "Parce que les cheveux du corps se comportent différemment des cheveux du cuir chevelu, le BHT doit toujours être effectué de façon prudente et sélective.",
+            "paragraph12": "Les follicules capillaires du corps conservent plusieurs de leurs caractéristiques de croissance originales après la transplantation.",
+            "paragraph13": "Cela signifie:",
+            "listItem19": "Les cycles de croissance peuvent différer des cheveux du cuir chevelu",
+            "listItem20": "La longueur et la texture des cheveux peuvent ne pas correspondre entièrement aux cheveux du cuir chevelu",
+            "listItem21": "Les résultats peuvent être permanents, mais le comportement de croissance peut varier entre les patients",
+            "paragraph14": "Pour cette raison, BHT est plus efficace lorsqu'il est utilisé comme technique complémentaire plutôt qu'une solution autonome",
+            "titleLines1": [
+              "Qui peut bénéficier",
+              "d’une BHT ?"
+            ],
+            "titleLines2": [
+              "Différences entre",
+              "BHT-FUE et FUE classique"
+            ],
+            "titleLines3": [
+              "Comment réalise-t-on une greffe",
+              "de poils corporels ?"
+            ],
+            "titleLines4": [
+              "Points importants",
+              "concernant la BHT"
+            ],
+            "titleLines5": [
+              "La greffe de poils corporels",
+              "est-elle permanente ?"
+            ]
+          }
+        },
+        "common": {
+          "howDoesItWork": {
+            "title1": "Vidéo"
+          }
+        },
+        "fueMicroMotor": {
+          "fueDoesItWorkFAQs": {
+            "paragraph1": "L'alopécie Androgénétique est une condition permanente et progressive, ce qui signifie que la perte de cheveux se poursuit au fil du temps. Bien que la zone du donneur soit généralement résistante à l'alopécie androgénétique, cette résistance ne peut être garantie pour chaque patient pendant toute sa vie.",
+            "paragraph2": "En fin de compte, les follicules de cheveux transplantés ne peuvent pas être garantis de rester dans la zone du receveur pour la vie entière du patient.",
+            "paragraph3": "La FUE consiste à créer de petites incisions dans les secteurs donneur et receveur.",
+            "listItem1": "Les cicatrices ne sont généralement pas visibles si le patient utilise des poils de donneur de moins de 2 cm de longueur.",
+            "listItem2": "Les marques de la zone du donneur sont généralement cachées par les cheveux environnants",
+            "listItem3": "Si les cheveux sont rasés très courts, de petites cicatrices à points peuvent devenir visibles, ce qui est une caractéristique connue et normale de la technique FUE",
+            "paragraph4": "Une greffe de cheveux FUE dure généralement entre 4 et 12 heures, selon:",
+            "listItem4": "Nombre de greffons requis",
+            "listItem5": "Épaisseur et densité des cheveux",
+            "listItem6": "Caractéristiques individuelles du cuir chevelu",
+            "paragraph5": "Temps de croissance des cheveux après la FUE",
+            "listItem7": "Première perte : 2 à 6 semaines (normale et temporaire)",
+            "listItem8": "Nouvelle croissance des cheveux: environ 3-4 mois",
+            "listItem9": "Amélioration notable : de 6 à 9 mois",
+            "listItem10": "Résultats finaux: après 12-18 mois",
+            "paragraph6": "Tous les follicules transplantés ne poussent pas en même temps, car certains restent temporairement dans la phase de repos (télogène). Les taux globaux de survie du greffon allant jusqu'à 90 à 95 % sont fréquemment rapportés dans des conditions optimales.",
+            "paragraph7": "Après extraction, les follicules pileux sont soigneusement conservés dans des récipients stériles. Dans certains cas, les greffons peuvent être conservés dans une solution enrichie avec le propre plasma riche en plaquettes (PRP) du patient, qui peut aider à soutenir la survie du greffon.",
+            "paragraph8": "Une fois la phase d'extraction terminée, des canaux microscopiques sont créés dans la zone de réception. Chaque unité folliculaire est ensuite implantée individuellement.",
+            "paragraph9": "L'angle, la direction et la profondeur de chaque greffe sont soigneusement planifiés pour correspondre à la croissance naturelle des cheveux, en particulier dans la zone de la ligne de cheveux, pour obtenir un résultat naturel et esthétiquement agréable.",
+            "paragraph10": "Nous utilisons une anesthésie sans aiguille. Au cours des deux à trois premières minutes d'anesthésie locale, vous pouvez ressentir un malaise léger et tolérable. Une fois que l'anesthésie prend effet, l'intervention se poursuit sous anesthésie locale avec le confort du patient surveillé tout au long.",
+            "paragraph11": "Le confort et la réponse de chaque patient à l'anesthésie sont évalués individuellement tout au long de la greffe de cheveux FUE.",
+            "listItem11": "Une légère gêne peut être ressentie au cours des premières minutes d'anesthésie locale.",
+            "listItem12": "L'anesthésie locale est utilisée pendant la procédure",
+            "listItem13": "Les patients peuvent se sentir fatigués de s'asseoir pendant plusieurs heures, mais des pauses régulières sont prévues.",
+            "paragraph12": "Au cours de la procédure, les patients peuvent habituellement:",
+            "listItem14": "Regarder la télévision",
+            "listItem15": "Ecouter de la musique",
+            "listItem16": "Détendez-vous confortablement",
+            "paragraph13": "Après l'opération, une étanchéité ou une sensibilité temporaire peuvent survenir. L'équipe de soins fournit des instructions individuelles de suivi et peut recommander des médicaments appropriés au besoin.",
+            "paragraph14": "Technique minimalement invasive",
+            "paragraph15": "Pas de cicatrice linéaire",
+            "paragraph16": "Résultats naturels",
+            "paragraph17": "Délai de récupération court",
+            "paragraph18": "Convient aux hommes et aux femmes",
+            "titleLines1": [
+              "L’alopécie androgénétique est-elle",
+              "permanente ?"
+            ],
+            "titleLines2": [
+              "Y aura-t-il",
+              "des cicatrices après la FUE ?"
+            ],
+            "titleLines3": [
+              "Combien de temps dure une",
+              "greffe de cheveux FUE ?"
+            ],
+            "titleLines4": [
+              "Conservation des greffons",
+              "& implantation"
+            ],
+            "titleLines5": [
+              "Anesthésie &",
+              "confort du patient"
+            ],
+            "titleLines6": [
+              "Pourquoi choisir",
+              "une greffe FUE ?"
+            ]
+          }
+        },
+        "futHair": {
+          "howDoesItWorkFut": {
+            "paragraph1": "Bien que de nombreuses informations soient disponibles en ligne sur les techniques FUT et FUE, de nombreux patients ne sont pas pleinement au courant de la façon dont ces interventions sont réellement effectuées.",
+            "paragraph2": "Dans FUT, une fois la bande de donneur enlevée, elle est dissidée sous un microscope en unités folliculaires très fines. La zone du donneur est ensuite soigneusement sutureuse, ce qui entraîne une cicatrice linéaire.",
+            "paragraph3": "Le Dr Özlem Biçer utilise des techniques de suture méticuleuses pour s'assurer que la cicatrice reste aussi fine et discrète que possible.",
+            "paragraph4": "L'objectif principal de FUT est de transférer les cheveux de la zone de donneur la plus stable vers les zones où la perte de cheveux est la plus prononcée.",
+            "paragraph5": "Pour le confort du patient, l'anesthésie locale est administrée aux zones donneur et receveur.",
+            "listItem1": "Une sensation de brûlure légère peut être ressentie pendant les 5 premières minutes",
+            "listItem2": "Les patients présentent généralement une gêne minimale pendant ou après l'intervention",
+            "paragraph6": "Le chirurgien effectue une incision horizontale précise pour enlever une bande de cuir chevelu contenant des follicules capillaires sains de la zone du donneur.",
+            "paragraph7": "Une sélection correcte des zones donneurs est essentielle, car la croissance à long terme des cheveux dépend de la récolte des follicules de la zone génétiquement stable.",
+            "paragraph8": "Pour obtenir une cicatrice plus fine, le Dr Özlem Biçer utilise la technique de fermeture trichophytique, qui permet aux cheveux de croître à travers la cicatrice et contribue à la rendre moins visible.",
+            "paragraph9": "La zone bénéficiaire est l'une des étapes les plus critiques, car elle détermine le résultat esthétique final.",
+            "listItem3": "Les incisions microscopiques sont créées à l'aide de lames fines",
+            "listItem4": "La direction et l'angle des cheveux sont soigneusement planifiés",
+            "listItem5": "Différentes tailles de lame sont utilisées selon la taille du greffon",
+            "paragraph10": "Pour obtenir une apparence naturelle, le chirurgien s'assure que les cheveux transplantés suivent le modèle de croissance naturelle du patient.",
+            "paragraph11": "La bande récoltée est d'abord divisée en sections minces appelées \"Slivers\". L'excès de tissu est retiré de ces éclats, et les unités folliculaires individuelles sont soigneusement séparées.",
+            "paragraph12": "Chaque greffe est préparée individuellement pour assurer un minimum de traumatismes et une survie optimale.",
+            "paragraph13": "Une fois la bande enlevée, elle est placée dans la plaquette-Rich Plasma (PRP) du patient.",
+            "paragraph14": "PRP peut aider à maintenir l'hydratation et la viabilité du greffon pendant la préparation, tout en laissant le temps de fermer soigneusement la plaie du donneur.",
+            "paragraph15": "Une fois les sites récepteurs préparés, les unités folliculaires sont implantées dans les incisions.",
+            "paragraph16": "À la fin de la procédure:",
+            "listItem6": "Chaque greffe est vérifiée individuellement",
+            "listItem7": "Les instructions de soins postopératoires sont expliquées en détail",
+            "listItem8": "Les patients reçoivent un guide de suivi imprimé",
+            "paragraph17": "Un bandeau ou un capuchon médical peuvent être utilisés pour protéger la zone traitée.",
+            "paragraph18": "Cicatrice FUT",
+            "paragraph19": "Après FUT, une cicatrice linéaire restera dans la zone du donneur.",
+            "listItem9": "La cicatrice guérit avec le temps et est généralement mince et discrète",
+            "listItem10": "Chez la plupart des patients, la cicatrice est cachée une fois que les cheveux atteignent une certaine longueur",
+            "listItem11": "Si les cheveux sont rasés très court, la cicatrice peut devenir visible",
+            "paragraph20": "La visibilité de la cicatrice dépend en grande partie de la technique chirurgicale, des caractéristiques du cuir chevelu et de la réponse de guérison.",
+            "titleLines1": [
+              "FUT",
+              "Greffe de cheveux"
+            ],
+            "titleLines2": [
+              "Anesthésie",
+              "locale"
+            ],
+            "titleLines3": [
+              "Tissu donneur",
+              "(prélèvement de bandelette)"
+            ],
+            "titleLines4": [
+              "Préparation de",
+              "la zone receveuse"
+            ],
+            "titleLines5": [
+              "Dissection des greffons",
+              "& préparation"
+            ],
+            "titleLines6": [
+              "Conservation du",
+              "tissu donneur"
+            ],
+            "titleLines7": [
+              "Greffe & finalisation",
+              "de la procédure"
+            ],
+            "titleLines8": [
+              "Informations importantes",
+              "sur la greffe FUT"
+            ]
+          }
+        },
+        "hairTransplantHero": {
+          "heading1": "Cheveux",
+          "span1": "Transplantation",
+          "paragraph1": "À la clinique du Dr Biçer, toutes les techniques de restauration des cheveux sont personnellement réalisées par le Dr Biçer. Cela lui permet d'évaluer objectivement chaque patient et de choisir la technique la plus appropriée en fonction uniquement des besoins médicaux, des caractéristiques capillaires et des attentes à long terme.",
+          "paragraph2": "Il est également important de comprendre que la greffe de cheveux n'est pas un remède pour la perte de cheveux. C'est une technique de camouflage très efficace pour les patients souffrant d'alopécie, conçue pour restaurer une apparence naturelle et améliorer la confiance en soi.",
+          "paragraph3": "Chirurgie de remplacement des cheveux peut changer votre apparence de façon spectaculaire et renforcer votre confiance en soi. Parmi les méthodes disponibles, le FUE (Follicular Unit Extraction) est considéré comme la technique la moins invasive et offre le temps de récupération le plus court.",
+          "paragraph4": "La plupart des gens peuvent subir une intervention chirurgicale avec peu ou pas de complications. Cependant, tout le monde n'est pas un candidat approprié pour la chirurgie de remplacement des cheveux. Avant toute intervention, il est essentiel de discuter de vos attentes et de subir une évaluation médicale approfondie par votre chirurgien. Pour déterminer si vous êtes un bon candidat, les facteurs suivants sont soigneusement pris en considération :",
+          "heading2": "ÉTAT DE SANTÉ GÉNÉRAL",
+          "paragraph5": "Êtes-vous généralement en bonne santé sans contre-indication au traitement? Les patients présentant des affections cardiaques, des saignements congénitaux ou des troubles de la coagulation, ou certaines maladies de la peau telles que le psoriasis sont habituellement conseillés contre la chirurgie.",
+          "heading3": "SCHÉMA DE CHUTE DES CHEVEUX",
+          "paragraph6": "La greffe de cheveux peut fournir des résultats spectaculaires mais naturels en cas d'éclaircie ou de calvitie importantes, à condition que les cheveux du donneur en bonne santé soient présents au dos et aux côtés du cuir chevelu. Les patients ayant une calvitie à patron masculin (alopécie androgénétique) sont souvent des candidats idéaux. Pour les femmes, cependant, si la perte de cheveux présente comme un éclaircissement général diffus, la greffe de cheveux peut ne pas être l'option la plus appropriée.",
+          "heading4": "ÂGE",
+          "paragraph7": "La perte de cheveux doit être relativement stabilisée avant la chirurgie. Il est souvent conseillé aux patients très jeunes (au début de la vingtaine) d'attendre et d'envisager des traitements médicaux avant de subir une greffe de cheveux.",
+          "heading5": "PRÉOCCUPATIONS ESTHÉTIQUES",
+          "paragraph8": "Si éviter les cicatrices linéaires est important pour vous, FUE peut être la technique préférée. Le FUE peut également être utilisé pour camoufler des cicatrices existantes provenant d'opérations ou de blessures antérieures en transplantant de nouveaux follicules dans ces zones.",
+          "ariaLabel1": "Lecture de la vidéo",
+          "alt1": "Article sur la greffe de cheveux 1",
+          "alt2": "Article sur la greffe de cheveux 2",
+          "alt3": "Article sur la greffe de cheveux 3",
+          "alt4": "Article sur la greffe de cheveux 4",
+          "title1": "Vidéo de greffe de cheveux"
+        },
+        "longHair": {
+          "howDoesItWorkLong": {
+            "paragraph1": "Cette technique offre des avantages significatifs aux patients qui ne veulent pas que leurs cheveux soient rasés, en particulier ceux qui ont une vie sociale ou professionnelle active. La greffe de cheveux longs permet aux patients de subir l'intervention sans signes visuels évidents de chirurgie, ce qui en fait l'idéal pour les personnes qui préfèrent garder leur traitement privé pendant la période de guérison.",
+            "paragraph2": "C'est également une excellente option pour les patientes qui souhaitent préserver leurs cheveux longs et éviter le rasage, tout en bénéficiant d'une procédure de restauration des cheveux très précise et naturelle.",
+            "paragraph3": "La greffe de cheveux longs est une technique techniquement exigeante et relativement nouvelle, et son succès est étroitement lié à l'expérience et à la courbe d'apprentissage de chaque clinique et équipe chirurgicale. Parce que la procédure est plus complexe, le nombre de greffons qui peuvent être extraits en une seule session est généralement plus faible que le FUE rasé. Pour les patients qui ont besoin de 3 000 greffes ou plus, l'opération peut devoir être divisée en plusieurs séances ou jours.",
+            "paragraph4": "En outre, la greffe de cheveux longs prend plus de temps et nécessite des instruments spécialisés et une expertise, ce qui rend le coût plus élevé que les techniques conventionnelles de rasage. Les soins postopératoires peuvent également être plus difficiles pour le patient, car gérer et nettoyer les cheveux longs pendant la phase de guérison nécessite une attention supplémentaire.",
+            "paragraph5": "Il est important pour les patients de comprendre que bien que les cheveux longs soient transplantés, ces cheveux seront jetés au cours du premier mois, semblable à la greffe de cheveux standard. La nouvelle croissance permanente des cheveux commence généralement environ trois mois après la procédure, après le cycle naturel de croissance des cheveux.",
+            "listItem1": "Rougeur légère et gonflement sont fréquents pendant quelques jours",
+            "listItem2": "Une excrétion temporaire des cheveux transplantés peut survenir",
+            "listItem3": "Nouvelle croissance des cheveux commence généralement après 3-4 mois",
+            "listItem4": "Les résultats finaux sont généralement évalués après 12 mois",
+            "paragraph6": "Le temps de guérison peut varier selon le tissu cicatriciel et les procédures antérieures.",
+            "listItem5": "Planification chirurgicale personnalisée",
+            "listItem6": "Correction des résultats non naturels",
+            "listItem7": "Une meilleure harmonie faciale",
+            "listItem8": "Rétablissement de la confiance",
+            "listItem9": "Techniques avancées adaptées aux cas complexes",
+            "paragraph7": "La greffe de cheveux reconstructive nécessite beaucoup plus d'expertise que la greffe de cheveux standard.",
+            "titleLines1": [
+              "Avantages de la",
+              "greffe de cheveux longs"
+            ],
+            "titleLines2": [
+              "Inconvénients de la",
+              "greffe de cheveux longs"
+            ],
+            "titleLines3": [
+              "Récupération",
+              "& résultats"
+            ],
+            "titleLines4": [
+              "Pourquoi choisir",
+              "la greffe de cheveux longs ?"
+            ]
+          }
+        },
+        "reconstructive": {
+          "howDoesItWorkRecon": {
+            "paragraph1": "La reconstruction de la ligne de cheveux se concentre sur la correction:",
+            "listItem1": "Lignes de cheveux trop basses ou trop hautes",
+            "listItem2": "Symétrie excessive ou lignes droites non naturelles",
+            "listItem3": "Angles ou directions incorrects des cheveux implantés",
+            "paragraph2": "Les lignes de cheveux naturelles nécessitent une irrégularité, une angulation appropriée et l'utilisation exclusive de greffes à cheveux simples dans la zone frontale.",
+            "paragraph3": "La greffe de cheveux peut comprendre:",
+            "listItem4": "Élimination des greffes mal placées",
+            "listItem5": "Réimplantation de greffons extraits",
+            "listItem6": "Redistribution de densité pour un résultat plus naturel",
+            "paragraph4": "Dans certains cas, les greffons précédemment transplantés peuvent être enlevés et réutilisés en toute sécurité.",
+            "paragraph5": "La greffe de cheveux peut être effectuée dans:",
+            "listItem7": "FUT cicatrices linéaires",
+            "listItem8": "FUE cicatrices point",
+            "listItem9": "Scars causées par des brûlures, des traumatismes ou des chirurgies",
+            "paragraph6": "La croissance des cheveux dans les tissus cicatriciels peut être moins prévisible en raison de la réduction de l'approvisionnement en sang, et une évaluation attentive est essentielle avant le traitement.",
+            "paragraph7": "Chez les patients dont les cheveux du donneur de cuir chevelu sont limités, la transplantation corporelle des cheveux peut être utilisée comme technique de soutien.",
+            "listItem10": "Cheveux de barbe est généralement préféré",
+            "listItem11": "Cheveux de poitrine peuvent être utilisés sélectivement",
+            "listItem12": "Les cheveux du corps se comportent différemment des cheveux du cuir chevelu et doivent être soigneusement mélangés",
+            "paragraph8": "La greffe de cheveux reconstructifs est généralement effectuée à l'aide de techniques avancées de FUE.",
+            "paragraph9": "Les principales étapes sont les suivantes :",
+            "listItem13": "Analyse détaillée des proportions faciales et des motifs capillaires existants",
+            "listItem14": "Planification de la ligne de cheveux conservatrice",
+            "listItem15": "Évaluation minutieuse de la zone des donateurs",
+            "listItem16": "Extraction et implantation de précision",
+            "listItem17": "Attention à l'angle, à la direction et à la densité",
+            "paragraph10": "Plusieurs séances peuvent être nécessaires, selon la complexité du cas.",
+            "paragraph11": "Les résultats de la greffe de cheveux reconstructifs peuvent être durables et permanents lorsque:",
+            "listItem18": "La qualité des cheveux du donneur est adéquate",
+            "listItem19": "Les greffons sont implantés correctement",
+            "listItem20": "La perte de cheveux sous-jacente est correctement gérée",
+            "paragraph12": "Toutefois, les attentes doivent être réalistes, en particulier dans les cas de cicatrices ou de chirurgies multiples.",
+            "listItem21": "Rougeur légère et gonflement sont fréquents pendant quelques jours",
+            "listItem22": "Une excrétion temporaire des cheveux transplantés peut survenir",
+            "listItem23": "Nouvelle croissance des cheveux commence généralement après 3-4 mois",
+            "listItem24": "Les résultats finaux sont généralement évalués après 12 mois",
+            "paragraph13": "Le temps de guérison peut varier selon le tissu cicatriciel et les procédures antérieures.",
+            "listItem25": "Planification chirurgicale personnalisée",
+            "listItem26": "Correction des résultats non naturels",
+            "listItem27": "Une meilleure harmonie faciale",
+            "listItem28": "Rétablissement de la confiance",
+            "listItem29": "Techniques avancées adaptées aux cas complexes",
+            "paragraph14": "La greffe de cheveux reconstructive nécessite beaucoup plus d'expertise que la greffe de cheveux standard.",
+            "heading1": "Note importante pour les patients",
+            "paragraph15": "Chaque cas ne peut pas être entièrement corrigé, surtout lorsque les cheveux du donneur sont limités ou que le tissu cicatriciel est étendu. Une consultation détaillée est essentielle pour déterminer les résultats réalistes et la meilleure approche de traitement.",
+            "titleLines1": [
+              "Reconstruction de la",
+              "ligne frontale"
+            ],
+            "titleLines2": [
+              "Réparation d’une greffe capillaire",
+              "(greffe corrective)"
+            ],
+            "titleLines3": [
+              "Révision des cicatrices &",
+              "greffe de cheveux dans les cicatrices"
+            ],
+            "titleLines4": [
+              "Greffe de poils corporels",
+              "dans les cas reconstructifs"
+            ],
+            "titleLines5": [
+              "Comment réalise-t-on une greffe",
+              "capillaire reconstructive ?"
+            ],
+            "titleLines6": [
+              "La greffe capillaire reconstructive",
+              "est-elle permanente ?"
+            ],
+            "titleLines7": [
+              "Récupération",
+              "& résultats"
+            ],
+            "titleLines8": [
+              "Pourquoi choisir une greffe",
+              "capillaire reconstructive ?"
+            ]
+          }
+        },
+        "title1": "FUE",
+        "subtitle1": "(Micromoteur)",
+        "title2": "Ce qui est",
+        "title3": "Quelles sont les étapes de",
+        "title4": "Une greffe de cheveux ?",
+        "value1": "1. Contact initial et consultation",
+        "value2": "Vous communiquez d'abord avec la clinique, et un de nos consultants et interprètes vous guidera tout au long du processus dans votre langue maternelle.",
+        "value3": "Vous remplirez un formulaire de consultation et envoyerez vos photos et vos vidéos au Dr Biçer. Après avoir évalué votre cas et estimé le numéro de greffe requis, le Dr Biçer fournira des renseignements généraux. Si elle a besoin de plus de détails, elle peut demander une consultation en ligne.",
+        "value4": "Suite à cette évaluation, une offre de traitement personnalisée vous sera envoyée. Si vous décidez de procéder à une intervention chirurgicale, votre consultant fournira des dates appropriées. Une fois le paiement anticipé reçu, votre opération sera programmée.",
+        "value5": "2. Évaluation préopératoire (un jour avant la chirurgie)",
+        "value6": "Nous recommandons fortement d'arriver à la clinique un jour avant l'opération. Au cours de cette visite:",
+        "value7": "Des photographies médicales sont prises",
+        "value8": "Des tests sanguins sont effectués.",
+        "value9": "L'électrocardiographie (ECG) est terminée",
+        "value10": "Un examen trichoscopique est effectué",
+        "value11": "Vous remplirez également les formulaires médicaux nécessaires et aurez une consultation en personne avec le Dr Biçer. Cette étape est extrêmement importante, car vos attentes, votre capacité de donneur et votre numéro de greffe final sont clarifiés, et le plan chirurgical est finalisé.",
+        "value12": "3. Journée de chirurgie – Planification et préparation",
+        "value13": "Le jour de l'opération, vous devriez arriver à la clinique à 8 h.",
+        "value14": "Le Dr Biçer revoit tous les détails et conçoit votre ligne de cheveux avec vous. La conception des lignes de cheveux est une étape essentielle pour obtenir des résultats naturels et assurer une planification à long terme.",
+        "value15": "Selon la technique choisie, vos cheveux seront rasés si nécessaire, et votre cuir chevelu sera lavé avec un shampooing désinfectant. La ligne de cheveux est ensuite nettoyée à nouveau.",
+        "value16": "Le Dr Biçer explique en détail chaque étape de la procédure avant le début de la chirurgie.",
+        "value17": "4. Anesthésie locale",
+        "value18": "Une anesthésie locale sans aiguille est administrée. Pendant cette phase, vous restez éveillé et êtes constamment surveillé pour assurer votre confort et votre sécurité.",
+        "value19": "5. Extraction de greffons",
+        "value20": "Dans la deuxième étape de la chirurgie, le Dr Biçer effectue la récolte de greffons, tandis que des infirmières formées recueillent, comptent et examinent les greffons au microscope.",
+        "value21": "Les poinçons de 0,7 à 0,9 mm sont utilisés:",
+        "value22": "Lorsque ces poinçons sont utilisés avec un micromoteur, la technique est appelée micromoteur FUE",
+        "value23": "Lorsqu'elle est utilisée manuellement, sans électricité ni machines, la technique s'appelle FUE manuelle",
+        "value24": "6. Création du site du bénéficiaire",
+        "value25": "Dans la troisième étape, le Dr Biçer crée les incisions du receveur, déterminant la direction, l'angle et la densité des cheveux transplantés.",
+        "value26": "Les lames de titane ou de saphir sont utilisées pour cette étape. Techniquement, il n'y a pas de différence de résultats entre ces deux types de lames lorsqu'ils sont correctement appliqués.",
+        "value27": "7. Implantation de graisse",
+        "value28": "Au dernier stade, trois infirmières placent soigneusement les greffons dans la zone bénéficiaire. Le Dr Biçer reste à la clinique tout au long de ce processus.",
+        "value29": "8. Suivi postopératoire",
+        "value30": "Le lendemain de l'opération, vous retournez à la clinique pour :",
+        "value31": "Suppression des bandages",
+        "value32": "Examen médical par le Dr Biçer",
+        "value33": "Photographies postopératoires",
+        "value34": "Une fois que tout est confirmé pour bien progresser, vous êtes libre de retourner dans votre pays.",
+        "value35": "Toutefois, le processus ne s'arrête pas là. La Dre Biçer et ses interprètes continuent de suivre vos progrès pendant au moins un an après l'opération.",
+        "title5": "FUE",
+        "subtitle2": "(Manuel)",
+        "title6": "Ce qui est",
+        "title7": "Quelles sont les étapes de",
+        "title8": "Une greffe de cheveux ?",
+        "value36": "1. Contact initial et consultation",
+        "value37": "Vous communiquez d'abord avec la clinique, et un de nos consultants et interprètes vous guidera tout au long du processus dans votre langue maternelle.",
+        "value38": "Vous remplirez un formulaire de consultation et envoyerez vos photos et vos vidéos au Dr Biçer. Après avoir évalué votre cas et estimé le numéro de greffe requis, le Dr Biçer fournira des renseignements généraux. Si elle a besoin de plus de détails, elle peut demander une consultation en ligne.",
+        "value39": "Suite à cette évaluation, une offre de traitement personnalisée vous sera envoyée. Si vous décidez de procéder à une intervention chirurgicale, votre consultant fournira des dates appropriées. Une fois le paiement anticipé reçu, votre opération sera programmée.",
+        "value40": "2. Évaluation préopératoire (un jour avant la chirurgie)",
+        "value41": "Nous recommandons fortement d'arriver à la clinique un jour avant l'opération. Au cours de cette visite:",
+        "value42": "Des photographies médicales sont prises",
+        "value43": "Des tests sanguins sont effectués.",
+        "value44": "L'électrocardiographie (ECG) est terminée",
+        "value45": "Un examen trichoscopique est effectué",
+        "value46": "Vous remplirez également les formulaires médicaux nécessaires et aurez une consultation en personne avec le Dr Biçer. Cette étape est extrêmement importante, car vos attentes, votre capacité de donneur et votre numéro de greffe final sont clarifiés, et le plan chirurgical est finalisé.",
+        "value47": "3. Journée de chirurgie – Planification et préparation",
+        "value48": "Le jour de l'opération, vous devriez arriver à la clinique à 8 h.",
+        "value49": "Le Dr Biçer revoit tous les détails et conçoit votre ligne de cheveux avec vous. La conception des lignes de cheveux est une étape essentielle pour obtenir des résultats naturels et assurer une planification à long terme.",
+        "value50": "Selon la technique choisie, vos cheveux seront rasés si nécessaire, et votre cuir chevelu sera lavé avec un shampooing désinfectant. La ligne de cheveux est ensuite nettoyée à nouveau.",
+        "value51": "Le Dr Biçer explique en détail chaque étape de la procédure avant le début de la chirurgie.",
+        "value52": "4. Anesthésie locale",
+        "value53": "Une anesthésie locale sans aiguille est administrée. Pendant cette phase, vous restez éveillé et êtes constamment surveillé pour assurer votre confort et votre sécurité.",
+        "value54": "5. Extraction de greffons",
+        "value55": "Dans la deuxième étape de la chirurgie, le Dr Biçer effectue la récolte de greffons, tandis que des infirmières formées recueillent, comptent et examinent les greffons au microscope.",
+        "value56": "Les poinçons de 0,7 à 0,9 mm sont utilisés:",
+        "value57": "Lorsque ces poinçons sont utilisés avec un micromoteur, la technique est appelée micromoteur FUE",
+        "value58": "Lorsqu'elle est utilisée manuellement, sans électricité ni machines, la technique s'appelle FUE manuelle",
+        "value59": "6. Création du site du bénéficiaire",
+        "value60": "Dans la troisième étape, le Dr Biçer crée les incisions du receveur, déterminant la direction, l'angle et la densité des cheveux transplantés.",
+        "value61": "Les lames de titane ou de saphir sont utilisées pour cette étape. Techniquement, il n'y a pas de différence de résultats entre ces deux types de lames lorsqu'ils sont correctement appliqués.",
+        "value62": "7. Implantation de graisse",
+        "value63": "Au dernier stade, trois infirmières placent soigneusement les greffons dans la zone bénéficiaire. Le Dr Biçer reste à la clinique tout au long de ce processus.",
+        "value64": "8. Suivi postopératoire",
+        "value65": "Le lendemain de l'opération, vous retournez à la clinique pour :",
+        "value66": "Remplacement des bandages",
+        "value67": "Examen médical par le Dr Biçer",
+        "value68": "Photographies postopératoires",
+        "value69": "Une fois que tout est confirmé pour bien progresser, vous êtes libre de retourner dans votre pays.",
+        "value70": "Toutefois, le processus ne s'arrête pas là. La Dre Biçer et ses interprètes continuent de suivre vos progrès pendant au moins un an après l'opération.",
+        "title9": "BHT",
+        "subtitle3": "(Greffe de cheveux corporel)",
+        "title10": "Ce qui est",
+        "alt1": "Greffe de cheveux du corps",
+        "title11": "Tout ce que vous devez savoir sur la greffe de cheveux du corps (BHT)",
+        "alt2": "Greffe de cheveux du corps 2",
+        "title12": "Qu'est-ce que BHT?",
+        "title13": "Quand les cheveux du corps",
+        "title14": "Transplantation recommandée?",
+        "value71": "La BHT peut être envisagée dans les situations suivantes:",
+        "value72": "Zone de donneur de cuir chevelu fortement limitée, comme la perte de cheveux avancée (Norwood Grade VI–VII)",
+        "value73": "Patients ayant déjà subi une greffe de cheveux et ayant épuisé les réserves de donneurs",
+        "value74": "Cas où un nombre de greffes plus élevé est requis mais la capacité du donneur de cuir chevelu est insuffisante",
+        "value75": "Alopécie, brûlures ou perte de cheveux liée au traumatisme",
+        "value76": "Pour augmenter la densité globale, en particulier en association avec les greffes de cheveux du cuir chevelu",
+        "value77": "Les poils de barbe sont généralement préférés aux poils de poitrine en raison de leur structure plus forte et de leurs caractéristiques de croissance plus cohérentes.",
+        "title15": "Transplantation reconstructive des cheveux",
+        "title16": "Ce qui est",
+        "alt3": "Transplantation capillaire reconstructive",
+        "title17": "Reconstruction de la greffe de cheveux - 01",
+        "alt4": "Transplantation capillaire reconstructive 2",
+        "title18": "Reconstruction de la greffe de cheveux - 02",
+        "alt5": "Transplantation reconstructive des cheveux 3",
+        "title19": "Reconstruction de la greffe de cheveux - 03",
+        "title20": "Qui a besoin",
+        "title21": "La transplantation reconstructive des cheveux ?",
+        "value78": "Une greffe de cheveux reconstructive peut être recommandée chez les patients présentant:",
+        "value79": "Lignes capillaires non naturelles ou mal conçues",
+        "value80": "cicatrices visibles lors de procédures antérieures de greffe de cheveux (FUE ou FUT)",
+        "value81": "Asymétrie ou mauvaise direction des cheveux",
+        "value82": "Densité de cheveux faible ou inégale",
+        "value83": "Perte de cheveux due à des brûlures, accidents, chirurgie ou traumatismes",
+        "value84": "Alopécie écarlate ou certains problèmes médicaux",
+        "value85": "Résultats insatisfaisants ou ratés des transplantations antérieures de cheveux",
+        "value86": "Chaque cas de reconstruction est unique et nécessite un plan de traitement individualisé.",
+        "title22": "Cheveux longs",
+        "subtitle4": "(sans rasage)",
+        "title23": "Ce qui est",
+        "title24": "Qui a besoin",
+        "title25": "Greffe de cheveux longs ?",
+        "value87": "Une greffe de cheveux longs peut être recommandée chez les personnes qui :",
+        "value88": "Avoir des lignes de cheveux non naturelles, mal conçues ou insatisfaisantes des procédures précédentes et vouloir une amélioration immédiate, d'aspect naturel",
+        "value89": "Découvrez les cicatrices visibles causées par les techniques de greffe de cheveux (FUE ou FUT) et préférez un meilleur camouflage",
+        "value90": "Souffre d'asymétrie ou de mauvaise direction de croissance des cheveux qui nécessite une correction précise",
+        "value91": "Avoir une densité de cheveux faible ou inégale et souhaiter voir un volume instantané sans attendre des mois de croissance",
+        "value92": "Avoir la perte de cheveux résultant de brûlures, accidents, chirurgie, ou traumatisme, où la restauration esthétique est critique",
+        "value93": "Sont affectés par l'alopécie cicatrisante ou certaines affections médicales qui limitent les options de transplantation conventionnelles",
+        "value94": "Avoir échoué ou décevant résultats de greffe de cheveux et chercher une solution corrective avancée",
+        "value95": "Préférez une technique qui fournit des résultats cosmétiques immédiats, en particulier pour des raisons sociales ou professionnelles",
+        "value96": "Chaque cas de greffe de cheveux longs est unique et nécessite un plan de traitement entièrement individualisé basé sur les caractéristiques des cheveux du patient, les attentes, et les antécédents médicaux.",
+        "title26": "FUT",
+        "subtitle5": "(Transplantation d'unité folliculaire)",
+        "title27": "Ce qui est",
+        "alt6": "Étape 1",
+        "title28": "Qu'est-ce que la greffe de cheveux FUT? - Dr Özlem Biçer, MD",
+        "alt7": "Étape 2",
+        "title29": "Une transplantation ?",
+        "alt8": "Étape 3",
+        "title30": "TECHNIQUE FUT",
+        "title31": "Étapes de la FUT",
+        "title32": "Greffe de cheveux",
+        "value97": "1. Contact initial et consultation",
+        "value98": "Le processus commence par communiquer avec la clinique. Un de nos consultants et interprètes expérimentés vous guidera dans chaque étape de votre langue maternelle. On vous demandera de remplir un formulaire de consultation et de soumettre des photographies et des vidéos, qui sont examinées par le Dr Biçer. D'après cette évaluation, vous recevrez des renseignements préliminaires, y compris un nombre estimé de greffes. Si nécessaire, le Dr Biçer peut demander une consultation en ligne pour une évaluation plus approfondie. Après cela, un plan de traitement personnalisé et une offre vous seront préparés et envoyés.",
+        "value99": "Une fois que vous décidez de procéder à une intervention chirurgicale, votre consultant vous aidera à choisir les dates appropriées. Une fois le paiement anticipé terminé, votre opération sera officiellement programmée.",
+        "value100": "2. Jour préopératoire (un jour avant la chirurgie)",
+        "value101": "Nous recommandons fortement d'arriver à la clinique un jour avant l'opération. Ce jour-là, des photographies professionnelles sont prises et des évaluations médicales sont effectuées, y compris des tests sanguins, de l'électrocardiographie (ECG) et de l'examen trichoscopique. Vous aurez ensuite une consultation en personne avec le Dr Biçer.",
+        "value102": "Cette étape est extrêmement importante, car vos attentes, la capacité des donneurs, la laxité du cuir chevelu et le nombre final de greffes sont clairement déterminés, et le plan chirurgical est finalisé.",
+        "value103": "3. Jour de chirurgie",
+        "value104": "Le jour de l'opération, vous devriez arriver à la clinique à 08h00. Le Dr Biçer reverra tous les détails avec vous et dessinera soigneusement votre ligne de cheveux. La conception de la ligne de cheveux est une étape essentielle pour obtenir une apparence naturelle et un succès esthétique à long terme.",
+        "value105": "Selon la technique FUT, les cheveux ne sont pas rasés. Vos cheveux seront lavés avec un shampooing désinfectant, et la zone des cheveux sera préparée une fois de plus. Vous serez pleinement informé de chaque étape de la procédure.",
+        "value106": "4. Extraction de la bande de donneurs",
+        "value107": "Le Dr Biçer mesure l'élasticité de la surface du donneur et la laxité du cuir chevelu, puis marque la ligne d'excision de la bande. Une anesthésie locale sans aiguilles est administrée, et vous restez éveillé et surveillé en permanence pour votre sécurité.",
+        "value108": "Après anesthésie, le Dr Biçer effectue l'excision de la bandelette. Généralement, 1 500 à 2 500 greffons sont obtenus à partir d'une seule bande. La zone du donneur est ensuite fermée à l'aide d'une suture trichophytique esthétique. Pendant ce temps, l'équipe médicale disséque soigneusement les greffons en unités folliculaires simples, doubles ou multiples sous un microscope.",
+        "value109": "5. Incisions du secteur bénéficiaire",
+        "value110": "Dans la troisième étape, le Dr Biçer crée les incisions du receveur, déterminant l'angle, la direction et la densité corrects des cheveux transplantés pour assurer un résultat naturel.",
+        "value111": "6. Placement des greffons",
+        "value112": "Dans la dernière étape, une équipe infirmière spécialisée place les greffes dans la zone bénéficiaire. Au cours de cette phase, le Dr Biçer reste présent dans la clinique et supervise la procédure.",
+        "value113": "7. Suivi postopératoire",
+        "value114": "Le lendemain de la chirurgie, vous retournerez à la clinique pour l'élimination des bandages et l'évaluation postopératoire. De nouvelles photos sont prises après que le Dr Biçer confirme que la guérison progresse normalement.",
+        "value115": "Les sutures esthétiques placées dans la zone du donneur doivent être retirées 15 jours après la chirurgie par un médecin. Si vous êtes encore dans le pays, cela peut être fait à notre clinique; sinon, il peut être retiré en toute sécurité dans votre pays d'origine.",
+        "value116": "Nos soins ne se terminent pas après la procédure. La Dre Biçer et son équipe médicale continuent de suivre vos progrès pendant au moins un an, fournissant un soutien et des conseils continus tout au long de votre parcours de récupération et de croissance des cheveux.",
+        "links": [
+          "FUE (moteur micro)",
+          "FUE (manuelle)",
+          "BHT (greffe de cheveux de corps)",
+          "Transplantation capillaire reconstructive",
+          "Cheveux longs (sans rasage)",
+          "FUT"
+        ],
+        "titleLines1": [
+          "Technique",
+          "peu",
+          "invasive"
+        ],
+        "titleLines2": [
+          "Sans",
+          "cicatrice",
+          "linéaire"
+        ],
+        "titleLines3": [
+          "Résultats",
+          "d’aspect",
+          "naturel"
+        ],
+        "titleLines4": [
+          "Temps de",
+          "récupération",
+          "court"
+        ],
+        "titleLines5": [
+          "Convient",
+          "aux",
+          "hommes et femmes"
+        ]
+      },
+      "hairWash": {
+        "alt1": "Vidéo de lavage des cheveux",
+        "videoTitle": "Lavage des cheveux après greffe de cheveux"
+      }
+    }
+  },
+  "SearchData": {
+    "items": [
+      {
+        "title": "Sommaire",
+        "category": "Page",
+        "keywords": [
+          "chez soi",
+          "principale",
+          "ana sayfa"
+        ]
+      },
+      {
+        "title": "À propos de nous",
+        "category": "Page",
+        "keywords": [
+          "sur",
+          "hakkında",
+          "ozlem",
+          "Bicer",
+          "médecin"
+        ]
+      },
+      {
+        "title": "Dr. Özlem Biçer",
+        "category": "À propos de nous",
+        "keywords": [
+          "médecin",
+          "doktor",
+          "ozlem",
+          "Bicer",
+          "chirurgien"
+        ]
+      },
+      {
+        "title": "Clinique et équipe",
+        "category": "À propos de nous",
+        "keywords": [
+          "clinique",
+          "équipe",
+          "personnel",
+          "Klinik",
+          "ekip"
+        ]
+      },
+      {
+        "title": "Prix",
+        "category": "À propos de nous",
+        "keywords": [
+          "prix",
+          "prix",
+          "Fiyat",
+          "Coût",
+          "Taxe"
+        ]
+      },
+      {
+        "title": "Perte de cheveux",
+        "category": "Page",
+        "keywords": [
+          "perte de cheveux",
+          "Saç dökülmesi",
+          "alopécie"
+        ]
+      },
+      {
+        "title": "Perte de cheveux chez l'homme",
+        "category": "Perte de cheveux",
+        "keywords": [
+          "Hommes",
+          "Erkek",
+          "perte de cheveux",
+          "Saç dökülmesi",
+          "hommes"
+        ]
+      },
+      {
+        "title": "Perte de cheveux chez la femme",
+        "category": "Perte de cheveux",
+        "keywords": [
+          "Femmes",
+          "kadın",
+          "perte de cheveux",
+          "Saç dökülmesi",
+          "Femmes"
+        ]
+      },
+      {
+        "title": "Mésothérapie des cheveux",
+        "category": "Traitements",
+        "keywords": [
+          "mésothérapie",
+          "mezoterapi",
+          "traitement",
+          "tedavi"
+        ]
+      },
+      {
+        "title": "Traitement des cheveux PRP",
+        "category": "Traitements",
+        "keywords": [
+          "prp",
+          "traitement",
+          "tedavi",
+          "plaquettes"
+        ]
+      },
+      {
+        "title": "Traitement des cellules souches",
+        "category": "Traitements",
+        "keywords": [
+          "cellule tampon",
+          "cellules souches",
+          "C'est vrai.",
+          "traitement"
+        ]
+      },
+      {
+        "title": "Traitement par Trichopat",
+        "category": "Traitements",
+        "keywords": [
+          "trichopat",
+          "traitement",
+          "tedavi"
+        ]
+      },
+      {
+        "title": "Transplantation capillaire",
+        "category": "Greffes",
+        "keywords": [
+          "greffe de cheveux",
+          "d'une durée de trois ans",
+          "Fue",
+          "fumée"
+        ]
+      },
+      {
+        "title": "FUE (moteur micro)",
+        "category": "Transplantation capillaire",
+        "keywords": [
+          "Fue",
+          "micromoteur",
+          "greffe de cheveux",
+          "d'une durée de trois ans"
+        ]
+      },
+      {
+        "title": "FUE (manuelle)",
+        "category": "Transplantation capillaire",
+        "keywords": [
+          "Fue",
+          "Manuel",
+          "manuel",
+          "greffe de cheveux"
+        ]
+      },
+      {
+        "title": "Greffe de cheveux du corps",
+        "category": "Transplantation capillaire",
+        "keywords": [
+          "poils du corps",
+          "BHT",
+          "transplantation",
+          "d'une durée de trois ans"
+        ]
+      },
+      {
+        "title": "Transplantation capillaire reconstructive",
+        "category": "Transplantation capillaire",
+        "keywords": [
+          "reconstruction",
+          "de l'information",
+          "réparation",
+          "greffe de cheveux"
+        ]
+      },
+      {
+        "title": "Cheveux longs (sans rasage)",
+        "category": "Transplantation capillaire",
+        "keywords": [
+          "cheveux longs",
+          "non ébranlé",
+          "uzun saç",
+          "greffe de cheveux"
+        ]
+      },
+      {
+        "title": "FUT",
+        "category": "Transplantation capillaire",
+        "keywords": [
+          "fumée",
+          "unité folliculaire",
+          "Bande",
+          "greffe de cheveux"
+        ]
+      },
+      {
+        "title": "Transplantation de la barbe",
+        "category": "Greffes",
+        "keywords": [
+          "barbe",
+          "Sakal",
+          "transplantation",
+          "ekimi"
+        ]
+      },
+      {
+        "title": "Transplantation des sourcils",
+        "category": "Greffes",
+        "keywords": [
+          "sourcils",
+          "kaş",
+          "transplantation",
+          "ekimi"
+        ]
+      },
+      {
+        "title": "Galerie",
+        "category": "Page",
+        "keywords": [
+          "galerie",
+          "galérie",
+          "vidéo",
+          "photos",
+          "résultats"
+        ]
+      },
+      {
+        "title": "Avant et après les images",
+        "category": "Galerie",
+        "keywords": [
+          "galerie",
+          "galérie",
+          "avant après",
+          "Ônce sonra",
+          "résultats",
+          "photos"
+        ]
+      },
+      {
+        "title": "Causes de la perte de cheveux",
+        "category": "Perte de cheveux",
+        "keywords": [
+          "causes",
+          "Nedenler",
+          "perte de cheveux",
+          "Saç dökülmesi"
+        ]
+      },
+      {
+        "title": "Traitements de la perte de cheveux",
+        "category": "Perte de cheveux",
+        "keywords": [
+          "traitement",
+          "tedavi",
+          "perte de cheveux",
+          "Saç dökülmesi"
+        ]
+      },
+      {
+        "title": "Guides",
+        "category": "Page",
+        "keywords": [
+          "guide",
+          "Les",
+          "instructions",
+          "talimat"
+        ]
+      },
+      {
+        "title": "Avant la greffe de cheveux",
+        "category": "Guides",
+        "keywords": [
+          "avant",
+          "öncesi",
+          "guide",
+          "Les",
+          "greffe de cheveux",
+          "d'une durée de trois ans"
+        ]
+      },
+      {
+        "title": "Après la greffe de cheveux",
+        "category": "Guides",
+        "keywords": [
+          "après",
+          "Sonrası",
+          "guide",
+          "Les",
+          "greffe de cheveux",
+          "d'une durée de trois ans"
+        ]
+      },
+      {
+        "title": "Contactez-nous",
+        "category": "Page",
+        "keywords": [
+          "contact",
+          "Iletişim",
+          "Courriel",
+          "téléphone",
+          "rendez-vous",
+          "randevu"
+        ]
+      },
+      {
+        "title": "Lavage des cheveux après greffe de cheveux",
+        "category": "Greffes",
+        "keywords": [
+          "lavage des cheveux",
+          "lavage",
+          "Après greffe de cheveux",
+          "greffe de cheveux",
+          "Saç yıkama",
+          "Le Président"
+        ]
+      }
+    ]
   }
 }

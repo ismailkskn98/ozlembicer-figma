@@ -9,13 +9,21 @@ import MaleHairDoesItWork from './maleHairDoesItWork';
 import HowToAppointment from '../../../common/howToAppointment';
 import NorwoodScale from './norwoodScale';
 import DeneyTitleImage from '@/components/common/titleImages/deney';
+import { useTranslations } from 'next-intl';
 
-const linksItems = [
-   { label: 'Male Hair Loss', href: '#' },
-   { label: 'Female Hair Loss', href: '/hair-loss/couses-of-hair-loss/female-hair-loss' },
+const linksItemConfig = [
+   {
+      "href": "#"
+   },
+   {
+      "href": "/hair-loss/couses-of-hair-loss/female-hair-loss"
+   }
 ];
 
 export default function MaleHairLossMain({ children }) {
+   const t = useTranslations('Content.hairLoss.cousesOfHairLoss.maleHairLoss');
+   const linkLabels = t.raw('links');
+   const linksItems = linksItemConfig.map((item, index) => ({ ...item, label: linkLabels[index] }));
    return (
       <main className="w-full fluid gridContainer bg-ivory-soft">
          <CustomBreadCrumb links={linksItems} />
@@ -24,19 +32,19 @@ export default function MaleHairLossMain({ children }) {
          <div className="fluid gridContainer w-full bg-linear-to-b from-stone-beige via-ivory-soft to-stone-beige/50">
             <SectionWrapper>
                <HowDoesItWork
-                  title={['How Much', 'Hair Loss Is Normal?']}
+                  title={[t('title1'), t('title2')]}
                   content={[
                      {
                         type: 'paragraph',
-                        value: 'It is completely normal to lose some hair every day as part of the natural hair growth cycle.',
+                        value: t('value1'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'A healthy person can lose up to 100 hairs per day, and this hair is normally replaced by new growth.',
+                        value: t('value2'),
                      },
                      {
                         type: 'paragraph',
-                        value: 'If you notice persistent and increased shedding or visible thinning, it is recommended to consult a qualified hair restoration specialist for evaluation.',
+                        value: t('value3'),
                      },
                   ]}
                >
@@ -46,7 +54,7 @@ export default function MaleHairLossMain({ children }) {
             <NorwoodScale />
             {children}
             <DeneyTitleImage />
-            <PatientResults title="Patient Results" />
+            <PatientResults title={t('title3')} />
             <div className="-mt-10 lg:mt-0">
                <HowToAppointment />
             </div>

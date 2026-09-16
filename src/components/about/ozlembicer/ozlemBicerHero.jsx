@@ -5,10 +5,12 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { Play, X } from 'lucide-react';
 import { Dialog, DialogContent, DialogClose, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+import { useTranslations } from 'next-intl';
 
 const VIDEO_ID = 'tZJYbeCH_Ac';
 
 export default function OzlemBicerHero() {
+   const t = useTranslations('Content.about.ozlembicer.ozlemBicerHero');
    const [open, setOpen] = useState(false);
 
    return (
@@ -18,24 +20,20 @@ export default function OzlemBicerHero() {
             <MotionLeftView className="order-2 lg:order-1 w-full max-w-full lg:max-w-141">
                <article className="w-full flex flex-col items-start gap-7.5 text-ivory-soft">
                   <h1 className="text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-10 sm:leading-12 lg:leading-14 xl:leading-18 flex flex-col items-start">
-                     Who Is <span className="font-bold">Dr. Ozlem Bicer</span>
+                     {t('heading1')} <span className="font-bold">{t('span1')}</span>
                   </h1>
                   <div className="w-full">
                      <p className="text-sm sm:text-base">
-                        Dr. Özlem Biçer was born in 1973 in İstanbul. She completed her secondary education at Anakent College in 1991 and graduated from the Faculty of Medicine at Trakya
-                        University in 1998. Following her medical degree, she completed a certified training program in hair surgery organized by the Ministry of Health of the Republic of
-                        Turkey and received official authorization to perform hair transplantation procedures.
+                        {t('paragraph1')}
                         <br />
                         <br />
                      </p>
                      <p className="text-sm sm:text-base">
-                        In 2002, Dr. Biçer further expanded her expertise through advanced training in France, focusing on hair loss treatments, mesotherapy, and medical aesthetics. <br />
+                        {t('paragraph2')} <br />
                         <br />
                      </p>
                      <p className="text-sm sm:text-base">
-                        Dr. Biçer is a hair transplant surgeon with over 25 years of medical experience. She has been performing both FUE (Follicular Unit Extraction) and FUT (Follicular
-                        Unit Transplantation) procedures throughout her career. Between 1999 and 2002, she worked in several private clinics in İstanbul, specializing in aesthetic medicine
-                        and hair surgery. Since 2002, she has been performing hair transplantation procedures at her own licensed and authorized clinic.
+                        {t('paragraph3')}
                         <br />
                         <br />
                      </p>
@@ -46,7 +44,7 @@ export default function OzlemBicerHero() {
                <div className="relative group w-full max-w-full lg:max-w-135 2xl:max-w-140.5 mx-auto cursor-pointer" onClick={() => setOpen(true)}>
                   <Image
                      src="/images/about/ozlem-hero-1.png"
-                     alt="Dr. Özlem Bicer"
+                     alt={t('alt1')}
                      width={1200}
                      height={800}
                      className="object-cover lg:object-contain object-[50%_15%] lg:object-center w-full h-fit max-h-100 sm:max-h-130 md:max-h-150 lg:max-h-fit rounded-2xl lg:rounded-4xl"
@@ -75,7 +73,7 @@ export default function OzlemBicerHero() {
                      {open && (
                         <iframe
                            src={`https://www.youtube-nocookie.com/embed/${VIDEO_ID}?autoplay=1&rel=0&modestbranding=1&playsinline=1`}
-                           title="Dr. Özlem Biçer Video"
+                           title={t('title1')}
                            allow="autoplay; fullscreen; picture-in-picture"
                            allowFullScreen
                            className="size-full rounded-lg border-0"

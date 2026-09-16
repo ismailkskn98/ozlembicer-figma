@@ -5,8 +5,10 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+   const t = useTranslations('Footer');
    return (
       <footer className="fluid gridContainer w-full">
          <section className="relative fluid gridContainer w-full bg-coffee-dark py-5.25 border-y border-gold min-h-75">
@@ -16,7 +18,7 @@ export default function Footer() {
                <article className="w-full max-w-sm flex flex-col items-center md:items-start">
                   <Image
                      src="/images/logo.webp"
-                     alt="Dr.Bicer Logo"
+                     alt={t('logoAlt')}
                      width={250}
                      height={70}
                      className="relative z-20 object-contain object-center w-fit min-w-25 h-8 sm:min-w-31.25  sm:h-10 lg:h-11 xl:h-15"
@@ -24,17 +26,17 @@ export default function Footer() {
                   <div className="w-full flex flex-col items-center md:items-start gap-4 md:gap-8 mt-5">
                      <div className="w-full max-w-xs md:max-w-sm grid grid-cols-1 gap-y-0 text-ivory-soft text-sm -space-y-1">
                         <div className="w-full flex items-center justify-center md:justify-between">
-                           <div className="flex-1 w-full text-start text-nowrap">Adress:</div>
-                           <div className="flex-1 w-full text-end md:text-start text-nowrap">Istanbul/Turkey</div>
+                           <div className="flex-1 w-full text-start text-nowrap">{t('addressLabel')}</div>
+                           <div className="flex-1 w-full text-end md:text-start text-nowrap">{t('address')}</div>
                         </div>
                         <div className="w-full flex items-center justify-center md:justify-between">
-                           <div className="flex-1 w-full text-start text-nowrap">Mobile & WhatsApp:</div>
+                           <div className="flex-1 w-full text-start text-nowrap">{t('mobileLabel')}</div>
                            <a href="tel:+905304141313" target="_blank" className="flex-1 w-full text-end md:text-start text-nowrap">
                               +90 530 414 13 13
                            </a>
                         </div>
                         <div className="w-full flex items-center justify-center md:justify-between">
-                           <div className="flex-1 w-full text-start text-nowrap">E-Mail:</div>
+                           <div className="flex-1 w-full text-start text-nowrap">{t('emailLabel')}</div>
                            <a href="mailto:info@ozlembicer.com" target="_blank" className="flex-1 w-full text-end md:text-start text-nowrap">
                               info@ozlembicer.com
                            </a>
@@ -61,36 +63,36 @@ export default function Footer() {
                   </div>
                </article>
                <article className="flex flex-col items-start gap-2.5 text-ivory-soft">
-                  <h4 className="text-[25px]">Working Hours</h4>
+                  <h4 className="text-[25px]">{t('workingHours')}</h4>
                   <div className="w-full max-w-sm grid grid-cols-1 gap-y-0.5 text-ivory-soft text-sm ">
                      <div className="w-full grid grid-cols-2 place-content-stretch justify-items-stretch gap-2.5">
-                        <div className="flex-1 w-full text-start text-nowrap">Monday</div>
+                        <div className="flex-1 w-full text-start text-nowrap">{t('days.monday')}</div>
                         <div className="flex-1 w-full text-start text-nowrap">09:00 - 18:00</div>
                      </div>
                      <div className="w-full grid grid-cols-2 place-content-stretch justify-items-stretch gap-2.5">
-                        <div className="flex-1 w-full text-start text-nowrap">Tuesday</div>
+                        <div className="flex-1 w-full text-start text-nowrap">{t('days.tuesday')}</div>
                         <div className="flex-1 w-full text-start text-nowrap">09:00 - 18:00</div>
                      </div>
                      <div className="w-full grid grid-cols-2 place-content-stretch justify-items-stretch gap-2.5">
-                        <div className="flex-1 w-full text-start text-nowrap">Wednesday</div>
+                        <div className="flex-1 w-full text-start text-nowrap">{t('days.wednesday')}</div>
                         <div className="flex-1 w-full text-start text-nowrap">09:00 - 18:00</div>
                      </div>
                      <div className="w-full grid grid-cols-2 place-content-stretch justify-items-stretch gap-2.5">
-                        <div className="flex-1 w-full text-start text-nowrap">Thursday</div>
+                        <div className="flex-1 w-full text-start text-nowrap">{t('days.thursday')}</div>
                         <div className="flex-1 w-full text-start text-nowrap">09:00 - 18:00</div>
                      </div>
                      <div className="w-full grid grid-cols-2 place-content-stretch justify-items-stretch gap-2.5">
-                        <div className="flex-1 w-full text-start text-nowrap">Friday</div>
+                        <div className="flex-1 w-full text-start text-nowrap">{t('days.friday')}</div>
                         <div className="flex-1 w-full text-start text-nowrap">09:00 - 18:00</div>
                      </div>
                      <div className="w-full h-px bg-transparent my-1" />
                      <div className="w-full grid grid-cols-2 place-content-stretch justify-items-stretch gap-2.5">
-                        <div className="flex-1 w-full text-start text-nowrap">Saturday</div>
+                        <div className="flex-1 w-full text-start text-nowrap">{t('days.saturday')}</div>
                         <div className="flex-1 w-full text-start text-nowrap">09:00 - 18:00</div>
                      </div>
                      <div className="w-full grid grid-cols-2 place-content-stretch justify-items-stretch gap-2.5">
-                        <div className="flex-1 w-full text-start text-nowrap">Sunday</div>
-                        <div className="flex-1 w-full text-start text-nowrap">Closed</div>
+                        <div className="flex-1 w-full text-start text-nowrap">{t('days.sunday')}</div>
+                        <div className="flex-1 w-full text-start text-nowrap">{t('closed')}</div>
                      </div>
                   </div>
                </article>
@@ -98,7 +100,7 @@ export default function Footer() {
          </section>
          <section className="fluid gridContainer w-full bg-stone-beige text-coffee-dark min-h-15 py-3 text-center text-sm">
             <div className="w-full h-full flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
-               <p>Dr.Bicer 2026 - All Rights Reserved.</p>
+               <p>{t('copyright')}</p>
                <span className="hidden sm:inline text-coffee-dark/25" aria-hidden="true">
                   |
                </span>

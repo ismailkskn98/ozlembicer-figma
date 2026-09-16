@@ -5,6 +5,7 @@ import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { XIcon } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
+import { useTranslations } from 'next-intl';
 
 function Dialog({ ...props }) {
    return <DialogPrimitive.Root data-slot="dialog" {...props} />;
@@ -36,6 +37,7 @@ function DialogOverlay({ className, ...props }) {
 }
 
 function DialogContent({ className, children, showCloseButton = true, ...props }) {
+   const t = useTranslations('Common.accessibility');
    return (
       <DialogPortal data-slot="dialog-portal">
          <DialogOverlay />
@@ -54,7 +56,7 @@ function DialogContent({ className, children, showCloseButton = true, ...props }
                   className="ring-offset-background focus:ring-ring data-[state=open]:bg-accent data-[state=open]:text-muted-foreground absolute top-2.5 right-2.5 rounded-xs opacity-100 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-5 cursor-pointer"
                >
                   <XIcon className="text-white" />
-                  <span className="sr-only">Close</span>
+                  <span className="sr-only">{t('close')}</span>
                </DialogPrimitive.Close>
             )}
          </DialogPrimitive.Content>
