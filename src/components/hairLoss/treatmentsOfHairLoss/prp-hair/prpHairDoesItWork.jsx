@@ -26,7 +26,7 @@ export default function PrpHairDoesItWork() {
          value: [
             'The serum that is injected into the scalp is made using your own blood, which is why you really have nothing to fear. Since your own blood is used, the chances of the body rejecting it are minimal and this is also why the chances of success are higher.',
             'Since your blood will be used, there is no chance of infection or allergy, which exponentially increases the chances of success.',
-            'The procedure requires nothing more than a few injections, all of which are administered under local anesthesia. This means that you will not feel any pain, apart from the prick of an anesthesia injection needle.',
+            'The procedure involves a series of scalp injections administered according to the treatment plan. Local anesthesia may be used based on the patient’s needs and the physician’s assessment.',
             'Even if the therapy may not give you the kind of results you would have expected, surely thanks to this therapy you will not experience further hair loss.',
          ],
       },

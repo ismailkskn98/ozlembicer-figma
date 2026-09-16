@@ -18,7 +18,7 @@ export default function TrichopatTreatmentDoesItWork() {
                   <li>Improves scalp microcirculation and oxygenation</li>
                   <li>Stimulates cellular metabolism and follicle regeneration</li>
                   <li>Supports and prolongs the anagen (growth) phase of hair</li>
-                  <li>Completely painless and needle-free</li>
+                  <li>Needle-free application</li>
                   <li>Suitable for both men and women</li>
                   <li>Can be used alone or as an adjunct to medical therapy or hair transplantation</li>
                </ul>

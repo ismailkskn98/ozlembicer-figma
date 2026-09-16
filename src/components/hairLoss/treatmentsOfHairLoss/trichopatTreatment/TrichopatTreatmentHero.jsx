@@ -25,7 +25,7 @@ export default function TrichopatTreatmentHero() {
                   </h1>
                   <div className="w-full flex flex-col items-start gap-4">
                      <p className="text-sm sm:text-base">
-                        TRICOPAT® is a patented, non-invasive, and painless medical device developed in Italy for the treatment of hair loss and scalp disorders. It is scientifically
+                        TRICOPAT® is a patented, non-invasive medical device developed in Italy for the treatment of hair loss and scalp disorders. It is scientifically
                         validated for both male and female patients and is used in conditions such as androgenetic alopecia and telogen effluvium. The technology is based on the TRICOGENESI®
                         protocol, which delivers growth factors into the scalp without injections or surgery, making it a comfortable alternative or supportive treatment to medical therapy
                         and hair transplantation .

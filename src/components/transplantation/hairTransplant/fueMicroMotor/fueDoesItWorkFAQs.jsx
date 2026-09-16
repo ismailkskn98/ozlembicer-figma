@@ -82,19 +82,19 @@ export default function FueDoesItWorkFAQs() {
 
          <article className="border-b sm:border-b-0 border-r-0 sm:border-r border-coffee-dark/15 flex flex-col gap-4 lg:gap-9 py-5 lg:pr-4">
             <h4 className="font-bold text-base lg:text-[20px] flex flex-col items-start">
-               {['Is FUE Hair Transplant', 'Painful?'].map((text, index) => (
+               {['Anesthesia &', 'Patient Comfort'].map((text, index) => (
                   <span key={index}>{text}</span>
                ))}
             </h4>
             <div className="w-full flex flex-col items-start gap-4 text-coffee-dark text-sm lg:text-base">
                <p>
-                  We use a needle-free anesthesia machine. During the first two to three minutes of local anesthesia, you may feel mild and very tolerable discomfort. Once the anesthesia takes effect,
-                  you will not feel any pain during the procedure.
+                  We use a needle-free anesthesia machine. During the first two to three minutes of local anesthesia, you may feel mild and tolerable discomfort. Once the anesthesia takes effect,
+                  the procedure continues under local anesthesia with patient comfort monitored throughout.
                </p>
-               <p>FUE hair transplantation is generally well tolerated and minimally painful.</p>
+               <p>Each patient’s comfort and response to anesthesia are assessed individually throughout FUE hair transplantation.</p>
                <ul className="list-disc list-outside pl-5">
                   <li>Mild discomfort may be felt during the first few minutes of local anesthesia</li>
-                  <li>The procedure itself is painless</li>
+                  <li>Local anesthesia is used during the procedure</li>
                   <li>Patients may feel tired from sitting for several hours, but regular breaks are provided</li>
                </ul>
                <p>During the procedure, patients can usually:</p>
@@ -103,7 +103,7 @@ export default function FueDoesItWorkFAQs() {
                   <li>Listen to music</li>
                   <li>Relax comfortably</li>
                </ul>
-               <p>After the operation, mild pain, tightness, or sensitivity may occur. These symptoms are usually temporary and can be easily managed with standard painkillers for a few days.</p>
+               <p>After the operation, temporary tightness or sensitivity may occur. The care team provides individualized aftercare instructions and may recommend appropriate medication when needed.</p>
             </div>
          </article>
          <article className="flex flex-col gap-4 lg:gap-9 py-5 sm:pl-4 text-sm lg:text-base">

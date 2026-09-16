@@ -98,7 +98,7 @@ export default function EyebrownTransplant() {
                               <p>Step-by-Step Overview:</p>
                               <ul className="list-disc list-outside pl-5">
                                  <li>Healthy hair follicles are harvested from the donor area at the back of the scalp</li>
-                                 <li>Local anesthesia is used to ensure a painless procedure</li>
+                                 <li>Local anesthesia is administered before follicle harvesting and implantation</li>
                                  <li>Grafts are carefully prepared under magnification</li>
                                  <li>The desired eyebrow shape is drawn and confirmed with the patient</li>
                                  <li>Hair follicles are implanted with meticulous attention to angle, direction, and depth</li>
