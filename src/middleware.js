@@ -2,8 +2,7 @@ import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 import { NextResponse } from 'next/server';
 
-// const SITE_URL = 'https://ozlembicer.com';
-const SITE_URL = 'http://localhost:3025';
+const SITE_URL = 'https://ozlembicer.com';
 
 const intlMiddleware = createMiddleware(routing);
 
