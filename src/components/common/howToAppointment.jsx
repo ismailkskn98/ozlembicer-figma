@@ -4,7 +4,8 @@ import MotionScrollInView from './motionScrollInView';
 import { Phone } from 'lucide-react';
 import Pageh3Title from './pageh3Title';
 import { cn } from '@/lib/utils';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { getContactDetails } from '@/lib/contactDetails';
 
 function getAppointmentSteps(t) {
  return [
@@ -46,7 +47,9 @@ function getAppointmentSteps(t) {
 }
 
 export default function HowToAppointment({ isContactPage, className }) {
+   const locale = useLocale();
    const t = useTranslations('HomePage.appointment');
+   const contactDetails = getContactDetails(locale);
    const appointmentSteps = getAppointmentSteps(t);
    return (
       <section className={cn(`w-full py-15`, className)}>
@@ -142,7 +145,7 @@ export default function HowToAppointment({ isContactPage, className }) {
                      <p className="max-w-full lg:max-w-141">{t('clinicDescription')}</p>
                   </article>
                   <a
-                     href="https://wa.me/905304141313"
+                     href={contactDetails.whatsappHref}
                      target="_blank"
                      className="group relative w-full lg:w-auto max-w-full flex-1 min-h-60 lg:h-full lg:min-h-min flex items-center justify-center bg-coffee-dark text-ivory-soft rounded-4xl py-25 px-12.5 cursor-pointer"
                   >
@@ -152,8 +155,8 @@ export default function HowToAppointment({ isContactPage, className }) {
                      <div className="w-fit flex flex-col items-center justify-center gap-2 absolute left-1/2 top-1/2 -translate-1/2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300">
                         <span className="inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap">{t('contact')}</span>
                         <div className="flex flex-col items-center justify-center text-[23px] sm:text-[28px] lg:text-[32px]">
-                           <span>info@ozlembicer.com</span>
-                           <span>+90 (530) 414 13 13</span>
+                           <span>{contactDetails.email}</span>
+                           <span>{contactDetails.phoneDisplay}</span>
                         </div>
                      </div>
                   </a>

@@ -1,10 +1,13 @@
 'use client';
 import React from 'react'
 import MotionScrollInView from '../common/motionScrollInView';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { getContactDetails } from '@/lib/contactDetails';
 
 export default function ContactForm() {
+   const locale = useLocale();
    const t = useTranslations('Content.contact.contactForm');
+   const contactDetails = getContactDetails(locale);
     return (
         <section className='w-full fluid gridContainer my-16 sm:my-25'>
             <main className='w-full max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-10 lg:gap-16 xl:gap-20 2xl:gap-24.5'>
@@ -18,11 +21,11 @@ export default function ContactForm() {
                     </div>
                     <div className='w-full grid grid-cols-2'>
                         <p className='text-nowrap'>{t('paragraph3')} </p>
-                        <p className='text-nowrap'>+90 530 414 13 13</p>
+                        <p className='text-nowrap'>{contactDetails.phoneDisplay}</p>
                     </div>
                     <div className='w-full grid grid-cols-2'>
                         <p className='text-nowrap'>{t('paragraph4')} </p>
-                        <p className='text-nowrap'>{t('paragraph5')}</p>
+                        <p className='text-nowrap'>{contactDetails.email}</p>
                     </div>
                 </article>
             </main>
@@ -37,8 +40,8 @@ export default function ContactForm() {
                     <div className='w-fit flex flex-col items-center justify-center gap-2 absolute left-1/2 top-1/2 -translate-1/2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300'>
                         <span className='inline-block lg:hidden uppercase text-[23px] sm:text-[28px] md:text-[32px] text-nowrap'>{t('span2')}</span>
                         <div className='flex flex-col items-center justify-center text-[23px] sm:text-[28px] lg:text-[32px]'>
-                            <a href="mailto:info@ozlembicer.com">{t('link1')}</a>
-                            <a href="tel:+905334141313">+90 (533) 414 13 13</a>
+                            <a href={`mailto:${contactDetails.email}`}>{contactDetails.email}</a>
+                            <a href={contactDetails.phoneHref}>{contactDetails.phoneDisplay}</a>
                         </div>
                     </div>
                 </article>

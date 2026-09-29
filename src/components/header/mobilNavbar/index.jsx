@@ -7,10 +7,13 @@ import { getNavigationMenu } from '../navigationMenu';
 import LanguageChange from '../languageChange';
 import Image from 'next/image';
 import { IoCloseOutline } from 'react-icons/io5';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { getContactDetails } from '@/lib/contactDetails';
 
 export default function MobilNavbar({ children }) {
+   const locale = useLocale();
    const t = useTranslations('Header');
+   const contactDetails = getContactDetails(locale);
    const navigationMenu = getNavigationMenu((key) => t(`navigation.${key}`));
    const [expandedMenu, setExpandedMenu] = useState(null);
 
@@ -131,11 +134,11 @@ export default function MobilNavbar({ children }) {
 
                <footer className="px-6 py-4 border-t border-gold/30 mt-auto flex items-center justify-between gap-3">
                   <article className="space-y-1">
-                     <a href="mailto:info@ozlembicer.com" className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200 break-all">
-                        info@ozlembicer.com
+                     <a href={`mailto:${contactDetails.email}`} className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200 break-all">
+                        {contactDetails.email}
                      </a>
-                     <a href="tel:+905304141313" className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200">
-                        +90 (530) 414 13 13
+                     <a href={contactDetails.phoneHref} className="flex text-xs text-ivory-soft/80 hover:text-gold transition-colors duration-200">
+                        {contactDetails.phoneDisplay}
                      </a>
                   </article>
                   <LanguageChange />

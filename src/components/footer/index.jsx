@@ -5,10 +5,13 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { getContactDetails } from '@/lib/contactDetails';
 
 export default function Footer() {
+   const locale = useLocale();
    const t = useTranslations('Footer');
+   const contactDetails = getContactDetails(locale);
    return (
       <footer className="fluid gridContainer w-full">
          <section className="relative fluid gridContainer w-full bg-coffee-dark py-5.25 border-y border-gold min-h-75">
@@ -31,14 +34,14 @@ export default function Footer() {
                         </div>
                         <div className="w-full flex items-center justify-center md:justify-between">
                            <div className="flex-1 w-full text-start text-nowrap">{t('mobileLabel')}</div>
-                           <a href="tel:+905304141313" target="_blank" className="flex-1 w-full text-end md:text-start text-nowrap">
-                              +90 530 414 13 13
+                           <a href={contactDetails.phoneHref} target="_blank" className="flex-1 w-full text-end md:text-start text-nowrap">
+                              {contactDetails.phoneDisplay}
                            </a>
                         </div>
                         <div className="w-full flex items-center justify-center md:justify-between">
                            <div className="flex-1 w-full text-start text-nowrap">{t('emailLabel')}</div>
-                           <a href="mailto:info@ozlembicer.com" target="_blank" className="flex-1 w-full text-end md:text-start text-nowrap">
-                              info@ozlembicer.com
+                           <a href={`mailto:${contactDetails.email}`} target="_blank" className="flex-1 w-full text-end md:text-start text-nowrap">
+                              {contactDetails.email}
                            </a>
                         </div>
                      </div>

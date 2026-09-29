@@ -8,10 +8,12 @@ import MobilNavbar from './mobilNavbar';
 import HeaderLogo from './headerLogo';
 import { CiSearch } from 'react-icons/ci';
 import SearchMain from './searchMain';
-import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
+import { getContactDetails } from '@/lib/contactDetails';
 
 export default function Header() {
-   const t = useTranslations('Content.header');
+   const locale = useLocale();
+   const contactDetails = getContactDetails(locale);
    return (
       <main className="fixed inset-x-0 top-0 z-9999 w-full gridContainer">
          <header className="w-full fluid gridContainer bg-coffee-dark min-h-20 sm:min-h-25 lg:min-h-30 border-b border-gold">
@@ -32,8 +34,8 @@ export default function Header() {
                         href="/contact-us"
                         className="group hidden lg:flex flex-col items-center justify-center px-3.75 py-2.5 rounded-[10px] text-ivory-soft text-sm bg-wine-brown border border-wine-brown transition-all duration-300"
                      >
-                        <span className="group-hover:opacity-70 transition-all duration-200">{t('span1')}</span>
-                        <span className="group-hover:opacity-70 transition-all duration-200">+90 (530) 414 13 13</span>
+                        <span className="group-hover:opacity-70 transition-all duration-200">{contactDetails.email}</span>
+                        <span className="group-hover:opacity-70 transition-all duration-200">{contactDetails.phoneDisplay}</span>
                      </Link>
                   </main>
                   <div className="md:hidden flex items-center gap-4">
@@ -55,9 +57,9 @@ export default function Header() {
          <section className="lg:hidden fluid gridContainer w-full max-w-full lg:max-w-6xl mx-auto py-1 bg-coffee-dark">
             <main className="w-full flex items-center justify-center">
                <Link href="/contact-us" className="flex items-center justify-center gap-1 text-ivory-soft px-2.5 py-0.5 rounded-sm text-xs sm:text-sm">
-                  <span>{t('span2')}</span>
+                  <span>{contactDetails.email}</span>
                   <span>-</span>
-                  <span>+90 (530) 414 13 13</span>
+                  <span>{contactDetails.phoneDisplay}</span>
                </Link>
             </main>
          </section>
