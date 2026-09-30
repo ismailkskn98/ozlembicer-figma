@@ -11,7 +11,6 @@ const priceItemConfig = [
          {
             "leadingBr": true
          },
-         {},
          {}
       ]
    },
